@@ -7,7 +7,8 @@ start: YYYY-MM-DD
 end: YYYY-MM-DD
 status: planned       # planned | ongoing | done
 stops:
-  - date: YYYY-MM-DD
+  - from: YYYY-MM-DD
+    to: YYYY-MM-DD
     place: <country>/<region>/<city>
     accommodation: ""
     activities: [<activity-id>, ...]

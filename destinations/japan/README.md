@@ -12,7 +12,7 @@ plugs: type A/B (100 V)
 contains: [hokkaido, tohoku, kanto, chubu, kansai, chugoku, shikoku, kyushu]
 affinity: null
 likes: []
-trips: []
+trips: [2025-japan]
 ---
 
 # Japan
@@ -25,6 +25,7 @@ trips: []
 - Transport: the train network (JR + private lines) is excellent. The **JR Pass** only pays off on long trips between regions.
 - Connectivity: an eSIM or pocket wifi at the airport is recommended.
 - Safety: one of the safest countries in the world; still, in very touristy areas keep an eye on your pockets.
+- Rail passes: for a Tokyo–Kyoto–Osaka golden route the **JR Pass (7-day ¥50,000) does NOT pay off** — point-to-point Hikari shinkansen tickets cost ~¥29,000 total. Use an IC card (Suica/Pasmo/ICOCA) for subways and local trains. Nozomi/Mizuho need a paid supplement even with a pass.
 
 ## Regions
 

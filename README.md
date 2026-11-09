@@ -49,7 +49,7 @@ trip ──stops.activities─────────────────�
   - Country → `contains: [regions]`; Region → `contains: [cities]` and `country: japan`; City → `region: kanto`.
   - Activity → `place: japan/kanto/tokyo`.
 - **Edges across domains**:
-  - Trip → `stops: [{ date, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]`.
+  - Trip → `stops: [{ from, to, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]` (a stop is a stay of one or more days at a destination node).
   - Backlinks: in the destination node `trips: [2025-japan]`; in the activity `done_in: [2025-japan]`.
 - **Affinity**: in `trips/`, each trip and its stops carry `affinity: 1-5` and `likes: [tags]` (our subjective rating). In `destinations/`, nodes may carry `affinity` as an accumulated summary from trips. Tags come from `profile.yaml`.
 - The rating of an activity done on a trip is noted on the corresponding day of the trip; the activity record may keep a summary `rating`.
@@ -59,6 +59,14 @@ trip ──stops.activities─────────────────�
 
 1. **Is it knowledge about a place?** → goes in `destinations/`, using a `_templates/` template (country, region, city or activity). Give it a new `id`, fill in the frontmatter, and update `contains`/`place` in the parent node.
 2. **Is it something we did or are going to do?** → goes in `trips/<trip-id>/`, using `_templates/trip.md`. Each stop references `destinations/` nodes by their `path`/id, and when logging the stop, add the backlink (`trips` in the destination node, `done_in` in the activity).
+
+## Open data sources (for researching destinations programmatically)
+
+- [data.go.jp](https://www.data.go.jp/) — Japan national open data portal
+- [MLIT multilingual sightseeing DB](https://www.mlit.go.jp/tagengo-db/en/index.html) — official sightseeing info by prefecture, in English
+- [Tokyo Open Data](https://portal.data.metro.tokyo.lg.jp/) and [Tokyo Tourism Data Catalog](https://data.tourism.metro.tokyo.lg.jp/en/) — Tokyo Metropolitan Government datasets
+- [Public Transportation Open Data Center (ODPT)](https://ckan.odpt.org/) — GTFS/GTFS-RT feeds for JR East, Tokyo Metro, Kyoto City Subway, etc.
+- [e-Stat API](https://www.e-stat.go.jp/api/) — official statistics of Japan
 
 ## Index
 

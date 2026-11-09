@@ -7,8 +7,8 @@ country: japan
 prefectures: [Ibaraki, Tochigi, Gunma, Saitama, Chiba, Tokyo, Kanagawa]
 contains: [tokyo, yokohama, kamakura, nikko, hakone]
 affinity: null
-likes: []
-trips: []
+likes: [vibrant_cities, temples_and_shrines, local_food, anime_manga_and_pop_culture, history_and_castles]
+trips: [2025-japan]
 ---
 
 # Kanto
