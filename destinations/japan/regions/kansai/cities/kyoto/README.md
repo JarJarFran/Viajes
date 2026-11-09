@@ -10,7 +10,7 @@ population: 1450000
 coords: [35.0116, 135.7681]
 affinity: null
 likes: [temples_and_shrines, traditional_culture, local_food, history_and_castles, photography_and_viewpoints]
-activities: [kyoto-fushimi-inari, kyoto-kinkaku-ji, kyoto-kiyomizu-dera, kyoto-arashiyama-bamboo, kyoto-gion-higashiyama, kyoto-nishiki-market, kyoto-nijo-castle, kyoto-sanjusangen-do, kyoto-toka-ebisu, kyoto-hatsumode]
+activities: [kix-to-kyoto, kyoto-aquarium, kyoto-arashiyama-bamboo, kyoto-eikan-do, kyoto-fushimi-inari, kyoto-fushimi-sake-district, kyoto-ginkaku-ji, kyoto-gion-higashiyama, kyoto-hatsumode, kyoto-himeji-daytrip, kyoto-imamiya-shrine, kyoto-imperial-palace, kyoto-kennin-ji, kyoto-kimono-rental, kyoto-kinkaku-ji, kyoto-kiyomizu-dera, kyoto-kodai-ji, kyoto-kurama-kibune-hike, kyoto-maruyama-park, kyoto-nanzen-ji, kyoto-nara-daytrip, kyoto-nijo-castle, kyoto-ninna-ji, kyoto-nishiki-market, kyoto-philosophers-path, kyoto-pontocho, kyoto-railway-museum, kyoto-ryoan-ji, kyoto-sanjusangen-do, kyoto-tea-ceremony, kyoto-to-tokyo, kyoto-tofuku-ji, kyoto-toji, kyoto-toka-ebisu, kyoto-uji-daytrip, kyoto-yasaka-pagoda]
 trips: [2025-japan]
 ---
 
@@ -52,4 +52,8 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Kyoto City Tourism Association (ja.kyoto.travel)](https://ja.kyoto.travel/en/) — official event calendar
 - [Inside Kyoto](https://www.insidekyoto.com/kyoto-festivals-events) — festivals & monthly markets
 
+## Transport options (with prices)
+
+- [Kansai Airport (KIX) → Kyoto (alternative)](activities/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
+- [Kyoto → Tokyo (Jan 8/9 move)](activities/kyoto-to-tokyo.md) — Hikari shinkansen ~2 h 15 min: non-reserved ¥13,320 / reserved ~¥14,090; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX (~2.5 h)
 ## Our experience

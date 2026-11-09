@@ -3,7 +3,7 @@ id: <city>-<activity-slug>
 type: activity
 name: <Activity name>
 place: <country>/<region>/<city>
-category: <temple | nature | food | museums | leisure | hiking | onsen | history | event | other>
+category: <temple | nature | food | museums | leisure | hiking | onsen | history | event | transport | other>
 duration_hours: null
 approx_cost: null     # amount + currency, or "free"
 best_season: <months or "all year round">
