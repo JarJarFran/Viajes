@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: transport
 duration_hours: 1
 approx_cost: "JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min)"
+entry: n/a
 best_season: "all year round"
 best_time: morning
 link: "https://www.himeji-kanko.jp/"

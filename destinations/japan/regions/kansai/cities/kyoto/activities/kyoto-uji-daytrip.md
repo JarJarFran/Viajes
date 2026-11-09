@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 4
 approx_cost: "JR Nara Line ¥420 / Keihan ~¥480 one way; Byodo-in ¥600–1,000 (Phoenix Hall)"
+entry: mixed
 best_season: "all year round"
 best_time: morning
 link: "https://www.byodoin.or.jp/"

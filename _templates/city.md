@@ -11,6 +11,7 @@ coords: [lat, lng]
 affinity: null
 likes: []
 activities: []        # ids of records in activities/
+restaurants: []       # ids of records in restaurants/
 trips: []
 ---
 

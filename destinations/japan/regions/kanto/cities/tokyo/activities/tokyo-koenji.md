@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1.5
 approx_cost: "free"
+entry: free
 best_season: "all year round; punk/indie live scene"
 best_time: evening
 link: ""

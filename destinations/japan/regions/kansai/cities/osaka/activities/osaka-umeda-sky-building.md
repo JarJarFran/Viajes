@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 1.5
 approx_cost: ¥2,000
+entry: paid
 best_season: all year round
 best_time: sunset
 link: "https://www.skybldg.co.jp/en/"

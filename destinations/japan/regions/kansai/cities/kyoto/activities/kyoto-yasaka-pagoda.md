@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
 approx_cost: "free (street)"
+entry: free
 best_season: "all year round"
 best_time: evening
 link: ""

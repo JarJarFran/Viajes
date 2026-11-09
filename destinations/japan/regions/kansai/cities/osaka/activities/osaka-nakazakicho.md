@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 1.5
 approx_cost: "free; cafes ¥500–1,500"
+entry: mixed
 best_season: "all year round"
 best_time: afternoon
 link: ""

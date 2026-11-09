@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: "free"
+entry: free
 best_season: "all year round"
 best_time: morning
 link: ""

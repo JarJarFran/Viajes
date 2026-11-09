@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: museums
 duration_hours: 3
 approx_cost: "¥1,200"
+entry: paid
 best_season: "all year round; open Jan 2–3 10:00–17:00 (last entry 16:30)"
 best_time: afternoon
 link: "https://www.kyotorailwaymuseum.jp/"

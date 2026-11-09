@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: food
 duration_hours: 1
 approx_cost: "dinner ¥2,000–3,000 (yakitori skewers ¥150–300)"
+entry: mixed
 best_season: "all year round"
 best_time: night
 link: ""

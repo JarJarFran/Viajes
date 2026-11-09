@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: nature
 duration_hours: 1.5
 approx_cost: "¥300"
+entry: paid
 best_season: "all year round (ume/plum in Feb)"
 best_time: morning
 link: "https://www.tokyo-park.or.jp/"

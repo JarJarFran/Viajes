@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: "¥600–1,000"
+entry: paid
 best_season: "all year round (koyo top spot)"
 best_time: afternoon
 link: "https://www.eikando.or.jp/"

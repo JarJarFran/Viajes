@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: event
 duration_hours: 1.5
 approx_cost: free
+entry: free
 best_season: Dec 31–Jan 3
 best_time: early morning
 link: "https://www.yasaka-jinja.or.jp/en/"

@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: nature
 duration_hours: 1.5
 approx_cost: "free"
+entry: free
 best_season: "all year round (best sakura/koyo)"
 best_time: morning
 link: ""

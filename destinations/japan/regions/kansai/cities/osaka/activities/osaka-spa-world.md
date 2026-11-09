@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: onsen
 duration_hours: 3
 approx_cost: "¥1,500–2,500 day pass"
+entry: paid
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.spaworld.co.jp/"

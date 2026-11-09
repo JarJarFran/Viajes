@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1.5
 approx_cost: "¥500–1,000 (price raised in 2026 — check site)"
+entry: paid
 best_season: "all year round; winter 9:00–16:30"
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/ginkakuji/"

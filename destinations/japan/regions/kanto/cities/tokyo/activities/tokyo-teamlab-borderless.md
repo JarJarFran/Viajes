@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 3
 approx_cost: "¥3,600–5,600 dynamic (from ¥4,000 flat in some reports)"
+entry: paid
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.teamlab.art/e/borderless/"

@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
 approx_cost: "¥800 permanent (reopened 2026 after renovation)"
+entry: paid
 best_season: "all year round; closed Mondays"
 best_time: morning
 link: "https://www.edo-tokyo-museum.or.jp/"

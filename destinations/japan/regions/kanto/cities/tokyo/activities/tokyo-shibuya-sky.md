@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: "¥2,000–2,200 (book timed slot)"
+entry: paid
 best_season: "all year round; rooftop open-air"
 best_time: sunset
 link: "https://www.shibuyasky.jp/"

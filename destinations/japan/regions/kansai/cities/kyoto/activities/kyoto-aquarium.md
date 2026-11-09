@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: museums
 duration_hours: 2
 approx_cost: "¥2,000–2,400"
+entry: paid
 best_season: "open all year round (incl. Jan 1–3; occasional inspection closures)"
 best_time: afternoon
 link: "https://www.kyoto-aquarium.com/"

@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 10
 approx_cost: "from ¥8,400, date-dependent (check web ticket store)"
+entry: paid
 best_season: "all year round; New Year week very crowded"
 best_time: full day
 link: "https://www.usj.co.jp/"

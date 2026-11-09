@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: nature
 duration_hours: 2
 approx_cost: ¥500
+entry: paid
 best_season: all year round
 best_time: morning
 link: "https://www.env.go.jp/garden/shinjukugyoen/english/"

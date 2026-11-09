@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: museums
 duration_hours: 2
 approx_cost: "museum ~¥500; My CUPNOODLES Factory workshop ~¥3,000–4,000 (booking required)"
+entry: paid
 best_season: "all year round; closed Tuesdays"
 best_time: weekday morning
 link: "https://www.cupnoodles-museum.jp/"

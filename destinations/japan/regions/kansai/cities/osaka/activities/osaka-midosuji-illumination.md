@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: event
 duration_hours: 1
 approx_cost: free
+entry: free
 best_season: "Nov–Dec 31 only (2025 season: Nov 3–Dec 31)"
 best_time: night
 link: "https://www.hikari-kyoen.com/"

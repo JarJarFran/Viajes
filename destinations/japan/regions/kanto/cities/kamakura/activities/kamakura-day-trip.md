@@ -6,6 +6,7 @@ place: japan/kanto/kamakura
 category: history
 duration_hours: 8
 approx_cost: Great Buddha ¥300; trains from Tokyo ~¥1,000 return
+entry: mixed
 best_season: all year round
 best_time: morning
 link: ""

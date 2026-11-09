@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: temple
 duration_hours: 1.5
 approx_cost: "free"
+entry: free
 best_season: "all year round; monthly flea market on the 21st"
 best_time: morning
 link: "https://www.shitennoji.or.jp/"

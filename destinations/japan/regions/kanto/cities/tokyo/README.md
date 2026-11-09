@@ -11,6 +11,7 @@ coords: [35.6762, 139.6503]
 affinity: null
 likes: [vibrant_cities, local_food, temples_and_shrines, anime_manga_and_pop_culture, photography_and_viewpoints]
 activities: [haneda-to-tokyo-center, narita-to-tokyo-center, tokyo-akihabara, tokyo-edotokyo-museum, tokyo-ghibli-museum, tokyo-ginza, tokyo-golden-gai, tokyo-hakone-daytrip, tokyo-hamarikyu-gardens, tokyo-imperial-palace, tokyo-kawaguchiko-daytrip, tokyo-koenji, tokyo-meiji-jingu, tokyo-mori-art-museum, tokyo-nakano-broadway, tokyo-new-year-sales, tokyo-nikko-daytrip, tokyo-odaiba, tokyo-omoide-yokocho, tokyo-pokemon-center, tokyo-sensoji, tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-shimokitazawa, tokyo-shinjuku-gyoen, tokyo-skytree, tokyo-sumida-river-cruise, tokyo-sumo-tournament, tokyo-sunshine-city, tokyo-teamlab-borderless, tokyo-teamlab-planets, tokyo-tmg-observatory, tokyo-to-kamakura, tokyo-to-shin-osaka, tokyo-tokyo-city-view, tokyo-tokyo-tower, tokyo-tsukiji-outer-market, tokyo-ueno-park, tokyo-winter-illuminations, tokyo-yanaka, tokyo-yokohama-daytrip, tokyo-zojoji]
+restaurants: [tokyo-restaurant-depachika, tokyo-restaurant-gonpachi, tokyo-restaurant-ichiran-shibuya, tokyo-restaurant-kyubey, tokyo-restaurant-omoide-stalls, tokyo-restaurant-sushizanmai]
 trips: [2025-japan]
 ---
 
@@ -71,4 +72,12 @@ Day trips: [Kamakura & Enoshima](../../kamakura/activities/kamakura-day-trip.md)
 - [Narita Airport (NRT) → central Tokyo (departure Jan 23)](activities/narita-to-tokyo-center.md) — JR N'EX ¥3,140 to Tokyo/Shinjuku/Shibuya (~60 min); Keisei Skyliner to Ueno/Nippori ~¥2,600 (~41 min); limousine bus ¥1,500–3,800 by drop (60–90 min) (~1 h)
 - [Tokyo → Kamakura (day trip)](activities/tokyo-to-kamakura.md) — JR Yokosuka Line Tokyo Station → Kamakura ~¥950–1,020 (~55–60 min); JR Shonan-Shinjuku Line to Kamakura ~¥1,020 (~50 min) (~1 h)
 - [Tokyo → Shin-Osaka (if needed)](activities/tokyo-to-shin-osaka.md) — Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320) (~3 h)
+## Restaurants
+
+- [Depachika food halls (Isetan Shinjuku / Mitsukoshi Ginza)](restaurants/tokyo-restaurant-depachika.md) — bento & prepared food, ¥-¥¥, Shinjuku / Ginza
+- [Gonpachi (Nishi-Azabu)](restaurants/tokyo-restaurant-gonpachi.md) — izakaya (Kill Bill set), ¥¥¥, Nishi-Azabu, Roppongi
+- [Ichiran (Shibuya)](restaurants/tokyo-restaurant-ichiran-shibuya.md) — ramen (tonkotsu), ¥¥, Shibuya
+- [Kyubey (Ginza main)](restaurants/tokyo-restaurant-kyubey.md) — sushi (omakase), ¥¥¥¥, Ginza
+- [Omoide Yokocho yakitori stalls](restaurants/tokyo-restaurant-omoide-stalls.md) — yakitori, ¥-¥¥, Shinjuku (west exit)
+- [Sushi Zanmai (Tsukiji)](restaurants/tokyo-restaurant-sushizanmai.md) — sushi, ¥¥-¥¥¥, Tsukiji Outer Market
 ## Our experience

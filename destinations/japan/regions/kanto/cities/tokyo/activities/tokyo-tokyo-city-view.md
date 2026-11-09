@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: "¥2,200 online / ¥2,400 at counter"
+entry: paid
 best_season: "all year round"
 best_time: sunset
 link: "https://www.roppongihills.com/"

@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: "¥600"
+entry: paid
 best_season: "all year round; opens 8:00 (9:00 Dec–Feb)"
 best_time: morning
 link: "https://www.ryoanji.jp/"

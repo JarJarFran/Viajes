@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 3
 approx_cost: free to browse; gadgets/figures from ¥500
+entry: mixed
 best_season: all year round
 best_time: afternoon
 link: ""

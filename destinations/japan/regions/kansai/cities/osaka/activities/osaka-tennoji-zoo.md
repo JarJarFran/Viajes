@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: nature
 duration_hours: 2
 approx_cost: "zoo ¥800 (free with Osaka Amazing Pass); park free"
+entry: mixed
 best_season: "all year round"
 best_time: morning
 link: "https://www.city.osaka.lg.jp/"

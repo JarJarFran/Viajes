@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: "¥600"
+entry: paid
 best_season: "all year round"
 best_time: evening
 link: "https://www.kodaiji.jp/"

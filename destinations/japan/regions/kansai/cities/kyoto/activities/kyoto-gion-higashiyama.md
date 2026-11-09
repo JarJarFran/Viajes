@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 2
 approx_cost: free to walk; Pontocho dinner ¥5,000+
+entry: mixed
 best_season: all year round
 best_time: evening
 link: ""

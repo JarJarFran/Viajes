@@ -11,6 +11,7 @@ coords: [34.6937, 135.5023]
 affinity: null
 likes: [local_food, markets_and_street_food, vibrant_cities, temples_and_shrines]
 activities: [kix-to-osaka, osaka-abeno-harukas, osaka-amerikamura, osaka-castle, osaka-castle-illuminage, osaka-central-public-hall, osaka-cup-noodles-museum, osaka-den-den-town, osaka-dotonbori-night, osaka-himeji-daytrip, osaka-hozenji-yokocho, osaka-kaiyukan, osaka-kobe-daytrip, osaka-kuromon-market, osaka-legoland-discovery, osaka-midosuji-illumination, osaka-museum-of-history, osaka-nakazakicho, osaka-namba-parks, osaka-namba-yasaka, osaka-santa-maria-cruise, osaka-shinsekai-tsutenkaku, osaka-shitennoji, osaka-spa-world, osaka-sumiyoshi-taisha, osaka-tempozan-ferris, osaka-tennoji-zoo, osaka-to-kyoto, osaka-tombori-river-cruise, osaka-tsuruhashi-koreatown, osaka-umeda-sky-building, osaka-usj]
+restaurants: [osaka-restaurant-551-horai, osaka-restaurant-daruma, osaka-restaurant-ichiran, osaka-restaurant-kukuru, osaka-restaurant-mizuno, osaka-restaurant-wanaka]
 trips: [2025-japan]
 ---
 
@@ -62,4 +63,12 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 - [Day trip Osaka → Himeji Castle](activities/osaka-himeji-daytrip.md) — JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min) (~1 h)
 - [Day trip Osaka → Kobe](activities/osaka-kobe-daytrip.md) — JR Kobe Line Osaka→Sannomiya ~¥420–560 (~20–30 min); Hankyu/Hanshin similar (~0.5 h)
 - [Osaka → Kyoto (Jan 2 move)](activities/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
+## Restaurants
+
+- [551 Horai](restaurants/osaka-restaurant-551-horai.md) — pork buns (butaman), ¥, Namba / Osaka Station area
+- [Daruma (Shinsekai)](restaurants/osaka-restaurant-daruma.md) — kushikatsu, ¥, Shinsekai
+- [Ichiran (Dotonbori)](restaurants/osaka-restaurant-ichiran.md) — ramen (tonkotsu), ¥¥, Dotonbori, Namba
+- [Kukuru](restaurants/osaka-restaurant-kukuru.md) — takoyaki, ¥, Dotonbori, Namba
+- [Mizuno](restaurants/osaka-restaurant-mizuno.md) — okonomiyaki, ¥¥, Dotonbori, Namba
+- [Wanaka](restaurants/osaka-restaurant-wanaka.md) — takoyaki, ¥, Dotonbori, Namba
 ## Our experience

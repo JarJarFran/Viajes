@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 4
 approx_cost: park free; Tokyo National Museum ¥1,000; zoo ¥600
+entry: mixed
 best_season: all year round
 best_time: morning
 link: "https://www.tnm.jp/en/"

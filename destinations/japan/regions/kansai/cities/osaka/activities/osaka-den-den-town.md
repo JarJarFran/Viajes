@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 2
 approx_cost: "free to browse"
+entry: free
 best_season: "all year round"
 best_time: afternoon
 link: ""

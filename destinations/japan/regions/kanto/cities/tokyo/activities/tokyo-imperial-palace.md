@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: history
 duration_hours: 1.5
 approx_cost: free
+entry: free
 best_season: all year round; closed Mon/Fri and Jan 1–3-ish (check)
 best_time: morning
 link: "https://www.kunaicho.go.jp/english/"

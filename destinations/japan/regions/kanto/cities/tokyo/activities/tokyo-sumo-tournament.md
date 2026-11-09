@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: event
 duration_hours: 4
 approx_cost: "from ¥3,500 (2nd-floor seats more); tickets via official site/ convenience stores"
+entry: paid
 best_season: "tournaments Jan / May / Sep; January 2026: Jan 11–25, bouts from ~8:30, juryo ~14:00, makuuchi ~16:00"
 best_time: afternoon
 link: "https://www.sumo.or.jp/"

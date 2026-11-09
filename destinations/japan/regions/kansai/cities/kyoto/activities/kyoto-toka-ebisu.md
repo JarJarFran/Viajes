@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: event
 duration_hours: 2
 approx_cost: free (lucky bamboo ¥ varies)
+entry: mixed
 best_season: Jan 8–12 every year (main day Jan 10)
 best_time: evening
 link: "https://www.ebisujinja.or.jp/"

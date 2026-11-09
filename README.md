@@ -37,6 +37,7 @@ trip ──stops.activities─────────────────�
 | Region | `destinations/<country>/regions/<region>/` | `README.md` |
 | City | `destinations/<country>/regions/<region>/cities/<city>/` | `README.md` |
 | Activity | `.../cities/<city>/activities/<activity>.md` | single file |
+| Restaurant | `.../cities/<city>/restaurants/<restaurant>.md` | single file |
 | Trip | `trips/<trip-id>/` | `README.md` |
 | Profile (our likes) | root | `profile.yaml` |
 | Templates | `_templates/` | one per node type |
@@ -51,6 +52,8 @@ trip ──stops.activities─────────────────�
 - **Edges across domains**:
   - Trip → `stops: [{ from, to, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]` (a stop is a stay of one or more days at a destination node).
   - Backlinks: in the destination node `trips: [2025-japan]`; in the activity `done_in: [2025-japan]`.
+- **Activity classification**: every activity has `entry: free | paid | mixed | n/a` (free sight vs paid entry vs free-to-enter-with-typical-spend vs transport) and optionally `area:` (neighborhood) to group a day by zone. Restaurants are their own node type (`restaurants/`) with `price_range: ¥–¥¥¥¥` and `area:` — separate from food *activities* (markets, street food, food tours).
+- Example queries over the frontmatter: "all free activities in Kyoto" = activities with `place: japan/kansai/kyoto` and `entry: free`; "cheap eats in Tokyo" = restaurants with `place: japan/kanto/tokyo` and `price_range` of ¥ or ¥¥.
 - **Affinity**: in `trips/`, each trip and its stops carry `affinity: 1-5` and `likes: [tags]` (our subjective rating). In `destinations/`, nodes may carry `affinity` as an accumulated summary from trips. Tags come from `profile.yaml`.
 - The rating of an activity done on a trip is noted on the corresponding day of the trip; the activity record may keep a summary `rating`.
 - All content in English; Japanese proper names keep their usual romanized form.

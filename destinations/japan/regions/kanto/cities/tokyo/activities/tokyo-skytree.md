@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: ¥1,800 (350 m Tembo Deck); ¥2,900 with 450 m Galleria
+entry: paid
 best_season: all year round; winter = clearest Mt Fuji views
 best_time: morning
 link: "https://www.tokyo-skytree.jp/en/"

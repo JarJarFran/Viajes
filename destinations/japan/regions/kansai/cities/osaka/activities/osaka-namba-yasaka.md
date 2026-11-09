@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: temple
 duration_hours: 0.5
 approx_cost: "free"
+entry: free
 best_season: "all year round"
 best_time: anytime
 link: "https://www.nambayasaka.jp/"

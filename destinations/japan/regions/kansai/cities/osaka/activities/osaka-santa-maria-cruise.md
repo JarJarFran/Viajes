@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 1
 approx_cost: "¥1,800–2,000 (free with Osaka Amazing Pass)"
+entry: mixed
 best_season: "all year round; day cruises and sunset"
 best_time: sunset
 link: "https://www.kaiyukan.com/"

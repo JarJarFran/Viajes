@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: food
 duration_hours: 2
 approx_cost: grazing ¥2,000–3,000 per person
+entry: mixed
 best_season: all year round
 best_time: late morning
 link: ""

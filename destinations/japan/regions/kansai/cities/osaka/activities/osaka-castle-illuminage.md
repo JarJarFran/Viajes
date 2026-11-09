@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: event
 duration_hours: 2
 approx_cost: Nishinomaru Garden evening ticket extra (check site)
+entry: paid
 best_season: Nov 20–Feb 14
 best_time: night
 link: "https://www.osakacastle.net/"

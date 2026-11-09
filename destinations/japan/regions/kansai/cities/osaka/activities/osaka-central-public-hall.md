@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: history
 duration_hours: 1
 approx_cost: "free (building); area free"
+entry: free
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.osaka-info.jp/"

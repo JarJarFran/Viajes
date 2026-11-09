@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: history
 duration_hours: 2
 approx_cost: ¥800 grounds; ¥1,300 with Ninomaru Palace
+entry: paid
 best_season: all year round; note year-end closures
 best_time: morning
 link: "https://nijo-jocastle.jp/en/"

@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥500
+entry: paid
 best_season: all year round (snow in winter is spectacular)
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/kinkakuji/"

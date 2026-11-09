@@ -6,6 +6,7 @@ place: japan/kansai/osaka
 category: food
 duration_hours: 2
 approx_cost: "food ¥2,000–4,000 (yakiniku/Korean BBQ)"
+entry: mixed
 best_season: "all year round"
 best_time: evening
 link: ""

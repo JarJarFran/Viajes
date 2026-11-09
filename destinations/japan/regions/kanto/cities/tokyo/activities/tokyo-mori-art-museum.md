@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
 approx_cost: "¥2,000"
+entry: paid
 best_season: "all year round; exhibitions rotate ~every 4 months"
 best_time: afternoon
 link: "https://www.mori.art.museum/"

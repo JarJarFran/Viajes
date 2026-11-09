@@ -6,6 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 6
 approx_cost: "¥3,000–8,000 for the day"
+entry: paid
 best_season: "all year round"
 best_time: morning
 link: ""

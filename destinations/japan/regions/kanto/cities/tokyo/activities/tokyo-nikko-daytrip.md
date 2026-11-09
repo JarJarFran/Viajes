@@ -6,6 +6,7 @@ place: japan/kanto/tokyo
 category: history
 duration_hours: 8
 approx_cost: "Tobu Limited Express from Asakusa ~¥4,100 total (~2 h); JR via Utsunomiya ~¥3,400; Toshogu ¥1,300"
+entry: mixed
 best_season: "all year round (snowy in Jan)"
 best_time: full day
 link: "https://www.nikko.jp/"
