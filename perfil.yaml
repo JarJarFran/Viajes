@@ -1,0 +1,36 @@
+# Perfil del grupo de viaje: define qué nos gusta para puntuar la afinidad
+# de cada país/región/ciudad/actividad (escala 1-5, null = sin valorar todavía).
+grupo: Viajeros
+idiomas: [español]
+escala_afinidad: 1-5
+
+gustos:
+  - templos_y_santuarios
+  - cultura_tradicional
+  - gastronomia_local
+  - mercados_y_comida_callejera
+  - naturaleza_y_montana
+  - senderismo
+  - anime_manga_y_cultura_pop
+  - ciudades_vibrantes
+  - historia_y_castillos
+  - onsen_y_bienestar
+  - fotografia_y_miradores
+
+detalles:
+  templos_y_santuarios: "Santuarios sintoístas, templos budistas, torii, jardines zen"
+  gastronomia_local: "Izakayas, ramen, sushi de barrio, kaiseki cuando cuadra"
+  naturaleza_y_montana: "Parques nacionales, Alpes Japoneses, costas, cascadas"
+  ciudades_vibrantes: "Barrios con ambiente nocturno, neones, tiendas bizarras"
+  onsen_y_bienestar: "Baños termales, ryokan con onsen privado"
+
+no_gustos:
+  - resorts_todo_incluido
+  - turismo_de_masas_excesivo
+
+# Preferencias prácticas para organizar viajes
+preferencias:
+  ritmo: medio            # lento | medio | rapido
+  alojamiento: [ryokan, hotel_boutique, apartamento]
+  transporte_principal: [tren, a_pie, bus]
+  presupuesto_diario_aprox_eur: 120
