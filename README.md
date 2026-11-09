@@ -1,68 +1,68 @@
-# Viajes
+# Travels
 
-Repositorio con **dos dominios de conocimiento separados pero relacionados**:
+Repository with **two separate but related knowledge domains**:
 
-- **`destinos/`** — el grafo de conocimiento de los lugares: país → región → ciudad → actividad. Aquí guardamos información objetiva y acumulativa de cada lugar (qué es, cómo llegar, qué se puede hacer, precios, horarios). No depende de cuándo vayamos.
-- **`viajes/`** — nuestros viajes concretos: fechas, paradas por día, lo que hicimos, dónde dormimos, gastos reales, valoraciones y afinidad. Información subjetiva y temporal.
+- **`destinations/`** — the knowledge graph of places: country → region → city → activity. Here we store objective, cumulative information about each place (what it is, how to get there, what can be done, prices, opening hours). It does not depend on when we go.
+- **`trips/`** — our actual trips: dates, stops per day, what we did, where we slept, real expenses, ratings and affinity. Subjective, time-bound information.
 
-Los dos dominios se conectan solo por **referencias entre ids**: un viaje apunta a nodos de `destinos/` (`paradas[].lugar`, `paradas[].actividades`), y los nodos de `destinos/` apuntan de vuelta a los viajes (`viajes`, `realizada_en`). Nunca se mezcla contenido de uno en el otro.
+The two domains connect only through **references between ids**: a trip points at `destinations/` nodes (`stops[].place`, `stops[].activities`), and `destinations/` nodes point back at trips (`trips`, `done_in`). Content is never mixed between the two.
 
-Todo vive en Markdown plano con **frontmatter YAML**: legible por personas, diff-friendly en git y consultable por máquinas (se puede recorrer el grafo con cualquier script sobre los frontmatter).
+Everything lives in plain Markdown with **YAML frontmatter**: readable by people, diff-friendly in git, and queryable by machines (the graph can be traversed with any script over the frontmatter).
 
-## Los dos grafos y sus aristas
+## The two graphs and their edges
 
 ```
-DOMINIO DESTINOS (conocimiento del lugar)          DOMINIO VIAJES (nuestra experiencia)
+DESTINATIONS DOMAIN (knowledge of the place)        TRIPS DOMAIN (our experience)
 
-país ──contiene──▶ región ──contiene──▶ ciudad ──tiene──▶ actividad
-                                                              ▲
-viaje ──paradas.lugar────────────────────▶ nodo de destinos ──┘
-viaje ──paradas.actividades──────────────▶ ficha de actividad
-       ◀── viajes (backlink) ─── nodo de destinos
-       ◀── realizada_en (backlink) ─── ficha de actividad
+country ──contains──▶ region ──contains──▶ city ──has──▶ activity
+                                                               ▲
+trip ──stops.place────────────────────────────▶ destination node ┘
+trip ──stops.activities───────────────────────▶ activity record
+     ◀── trips (backlink) ─── destination node
+     ◀── done_in (backlink) ─── activity record
 ```
 
-| | `destinos/` | `viajes/` |
+| | `destinations/` | `trips/` |
 |---|---|---|
-| Qué guarda | Qué existe en cada lugar, datos objetivos | Qué hicimos nosotros, datos subjetivos |
-| Ejemplos | "En Kioto está el templo Kinkaku-ji, entrada 500 ¥" | "El 12/04/2025 visitamos Kinkaku-ji, nos encantó, 5/5" |
-| Cambia con el tiempo | Poco (horarios, precios) | Cada viaje nuevo |
-| Campos típicos | `id`, `ruta`, `contiene`, `categoria`, `coste_aprox` | `inicio`, `fin`, `paradas`, `gastos_total`, `valoracion`, `afinidad` |
+| What it stores | What exists in each place, objective data | What we did, subjective data |
+| Examples | "Kyoto has Kinkaku-ji temple, entry 500 ¥" | "On 12/04/2025 we visited Kinkaku-ji, loved it, 5/5" |
+| Changes over time | Rarely (hours, prices) | With every new trip |
+| Typical fields | `id`, `path`, `contains`, `category`, `approx_cost` | `start`, `end`, `stops`, `total_cost`, `rating`, `affinity` |
 
-## Tipos de nodo y dónde viven
+## Node types and where they live
 
-| Tipo | Carpeta | Archivo |
+| Type | Folder | File |
 |---|---|---|
-| País | `destinos/<pais>/` | `README.md` |
-| Región | `destinos/<pais>/regiones/<region>/` | `README.md` |
-| Ciudad | `destinos/<pais>/regiones/<region>/ciudades/<ciudad>/` | `README.md` |
-| Actividad | `.../ciudades/<ciudad>/actividades/<actividad>.md` | archivo suelto |
-| Viaje | `viajes/<id-viaje>/` | `README.md` |
-| Perfil (nuestros gustos) | raíz | `perfil.yaml` |
-| Plantillas | `_plantillas/` | una por tipo de nodo |
+| Country | `destinations/<country>/` | `README.md` |
+| Region | `destinations/<country>/regions/<region>/` | `README.md` |
+| City | `destinations/<country>/regions/<region>/cities/<city>/` | `README.md` |
+| Activity | `.../cities/<city>/activities/<activity>.md` | single file |
+| Trip | `trips/<trip-id>/` | `README.md` |
+| Profile (our likes) | root | `profile.yaml` |
+| Templates | `_templates/` | one per node type |
 
-## Convenciones
+## Conventions
 
-- **id**: slug único y estable en minúsculas (`japon`, `kanto`, `tokio`, `tokio-sensoji`, `2025-japon`). Nunca se reutiliza.
-- **ruta**: camino del nodo dentro del grafo de destinos, p. ej. `japon/kanto/tokio`. Es independiente de la carpeta física y se usa para enlazar dominios.
-- **Aristas dentro de `destinos/`**:
-  - País → `contiene: [regiones]`; Región → `contiene: [ciudades]` y `pais: japon`; Ciudad → `region: kanto`.
-  - Actividad → `lugar: japon/kanto/tokio`.
-- **Aristas entre dominios**:
-  - Viaje → `paradas: [{ fecha, lugar: japon/kanto/tokio, actividades: [tokio-sensoji], alojamiento, notas }]`.
-  - Backlinks: en el nodo de destino `viajes: [2025-japon]`; en la actividad `realizada_en: [2025-japon]`.
-- **Afinidad**: en `viajes/` cada viaje y sus paradas llevan `afinidad: 1-5` y `gustos: [tags]` (nuestra valoración subjetiva). En `destinos/` los nodos pueden llevar `afinidad` como resumen acumulado de los viajes. Los tags salen de `perfil.yaml`.
-- La valoración de una actividad hecha en un viaje se anota en el día correspondiente del viaje; en la ficha de actividad se puede dejar un `valoracion` resumen.
-- Todo el contenido en español; los nombres propios japoneses conservan su forma habitual.
+- **id**: unique, stable lowercase slug (`japan`, `kanto`, `tokyo`, `tokyo-sensoji`, `2025-japan`). Never reused.
+- **path**: the node's route inside the destinations graph, e.g. `japan/kanto/tokyo`. It is independent of the physical folder and is used to link across domains.
+- **Edges inside `destinations/`**:
+  - Country → `contains: [regions]`; Region → `contains: [cities]` and `country: japan`; City → `region: kanto`.
+  - Activity → `place: japan/kanto/tokyo`.
+- **Edges across domains**:
+  - Trip → `stops: [{ date, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]`.
+  - Backlinks: in the destination node `trips: [2025-japan]`; in the activity `done_in: [2025-japan]`.
+- **Affinity**: in `trips/`, each trip and its stops carry `affinity: 1-5` and `likes: [tags]` (our subjective rating). In `destinations/`, nodes may carry `affinity` as an accumulated summary from trips. Tags come from `profile.yaml`.
+- The rating of an activity done on a trip is noted on the corresponding day of the trip; the activity record may keep a summary `rating`.
+- All content in English; Japanese proper names keep their usual romanized form.
 
-## Cómo añadir cosas
+## How to add things
 
-1. **¿Es conocimiento de un lugar?** → va en `destinos/`, usando la plantilla de `_plantillas/` (pais, region, ciudad o actividad). Dale `id` nuevo, rellena el frontmatter y actualiza `contiene`/`lugar` en el nodo padre.
-2. **¿Es algo que hemos hecho o vamos a hacer?** → va en `viajes/<id-viaje>/`, usando `_plantillas/viaje.md`. Cada parada referencia nodos de `destinos/` por su `ruta`/id y, al registrar la parada, añade el backlink (`viajes` en el nodo destino, `realizada_en` en la actividad).
+1. **Is it knowledge about a place?** → goes in `destinations/`, using a `_templates/` template (country, region, city or activity). Give it a new `id`, fill in the frontmatter, and update `contains`/`place` in the parent node.
+2. **Is it something we did or are going to do?** → goes in `trips/<trip-id>/`, using `_templates/trip.md`. Each stop references `destinations/` nodes by their `path`/id, and when logging the stop, add the backlink (`trips` in the destination node, `done_in` in the activity).
 
-## Índice
+## Index
 
-- [perfil.yaml](perfil.yaml) — qué nos gusta (base para la afinidad)
-- [destinos/](destinos/) — grafo de conocimiento de países, regiones, ciudades y actividades
-- [viajes/](viajes/) — viajes realizados y planificados, con días por lugar
-- [_plantillas/](_plantillas/) — plantillas de cada tipo de nodo
+- [profile.yaml](profile.yaml) — what we like (basis for affinity)
+- [destinations/](destinations/) — knowledge graph of countries, regions, cities and activities
+- [trips/](trips/) — trips done and planned, with days per place
+- [_templates/](_templates/) — template for each node type
