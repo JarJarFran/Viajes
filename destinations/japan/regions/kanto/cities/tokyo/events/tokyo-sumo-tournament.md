@@ -5,6 +5,7 @@ name: Grand Sumo Tournament (Ryogoku Kokugikan, January)
 place: japan/kanto/tokyo
 duration_hours: 4
 start: 2027-01-10
+on_sale: 2026-12-05   # general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en)
 end: 2027-01-24
 approx_cost: "from ¥3,500 (2nd-floor seats more); tickets via official site/ convenience stores"
 entry: paid
