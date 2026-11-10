@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: ¥500
 entry: paid
 tags: [touristic, top50]
+hours: "9:00-17:00 (last 16:30)"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-tmg-observatory, tokyo-golden-gai, tokyo-omoide-yokocho]
 best_season: all year round
 best_time: morning
 link: "https://www.env.go.jp/garden/shinjukugyoen/english/"

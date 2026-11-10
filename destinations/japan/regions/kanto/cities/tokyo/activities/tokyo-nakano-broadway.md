@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "free to browse"
 entry: free
 tags: [top50]
+hours: "10:00-20:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: afternoon
 link: ""

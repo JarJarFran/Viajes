@@ -8,6 +8,10 @@ duration_hours: 8
 approx_cost: "highway bus from Busta Shinjuku ~¥2,200–2,500 (~2 h); JR Chuo to Otsuki + Fujikyu ~¥4,000 total"
 entry: mixed
 tags: [touristic, top100, iconic]
+hours: "full day"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round; winter = clearest Fuji visibility"
 best_time: full day
 link: "https://www.fujikyu.co.jp/"

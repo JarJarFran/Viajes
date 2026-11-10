@@ -37,24 +37,28 @@ trip ──stops.activities─────────────────�
 | Region | `destinations/<country>/regions/<region>/` | `README.md` |
 | City | `destinations/<country>/regions/<region>/cities/<city>/` | `README.md` |
 | Activity | `.../cities/<city>/activities/<activity>.md` | single file |
+| Event | `.../cities/<city>/events/<event>.md` | single file, with `start`/`end` dates |
 | Restaurant | `.../cities/<city>/restaurants/<restaurant>.md` | single file |
+| Hotel | `.../cities/<city>/hotels/<hotel>.md` | single file |
 | Trip | `trips/<trip-id>/` | `README.md` |
 | Profile (our likes) | root | `profile.yaml` |
 | Templates | `_templates/` | one per node type |
 
 ## Conventions
 
-- **id**: unique, stable lowercase slug (`japan`, `kanto`, `tokyo`, `tokyo-sensoji`, `2025-japan`). Never reused.
+- **id**: unique, stable lowercase slug (`japan`, `kanto`, `tokyo`, `tokyo-sensoji`, `2026-japan`). Never reused.
 - **path**: the node's route inside the destinations graph, e.g. `japan/kanto/tokyo`. It is independent of the physical folder and is used to link across domains.
 - **Edges inside `destinations/`**:
   - Country → `contains: [regions]`; Region → `contains: [cities]` and `country: japan`; City → `region: kanto`.
   - Activity → `place: japan/kanto/tokyo`.
 - **Edges across domains**:
   - Trip → `stops: [{ from, to, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]` (a stop is a stay of one or more days at a destination node).
-  - Backlinks: in the destination node `trips: [2025-japan]`; in the activity `done_in: [2025-japan]`.
+  - Backlinks: in the destination node `trips: [2026-japan]`; in the activity `done_in: [2026-japan]`.
 - **Activity classification**: every activity has `entry: free | paid | mixed | n/a` (free sight vs paid entry vs free-to-enter-with-typical-spend vs transport) and optionally `area:` (neighborhood) to group a day by zone. Restaurants are their own node type (`restaurants/`) with `price_range: ¥–¥¥¥¥` and `area:` — separate from food *activities* (markets, street food, food tours).
 - **Tags**: activities carry `tags: [...]` to mark what kind of place they are and how popular: `touristic` (recognized tourist sight), `top50` / `top100` (in the city's top 50 / top 100 most popular, per Tripadvisor/Trip.com rankings), `iconic`, `unesco`, `hidden-gem`, plus `night`, `event`, `kid-friendly`, `rainy-day`.
-- Example queries over the frontmatter: "all free activities in Kyoto" = activities with `place: japan/kansai/kyoto` and `entry: free`; "top 50 sights of Tokyo" = activities with `place: japan/kanto/tokyo` and `top50` in `tags`; "cheap eats in Tokyo" = restaurants with `place: japan/kanto/tokyo` and `price_range` of ¥ or ¥¥.
+- **Events**: `event` nodes have `start`/`end`. A trip lists the events overlapping its dates in its `events:` field. Query: "all events during trip 2026-japan" = events with `start <= 2027-01-23` and `end >= 2026-12-26`.
+- **Practical fields on activities**: `hours`, `closed` (closing days/seasonal closures), `booking` (walk-in | reserve | required), `near` (ids of activities in the same zone, for walking routes). Query examples: "what needs advance booking in Tokyo" = activities with `place: japan/kanto/tokyo` and `booking: required`; "walking cluster around Gion" = activities with `kyoto-gion-higashiyama` in `near`.
+- Example queries over the frontmatter: "all free activities in Kyoto" = activities with `place: japan/kansai/kyoto` and `entry: free`; "top 50 sights of Tokyo" = activities with `place: japan/kanto/tokyo` and `top50` in `tags`; "cheap eats in Tokyo" = restaurants with `place: japan/kanto/tokyo` and `price_range` of ¥ or ¥¥; "hotels in Shibuya" = hotels with `place: japan/kanto/tokyo` and `area` containing Shibuya.
 - **Affinity**: in `trips/`, each trip and its stops carry `affinity: 1-5` and `likes: [tags]` (our subjective rating). In `destinations/`, nodes may carry `affinity` as an accumulated summary from trips. Tags come from `profile.yaml`.
 - The rating of an activity done on a trip is noted on the corresponding day of the trip; the activity record may keep a summary `rating`.
 - All content in English; Japanese proper names keep their usual romanized form.

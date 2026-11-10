@@ -1,10 +1,11 @@
 ---
 id: kyoto-toka-ebisu
-type: activity
+type: event
 name: Toka Ebisu festival at Ebisu-jinja (Gion)
 place: japan/kansai/kyoto
-category: event
 duration_hours: 2
+start: 2027-01-08
+end: 2027-01-12
 approx_cost: free (lucky bamboo ¥ varies)
 entry: mixed
 tags: [event, top100]

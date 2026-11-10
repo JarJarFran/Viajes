@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: free
 entry: free
 tags: [touristic, top50, unesco]
+hours: "9:00-16:30"
+closed: "Mondays and Fridays"
+booking: walk-in
+near: [tokyo-ginza, tokyo-pokemon-center]
 best_season: all year round; closed Mon/Fri and Jan 1–3-ish (check)
 best_time: morning
 link: "https://www.kunaicho.go.jp/english/"

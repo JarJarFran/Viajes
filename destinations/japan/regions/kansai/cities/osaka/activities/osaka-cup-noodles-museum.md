@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "museum ~¥500; My CUPNOODLES Factory workshop ~¥3,000–4,000 (booking required)"
 entry: paid
 tags: [top50, kid-friendly]
+hours: "9:30-17:00"
+closed: "Tuesdays"
+booking: required
+near: []
 best_season: "all year round; closed Tuesdays"
 best_time: weekday morning
 link: "https://www.cupnoodles-museum.jp/"

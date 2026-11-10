@@ -8,6 +8,10 @@ duration_hours: 0.5
 approx_cost: "free"
 entry: free
 tags: [hidden-gem]
+hours: "24h"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: anytime
 link: "https://imamiya.jp/"

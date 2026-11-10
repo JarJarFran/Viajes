@@ -8,6 +8,10 @@ duration_hours: 6
 approx_cost: "JR Miyakoji Rapid ¥720 / Kintetsu ¥760 one way; Todai-ji ¥600; deer crackers ¥200"
 entry: mixed
 tags: [touristic, top100]
+hours: "full day"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: morning
 link: ""

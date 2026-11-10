@@ -1,10 +1,11 @@
 ---
 id: tokyo-sumo-tournament
-type: activity
+type: event
 name: Grand Sumo Tournament (Ryogoku Kokugikan, January)
 place: japan/kanto/tokyo
-category: event
 duration_hours: 4
+start: 2027-01-10
+end: 2027-01-24
 approx_cost: "from ¥3,500 (2nd-floor seats more); tickets via official site/ convenience stores"
 entry: paid
 tags: [touristic, top50, event]

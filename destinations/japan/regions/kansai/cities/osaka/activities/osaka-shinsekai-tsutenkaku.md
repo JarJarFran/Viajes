@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: Tower ~¥1,000 (covered by Osaka Amazing Pass); kushikatsu ¥1,000–2,000
 entry: paid
 tags: [touristic, top50]
+hours: "Tower 10:00-21:00 (22:00 weekends)"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura]
 best_season: all year round
 best_time: afternoon
 link: "https://www.tsutenkaku.co.jp/"

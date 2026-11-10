@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: ¥800 grounds; ¥1,300 with Ninomaru Palace
 entry: paid
 tags: [touristic, top50, unesco]
+hours: "9:00-16:30"
+closed: "Dec 29-31; Ninomaru Palace Jan 1-3"
+booking: walk-in
+near: [kyoto-toji]
 best_season: all year round; note year-end closures
 best_time: morning
 link: "https://nijo-jocastle.jp/en/"

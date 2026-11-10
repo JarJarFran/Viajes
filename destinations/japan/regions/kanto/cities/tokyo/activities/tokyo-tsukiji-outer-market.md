@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: 1500-3000 JPY per person
 entry: mixed
 tags: [touristic, top50]
+hours: "5:00-14:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: all year round
 best_time: morning
 link: "https://www.tsukiji.or.jp/"

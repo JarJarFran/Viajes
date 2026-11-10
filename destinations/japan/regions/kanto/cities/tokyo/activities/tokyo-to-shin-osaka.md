@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: "Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320)"
 entry: n/a
 tags: []
+hours: "check site"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: anytime
 link: "https://smart-express.jp/"

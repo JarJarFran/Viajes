@@ -8,6 +8,10 @@ duration_hours: 6
 approx_cost: "¥3,000–8,000 for the day"
 entry: paid
 tags: [touristic, top100]
+hours: "9:00-18:00 (return by close)"
+closed: "none known - check site"
+booking: reserve
+near: []
 best_season: "all year round"
 best_time: morning
 link: ""

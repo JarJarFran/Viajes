@@ -10,9 +10,11 @@ population: 2750000
 coords: [34.6937, 135.5023]
 affinity: null
 likes: [local_food, markets_and_street_food, vibrant_cities, temples_and_shrines]
-activities: [kix-to-osaka, osaka-abeno-harukas, osaka-amerikamura, osaka-castle, osaka-castle-illuminage, osaka-central-public-hall, osaka-cup-noodles-museum, osaka-den-den-town, osaka-dotonbori-night, osaka-himeji-daytrip, osaka-hozenji-yokocho, osaka-kaiyukan, osaka-kobe-daytrip, osaka-kuromon-market, osaka-legoland-discovery, osaka-midosuji-illumination, osaka-museum-of-history, osaka-nakazakicho, osaka-namba-parks, osaka-namba-yasaka, osaka-santa-maria-cruise, osaka-shinsekai-tsutenkaku, osaka-shitennoji, osaka-spa-world, osaka-sumiyoshi-taisha, osaka-tempozan-ferris, osaka-tennoji-zoo, osaka-to-kyoto, osaka-tombori-river-cruise, osaka-tower-of-the-sun, osaka-tsuruhashi-koreatown, osaka-umeda-sky-building, osaka-usj]
+activities: [kix-to-osaka, osaka-abeno-harukas, osaka-amerikamura, osaka-castle, osaka-central-public-hall, osaka-cup-noodles-museum, osaka-den-den-town, osaka-dotonbori-night, osaka-himeji-daytrip, osaka-hozenji-yokocho, osaka-kaiyukan, osaka-kobe-daytrip, osaka-kuromon-market, osaka-legoland-discovery, osaka-museum-of-history, osaka-nakazakicho, osaka-namba-parks, osaka-namba-yasaka, osaka-santa-maria-cruise, osaka-shinsekai-tsutenkaku, osaka-shitennoji, osaka-spa-world, osaka-sumiyoshi-taisha, osaka-tempozan-ferris, osaka-tennoji-zoo, osaka-to-kyoto, osaka-tombori-river-cruise, osaka-tower-of-the-sun, osaka-tsuruhashi-koreatown, osaka-umeda-sky-building, osaka-usj]
+hotels: [osaka-hotel-cross-osaka, osaka-hotel-granvia-osaka, osaka-hotel-universal-port-vita]
+events: [osaka-castle-illuminage, osaka-midosuji-illumination]
 restaurants: [osaka-restaurant-551-horai, osaka-restaurant-daruma, osaka-restaurant-ichiran, osaka-restaurant-kukuru, osaka-restaurant-mizuno, osaka-restaurant-wanaka]
-trips: [2025-japan]
+trips: [2026-japan]
 ---
 
 # Osaka

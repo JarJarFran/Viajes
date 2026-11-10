@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: free
 entry: free
 tags: [touristic, top50, iconic]
+hours: "24h"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-fushimi-sake-district]
 best_season: all year round
 best_time: early morning
 link: "https://inari.jp/en/"

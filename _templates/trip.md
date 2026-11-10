@@ -10,9 +10,10 @@ stops:
   - from: YYYY-MM-DD
     to: YYYY-MM-DD
     place: <country>/<region>/<city>
-    accommodation: ""
+    accommodation: <hotel-id>
     activities: [<activity-id>, ...]
     notes: ""
+events: []            # ids of events overlapping the trip dates
 rating: null          # 1-5 at the end
 affinity: null
 likes: []             # what we liked most about this trip

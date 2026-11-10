@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: free
 entry: free
 tags: [touristic, top50, iconic]
+hours: "24h"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-shibuya-sky, tokyo-meiji-jingu, tokyo-harajuku-takeshita]
 best_season: all year round
 best_time: night
 link: ""

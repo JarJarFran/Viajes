@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "free"
 entry: free
 tags: [touristic, top50, iconic]
+hours: "shops 9:00-18:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kiyomizu-dera, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: "all year round"
 best_time: morning
 link: ""

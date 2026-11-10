@@ -8,6 +8,10 @@ duration_hours: 2.5
 approx_cost: "Hikari shinkansen ~2 h 15 min: non-reserved ¥13,320 / reserved ~¥14,090; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX"
 entry: n/a
 tags: []
+hours: "check site"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: morning
 link: "https://smart-express.jp/"

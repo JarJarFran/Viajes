@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "free to walk; dinner ¥2,000–5,000"
 entry: mixed
 tags: [touristic, top50, night]
+hours: "24h (shops ~11:00-23:00)"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: "all year round"
 best_time: evening
 link: ""

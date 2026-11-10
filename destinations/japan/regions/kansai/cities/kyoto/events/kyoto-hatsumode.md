@@ -1,10 +1,11 @@
 ---
 id: kyoto-hatsumode
-type: activity
+type: event
 name: Hatsumode (first shrine visit of the year) at Yasaka Shrine
 place: japan/kansai/kyoto
-category: event
 duration_hours: 1.5
+start: 2026-12-31
+end: 2027-01-03
 approx_cost: free
 entry: free
 tags: [touristic, event]

@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥1,800–2,000 (free with Osaka Amazing Pass)"
 entry: mixed
 tags: [top50]
+hours: "hourly by day 10:00-19:00"
+closed: "none known - check site"
+booking: reserve
+near: [osaka-kaiyukan, osaka-tempozan-ferris, osaka-legoland-discovery, osaka-usj]
 best_season: "all year round; day cruises and sunset"
 best_time: sunset
 link: "https://www.kaiyukan.com/"

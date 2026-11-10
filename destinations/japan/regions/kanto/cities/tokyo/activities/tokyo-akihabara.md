@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: free to browse; gadgets/figures from ¥500
 entry: mixed
 tags: [touristic, top50]
+hours: "shops 10:00-21:00"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-ueno-park, tokyo-yanaka]
 best_season: all year round
 best_time: afternoon
 link: ""

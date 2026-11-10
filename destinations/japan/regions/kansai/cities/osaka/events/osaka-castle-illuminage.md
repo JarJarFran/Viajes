@@ -1,10 +1,11 @@
 ---
 id: osaka-castle-illuminage
-type: activity
+type: event
 name: Osaka Castle Illuminage (winter light show)
 place: japan/kansai/osaka
-category: event
 duration_hours: 2
+start: 2026-11-20
+end: 2027-02-14
 approx_cost: Nishinomaru Garden evening ticket extra (check site)
 entry: paid
 tags: [top50, night, event]

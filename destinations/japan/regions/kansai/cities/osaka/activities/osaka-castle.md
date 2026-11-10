@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: Tower ¥1,200 (park free)
 entry: mixed
 tags: [touristic, top50, iconic]
+hours: "Park 24h; tower 9:00-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-museum-of-history, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
 best_season: all year round; Illuminage evenings Nov 20–Feb 14
 best_time: morning
 link: "https://www.osakacastle.net/"

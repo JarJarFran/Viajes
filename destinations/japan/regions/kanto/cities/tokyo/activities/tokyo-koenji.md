@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "free"
 entry: free
 tags: [hidden-gem]
+hours: "evening onward"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round; punk/indie live scene"
 best_time: evening
 link: ""

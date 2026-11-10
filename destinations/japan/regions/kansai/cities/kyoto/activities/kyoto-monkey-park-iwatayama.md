@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "¥800"
 entry: paid
 tags: [top50]
+hours: "9:00-16:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-arashiyama-bamboo, kyoto-sagano-romantic-train]
 best_season: "all year round (open in winter; macaques fluffiest)"
 best_time: morning
 link: "https://www.monkeypolice.com/"

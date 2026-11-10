@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "~¥880–1,150 one way (25 min Arashiyama→Kameoka)"
 entry: paid
 tags: [touristic, top50]
+hours: "9:00-16:00 (check winter days)"
+closed: "some winter days (check calendar)"
+booking: reserve
+near: [kyoto-arashiyama-bamboo, kyoto-monkey-park-iwatayama]
 best_season: "all year round (closed some winter days — check)"
 best_time: morning
 link: "https://www.sagano-kanko.co.jp/"

@@ -8,6 +8,10 @@ duration_hours: 6
 approx_cost: "shinkansen Kyoto→Himeji ~¥4,500–5,500 reserved, ~45–55 min; castle ¥1,000"
 entry: mixed
 tags: [touristic, top100]
+hours: "full day"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.himeji-kanko.jp/"

@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "free (guided tours, reserve or queue)"
 entry: free
 tags: [touristic, top50]
+hours: "9:00-16:00 (guided tours)"
+closed: "Dec 28 - Jan 4"
+booking: walk-in
+near: []
 best_season: "CLOSED Dec 28–Jan 4 — not visitable in our window"
 best_time: morning
 link: "https://www.kunaicho.go.jp/"

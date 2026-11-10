@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "free (advance reservation required, Japanese-language application)"
 entry: free
 tags: [touristic, top100]
+hours: "by reserved tour slot"
+closed: "none known - check site"
+booking: required
+near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.kunaicho.go.jp/"

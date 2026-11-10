@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: grazing ¥2,000–3,000 per person
 entry: mixed
 tags: [touristic, top50]
+hours: "9:00-17:00 (best before 13:00)"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-dotonbori-night, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: all year round
 best_time: late morning
 link: ""

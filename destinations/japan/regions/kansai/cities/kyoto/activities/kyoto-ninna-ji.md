@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "¥800 (Omuro palace area)"
 entry: paid
 tags: [touristic, top50, unesco]
+hours: "9:00-16:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kinkaku-ji, kyoto-ryoan-ji]
 best_season: "all year round (late sakura famous)"
 best_time: morning
 link: "https://www.ninnaji.jp/"

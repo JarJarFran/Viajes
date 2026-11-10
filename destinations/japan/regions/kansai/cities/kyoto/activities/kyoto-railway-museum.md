@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: "¥1,200"
 entry: paid
 tags: [top50]
+hours: "10:00-17:00 (Jan 2-3, 2027: 10:00-17:00)"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round; open Jan 2–3 10:00–17:00 (last entry 16:30)"
 best_time: afternoon
 link: "https://www.kyotorailwaymuseum.jp/"

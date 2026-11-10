@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: free to walk; Pontocho dinner ¥5,000+
 entry: mixed
 tags: [touristic, top50, iconic, night]
+hours: "24h (best at dusk)"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: all year round
 best_time: evening
 link: ""

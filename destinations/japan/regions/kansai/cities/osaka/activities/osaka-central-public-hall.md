@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "free (building); area free"
 entry: free
 tags: [top50]
+hours: "9:00-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-umeda-sky-building, osaka-nakazakicho]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.osaka-info.jp/"

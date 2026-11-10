@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: ¥500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
+hours: "9:00-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-ryoan-ji, kyoto-ninna-ji]
 best_season: all year round (snow in winter is spectacular)
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/kinkakuji/"

@@ -11,6 +11,8 @@ coords: [35.3192, 139.5467]
 affinity: null
 likes: [temples_and_shrines, history_and_castles, nature_and_mountains]
 activities: [kamakura-day-trip]
+hotels: []
+events: []
 trips: []
 ---
 

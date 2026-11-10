@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "zoo ¥800 (free with Osaka Amazing Pass); park free"
 entry: mixed
 tags: [top50, kid-friendly]
+hours: "9:30-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-castle, osaka-museum-of-history, osaka-shitennoji, osaka-abeno-harukas]
 best_season: "all year round"
 best_time: morning
 link: "https://www.city.osaka.lg.jp/"

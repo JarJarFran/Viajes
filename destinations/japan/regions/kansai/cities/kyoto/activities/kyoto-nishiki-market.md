@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: samples ¥500–1,500
 entry: mixed
 tags: [touristic, top50]
+hours: "9:00-17:00"
+closed: "first days of January (most stalls back ~Jan 4-5)"
+booking: walk-in
+near: []
 best_season: all year round, but CLOSED the first days of January (most stalls back by Jan 4–5)
 best_time: morning
 link: "https://www.nishiki.or.jp/en/"

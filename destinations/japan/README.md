@@ -12,7 +12,7 @@ plugs: type A/B (100 V)
 contains: [hokkaido, tohoku, kanto, chubu, kansai, chugoku, shikoku, kyushu]
 affinity: null
 likes: []
-trips: [2025-japan]
+trips: [2026-japan]
 ---
 
 # Japan

@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "¥300"
 entry: paid
 tags: [top50, unesco]
+hours: "9:00-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round (ume/plum in Feb)"
 best_time: morning
 link: "https://www.tokyo-park.or.jp/"

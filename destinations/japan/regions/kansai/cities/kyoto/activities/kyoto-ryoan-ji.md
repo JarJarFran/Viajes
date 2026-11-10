@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥600"
 entry: paid
 tags: [touristic, top50, unesco]
+hours: "8:00-17:00 (9:00 Dec-Feb)"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kinkaku-ji, kyoto-ninna-ji]
 best_season: "all year round; opens 8:00 (9:00 Dec–Feb)"
 best_time: morning
 link: "https://www.ryoanji.jp/"

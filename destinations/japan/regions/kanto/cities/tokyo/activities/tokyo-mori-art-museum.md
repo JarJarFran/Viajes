@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "¥2,000"
 entry: paid
 tags: [top50]
+hours: "10:00-18:00"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-tokyo-city-view, tokyo-teamlab-borderless]
 best_season: "all year round; exhibitions rotate ~every 4 months"
 best_time: afternoon
 link: "https://www.mori.art.museum/"

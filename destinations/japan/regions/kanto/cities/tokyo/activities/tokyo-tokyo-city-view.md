@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥2,200 online / ¥2,400 at counter"
 entry: paid
 tags: [top50]
+hours: "10:00-23:00"
+closed: "none known - check site"
+booking: reserve
+near: [tokyo-mori-art-museum, tokyo-teamlab-borderless]
 best_season: "all year round"
 best_time: sunset
 link: "https://www.roppongihills.com/"

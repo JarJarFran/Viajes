@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "grounds free; sub-temples ¥500–6,000 (Nanzen-in closed to visitors since Jan 2026)"
 entry: mixed
 tags: [top50]
+hours: "grounds 8:45-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-ginkaku-ji, kyoto-philosophers-path]
 best_season: "all year round"
 best_time: morning
 link: "https://nanzenji.jp/"

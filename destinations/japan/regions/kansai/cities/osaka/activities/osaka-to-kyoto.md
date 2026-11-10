@@ -8,6 +8,10 @@ duration_hours: 0.5
 approx_cost: "JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved"
 entry: n/a
 tags: []
+hours: "check site"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: morning
 link: ""

@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "dinner ¥3,000–8,000"
 entry: mixed
 tags: [touristic, top50, night]
+hours: "17:00-23:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: evening
 link: ""

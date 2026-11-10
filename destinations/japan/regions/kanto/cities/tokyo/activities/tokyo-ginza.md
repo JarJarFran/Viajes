@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "free to browse; depachika bites ¥500–2,000"
 entry: mixed
 tags: [touristic, top50]
+hours: "10:00-20:00"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-imperial-palace, tokyo-pokemon-center]
 best_season: "all year round; weekend pedestrian paradise on main street"
 best_time: afternoon
 link: ""

@@ -8,7 +8,7 @@ prefectures: [Mie, Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama]
 contains: [kyoto, osaka, kobe, nara]
 affinity: null
 likes: [temples_and_shrines, traditional_culture, local_food, history_and_castles]
-trips: [2025-japan]
+trips: [2026-japan]
 ---
 
 # Kansai

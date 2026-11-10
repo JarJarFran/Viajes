@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: ¥2,000
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "9:30-22:30 (last entry 22:00)"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-nakazakicho, osaka-central-public-hall]
 best_season: all year round
 best_time: sunset
 link: "https://www.skybldg.co.jp/en/"

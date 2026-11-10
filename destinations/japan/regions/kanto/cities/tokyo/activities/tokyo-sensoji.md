@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: free
 entry: free
 tags: [touristic, top50, iconic, unesco]
+hours: "6:00-18:00"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-skytree, tokyo-sumida-river-cruise]
 best_season: all year round
 best_time: morning
 link: "https://www.sensoji.jp/"

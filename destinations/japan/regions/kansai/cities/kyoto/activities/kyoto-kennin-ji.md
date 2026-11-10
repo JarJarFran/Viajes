@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥500"
 entry: paid
 tags: [top50]
+hours: "10:00-16:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.kenninji.jp/"

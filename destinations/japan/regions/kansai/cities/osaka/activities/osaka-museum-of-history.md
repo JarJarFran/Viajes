@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "¥600 (free with Osaka Amazing Pass)"
 entry: mixed
 tags: [top50]
+hours: "9:30-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-castle, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
 best_season: "all year round"
 best_time: morning
 link: "https://www.mus-his.jp/"

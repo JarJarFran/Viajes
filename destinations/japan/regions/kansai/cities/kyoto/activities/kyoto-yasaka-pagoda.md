@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "free (street)"
 entry: free
 tags: [touristic, top50, iconic, night]
+hours: "24h (street)"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: "all year round"
 best_time: evening
 link: ""

@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥2,000–2,200 (book timed slot)"
 entry: paid
 tags: [touristic, top50]
+hours: "10:00-22:00 (timed)"
+closed: "none known - check site"
+booking: reserve
+near: [tokyo-shibuya-crossing, tokyo-meiji-jingu, tokyo-harajuku-takeshita]
 best_season: "all year round; rooftop open-air"
 best_time: sunset
 link: "https://www.shibuyasky.jp/"

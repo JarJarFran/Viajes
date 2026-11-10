@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "¥2,000–2,400"
 entry: paid
 tags: [top50]
+hours: "9:30-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "open all year round (incl. Jan 1–3; occasional inspection closures)"
 best_time: afternoon
 link: "https://www.kyoto-aquarium.com/"

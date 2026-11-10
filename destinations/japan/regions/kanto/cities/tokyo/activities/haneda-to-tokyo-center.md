@@ -8,6 +8,10 @@ duration_hours: 0.5
 approx_cost: "Keikyu to Shinagawa ¥300 then JR (~25 min to Tokyo Station); Tokyo Monorail to Hamamatsucho ¥500 (~14 min) then JR Yamanote; Keikyu direct to Shibuya ~¥580; limousine bus ¥1,100–1,500 to major stations (30–45 min)"
 entry: n/a
 tags: []
+hours: "check site"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: anytime
 link: ""

@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: "¥1,500–2,500 day pass"
 entry: paid
 tags: [top50]
+hours: "10:00-24:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.spaworld.co.jp/"

@@ -8,6 +8,10 @@ duration_hours: 4
 approx_cost: "free; Eizan Railway to Kurama ¥480 one way"
 entry: mixed
 tags: [hidden-gem]
+hours: "daylight"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round (snow possible Jan)"
 best_time: morning
 link: ""

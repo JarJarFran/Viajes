@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: "¥2,700–3,500 dynamic by date (2026)"
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "10:00-20:00 (last entry 19:00; longer at New Year)"
+closed: "none known - check site"
+booking: reserve
+near: [osaka-tempozan-ferris, osaka-santa-maria-cruise, osaka-legoland-discovery, osaka-usj]
 best_season: "all year round; longer hours at New Year"
 best_time: morning
 link: "https://www.kaiyukan.com/"

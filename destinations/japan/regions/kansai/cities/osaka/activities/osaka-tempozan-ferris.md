@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥1,000 (free with Osaka Amazing Pass)"
 entry: mixed
 tags: [touristic, top50]
+hours: "10:00-21:00 (22:00 weekends)"
+closed: "none known - check site"
+booking: walk-in
+near: [osaka-kaiyukan, osaka-santa-maria-cruise, osaka-legoland-discovery, osaka-usj]
 best_season: "all year round; best at sunset"
 best_time: sunset
 link: "https://www.kaiyukan.com/"

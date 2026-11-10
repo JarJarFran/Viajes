@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥1,500 Main Deck (¥2,800 Top Deck)"
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "9:00-22:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round; lit up at night"
 best_time: sunset
 link: "https://www.tokyotower.co.jp/en/"

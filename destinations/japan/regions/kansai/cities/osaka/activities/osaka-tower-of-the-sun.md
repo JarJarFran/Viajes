@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "park free; tower interior ~¥700 (advance reservation)"
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "park 9:30-17:00; interior by reserved slot"
+closed: "none known - check site"
+booking: required
+near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.expo70-park.jp/"

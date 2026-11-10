@@ -8,6 +8,10 @@ duration_hours: 10
 approx_cost: "from ¥8,400, date-dependent (check web ticket store)"
 entry: paid
 tags: [touristic, top50, iconic, kid-friendly]
+hours: "9:00-21:00 (varies by date)"
+closed: "none known - check site"
+booking: required
+near: [osaka-kaiyukan, osaka-tempozan-ferris, osaka-santa-maria-cruise, osaka-legoland-discovery]
 best_season: "all year round; New Year week very crowded"
 best_time: full day
 link: "https://www.usj.co.jp/"

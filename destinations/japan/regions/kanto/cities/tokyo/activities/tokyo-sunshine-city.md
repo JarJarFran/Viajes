@@ -8,6 +8,10 @@ duration_hours: 3
 approx_cost: "complex free; aquarium ¥2,600; planetarium ¥1,000–1,500"
 entry: mixed
 tags: [top50, kid-friendly]
+hours: "10:00-20:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.sunshinecity.co.jp/"

@@ -8,6 +8,10 @@ duration_hours: 0.5
 approx_cost: "¥1,000–2,000 (free with Osaka Amazing Pass)"
 entry: mixed
 tags: [top50, night]
+hours: "10:00-21:00 (evenings best)"
+closed: "none known - check site"
+booking: reserve
+near: []
 best_season: "all year round; best after dark"
 best_time: night
 link: "https://www.dotonbori.or.jp/"

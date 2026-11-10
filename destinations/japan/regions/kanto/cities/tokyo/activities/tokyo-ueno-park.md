@@ -8,6 +8,10 @@ duration_hours: 4
 approx_cost: park free; Tokyo National Museum ¥1,000; zoo ¥600
 entry: mixed
 tags: [touristic, top50]
+hours: "park 24h; TNM 9:30-17:00 (Fri/Sat to 20:00)"
+closed: "TNM closed Mondays and Dec 26-31"
+booking: walk-in
+near: [tokyo-yanaka, tokyo-akihabara]
 best_season: all year round
 best_time: morning
 link: "https://www.tnm.jp/en/"

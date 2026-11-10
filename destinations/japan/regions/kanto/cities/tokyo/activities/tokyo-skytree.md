@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: ¥1,800 (350 m Tembo Deck); ¥2,900 with 450 m Galleria
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "10:00-22:00"
+closed: "none known - check site"
+booking: reserve
+near: [tokyo-sensoji, tokyo-sumida-river-cruise]
 best_season: all year round; winter = clearest Mt Fuji views
 best_time: morning
 link: "https://www.tokyo-skytree.jp/en/"

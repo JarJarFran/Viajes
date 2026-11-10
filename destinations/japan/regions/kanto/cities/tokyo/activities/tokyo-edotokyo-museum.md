@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "¥800 permanent (reopened 2026 after renovation)"
 entry: paid
 tags: [top50]
+hours: "9:30-17:30 (Sat to 19:30)"
+closed: "Mondays"
+booking: walk-in
+near: []
 best_season: "all year round; closed Mondays"
 best_time: morning
 link: "https://www.edo-tokyo-museum.or.jp/"

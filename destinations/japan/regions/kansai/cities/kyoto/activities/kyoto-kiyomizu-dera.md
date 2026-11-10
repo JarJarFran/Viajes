@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: ¥500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
+hours: "6:00-18:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: all year round
 best_time: morning
 link: "https://www.kiyomizu.or.jp/en/"

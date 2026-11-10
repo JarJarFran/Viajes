@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: "free; thrift/vinyl from ¥1,000"
 entry: mixed
 tags: [hidden-gem]
+hours: "11:00-20:00"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: "all year round"
 best_time: afternoon
 link: ""

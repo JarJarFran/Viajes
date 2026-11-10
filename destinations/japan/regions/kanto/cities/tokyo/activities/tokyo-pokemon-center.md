@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "free (merch from ¥500)"
 entry: mixed
 tags: [top100]
+hours: "10:00-20:00"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-ginza, tokyo-imperial-palace]
 best_season: "all year round"
 best_time: anytime
 link: "https://www.pokemon.co.jp/shop/pokecen/tokyo/"

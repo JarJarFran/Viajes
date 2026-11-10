@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "free"
 entry: free
 tags: [top50]
+hours: "24h"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-ginkaku-ji, kyoto-nanzen-ji]
 best_season: "all year round (best sakura/koyo)"
 best_time: morning
 link: ""

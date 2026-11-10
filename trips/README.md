@@ -13,4 +13,4 @@ To create a new trip, copy [_templates/trip.md](../_templates/trip.md).
 
 ## Trip index
 
-- [2025-japan](2025-japan/) — Japan: Osaka → Kyoto → Tokyo, 2025-12-26 → 2026-01-23 (planned)
+- [2026-japan](2026-japan/) — Japan: Osaka → Kyoto → Tokyo, 2025-12-26 → 2026-01-23 (planned)

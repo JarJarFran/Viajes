@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: "¥600–1,000"
 entry: paid
 tags: [top50]
+hours: "9:00-17:00"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
 best_season: "all year round (koyo top spot)"
 best_time: afternoon
 link: "https://www.eikando.or.jp/"

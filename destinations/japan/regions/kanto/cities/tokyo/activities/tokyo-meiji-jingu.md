@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: free
 entry: free
 tags: [touristic, top50, iconic]
+hours: "5:00-sunset"
+closed: "none known - check site"
+booking: walk-in
+near: [tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-harajuku-takeshita]
 best_season: all year round (autumn and winter with the forest of 100,000 trees)
 best_time: morning
 link: "https://www.meijijingu.or.jp/"

@@ -1,10 +1,11 @@
 ---
 id: osaka-midosuji-illumination
-type: activity
+type: event
 name: Midosuji Illumination (winter lights)
 place: japan/kansai/osaka
-category: event
 duration_hours: 1
+start: 2026-11-03
+end: 2026-12-31
 approx_cost: free
 entry: free
 tags: [touristic, top50, night, event]

@@ -8,6 +8,10 @@ duration_hours: 1.5
 approx_cost: "¥500–1,000 (price raised in 2026 — check site)"
 entry: paid
 tags: [touristic, top50, unesco]
+hours: "9:00-16:30 (winter)"
+closed: "none known - check site"
+booking: walk-in
+near: [kyoto-philosophers-path, kyoto-nanzen-ji]
 best_season: "all year round; winter 9:00–16:30"
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/ginkakuji/"

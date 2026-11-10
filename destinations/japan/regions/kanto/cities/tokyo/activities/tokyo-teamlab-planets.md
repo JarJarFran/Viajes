@@ -8,6 +8,10 @@ duration_hours: 2
 approx_cost: from ¥3,600 (≈¥3,800 weekday / ¥4,200 weekend)
 entry: paid
 tags: [touristic, top50, iconic]
+hours: "10:00-21:00 (timed entry)"
+closed: "none known - check site"
+booking: required
+near: []
 best_season: all year round; venue closes end of 2027
 best_time: afternoon
 link: "https://www.teamlab.art/e/planets/"

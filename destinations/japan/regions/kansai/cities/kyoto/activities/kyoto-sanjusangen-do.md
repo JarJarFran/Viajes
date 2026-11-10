@@ -8,6 +8,10 @@ duration_hours: 1
 approx_cost: ¥600
 entry: paid
 tags: [touristic, top50, unesco]
+hours: "9:00-16:00 (winter)"
+closed: "none known - check site"
+booking: walk-in
+near: []
 best_season: all year round; winter hours 9:00–16:00
 best_time: morning
 link: "https://www.kenkun.jp/"

@@ -1,10 +1,11 @@
 ---
 id: tokyo-new-year-sales
-type: activity
+type: event
 name: New Year sales & fukubukuro (lucky bags)
 place: japan/kanto/tokyo
-category: event
 duration_hours: 2
+start: 2027-01-01
+end: 2027-01-31
 approx_cost: varies
 entry: free
 tags: [event, top100]
