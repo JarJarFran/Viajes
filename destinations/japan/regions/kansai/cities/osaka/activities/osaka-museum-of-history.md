@@ -7,6 +7,7 @@ category: museums
 duration_hours: 1.5
 approx_cost: "¥600 (free with Osaka Amazing Pass)"
 entry: mixed
+tags: [top50]
 best_season: "all year round"
 best_time: morning
 link: "https://www.mus-his.jp/"

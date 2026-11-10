@@ -7,6 +7,7 @@ category: onsen
 duration_hours: 8
 approx_cost: "Odakyu Romancecar Shinjuku→Hakone-Yumoto ¥2,320 (~85 min); Hakone Freepass 2-day from Shinjuku ¥6,100–7,100"
 entry: mixed
+tags: [touristic, top100]
 best_season: "all year round (Fuji views on clear days)"
 best_time: full day
 link: "https://www.hakone.or.jp/"

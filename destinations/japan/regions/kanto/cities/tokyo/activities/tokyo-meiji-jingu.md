@@ -7,6 +7,7 @@ category: temple
 duration_hours: 2
 approx_cost: free
 entry: free
+tags: [touristic, top50, iconic]
 best_season: all year round (autumn and winter with the forest of 100,000 trees)
 best_time: morning
 link: "https://www.meijijingu.or.jp/"

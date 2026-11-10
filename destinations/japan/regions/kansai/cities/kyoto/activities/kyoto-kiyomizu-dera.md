@@ -7,6 +7,7 @@ category: temple
 duration_hours: 2
 approx_cost: ¥500
 entry: paid
+tags: [touristic, top50, iconic, unesco]
 best_season: all year round
 best_time: morning
 link: "https://www.kiyomizu.or.jp/en/"

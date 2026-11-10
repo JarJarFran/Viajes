@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "¥2,000–2,200 (book timed slot)"
 entry: paid
+tags: [touristic, top50]
 best_season: "all year round; rooftop open-air"
 best_time: sunset
 link: "https://www.shibuyasky.jp/"

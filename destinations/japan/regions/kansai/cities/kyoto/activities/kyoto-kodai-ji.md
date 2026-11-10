@@ -7,6 +7,7 @@ category: temple
 duration_hours: 1
 approx_cost: "¥600"
 entry: paid
+tags: [top50]
 best_season: "all year round"
 best_time: evening
 link: "https://www.kodaiji.jp/"

@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "¥2,200 (NOT covered by Amazing Pass after 15:00)"
 entry: paid
+tags: [touristic, top50]
 best_season: "all year round"
 best_time: sunset
 link: "https://www.abenoharukas-300.jp/"

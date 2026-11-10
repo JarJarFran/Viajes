@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "free (merch from ¥500)"
 entry: mixed
+tags: [top100]
 best_season: "all year round"
 best_time: anytime
 link: "https://www.pokemon.co.jp/shop/pokecen/tokyo/"

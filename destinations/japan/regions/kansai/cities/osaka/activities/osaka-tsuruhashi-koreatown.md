@@ -7,6 +7,7 @@ category: food
 duration_hours: 2
 approx_cost: "food ¥2,000–4,000 (yakiniku/Korean BBQ)"
 entry: mixed
+tags: [top50]
 best_season: "all year round"
 best_time: evening
 link: ""

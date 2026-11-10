@@ -7,6 +7,7 @@ category: transport
 duration_hours: 0.5
 approx_cost: "JR Kobe Line Osaka→Sannomiya ~¥420–560 (~20–30 min); Hankyu/Hanshin similar"
 entry: n/a
+tags: []
 best_season: "all year round"
 best_time: anytime
 link: ""

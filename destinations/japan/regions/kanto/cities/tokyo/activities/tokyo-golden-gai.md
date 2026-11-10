@@ -7,6 +7,7 @@ category: food
 duration_hours: 1.5
 approx_cost: "cover charge ¥500–1,500 + drinks ¥800–1,500"
 entry: mixed
+tags: [top50, night]
 best_season: "all year round"
 best_time: night
 link: ""

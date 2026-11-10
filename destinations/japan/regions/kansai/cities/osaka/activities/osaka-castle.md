@@ -7,6 +7,7 @@ category: history
 duration_hours: 3
 approx_cost: Tower ¥1,200 (park free)
 entry: mixed
+tags: [touristic, top50, iconic]
 best_season: all year round; Illuminage evenings Nov 20–Feb 14
 best_time: morning
 link: "https://www.osakacastle.net/"

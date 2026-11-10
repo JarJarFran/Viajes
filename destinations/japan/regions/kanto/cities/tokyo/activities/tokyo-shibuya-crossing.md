@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: free
 entry: free
+tags: [touristic, top50, iconic]
 best_season: all year round
 best_time: night
 link: ""

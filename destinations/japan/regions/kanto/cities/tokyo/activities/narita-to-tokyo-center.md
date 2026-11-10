@@ -7,6 +7,7 @@ category: transport
 duration_hours: 1
 approx_cost: "JR N'EX ¥3,140 to Tokyo/Shinjuku/Shibuya (~60 min); Keisei Skyliner to Ueno/Nippori ~¥2,600 (~41 min); limousine bus ¥1,500–3,800 by drop (60–90 min)"
 entry: n/a
+tags: []
 best_season: "all year round"
 best_time: anytime
 link: ""

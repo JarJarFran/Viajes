@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 2
 approx_cost: "free to browse; depachika bites ¥500–2,000"
 entry: mixed
+tags: [touristic, top50]
 best_season: "all year round; weekend pedestrian paradise on main street"
 best_time: afternoon
 link: ""

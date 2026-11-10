@@ -7,6 +7,7 @@ category: nature
 duration_hours: 2
 approx_cost: free (Tenryu-ji garden ¥500, Iwatayama Monkey Park ¥800)
 entry: mixed
+tags: [touristic, top50, iconic]
 best_season: all year round
 best_time: early morning
 link: ""

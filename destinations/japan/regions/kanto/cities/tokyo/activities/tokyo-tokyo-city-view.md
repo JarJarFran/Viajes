@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "¥2,200 online / ¥2,400 at counter"
 entry: paid
+tags: [top50]
 best_season: "all year round"
 best_time: sunset
 link: "https://www.roppongihills.com/"

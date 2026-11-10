@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 3
 approx_cost: "complex free; aquarium ¥2,600; planetarium ¥1,000–1,500"
 entry: mixed
+tags: [top50, kid-friendly]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.sunshinecity.co.jp/"

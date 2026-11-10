@@ -7,6 +7,7 @@ category: temple
 duration_hours: 3
 approx_cost: free
 entry: free
+tags: [touristic, top50, iconic]
 best_season: all year round
 best_time: early morning
 link: "https://inari.jp/en/"

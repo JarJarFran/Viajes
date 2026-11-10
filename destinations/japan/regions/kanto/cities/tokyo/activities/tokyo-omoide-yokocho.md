@@ -7,6 +7,7 @@ category: food
 duration_hours: 1
 approx_cost: "dinner ¥2,000–3,000 (yakitori skewers ¥150–300)"
 entry: mixed
+tags: [touristic, top50, night]
 best_season: "all year round"
 best_time: night
 link: ""

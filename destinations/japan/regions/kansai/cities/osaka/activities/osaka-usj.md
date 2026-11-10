@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 10
 approx_cost: "from ¥8,400, date-dependent (check web ticket store)"
 entry: paid
+tags: [touristic, top50, iconic, kid-friendly]
 best_season: "all year round; New Year week very crowded"
 best_time: full day
 link: "https://www.usj.co.jp/"

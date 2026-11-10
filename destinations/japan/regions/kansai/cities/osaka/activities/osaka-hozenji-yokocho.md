@@ -7,6 +7,7 @@ category: food
 duration_hours: 1
 approx_cost: "free to walk; dinner ¥2,000–5,000"
 entry: mixed
+tags: [touristic, top50, night]
 best_season: "all year round"
 best_time: evening
 link: ""

@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "¥1,500 Main Deck (¥2,800 Top Deck)"
 entry: paid
+tags: [touristic, top50, iconic]
 best_season: "all year round; lit up at night"
 best_time: sunset
 link: "https://www.tokyotower.co.jp/en/"

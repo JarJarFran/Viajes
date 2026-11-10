@@ -7,6 +7,7 @@ category: food
 duration_hours: 1.5
 approx_cost: "tastings ¥500–1,500; museum ¥600 with 3 tastings"
 entry: mixed
+tags: [top50]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.gekkeikan.co.jp/"

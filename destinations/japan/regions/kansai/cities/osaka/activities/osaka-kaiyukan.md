@@ -7,6 +7,7 @@ category: museums
 duration_hours: 3
 approx_cost: "¥2,700–3,500 dynamic by date (2026)"
 entry: paid
+tags: [touristic, top50, iconic]
 best_season: "all year round; longer hours at New Year"
 best_time: morning
 link: "https://www.kaiyukan.com/"

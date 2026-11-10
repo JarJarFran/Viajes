@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 4
 approx_cost: "free; Yurikamome monorail ~¥360/ride from Shimbashi"
 entry: mixed
+tags: [touristic, top50]
 best_season: "all year round; illuminations in winter"
 best_time: afternoon
 link: ""

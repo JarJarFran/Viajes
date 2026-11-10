@@ -7,6 +7,7 @@ category: event
 duration_hours: 2
 approx_cost: varies
 entry: free
+tags: [event, top100]
 best_season: Jan 1–7 mostly (some to mid-Jan)
 best_time: morning
 link: ""

@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 6
 approx_cost: "¥3,000–8,000 for the day"
 entry: paid
+tags: [touristic, top100]
 best_season: "all year round"
 best_time: morning
 link: ""

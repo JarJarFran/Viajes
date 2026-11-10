@@ -7,6 +7,7 @@ category: event
 duration_hours: 2
 approx_cost: free
 entry: free
+tags: [touristic, top50, night, event]
 best_season: Nov–Feb depending on spot
 best_time: night
 link: "https://www.gotokyo.org/en/spot/illuminations/"

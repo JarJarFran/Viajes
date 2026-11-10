@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1.5
 approx_cost: "free"
 entry: free
+tags: [top50]
 best_season: "all year round"
 best_time: afternoon
 link: ""

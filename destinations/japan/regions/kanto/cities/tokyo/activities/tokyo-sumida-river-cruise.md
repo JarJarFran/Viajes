@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1
 approx_cost: "¥1,000–1,700 depending on course"
 entry: paid
+tags: [top50]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.suijobus.co.jp/"

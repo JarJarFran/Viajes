@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 2
 approx_cost: "free; thrift/vinyl from ¥1,000"
 entry: mixed
+tags: [hidden-gem]
 best_season: "all year round"
 best_time: afternoon
 link: ""

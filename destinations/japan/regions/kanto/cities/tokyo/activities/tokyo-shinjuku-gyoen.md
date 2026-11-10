@@ -7,6 +7,7 @@ category: nature
 duration_hours: 2
 approx_cost: ¥500
 entry: paid
+tags: [touristic, top50]
 best_season: all year round
 best_time: morning
 link: "https://www.env.go.jp/garden/shinjukugyoen/english/"

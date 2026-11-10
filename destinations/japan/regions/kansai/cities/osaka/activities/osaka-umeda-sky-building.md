@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 1.5
 approx_cost: ¥2,000
 entry: paid
+tags: [touristic, top50, iconic]
 best_season: all year round
 best_time: sunset
 link: "https://www.skybldg.co.jp/en/"

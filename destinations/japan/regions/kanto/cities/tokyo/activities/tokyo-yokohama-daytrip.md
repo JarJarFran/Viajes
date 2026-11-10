@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 6
 approx_cost: "JR Shonan Line Tokyo→Yokohama ¥480 (~25–30 min); Minatomirai Line ¥320–460"
 entry: mixed
+tags: [touristic, top100]
 best_season: "all year round"
 best_time: afternoon
 link: ""

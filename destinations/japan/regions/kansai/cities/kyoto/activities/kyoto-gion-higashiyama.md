@@ -7,6 +7,7 @@ category: leisure
 duration_hours: 2
 approx_cost: free to walk; Pontocho dinner ¥5,000+
 entry: mixed
+tags: [touristic, top50, iconic, night]
 best_season: all year round
 best_time: evening
 link: ""

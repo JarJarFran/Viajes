@@ -7,6 +7,7 @@ category: temple
 duration_hours: 1.5
 approx_cost: "¥800 (Omuro palace area)"
 entry: paid
+tags: [touristic, top50, unesco]
 best_season: "all year round (late sakura famous)"
 best_time: morning
 link: "https://www.ninnaji.jp/"

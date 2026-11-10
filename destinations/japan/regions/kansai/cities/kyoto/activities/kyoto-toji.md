@@ -7,6 +7,7 @@ category: temple
 duration_hours: 1
 approx_cost: "grounds free; Kondo hall ¥500"
 entry: mixed
+tags: [touristic, top50, unesco]
 best_season: "all year round; Kobo-san flea market on the 21st"
 best_time: morning
 link: "https://www.toji.or.jp/"

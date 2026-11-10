@@ -7,6 +7,7 @@ category: museums
 duration_hours: 2
 approx_cost: "¥2,900–3,300 (free with Amazing Pass on set dates)"
 entry: mixed
+tags: [top50, kid-friendly]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.legolanddiscoverycenter.com/osaka/"

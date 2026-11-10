@@ -7,6 +7,7 @@ category: food
 duration_hours: 2
 approx_cost: free to walk; street food ¥150–500 per item; river cruise ~¥1,000
 entry: mixed
+tags: [touristic, top50, iconic, night]
 best_season: all year round
 best_time: night
 link: "https://www.dotonbori.or.jp/"

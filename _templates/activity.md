@@ -7,6 +7,7 @@ category: <temple | nature | food | museums | leisure | hiking | onsen | history
 duration_hours: null
 approx_cost: null     # amount + currency, or "free"
 entry: <free | paid | mixed | n/a>   # free = no entry fee; paid = entry ticket required; mixed = free to enter but typical spend inside; n/a = transport
+tags: []              # e.g. touristic, top50, top100, iconic, unesco, hidden-gem, night, event, kid-friendly, rainy-day
 area: <neighborhood>  # optional, to group activities by zone
 best_season: <months or "all year round">
 best_time: <morning | afternoon | night>

@@ -7,6 +7,7 @@ category: food
 duration_hours: 2
 approx_cost: grazing ¥2,000–3,000 per person
 entry: mixed
+tags: [touristic, top50]
 best_season: all year round
 best_time: late morning
 link: ""

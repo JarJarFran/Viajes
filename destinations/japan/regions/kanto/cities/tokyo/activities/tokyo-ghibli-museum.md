@@ -7,6 +7,7 @@ category: museums
 duration_hours: 2
 approx_cost: "¥1,000; tickets released on the 10th of each month for the next month"
 entry: paid
+tags: [touristic, top100]
 best_season: "all year round"
 best_time: morning
 link: "https://www.ghibli-museum.jp/"

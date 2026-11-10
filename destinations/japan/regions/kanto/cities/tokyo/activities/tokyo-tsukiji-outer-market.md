@@ -7,6 +7,7 @@ category: food
 duration_hours: 2
 approx_cost: 1500-3000 JPY per person
 entry: mixed
+tags: [touristic, top50]
 best_season: all year round
 best_time: morning
 link: "https://www.tsukiji.or.jp/"

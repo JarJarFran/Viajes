@@ -7,6 +7,7 @@ category: temple
 duration_hours: 1
 approx_cost: "¥600"
 entry: paid
+tags: [touristic, top50, unesco]
 best_season: "all year round; opens 8:00 (9:00 Dec–Feb)"
 best_time: morning
 link: "https://www.ryoanji.jp/"
