@@ -7,6 +7,8 @@ cuisine: bento & prepared food
 price_range: ¥-¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Shinjuku / Ginza
 link: ""
+tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

@@ -4,7 +4,7 @@ type: event
 name: Tokyo winter illuminations (January)
 place: japan/kanto/tokyo
 duration_hours: 2
-start: 2026-11-11
+start: 2026-11-12
 end: 2027-02-14
 approx_cost: free
 entry: free

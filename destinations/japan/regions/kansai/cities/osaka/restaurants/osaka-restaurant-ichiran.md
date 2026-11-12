@@ -7,6 +7,8 @@ cuisine: ramen (tonkotsu)
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Dotonbori, Namba
 link: "https://ichiran.com/"
+tabelog: "https://tabelog.com/en/osaka/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

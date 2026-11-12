@@ -7,6 +7,8 @@ cuisine: okonomiyaki
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Dotonbori, Namba
 link: "https://www.mizuno.co.jp/"
+tabelog: "https://tabelog.com/en/osaka/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

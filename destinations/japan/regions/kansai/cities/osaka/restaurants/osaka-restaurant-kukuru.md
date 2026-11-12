@@ -7,6 +7,8 @@ cuisine: takoyaki
 price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Dotonbori, Namba
 link: ""
+tabelog: "https://tabelog.com/en/osaka/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

@@ -7,6 +7,8 @@ cuisine: kaiseki
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Gion
 link: "https://www.gionkaryo.co.jp/"
+tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

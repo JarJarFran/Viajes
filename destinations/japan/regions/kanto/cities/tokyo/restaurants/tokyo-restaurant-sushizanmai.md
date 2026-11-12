@@ -7,6 +7,8 @@ cuisine: sushi
 price_range: ¥¥-¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Tsukiji Outer Market
 link: "https://www.sushi-zanmai.com/"
+tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

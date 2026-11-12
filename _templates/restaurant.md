@@ -7,6 +7,8 @@ cuisine: <ramen | sushi | okonomiyaki | kushikatsu | kaiseki | izakaya | ...>
 price_range: ¥        # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: <neighborhood>
 link: ""
+tabelog: ""            # tabelog.com/en page or area search URL for this restaurant
+tabelog_rating: null   # Tabelog score (0-5; 3.5+ = excellent), null if not checked
 done_in: []           # trip ids
 rating: null          # 1-5 once we eat there
 ---

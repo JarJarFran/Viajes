@@ -51,7 +51,7 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 
 ## Transport passes
 
-- **Osaka Amazing Pass**: ¥2,800 (1 day) / ¥3,600 (2 days) — unlimited Osaka Metro + free entry to ~40 attractions (castle tower, Umeda Sky Building, Tsutenkaku). Not USJ/Kaiyukan.
+- **Osaka Amazing Pass**: ¥2,800–3,600 (1 day) / ¥3,600–5,000 (2 days) — price varies by edition, check current — unlimited Osaka Metro + free entry to ~40 attractions (castle tower, Umeda Sky Building, Tsutenkaku). Not USJ/Kaiyukan.
 - IC card (ICOCA) for everything else.
 
 ## Data sources

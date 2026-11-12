@@ -42,8 +42,8 @@ Osaka (2026-12-26 → 2027-01-02, incl. New Year's Eve) → Kyoto (2027-01-02 �
 
 ## Transport plan
 
-- **No JR Pass**: golden route Tokyo–Kyoto–Osaka point-to-point ≈ ¥29,000 vs ¥50,000 for a 7-day pass (¥53,000 from Oct 2026 via agencies). Buy individual shinkansen tickets (Hikari) + IC card.
-- Kyoto → Tokyo (Jan 8 or 9, 2027): Hikari shinkansen ~2 h 15 min, non-reserved ¥13,320 / reserved ~¥14,090; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX.
+- **No JR Pass**: golden route Tokyo–Kyoto–Osaka point-to-point ≈ ¥29,000 vs ¥53,000 for a 7-day pass (price since 2026-10-01). Buy individual shinkansen tickets (Hikari) + IC card.
+- Kyoto → Tokyo (Jan 8 or 9, 2027): Hikari shinkansen ~2 h 15 min, non-reserved ¥13,320 / reserved ~¥13,800–14,170; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX.
 - Osaka → Kyoto (Jan 2, 2027): JR Special Rapid ¥580 (24–28 min) or Hankyu ¥410–460 — no shinkansen needed.
 - Local: ICOCA in Kansai, Suica/Pasmo in Tokyo. Osaka Amazing Pass (¥2,800/¥3,600) optional; Kyoto Subway & Bus 1-Day Pass ¥1,100.
 - See [Inter-city & airport transport prices](#inter-city--airport-transport-prices-2025fares-check-current) below and each city's `activities/` transport records.
@@ -81,6 +81,7 @@ Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. S
 
 ## Booking checklist
 
+- [ ] **2026-12-05 10:00 JST (2026-12-05 01:00 UTC)**: buy sumo tickets on sumo.pia.jp/en (event `on_sale`) — set alarm; create account + SMS verify beforehand
 - [ ] Flights: into KIX 2026-12-26, out of NRT/HND 2027-01-23
 - [ ] Hotels: Osaka 7 nights, Kyoto 6 nights, Tokyo 14 nights (book NYE nights Dec 29–Jan 3 first — prices spike)
 - [ ] teamLab Planets / Borderless tickets (book 1–2 weeks ahead; Planets closes end of 2027)

@@ -7,6 +7,8 @@ cuisine: kushikatsu
 price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Shinsekai
 link: "https://www.kushikatsu-daruma.co.jp/"
+tabelog: "https://tabelog.com/en/osaka/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

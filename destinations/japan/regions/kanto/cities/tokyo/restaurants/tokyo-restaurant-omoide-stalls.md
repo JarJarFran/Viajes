@@ -7,6 +7,8 @@ cuisine: yakitori
 price_range: ¥-¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Shinjuku (west exit)
 link: ""
+tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

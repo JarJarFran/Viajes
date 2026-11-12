@@ -7,6 +7,8 @@ cuisine: pork buns (butaman)
 price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Namba / Osaka Station area
 link: "https://www.551horai.co.jp/"
+tabelog: "https://tabelog.com/en/osaka/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---

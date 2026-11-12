@@ -7,6 +7,8 @@ cuisine: kaiseki
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Higashiyama (near Kodai-ji)
 link: "https://kikunoi.com/"
+tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+tabelog_rating: null
 done_in: []
 rating: null
 ---
