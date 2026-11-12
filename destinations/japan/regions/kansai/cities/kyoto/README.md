@@ -13,7 +13,7 @@ likes: [temples_and_shrines, traditional_culture, local_food, history_and_castle
 activities: [kix-to-kyoto, kyoto-aquarium, kyoto-arashiyama-bamboo, kyoto-eikan-do, kyoto-fushimi-inari, kyoto-fushimi-sake-district, kyoto-ginkaku-ji, kyoto-gion-higashiyama, kyoto-himeji-daytrip, kyoto-imamiya-shrine, kyoto-imperial-palace, kyoto-katsura-imperial-villa, kyoto-kennin-ji, kyoto-kimono-rental, kyoto-kinkaku-ji, kyoto-kiyomizu-dera, kyoto-kodai-ji, kyoto-kurama-kibune-hike, kyoto-maruyama-park, kyoto-monkey-park-iwatayama, kyoto-nanzen-ji, kyoto-nara-daytrip, kyoto-nijo-castle, kyoto-ninna-ji, kyoto-nishiki-market, kyoto-philosophers-path, kyoto-pontocho, kyoto-railway-museum, kyoto-ryoan-ji, kyoto-sagano-romantic-train, kyoto-sanjusangen-do, kyoto-sannenzaka-ninenzaka, kyoto-tea-ceremony, kyoto-to-tokyo, kyoto-tofuku-ji, kyoto-toji, kyoto-uji-daytrip, kyoto-yasaka-pagoda]
 hotels: [kyoto-hotel-granvia-kyoto, kyoto-hotel-kanra, kyoto-hotel-mitsui-garden-sanjo]
 events: [kyoto-hatsumode, kyoto-joya-no-kane, kyoto-toka-ebisu]
-restaurants: [kyoto-restaurant-gion-karyo, kyoto-restaurant-kikunoi, kyoto-restaurant-menbakaichidai, kyoto-restaurant-nakamura-tokichi, kyoto-restaurant-nishiki-warai, kyoto-restaurant-omen]
+restaurants: [kyoto-restaurant-gion-karyo, kyoto-restaurant-gion-tanto, kyoto-restaurant-gyoza-chaochao, kyoto-restaurant-kikunoi, kyoto-restaurant-menbakaichidai, kyoto-restaurant-menya-inoichi, kyoto-restaurant-nakamura-tokichi, kyoto-restaurant-nishiki-warai, kyoto-restaurant-omen, kyoto-restaurant-tiger-gyoza]
 trips: [2026-japan]
 ---
 
