@@ -9,6 +9,7 @@ area: Nishiki Market area
 link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: null
+tags: []
 done_in: []
 rating: null
 ---

@@ -9,6 +9,7 @@ area: Gion / Nanzen-ji area (Kodai-ji branch)
 link: "https://www.omen-nippon.com/"
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: null
+tags: []
 done_in: []
 rating: null
 ---

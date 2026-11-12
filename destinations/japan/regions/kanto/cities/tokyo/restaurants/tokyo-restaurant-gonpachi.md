@@ -7,8 +7,9 @@ cuisine: izakaya (Kill Bill set)
 price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Nishi-Azabu, Roppongi
 link: "https://www.gonpachi.jp/"
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: null
+tabelog: "https://tabelog.com/en/tokyo/A1307/A130701/13005298/"
+tabelog_rating: 3.38   # checked tabelog.com/en 2026-11
+tags: []
 done_in: []
 rating: null
 ---

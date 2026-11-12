@@ -7,8 +7,9 @@ cuisine: matcha sweets & soba
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Uji (main) / Kawaramachi, Kyoto
 link: "https://tokichi.co.jp/"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: null
+tabelog: "https://tabelog.com/en/kyoto/A2601/A260101/26005903/"
+tabelog_rating: 3.54   # checked tabelog.com/en 2026-11
+tags: [top-rated]
 done_in: []
 rating: null
 ---

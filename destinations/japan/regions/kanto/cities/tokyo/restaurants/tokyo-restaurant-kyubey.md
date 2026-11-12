@@ -7,8 +7,9 @@ cuisine: sushi (omakase)
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Ginza
 link: "https://www.kyubey.jp/"
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: null
+tabelog: "https://tabelog.com/en/tokyo/A1301/A130103/13002611/"
+tabelog_rating: 3.67   # checked tabelog.com/en 2026-11
+tags: [top-rated]
 done_in: []
 rating: null
 ---
