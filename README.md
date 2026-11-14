@@ -77,6 +77,8 @@ trip ──stops.activities─────────────────�
 - [e-Stat API](https://www.e-stat.go.jp/api/) — official statistics of Japan
 - **Tabelog (restaurant data)**: no official API. Use [tabelog.com/en](https://tabelog.com/en/) manually (907k+ restaurants, search by area/cuisine/budget; score 0–5, 3.5+ = excellent) and link each restaurant node via its `tabelog:` field. For bulk data: pre-scraped datasets on Kaggle (e.g. "Tokyo Restaurant Reviews on Tabelog", "Kyoto Restaurant Reviews Dataset"). Unofficial scrapers exist on GitHub (RTabelog, gurume CLI, tabetree_api, Apify actors) but Tabelog rate-limits/blocks mass scraping (reCAPTCHA) and its ToS disallow it — prefer the website or the published datasets.
 
+Current restaurant catalog (scores read on tabelog.com/en category lists, 2026-11): **Tokyo 132 restaurants (61 with tabelog_rating >= 3.5 and < ¥5,000/person), Kyoto 110 (51), Osaka 130 (51)** — 372 restaurant nodes in total.
+
 ## Index
 
 - [profile.yaml](profile.yaml) — what we like (basis for affinity)
