@@ -111,11 +111,12 @@ for nid, n in sorted(nodes.items()):
     if t == "day":
         if n.get("trip") not in nodes:
             errors.append(f"{fp}: day trip {n.get('trip')} unknown")
+        allowed = {s.get("place") for s in nodes[n["trip"]].get("stops", [])} if n.get("trip") in nodes else {n.get("place")}
         for a in n.get("plan") or []:
             if a not in nodes:
                 errors.append(f"{fp}: plan id {a} unknown")
-            elif nodes[a].get("place") != n.get("place"):
-                errors.append(f"{fp}: plan id {a} is not in {n.get('place')}")
+            elif nodes[a].get("place") not in allowed:
+                errors.append(f"{fp}: plan id {a} is not in a stop of trip {n.get('trip')}")
         for ev in n.get("events") or []:
             if ev not in nodes:
                 errors.append(f"{fp}: day event {ev} unknown")
