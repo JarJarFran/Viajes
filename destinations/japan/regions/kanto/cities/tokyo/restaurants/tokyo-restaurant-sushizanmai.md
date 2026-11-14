@@ -4,14 +4,12 @@ type: restaurant
 name: Sushi Zanmai (Tsukiji)
 place: japan/kanto/tokyo
 cuisine: sushi
-price_range: ¥¥-¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
+price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Tsukiji Outer Market
 link: "https://www.sushi-zanmai.com/"
 tabelog: "https://tabelog.com/en/tokyo/A1313/A131301/13002302/"
 tabelog_rating: 3.42   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Sushi Zanmai (Tsukiji)

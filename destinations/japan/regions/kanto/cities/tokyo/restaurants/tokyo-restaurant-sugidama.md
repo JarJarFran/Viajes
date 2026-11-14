@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: ramen / izakaya
 price_range: ¥¥
 area: Marunouchi (Otemachi)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: 3.64   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Niboshi to Nihonshu Sugidama

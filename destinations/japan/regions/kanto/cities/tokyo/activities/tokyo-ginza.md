@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-imperial-palace, tokyo-pokemon-center]
 best_season: "all year round; weekend pedestrian paradise on main street"
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Ginza (shopping & depachika)

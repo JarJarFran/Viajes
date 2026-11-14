@@ -15,8 +15,6 @@ near: [tokyo-tmg-observatory, tokyo-golden-gai, tokyo-omoide-yokocho]
 best_season: all year round
 best_time: morning
 link: "https://www.env.go.jp/garden/shinjukugyoen/english/"
-done_in: []
-rating: null
 ---
 
 # Shinjuku Gyoen National Garden

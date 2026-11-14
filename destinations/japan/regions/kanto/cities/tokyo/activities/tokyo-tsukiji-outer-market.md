@@ -15,8 +15,6 @@ near: []
 best_season: all year round
 best_time: morning
 link: "https://www.tsukiji.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Tsukiji Outer Market

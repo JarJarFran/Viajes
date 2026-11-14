@@ -15,8 +15,6 @@ near: [osaka-castle, osaka-museum-of-history, osaka-shitennoji, osaka-abeno-haru
 best_season: "all year round"
 best_time: morning
 link: "https://www.city.osaka.lg.jp/"
-done_in: []
-rating: null
 ---
 
 # Tennoji Park & Osaka City Zoo

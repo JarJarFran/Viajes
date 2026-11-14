@@ -15,8 +15,6 @@ near: [kyoto-arashiyama-bamboo, kyoto-sagano-romantic-train]
 best_season: "all year round (open in winter; macaques fluffiest)"
 best_time: morning
 link: "https://www.monkeypolice.com/"
-done_in: []
-rating: null
 ---
 
 # Iwatayama Monkey Park

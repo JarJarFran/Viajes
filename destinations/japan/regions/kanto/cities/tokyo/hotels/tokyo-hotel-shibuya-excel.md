@@ -6,8 +6,6 @@ place: japan/kanto/tokyo
 area: Shibuya
 price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.shibuyuexcel.jp/"
-done_in: []
-rating: null
 ---
 
 # Shibuya Excel Hotel Tokyu

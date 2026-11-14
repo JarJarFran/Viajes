@@ -15,8 +15,6 @@ near: []
 best_season: "all year round (Fuji views on clear days)"
 best_time: full day
 link: "https://www.hakone.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Day trip to Hakone (onsen, Lake Ashi)

@@ -15,8 +15,6 @@ near: [tokyo-shinjuku-gyoen, tokyo-golden-gai, tokyo-omoide-yokocho]
 best_season: all year round
 best_time: sunset
 link: "https://www.yokoso.metro.tokyo.lg.jp/en/spot/403/"
-done_in: []
-rating: null
 ---
 
 # Tokyo Metropolitan Government Building observatory (45F)

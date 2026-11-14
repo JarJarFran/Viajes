@@ -6,12 +6,6 @@ path: japan/kyushu/kumamoto
 country: japan
 region: kyushu
 prefecture: Kumamoto
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Kumamoto
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

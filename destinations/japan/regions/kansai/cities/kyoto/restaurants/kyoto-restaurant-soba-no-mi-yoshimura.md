@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: soba, izakaya, cafe
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Gojo / Kiyomizu
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Soba no Mi Yoshimura

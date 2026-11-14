@@ -6,12 +6,6 @@ path: japan/hokkaido/hakodate
 country: japan
 region: hokkaido
 prefecture: Hokkaido
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Hakodate
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

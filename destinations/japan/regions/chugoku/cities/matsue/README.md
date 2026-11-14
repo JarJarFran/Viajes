@@ -6,12 +6,6 @@ path: japan/chugoku/matsue
 country: japan
 region: chugoku
 prefecture: Shimane
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Matsue
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

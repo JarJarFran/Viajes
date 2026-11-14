@@ -9,10 +9,6 @@ language: Japanese
 capital: tokyo
 timezone: UTC+9
 plugs: type A/B (100 V)
-contains: [hokkaido, tohoku, kanto, chubu, kansai, chugoku, shikoku, kyushu]
-affinity: null
-likes: []
-trips: [2026-japan]
 ---
 
 # Japan

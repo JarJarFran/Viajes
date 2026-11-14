@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round"
 best_time: morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # Osaka → Kyoto (Jan 2 move)

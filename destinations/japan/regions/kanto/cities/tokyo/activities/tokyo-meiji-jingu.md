@@ -15,8 +15,6 @@ near: [tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-harajuku-takeshita]
 best_season: all year round (autumn and winter with the forest of 100,000 trees)
 best_time: morning
 link: "https://www.meijijingu.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Meiji Shrine (Meiji Jingu)

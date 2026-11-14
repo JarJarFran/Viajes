@@ -8,12 +8,7 @@ region: kanto
 prefecture: Kanagawa
 population: 170000
 coords: [35.3192, 139.5467]
-affinity: null
 likes: [temples_and_shrines, history_and_castles, nature_and_mountains]
-activities: [kamakura-day-trip]
-hotels: []
-events: []
-trips: []
 ---
 
 # Kamakura
@@ -33,4 +28,9 @@ Former samurai capital (12th–14th c.), 1 h from Tokyo. Temples, the Great Budd
 
 - Shirasu (whitebait) bowls by the beach; cafes around Tsurugaoka Hachimangu.
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

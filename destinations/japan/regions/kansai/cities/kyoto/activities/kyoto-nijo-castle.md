@@ -15,8 +15,6 @@ near: [kyoto-toji]
 best_season: all year round; note year-end closures
 best_time: morning
 link: "https://nijo-jocastle.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Nijo Castle

@@ -14,9 +14,6 @@ booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-eikan-do]
 best_season: "all year round (sakura top spot)"
 best_time: anytime
-link: ""
-done_in: []
-rating: null
 ---
 
 # Maruyama Park

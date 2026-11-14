@@ -15,8 +15,6 @@ near: []
 best_season: "all year round (snowy in Jan)"
 best_time: full day
 link: "https://www.nikko.jp/"
-done_in: []
-rating: null
 ---
 
 # Day trip to Nikko (Toshogu shrine)

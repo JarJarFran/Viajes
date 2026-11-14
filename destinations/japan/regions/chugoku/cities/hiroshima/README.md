@@ -6,12 +6,6 @@ path: japan/chugoku/hiroshima
 country: japan
 region: chugoku
 prefecture: Hiroshima
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Hiroshima
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

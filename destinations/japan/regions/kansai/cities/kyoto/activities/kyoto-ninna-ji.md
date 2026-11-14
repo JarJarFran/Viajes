@@ -15,8 +15,6 @@ near: [kyoto-kinkaku-ji, kyoto-ryoan-ji]
 best_season: "all year round (late sakura famous)"
 best_time: morning
 link: "https://www.ninnaji.jp/"
-done_in: []
-rating: null
 ---
 
 # Ninna-ji

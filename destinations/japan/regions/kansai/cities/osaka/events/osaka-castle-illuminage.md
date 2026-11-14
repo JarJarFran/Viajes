@@ -12,8 +12,6 @@ tags: [top50, night, event]
 best_season: Nov 20–Feb 14
 best_time: night
 link: "https://www.osakacastle.net/"
-done_in: []
-rating: null
 ---
 
 # Osaka Castle Illuminage (winter light show)

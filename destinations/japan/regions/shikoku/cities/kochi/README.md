@@ -6,12 +6,6 @@ path: japan/shikoku/kochi
 country: japan
 region: shikoku
 prefecture: Kochi
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Kochi
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

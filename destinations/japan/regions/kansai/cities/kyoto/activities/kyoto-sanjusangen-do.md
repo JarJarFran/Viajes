@@ -15,8 +15,6 @@ near: []
 best_season: all year round; winter hours 9:00–16:00
 best_time: morning
 link: "https://www.kenkun.jp/"
-done_in: []
-rating: null
 ---
 
 # Sanjusangen-do (1,001 Kannon statues)

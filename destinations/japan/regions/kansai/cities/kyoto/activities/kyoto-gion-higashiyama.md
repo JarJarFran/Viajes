@@ -14,9 +14,6 @@ booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: all year round
 best_time: evening
-link: ""
-done_in: []
-rating: null
 ---
 
 # Gion & Higashiyama at dusk

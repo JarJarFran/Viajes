@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.expo70-park.jp/"
-done_in: []
-rating: null
 ---
 
 # Tower of the Sun (Expo '70 Commemorative Park)

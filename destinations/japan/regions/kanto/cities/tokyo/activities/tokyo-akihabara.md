@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-ueno-park, tokyo-yanaka]
 best_season: all year round
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Akihabara (Electric Town)

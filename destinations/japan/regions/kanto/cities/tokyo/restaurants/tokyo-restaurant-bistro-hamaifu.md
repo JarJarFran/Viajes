@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: bistro / french
 price_range: ¥
 area: Shintomicho (Tsukiji)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: 3.6   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Bistro Hamaifu

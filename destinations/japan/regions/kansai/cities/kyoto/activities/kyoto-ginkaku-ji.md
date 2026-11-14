@@ -15,8 +15,6 @@ near: [kyoto-philosophers-path, kyoto-nanzen-ji]
 best_season: "all year round; winter 9:00–16:30"
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/ginkakuji/"
-done_in: []
-rating: null
 ---
 
 # Ginkaku-ji (Silver Pavilion)

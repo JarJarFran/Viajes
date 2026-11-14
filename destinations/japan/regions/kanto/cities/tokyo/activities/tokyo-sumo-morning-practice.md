@@ -15,8 +15,6 @@ near: [tokyo-edotokyo-museum, tokyo-sumo-tournament]
 best_season: outside tournament months
 best_time: early morning
 link: "https://www.viator.com/"
-done_in: []
-rating: null
 ---
 
 # Sumo morning practice (keiko / asageiko)

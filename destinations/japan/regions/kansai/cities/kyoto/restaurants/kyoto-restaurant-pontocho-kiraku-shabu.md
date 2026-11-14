@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: shabu / sukiyaki
 price_range: ¥¥¥
 area: Pontocho
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: 3.64   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Pontocho Shabushabu Sukiyaki Kiraku

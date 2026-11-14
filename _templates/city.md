@@ -10,11 +10,9 @@ population: null
 coords: [lat, lng]
 affinity: null
 likes: []
-activities: []        # ids of records in activities/
-events: []            # ids of records in events/
-restaurants: []       # ids of records in restaurants/
-hotels: []            # ids of records in hotels/
-trips: []
+# NOTE: activities/events/restaurants/hotels/trips lists are DERIVED from the
+# `place` fields of the child nodes and materialized in exports/ — do not add
+# them here (scripts/sync.py strips them). See AGENTS.md.
 ---
 
 # <Name>
@@ -22,6 +20,8 @@ trips: []
 ## How to get there
 
 ## What to see and do
+<!-- gen:start restaurants -->
+<!-- gen:end restaurants -->
 
 ## Where to eat
 

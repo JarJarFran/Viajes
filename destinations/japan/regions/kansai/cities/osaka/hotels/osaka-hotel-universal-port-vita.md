@@ -6,8 +6,6 @@ place: japan/kansai/osaka
 area: Universal City (USJ)
 price_range: ¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.hoteluniversalportvita.jp/"
-done_in: []
-rating: null
 ---
 
 # Hotel Universal Port Vita

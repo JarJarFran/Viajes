@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: yakiniku, tripe, izakaya
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Shinjuku (Kabukicho)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Yakiniku Gu Shinjuku

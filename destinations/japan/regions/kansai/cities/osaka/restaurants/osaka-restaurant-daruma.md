@@ -10,8 +10,6 @@ link: "https://www.kushikatsu-daruma.co.jp/"
 tabelog: "https://tabelog.com/en/osaka/A2701/A270206/27083941/"
 tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Daruma (Shinsekai)

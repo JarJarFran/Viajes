@@ -15,8 +15,6 @@ near: [kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, 
 best_season: all year round
 best_time: morning
 link: "https://www.kiyomizu.or.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Kiyomizu-dera & Higashiyama slopes

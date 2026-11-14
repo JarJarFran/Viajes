@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; best after dark"
 best_time: night
 link: "https://www.dotonbori.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Tombori River Cruise

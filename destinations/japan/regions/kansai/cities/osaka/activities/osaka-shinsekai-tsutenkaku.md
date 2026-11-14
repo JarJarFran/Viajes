@@ -15,8 +15,6 @@ near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-ho
 best_season: all year round
 best_time: afternoon
 link: "https://www.tsutenkaku.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Shinsekai & Tsutenkaku Tower

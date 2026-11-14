@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: "cafe, bread, sweets"
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Arashiyama"
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.39   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Pan to Espresso to Arashiyama Teien

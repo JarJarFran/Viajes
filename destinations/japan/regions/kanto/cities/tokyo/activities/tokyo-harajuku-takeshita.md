@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-meiji-jingu]
 best_season: "all year round"
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Harajuku & Takeshita Street

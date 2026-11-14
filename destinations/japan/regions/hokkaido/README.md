@@ -5,10 +5,6 @@ name: Hokkaido
 path: japan/hokkaido
 country: japan
 prefectures: [Hokkaido]
-contains: [sapporo, hakodate, otaru, furano]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Hokkaido

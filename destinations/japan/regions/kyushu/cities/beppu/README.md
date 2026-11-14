@@ -6,12 +6,6 @@ path: japan/kyushu/beppu
 country: japan
 region: kyushu
 prefecture: Oita
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Beppu
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

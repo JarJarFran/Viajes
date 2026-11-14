@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: tempura
 price_range: ¥¥¥
 area: Koenji
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Tensuke

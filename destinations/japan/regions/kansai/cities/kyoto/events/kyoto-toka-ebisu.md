@@ -12,8 +12,6 @@ tags: [event, top100]
 best_season: Jan 8–12 every year (main day Jan 10)
 best_time: evening
 link: "https://www.ebisujinja.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Toka Ebisu festival at Ebisu-jinja (Gion)

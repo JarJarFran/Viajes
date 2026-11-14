@@ -6,12 +6,6 @@ path: japan/chugoku/tottori
 country: japan
 region: chugoku
 prefecture: Tottori
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Tottori
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

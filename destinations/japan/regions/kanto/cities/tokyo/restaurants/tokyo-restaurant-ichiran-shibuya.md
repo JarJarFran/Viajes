@@ -10,8 +10,6 @@ link: "https://ichiran.com/"
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Ichiran (Shibuya)

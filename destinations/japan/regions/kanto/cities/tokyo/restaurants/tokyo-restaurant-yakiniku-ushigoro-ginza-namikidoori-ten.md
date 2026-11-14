@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: yakiniku, steak, tripe
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Ginza
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.68   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Yakiniku Ushigoro Ginza namikidoori ten

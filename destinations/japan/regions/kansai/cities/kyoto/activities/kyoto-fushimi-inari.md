@@ -15,8 +15,6 @@ near: [kyoto-fushimi-sake-district]
 best_season: all year round
 best_time: early morning
 link: "https://inari.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Fushimi Inari Taisha (Senbon Torii)

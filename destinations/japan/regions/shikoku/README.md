@@ -5,10 +5,6 @@ name: Shikoku
 path: japan/shikoku
 country: japan
 prefectures: [Tokushima, Kagawa, Ehime, Kochi]
-contains: [takamatsu, matsuyama, kochi, tokushima]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Shikoku

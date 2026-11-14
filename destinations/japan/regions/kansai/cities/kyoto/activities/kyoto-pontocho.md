@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round"
 best_time: evening
-link: ""
-done_in: []
-rating: null
 ---
 
 # Pontocho alley

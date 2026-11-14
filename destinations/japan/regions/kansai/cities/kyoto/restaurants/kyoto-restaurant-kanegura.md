@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: izakaya, nabe (wagyu hot pot)
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Shijo
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.69   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # KANEGURA

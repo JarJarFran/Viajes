@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: izakaya, Kyoto vegetable dishes, seafood
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Pontocho
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.41   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Pontocho Suishin Honten

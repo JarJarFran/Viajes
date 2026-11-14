@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; closed Mondays"
 best_time: morning
 link: "https://www.edo-tokyo-museum.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Edo-Tokyo Museum (Ryogoku)

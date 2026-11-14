@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round"
 best_time: anytime
-link: ""
-done_in: []
-rating: null
 ---
 
 # Day trip Osaka → Kobe

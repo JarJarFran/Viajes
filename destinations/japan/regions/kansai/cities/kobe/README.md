@@ -6,12 +6,6 @@ path: japan/kansai/kobe
 country: japan
 region: kansai
 prefecture: Hyogo
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Kobe
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

@@ -15,8 +15,6 @@ near: [tokyo-shibuya-crossing, tokyo-meiji-jingu, tokyo-harajuku-takeshita]
 best_season: "all year round; rooftop open-air"
 best_time: sunset
 link: "https://www.shibuyasky.jp/"
-done_in: []
-rating: null
 ---
 
 # Shibuya Sky (observation deck)

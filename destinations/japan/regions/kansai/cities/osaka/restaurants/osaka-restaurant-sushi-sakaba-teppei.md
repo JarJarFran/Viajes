@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: sushi / izakaya
 price_range: ¥¥¥
 area: Higashi Umeda
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: 3.52   # checked tabelog.com/en 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Sushi Sakaba Teppei

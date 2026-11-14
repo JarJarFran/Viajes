@@ -6,12 +6,6 @@ path: japan/chubu/takayama
 country: japan
 region: chubu
 prefecture: Gifu
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Takayama
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

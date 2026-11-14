@@ -15,8 +15,6 @@ near: [osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-na
 best_season: all year round
 best_time: night
 link: "https://www.dotonbori.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Dotonbori & Shinsaibashi at night

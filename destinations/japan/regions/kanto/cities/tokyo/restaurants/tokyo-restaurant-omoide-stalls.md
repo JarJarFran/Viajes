@@ -4,14 +4,11 @@ type: restaurant
 name: Omoide Yokocho yakitori stalls
 place: japan/kanto/tokyo
 cuisine: yakitori
-price_range: ¥-¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
+price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Shinjuku (west exit)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Omoide Yokocho yakitori stalls

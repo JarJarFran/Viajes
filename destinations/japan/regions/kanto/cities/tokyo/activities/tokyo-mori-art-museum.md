@@ -15,8 +15,6 @@ near: [tokyo-tokyo-city-view, tokyo-teamlab-borderless]
 best_season: "all year round; exhibitions rotate ~every 4 months"
 best_time: afternoon
 link: "https://www.mori.art.museum/"
-done_in: []
-rating: null
 ---
 
 # Mori Art Museum (Roppongi Hills 53F)

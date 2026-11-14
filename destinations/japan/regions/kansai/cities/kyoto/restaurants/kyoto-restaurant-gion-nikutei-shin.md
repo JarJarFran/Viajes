@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: beef / japanese
 price_range: ¥¥
 area: Gion
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: 3.57   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Gion Nikutei Shin

@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: wagyu all-you-can-eat, yakiniku, buffet
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Akihabara
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.4   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Wagyu Houdai no Dendo Akihabara Nikuya Yokocho

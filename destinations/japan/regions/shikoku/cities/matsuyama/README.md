@@ -6,12 +6,6 @@ path: japan/shikoku/matsuyama
 country: japan
 region: shikoku
 prefecture: Ehime
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Matsuyama
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

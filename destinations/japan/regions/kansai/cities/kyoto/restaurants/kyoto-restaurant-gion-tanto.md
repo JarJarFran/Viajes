@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: okonomiyaki / teppanyaki
 price_range: ¥¥
 area: Gion
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Gion Tanto

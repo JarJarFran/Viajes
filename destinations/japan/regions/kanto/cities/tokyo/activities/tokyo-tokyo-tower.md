@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; lit up at night"
 best_time: sunset
 link: "https://www.tokyotower.co.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Tokyo Tower

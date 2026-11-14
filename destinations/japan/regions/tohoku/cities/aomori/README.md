@@ -6,12 +6,6 @@ path: japan/tohoku/aomori
 country: japan
 region: tohoku
 prefecture: Aomori
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Aomori
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

@@ -15,8 +15,6 @@ near: [osaka-umeda-sky-building, osaka-nakazakicho]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.osaka-info.jp/"
-done_in: []
-rating: null
 ---
 
 # Osaka Central Public Hall & Nakanoshima

@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: yakiniku (all-you-can-eat), izakaya
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Shibuya (Udagawacho)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.24   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Nikuya Yokocho Udagawacho

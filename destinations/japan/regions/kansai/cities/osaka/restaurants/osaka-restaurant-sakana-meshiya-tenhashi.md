@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: izakaya / robatayaki seafood
 price_range: ¥¥¥
 area: Tennoji
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: 3.56   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Sakana no Meshiya Tenhashi

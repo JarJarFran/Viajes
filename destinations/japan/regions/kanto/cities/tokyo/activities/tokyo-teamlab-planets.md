@@ -15,8 +15,6 @@ near: []
 best_season: all year round; venue closes end of 2027
 best_time: afternoon
 link: "https://www.teamlab.art/e/planets/"
-done_in: []
-rating: null
 ---
 
 # teamLab Planets (Toyosu)

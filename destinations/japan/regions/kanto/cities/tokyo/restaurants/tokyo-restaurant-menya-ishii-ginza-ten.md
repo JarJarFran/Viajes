@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: udon
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Ginza
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.3   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Menya Ishii Ginza Ten

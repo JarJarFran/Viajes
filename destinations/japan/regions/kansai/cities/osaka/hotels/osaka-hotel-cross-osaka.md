@@ -6,8 +6,6 @@ place: japan/kansai/osaka
 area: Dotonbori, Namba
 price_range: ¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.crosshotel.com/osaka/"
-done_in: []
-rating: null
 ---
 
 # Cross Hotel Osaka

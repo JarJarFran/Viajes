@@ -9,10 +9,10 @@ language: <language>
 capital: <capital-city-id>
 timezone: <UTC offset>
 plugs: <plug types>
-contains: [<region-id>, ...]
 affinity: null        # 1-5 once we rate it
 likes: []             # tags from profile.yaml
-trips: []             # trip ids in trips/
+# NOTE: contains/trips are DERIVED from child nodes (region.country, trip stops)
+# and materialized in exports/ — do not add them here. See AGENTS.md.
 ---
 
 # <Name>

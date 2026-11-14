@@ -15,8 +15,6 @@ near: [osaka-nakazakicho, osaka-central-public-hall]
 best_season: all year round
 best_time: sunset
 link: "https://www.skybldg.co.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Umeda Sky Building (Floating Garden Observatory)

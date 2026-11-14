@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: indian curry
 price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Kyobashi / Ginza
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # BOMBAY SIZZLERS

@@ -15,8 +15,6 @@ near: [tokyo-mori-art-museum, tokyo-tokyo-city-view]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.teamlab.art/e/borderless/"
-done_in: []
-rating: null
 ---
 
 # teamLab Borderless (Azabudai Hills)

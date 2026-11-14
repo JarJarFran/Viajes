@@ -10,8 +10,6 @@ entry: free
 tags: [touristic, event, night]
 best_time: night
 link: "https://www.kyoto.travel/"
-done_in: []
-rating: null
 ---
 
 # Joya no Kane (New Year's Eve temple bells)

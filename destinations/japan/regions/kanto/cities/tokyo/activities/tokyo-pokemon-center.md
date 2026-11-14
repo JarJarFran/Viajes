@@ -15,8 +15,6 @@ near: [tokyo-ginza, tokyo-imperial-palace]
 best_season: "all year round"
 best_time: anytime
 link: "https://www.pokemon.co.jp/shop/pokecen/tokyo/"
-done_in: []
-rating: null
 ---
 
 # Pokemon Center (Tokyo Station / Nihonbashi)

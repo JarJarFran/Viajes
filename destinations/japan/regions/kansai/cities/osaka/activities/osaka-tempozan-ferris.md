@@ -15,8 +15,6 @@ near: [osaka-kaiyukan, osaka-santa-maria-cruise, osaka-legoland-discovery, osaka
 best_season: "all year round; best at sunset"
 best_time: sunset
 link: "https://www.kaiyukan.com/"
-done_in: []
-rating: null
 ---
 
 # Tempozan Giant Ferris Wheel

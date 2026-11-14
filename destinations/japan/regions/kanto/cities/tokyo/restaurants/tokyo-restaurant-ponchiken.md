@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: tonkatsu
 price_range: ¥¥¥
 area: Kanda
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Ponchiken

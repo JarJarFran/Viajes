@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round (snow possible Jan)"
 best_time: morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # Kurama → Kibune mountain hike

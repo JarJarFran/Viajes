@@ -6,12 +6,6 @@ path: japan/chubu/kawaguchiko
 country: japan
 region: chubu
 prefecture: Yamanashi
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Kawaguchiko
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: morning
 link: "https://smart-express.jp/"
-done_in: []
-rating: null
 ---
 
 # Kyoto → Tokyo (Jan 8/9 move)

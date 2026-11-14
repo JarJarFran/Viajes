@@ -14,9 +14,6 @@ booking: walk-in
 near: [kyoto-sagano-romantic-train, kyoto-monkey-park-iwatayama]
 best_season: all year round
 best_time: early morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # Arashiyama Bamboo Grove & Togetsukyo Bridge

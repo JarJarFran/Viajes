@@ -6,12 +6,6 @@ path: japan/chubu/nagoya
 country: japan
 region: chubu
 prefecture: Aichi
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Nagoya
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

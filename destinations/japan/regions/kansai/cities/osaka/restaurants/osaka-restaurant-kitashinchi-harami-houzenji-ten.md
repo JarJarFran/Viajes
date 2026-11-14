@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: "yakiniku (Kuroge wagyu harami), teppanyaki"
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Hozenji Yokocho"
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Kitashinchi Harami Houzenji ten

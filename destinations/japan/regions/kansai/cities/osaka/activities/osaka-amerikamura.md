@@ -14,9 +14,6 @@ booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-shinsekai-tsutenkaku]
 best_season: "all year round"
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Amerika-mura (America Village)

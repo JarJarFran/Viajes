@@ -15,8 +15,6 @@ near: [kyoto-kinkaku-ji, kyoto-ninna-ji]
 best_season: "all year round; opens 8:00 (9:00 Dec–Feb)"
 best_time: morning
 link: "https://www.ryoanji.jp/"
-done_in: []
-rating: null
 ---
 
 # Ryoan-ji (rock garden)

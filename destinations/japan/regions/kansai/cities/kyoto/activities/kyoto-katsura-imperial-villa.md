@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.kunaicho.go.jp/"
-done_in: []
-rating: null
 ---
 
 # Katsura Imperial Villa

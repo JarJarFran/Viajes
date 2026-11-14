@@ -6,12 +6,6 @@ path: japan/kanto/nikko
 country: japan
 region: kanto
 prefecture: Tochigi
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Nikko
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

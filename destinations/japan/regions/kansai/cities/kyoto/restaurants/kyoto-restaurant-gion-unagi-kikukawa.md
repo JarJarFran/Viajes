@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: unagi
 price_range: ¥¥¥
 area: Gion
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: 3.55   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Kyoto Gion Unagi Yondaime Kikukawa

@@ -5,10 +5,6 @@ name: Tohoku
 path: japan/tohoku
 country: japan
 prefectures: [Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima]
-contains: [sendai, aomori, morioka, akita]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Tohoku

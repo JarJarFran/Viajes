@@ -11,9 +11,6 @@ entry: free
 tags: [event, top100]
 best_season: Jan 1–7 mostly (some to mid-Jan)
 best_time: morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # New Year sales & fukubukuro (lucky bags)

@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-ueno-park, tokyo-akihabara]
 best_season: "all year round"
 best_time: morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # Yanaka old town (Yanaka Ginza, Nezu Shrine)

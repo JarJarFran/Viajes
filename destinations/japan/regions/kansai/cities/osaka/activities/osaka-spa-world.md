@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.spaworld.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Spa World (Shinsekai onsen)

@@ -15,8 +15,6 @@ near: [osaka-castle, osaka-museum-of-history, osaka-shitennoji, osaka-tennoji-zo
 best_season: "all year round"
 best_time: sunset
 link: "https://www.abenoharukas-300.jp/"
-done_in: []
-rating: null
 ---
 
 # Abeno Harukas 300 (observatory)

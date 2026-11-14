@@ -15,8 +15,6 @@ near: [osaka-castle, osaka-museum-of-history, osaka-tennoji-zoo, osaka-abeno-har
 best_season: "all year round; monthly flea market on the 21st"
 best_time: morning
 link: "https://www.shitennoji.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Shitenno-ji Temple

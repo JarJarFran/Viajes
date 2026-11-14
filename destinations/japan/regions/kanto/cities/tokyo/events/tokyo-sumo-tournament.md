@@ -13,8 +13,6 @@ tags: [touristic, top50, event]
 best_season: "tournaments Jan / May / Sep; January 2026: Jan 11–25, bouts from ~8:30, juryo ~14:00, makuuchi ~16:00"
 best_time: afternoon
 link: "https://www.sumo.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Grand Sumo Tournament (Ryogoku Kokugikan, January)

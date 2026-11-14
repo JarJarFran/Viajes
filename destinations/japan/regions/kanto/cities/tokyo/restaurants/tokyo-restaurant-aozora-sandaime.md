@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: sushi / kaisen-don
 price_range: ¥¥¥
 area: Tsukiji
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: 3.58   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Tsukiji Aozora Sandaime Honten

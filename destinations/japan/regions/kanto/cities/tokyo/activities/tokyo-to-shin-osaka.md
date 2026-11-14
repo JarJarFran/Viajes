@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: anytime
 link: "https://smart-express.jp/"
-done_in: []
-rating: null
 ---
 
 # Tokyo → Shin-Osaka (if needed)

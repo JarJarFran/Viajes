@@ -15,8 +15,6 @@ near: []
 best_season: "all year round (koyo top spot); winter quiet"
 best_time: morning
 link: "https://www.tofukuji.jp/"
-done_in: []
-rating: null
 ---
 
 # Tofuku-ji

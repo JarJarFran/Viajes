@@ -15,8 +15,6 @@ near: [tokyo-ginza, tokyo-pokemon-center]
 best_season: all year round; closed Mon/Fri and Jan 1–3-ish (check)
 best_time: morning
 link: "https://www.kunaicho.go.jp/english/"
-done_in: []
-rating: null
 ---
 
 # Imperial Palace East Gardens

@@ -6,12 +6,6 @@ path: japan/shikoku/takamatsu
 country: japan
 region: shikoku
 prefecture: Kagawa
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Takamatsu
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

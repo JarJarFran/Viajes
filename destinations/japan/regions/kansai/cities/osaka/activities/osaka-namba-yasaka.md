@@ -15,8 +15,6 @@ near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-hozenji-yokocho, osaka
 best_season: "all year round"
 best_time: anytime
 link: "https://www.nambayasaka.jp/"
-done_in: []
-rating: null
 ---
 
 # Namba Yasaka Shrine (lion head)

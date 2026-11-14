@@ -15,8 +15,6 @@ near: [osaka-castle, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
 best_season: "all year round"
 best_time: morning
 link: "https://www.mus-his.jp/"
-done_in: []
-rating: null
 ---
 
 # Osaka Museum of History

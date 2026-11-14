@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: izakaya / robatayaki
 price_range: ¥¥¥
 area: Namba (Toyo)
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: 3.58   # checked tabelog.com/en 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Naniwa Robata Toyo Kobayashi

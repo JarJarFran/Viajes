@@ -14,6 +14,7 @@ stops:
     activities: [<activity-id>, ...]
     notes: ""
 events: []            # ids of events overlapping the trip dates
+days: []              # day-<YYYY-MM-DD> ids, one file per day in days/ (managed by scripts/sync.py)
 rating: null          # 1-5 at the end
 affinity: null
 likes: []             # what we liked most about this trip
@@ -25,6 +26,8 @@ total_cost: null
 ## Summary
 
 ## Day-by-day itinerary
+
+One file per day in `days/` (see `_templates/day.md`): `date`, `place`, `stay`, `area`, `plan:` (chosen activity/restaurant ids), `events`, `notes`. Query a day with `python3 scripts/query.py day --trip <trip-id> --date <YYYY-MM-DD>`.
 
 ## Expenses
 

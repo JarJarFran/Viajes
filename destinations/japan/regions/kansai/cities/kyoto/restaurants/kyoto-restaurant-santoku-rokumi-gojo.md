@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: izakaya / oden
 price_range: ¥¥¥
 area: Gojo
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: 3.56   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Gojo Takakura Santoku Rokumi

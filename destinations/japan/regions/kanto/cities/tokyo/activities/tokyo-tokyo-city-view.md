@@ -15,8 +15,6 @@ near: [tokyo-mori-art-museum, tokyo-teamlab-borderless]
 best_season: "all year round"
 best_time: sunset
 link: "https://www.roppongihills.com/"
-done_in: []
-rating: null
 ---
 
 # Tokyo City View (Roppongi Hills 52F)

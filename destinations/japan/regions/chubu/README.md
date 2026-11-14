@@ -5,10 +5,6 @@ name: Chubu
 path: japan/chubu
 country: japan
 prefectures: [Niigata, Toyama, Ishikawa, Fukui, Yamanashi, Nagano, Gifu, Shizuoka, Aichi]
-contains: [nagoya, kanazawa, takayama, matsumoto, kawaguchiko]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Chubu

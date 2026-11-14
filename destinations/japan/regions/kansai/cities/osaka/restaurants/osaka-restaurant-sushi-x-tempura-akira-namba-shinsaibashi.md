@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: "sushi, tempura, izakaya"
 price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Namba / Shinsaibashi"
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.29   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Sushi x Tempura Akira Namba Shinsaibashi

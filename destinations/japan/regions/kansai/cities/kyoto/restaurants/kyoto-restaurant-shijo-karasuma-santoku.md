@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: tachinomi / izakaya
 price_range: ¥¥¥
 area: Karasuma
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: 3.54   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Shijo Karasuma Santoku Rokumi

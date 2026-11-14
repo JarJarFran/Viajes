@@ -15,8 +15,6 @@ near: [tokyo-sensoji, tokyo-sumida-river-cruise]
 best_season: all year round; winter = clearest Mt Fuji views
 best_time: morning
 link: "https://www.tokyo-skytree.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Tokyo Skytree

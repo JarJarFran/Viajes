@@ -6,12 +6,6 @@ path: japan/hokkaido/furano
 country: japan
 region: hokkaido
 prefecture: Hokkaido
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Furano
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

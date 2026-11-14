@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: soba
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Harajuku / Omotesando
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # BASO

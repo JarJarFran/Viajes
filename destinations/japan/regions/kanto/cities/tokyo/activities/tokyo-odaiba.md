@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round; illuminations in winter"
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Odaiba island (Gundam, beach, Rainbow Bridge)

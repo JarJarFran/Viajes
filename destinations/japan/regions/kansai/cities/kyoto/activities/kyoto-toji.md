@@ -15,8 +15,6 @@ near: [kyoto-nijo-castle]
 best_season: "all year round; Kobo-san flea market on the 21st"
 best_time: morning
 link: "https://www.toji.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Toji Temple (market day)

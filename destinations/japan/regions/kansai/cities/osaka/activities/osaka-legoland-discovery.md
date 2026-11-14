@@ -15,8 +15,6 @@ near: [osaka-kaiyukan, osaka-tempozan-ferris, osaka-santa-maria-cruise, osaka-us
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.legolanddiscoverycenter.com/osaka/"
-done_in: []
-rating: null
 ---
 
 # LEGOLAND Discovery Center Osaka

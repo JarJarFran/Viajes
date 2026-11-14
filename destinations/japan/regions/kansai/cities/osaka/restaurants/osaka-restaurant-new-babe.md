@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: tonkatsu
 price_range: ¥¥
 area: Tanimachi
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: 3.7   # checked tabelog.com/en 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # New Babe

@@ -6,8 +6,6 @@ place: japan/kanto/tokyo
 area: Ginza / Shimbashi
 price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.parkhoteltokyo.com/"
-done_in: []
-rating: null
 ---
 
 # Park Hotel Tokyo

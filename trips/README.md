@@ -13,4 +13,4 @@ To create a new trip, copy [_templates/trip.md](../_templates/trip.md).
 
 ## Trip index
 
-- [2026-japan](2026-japan/) — Japan: Osaka → Kyoto → Tokyo, 2025-12-26 → 2026-01-23 (planned)
+- [2026-japan](2026-japan/) — Japan: Osaka → Kyoto → Tokyo, 2026-12-26 → 2027-01-23 (planned); one file per day in [days/](2026-japan/days/) (`plan:` holds the chosen activity/restaurant ids — query with `python3 scripts/query.py day --trip 2026-japan --date YYYY-MM-DD`)

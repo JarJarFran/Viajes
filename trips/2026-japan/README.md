@@ -25,11 +25,8 @@ stops:
     accommodation: tokyo-hotel-gracery-shinjuku
     activities: [haneda-to-tokyo-center, narita-to-tokyo-center, tokyo-akihabara, tokyo-edotokyo-museum, tokyo-ghibli-museum, tokyo-ginza, tokyo-golden-gai, tokyo-hakone-daytrip, tokyo-hamarikyu-gardens, tokyo-harajuku-takeshita, tokyo-imperial-palace, tokyo-kawaguchiko-daytrip, tokyo-koenji, tokyo-meiji-jingu, tokyo-mori-art-museum, tokyo-nakano-broadway, tokyo-nikko-daytrip, tokyo-odaiba, tokyo-omoide-yokocho, tokyo-pokemon-center, tokyo-sensoji, tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-shimokitazawa, tokyo-shinjuku-gyoen, tokyo-skytree, tokyo-sumida-river-cruise, tokyo-sunshine-city, tokyo-teamlab-borderless, tokyo-teamlab-planets, tokyo-tmg-observatory, tokyo-to-kamakura, tokyo-to-shin-osaka, tokyo-tokyo-city-view, tokyo-tokyo-tower, tokyo-tsukiji-outer-market, tokyo-ueno-park, tokyo-yanaka, tokyo-yokohama-daytrip, tokyo-zojoji]
     notes: "Jan 9 arrival: fukubukuro mostly over, some sales to mid-Jan. Illuminations active (Marunouchi/Shinjuku to ~Feb 14, Chuo Park to Jan 12). Yomiuriland Jewellumination Sat Jan 17/24. Day trip from here: kamakura-day-trip (Kamakura & Enoshima)."
-rating: null
-affinity: null
-likes: []
-total_cost: null
 events: [osaka-midosuji-illumination, osaka-castle-illuminage, kyoto-hatsumode, kyoto-joya-no-kane, kyoto-toka-ebisu, tokyo-winter-illuminations, tokyo-new-year-sales, tokyo-sumo-tournament]   # events overlapping the trip window 2026-12-26 -> 2027-01-23
+days: [day-2026-12-26, day-2026-12-27, day-2026-12-28, day-2026-12-29, day-2026-12-30, day-2026-12-31, day-2027-01-01, day-2027-01-02, day-2027-01-03, day-2027-01-04, day-2027-01-05, day-2027-01-06, day-2027-01-07, day-2027-01-08, day-2027-01-09, day-2027-01-10, day-2027-01-11, day-2027-01-12, day-2027-01-13, day-2027-01-14, day-2027-01-15, day-2027-01-16, day-2027-01-17, day-2027-01-18, day-2027-01-19, day-2027-01-20, day-2027-01-21, day-2027-01-22, day-2027-01-23]
 ---
 
 # Japan: Osaka → Kyoto → Tokyo (New Year 2026/27)

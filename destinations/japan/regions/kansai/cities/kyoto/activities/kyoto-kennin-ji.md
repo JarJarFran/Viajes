@@ -15,8 +15,6 @@ near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, 
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.kenninji.jp/"
-done_in: []
-rating: null
 ---
 
 # Kennin-ji

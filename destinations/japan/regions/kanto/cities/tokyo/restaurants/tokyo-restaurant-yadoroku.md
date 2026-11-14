@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: onigiri
 price_range: ¥
 area: Asakusa
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Onigiri Asakusa Yadoroku

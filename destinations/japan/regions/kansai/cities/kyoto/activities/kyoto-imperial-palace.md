@@ -15,8 +15,6 @@ near: []
 best_season: "CLOSED Dec 28–Jan 4 — not visitable in our window"
 best_time: morning
 link: "https://www.kunaicho.go.jp/"
-done_in: []
-rating: null
 ---
 
 # Kyoto Imperial Palace (Gosho)

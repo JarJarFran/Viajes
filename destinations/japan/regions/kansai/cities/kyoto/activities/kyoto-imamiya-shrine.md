@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: anytime
 link: "https://imamiya.jp/"
-done_in: []
-rating: null
 ---
 
 # Imamiya Shrine

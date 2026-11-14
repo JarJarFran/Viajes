@@ -14,9 +14,6 @@ booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: "all year round"
 best_time: evening
-link: ""
-done_in: []
-rating: null
 ---
 
 # Hozenji Yokocho (lantern alley)

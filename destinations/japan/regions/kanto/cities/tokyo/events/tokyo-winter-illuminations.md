@@ -12,8 +12,6 @@ tags: [touristic, top50, night, event]
 best_season: Nov–Feb depending on spot
 best_time: night
 link: "https://www.gotokyo.org/en/spot/illuminations/"
-done_in: []
-rating: null
 ---
 
 # Tokyo winter illuminations (January)

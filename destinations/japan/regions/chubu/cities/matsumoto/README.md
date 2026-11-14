@@ -6,12 +6,6 @@ path: japan/chubu/matsumoto
 country: japan
 region: chubu
 prefecture: Nagano
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Matsumoto
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

@@ -15,8 +15,6 @@ near: [kyoto-arashiyama-bamboo, kyoto-monkey-park-iwatayama]
 best_season: "all year round (closed some winter days — check)"
 best_time: morning
 link: "https://www.sagano-kanko.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Sagano Romantic Train (Torokko)

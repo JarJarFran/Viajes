@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: yakitori (Nagano chicken), izakaya
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Hommachi
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.73   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Sumibi Yakitori Ikoka Honten

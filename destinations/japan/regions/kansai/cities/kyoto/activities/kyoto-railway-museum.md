@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; open Jan 2–3 10:00–17:00 (last entry 16:30)"
 best_time: afternoon
 link: "https://www.kyotorailwaymuseum.jp/"
-done_in: []
-rating: null
 ---
 
 # Kyoto Railway Museum

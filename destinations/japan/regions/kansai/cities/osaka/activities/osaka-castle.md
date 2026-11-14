@@ -15,8 +15,6 @@ near: [osaka-museum-of-history, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno
 best_season: all year round; Illuminage evenings Nov 20–Feb 14
 best_time: morning
 link: "https://www.osakacastle.net/"
-done_in: []
-rating: null
 ---
 
 # Osaka Castle

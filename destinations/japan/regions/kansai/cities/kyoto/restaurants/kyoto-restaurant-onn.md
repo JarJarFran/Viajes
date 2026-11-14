@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: "cafe with wagashi (Japanese sweets)"
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Kawaramachi"
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.51   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # onn

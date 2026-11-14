@@ -12,8 +12,6 @@ tags: [touristic, top50, night, event]
 best_season: "Nov–Dec 31 only (2025 season: Nov 3–Dec 31)"
 best_time: night
 link: "https://www.hikari-kyoen.com/"
-done_in: []
-rating: null
 ---
 
 # Midosuji Illumination (winter lights)

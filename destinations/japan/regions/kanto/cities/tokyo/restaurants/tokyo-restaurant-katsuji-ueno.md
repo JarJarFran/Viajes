@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: shabu-shabu / oden
 price_range: ¥¥¥
 area: Ueno Okachimachi
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: 3.52   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Taishu Shabushabu Katsuji Ueno

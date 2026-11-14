@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: gyoza
 price_range: ¥
 area: Shijo-Kawaramachi
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Gyoza ChaoChao Shijo-Kawaramachi

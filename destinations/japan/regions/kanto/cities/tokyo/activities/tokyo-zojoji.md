@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; NYE bell-ringing venue"
 best_time: morning
 link: "https://www.zojoji.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Zojo-ji Temple

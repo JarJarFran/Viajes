@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; closed Tuesdays"
 best_time: weekday morning
 link: "https://www.cupnoodles-museum.jp/"
-done_in: []
-rating: null
 ---
 
 # Cup Noodles Museum Osaka Ikeda

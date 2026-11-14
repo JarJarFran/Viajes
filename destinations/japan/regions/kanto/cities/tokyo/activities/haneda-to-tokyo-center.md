@@ -14,9 +14,6 @@ booking: walk-in
 near: []
 best_season: "all year round"
 best_time: anytime
-link: ""
-done_in: []
-rating: null
 ---
 
 # Haneda Airport (HND) → central Tokyo (departure Jan 23)

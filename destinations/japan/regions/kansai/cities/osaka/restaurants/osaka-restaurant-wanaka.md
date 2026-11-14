@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: takoyaki
 price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
 area: Dotonbori, Namba
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: null
 tags: []
-done_in: []
-rating: null
 ---
 
 # Wanaka

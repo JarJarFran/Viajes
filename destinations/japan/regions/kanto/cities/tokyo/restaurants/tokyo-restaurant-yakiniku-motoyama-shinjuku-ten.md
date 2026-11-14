@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: yakiniku (A5 Kuroge wagyu), Korean
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Shinjuku (west exit)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.44   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Yakiniku Motoyama Shinjuku ten

@@ -6,8 +6,6 @@ place: japan/kanto/tokyo
 area: Kabukicho, Shinjuku
 price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.hotelgracery.com/shinjuku/"
-done_in: []
-rating: null
 ---
 
 # Hotel Gracery Shinjuku

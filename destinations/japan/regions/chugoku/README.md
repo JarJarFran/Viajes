@@ -5,10 +5,6 @@ name: Chugoku
 path: japan/chugoku
 country: japan
 prefectures: [Tottori, Shimane, Okayama, Hiroshima, Yamaguchi]
-contains: [hiroshima, okayama, matsue, tottori]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Chugoku

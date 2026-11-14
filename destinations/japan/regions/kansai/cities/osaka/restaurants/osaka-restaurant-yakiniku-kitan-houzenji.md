@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: "yakiniku"
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Namba / Hozenji"
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Yakiniku Kitan Houzenji

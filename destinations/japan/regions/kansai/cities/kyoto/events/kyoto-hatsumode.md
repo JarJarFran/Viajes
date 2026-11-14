@@ -12,8 +12,6 @@ tags: [touristic, event]
 best_season: Dec 31–Jan 3
 best_time: early morning
 link: "https://www.yasaka-jinja.or.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Hatsumode (first shrine visit of the year) at Yasaka Shrine

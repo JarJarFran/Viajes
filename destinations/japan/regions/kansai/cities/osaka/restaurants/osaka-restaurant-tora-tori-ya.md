@@ -6,12 +6,9 @@ place: japan/kansai/osaka
 cuisine: yakitori / gyoza
 price_range: ¥¥¥
 area: Namba Sennichimae
-link: ""
 tabelog: "https://tabelog.com/en/osaka/rstLst/"
 tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # TORA Tori YA Namba Sennichimae

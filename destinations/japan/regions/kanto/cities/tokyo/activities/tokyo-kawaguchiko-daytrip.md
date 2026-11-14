@@ -15,8 +15,6 @@ near: []
 best_season: "all year round; winter = clearest Fuji visibility"
 best_time: full day
 link: "https://www.fujikyu.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Day trip to Kawaguchiko (Mt Fuji views)

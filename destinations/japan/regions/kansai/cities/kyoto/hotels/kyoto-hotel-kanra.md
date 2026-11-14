@@ -6,8 +6,6 @@ place: japan/kansai/kyoto
 area: Karasuma / Kawaramachi
 price_range: ¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.kanra.jp/kyoto/"
-done_in: []
-rating: null
 ---
 
 # Hotel Kanra Kyoto

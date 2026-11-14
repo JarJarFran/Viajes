@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-shibuya-sky, tokyo-meiji-jingu, tokyo-harajuku-takeshita]
 best_season: all year round
 best_time: night
-link: ""
-done_in: []
-rating: null
 ---
 
 # Shibuya crossing and Hachiko

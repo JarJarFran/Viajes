@@ -6,12 +6,6 @@ path: japan/chugoku/okayama
 country: japan
 region: chugoku
 prefecture: Okayama
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Okayama
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

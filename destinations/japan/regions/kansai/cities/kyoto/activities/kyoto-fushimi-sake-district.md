@@ -15,8 +15,6 @@ near: [kyoto-fushimi-inari]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.gekkeikan.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Fushimi sake district & Gekkeikan Okura Sake Museum

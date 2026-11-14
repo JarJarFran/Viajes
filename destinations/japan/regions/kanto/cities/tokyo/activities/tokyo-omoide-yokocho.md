@@ -14,9 +14,6 @@ booking: walk-in
 near: [tokyo-shinjuku-gyoen, tokyo-tmg-observatory, tokyo-golden-gai]
 best_season: "all year round"
 best_time: night
-link: ""
-done_in: []
-rating: null
 ---
 
 # Omoide Yokocho (Memory Lane, Shinjuku)

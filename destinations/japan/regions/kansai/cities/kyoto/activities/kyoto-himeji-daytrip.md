@@ -15,8 +15,6 @@ near: []
 best_season: "all year round"
 best_time: morning
 link: "https://www.himeji-kanko.jp/"
-done_in: []
-rating: null
 ---
 
 # Day trip to Himeji Castle

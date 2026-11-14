@@ -15,8 +15,6 @@ near: [kyoto-ginkaku-ji, kyoto-philosophers-path]
 best_season: "all year round"
 best_time: morning
 link: "https://nanzenji.jp/"
-done_in: []
-rating: null
 ---
 
 # Nanzen-ji (brick aqueduct)

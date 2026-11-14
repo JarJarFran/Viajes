@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: soba, udon, izakaya
 price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Roppongi
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Ginza Soba Udon Shiraishi Roppongi ten

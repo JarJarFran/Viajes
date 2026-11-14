@@ -5,10 +5,10 @@ name: <Name>
 path: <country>/<region>
 country: <country-id>
 prefectures: [<prefecture>, ...]
-contains: [<city-id>, ...]
 affinity: null
 likes: []
-trips: []
+# NOTE: contains/trips are DERIVED from child nodes (city.region/city.path, trip
+# stops) and materialized in exports/ — do not add them here. See AGENTS.md.
 ---
 
 # <Name>

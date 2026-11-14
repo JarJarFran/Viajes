@@ -6,12 +6,6 @@ path: japan/kanto/hakone
 country: japan
 region: kanto
 prefecture: Kanagawa
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Hakone
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

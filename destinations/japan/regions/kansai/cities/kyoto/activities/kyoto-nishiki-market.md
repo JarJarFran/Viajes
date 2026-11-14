@@ -15,8 +15,6 @@ near: []
 best_season: all year round, but CLOSED the first days of January (most stalls back by Jan 4–5)
 best_time: morning
 link: "https://www.nishiki.or.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Nishiki Market ("Kyoto's Kitchen")

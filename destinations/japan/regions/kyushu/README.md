@@ -5,10 +5,6 @@ name: Kyushu
 path: japan/kyushu
 country: japan
 prefectures: [Fukuoka, Saga, Nagasaki, Kumamoto, Oita, Miyazaki, Kagoshima, Okinawa]
-contains: [fukuoka, nagasaki, kumamoto, beppu, kagoshima, naha]
-affinity: null
-likes: []
-trips: []
 ---
 
 # Kyushu

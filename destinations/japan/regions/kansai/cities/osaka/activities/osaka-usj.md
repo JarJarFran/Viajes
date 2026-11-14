@@ -15,8 +15,6 @@ near: [osaka-kaiyukan, osaka-tempozan-ferris, osaka-santa-maria-cruise, osaka-le
 best_season: "all year round; New Year week very crowded"
 best_time: full day
 link: "https://www.usj.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Universal Studios Japan (USJ)

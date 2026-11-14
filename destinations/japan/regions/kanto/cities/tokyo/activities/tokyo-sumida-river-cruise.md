@@ -15,8 +15,6 @@ near: [tokyo-sensoji, tokyo-skytree]
 best_season: "all year round"
 best_time: afternoon
 link: "https://www.suijobus.co.jp/"
-done_in: []
-rating: null
 ---
 
 # Sumida River cruise (Asakusa → Odaiba, Himiko)

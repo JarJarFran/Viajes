@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: italian, curry, bar
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Shibuya (Dogenzaka)
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Kashiwa Bistro Banban

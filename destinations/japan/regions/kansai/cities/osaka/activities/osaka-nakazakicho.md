@@ -14,9 +14,6 @@ booking: walk-in
 near: [osaka-umeda-sky-building, osaka-central-public-hall]
 best_season: "all year round"
 best_time: afternoon
-link: ""
-done_in: []
-rating: null
 ---
 
 # Nakazakicho retro district

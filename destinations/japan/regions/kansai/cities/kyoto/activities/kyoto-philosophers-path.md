@@ -14,9 +14,6 @@ booking: walk-in
 near: [kyoto-ginkaku-ji, kyoto-nanzen-ji]
 best_season: "all year round (best sakura/koyo)"
 best_time: morning
-link: ""
-done_in: []
-rating: null
 ---
 
 # Philosopher's Path (Tetsugaku-no-michi)

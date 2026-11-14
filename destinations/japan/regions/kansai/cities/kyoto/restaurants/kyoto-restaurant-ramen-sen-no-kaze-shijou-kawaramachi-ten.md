@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: "ramen, tsukemen, gyoza"
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Kawaramachi"
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.11   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Ramen Sen no Kaze Shijou kawaramachi ten

@@ -6,8 +6,6 @@ place: japan/kansai/osaka
 area: JR Osaka Station
 price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.granvia.jp/osaka/"
-done_in: []
-rating: null
 ---
 
 # Hotel Granvia Osaka

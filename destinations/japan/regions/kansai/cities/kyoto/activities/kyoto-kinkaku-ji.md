@@ -15,8 +15,6 @@ near: [kyoto-ryoan-ji, kyoto-ninna-ji]
 best_season: all year round (snow in winter is spectacular)
 best_time: morning
 link: "https://www.shokoku-ji.jp/en/kinkakuji/"
-done_in: []
-rating: null
 ---
 
 # Kinkaku-ji (Golden Pavilion)

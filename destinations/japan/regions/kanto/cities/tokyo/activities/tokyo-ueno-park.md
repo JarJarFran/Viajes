@@ -15,8 +15,6 @@ near: [tokyo-yanaka, tokyo-akihabara]
 best_season: all year round
 best_time: morning
 link: "https://www.tnm.jp/en/"
-done_in: []
-rating: null
 ---
 
 # Ueno Park & museums

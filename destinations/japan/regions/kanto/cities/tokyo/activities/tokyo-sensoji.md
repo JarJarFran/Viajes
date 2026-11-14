@@ -15,8 +15,6 @@ near: [tokyo-skytree, tokyo-sumida-river-cruise]
 best_season: all year round
 best_time: morning
 link: "https://www.sensoji.jp/"
-done_in: []
-rating: null
 ---
 
 # Senso-ji Temple (Asakusa)

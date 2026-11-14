@@ -6,12 +6,6 @@ path: japan/tohoku/akita
 country: japan
 region: tohoku
 prefecture: Akita
-population: null
-coords: null
-affinity: null
-likes: []
-activities: []
-trips: []
 ---
 
 # Akita
@@ -24,4 +18,9 @@ To be researched.
 
 ## Where to eat
 
+
+<!-- gen:start restaurants -->
+
+
+<!-- gen:end restaurants -->
 ## Our experience

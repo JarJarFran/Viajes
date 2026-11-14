@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: "halal wagyu ramen (no pork), gyukatsu, tempura"
 price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Kyoto Station"
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: null   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Halal Wagyu Ramen & Gyukatsu GYUMON Kyoto Station

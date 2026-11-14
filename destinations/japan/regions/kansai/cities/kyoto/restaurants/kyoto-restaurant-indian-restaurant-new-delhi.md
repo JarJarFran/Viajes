@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: "indian (halal), cafe, izakaya"
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: "Nijo"
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.17   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # INDIAN RESTAURANT NEW DELHI

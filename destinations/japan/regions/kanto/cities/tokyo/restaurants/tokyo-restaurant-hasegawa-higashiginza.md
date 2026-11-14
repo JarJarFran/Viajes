@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: tonkatsu
 price_range: ¥¥¥
 area: Tsukiji
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"
 tabelog_rating: 3.68   # read on tabelog.com/en area lists 2026-11
 tags: [top-rated]
-done_in: []
-rating: null
 ---
 
 # Tonkatsu Hasegawa Higashi-ginza

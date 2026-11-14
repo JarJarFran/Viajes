@@ -15,8 +15,6 @@ near: [osaka-tempozan-ferris, osaka-santa-maria-cruise, osaka-legoland-discovery
 best_season: "all year round; longer hours at New Year"
 best_time: morning
 link: "https://www.kaiyukan.com/"
-done_in: []
-rating: null
 ---
 
 # Osaka Aquarium Kaiyukan

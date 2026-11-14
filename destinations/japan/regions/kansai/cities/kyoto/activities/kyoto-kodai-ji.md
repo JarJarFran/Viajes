@@ -15,8 +15,6 @@ near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, 
 best_season: "all year round"
 best_time: evening
 link: "https://www.kodaiji.jp/"
-done_in: []
-rating: null
 ---
 
 # Kodai-ji (NYE bell ringing)

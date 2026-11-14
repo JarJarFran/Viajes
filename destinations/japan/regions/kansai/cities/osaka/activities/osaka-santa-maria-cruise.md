@@ -15,8 +15,6 @@ near: [osaka-kaiyukan, osaka-tempozan-ferris, osaka-legoland-discovery, osaka-us
 best_season: "all year round; day cruises and sunset"
 best_time: sunset
 link: "https://www.kaiyukan.com/"
-done_in: []
-rating: null
 ---
 
 # Santa Maria bay cruise

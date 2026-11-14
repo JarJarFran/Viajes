@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: buffet (king crab, A5 wagyu, fugu), sushi, shabu-shabu
 price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Ginza
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.09   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Ginza Yotsumi Gokujou Seafood Buffet Dining

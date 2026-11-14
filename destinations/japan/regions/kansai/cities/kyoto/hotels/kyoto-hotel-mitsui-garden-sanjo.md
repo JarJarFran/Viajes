@@ -6,8 +6,6 @@ place: japan/kansai/kyoto
 area: Sanjo / Kawaramachi
 price_range: ¥¥¥     # ¥-¥¥¥¥ per night, double room
 link: "https://www.gardenhotels.co.jp/kyoto-sanjo/"
-done_in: []
-rating: null
 ---
 
 # Mitsui Garden Hotel Kyoto Sanjo

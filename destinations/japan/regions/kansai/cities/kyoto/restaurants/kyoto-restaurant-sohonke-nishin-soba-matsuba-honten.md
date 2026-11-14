@@ -6,12 +6,9 @@ place: japan/kansai/kyoto
 cuisine: nishin soba (herring soba)
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Gion
-link: ""
 tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
 tags: []
-done_in: []
-rating: null
 ---
 
 # Sohonke Nishin Soba Matsuba Honten

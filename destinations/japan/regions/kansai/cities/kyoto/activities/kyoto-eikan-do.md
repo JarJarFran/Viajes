@@ -15,8 +15,6 @@ near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, 
 best_season: "all year round (koyo top spot)"
 best_time: afternoon
 link: "https://www.eikando.or.jp/"
-done_in: []
-rating: null
 ---
 
 # Eikan-do (Zenrin-ji)

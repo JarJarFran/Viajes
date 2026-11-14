@@ -6,12 +6,9 @@ place: japan/kanto/tokyo
 cuisine: udon
 price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
 area: Harajuku / Omotesando
-link: ""
 tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
 tabelog_rating: 3.58   # checked tabelog.com/en 2026-11
 tags: ["top-rated"]
-done_in: []
-rating: null
 ---
 
 # Men Chirashi
