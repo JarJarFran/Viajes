@@ -1,0 +1,36 @@
+# Profile of the travel group: defines what we like, used to score the affinity
+# of each country/region/city/activity (scale 1-5, null = not rated yet).
+group: Travelers
+languages: [english, spanish]
+affinity_scale: 1-5
+
+likes:
+  - temples_and_shrines
+  - traditional_culture
+  - local_food
+  - markets_and_street_food
+  - nature_and_mountains
+  - hiking
+  - anime_manga_and_pop_culture
+  - vibrant_cities
+  - history_and_castles
+  - onsen_and_wellness
+  - photography_and_viewpoints
+
+details:
+  temples_and_shrines: "Shinto shrines, Buddhist temples, torii gates, zen gardens"
+  local_food: "Izakayas, ramen, neighborhood sushi, kaiseki when it fits the budget"
+  nature_and_mountains: "National parks, Japanese Alps, coastlines, waterfalls"
+  vibrant_cities: "Neighborhoods with a nightlife vibe, neon signs, quirky shops"
+  onsen_and_wellness: "Hot springs, ryokan with private onsen"
+
+dislikes:
+  - all_inclusive_resorts
+  - overcrowded_mass_tourism
+
+# Practical preferences for organizing trips
+preferences:
+  pace: medium            # slow | medium | fast
+  accommodation: [ryokan, boutique_hotel, apartment]
+  main_transport: [train, walking, bus]
+  approx_daily_budget_eur: 120
