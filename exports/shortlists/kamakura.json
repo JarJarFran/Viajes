@@ -1,0 +1,22 @@
+{
+  "city": "japan/kanto/kamakura",
+  "activities_top": [
+    {
+      "id": "kamakura-day-trip",
+      "name": "Day trip to Kamakura & Enoshima",
+      "category": "history",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top100",
+        "unesco"
+      ],
+      "approx_cost": "Great Buddha ¥300; trains from Tokyo ~¥1,000 return",
+      "hours": "full day",
+      "booking": "walk-in",
+      "duration_hours": 8
+    }
+  ],
+  "restaurants_strict": [],
+  "events": []
+}

@@ -1,0 +1,34 @@
+id_pattern: "^[a-z0-9][a-z0-9-]*$"
+
+vocabularies:
+  entry: [free, paid, mixed, n/a]
+  booking: [walk-in, reserve, required]
+  price_range: ["¥", "¥¥", "¥¥¥", "¥¥¥¥"]
+  status: [planned, ongoing, done, cancelled]
+  tags: [top50, top100, touristic, iconic, unesco, hidden-gem, night, event, kid-friendly, top-rated]
+
+date_fields: [start, end, date, from, to]
+
+geo_strip_keys: [contains, activities, events, restaurants, hotels, trips]
+
+optional_keys: [done_in, rating, link, affinity, likes, approx_cost, duration_hours, best_season, best_time, on_sale, total_cost, coords, population, prefecture, capital, currency, iso_code, language, native_name, plugs, timezone, notes, area, category, cuisine]
+
+types:
+  country:
+    required: [id, type, name]
+  region:
+    required: [id, type, name, path, country]
+  city:
+    required: [id, type, name, path, country, region]
+  activity:
+    required: [id, type, name, place, category, entry, tags, hours, closed, booking, near]
+  event:
+    required: [id, type, name, place, start, end]
+  restaurant:
+    required: [id, type, name, place, cuisine, price_range, area, tabelog, tabelog_rating]
+  hotel:
+    required: [id, type, name, place, area, price_range]
+  trip:
+    required: [id, type, name, country, start, end, status, stops]
+  day:
+    required: [id, type, date, trip, place]

@@ -1,0 +1,798 @@
+{
+  "city": "japan/kansai/osaka",
+  "activities_top": [
+    {
+      "id": "osaka-abeno-harukas",
+      "name": "Abeno Harukas 300 (observatory)",
+      "category": "leisure",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "¥2,200 (NOT covered by Amazing Pass after 15:00)",
+      "hours": "10:00-22:00 (last entry 21:30)",
+      "booking": "walk-in",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-amerikamura",
+      "name": "Amerika-mura (America Village)",
+      "category": "leisure",
+      "entry": "free",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "free to browse",
+      "hours": "shops 11:00-20:00",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-castle",
+      "name": "Osaka Castle",
+      "category": "history",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic"
+      ],
+      "approx_cost": "Tower ¥1,200 (park free)",
+      "hours": "Park 24h; tower 9:00-17:00",
+      "booking": "walk-in",
+      "duration_hours": 3
+    },
+    {
+      "id": "osaka-central-public-hall",
+      "name": "Osaka Central Public Hall & Nakanoshima",
+      "category": "history",
+      "entry": "free",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "free (building); area free",
+      "hours": "9:00-17:00",
+      "booking": "walk-in",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-cup-noodles-museum",
+      "name": "Cup Noodles Museum Osaka Ikeda",
+      "category": "museums",
+      "entry": "paid",
+      "tags": [
+        "top50",
+        "kid-friendly"
+      ],
+      "approx_cost": "museum ~¥500; My CUPNOODLES Factory workshop ~¥3,000–4,000 (booking required)",
+      "hours": "9:30-17:00",
+      "booking": "required",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-den-den-town",
+      "name": "Den Den Town (Nipponbashi)",
+      "category": "leisure",
+      "entry": "free",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "free to browse",
+      "hours": "shops 10:00-20:00",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-dotonbori-night",
+      "name": "Dotonbori & Shinsaibashi at night",
+      "category": "food",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic",
+        "night"
+      ],
+      "approx_cost": "free to walk; street food ¥150–500 per item; river cruise ~¥1,000",
+      "hours": "24h",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-hozenji-yokocho",
+      "name": "Hozenji Yokocho (lantern alley)",
+      "category": "food",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top50",
+        "night"
+      ],
+      "approx_cost": "free to walk; dinner ¥2,000–5,000",
+      "hours": "24h (shops ~11:00-23:00)",
+      "booking": "walk-in",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-kaiyukan",
+      "name": "Osaka Aquarium Kaiyukan",
+      "category": "museums",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic"
+      ],
+      "approx_cost": "¥2,700–3,500 dynamic by date (2026)",
+      "hours": "10:00-20:00 (last entry 19:00; longer at New Year)",
+      "booking": "reserve",
+      "duration_hours": 3
+    },
+    {
+      "id": "osaka-kuromon-market",
+      "name": "Kuromon Ichiba Market (\"Osaka's Kitchen\")",
+      "category": "food",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "grazing ¥2,000–3,000 per person",
+      "hours": "9:00-17:00 (best before 13:00)",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-legoland-discovery",
+      "name": "LEGOLAND Discovery Center Osaka",
+      "category": "museums",
+      "entry": "mixed",
+      "tags": [
+        "top50",
+        "kid-friendly"
+      ],
+      "approx_cost": "¥2,900–3,300 (free with Amazing Pass on set dates)",
+      "hours": "10:00-18:00",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-museum-of-history",
+      "name": "Osaka Museum of History",
+      "category": "museums",
+      "entry": "mixed",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "¥600 (free with Osaka Amazing Pass)",
+      "hours": "9:30-17:00",
+      "booking": "walk-in",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "osaka-namba-parks",
+      "name": "Namba Parks",
+      "category": "leisure",
+      "entry": "free",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "free",
+      "hours": "10:00-21:00",
+      "booking": "walk-in",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "osaka-namba-yasaka",
+      "name": "Namba Yasaka Shrine (lion head)",
+      "category": "temple",
+      "entry": "free",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "free",
+      "hours": "24h",
+      "booking": "walk-in",
+      "duration_hours": 0.5
+    },
+    {
+      "id": "osaka-santa-maria-cruise",
+      "name": "Santa Maria bay cruise",
+      "category": "leisure",
+      "entry": "mixed",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "¥1,800–2,000 (free with Osaka Amazing Pass)",
+      "hours": "hourly by day 10:00-19:00",
+      "booking": "reserve",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-shinsekai-tsutenkaku",
+      "name": "Shinsekai & Tsutenkaku Tower",
+      "category": "leisure",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "Tower ~¥1,000 (covered by Osaka Amazing Pass); kushikatsu ¥1,000–2,000",
+      "hours": "Tower 10:00-21:00 (22:00 weekends)",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-shitennoji",
+      "name": "Shitenno-ji Temple",
+      "category": "temple",
+      "entry": "free",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "free",
+      "hours": "8:30-17:00",
+      "booking": "walk-in",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "osaka-spa-world",
+      "name": "Spa World (Shinsekai onsen)",
+      "category": "onsen",
+      "entry": "paid",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "¥1,500–2,500 day pass",
+      "hours": "10:00-24:00",
+      "booking": "walk-in",
+      "duration_hours": 3
+    },
+    {
+      "id": "osaka-sumiyoshi-taisha",
+      "name": "Sumiyoshi Taisha Shrine",
+      "category": "temple",
+      "entry": "free",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "free",
+      "hours": "6:00-17:00",
+      "booking": "walk-in",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-tempozan-ferris",
+      "name": "Tempozan Giant Ferris Wheel",
+      "category": "leisure",
+      "entry": "mixed",
+      "tags": [
+        "touristic",
+        "top50"
+      ],
+      "approx_cost": "¥1,000 (free with Osaka Amazing Pass)",
+      "hours": "10:00-21:00 (22:00 weekends)",
+      "booking": "walk-in",
+      "duration_hours": 1
+    },
+    {
+      "id": "osaka-tennoji-zoo",
+      "name": "Tennoji Park & Osaka City Zoo",
+      "category": "nature",
+      "entry": "mixed",
+      "tags": [
+        "top50",
+        "kid-friendly"
+      ],
+      "approx_cost": "zoo ¥800 (free with Osaka Amazing Pass); park free",
+      "hours": "9:30-17:00",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-tombori-river-cruise",
+      "name": "Tombori River Cruise",
+      "category": "leisure",
+      "entry": "mixed",
+      "tags": [
+        "top50",
+        "night"
+      ],
+      "approx_cost": "¥1,000–2,000 (free with Osaka Amazing Pass)",
+      "hours": "10:00-21:00 (evenings best)",
+      "booking": "reserve",
+      "duration_hours": 0.5
+    },
+    {
+      "id": "osaka-tower-of-the-sun",
+      "name": "Tower of the Sun (Expo '70 Commemorative Park)",
+      "category": "history",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic"
+      ],
+      "approx_cost": "park free; tower interior ~¥700 (advance reservation)",
+      "hours": "park 9:30-17:00; interior by reserved slot",
+      "booking": "required",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-tsuruhashi-koreatown",
+      "name": "Tsuruhashi Korea Town",
+      "category": "food",
+      "entry": "mixed",
+      "tags": [
+        "top50"
+      ],
+      "approx_cost": "food ¥2,000–4,000 (yakiniku/Korean BBQ)",
+      "hours": "10:00-22:00",
+      "booking": "walk-in",
+      "duration_hours": 2
+    },
+    {
+      "id": "osaka-umeda-sky-building",
+      "name": "Umeda Sky Building (Floating Garden Observatory)",
+      "category": "leisure",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic"
+      ],
+      "approx_cost": "¥2,000",
+      "hours": "9:30-22:30 (last entry 22:00)",
+      "booking": "walk-in",
+      "duration_hours": 1.5
+    },
+    {
+      "id": "osaka-usj",
+      "name": "Universal Studios Japan (USJ)",
+      "category": "leisure",
+      "entry": "paid",
+      "tags": [
+        "touristic",
+        "top50",
+        "iconic",
+        "kid-friendly"
+      ],
+      "approx_cost": "from ¥8,400, date-dependent (check web ticket store)",
+      "hours": "9:00-21:00 (varies by date)",
+      "booking": "required",
+      "duration_hours": 10
+    }
+  ],
+  "restaurants_strict": [
+    {
+      "id": "osaka-restaurant-ali-s-kitchen",
+      "name": "ALI'S KITCHEN",
+      "cuisine": "Pakistani curry (halal)",
+      "area": "Shinsaibashi",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.51
+    },
+    {
+      "id": "osaka-restaurant-botani-curry",
+      "name": "BOTANI:CURRY",
+      "cuisine": "curry, Indian curry",
+      "area": "Hommachi",
+      "price_range": "¥",
+      "tabelog_rating": 3.86
+    },
+    {
+      "id": "osaka-restaurant-botani-curry-umeda-ten",
+      "name": "BOTANI Curry Umeda ten",
+      "cuisine": "curry",
+      "area": "Umeda",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.8
+    },
+    {
+      "id": "osaka-restaurant-chedi-luang-yodoyabashi",
+      "name": "CHEDI LUANG Yodoyabashi",
+      "cuisine": "Thai curry, buffet",
+      "area": "Yodoyabashi",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.57
+    },
+    {
+      "id": "osaka-restaurant-chitose-honten",
+      "name": "Chitose Honten",
+      "cuisine": "udon, soba",
+      "area": "Namba",
+      "price_range": "¥",
+      "tabelog_rating": 3.72
+    },
+    {
+      "id": "osaka-restaurant-epais-hanshin-umeda-ten",
+      "name": "epais Hanshin umeda ten",
+      "cuisine": "tonkatsu, yoshoku, curry",
+      "area": "Umeda",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.66
+    },
+    {
+      "id": "osaka-restaurant-ghar",
+      "name": "Ghar",
+      "cuisine": "Indian curry",
+      "area": "Nishi-ku (Higobashi)",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.93
+    },
+    {
+      "id": "osaka-restaurant-ginza-kagari-ruku-a-osaka-ten",
+      "name": "Ginza Kagari Ruku a Osaka ten",
+      "cuisine": "ramen",
+      "area": "Umeda / Osaka Station",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.68
+    },
+    {
+      "id": "osaka-restaurant-hakugin-tei",
+      "name": "Hakugin Tei",
+      "cuisine": "curry",
+      "area": "Nishi-ku (Higobashi)",
+      "price_range": "¥",
+      "tabelog_rating": 3.69
+    },
+    {
+      "id": "osaka-restaurant-hashimoto-ya",
+      "name": "Hashimoto Ya",
+      "cuisine": "curry, soup curry",
+      "area": "Chuo-ku (Nagahoribashi)",
+      "price_range": "¥¥",
+      "tabelog_rating": 4.02
+    },
+    {
+      "id": "osaka-restaurant-hyotei",
+      "name": "Hyotei",
+      "cuisine": "soba",
+      "area": "Umeda",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.51
+    },
+    {
+      "id": "osaka-restaurant-ikareta-noodle-fish-tons",
+      "name": "Ikareta Noodle Fish Tons",
+      "cuisine": "tsukemen, ramen, tantanmen",
+      "area": "Naniwa-ku",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.73
+    },
+    {
+      "id": "osaka-restaurant-jinrui-mina-menrui",
+      "name": "Jinrui Mina Menrui",
+      "cuisine": "ramen",
+      "area": "Shin-Osaka",
+      "price_range": "¥",
+      "tabelog_rating": 3.75
+    },
+    {
+      "id": "osaka-restaurant-kadoya-shokudo-souhonten",
+      "name": "Kadoya Shokudo Souhonten",
+      "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
+      "area": "Nishi-ku (Awaza)",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.83
+    },
+    {
+      "id": "osaka-restaurant-kitan-hibiki",
+      "name": "KITAN HIBIKI",
+      "cuisine": "steak / hamburger",
+      "area": "Namba",
+      "price_range": "¥",
+      "tabelog_rating": 3.5
+    },
+    {
+      "id": "osaka-restaurant-komugi-to-ikiru-michi",
+      "name": "Komugi to Ikiru Michi",
+      "cuisine": "ramen, karaage",
+      "area": "Chuo-ku (Hommachi)",
+      "price_range": "¥",
+      "tabelog_rating": 3.58
+    },
+    {
+      "id": "osaka-restaurant-kouroan",
+      "name": "Sushi Washoku Kouroan Nanba",
+      "cuisine": "sushi / japanese",
+      "area": "Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.52
+    },
+    {
+      "id": "osaka-restaurant-kusaka-curry-honten",
+      "name": "KUSAKA CURRY Honten",
+      "cuisine": "curry",
+      "area": "Shinsaibashi",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.54
+    },
+    {
+      "id": "osaka-restaurant-kusaka-curry-nanba-ten",
+      "name": "Kusaka Curry Nanba ten",
+      "cuisine": "curry",
+      "area": "Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.5
+    },
+    {
+      "id": "osaka-restaurant-live-yakiniku-tengu",
+      "name": "Live Yakiniku Tengu Sennichimae",
+      "cuisine": "yakiniku",
+      "area": "Nippombashi (Sennichimae)",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.55
+    },
+    {
+      "id": "osaka-restaurant-malaysia-boleh",
+      "name": "Malaysia Boleh",
+      "cuisine": "Malaysian curry (halal)",
+      "area": "Umeda / Osaka Station",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.52
+    },
+    {
+      "id": "osaka-restaurant-men-no-youji",
+      "name": "Men no Youji",
+      "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
+      "area": "Nippombashi / Den Den Town",
+      "price_range": "¥",
+      "tabelog_rating": 3.7
+    },
+    {
+      "id": "osaka-restaurant-menya-joroku-nanba-ten",
+      "name": "Menya Joroku Nanba ten",
+      "cuisine": "ramen",
+      "area": "Namba / Dotonbori",
+      "price_range": "¥",
+      "tabelog_rating": 3.73
+    },
+    {
+      "id": "osaka-restaurant-menya-takei-hankyuu-umeda-ten",
+      "name": "Menya Takei Hankyuu Umeda ten",
+      "cuisine": "tsukemen, ramen",
+      "area": "Umeda / Osaka Station",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.7
+    },
+    {
+      "id": "osaka-restaurant-mizuno",
+      "name": "Mizuno",
+      "cuisine": "okonomiyaki",
+      "area": "Dotonbori, Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.55
+    },
+    {
+      "id": "osaka-restaurant-moeyo-mensuke",
+      "name": "Moeyo Mensuke",
+      "cuisine": "ramen",
+      "area": "Fukushima / Umeda",
+      "price_range": "¥",
+      "tabelog_rating": 3.76
+    },
+    {
+      "id": "osaka-restaurant-mugi-to-mensuke",
+      "name": "Mugi to Mensuke",
+      "cuisine": "ramen, tsukemen",
+      "area": "Umeda / Nakatsu",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.9
+    },
+    {
+      "id": "osaka-restaurant-muguni",
+      "name": "MUGUNI",
+      "cuisine": "omurice, yoshoku, curry",
+      "area": "Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.58
+    },
+    {
+      "id": "osaka-restaurant-naniwa-menjiro",
+      "name": "Naniwa Menjiro",
+      "cuisine": "ramen, tsukemen",
+      "area": "Namba / Dotonbori",
+      "price_range": "¥",
+      "tabelog_rating": 3.71
+    },
+    {
+      "id": "osaka-restaurant-naniwa-okina",
+      "name": "Naniwa Okina",
+      "cuisine": "soba",
+      "area": "Naniwabashi / Kita-ku",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.67
+    },
+    {
+      "id": "osaka-restaurant-naniwa-robata-toyo",
+      "name": "Naniwa Robata Toyo Kobayashi",
+      "cuisine": "izakaya / robatayaki",
+      "area": "Namba (Toyo)",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.58
+    },
+    {
+      "id": "osaka-restaurant-new-babe",
+      "name": "New Babe",
+      "cuisine": "tonkatsu",
+      "area": "Tanimachi",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.7
+    },
+    {
+      "id": "osaka-restaurant-next-shikaku",
+      "name": "NEXT Shikaku",
+      "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
+      "area": "Namba / Dotonbori",
+      "price_range": "¥",
+      "tabelog_rating": 3.69
+    },
+    {
+      "id": "osaka-restaurant-niji-no-hotoke",
+      "name": "Niji no Hotoke",
+      "cuisine": "curry, yoshoku",
+      "area": "Tennoji (Shitennoji Mae Yuhigaoka)",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.8
+    },
+    {
+      "id": "osaka-restaurant-okonomi-tamachan",
+      "name": "Okonomi Tamachan Viva",
+      "cuisine": "okonomiyaki",
+      "area": "Nishiohashi",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.65
+    },
+    {
+      "id": "osaka-restaurant-ramen-jinsei-jet",
+      "name": "Ramen Jinsei JET",
+      "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
+      "area": "Fukushima / Umeda",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.75
+    },
+    {
+      "id": "osaka-restaurant-robata-x-sushi-ura-fukushima-hana",
+      "name": "Robata x Sushi Ura Fukushima Hana",
+      "cuisine": "robata-yaki, sushi, izakaya",
+      "area": "Fukushima / Umeda",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.52
+    },
+    {
+      "id": "osaka-restaurant-sakana-meshiya-tenhashi",
+      "name": "Sakana no Meshiya Tenhashi",
+      "cuisine": "izakaya / robatayaki seafood",
+      "area": "Tennoji",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.56
+    },
+    {
+      "id": "osaka-restaurant-shuhari-kuromon-ten",
+      "name": "Shuhari Kuromon ten",
+      "cuisine": "soba, izakaya",
+      "area": "Kuromon Market",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.59
+    },
+    {
+      "id": "osaka-restaurant-shuhari-tanimachi-yonchome-ten",
+      "name": "Shuhari Tanimachi yonchome ten",
+      "cuisine": "soba, tempura",
+      "area": "Tanimachi",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.65
+    },
+    {
+      "id": "osaka-restaurant-soba-dokoro-toki",
+      "name": "Soba Dokoro Toki",
+      "cuisine": "soba",
+      "area": "Kitashinchi (Kita)",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.67
+    },
+    {
+      "id": "osaka-restaurant-soba-takama",
+      "name": "Soba Takama",
+      "cuisine": "soba",
+      "area": "Tenjimbashisuji",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.75
+    },
+    {
+      "id": "osaka-restaurant-sushi-amato",
+      "name": "Sushi Amato Ura Nanba",
+      "cuisine": "sushi / izakaya",
+      "area": "Nippombashi",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.54
+    },
+    {
+      "id": "osaka-restaurant-sushi-sakaba-teppei",
+      "name": "Sushi Sakaba Teppei",
+      "cuisine": "sushi / izakaya",
+      "area": "Higashi Umeda",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.52
+    },
+    {
+      "id": "osaka-restaurant-takigawa-teradacho",
+      "name": "Yakiniku Horumon Takigawa Teradacho",
+      "cuisine": "yakiniku / horumon",
+      "area": "Teradacho (Tennoji)",
+      "price_range": "¥¥¥",
+      "tabelog_rating": 3.52
+    },
+    {
+      "id": "osaka-restaurant-tenmasa",
+      "name": "Tenmasa",
+      "cuisine": "udon, soba, curry udon",
+      "area": "Namba",
+      "price_range": "¥",
+      "tabelog_rating": 3.68
+    },
+    {
+      "id": "osaka-restaurant-teuchi-soba-akari",
+      "name": "Teuchi Soba Akari",
+      "cuisine": "soba, tempura, sake bar",
+      "area": "Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.54
+    },
+    {
+      "id": "osaka-restaurant-tori-soba-zagin-honten",
+      "name": "Tori Soba Zagin Honten",
+      "cuisine": "ramen, tsukemen, chicken dishes",
+      "area": "Nishi-ku (Umeda west)",
+      "price_range": "¥",
+      "tabelog_rating": 3.71
+    },
+    {
+      "id": "osaka-restaurant-usami-tei-matsubaya",
+      "name": "Usami Tei Matsubaya",
+      "cuisine": "udon, soba, oyako-don",
+      "area": "Shinsaibashi",
+      "price_range": "¥",
+      "tabelog_rating": 3.67
+    },
+    {
+      "id": "osaka-restaurant-wagyu-oukoku",
+      "name": "WAGYU Oukoku",
+      "cuisine": "yakiniku",
+      "area": "Namba",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.59
+    },
+    {
+      "id": "osaka-restaurant-watanabe-curry-umeda-honten",
+      "name": "Watanabe Curry Umeda honten",
+      "cuisine": "curry",
+      "area": "Kitashinchi / Umeda",
+      "price_range": "¥¥",
+      "tabelog_rating": 3.71
+    }
+  ],
+  "events": [
+    {
+      "id": "osaka-castle-illuminage",
+      "name": "Osaka Castle Illuminage (winter light show)",
+      "start": "2026-11-20",
+      "end": "2027-02-14",
+      "entry": "paid",
+      "approx_cost": "Nishinomaru Garden evening ticket extra (check site)"
+    },
+    {
+      "id": "osaka-midosuji-illumination",
+      "name": "Midosuji Illumination (winter lights)",
+      "start": "2026-11-03",
+      "end": "2026-12-31",
+      "entry": "free",
+      "approx_cost": "free"
+    }
+  ]
+}
