@@ -99,34 +99,34 @@ Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. S
 
 | date | place | area | plan |
 |---|---|---|---|
-| 2026-12-26 | osaka | Namba / Dotonbori | 5: Kansai Airport (KIX) → Osaka; Dotonbori & Shinsaibashi at night; Hozenji Yokocho (lantern alley); Mizuno… |
-| 2026-12-27 | osaka | Osaka Castle / Chuo-ku | 6: Osaka Castle; Osaka Museum of History; Kuromon Ichiba Market ("Osaka's Kitchen"); Shuhari Kuromon ten… |
-| 2026-12-28 | osaka | Umeda / Nakanoshima | 5: Osaka Central Public Hall & Nakanoshima; Umeda Sky Building (Floating Garden Observatory); BOTANI Curry Umeda ten; Mugi to Mensuke… |
+| 2026-12-26 | osaka | Namba / Dotonbori | 3: Kansai Airport (KIX) → Osaka; Dotonbori & Shinsaibashi at night; Mizuno |
+| 2026-12-27 | osaka | Osaka Castle / Namba | 4: Osaka Castle; Kuromon Ichiba Market ("Osaka's Kitchen"); Shuhari Kuromon ten; Menya Joroku Nanba ten |
+| 2026-12-28 | osaka | Umeda / Nakanoshima | 4: Umeda Sky Building (Floating Garden Observatory); BOTANI Curry Umeda ten; Mugi to Mensuke; Midosuji Illumination (winter lights) |
 | 2026-12-29 | osaka | Himeji day trip | 2: Day trip Osaka → Himeji Castle; Naniwa Menjiro |
-| 2026-12-30 | osaka | Tempozan / Minato-ku | 5: Osaka Aquarium Kaiyukan; Tempozan Giant Ferris Wheel; Santa Maria bay cruise; Usami Tei Matsubaya… |
-| 2026-12-31 | osaka | Namba / Kita — New Year's Eve | 5: Amerika-mura (America Village); Den Den Town (Nipponbashi); Midosuji Illumination (winter lights); Okonomi Tamachan Viva… |
+| 2026-12-30 | osaka | Tempozan / Minato-ku | 4: Osaka Aquarium Kaiyukan; Tempozan Giant Ferris Wheel; Usami Tei Matsubaya; NEXT Shikaku |
+| 2026-12-31 | osaka | Namba / Kita — New Year's Eve | 4: Amerika-mura (America Village); Midosuji Illumination (winter lights); Okonomi Tamachan Viva; Dotonbori & Shinsaibashi at night |
 | 2027-01-01 | osaka | Sumiyoshi / Shinsekai — New Year's Day | 5: Sumiyoshi Taisha Shrine; Shinsekai & Tsutenkaku Tower; Spa World (Shinsekai onsen); Daruma (Shinsekai)… |
 | 2027-01-02 | osaka | Osaka → Kyoto (travel day) | 3: Kuromon Ichiba Market ("Osaka's Kitchen"); Osaka → Kyoto (Jan 2 move); Honke Daiichi Asahi Honten |
-| 2027-01-03 | kyoto | Higashiyama / Gion | 9: Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Kodai-ji (NYE bell ringing)… |
-| 2027-01-04 | kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | 6: Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Nanzen-ji (brick aqueduct); Eikan-do (Zenrin-ji)… |
-| 2027-01-05 | kyoto | Nishiki Market / Pontocho / downtown | 5: Nishiki Market ("Kyoto's Kitchen"); Kyoto Imperial Palace (Gosho); Pontocho alley; Nishiki Warai… |
-| 2027-01-06 | kyoto | Arashiyama | 5: Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Sagano Romantic Train (Torokko); Arashiyama Yoshimura… |
-| 2027-01-07 | kyoto | Fushimi + north Kyoto (Kinkaku-ji/Ryoan-ji/Ninna-ji) | 7: Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Kinkaku-ji (Golden Pavilion); Ryoan-ji (rock garden)… |
-| 2027-01-08 | kyoto | Gion / downtown — Toka Ebisu | 6: Toji Temple (market day); Sanjusangen-do (1,001 Kannon statues); Toka Ebisu festival at Ebisu-jinja (Gion); Gion & Higashiyama at dusk… |
-| 2027-01-09 | tokyo | Shinjuku (arrival) | 5: Kyoto → Tokyo (Jan 8/9 move); Shinjuku Gyoen National Garden; Tokyo Metropolitan Government Building observatory (45F); Udon Shin… |
-| 2027-01-10 | tokyo | Ryogoku / Shinjuku — Grand Sumo day 1 | 4: Grand Sumo Tournament (Ryogoku Kokugikan, January); Edo-Tokyo Museum (Ryogoku); Hasegawa (tonkatsu); Katsu Pulipo |
-| 2027-01-11 | tokyo | Asakusa / Ueno | 5: Senso-ji Temple (Asakusa); Ueno Park & museums; Asakusa Ramen Yoroiya; Namiki Yabu Soba… |
+| 2027-01-03 | kyoto | Higashiyama / Gion | 7: Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Gion & Higashiyama at dusk… |
+| 2027-01-04 | kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | 5: Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Nanzen-ji (brick aqueduct); Yamamoto Menzou… |
+| 2027-01-05 | kyoto | Nishiki Market / downtown / Pontocho | 5: Nishiki Market ("Kyoto's Kitchen"); Kyoto Imperial Palace (Gosho); Pontocho alley; Nishiki Warai… |
+| 2027-01-06 | kyoto | Arashiyama | 4: Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Arashiyama Yoshimura; Tsukumo Udon Shiokouji honten |
+| 2027-01-07 | kyoto | Fushimi — calm day | 4: Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Mugi no Yoake; KANEGURA |
+| 2027-01-08 | kyoto | Kita temples + Gion — Toka Ebisu | 6: Kinkaku-ji (Golden Pavilion); Ryoan-ji (rock garden); Toka Ebisu festival at Ebisu-jinja (Gion); Gion & Higashiyama at dusk… |
+| 2027-01-09 | tokyo | Shinjuku (arrival) | 4: Kyoto → Tokyo (Jan 8/9 move); Tokyo Metropolitan Government Building observatory (45F); Udon Shin; Omoide Yokocho yakitori stalls |
+| 2027-01-10 | tokyo | Ryogoku — Grand Sumo day 1 | 3: Grand Sumo Tournament (Ryogoku Kokugikan, January); Hasegawa (tonkatsu); Katsu Pulipo |
+| 2027-01-11 | tokyo | Asakusa / Ueno | 4: Senso-ji Temple (Asakusa); Ueno Park & museums; Asakusa Ramen Yoroiya; Tokyo Tonkatsu Gabuu |
 | 2027-01-12 | tokyo | Tsukiji / Ginza / Marunouchi | 6: Tsukiji Outer Market; Ginza (shopping & depachika); Sushi Nakamura (Tsukiji); Godaime Hanayama Udon Ginza ten… |
-| 2027-01-13 | tokyo | Shibuya / Harajuku / Omotesando | 6: Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Meiji Shrine (Meiji Jingu) and Yoyogi Park; Harajuku & Takeshita Street… |
+| 2027-01-13 | tokyo | Shibuya / Harajuku | 5: Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Meiji Shrine (Meiji Jingu) and Yoyogi Park; Hayashi… |
 | 2027-01-14 | tokyo | Toyosu / Odaiba — teamLab day | 4: teamLab Planets (Toyosu); Odaiba island (Gundam, beach, Rainbow Bridge); Kagawa Ippuku ART; Udon Shin |
-| 2027-01-15 | tokyo | Akihabara / Kanda / Marunouchi | 4: Akihabara (Electric Town); Pokemon Center (Tokyo Station / Nihonbashi); KAMAYOSHI; Katsu Kichi Shinmaru biru ten |
+| 2027-01-15 | tokyo | Akihabara / Kanda / Tokyo Station | 4: Akihabara (Electric Town); Pokemon Center (Tokyo Station / Nihonbashi); KAMAYOSHI; Katsu Kichi Shinmaru biru ten |
 | 2027-01-16 | tokyo | Kamakura day trip | 2: Tokyo → Kamakura (day trip); FISH Shinjuku ten |
 | 2027-01-17 | tokyo | Azabudai / Roppongi — teamLab Borderless | 4: teamLab Borderless (Azabudai Hills); Mori Art Museum (Roppongi Hills 53F); Roppongi Udon; Menson RAGE Azabudai hiruzu |
-| 2027-01-18 | tokyo | Yanaka / Nezu / Ueno — old Tokyo | 4: Yanaka old town (Yanaka Ginza, Nezu Shrine); Ueno Park & museums; Asakusa Hirayama; Taishu Shabushabu Katsuji Ueno |
+| 2027-01-18 | tokyo | Yanaka / Ueno — old Tokyo, calm | 4: Yanaka old town (Yanaka Ginza, Nezu Shrine); Ueno Park & museums; Asakusa Hirayama; Taishu Shabushabu Katsuji Ueno |
 | 2027-01-19 | tokyo | Kawaguchiko day trip — Mt Fuji | 2: Day trip to Kawaguchiko (Mt Fuji views); Kirimugi Ya Jinroku |
-| 2027-01-20 | tokyo | Nakano / Shimokitazawa / Koenji | 5: Nakano Broadway; Shimokitazawa; Koenji; European Curry Tomato… |
+| 2027-01-20 | tokyo | Nakano / Shimokitazawa (Koenji evening) | 4: Nakano Broadway; Shimokitazawa; European Curry Tomato; Usagi |
 | 2027-01-21 | tokyo | Nikko day trip (UNESCO) | 2: Day trip to Nikko (Toshogu shrine); Udon Manda Jiro |
-| 2027-01-22 | tokyo | Marunouchi / Shinjuku — last full day + sales | 5: Imperial Palace East Gardens; Hama-rikyu Gardens; New Year sales & fukubukuro (lucky bags); Men Chirashi… |
+| 2027-01-22 | tokyo | Marunouchi / Shibuya — last full day | 5: Imperial Palace East Gardens; Hama-rikyu Gardens; New Year sales & fukubukuro (lucky bags); Men Chirashi… |
 | 2027-01-23 | tokyo | Departure day | 3: Haneda Airport (HND) → central Tokyo (departure Jan 23); Narita Airport (NRT) → central Tokyo (departure Jan 23); Depachika food halls (Isetan Shinjuku / Mitsukoshi Ginza) |
 
 <!-- gen:end days -->
