@@ -6,6 +6,7 @@ path: japan/kyushu/fukuoka
 country: japan
 region: kyushu
 prefecture: Fukuoka
+coords: [33.589899, 130.401751]
 ---
 
 # Fukuoka
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -6,6 +6,7 @@ path: japan/kyushu/nagasaki
 country: japan
 region: kyushu
 prefecture: Nagasaki
+coords: [32.750161, 129.8781]
 ---
 
 # Nagasaki
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

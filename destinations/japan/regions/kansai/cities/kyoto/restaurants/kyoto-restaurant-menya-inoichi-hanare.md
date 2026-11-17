@@ -3,12 +3,17 @@ id: kyoto-restaurant-menya-inoichi-hanare
 type: restaurant
 name: Menya Inoichi Hanare
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Shijo
 cuisine: ramen
 price_range: ¥¥
-area: Shijo
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.67   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.67
 tags: [top-rated]
+coords: [35.003763, 135.769608]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Menya Inoichi Hanare

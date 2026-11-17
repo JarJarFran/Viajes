@@ -3,12 +3,19 @@ id: tokyo-restaurant-steak-shinoda
 type: restaurant
 name: Steak Shinoda
 place: japan/kanto/tokyo
+area: tokyo-area-ueno
+area_detail: Ueno / Yushima
 cuisine: steak, curry, yoshoku
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ueno / Yushima
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.35   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.35
+station: Yushima
+station_m: 349
+coords: [35.707947, 139.770056]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Steak Shinoda

@@ -3,12 +3,19 @@ id: tokyo-restaurant-yoroniku-tokyo-azabudai-hills
 type: restaurant
 name: YORONIKU TOKYO AZABUDAI HILLS
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Azabudai / Toranomon
 cuisine: yakiniku
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Azabudai / Toranomon
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 4.35   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [15000, 19999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 4.35
+tags: [top-rated]
+station: Kamiyacho
+station_m: 426
+coords: [35.66248, 139.744738]
+coords_precision: station
+verified: 2026-11
 ---
 
 # YORONIKU TOKYO AZABUDAI HILLS

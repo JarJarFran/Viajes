@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-watanabe-curry-umeda-honten
 type: restaurant
-name: "Watanabe Curry Umeda honten"
+name: Watanabe Curry Umeda honten
 place: japan/kansai/osaka
-cuisine: "curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kitashinchi / Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Kitashinchi / Umeda
+cuisine: curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Kitashinchi
+station_m: 157
+coords: [34.698114, 135.498434]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Watanabe Curry Umeda honten

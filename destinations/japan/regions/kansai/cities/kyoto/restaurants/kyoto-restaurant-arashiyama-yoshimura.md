@@ -3,12 +3,18 @@ id: kyoto-restaurant-arashiyama-yoshimura
 type: restaurant
 name: Arashiyama Yoshimura
 place: japan/kansai/kyoto
+area: kyoto-area-arashiyama
 cuisine: soba, tempura
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Arashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.5
+station: Arashiyama
+station_m: 184
+coords: [35.013648, 135.677248]
+coords_precision: exact
+name_ja: よしむら
+verified: 2026-11
 ---
 
 # Arashiyama Yoshimura

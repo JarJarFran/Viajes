@@ -3,12 +3,20 @@ id: osaka-restaurant-menya-takei-hankyuu-umeda-ten
 type: restaurant
 name: Menya Takei Hankyuu Umeda ten
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Umeda / Osaka Station
 cuisine: tsukemen, ramen
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda / Osaka Station
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.7   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.7
+tags: [top-rated]
+station: Osaka Umeda
+station_m: 43
+coords: [34.705419, 135.498372]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Menya Takei Hankyuu Umeda ten

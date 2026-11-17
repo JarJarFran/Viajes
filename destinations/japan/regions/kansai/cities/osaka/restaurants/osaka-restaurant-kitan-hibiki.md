@@ -3,12 +3,17 @@ id: osaka-restaurant-kitan-hibiki
 type: restaurant
 name: KITAN HIBIKI
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: steak / hamburger
 price_range: ¥
-area: Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/"
-tabelog_rating: 3.5   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.5
 tags: [top-rated]
+coords: [34.669031, 135.501572]
+coords_precision: area
+verified: 2026-11
 ---
 
 # KITAN HIBIKI

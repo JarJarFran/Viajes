@@ -3,12 +3,18 @@ id: kyoto-restaurant-sohonke-nishin-soba-matsuba-honten
 type: restaurant
 name: Sohonke Nishin Soba Matsuba Honten
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: nishin soba (herring soba)
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.49
+station: Gion Shijo
+station_m: 37
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sohonke Nishin Soba Matsuba Honten

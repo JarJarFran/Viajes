@@ -3,12 +3,16 @@ id: kyoto-restaurant-honke-daiichi-asahi
 type: restaurant
 name: Honke Daiichi Asahi Honten
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
 cuisine: ramen
 price_range: ¥
-area: Kyoto Station
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.74   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.74
 tags: [top-rated]
+coords: [34.986443, 135.758446]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Honke Daiichi Asahi Honten

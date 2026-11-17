@@ -3,12 +3,17 @@ id: tokyo-restaurant-menya-ishii-ginza-ten
 type: restaurant
 name: Menya Ishii Ginza Ten
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.3   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.3
+station: Shintomicho
+station_m: 285
+coords: [35.670634, 139.77342]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Menya Ishii Ginza Ten

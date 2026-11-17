@@ -3,12 +3,18 @@ id: tokyo-restaurant-tsurutontan-udon-noodle-brasserie-shibuya-ten
 type: restaurant
 name: Tsurutontan UDON NOODLE Brasserie Shibuya ten
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: udon, izakaya, shabu-shabu
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.39   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.39
+station: Shibuya
+station_m: 95
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tsurutontan UDON NOODLE Brasserie Shibuya ten

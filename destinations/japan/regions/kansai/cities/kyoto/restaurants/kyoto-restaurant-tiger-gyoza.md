@@ -3,12 +3,14 @@ id: kyoto-restaurant-tiger-gyoza
 type: restaurant
 name: Tiger Gyoza Kawaramachi
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
 cuisine: gyoza
 price_range: ¥
-area: Kawaramachi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+budget_yen: [400, 700]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.003763, 135.769608]
+coords_precision: area
 ---
 
 # Tiger Gyoza Kawaramachi

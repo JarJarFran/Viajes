@@ -3,12 +3,20 @@ id: kyoto-restaurant-teuchi-soba-kanei
 type: restaurant
 name: Teuchi Soba Kanei
 place: japan/kansai/kyoto
+area: kyoto-area-kita
+area_detail: Kurama / Kita-ku
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kurama / Kita-ku
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.7   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.7
+tags: [top-rated]
+station: Kuramaguchi
+station_m: 1144
+coords: [35.037606, 135.746724]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # Teuchi Soba Kanei

@@ -5,16 +5,21 @@ name: Edo-Tokyo Museum (Ryogoku)
 place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
-approx_cost: "¥800 permanent (reopened 2026 after renovation)"
+approx_cost: ¥800 permanent (reopened 2026 after renovation)
+cost_yen: 800
 entry: paid
 tags: [top50]
-hours: "9:30-17:30 (Sat to 19:30)"
-closed: "Mondays"
+hours: 9:30-17:30 (Sat to 19:30)
+closed:
+  - {weekly: [mon], holiday_shift: true}
 booking: walk-in
-near: []
-best_season: "all year round; closed Mondays"
+best_season: all year round; closed Mondays
 best_time: morning
-link: "https://www.edo-tokyo-museum.or.jp/"
+link: https://www.edo-tokyo-museum.or.jp/
+coords: [35.696445, 139.796078]
+coords_precision: exact
+name_ja: 江戸東京博物館
+address_ja: 〒130-0015 東京墨田区横網横網一丁目1
 ---
 
 # Edo-Tokyo Museum (Ryogoku)

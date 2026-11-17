@@ -3,12 +3,20 @@ id: tokyo-restaurant-nishiazabu-butagumi
 type: restaurant
 name: Nishiazabu Butagumi
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Nishi-Azabu
 cuisine: tonkatsu, curry, pork dishes
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishi-Azabu
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.59   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.59
+tags: [top-rated]
+station: Nogizaka
+station_m: 733
+coords: [35.660958, 139.72215]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # Nishiazabu Butagumi

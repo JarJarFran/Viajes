@@ -5,16 +5,21 @@ name: Mori Art Museum (Roppongi Hills 53F)
 place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
-approx_cost: "¥2,000"
+approx_cost: ¥2,000
+cost_yen: 2000
 entry: paid
 tags: [top50]
-hours: "10:00-18:00"
-closed: "none known - check site"
+hours: 10:00-18:00
+closed: []
 booking: walk-in
 near: [tokyo-tokyo-city-view, tokyo-teamlab-borderless]
-best_season: "all year round; exhibitions rotate ~every 4 months"
+best_season: all year round; exhibitions rotate ~every 4 months
 best_time: afternoon
-link: "https://www.mori.art.museum/"
+link: https://www.mori.art.museum/
+coords: [35.660432, 139.729261]
+coords_precision: exact
+name_ja: 森美術館
+address_ja: 〒106-6122 東京港区六本木六本木六丁目1
 ---
 
 # Mori Art Museum (Roppongi Hills 53F)

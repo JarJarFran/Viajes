@@ -3,13 +3,15 @@ id: kyoto-joya-no-kane
 type: event
 name: Joya no Kane (New Year's Eve temple bells)
 place: japan/kansai/kyoto
-start: 2026-12-31
-end: 2026-12-31
-approx_cost: "free to watch from the street; ringing at some temples needs numbered tickets (from ~22:00) or paid viewing (~\u00a53,000)"
+recurrence: yearly, night of December 31
+editions:
+  - {start: 2026-12-31, end: 2026-12-31}
+approx_cost: free to watch from the street; ringing at some temples needs numbered tickets (from ~22:00) or paid viewing (~¥3,000)
 entry: free
 tags: [touristic, event, night]
 best_time: night
-link: "https://www.kyoto.travel/"
+link: https://www.kyoto.travel/
+verified: 2026-11
 ---
 
 # Joya no Kane (New Year's Eve temple bells)
@@ -20,6 +22,4 @@ At midnight Dec 31, 2026 temples ring their bells 108 times. Main Kyoto venues: 
 
 ## Tips
 
-We are in OSAKA on Dec 31, 2026 — Kyoto is 24-28 min away by JR Special Rapid if we want to attend; otherwise Osaka shrines (Shitenno-ji area, Sumiyoshi) also ring, and in Tokyo (from Jan 9) Zojo-ji is calm by then. Decide before booking NYE dinner.
-
-## Our experience
+Kyoto is 24–28 min from Osaka by JR Special Rapid; Osaka temples (Shitenno-ji area) and Tokyo's Zojo-ji also ring the bells. Popular temples hand out numbered tickets — arrive early.

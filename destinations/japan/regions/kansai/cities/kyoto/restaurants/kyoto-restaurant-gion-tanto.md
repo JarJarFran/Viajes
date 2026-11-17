@@ -3,12 +3,15 @@ id: kyoto-restaurant-gion-tanto
 type: restaurant
 name: Gion Tanto
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: okonomiyaki / teppanyaki
 price_range: ¥¥
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+budget_yen: [1000, 2000]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.00553, 135.774574]
+coords_precision: exact
+name_ja: 祇園たんと
 ---
 
 # Gion Tanto

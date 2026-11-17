@@ -6,6 +6,7 @@ path: japan/kyushu/kagoshima
 country: japan
 region: kyushu
 prefecture: Kagoshima
+coords: [31.596793, 130.557195]
 ---
 
 # Kagoshima
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

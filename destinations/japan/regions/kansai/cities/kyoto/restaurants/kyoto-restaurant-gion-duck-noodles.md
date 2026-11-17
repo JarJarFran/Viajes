@@ -3,12 +3,16 @@ id: kyoto-restaurant-gion-duck-noodles
 type: restaurant
 name: Gion Duck Noodles
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: ramen (duck broth)
 price_range: ¥¥
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.68   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.68
 tags: [top-rated]
+coords: [35.00469, 135.778403]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Gion Duck Noodles

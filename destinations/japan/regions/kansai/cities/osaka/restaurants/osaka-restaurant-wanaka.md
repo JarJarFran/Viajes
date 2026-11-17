@@ -3,12 +3,15 @@ id: osaka-restaurant-wanaka
 type: restaurant
 name: Wanaka
 place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Dotonbori, Namba
 cuisine: takoyaki
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Dotonbori, Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/"
+price_range: ¥
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: null
-tags: []
+coords: [34.66521, 135.503401]
+coords_precision: exact
+name_ja: たこ焼道楽わなか
 ---
 
 # Wanaka

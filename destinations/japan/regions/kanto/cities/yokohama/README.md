@@ -6,6 +6,7 @@ path: japan/kanto/yokohama
 country: japan
 region: kanto
 prefecture: Kanagawa
+coords: [35.450338, 139.63438]
 ---
 
 # Yokohama
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -3,12 +3,18 @@ id: tokyo-restaurant-sugidama
 type: restaurant
 name: Niboshi to Nihonshu Sugidama
 place: japan/kanto/tokyo
+area: tokyo-area-marunouchi
+area_detail: Marunouchi (Otemachi)
 cuisine: ramen / izakaya
 price_range: ¥¥
-area: Marunouchi (Otemachi)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.64   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.64
 tags: [top-rated]
+coords: [35.681619, 139.76533]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Niboshi to Nihonshu Sugidama

@@ -3,12 +3,18 @@ id: tokyo-restaurant-asakusa-sarashina-tenko
 type: restaurant
 name: Asakusa Sarashina Tenko
 place: japan/kanto/tokyo
+area: tokyo-area-asakusa
 cuisine: izakaya, soba
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Asakusa
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.41   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.41
+station: Asakusa
+station_m: 254
+coords: [35.711351, 139.798328]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Asakusa Sarashina Tenko

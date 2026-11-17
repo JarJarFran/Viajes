@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-sushi-robata-kitaro-sushi-douguyasuji-yokochou-ten
 type: restaurant
-name: "Sushi Robata Kitaro Sushi Douguyasuji yokochou ten"
+name: Sushi Robata Kitaro Sushi Douguyasuji yokochou ten
 place: japan/kansai/osaka
-cuisine: "sushi, robata-yaki, izakaya"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba / Doguyasuji"
-tabelog: "https://tabelog.com/en/osaka/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.2   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-namba
+area_detail: Namba / Doguyasuji
+cuisine: sushi, robata-yaki, izakaya
+price_range: ¥¥¥¥
+budget_lunch_yen: [6000, 7999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
+tabelog_rating: 3.2
+station: Namba
+station_m: 145
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Robata Kitaro Sushi Douguyasuji yokochou ten

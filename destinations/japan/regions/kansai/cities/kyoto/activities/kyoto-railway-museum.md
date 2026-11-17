@@ -5,16 +5,20 @@ name: Kyoto Railway Museum
 place: japan/kansai/kyoto
 category: museums
 duration_hours: 3
-approx_cost: "¥1,200"
+approx_cost: ¥1,200
+cost_yen: 1200
 entry: paid
 tags: [top50]
-hours: "10:00-17:00 (Jan 2-3, 2027: 10:00-17:00)"
-closed: "none known - check site"
+hours: '10:00-17:00 (Jan 2-3, 2027: 10:00-17:00)'
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round; open Jan 2–3 10:00–17:00 (last entry 16:30)"
+best_season: all year round; open Jan 2–3 10:00–17:00 (last entry 16:30)
 best_time: afternoon
-link: "https://www.kyotorailwaymuseum.jp/"
+link: https://www.kyotorailwaymuseum.jp/
+coords: [34.986489, 135.742696]
+coords_precision: exact
+name_ja: 京都鉄道博物館
+address_ja: 〒600-8835 京都府京都市下京区観喜寺町
 ---
 
 # Kyoto Railway Museum

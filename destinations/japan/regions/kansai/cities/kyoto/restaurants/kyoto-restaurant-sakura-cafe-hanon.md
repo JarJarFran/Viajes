@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-sakura-cafe-hanon
 type: restaurant
-name: "Sakura Cafe Hanon"
+name: Sakura Cafe Hanon
 place: japan/kansai/kyoto
-cuisine: "cafe, pancake"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Gion"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.24   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-gion
+cuisine: cafe, pancake
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.24
+station: Gion Shijo
+station_m: 147
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sakura Cafe Hanon

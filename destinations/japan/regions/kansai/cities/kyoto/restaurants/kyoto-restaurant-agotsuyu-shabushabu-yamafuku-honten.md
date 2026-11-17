@@ -3,12 +3,19 @@ id: kyoto-restaurant-agotsuyu-shabushabu-yamafuku-honten
 type: restaurant
 name: Agotsuyu Shabushabu Yamafuku Honten
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Sanjo / Kawaramachi
 cuisine: shabu-shabu (pork), izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Sanjo / Kawaramachi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.54   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.54
+tags: [top-rated]
+station: Sanjo
+station_m: 263
+coords: [35.008718, 135.772516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Agotsuyu Shabushabu Yamafuku Honten

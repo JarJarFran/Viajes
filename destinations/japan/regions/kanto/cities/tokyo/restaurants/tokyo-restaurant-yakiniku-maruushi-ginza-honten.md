@@ -3,12 +3,18 @@ id: tokyo-restaurant-yakiniku-maruushi-ginza-honten
 type: restaurant
 name: YAKINIKU MARUUSHI Ginza honten
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: yakiniku, tripe, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.52   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.52
+tags: [top-rated]
+station: Ginza Itchome
+station_m: 44
+coords: [35.675086, 139.765347]
+coords_precision: station
+verified: 2026-11
 ---
 
 # YAKINIKU MARUUSHI Ginza honten

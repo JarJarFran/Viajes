@@ -5,16 +5,20 @@ name: Spa World (Shinsekai onsen)
 place: japan/kansai/osaka
 category: onsen
 duration_hours: 3
-approx_cost: "¥1,500–2,500 day pass"
+approx_cost: ¥1,500–2,500 day pass
+cost_yen: 1500
 entry: paid
 tags: [top50]
-hours: "10:00-24:00"
-closed: "none known - check site"
+hours: 10:00-24:00
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
-link: "https://www.spaworld.co.jp/"
+link: https://www.spaworld.co.jp/
+coords: [34.649906, 135.505605]
+coords_precision: exact
+name_ja: スパワールド
+address_ja: 〒556-0002 大阪府大阪市浪速区恵美須東三丁目24
 ---
 
 # Spa World (Shinsekai onsen)

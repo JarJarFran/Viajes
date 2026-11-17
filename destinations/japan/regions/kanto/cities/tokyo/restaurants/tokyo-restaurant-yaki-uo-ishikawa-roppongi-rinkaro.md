@@ -3,12 +3,18 @@ id: tokyo-restaurant-yaki-uo-ishikawa-roppongi-rinkaro
 type: restaurant
 name: Yaki Uo Ishikawa Roppongi Rinkaro
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
 cuisine: seafood yakiniku, sushi
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Roppongi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.65   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [15000, 19999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.65
+tags: [top-rated]
+station: Roppongi
+station_m: 180
+coords: [35.662535, 139.731166]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yaki Uo Ishikawa Roppongi Rinkaro

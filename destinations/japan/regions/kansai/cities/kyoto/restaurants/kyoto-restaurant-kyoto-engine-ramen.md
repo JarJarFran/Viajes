@@ -1,14 +1,19 @@
 ---
 id: kyoto-restaurant-kyoto-engine-ramen
 type: restaurant
-name: "KYOTO ENGINE RAMEN"
+name: KYOTO ENGINE RAMEN
 place: japan/kansai/kyoto
-cuisine: "ramen"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kawaramachi"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.01   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-kawaramachi
+cuisine: ramen
+price_range: ¥¥
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
+tabelog_rating: 3.01
+station: Kyoto Kawaramachi
+station_m: 137
+coords: [35.004478, 135.767569]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # KYOTO ENGINE RAMEN

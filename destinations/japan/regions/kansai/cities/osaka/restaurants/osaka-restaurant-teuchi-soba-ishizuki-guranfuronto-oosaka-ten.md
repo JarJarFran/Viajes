@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-teuchi-soba-ishizuki-guranfuronto-oosaka-ten
 type: restaurant
-name: "Teuchi Soba Ishizuki Guranfuronto oosaka ten"
+name: Teuchi Soba Ishizuki Guranfuronto oosaka ten
 place: japan/kansai/osaka
-cuisine: "soba (Edo-style 80/20), izakaya, tempura"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda (Grand Front 7F)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-umeda
+area_detail: Umeda (Grand Front 7F)
+cuisine: soba (Edo-style 80/20), izakaya, tempura
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.48
+station: Osaka
+station_m: 200
+coords: [34.701905, 135.494426]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teuchi Soba Ishizuki Guranfuronto oosaka ten

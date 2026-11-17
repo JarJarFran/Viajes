@@ -6,6 +6,7 @@ path: japan/kanto/hakone
 country: japan
 region: kanto
 prefecture: Kanagawa
+coords: [35.232366, 139.106885]
 ---
 
 # Hakone
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

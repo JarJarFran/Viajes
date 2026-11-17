@@ -21,5 +21,3 @@ To be researched.
 - [Beppu](cities/beppu/)
 - [Kagoshima](cities/kagoshima/)
 - [Naha](cities/naha/)
-
-## Our experience

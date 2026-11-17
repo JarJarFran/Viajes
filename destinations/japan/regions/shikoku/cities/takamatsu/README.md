@@ -6,6 +6,7 @@ path: japan/shikoku/takamatsu
 country: japan
 region: shikoku
 prefecture: Kagawa
+coords: [34.342559, 134.046534]
 ---
 
 # Takamatsu
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

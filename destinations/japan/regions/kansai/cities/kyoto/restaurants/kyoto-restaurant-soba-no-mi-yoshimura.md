@@ -3,12 +3,19 @@ id: kyoto-restaurant-soba-no-mi-yoshimura
 type: restaurant
 name: Soba no Mi Yoshimura
 place: japan/kansai/kyoto
+area: kyoto-area-kiyomizu
+area_detail: Gojo / Kiyomizu
 cuisine: soba, izakaya, cafe
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Gojo / Kiyomizu
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.5
+station: Gojo
+station_m: 122
+coords: [34.99494, 135.759714]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba no Mi Yoshimura

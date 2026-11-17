@@ -3,12 +3,19 @@ id: tokyo-restaurant-hajime-nihonbashi-hon-ten
 type: restaurant
 name: HAJIME Nihonbashi hon ten
 place: japan/kanto/tokyo
+area: tokyo-area-marunouchi
 cuisine: tonkatsu, katsu-don, curry
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nihonbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.53   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.53
+tags: [top-rated]
+station: Mitsukoshimae
+station_m: 150
+coords: [35.685514, 139.770976]
+coords_precision: station
+verified: 2026-11
 ---
 
 # HAJIME Nihonbashi hon ten

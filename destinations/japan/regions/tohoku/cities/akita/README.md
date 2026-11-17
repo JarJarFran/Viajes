@@ -6,6 +6,7 @@ path: japan/tohoku/akita
 country: japan
 region: tohoku
 prefecture: Akita
+coords: [39.719763, 140.103467]
 ---
 
 # Akita
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

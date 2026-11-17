@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-bird-s-nest
 type: restaurant
-name: "bird's nest"
+name: bird's nest
 place: japan/kansai/osaka
-cuisine: "yakitori omakase, izakaya"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba"
-tabelog: "https://tabelog.com/en/osaka/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.56   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+cuisine: yakitori omakase, izakaya
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
+tabelog_rating: 3.56
+tags: [top-rated]
+station: Namba
+station_m: 216
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # bird's nest

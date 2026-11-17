@@ -3,13 +3,17 @@ id: kyoto-restaurant-nakamura-tokichi
 type: restaurant
 name: Nakamura Tokichi
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Uji (main) / Kawaramachi, Kyoto
 cuisine: matcha sweets & soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Uji (main) / Kawaramachi, Kyoto
-link: "https://tokichi.co.jp/"
-tabelog: "https://tabelog.com/en/kyoto/A2601/A260101/26005903/"
-tabelog_rating: 3.54   # checked tabelog.com/en 2026-11
+price_range: ¥¥
+tabelog: https://tabelog.com/en/kyoto/A2601/A260101/26005903/
+tabelog_rating: 3.54
 tags: [top-rated]
+link: https://tokichi.co.jp/
+coords: [35.003763, 135.769608]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Nakamura Tokichi

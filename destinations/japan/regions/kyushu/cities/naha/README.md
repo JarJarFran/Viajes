@@ -6,6 +6,7 @@ path: japan/kyushu/naha
 country: japan
 region: kyushu
 prefecture: Okinawa
+coords: [26.212235, 127.679145]
 ---
 
 # Naha
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

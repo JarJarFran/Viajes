@@ -3,12 +3,19 @@ id: tokyo-restaurant-ebisu-sushi-hatsume
 type: restaurant
 name: Ebisu Sushi Hatsume
 place: japan/kanto/tokyo
+area: tokyo-area-ebisu
 cuisine: sushi, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ebisu / Daikanyama
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [6000, 7999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Ebisu
+station_m: 524
+coords: [35.646441, 139.710208]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ebisu Sushi Hatsume

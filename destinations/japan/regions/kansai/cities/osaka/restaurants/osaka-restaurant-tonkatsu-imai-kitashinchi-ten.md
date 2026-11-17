@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-tonkatsu-imai-kitashinchi-ten
 type: restaurant
-name: "Tonkatsu Imai Kitashinchi ten"
+name: Tonkatsu Imai Kitashinchi ten
 place: japan/kansai/osaka
-cuisine: "tonkatsu, curry"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kitashinchi (Kita)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Kitashinchi (Kita)
+cuisine: tonkatsu, curry
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Oebashi
+station_m: 274
+coords: [34.694327, 135.49976]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tonkatsu Imai Kitashinchi ten

@@ -3,13 +3,16 @@ id: osaka-restaurant-ichiran
 type: restaurant
 name: Ichiran (Dotonbori)
 place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Dotonbori, Namba
 cuisine: ramen (tonkotsu)
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Dotonbori, Namba
-link: "https://ichiran.com/"
-tabelog: "https://tabelog.com/en/osaka/rstLst/"
+price_range: ¥¥
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: null
-tags: []
+link: https://ichiran.com/
+coords: [34.66924, 135.503067]
+coords_precision: exact
+name_ja: 一蘭 道頓堀店本館
 ---
 
 # Ichiran (Dotonbori)

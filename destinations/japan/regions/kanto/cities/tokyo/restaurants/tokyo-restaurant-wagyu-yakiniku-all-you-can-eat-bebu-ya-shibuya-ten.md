@@ -3,12 +3,18 @@ id: tokyo-restaurant-wagyu-yakiniku-all-you-can-eat-bebu-ya-shibuya-ten
 type: restaurant
 name: Wagyu Yakiniku All you can eat BeBu-Ya Shibuya ten
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: yakiniku all-you-can-eat, buffet
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.09   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.09
+station: Shibuya
+station_m: 439
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Wagyu Yakiniku All you can eat BeBu-Ya Shibuya ten

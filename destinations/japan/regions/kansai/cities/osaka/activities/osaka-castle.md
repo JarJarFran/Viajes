@@ -6,15 +6,22 @@ place: japan/kansai/osaka
 category: history
 duration_hours: 3
 approx_cost: Tower ¥1,200 (park free)
+cost_yen: 1200
 entry: mixed
 tags: [touristic, top50, iconic]
-hours: "Park 24h; tower 9:00-17:00"
-closed: "none known - check site"
+hours: Park 24h; tower 9:00-17:00
+closed:
+  - {yearly: 12-28..01-01}
 booking: walk-in
 near: [osaka-museum-of-history, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
 best_season: all year round; Illuminage evenings Nov 20–Feb 14
 best_time: morning
-link: "https://www.osakacastle.net/"
+link: https://www.osakacastle.net/
+coords: [34.687183, 135.525396]
+coords_precision: exact
+name_ja: 大阪城
+address_ja: 〒540-0002 大阪府大阪市中央区極楽橋
+verified: '2026-11-17'
 ---
 
 # Osaka Castle
@@ -29,6 +36,4 @@ JR Osaka Loop Line to Morinomiya (10 min walk); opens 9:00. Combine with Osaka C
 
 ## Tips
 
-Go at 9:00 opening to beat crowds. In our window the Nishinomaru Garden hosts the Illuminage light show (see osaka-castle-illuminage). Osaka Amazing Pass includes the tower.
-
-## Our experience
+Go at 9:00 opening to beat crowds. In winter the Nishinomaru Garden hosts the Illuminage light show (see osaka-castle-illuminage). Tower closed Dec 28–Jan 1. Osaka Amazing Pass includes the tower.

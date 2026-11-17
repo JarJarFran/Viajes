@@ -3,12 +3,20 @@ id: tokyo-restaurant-spicy-curry-roka
 type: restaurant
 name: SPICY CURRY Roka
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shin-Okubo
 cuisine: spicy curry, taiwanese
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shin-Okubo
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.94   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.94
+tags: [top-rated]
+station: Okubo
+station_m: 201
+coords: [35.702197, 139.695217]
+coords_precision: station
+verified: 2026-11
 ---
 
 # SPICY CURRY Roka

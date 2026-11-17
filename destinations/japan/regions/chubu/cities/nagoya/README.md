@@ -6,6 +6,7 @@ path: japan/chubu/nagoya
 country: japan
 region: chubu
 prefecture: Aichi
+coords: [35.185105, 136.899844]
 ---
 
 # Nagoya
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

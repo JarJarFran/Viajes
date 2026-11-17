@@ -3,12 +3,17 @@ id: kyoto-restaurant-menya-rennosuke
 type: restaurant
 name: Menya Rennosuke
 place: japan/kansai/kyoto
+area: kyoto-area-kita
+area_detail: Kitano Hakubaicho
 cuisine: ramen
 price_range: ¥¥
-area: Kitano Hakubaicho
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.52   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.52
 tags: [top-rated]
+coords: [35.027791, 135.735447]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Menya Rennosuke

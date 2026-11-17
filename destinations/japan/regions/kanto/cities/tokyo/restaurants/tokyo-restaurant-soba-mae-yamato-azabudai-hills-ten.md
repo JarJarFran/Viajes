@@ -3,12 +3,19 @@ id: tokyo-restaurant-soba-mae-yamato-azabudai-hills-ten
 type: restaurant
 name: Soba Mae Yamato Azabudai Hills ten
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Azabudai / Roppongi
 cuisine: soba, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Azabudai / Roppongi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.48
+station: Roppongi Itchome
+station_m: 395
+coords: [35.664973, 139.738849]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba Mae Yamato Azabudai Hills ten

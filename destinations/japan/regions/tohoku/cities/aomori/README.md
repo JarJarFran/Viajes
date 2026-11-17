@@ -6,6 +6,7 @@ path: japan/tohoku/aomori
 country: japan
 region: tohoku
 prefecture: Aomori
+coords: [40.822283, 140.747203]
 ---
 
 # Aomori
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

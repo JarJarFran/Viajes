@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-m-maison-kyoto
 type: restaurant
-name: "M&Maison KYOTO"
+name: M&Maison KYOTO
 place: japan/kansai/kyoto
-cuisine: "cafe, seafood, Kyoto seasonal breakfast"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Gojo / Kiyomizu"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.47   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-kiyomizu
+area_detail: Gojo / Kiyomizu
+cuisine: cafe, seafood, Kyoto seasonal breakfast
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.47
+station: Gojo
+station_m: 228
+coords: [34.993686, 135.761007]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # M&Maison KYOTO

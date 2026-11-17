@@ -3,12 +3,19 @@ id: osaka-restaurant-new-matsusaka-nanba-midousuji-ten
 type: restaurant
 name: New Matsusaka Nanba midousuji ten
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: teppanyaki (Matsusaka beef), wine bar
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Namba
+station_m: 106
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # New Matsusaka Nanba midousuji ten

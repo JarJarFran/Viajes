@@ -3,12 +3,16 @@ id: kyoto-restaurant-seikou-udoku
 type: restaurant
 name: Seikou Udoku
 place: japan/kansai/kyoto
+area: kyoto-area-uji
 cuisine: abura-soba / maze-soba
 price_range: ¥
-area: Uji
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.83   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.83
 tags: [top-rated]
+coords: [34.894584, 135.806334]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Seikou Udoku

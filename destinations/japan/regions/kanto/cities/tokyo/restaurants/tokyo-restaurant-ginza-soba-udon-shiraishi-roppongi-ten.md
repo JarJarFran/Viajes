@@ -3,12 +3,18 @@ id: tokyo-restaurant-ginza-soba-udon-shiraishi-roppongi-ten
 type: restaurant
 name: Ginza Soba Udon Shiraishi Roppongi ten
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
 cuisine: soba, udon, izakaya
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Roppongi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.45
+station: Roppongi
+station_m: 107
+coords: [35.662535, 139.731166]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ginza Soba Udon Shiraishi Roppongi ten

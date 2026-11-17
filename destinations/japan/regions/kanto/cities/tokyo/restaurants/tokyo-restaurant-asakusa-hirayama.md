@@ -3,12 +3,20 @@ id: tokyo-restaurant-asakusa-hirayama
 type: restaurant
 name: Asakusa Hirayama
 place: japan/kanto/tokyo
+area: tokyo-area-asakusa
+area_detail: Asakusa / Ueno
 cuisine: soba, tempura
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Asakusa / Ueno
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Tawaramachi
+station_m: 107
+coords: [35.709836, 139.790755]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Asakusa Hirayama

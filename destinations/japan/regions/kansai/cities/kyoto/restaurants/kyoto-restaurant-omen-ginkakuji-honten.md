@@ -3,12 +3,20 @@ id: kyoto-restaurant-omen-ginkakuji-honten
 type: restaurant
 name: Omen Ginkakuji honten
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Ginkaku-ji / Higashiyama
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginkaku-ji / Higashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.58   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.58
+tags: [top-rated]
+station: Mototanaka
+station_m: 1567
+coords: [35.034644, 135.781513]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Omen Ginkakuji honten

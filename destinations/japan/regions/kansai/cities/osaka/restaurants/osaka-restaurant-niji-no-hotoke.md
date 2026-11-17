@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-niji-no-hotoke
 type: restaurant
-name: "Niji no Hotoke"
+name: Niji no Hotoke
 place: japan/kansai/osaka
-cuisine: "curry, yoshoku"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Tennoji (Shitennoji Mae Yuhigaoka)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.8   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-tennoji
+area_detail: Tennoji (Shitennoji Mae Yuhigaoka)
+cuisine: curry, yoshoku
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.8
+tags: [top-rated]
+station: Shitennoji Mae Yuhigaoka
+station_m: 239
+coords: [34.658816, 135.514245]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Niji no Hotoke

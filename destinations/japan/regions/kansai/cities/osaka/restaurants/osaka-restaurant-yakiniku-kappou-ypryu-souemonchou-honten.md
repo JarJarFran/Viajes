@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-yakiniku-kappou-ypryu-souemonchou-honten
 type: restaurant
-name: "YAKINIKU KAPPOU YPRYU Souemonchou honten"
+name: YAKINIKU KAPPOU YPRYU Souemonchou honten
 place: japan/kansai/osaka
-cuisine: "yakiniku, teppanyaki"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba / Souemoncho"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+area_detail: Namba / Souemoncho
+cuisine: yakiniku, teppanyaki
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Nippombashi
+station_m: 290
+coords: [34.666718, 135.506149]
+coords_precision: station
+verified: 2026-11
 ---
 
 # YAKINIKU KAPPOU YPRYU Souemonchou honten

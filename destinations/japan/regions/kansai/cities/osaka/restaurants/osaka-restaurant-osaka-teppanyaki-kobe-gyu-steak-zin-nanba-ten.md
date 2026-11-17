@@ -3,12 +3,18 @@ id: osaka-restaurant-osaka-teppanyaki-kobe-gyu-steak-zin-nanba-ten
 type: restaurant
 name: Osaka Teppanyaki Kobe Gyu Steak Zin Nanba ten
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: teppanyaki (Kobe/Matsusaka/wagyu)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Dotonbori
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.34   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [6000, 7999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.34
+station: Namba
+station_m: 191
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Osaka Teppanyaki Kobe Gyu Steak Zin Nanba ten

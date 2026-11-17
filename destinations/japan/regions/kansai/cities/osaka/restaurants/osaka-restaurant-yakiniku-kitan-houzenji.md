@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-yakiniku-kitan-houzenji
 type: restaurant
-name: "Yakiniku Kitan Houzenji"
+name: Yakiniku Kitan Houzenji
 place: japan/kansai/osaka
-cuisine: "yakiniku"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba / Hozenji"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+area_detail: Namba / Hozenji
+cuisine: yakiniku
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Namba
+station_m: 232
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Kitan Houzenji

@@ -3,12 +3,19 @@ id: tokyo-restaurant-ushimatsu
 type: restaurant
 name: Ushimatsu
 place: japan/kanto/tokyo
+area: tokyo-area-ebisu
+area_detail: Hiroo / Ebisu
 cuisine: yakiniku, gyutan (beef tongue), tripe
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Hiroo / Ebisu
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.98   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.98
+tags: [top-rated]
+station: Hiro o
+station_m: 599
+coords: [35.652063, 139.722203]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ushimatsu

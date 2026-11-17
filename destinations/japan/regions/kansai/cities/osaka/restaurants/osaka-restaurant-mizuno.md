@@ -3,13 +3,18 @@ id: osaka-restaurant-mizuno
 type: restaurant
 name: Mizuno
 place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Dotonbori, Namba
 cuisine: okonomiyaki
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Dotonbori, Namba
-link: "https://www.mizuno.co.jp/"
-tabelog: "https://tabelog.com/en/osaka/A2701/A270202/27001278/"
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
+price_range: ¥¥
+tabelog: https://tabelog.com/en/osaka/A2701/A270202/27001278/
+tabelog_rating: 3.55
 tags: [top-rated]
+link: https://www.mizuno.co.jp/
+coords: [34.668372, 135.50322]
+coords_precision: exact
+name_ja: 美津の
+verified: 2026-11
 ---
 
 # Mizuno

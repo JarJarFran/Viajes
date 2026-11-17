@@ -3,12 +3,19 @@ id: tokyo-restaurant-udon-yamacho
 type: restaurant
 name: Udon Yamacho
 place: japan/kanto/tokyo
+area: tokyo-area-ebisu
 cuisine: udon, tempura, izakaya
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ebisu / Daikanyama
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.68   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.68
+tags: [top-rated]
+station: Ebisu
+station_m: 217
+coords: [35.646441, 139.710208]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Udon Yamacho

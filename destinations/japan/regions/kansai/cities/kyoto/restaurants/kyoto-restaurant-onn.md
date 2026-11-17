@@ -1,14 +1,21 @@
 ---
 id: kyoto-restaurant-onn
 type: restaurant
-name: "onn"
+name: onn
 place: japan/kansai/kyoto
-cuisine: "cafe with wagashi (Japanese sweets)"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kawaramachi"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.51   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: kyoto-area-kawaramachi
+cuisine: cafe with wagashi (Japanese sweets)
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.51
+tags: [top-rated]
+station: Kyoto Kawaramachi
+station_m: 404
+coords: [35.003763, 135.769608]
+coords_precision: station
+verified: 2026-11
 ---
 
 # onn

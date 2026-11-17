@@ -3,12 +3,20 @@ id: tokyo-restaurant-menson-rage-azabudai-hiruzu
 type: restaurant
 name: Menson RAGE Azabudai hiruzu
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Azabudai / Toranomon
 cuisine: ramen, abura-soba, maze-soba, curry
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Azabudai / Toranomon
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.62   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.62
+tags: [top-rated]
+station: Kamiyacho
+station_m: 224
+coords: [35.66248, 139.744738]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Menson RAGE Azabudai hiruzu

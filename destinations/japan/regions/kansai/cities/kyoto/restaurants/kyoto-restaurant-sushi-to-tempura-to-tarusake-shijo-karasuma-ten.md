@@ -3,12 +3,17 @@ id: kyoto-restaurant-sushi-to-tempura-to-tarusake-shijo-karasuma-ten
 type: restaurant
 name: Sushi to Tempura to Tarusake Shijo karasuma ten
 place: japan/kansai/kyoto
+area: kyoto-area-karasuma
 cuisine: izakaya, sushi, tempura, taru-zake
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shijo-Karasuma
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.45
+station: Karasuma
+station_m: 270
+coords: [35.003686, 135.760452]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi to Tempura to Tarusake Shijo karasuma ten

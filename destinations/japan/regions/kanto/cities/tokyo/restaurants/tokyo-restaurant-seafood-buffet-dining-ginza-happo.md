@@ -3,12 +3,18 @@ id: tokyo-restaurant-seafood-buffet-dining-ginza-happo
 type: restaurant
 name: Seafood Buffet Dining Ginza Happo
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: yakiniku, sushi, buffet
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza / Shimbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.47   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.47
+station: Shimbashi
+station_m: 337
+coords: [35.666073, 139.759679]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Seafood Buffet Dining Ginza Happo

@@ -3,12 +3,18 @@ id: kyoto-restaurant-gion-okuoka
 type: restaurant
 name: Gion Okuoka
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: tofu dishes, udon
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.35   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.35
+station: Gion Shijo
+station_m: 614
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gion Okuoka

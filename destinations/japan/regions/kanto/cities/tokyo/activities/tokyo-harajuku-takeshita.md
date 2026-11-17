@@ -5,15 +5,20 @@ name: Harajuku & Takeshita Street
 place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
-approx_cost: "free"
+approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50, iconic]
-hours: "10:00-20:00"
-closed: "none known - check site"
+hours: 10:00-20:00
+closed: []
 booking: walk-in
 near: [tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-meiji-jingu]
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
+coords: [35.668705, 139.705336]
+coords_precision: exact
+name_ja: 原宿
+address_ja: 〒150-0001 東京渋谷区神宮前神宮前一丁目
 ---
 
 # Harajuku & Takeshita Street

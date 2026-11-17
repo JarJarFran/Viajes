@@ -6,14 +6,18 @@ place: japan/kanto/kamakura
 category: history
 duration_hours: 8
 approx_cost: Great Buddha ¥300; trains from Tokyo ~¥1,000 return
+cost_yen: 300
 entry: mixed
 tags: [touristic, top100, unesco]
-hours: "full day"
-closed: "none known - check site"
+hours: full day
+closed: []
 booking: walk-in
-near: []
 best_season: all year round
 best_time: morning
+coords: [35.31839, 139.550088]
+coords_precision: exact
+name_ja: 鎌倉
+address_ja: 〒248-0012 神奈川県鎌倉市御成町15
 ---
 
 # Day trip to Kamakura & Enoshima
@@ -29,5 +33,3 @@ JR Yokosuka Line from Tokyo Station to Kamakura (~1 h); Enoshima by Enoden line 
 ## Tips
 
 Full day. In winter: crisp air, Fuji views likely from Enoshima. Combine with the seaside lunch (shirasu whitebait).
-
-## Our experience

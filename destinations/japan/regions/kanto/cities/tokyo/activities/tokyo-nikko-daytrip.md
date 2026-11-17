@@ -5,16 +5,20 @@ name: Day trip to Nikko (Toshogu shrine)
 place: japan/kanto/tokyo
 category: history
 duration_hours: 8
-approx_cost: "Tobu Limited Express from Asakusa ~¥4,100 total (~2 h); JR via Utsunomiya ~¥3,400; Toshogu ¥1,300"
+approx_cost: Tobu Limited Express from Asakusa ~¥4,100 total (~2 h); JR via Utsunomiya ~¥3,400; Toshogu ¥1,300
+cost_yen: 9500
 entry: mixed
 tags: [touristic, top100, unesco]
-hours: "full day"
-closed: "none known - check site"
+hours: full day
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round (snowy in Jan)"
+best_season: all year round (snowy in Jan)
 best_time: full day
-link: "https://www.nikko.jp/"
+link: https://www.nikko.jp/
+coords: [36.757638, 139.59911]
+coords_precision: exact
+name_ja: 日光東照宮
+address_ja: 〒321-1431 栃木県日光市山内
 ---
 
 # Day trip to Nikko (Toshogu shrine)

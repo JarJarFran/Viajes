@@ -3,12 +3,18 @@ id: tokyo-restaurant-baso
 type: restaurant
 name: BASO
 place: japan/kanto/tokyo
+area: tokyo-area-harajuku
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Harajuku / Omotesando
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.48
+station: Meiji Jingumae
+station_m: 175
+coords: [35.668421, 139.705341]
+coords_precision: station
+verified: 2026-11
 ---
 
 # BASO

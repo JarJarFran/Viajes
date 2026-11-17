@@ -3,12 +3,20 @@ id: osaka-restaurant-next-shikaku
 type: restaurant
 name: NEXT Shikaku
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: ramen, tsukemen, abura-soba, maze-soba
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Dotonbori
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.69   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.69
+tags: [top-rated]
+station: Namba
+station_m: 173
+coords: [34.664159, 135.503315]
+coords_precision: exact
+name_ja: ネクストシカク
+verified: 2026-11
 ---
 
 # NEXT Shikaku

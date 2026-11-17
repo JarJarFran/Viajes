@@ -3,13 +3,16 @@ id: osaka-restaurant-daruma
 type: restaurant
 name: Daruma (Shinsekai)
 place: japan/kansai/osaka
+area: osaka-area-tennoji
 cuisine: kushikatsu
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Shinsekai
-link: "https://www.kushikatsu-daruma.co.jp/"
-tabelog: "https://tabelog.com/en/osaka/A2701/A270206/27083941/"
-tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥
+tabelog: https://tabelog.com/en/osaka/A2701/A270206/27083941/
+tabelog_rating: 3.43
+link: https://www.kushikatsu-daruma.co.jp/
+coords: [34.644282, 135.504921]
+coords_precision: exact
+name_ja: だるま
+verified: 2026-11
 ---
 
 # Daruma (Shinsekai)

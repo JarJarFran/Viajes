@@ -3,12 +3,18 @@ id: osaka-restaurant-sushi-sakaba-teppei
 type: restaurant
 name: Sushi Sakaba Teppei
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Higashi Umeda
 cuisine: sushi / izakaya
 price_range: ¥¥¥
-area: Higashi Umeda
-tabelog: "https://tabelog.com/en/osaka/rstLst/"
-tabelog_rating: 3.52   # checked tabelog.com/en 2026-11
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.52
 tags: [top-rated]
+coords: [34.701905, 135.494426]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Sushi Sakaba Teppei

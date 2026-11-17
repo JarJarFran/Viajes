@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-botani-curry
 type: restaurant
-name: "BOTANI:CURRY"
+name: BOTANI:CURRY
 place: japan/kansai/osaka
-cuisine: "curry, Indian curry"
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Hommachi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.86   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-honmachi
+area_detail: Hommachi
+cuisine: curry, Indian curry
+price_range: ¥
+budget_lunch_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.86
+tags: [top-rated]
+station: Hommachi
+station_m: 490
+coords: [34.682018, 135.498721]
+coords_precision: station
+verified: 2026-11
 ---
 
 # BOTANI:CURRY

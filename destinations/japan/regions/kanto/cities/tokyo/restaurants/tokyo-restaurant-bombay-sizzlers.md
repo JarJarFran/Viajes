@@ -3,12 +3,19 @@ id: tokyo-restaurant-bombay-sizzlers
 type: restaurant
 name: BOMBAY SIZZLERS
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
+area_detail: Kyobashi / Ginza
 cuisine: indian curry
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyobashi / Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.48
+station: Kyobashi
+station_m: 95
+coords: [35.676134, 139.769096]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # BOMBAY SIZZLERS

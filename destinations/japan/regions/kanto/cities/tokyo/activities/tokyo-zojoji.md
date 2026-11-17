@@ -5,16 +5,20 @@ name: Zojo-ji Temple
 place: japan/kanto/tokyo
 category: temple
 duration_hours: 1
-approx_cost: "free"
+approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50]
-hours: "24h"
-closed: "none known - check site"
+hours: 24h
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round; NYE bell-ringing venue"
+best_season: all year round; NYE bell-ringing venue
 best_time: morning
-link: "https://www.zojoji.or.jp/"
+link: https://www.zojoji.or.jp/
+coords: [35.657278, 139.748343]
+coords_precision: exact
+name_ja: 増上寺
+address_ja: 〒105-8511 東京港区芝公園芝公園二丁目日比谷通り
 ---
 
 # Zojo-ji Temple
@@ -29,4 +33,4 @@ Toei Oedo/Mita lines to Onarimon; 5 min from Tokyo Tower.
 
 ## Tips
 
-Photogenic with Tokyo Tower behind. Hatsumode queues on Jan 1–3 (we're in Tokyo from Jan 9 — calm by then).
+Photogenic with Tokyo Tower behind. Hatsumode queues on Jan 1–3 (calm again from ~Jan 5).

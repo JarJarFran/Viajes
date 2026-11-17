@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-indian-restaurant-new-delhi
 type: restaurant
-name: "INDIAN RESTAURANT NEW DELHI"
+name: INDIAN RESTAURANT NEW DELHI
 place: japan/kansai/kyoto
-cuisine: "indian (halal), cafe, izakaya"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Nijo"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.17   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-nijo
+cuisine: indian (halal), cafe, izakaya
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.17
+station: Nijo
+station_m: 795
+coords: [35.011283, 135.741049]
+coords_precision: station
+verified: 2026-11
 ---
 
 # INDIAN RESTAURANT NEW DELHI

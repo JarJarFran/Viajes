@@ -3,12 +3,17 @@ id: kyoto-restaurant-pontocho-suishin-honten
 type: restaurant
 name: Pontocho Suishin Honten
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
 cuisine: izakaya, Kyoto vegetable dishes, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Pontocho
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.41   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.41
+station: Sanjo
+station_m: 192
+coords: [35.008718, 135.772516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Pontocho Suishin Honten

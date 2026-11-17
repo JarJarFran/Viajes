@@ -3,12 +3,19 @@ id: tokyo-restaurant-yakiniku-gu-shinjuku
 type: restaurant
 name: Yakiniku Gu Shinjuku
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shinjuku (Kabukicho)
 cuisine: yakiniku, tripe, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinjuku (Kabukicho)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.57
+tags: [top-rated]
+station: Seibu Shinjuku
+station_m: 210
+coords: [35.695402, 139.700025]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Gu Shinjuku

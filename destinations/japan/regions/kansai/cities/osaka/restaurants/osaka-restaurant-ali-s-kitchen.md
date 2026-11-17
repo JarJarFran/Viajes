@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-ali-s-kitchen
 type: restaurant
-name: "ALI'S KITCHEN"
+name: ALI'S KITCHEN
 place: japan/kansai/osaka
-cuisine: "Pakistani curry (halal)"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shinsaibashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.51   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-shinsaibashi
+cuisine: Pakistani curry (halal)
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.51
+tags: [top-rated]
+station: Shinsaibashi
+station_m: 62
+coords: [34.674781, 135.500957]
+coords_precision: exact
+name_ja: アリーズキッチン
+verified: 2026-11
 ---
 
 # ALI'S KITCHEN

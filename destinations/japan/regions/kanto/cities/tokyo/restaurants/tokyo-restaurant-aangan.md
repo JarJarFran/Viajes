@@ -3,12 +3,20 @@ id: tokyo-restaurant-aangan
 type: restaurant
 name: AANGAN
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shin-Okubo
 cuisine: nepalese curry, izakaya
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shin-Okubo
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.56   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.56
+tags: [top-rated]
+station: Shin Okubo
+station_m: 213
+coords: [35.701495, 139.699932]
+coords_precision: station
+verified: 2026-11
 ---
 
 # AANGAN

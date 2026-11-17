@@ -5,15 +5,18 @@ name: Hozenji Yokocho (lantern alley)
 place: japan/kansai/osaka
 category: food
 duration_hours: 1
-approx_cost: "free to walk; dinner ¥2,000–5,000"
+approx_cost: free to walk; dinner ¥2,000–5,000
+cost_yen: 2000
 entry: mixed
 tags: [touristic, top50, night]
-hours: "24h (shops ~11:00-23:00)"
-closed: "none known - check site"
+hours: 24h (shops ~11:00-23:00)
+closed: []
 booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
-best_season: "all year round"
+best_season: all year round
 best_time: evening
+coords: [34.667965, 135.503318]
+coords_precision: exact
 ---
 
 # Hozenji Yokocho (lantern alley)

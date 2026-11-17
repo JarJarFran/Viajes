@@ -3,12 +3,14 @@ id: tokyo-restaurant-konjiki-hototogisu
 type: restaurant
 name: Konjiki Hototogisu
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
 cuisine: ramen
 price_range: ¥¥
-area: Shinjuku
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+budget_yen: [1000, 1400]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.688812, 139.708289]
+coords_precision: exact
 ---
 
 # Konjiki Hototogisu

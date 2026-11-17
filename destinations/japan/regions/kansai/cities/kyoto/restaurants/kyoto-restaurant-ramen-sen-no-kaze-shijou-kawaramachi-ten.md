@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-ramen-sen-no-kaze-shijou-kawaramachi-ten
 type: restaurant
-name: "Ramen Sen no Kaze Shijou kawaramachi ten"
+name: Ramen Sen no Kaze Shijou kawaramachi ten
 place: japan/kansai/kyoto
-cuisine: "ramen, tsukemen, gyoza"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kawaramachi"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.11   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-kawaramachi
+cuisine: ramen, tsukemen, gyoza
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
+tabelog_rating: 3.11
+station: Kyoto Kawaramachi
+station_m: 130
+coords: [35.003763, 135.769608]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ramen Sen no Kaze Shijou kawaramachi ten

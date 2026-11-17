@@ -3,12 +3,20 @@ id: tokyo-restaurant-osoba-no-koga
 type: restaurant
 name: Osoba no Koga
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Akasaka / Nishi-Azabu
 cuisine: soba, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Akasaka / Nishi-Azabu
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.72   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.72
+tags: [top-rated]
+station: Nogizaka
+station_m: 797
+coords: [35.66619, 139.728356]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Osoba no Koga

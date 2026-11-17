@@ -6,6 +6,7 @@ path: japan/hokkaido/otaru
 country: japan
 region: hokkaido
 prefecture: Hokkaido
+coords: [43.190681, 140.994602]
 ---
 
 # Otaru
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

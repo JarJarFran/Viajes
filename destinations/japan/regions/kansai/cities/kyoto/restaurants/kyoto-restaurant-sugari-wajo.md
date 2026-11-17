@@ -3,12 +3,17 @@ id: kyoto-restaurant-sugari-wajo
 type: restaurant
 name: Wajo Ryo Men Sugari
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Shijo
 cuisine: ramen / tsukemen
 price_range: ¥
-area: Shijo
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.66   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.66
 tags: [top-rated]
+coords: [35.003763, 135.769608]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Wajo Ryo Men Sugari

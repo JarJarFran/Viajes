@@ -5,16 +5,21 @@ name: Eikan-do (Zenrin-ji)
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
-approx_cost: "¥600–1,000"
+approx_cost: ¥600–1,000
+cost_yen: 600
 entry: paid
 tags: [top50]
-hours: "9:00-17:00"
-closed: "none known - check site"
+hours: 9:00-17:00
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
-best_season: "all year round (koyo top spot)"
+best_season: all year round (koyo top spot)
 best_time: afternoon
-link: "https://www.eikando.or.jp/"
+link: https://www.eikando.or.jp/
+coords: [35.014711, 135.793791]
+coords_precision: exact
+name_ja: 永觀堂
+address_ja: 〒606-8444 京都府京都市左京区永観堂町飛地永観堂町鹿ヶ谷通
 ---
 
 # Eikan-do (Zenrin-ji)
@@ -25,7 +30,7 @@ Temple of the Jodo sect with a pond garden reflecting the pagoda; famous autumn 
 
 ## How to get there
 
-Bus 5/17/32/100 from Kyoto Station to Ginkakuji-michi? No: to Eikando-mae.
+Kyoto City Bus 5 from Kyoto Station to Eikando-michi.
 
 ## Tips
 

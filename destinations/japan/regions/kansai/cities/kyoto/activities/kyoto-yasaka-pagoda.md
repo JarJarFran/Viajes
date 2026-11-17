@@ -5,15 +5,20 @@ name: Yasaka Pagoda (Hokan-ji) & Ishibe-koji
 place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
-approx_cost: "free (street)"
+approx_cost: free (street)
+cost_yen: 0
 entry: free
 tags: [touristic, top50, iconic, night]
-hours: "24h (street)"
-closed: "none known - check site"
+hours: 24h (street)
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
-best_season: "all year round"
+best_season: all year round
 best_time: evening
+coords: [34.998492, 135.779318]
+coords_precision: exact
+name_ja: 法観寺
+address_ja: 〒605-0854 京都府京都市東山区辰巳町上田町八坂通
 ---
 
 # Yasaka Pagoda (Hokan-ji) & Ishibe-koji

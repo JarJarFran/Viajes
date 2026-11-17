@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-tempura-to-osoba-miwa
 type: restaurant
-name: "Tempura to Osoba Miwa"
+name: Tempura to Osoba Miwa
 place: japan/kansai/osaka
-cuisine: "tempura, soba"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kitashinchi (Kita)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Kitashinchi (Kita)
+cuisine: tempura, soba
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [15000, 19999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Oebashi
+station_m: 251
+coords: [34.694327, 135.49976]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tempura to Osoba Miwa

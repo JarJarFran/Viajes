@@ -3,12 +3,16 @@ id: tokyo-restaurant-ramen-koku
 type: restaurant
 name: Ramen Koku
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: ramen
 price_range: ¥
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.69   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.69
 tags: [top-rated]
+coords: [35.658423, 139.702516]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Ramen Koku

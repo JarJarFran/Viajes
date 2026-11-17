@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-epais
 type: restaurant
-name: "epais"
+name: epais
 place: japan/kansai/osaka
-cuisine: "tonkatsu, curry"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kitashinchi (Kita)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.73   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Kitashinchi (Kita)
+cuisine: tonkatsu, curry
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.73
+tags: [top-rated]
+station: Kitashinchi
+station_m: 299
+coords: [34.697566, 135.499567]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # epais

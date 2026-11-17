@@ -6,14 +6,19 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50, iconic]
-hours: "24h"
-closed: "none known - check site"
+hours: 24h
+closed: []
 booking: walk-in
 near: [tokyo-shibuya-sky, tokyo-meiji-jingu, tokyo-harajuku-takeshita]
 best_season: all year round
 best_time: night
+coords: [35.659495, 139.700498]
+coords_precision: exact
+name_ja: 渋谷駅前交差点
+address_ja: 〒150-0043 東京渋谷区道玄坂道玄坂二丁目神宮通り
 ---
 
 # Shibuya crossing and Hachiko
@@ -30,5 +35,3 @@ The world's most famous pedestrian crossing: up to 3,000 people crossing at once
 
 - Watch it from the crossing itself or from above (Shibuya Sky, the Starbucks in the Tsutaya building, or the 2nd floor of Shibuya 109).
 - Best at night, with the neon signs on.
-
-## Our experience

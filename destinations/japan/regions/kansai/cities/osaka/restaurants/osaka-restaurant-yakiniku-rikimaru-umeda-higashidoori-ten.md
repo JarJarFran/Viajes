@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-yakiniku-rikimaru-umeda-higashidoori-ten
 type: restaurant
-name: "Yakiniku Rikimaru Umeda higashidoori ten"
+name: Yakiniku Rikimaru Umeda higashidoori ten
 place: japan/kansai/osaka
-cuisine: "yakiniku, tripe, izakaya"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.34   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-umeda
+cuisine: yakiniku, tripe, izakaya
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.34
+station: Higashi Umeda
+station_m: 281
+coords: [34.700595, 135.499818]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Rikimaru Umeda higashidoori ten

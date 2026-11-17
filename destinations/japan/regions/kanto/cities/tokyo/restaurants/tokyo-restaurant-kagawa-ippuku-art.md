@@ -3,12 +3,20 @@ id: tokyo-restaurant-kagawa-ippuku-art
 type: restaurant
 name: Kagawa Ippuku ART
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: udon, tempura
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.58   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.58
+tags: [top-rated]
+station: Shibuya
+station_m: 379
+coords: [35.656653, 139.704463]
+coords_precision: exact
+name_ja: 香川一福アート
+verified: 2026-11
 ---
 
 # Kagawa Ippuku ART

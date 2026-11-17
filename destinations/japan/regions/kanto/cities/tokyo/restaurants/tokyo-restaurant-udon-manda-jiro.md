@@ -3,12 +3,20 @@ id: tokyo-restaurant-udon-manda-jiro
 type: restaurant
 name: Udon Manda Jiro
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shinjuku (Gyoen-mae)
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinjuku (Gyoen-mae)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.59   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.59
+tags: [top-rated]
+station: Shinjuku Gyoemmae
+station_m: 180
+coords: [35.688573, 139.71074]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Udon Manda Jiro

@@ -3,13 +3,15 @@ id: kyoto-restaurant-omen
 type: restaurant
 name: Omen
 place: japan/kansai/kyoto
+area: kyoto-area-gion
+area_detail: Gion / Nanzen-ji area (Kodai-ji branch)
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Gion / Nanzen-ji area (Kodai-ji branch)
-link: "https://www.omen-nippon.com/"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+price_range: ¥¥
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+link: https://www.omen-nippon.com/
+coords: [34.999178, 135.779987]
+coords_precision: exact
 ---
 
 # Omen

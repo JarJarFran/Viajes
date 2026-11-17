@@ -3,12 +3,19 @@ id: tokyo-restaurant-yakiniku-ushigoro-ginza-namikidoori-ten
 type: restaurant
 name: Yakiniku Ushigoro Ginza namikidoori ten
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: yakiniku, steak, tripe
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.68   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.68
+tags: [top-rated]
+station: Ginza
+station_m: 137
+coords: [35.670938, 139.76521]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Ushigoro Ginza namikidoori ten

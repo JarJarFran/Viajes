@@ -5,15 +5,20 @@ name: Den Den Town (Nipponbashi)
 place: japan/kansai/osaka
 category: leisure
 duration_hours: 2
-approx_cost: "free to browse"
+approx_cost: free to browse
+cost_yen: 0
 entry: free
 tags: [top50]
-hours: "shops 10:00-20:00"
-closed: "none known - check site"
+hours: shops 10:00-20:00
+closed: []
 booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
+coords: [34.659215, 135.505824]
+coords_precision: exact
+name_ja: でんでんタウン
+address_ja: 〒556-0005 大阪府大阪市浪速区日本橋四丁目
 ---
 
 # Den Den Town (Nipponbashi)

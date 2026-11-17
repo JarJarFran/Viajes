@@ -5,16 +5,21 @@ name: Tempozan Giant Ferris Wheel
 place: japan/kansai/osaka
 category: leisure
 duration_hours: 1
-approx_cost: "¥1,000 (free with Osaka Amazing Pass)"
+approx_cost: ¥1,000 (free with Osaka Amazing Pass)
+cost_yen: 1000
 entry: mixed
 tags: [touristic, top50]
-hours: "10:00-21:00 (22:00 weekends)"
-closed: "none known - check site"
+hours: 10:00-21:00 (22:00 weekends)
+closed: []
 booking: walk-in
 near: [osaka-kaiyukan, osaka-santa-maria-cruise, osaka-legoland-discovery, osaka-usj]
-best_season: "all year round; best at sunset"
+best_season: all year round; best at sunset
 best_time: sunset
-link: "https://www.kaiyukan.com/"
+link: https://www.kaiyukan.com/
+coords: [34.656199, 135.430973]
+coords_precision: exact
+name_ja: 天保山大観覧車
+address_ja: 〒552-0021 大阪府大阪市港区海岸通一丁目海岸通
 ---
 
 # Tempozan Giant Ferris Wheel

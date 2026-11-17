@@ -26,5 +26,3 @@ Japan's most populated plain and the country's political and economic center. A 
 - [Kamakura](cities/kamakura/)
 - [Nikko](cities/nikko/)
 - [Hakone](cities/hakone/)
-
-## Our experience

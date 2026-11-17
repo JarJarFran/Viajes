@@ -3,12 +3,19 @@ id: tokyo-restaurant-sushi-yuu
 type: restaurant
 name: Sushi Yuu
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: sushi
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 4.01   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [30000, 39999]
+budget_dinner_yen: [30000, 39999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 4.01
+tags: [top-rated]
+station: Ginza Itchome
+station_m: 270
+coords: [35.675086, 139.765347]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Yuu

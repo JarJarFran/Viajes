@@ -3,12 +3,19 @@ id: tokyo-restaurant-manten-sushi-marunouchi
 type: restaurant
 name: Manten Sushi Marunouchi
 place: japan/kanto/tokyo
+area: tokyo-area-marunouchi
 cuisine: sushi (casual omakase)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Marunouchi / Tokyo Station
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.6   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.6
+tags: [top-rated]
+station: Nijubashimae
+station_m: 185
+coords: [35.678873, 139.762981]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # Manten Sushi Marunouchi

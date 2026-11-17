@@ -3,12 +3,19 @@ id: tokyo-restaurant-honten-yamashina
 type: restaurant
 name: Honten Yamashina
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: teppanyaki, steak, yakiniku
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [10000, 14999]
+budget_dinner_yen: [15000, 19999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Ginza
+station_m: 138
+coords: [35.670938, 139.76521]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Honten Yamashina

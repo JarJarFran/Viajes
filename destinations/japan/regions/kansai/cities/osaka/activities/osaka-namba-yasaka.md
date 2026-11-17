@@ -5,16 +5,21 @@ name: Namba Yasaka Shrine (lion head)
 place: japan/kansai/osaka
 category: temple
 duration_hours: 0.5
-approx_cost: "free"
+approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50]
-hours: "24h"
-closed: "none known - check site"
+hours: 24h
+closed: []
 booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
-best_season: "all year round"
+best_season: all year round
 best_time: anytime
-link: "https://www.nambayasaka.jp/"
+link: https://www.nambayasaka.jp/
+coords: [34.661482, 135.496733]
+coords_precision: exact
+name_ja: 難波八坂神社
+address_ja: 〒556-0015 大阪府大阪市浪速区元町二丁目大国町筋
 ---
 
 # Namba Yasaka Shrine (lion head)

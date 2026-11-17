@@ -3,12 +3,19 @@ id: kyoto-restaurant-sushi-komatsu
 type: restaurant
 name: Sushi Komatsu
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Nishiki Market
 cuisine: sushi, seafood, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishiki Market
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.47   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.47
+station: Kyoto Kawaramachi
+station_m: 371
+coords: [35.003763, 135.769608]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Komatsu

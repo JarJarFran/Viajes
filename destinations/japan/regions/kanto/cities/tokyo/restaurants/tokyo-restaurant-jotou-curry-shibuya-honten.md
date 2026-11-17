@@ -3,12 +3,18 @@ id: tokyo-restaurant-jotou-curry-shibuya-honten
 type: restaurant
 name: Jotou Curry Shibuya honten
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: curry
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.28   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.28
+station: Shibuya
+station_m: 303
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Jotou Curry Shibuya honten

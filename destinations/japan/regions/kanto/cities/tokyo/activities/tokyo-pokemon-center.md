@@ -5,16 +5,20 @@ name: Pokemon Center (Tokyo Station / Nihonbashi)
 place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
-approx_cost: "free (merch from ¥500)"
+approx_cost: free (merch from ¥500)
+cost_yen: 500
 entry: mixed
 tags: [top100]
-hours: "10:00-20:00"
-closed: "none known - check site"
+hours: 10:00-20:00
+closed: []
 booking: walk-in
 near: [tokyo-ginza, tokyo-imperial-palace]
-best_season: "all year round"
+best_season: all year round
 best_time: anytime
-link: "https://www.pokemon.co.jp/shop/pokecen/tokyo/"
+link: https://www.pokemon.co.jp/shop/pokecen/tokyo/
+coords: [35.680919, 139.772802]
+coords_precision: exact
+name_ja: ポケモンセンタートウキョーDX（日本橋高島屋S.C.）
 ---
 
 # Pokemon Center (Tokyo Station / Nihonbashi)

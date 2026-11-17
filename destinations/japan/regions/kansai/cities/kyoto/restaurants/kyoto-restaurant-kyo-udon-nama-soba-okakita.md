@@ -3,12 +3,20 @@ id: kyoto-restaurant-kyo-udon-nama-soba-okakita
 type: restaurant
 name: Kyo Udon Nama Soba Okakita
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Higashiyama (Nanzen-ji)
 cuisine: udon, soba, donburi
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Higashiyama (Nanzen-ji)
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.69   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.69
+tags: [top-rated]
+station: Higashiyama
+station_m: 733
+coords: [35.009434, 135.779778]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kyo Udon Nama Soba Okakita

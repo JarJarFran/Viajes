@@ -3,12 +3,19 @@ id: kyoto-restaurant-gontaro-okazaki-ten
 type: restaurant
 name: Gontaro Okazaki ten
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Okazaki / Higashiyama
 cuisine: udon-suki, soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Okazaki / Higashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.48
+station: Higashiyama
+station_m: 733
+coords: [35.009434, 135.779778]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gontaro Okazaki ten

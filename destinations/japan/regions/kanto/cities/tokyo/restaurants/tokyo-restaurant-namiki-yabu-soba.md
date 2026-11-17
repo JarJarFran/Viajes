@@ -3,12 +3,19 @@ id: tokyo-restaurant-namiki-yabu-soba
 type: restaurant
 name: Namiki Yabu Soba
 place: japan/kanto/tokyo
+area: tokyo-area-asakusa
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Asakusa
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Asakusa
+station_m: 172
+coords: [35.711351, 139.798328]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Namiki Yabu Soba

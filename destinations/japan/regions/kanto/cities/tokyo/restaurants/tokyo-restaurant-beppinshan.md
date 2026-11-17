@@ -3,12 +3,18 @@ id: tokyo-restaurant-beppinshan
 type: restaurant
 name: Hakata Kozara Teppan Beppinshan
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shinjuku Gyoen
 cuisine: izakaya / teppanyaki
 price_range: ¥
-area: Shinjuku Gyoen
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.58   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.58
 tags: [top-rated]
+coords: [35.690262, 139.700514]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Hakata Kozara Teppan Beppinshan

@@ -3,12 +3,18 @@ id: osaka-restaurant-maruhana-shinsaibashi
 type: restaurant
 name: Maruhana Shinsaibashi
 place: japan/kansai/osaka
+area: osaka-area-shinsaibashi
 cuisine: crab, shabu-shabu, sukiyaki
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinsaibashi
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.3   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.3
+station: Shinsaibashi
+station_m: 411
+coords: [34.675354, 135.499201]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Maruhana Shinsaibashi

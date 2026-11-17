@@ -3,12 +3,19 @@ id: kyoto-restaurant-sushi-roman
 type: restaurant
 name: Sushi Roman
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Nishiki / Takakura
 cuisine: izakaya, sushi, robata-yaki
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishiki / Takakura
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.37   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.37
+station: Karasuma
+station_m: 313
+coords: [35.005608, 135.762632]
+coords_precision: exact
+name_ja: 鮨炉まん
+verified: 2026-11
 ---
 
 # Sushi Roman

@@ -3,12 +3,19 @@ id: osaka-restaurant-yaki-yaki-teppan-bonkuraya-sennichimae-ten
 type: restaurant
 name: Yaki Yaki Teppan Bonkuraya Sennichimae ten
 place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Namba / Sennichimae
 cuisine: okonomiyaki, izakaya, teppanyaki
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Sennichimae
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.42   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.42
+station: Kintetsu Nippombashi
+station_m: 151
+coords: [34.666909, 135.5057]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yaki Yaki Teppan Bonkuraya Sennichimae ten

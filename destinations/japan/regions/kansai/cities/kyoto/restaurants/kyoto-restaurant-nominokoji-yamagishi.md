@@ -3,12 +3,19 @@ id: kyoto-restaurant-nominokoji-yamagishi
 type: restaurant
 name: Nominokoji Yamagishi
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Kyoto City Hall
 cuisine: izakaya (traditional dishes)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto City Hall
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.73   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.73
+tags: [top-rated]
+station: Kyoto Shiyakusho Mae
+station_m: 315
+coords: [35.010899, 135.76887]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Nominokoji Yamagishi

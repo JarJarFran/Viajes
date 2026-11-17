@@ -5,16 +5,21 @@ name: Kodai-ji (NYE bell ringing)
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
-approx_cost: "¥600"
+approx_cost: ¥600
+cost_yen: 600
 entry: paid
 tags: [top50]
-hours: "9:00-16:00"
-closed: "none known - check site"
+hours: 9:00-16:00
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
-best_season: "all year round"
+best_season: all year round
 best_time: evening
-link: "https://www.kodaiji.jp/"
+link: https://www.kodaiji.jp/
+coords: [35.000303, 135.780596]
+coords_precision: exact
+name_ja: 高台寺
+address_ja: 〒605-0826 京都府京都市東山区辰巳町下河原町台所坂
 ---
 
 # Kodai-ji (NYE bell ringing)
@@ -29,4 +34,4 @@ Keihan to Gion-Shijo or Kiyomizu-Gojo, 10 min walk.
 
 ## Tips
 
-We're in Osaka on Dec 31, but Kodai-ji also has winter evening illuminations in January — check dates.
+Kodai-ji rings its bell on New Year's Eve and sometimes has winter evening illuminations — check dates.

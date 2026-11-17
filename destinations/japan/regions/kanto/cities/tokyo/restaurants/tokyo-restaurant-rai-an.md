@@ -3,12 +3,18 @@ id: tokyo-restaurant-rai-an
 type: restaurant
 name: Rai An
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: soba, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.5
+station: Shibuya
+station_m: 393
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Rai An

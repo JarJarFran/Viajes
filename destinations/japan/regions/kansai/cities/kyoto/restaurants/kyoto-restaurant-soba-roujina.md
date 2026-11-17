@@ -3,12 +3,20 @@ id: kyoto-restaurant-soba-roujina
 type: restaurant
 name: Soba Roujina
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Kyoto City Hall / Downtown
 cuisine: soba, izakaya
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto City Hall / Downtown
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.65   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.65
+tags: [top-rated]
+station: Kyoto Shiyakusho Mae
+station_m: 482
+coords: [35.010899, 135.76887]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba Roujina

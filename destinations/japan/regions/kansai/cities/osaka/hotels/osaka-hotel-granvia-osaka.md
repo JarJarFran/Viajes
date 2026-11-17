@@ -3,9 +3,14 @@ id: osaka-hotel-granvia-osaka
 type: hotel
 name: Hotel Granvia Osaka
 place: japan/kansai/osaka
-area: JR Osaka Station
-price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
-link: "https://www.granvia.jp/osaka/"
+area: osaka-area-umeda
+area_detail: JR Osaka Station
+price_range: ¥¥¥¥
+link: https://www.granvia.jp/osaka/
+coords: [34.701614, 135.495925]
+coords_precision: exact
+name_ja: ホテル グランヴィア 大阪
+address_ja: 〒530-8558 大阪府大阪市北区梅田三丁目3
 ---
 
 # Hotel Granvia Osaka

@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-ramen-miyako-gion-honten
 type: restaurant
-name: "Ramen Miyako Gion honten"
+name: Ramen Miyako Gion honten
 place: japan/kansai/kyoto
-cuisine: "ramen (white soup), Chinese, izakaya"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Gion"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.37   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-gion
+cuisine: ramen (white soup), Chinese, izakaya
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
+tabelog_rating: 3.37
+station: Gion Shijo
+station_m: 542
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ramen Miyako Gion honten

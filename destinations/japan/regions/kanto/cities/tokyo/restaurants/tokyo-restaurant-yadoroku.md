@@ -3,12 +3,15 @@ id: tokyo-restaurant-yadoroku
 type: restaurant
 name: Onigiri Asakusa Yadoroku
 place: japan/kanto/tokyo
+area: tokyo-area-asakusa
 cuisine: onigiri
 price_range: ¥
-area: Asakusa
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+budget_yen: [300, 500]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.716896, 139.794751]
+coords_precision: exact
+name_ja: おにぎり浅草宿六
 ---
 
 # Onigiri Asakusa Yadoroku

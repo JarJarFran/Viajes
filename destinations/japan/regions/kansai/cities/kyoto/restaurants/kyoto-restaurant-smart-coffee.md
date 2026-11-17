@@ -1,14 +1,22 @@
 ---
 id: kyoto-restaurant-smart-coffee
 type: restaurant
-name: "Smart Coffee"
+name: Smart Coffee
 place: japan/kansai/kyoto
-cuisine: "kissa (coffee shop), yoshoku, pancake"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kyoto City Hall"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: kyoto-area-kawaramachi
+area_detail: Kyoto City Hall
+cuisine: kissa (coffee shop), yoshoku, pancake
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Kyoto Shiyakusho Mae
+station_m: 225
+coords: [35.009534, 135.767242]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # Smart Coffee

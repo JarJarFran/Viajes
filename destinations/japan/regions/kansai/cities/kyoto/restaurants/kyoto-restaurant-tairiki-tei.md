@@ -3,12 +3,19 @@ id: kyoto-restaurant-tairiki-tei
 type: restaurant
 name: Tairiki Tei
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Keage / Higashiyama
 cuisine: udon, steak, cafe
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Keage / Higashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.44   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.44
+station: Keage
+station_m: 435
+coords: [35.007597, 135.790557]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tairiki Tei

@@ -1,14 +1,22 @@
 ---
 id: kyoto-restaurant-hitsuji
 type: restaurant
-name: "Hitsuji"
+name: Hitsuji
 place: japan/kansai/kyoto
-cuisine: "donut, cafe"
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Marutamachi / Imperial Palace"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.85   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: kyoto-area-nijo
+area_detail: Marutamachi / Imperial Palace
+cuisine: donut, cafe
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.85
+tags: [top-rated]
+station: Marutamachi
+station_m: 522
+coords: [35.016288, 135.759553]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Hitsuji

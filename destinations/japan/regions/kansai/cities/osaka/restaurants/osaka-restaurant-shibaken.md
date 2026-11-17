@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-shibaken
 type: restaurant
-name: "Shibaken"
+name: Shibaken
 place: japan/kansai/osaka
-cuisine: "tonkatsu (brand pork), shabu-shabu, curry"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Tennoji / Noe"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.76   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-tennoji
+area_detail: Tennoji / Noe
+cuisine: tonkatsu (brand pork), shabu-shabu, curry
+price_range: ¥¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.76
+tags: [top-rated]
+station: Noe Uchindai
+station_m: 210
+coords: [34.709392, 135.538573]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Shibaken

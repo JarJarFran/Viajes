@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-yakiniku-tamaki
 type: restaurant
-name: "Yakiniku Tamaki"
+name: Yakiniku Tamaki
 place: japan/kansai/osaka
-cuisine: "yakiniku (A5 wagyu, harami), shabu-shabu"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Tenma / Nakazakicho"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Tenma / Nakazakicho
+cuisine: yakiniku (A5 wagyu, harami), shabu-shabu
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Nakazakicho
+station_m: 231
+coords: [34.707226, 135.505623]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Tamaki

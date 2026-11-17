@@ -1,14 +1,19 @@
 ---
 id: kyoto-restaurant-le-labo-cafe-kyoto-machiya
 type: restaurant
-name: "LE LABO CAFE Kyoto Machiya"
+name: LE LABO CAFE Kyoto Machiya
 place: japan/kansai/kyoto
-cuisine: "cafe"
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Gion"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.2   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-gion
+cuisine: cafe
+price_range: ¥
+budget_lunch_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.2
+station: Gion Shijo
+station_m: 238
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # LE LABO CAFE Kyoto Machiya

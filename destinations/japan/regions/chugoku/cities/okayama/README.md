@@ -6,6 +6,7 @@ path: japan/chugoku/okayama
 country: japan
 region: chugoku
 prefecture: Okayama
+coords: [34.655394, 133.919459]
 ---
 
 # Okayama
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

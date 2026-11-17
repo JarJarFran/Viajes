@@ -3,12 +3,18 @@ id: kyoto-restaurant-ito-kyuemon-uji-honten
 type: restaurant
 name: Ito Kyuemon Uji honten
 place: japan/kansai/kyoto
+area: kyoto-area-uji
 cuisine: matcha sweets, matcha soba, cafe
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Uji
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.45
+station: Mimurodo
+station_m: 299
+coords: [34.898862, 135.806342]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ito Kyuemon Uji honten

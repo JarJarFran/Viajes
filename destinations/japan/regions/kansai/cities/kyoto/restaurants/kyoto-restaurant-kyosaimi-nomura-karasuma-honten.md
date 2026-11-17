@@ -1,14 +1,19 @@
 ---
 id: kyoto-restaurant-kyosaimi-nomura-karasuma-honten
 type: restaurant
-name: "Kyosaimi Nomura Karasuma honten"
+name: Kyosaimi Nomura Karasuma honten
 place: japan/kansai/kyoto
-cuisine: "Kyoto cuisine, cafe, tofu dishes"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shijo-Karasuma"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-karasuma
+cuisine: Kyoto cuisine, cafe, tofu dishes
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.49
+station: Karasuma
+station_m: 296
+coords: [35.003686, 135.760452]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kyosaimi Nomura Karasuma honten

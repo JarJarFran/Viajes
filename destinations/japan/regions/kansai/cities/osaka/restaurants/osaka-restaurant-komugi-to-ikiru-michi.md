@@ -3,12 +3,20 @@ id: osaka-restaurant-komugi-to-ikiru-michi
 type: restaurant
 name: Komugi to Ikiru Michi
 place: japan/kansai/osaka
+area: osaka-area-honmachi
+area_detail: Chuo-ku (Hommachi)
 cuisine: ramen, karaage
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Chuo-ku (Hommachi)
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.58   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.58
+tags: [top-rated]
+station: Nagahoribashi
+station_m: 336
+coords: [34.675318, 135.506297]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Komugi to Ikiru Michi

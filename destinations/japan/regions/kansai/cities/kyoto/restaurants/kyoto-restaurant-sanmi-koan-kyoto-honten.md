@@ -3,12 +3,19 @@ id: kyoto-restaurant-sanmi-koan-kyoto-honten
 type: restaurant
 name: Sanmi Koan Kyoto honten
 place: japan/kansai/kyoto
+area: kyoto-area-gion
+area_detail: Higashiyama
 cuisine: soba, nabe, Kyoto pickles
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Higashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.49
+station: Higashiyama
+station_m: 137
+coords: [35.009434, 135.779778]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sanmi Koan Kyoto honten

@@ -3,12 +3,20 @@ id: tokyo-restaurant-nezu-kamachiku
 type: restaurant
 name: Nezu Kamachiku
 place: japan/kanto/tokyo
+area: tokyo-area-ueno
+area_detail: Nezu / Ueno
 cuisine: udon, sake bar
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nezu / Ueno
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.65   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.65
+tags: [top-rated]
+station: Nezu
+station_m: 141
+coords: [35.718286, 139.765619]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Nezu Kamachiku

@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-yakiniku-ushigoro-umeda-ten
 type: restaurant
-name: "Yakiniku Ushigoro Umeda ten"
+name: Yakiniku Ushigoro Umeda ten
 place: japan/kansai/osaka
-cuisine: "yakiniku, steak, tripe"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.63   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+cuisine: yakiniku, steak, tripe
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.63
+tags: [top-rated]
+station: Osaka
+station_m: 242
+coords: [34.701905, 135.494426]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Ushigoro Umeda ten

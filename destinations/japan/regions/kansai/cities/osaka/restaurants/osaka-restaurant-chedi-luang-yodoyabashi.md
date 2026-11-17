@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-chedi-luang-yodoyabashi
 type: restaurant
-name: "CHEDI LUANG Yodoyabashi"
+name: CHEDI LUANG Yodoyabashi
 place: japan/kansai/osaka
-cuisine: "Thai curry, buffet"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Yodoyabashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-honmachi
+cuisine: Thai curry, buffet
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.57
+tags: [top-rated]
+station: Yodoyabashi
+station_m: 282
+coords: [34.691637, 135.500954]
+coords_precision: station
+verified: 2026-11
 ---
 
 # CHEDI LUANG Yodoyabashi

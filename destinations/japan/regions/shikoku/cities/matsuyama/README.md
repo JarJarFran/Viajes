@@ -6,6 +6,7 @@ path: japan/shikoku/matsuyama
 country: japan
 region: shikoku
 prefecture: Ehime
+coords: [33.839519, 132.765352]
 ---
 
 # Matsuyama
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

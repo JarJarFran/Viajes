@@ -3,12 +3,18 @@ id: osaka-restaurant-tsurubashi-fugetsu-nanba-midousuji
 type: restaurant
 name: Tsurubashi Fugetsu Nanba midousuji
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: okonomiyaki, izakaya
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.13   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.13
+station: Osaka Namba
+station_m: 68
+coords: [34.667181, 135.497776]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tsurubashi Fugetsu Nanba midousuji

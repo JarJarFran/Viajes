@@ -1,14 +1,22 @@
 ---
 id: kyoto-restaurant-mugi-no-yoake
 type: restaurant
-name: "Mugi no Yoake"
+name: Mugi no Yoake
 place: japan/kansai/kyoto
-cuisine: "ramen, tsukemen"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Fushimi / Tambaguchi"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.74   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: kyoto-area-fushimi
+area_detail: Fushimi / Tambaguchi
+cuisine: ramen, tsukemen
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
+tabelog_rating: 3.74
+tags: [top-rated]
+station: Tambaguchi
+station_m: 1069
+coords: [34.995702, 135.742394]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Mugi no Yoake

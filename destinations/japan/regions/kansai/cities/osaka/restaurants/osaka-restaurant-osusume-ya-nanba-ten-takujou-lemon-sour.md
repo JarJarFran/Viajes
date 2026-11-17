@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-osusume-ya-nanba-ten-takujou-lemon-sour
 type: restaurant
-name: "Osusume Ya Nanba ten (Takujou Lemon Sour)"
+name: Osusume Ya Nanba ten (Takujou Lemon Sour)
 place: japan/kansai/osaka
-cuisine: "izakaya, seafood, motsu-nabe, lemon sour"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba"
-tabelog: "https://tabelog.com/en/osaka/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.24   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-namba
+cuisine: izakaya, seafood, motsu-nabe, lemon sour
+price_range: ¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
+tabelog_rating: 3.24
+station: Namba
+station_m: 132
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Osusume Ya Nanba ten (Takujou Lemon Sour)

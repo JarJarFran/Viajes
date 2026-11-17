@@ -3,12 +3,20 @@ id: tokyo-restaurant-teuchi-soba-jiyu-san
 type: restaurant
 name: Teuchi Soba Jiyu San
 place: japan/kanto/tokyo
+area: tokyo-area-chuo-west
+area_detail: Nerima (Nishi-Ogikubo)
 cuisine: soba
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nerima (Nishi-Ogikubo)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 4.09   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 4.09
+tags: [top-rated]
+station: Higashi Nagasaki
+station_m: 560
+coords: [35.730261, 139.682864]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teuchi Soba Jiyu San

@@ -3,12 +3,19 @@ id: tokyo-restaurant-tamawarai
 type: restaurant
 name: Tamawarai
 place: japan/kanto/tokyo
+area: tokyo-area-harajuku
 cuisine: soba
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Harajuku / Omotesando
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.92   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.92
+tags: [top-rated]
+station: Meiji Jingumae
+station_m: 462
+coords: [35.668421, 139.705341]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tamawarai

@@ -3,12 +3,14 @@ id: kyoto-restaurant-nishiki-warai
 type: restaurant
 name: Nishiki Warai
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Nishiki Market area
 cuisine: okonomiyaki
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Nishiki Market area
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+price_range: ¥
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.004986, 135.76296]
+coords_precision: exact
 ---
 
 # Nishiki Warai

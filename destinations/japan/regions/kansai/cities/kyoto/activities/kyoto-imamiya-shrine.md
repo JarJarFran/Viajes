@@ -5,16 +5,20 @@ name: Imamiya Shrine
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 0.5
-approx_cost: "free"
+approx_cost: free
+cost_yen: 0
 entry: free
 tags: [hidden-gem]
-hours: "24h"
-closed: "none known - check site"
+hours: 24h
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round"
+best_season: all year round
 best_time: anytime
-link: "https://imamiya.jp/"
+link: https://imamiya.jp/
+coords: [35.045596, 135.742131]
+coords_precision: exact
+name_ja: 今宮神社
+address_ja: 〒603-8233 京都府京都市北区紫野今宮町今宮通
 ---
 
 # Imamiya Shrine

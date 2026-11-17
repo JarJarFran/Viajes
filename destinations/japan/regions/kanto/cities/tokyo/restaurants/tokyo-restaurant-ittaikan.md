@@ -3,12 +3,18 @@ id: tokyo-restaurant-ittaikan
 type: restaurant
 name: ITTAIKAN
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: curry (wagyu claypot rice)
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.64   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.64
+tags: [top-rated]
+station: Higashi Ginza
+station_m: 207
+coords: [35.668698, 139.768265]
+coords_precision: station
+verified: 2026-11
 ---
 
 # ITTAIKAN

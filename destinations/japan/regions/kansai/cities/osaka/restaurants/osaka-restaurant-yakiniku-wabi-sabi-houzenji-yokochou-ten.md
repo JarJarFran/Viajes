@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-yakiniku-wabi-sabi-houzenji-yokochou-ten
 type: restaurant
-name: "Yakiniku Wabi Sabi Houzenji yokochou ten"
+name: Yakiniku Wabi Sabi Houzenji yokochou ten
 place: japan/kansai/osaka
-cuisine: "yakiniku (Kobe beef), izakaya"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Hozenji Yokocho"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.6   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+area_detail: Hozenji Yokocho
+cuisine: yakiniku (Kobe beef), izakaya
+price_range: ¥¥¥¥
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.6
+tags: [top-rated]
+station: Namba
+station_m: 251
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Wabi Sabi Houzenji yokochou ten

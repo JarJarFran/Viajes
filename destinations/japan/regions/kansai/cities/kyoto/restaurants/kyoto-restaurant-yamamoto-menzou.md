@@ -3,12 +3,20 @@ id: kyoto-restaurant-yamamoto-menzou
 type: restaurant
 name: Yamamoto Menzou
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Higashiyama (near Ginkaku-ji)
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Higashiyama (near Ginkaku-ji)
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.95   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.95
+tags: [top-rated]
+station: Higashiyama
+station_m: 729
+coords: [35.014273, 135.784792]
+coords_precision: exact
+name_ja: 山元麺蔵
+verified: 2026-11
 ---
 
 # Yamamoto Menzou

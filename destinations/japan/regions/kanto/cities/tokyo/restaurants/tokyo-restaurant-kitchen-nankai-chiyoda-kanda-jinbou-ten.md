@@ -3,12 +3,20 @@ id: tokyo-restaurant-kitchen-nankai-chiyoda-kanda-jinbou-ten
 type: restaurant
 name: Kitchen Nankai Chiyoda kanda jinbou ten
 place: japan/kanto/tokyo
+area: tokyo-area-akihabara
+area_detail: Jimbocho / Kanda
 cuisine: yoshoku, tonkatsu, curry
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Jimbocho / Kanda
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Jimbocho
+station_m: 260
+coords: [35.695927, 139.757205]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kitchen Nankai Chiyoda kanda jinbou ten

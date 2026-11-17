@@ -3,12 +3,18 @@ id: osaka-restaurant-osaka-teppanyaki-kobe-beef-tatara
 type: restaurant
 name: Osaka Teppanyaki Kobe Beef TATARA
 place: japan/kansai/osaka
+area: osaka-area-umeda
 cuisine: teppanyaki, steak, french
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.5
+station: Higashi Umeda
+station_m: 97
+coords: [34.700595, 135.499818]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Osaka Teppanyaki Kobe Beef TATARA

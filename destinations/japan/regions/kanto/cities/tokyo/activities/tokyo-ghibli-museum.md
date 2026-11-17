@@ -5,16 +5,21 @@ name: Ghibli Museum (Mitaka)
 place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
-approx_cost: "¥1,000; tickets released on the 10th of each month for the next month"
+approx_cost: ¥1,000; tickets released on the 10th of each month for the next month
+cost_yen: 1000
 entry: paid
 tags: [touristic, top100]
-hours: "10:00-18:00"
-closed: "Tuesdays"
+hours: 10:00-18:00
+closed:
+  - {weekly: [tue]}
 booking: required
-near: []
-best_season: "all year round"
+best_season: all year round
 best_time: morning
-link: "https://www.ghibli-museum.jp/"
+link: https://www.ghibli-museum.jp/
+coords: [35.696252, 139.570451]
+coords_precision: exact
+name_ja: 三鷹の森ジブリ美術館
+address_ja: 〒181-0013 東京三鷹市下連雀下連雀一丁目83
 ---
 
 # Ghibli Museum (Mitaka)

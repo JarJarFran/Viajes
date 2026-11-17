@@ -5,16 +5,21 @@ name: Osaka Museum of History
 place: japan/kansai/osaka
 category: museums
 duration_hours: 1.5
-approx_cost: "¥600 (free with Osaka Amazing Pass)"
+approx_cost: ¥600 (free with Osaka Amazing Pass)
+cost_yen: 600
 entry: mixed
 tags: [top50]
-hours: "9:30-17:00"
-closed: "none known - check site"
+hours: 9:30-17:00
+closed: []
 booking: walk-in
 near: [osaka-castle, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
-best_season: "all year round"
+best_season: all year round
 best_time: morning
-link: "https://www.mus-his.jp/"
+link: https://www.mus-his.jp/
+coords: [34.682618, 135.520813]
+coords_precision: exact
+name_ja: 大阪歴史博物館
+address_ja: 〒540-0007 大阪府大阪市中央区大手前四丁目本町通
 ---
 
 # Osaka Museum of History

@@ -3,12 +3,19 @@ id: kyoto-restaurant-tonkatsu-soba-an-kyoto
 type: restaurant
 name: Tonkatsu & Soba An Kyoto
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
+area_detail: Kyoto Station (JR West exit)
 cuisine: soba, tonkatsu, izakaya
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto Station (JR West exit)
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.14   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.14
+station: Kyoto
+station_m: 97
+coords: [34.986443, 135.758446]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tonkatsu & Soba An Kyoto

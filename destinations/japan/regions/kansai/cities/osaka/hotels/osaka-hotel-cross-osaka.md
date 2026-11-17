@@ -3,9 +3,14 @@ id: osaka-hotel-cross-osaka
 type: hotel
 name: Cross Hotel Osaka
 place: japan/kansai/osaka
-area: Dotonbori, Namba
-price_range: ¥¥¥     # ¥-¥¥¥¥ per night, double room
-link: "https://www.crosshotel.com/osaka/"
+area: osaka-area-namba
+area_detail: Dotonbori, Namba
+price_range: ¥¥¥
+link: https://www.crosshotel.com/osaka/
+coords: [34.669705, 135.500819]
+coords_precision: exact
+name_ja: クロスホテル
+address_ja: 〒542-0085 大阪府大阪市中央区心斎橋筋二丁目新屋敷筋
 ---
 
 # Cross Hotel Osaka

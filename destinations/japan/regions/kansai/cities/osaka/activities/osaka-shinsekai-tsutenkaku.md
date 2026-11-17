@@ -6,15 +6,20 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 2
 approx_cost: Tower ~¥1,000 (covered by Osaka Amazing Pass); kushikatsu ¥1,000–2,000
+cost_yen: 1000
 entry: paid
 tags: [touristic, top50]
-hours: "Tower 10:00-21:00 (22:00 weekends)"
-closed: "none known - check site"
+hours: Tower 10:00-21:00 (22:00 weekends)
+closed: []
 booking: walk-in
 near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura]
 best_season: all year round
 best_time: afternoon
-link: "https://www.tsutenkaku.co.jp/"
+link: https://www.tsutenkaku.co.jp/
+coords: [34.65209, 135.506191]
+coords_precision: exact
+name_ja: 新世界
+address_ja: 〒556-0002 大阪府大阪市浪速区恵美須東二丁目新世界本通線
 ---
 
 # Shinsekai & Tsutenkaku Tower
@@ -30,5 +35,3 @@ Osaka Metro Midosuji/Sakaisuji Line to Dobutsuen-mae or Eneosaka Station.
 ## Tips
 
 Combine with a walk through nearby Tennoji Park. Less polished than Dotonbori, more local.
-
-## Our experience

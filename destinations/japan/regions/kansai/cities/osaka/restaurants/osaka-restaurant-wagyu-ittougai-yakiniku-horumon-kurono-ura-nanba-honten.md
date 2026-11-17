@@ -1,14 +1,19 @@
 ---
 id: osaka-restaurant-wagyu-ittougai-yakiniku-horumon-kurono-ura-nanba-honten
 type: restaurant
-name: "Wagyu Ittougai Yakiniku Horumon Kurono Ura nanba honten"
+name: Wagyu Ittougai Yakiniku Horumon Kurono Ura nanba honten
 place: japan/kansai/osaka
-cuisine: "yakiniku (A4+ wagyu), horumon"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.45   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-namba
+cuisine: yakiniku (A4+ wagyu), horumon
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.45
+station: Kintetsu Nippombashi
+station_m: 274
+coords: [34.666909, 135.5057]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Wagyu Ittougai Yakiniku Horumon Kurono Ura nanba honten

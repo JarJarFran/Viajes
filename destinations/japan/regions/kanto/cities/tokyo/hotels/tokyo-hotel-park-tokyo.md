@@ -3,9 +3,11 @@ id: tokyo-hotel-park-tokyo
 type: hotel
 name: Park Hotel Tokyo
 place: japan/kanto/tokyo
-area: Ginza / Shimbashi
-price_range: ¥¥¥¥     # ¥-¥¥¥¥ per night, double room
-link: "https://www.parkhoteltokyo.com/"
+area: tokyo-area-ginza
+price_range: ¥¥¥¥
+link: https://www.parkhoteltokyo.com/
+coords: [35.663346, 139.759628]
+coords_precision: exact
 ---
 
 # Park Hotel Tokyo

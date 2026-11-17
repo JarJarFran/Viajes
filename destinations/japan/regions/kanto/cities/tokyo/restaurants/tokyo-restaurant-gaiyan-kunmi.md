@@ -3,12 +3,18 @@ id: tokyo-restaurant-gaiyan-kunmi
 type: restaurant
 name: Gaiyan Kunmi
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
 cuisine: thai, izakaya, curry
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinjuku
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.43
+station: Shinjuku
+station_m: 281
+coords: [35.690262, 139.700514]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gaiyan Kunmi

@@ -3,12 +3,19 @@ id: tokyo-restaurant-ginza-sushi-sendou
 type: restaurant
 name: Ginza Sushi Sendou
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: sushi, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.51   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.51
+tags: [top-rated]
+station: Ginza
+station_m: 380
+coords: [35.670938, 139.76521]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ginza Sushi Sendou

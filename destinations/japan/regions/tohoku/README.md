@@ -19,5 +19,3 @@ To be researched.
 - [Aomori](cities/aomori/)
 - [Morioka](cities/morioka/)
 - [Akita](cities/akita/)
-
-## Our experience

@@ -3,12 +3,16 @@ id: tokyo-restaurant-teppanyaki-satou
 type: restaurant
 name: Teppanyaki Satou
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
 cuisine: teppanyaki
 price_range: ¥
-area: Akasaka
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.57   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.57
 tags: [top-rated]
+coords: [35.662535, 139.731166]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Teppanyaki Satou

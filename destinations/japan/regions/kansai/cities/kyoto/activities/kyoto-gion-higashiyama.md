@@ -6,14 +6,19 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 2
 approx_cost: free to walk; Pontocho dinner ¥5,000+
+cost_yen: 0
 entry: mixed
 tags: [touristic, top50, iconic, night]
-hours: "24h (best at dusk)"
-closed: "none known - check site"
+hours: 24h (best at dusk)
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
 best_season: all year round
 best_time: evening
+coords: [35.00469, 135.778403]
+coords_precision: exact
+name_ja: 祇園
+address_ja: 京都府京都市東山区
 ---
 
 # Gion & Higashiyama at dusk
@@ -29,5 +34,3 @@ Keihan Line to Gion-Shijo Station, or Kyoto City Bus to Gion stop.
 ## Tips
 
 Best at dusk when lanterns light up. Maiko/geiko sightings most likely on Hanamikoji in the early evening.
-
-## Our experience

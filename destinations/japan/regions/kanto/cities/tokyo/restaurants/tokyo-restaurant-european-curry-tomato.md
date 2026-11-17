@@ -3,12 +3,20 @@ id: tokyo-restaurant-european-curry-tomato
 type: restaurant
 name: European Curry Tomato
 place: japan/kanto/tokyo
+area: tokyo-area-chuo-west
+area_detail: Ogikubo / Koenji
 cuisine: european curry
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ogikubo / Koenji
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 4.26   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 4.26
+tags: [top-rated]
+station: Ogikubo
+station_m: 232
+coords: [35.70448, 139.620159]
+coords_precision: station
+verified: 2026-11
 ---
 
 # European Curry Tomato

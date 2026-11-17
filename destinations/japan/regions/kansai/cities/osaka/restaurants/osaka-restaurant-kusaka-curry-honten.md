@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-kusaka-curry-honten
 type: restaurant
-name: "KUSAKA CURRY Honten"
+name: KUSAKA CURRY Honten
 place: japan/kansai/osaka
-cuisine: "curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shinsaibashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.54   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-shinsaibashi
+cuisine: curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.54
+tags: [top-rated]
+station: Shinsaibashi
+station_m: 177
+coords: [34.675354, 135.499201]
+coords_precision: station
+verified: 2026-11
 ---
 
 # KUSAKA CURRY Honten

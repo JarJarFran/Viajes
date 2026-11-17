@@ -3,12 +3,20 @@ id: tokyo-restaurant-fish-shinjuku-ten
 type: restaurant
 name: FISH Shinjuku ten
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shinjuku (Kabukicho)
 cuisine: curry
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinjuku (Kabukicho)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.79   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.79
+tags: [top-rated]
+station: Seibu Shinjuku
+station_m: 167
+coords: [35.695402, 139.700025]
+coords_precision: station
+verified: 2026-11
 ---
 
 # FISH Shinjuku ten

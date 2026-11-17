@@ -3,12 +3,18 @@ id: osaka-restaurant-osaka-tsukemen-shiraishi-nanba-ten
 type: restaurant
 name: Osaka Tsukemen Shiraishi Nanba ten
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: tsukemen, ramen
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Dotonbori
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.43
+station: Namba
+station_m: 143
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Osaka Tsukemen Shiraishi Nanba ten

@@ -3,12 +3,18 @@ id: osaka-restaurant-tsuruya
 type: restaurant
 name: Tsuruya
 place: japan/kansai/osaka
+area: osaka-area-umeda
 cuisine: okonomiyaki, yakisoba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.43
+station: Higashi Umeda
+station_m: 245
+coords: [34.700595, 135.499818]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tsuruya

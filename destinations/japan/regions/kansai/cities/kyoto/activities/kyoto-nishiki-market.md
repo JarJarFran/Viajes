@@ -6,15 +6,20 @@ place: japan/kansai/kyoto
 category: food
 duration_hours: 1.5
 approx_cost: samples ¥500–1,500
+cost_yen: 500
 entry: mixed
 tags: [touristic, top50]
-hours: "9:00-17:00"
-closed: "first days of January (most stalls back ~Jan 4-5)"
+hours: 9:00-17:00
+closed:
+  - {yearly: 01-01..01-04, partial: most stalls closed the first days of January (back ~Jan 4-5)}
 booking: walk-in
-near: []
 best_season: all year round, but CLOSED the first days of January (most stalls back by Jan 4–5)
 best_time: morning
-link: "https://www.nishiki.or.jp/en/"
+link: https://www.nishiki.or.jp/en/
+coords: [35.005024, 135.76557]
+coords_precision: exact
+name_ja: 錦市場
+address_ja: 〒604-8123 京都府京都市中京区東魚屋町錦小路通
 ---
 
 # Nishiki Market ("Kyoto's Kitchen")
@@ -29,6 +34,4 @@ Karasuma Line to Shijo Station, or Hankyu to Karasuma/Kawaramachi.
 
 ## Tips
 
-In our window (Jan 2–8) expect partial opening until ~Jan 4–5; go Jan 5+. Winter specialties: nishin soba (herring soba), yudofu.
-
-## Our experience
+After New Year expect partial opening until ~Jan 4–5. Winter specialties: nishin soba (herring soba), yudofu.

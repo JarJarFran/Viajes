@@ -3,12 +3,17 @@ id: tokyo-restaurant-shuhari-udon
 type: restaurant
 name: Ishi Usu Biki Udon Shuhari
 place: japan/kanto/tokyo
+area: tokyo-area-ryogoku
 cuisine: udon / izakaya
 price_range: ¥¥¥
-area: Kinshicho
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.59   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.59
 tags: [top-rated]
+coords: [35.696002, 139.792755]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Ishi Usu Biki Udon Shuhari

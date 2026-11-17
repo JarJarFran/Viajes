@@ -3,12 +3,19 @@ id: osaka-restaurant-tanpopo-kitashinchi-honten
 type: restaurant
 name: tanpopo Kitashinchi honten
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Kitashinchi (Kita)
 cuisine: teppanyaki, okonomiyaki, wine bar
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kitashinchi (Kita)
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Kitashinchi
+station_m: 129
+coords: [34.698114, 135.498434]
+coords_precision: station
+verified: 2026-11
 ---
 
 # tanpopo Kitashinchi honten

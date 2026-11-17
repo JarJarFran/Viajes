@@ -3,12 +3,19 @@ id: osaka-restaurant-naniwa-menjiro
 type: restaurant
 name: Naniwa Menjiro
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: ramen, tsukemen
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Dotonbori
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Osaka Namba
+station_m: 87
+coords: [34.667181, 135.497776]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Naniwa Menjiro

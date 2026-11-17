@@ -6,6 +6,7 @@ path: japan/shikoku/tokushima
 country: japan
 region: shikoku
 prefecture: Tokushima
+coords: [34.069831, 134.555035]
 ---
 
 # Tokushima
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

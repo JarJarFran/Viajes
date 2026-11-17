@@ -6,6 +6,7 @@ path: japan/chubu/takayama
 country: japan
 region: chubu
 prefecture: Gifu
+coords: [36.139625, 137.251032]
 ---
 
 # Takayama
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -3,12 +3,20 @@ id: osaka-restaurant-ginza-kagari-ruku-a-osaka-ten
 type: restaurant
 name: Ginza Kagari Ruku a Osaka ten
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Umeda / Osaka Station
 cuisine: ramen
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda / Osaka Station
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.68   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.68
+tags: [top-rated]
+station: Osaka
+station_m: 67
+coords: [34.701905, 135.494426]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ginza Kagari Ruku a Osaka ten

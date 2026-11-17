@@ -3,12 +3,15 @@ id: kyoto-restaurant-gyoza-chaochao
 type: restaurant
 name: Gyoza ChaoChao Shijo-Kawaramachi
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Shijo-Kawaramachi
 cuisine: gyoza
 price_range: ¥
-area: Shijo-Kawaramachi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+budget_yen: [400, 600]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.003763, 135.769608]
+coords_precision: area
 ---
 
 # Gyoza ChaoChao Shijo-Kawaramachi

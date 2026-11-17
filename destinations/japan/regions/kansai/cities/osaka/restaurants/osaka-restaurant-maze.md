@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-maze
 type: restaurant
-name: "maze"
+name: maze
 place: japan/kansai/osaka
-cuisine: "cafe, sweets, curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Yotsubashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.42   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-shinsaibashi
+area_detail: Yotsubashi
+cuisine: cafe, sweets, curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.42
+station: Yotsubashi
+station_m: 165
+coords: [34.674038, 135.496753]
+coords_precision: station
+verified: 2026-11
 ---
 
 # maze

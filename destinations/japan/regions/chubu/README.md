@@ -20,5 +20,3 @@ To be researched.
 - [Takayama](cities/takayama/)
 - [Matsumoto](cities/matsumoto/)
 - [Kawaguchiko](cities/kawaguchiko/)
-
-## Our experience

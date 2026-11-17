@@ -3,12 +3,19 @@ id: tokyo-restaurant-sushi-yatagarasu
 type: restaurant
 name: Sushi Yatagarasu
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
+area_detail: Shiodome / Shimbashi
 cuisine: sushi (Edomae)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shiodome / Shimbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.6   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [20000, 29999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.6
+tags: [top-rated]
+station: Shiodome
+station_m: 260
+coords: [35.66292, 139.759981]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Yatagarasu

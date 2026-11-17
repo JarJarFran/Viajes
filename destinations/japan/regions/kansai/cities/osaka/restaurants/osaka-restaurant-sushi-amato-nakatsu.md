@@ -3,12 +3,19 @@ id: osaka-restaurant-sushi-amato-nakatsu
 type: restaurant
 name: Sushi Amato (Nakatsu)
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Umeda / Nakatsu
 cuisine: sushi (aged Edomae), izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda / Nakatsu
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.51   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.51
+tags: [top-rated]
+station: Nakatsu
+station_m: 196
+coords: [34.70991, 135.492371]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Amato (Nakatsu)

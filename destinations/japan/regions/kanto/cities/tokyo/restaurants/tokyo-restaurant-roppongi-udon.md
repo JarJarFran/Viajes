@@ -3,12 +3,19 @@ id: tokyo-restaurant-roppongi-udon
 type: restaurant
 name: Roppongi Udon
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
 cuisine: udon, curry udon, tempura
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Roppongi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.55   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.55
+tags: [top-rated]
+station: Roppongi
+station_m: 164
+coords: [35.662535, 139.731166]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Roppongi Udon

@@ -30,7 +30,4 @@ Former samurai capital (12th–14th c.), 1 h from Tokyo. Temples, the Great Budd
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -3,12 +3,18 @@ id: tokyo-restaurant-yakiniku-rikimaru-ikebukuro-higashiguchi-ten
 type: restaurant
 name: Yakiniku Rikimaru Ikebukuro higashiguchi ten
 place: japan/kanto/tokyo
+area: tokyo-area-ikebukuro
 cuisine: yakiniku (all-you-can-eat lunch)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ikebukuro
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.38   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.38
+station: Ikebukuro
+station_m: 148
+coords: [35.730732, 139.709622]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Rikimaru Ikebukuro higashiguchi ten

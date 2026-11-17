@@ -5,15 +5,19 @@ name: Shimokitazawa
 place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
-approx_cost: "free; thrift/vinyl from ¥1,000"
+approx_cost: free; thrift/vinyl from ¥1,000
+cost_yen: 1000
 entry: mixed
 tags: [hidden-gem]
-hours: "11:00-20:00"
-closed: "none known - check site"
+hours: 11:00-20:00
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
+coords: [35.661678, 139.666335]
+coords_precision: exact
+name_ja: 下北沢
+address_ja: 〒155-0031 東京世田谷区北沢北沢二丁目
 ---
 
 # Shimokitazawa

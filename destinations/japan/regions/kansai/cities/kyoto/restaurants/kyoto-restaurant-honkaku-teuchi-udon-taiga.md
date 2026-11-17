@@ -3,12 +3,19 @@ id: kyoto-restaurant-honkaku-teuchi-udon-taiga
 type: restaurant
 name: Honkaku Teuchi-Udon Taiga
 place: japan/kansai/kyoto
+area: kyoto-area-fushimi
 cuisine: udon, curry udon, tempura
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Fushimi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.72   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.72
+tags: [top-rated]
+station: Fujinomori
+station_m: 505
+coords: [34.956812, 135.770208]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Honkaku Teuchi-Udon Taiga

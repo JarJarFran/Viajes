@@ -3,12 +3,18 @@ id: tokyo-restaurant-ginza-soba-udon-shiraishi-ginza-ten
 type: restaurant
 name: Ginza Soba Udon Shiraishi Ginza ten
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: soba, udon, donburi
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza / Shimbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.41   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.41
+station: Shimbashi
+station_m: 384
+coords: [35.666073, 139.759679]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ginza Soba Udon Shiraishi Ginza ten

@@ -3,12 +3,16 @@ id: tokyo-restaurant-ryuou
 type: restaurant
 name: Ryuou
 place: japan/kanto/tokyo
+area: tokyo-area-asakusa
 cuisine: chinese / gyoza / ramen
 price_range: ¥¥
-area: Asakusa
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.51   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.51
 tags: [top-rated]
+coords: [35.709333, 139.796883]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Ryuou

@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-ghar
 type: restaurant
-name: "Ghar"
+name: Ghar
 place: japan/kansai/osaka
-cuisine: "Indian curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Nishi-ku (Higobashi)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.93   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-honmachi
+area_detail: Nishi-ku (Higobashi)
+cuisine: Indian curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.93
+tags: [top-rated]
+station: Higobashi
+station_m: 441
+coords: [34.687233, 135.495448]
+coords_precision: exact
+name_ja: カレー屋 Ghar
+verified: 2026-11
 ---
 
 # Ghar

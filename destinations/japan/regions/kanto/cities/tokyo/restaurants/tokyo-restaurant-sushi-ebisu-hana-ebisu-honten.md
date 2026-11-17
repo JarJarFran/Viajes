@@ -3,12 +3,18 @@ id: tokyo-restaurant-sushi-ebisu-hana-ebisu-honten
 type: restaurant
 name: Sushi Ebisu Hana Ebisu honten
 place: japan/kanto/tokyo
+area: tokyo-area-ebisu
 cuisine: sushi, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ebisu / Daikanyama
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.44   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.44
+station: Ebisu
+station_m: 200
+coords: [35.646441, 139.710208]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Ebisu Hana Ebisu honten

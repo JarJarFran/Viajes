@@ -3,12 +3,18 @@ id: tokyo-restaurant-hasegawa-tonkatsu
 type: restaurant
 name: Hasegawa (tonkatsu)
 place: japan/kanto/tokyo
+area: tokyo-area-ryogoku
 cuisine: tonkatsu
 price_range: ¥¥¥
-area: Ryogoku
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.72   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.72
 tags: [top-rated]
+coords: [35.695033, 139.793961]
+coords_precision: exact
+name_ja: はせがわ
+verified: 2026-11
 ---
 
 # Hasegawa (tonkatsu)

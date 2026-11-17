@@ -5,14 +5,14 @@ name: Tea ceremony experience
 place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
-approx_cost: "¥3,000–5,000"
+approx_cost: ¥3,000–5,000
+cost_yen: 3000
 entry: paid
 tags: [touristic, top100]
-hours: "by slot 10:00-17:00"
-closed: "none known - check site"
+hours: by slot 10:00-17:00
+closed: []
 booking: required
-near: []
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
 ---
 

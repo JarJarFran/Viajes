@@ -1,7 +1,7 @@
 ---
 id: 2026-japan
 type: trip
-name: "Japan: Osaka → Kyoto → Tokyo (New Year 2026/27)"
+name: 'Japan: Osaka → Kyoto → Tokyo (New Year 2026/27)'
 country: japan
 start: 2026-12-26
 end: 2027-01-23
@@ -11,22 +11,18 @@ stops:
     to: 2027-01-02
     place: japan/kansai/osaka
     accommodation: osaka-hotel-cross-osaka
-    activities: [kix-to-osaka, osaka-abeno-harukas, osaka-amerikamura, osaka-castle, osaka-central-public-hall, osaka-cup-noodles-museum, osaka-den-den-town, osaka-dotonbori-night, osaka-himeji-daytrip, osaka-hozenji-yokocho, osaka-kaiyukan, osaka-kobe-daytrip, osaka-kuromon-market, osaka-legoland-discovery, osaka-museum-of-history, osaka-nakazakicho, osaka-namba-parks, osaka-namba-yasaka, osaka-santa-maria-cruise, osaka-shinsekai-tsutenkaku, osaka-shitennoji, osaka-spa-world, osaka-sumiyoshi-taisha, osaka-tempozan-ferris, osaka-tennoji-zoo, osaka-to-kyoto, osaka-tombori-river-cruise, osaka-tower-of-the-sun, osaka-tsuruhashi-koreatown, osaka-umeda-sky-building, osaka-usj]
-    notes: "Midosuji Illumination is ON until Dec 31. New Year (Dec 31–Jan 1) in Osaka: shrines for hatsumode, many shops closed Jan 1–3."
+    notes: 'Midosuji Illumination is ON until Dec 31. New Year (Dec 31–Jan 1) in Osaka: shrines for hatsumode, many shops closed Jan 1–3.'
   - from: 2027-01-02
-    to: 2027-01-08
+    to: 2027-01-09
     place: japan/kansai/kyoto
     accommodation: kyoto-hotel-granvia-kyoto
-    activities: [kix-to-kyoto, kyoto-aquarium, kyoto-arashiyama-bamboo, kyoto-eikan-do, kyoto-fushimi-inari, kyoto-fushimi-sake-district, kyoto-ginkaku-ji, kyoto-gion-higashiyama, kyoto-himeji-daytrip, kyoto-imamiya-shrine, kyoto-imperial-palace, kyoto-katsura-imperial-villa, kyoto-kennin-ji, kyoto-kimono-rental, kyoto-kinkaku-ji, kyoto-kiyomizu-dera, kyoto-kodai-ji, kyoto-kurama-kibune-hike, kyoto-maruyama-park, kyoto-monkey-park-iwatayama, kyoto-nanzen-ji, kyoto-nara-daytrip, kyoto-nijo-castle, kyoto-ninna-ji, kyoto-nishiki-market, kyoto-philosophers-path, kyoto-pontocho, kyoto-railway-museum, kyoto-ryoan-ji, kyoto-sagano-romantic-train, kyoto-sanjusangen-do, kyoto-sannenzaka-ninenzaka, kyoto-tea-ceremony, kyoto-to-tokyo, kyoto-tofuku-ji, kyoto-toji, kyoto-uji-daytrip, kyoto-yasaka-pagoda]
-    notes: "Hatsumode Jan 2–3 at Yasaka Shrine (go early). Toka Ebisu festival starts Jan 8 (our last day). Nishiki Market mostly closed until ~Jan 4–5; Ninomaru Palace closed Jan 1–3."
+    notes: Hatsumode Jan 2–3 at Yasaka Shrine (go early). Toka Ebisu festival starts Jan 8 (our last day). Nishiki Market mostly closed until ~Jan 4–5; Ninomaru Palace closed Jan 1–3.
   - from: 2027-01-09
     to: 2027-01-23
     place: japan/kanto/tokyo
     accommodation: tokyo-hotel-gracery-shinjuku
-    activities: [haneda-to-tokyo-center, narita-to-tokyo-center, tokyo-akihabara, tokyo-edotokyo-museum, tokyo-ghibli-museum, tokyo-ginza, tokyo-golden-gai, tokyo-hakone-daytrip, tokyo-hamarikyu-gardens, tokyo-harajuku-takeshita, tokyo-imperial-palace, tokyo-kawaguchiko-daytrip, tokyo-koenji, tokyo-meiji-jingu, tokyo-mori-art-museum, tokyo-nakano-broadway, tokyo-nikko-daytrip, tokyo-odaiba, tokyo-omoide-yokocho, tokyo-pokemon-center, tokyo-sensoji, tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-shimokitazawa, tokyo-shinjuku-gyoen, tokyo-skytree, tokyo-sumida-river-cruise, tokyo-sunshine-city, tokyo-teamlab-borderless, tokyo-teamlab-planets, tokyo-tmg-observatory, tokyo-to-kamakura, tokyo-to-shin-osaka, tokyo-tokyo-city-view, tokyo-tokyo-tower, tokyo-tsukiji-outer-market, tokyo-ueno-park, tokyo-yanaka, tokyo-yokohama-daytrip, tokyo-zojoji]
-    notes: "Jan 9 arrival: fukubukuro mostly over, some sales to mid-Jan. Illuminations active (Marunouchi/Shinjuku to ~Feb 14, Chuo Park to Jan 12). Yomiuriland Jewellumination Sat Jan 17/24. Day trip from here: kamakura-day-trip (Kamakura & Enoshima)."
-events: [osaka-midosuji-illumination, osaka-castle-illuminage, kyoto-hatsumode, kyoto-joya-no-kane, kyoto-toka-ebisu, tokyo-winter-illuminations, tokyo-new-year-sales, tokyo-sumo-tournament]   # events overlapping the trip window 2026-12-26 -> 2027-01-23
-days: [day-2026-12-26, day-2026-12-27, day-2026-12-28, day-2026-12-29, day-2026-12-30, day-2026-12-31, day-2027-01-01, day-2027-01-02, day-2027-01-03, day-2027-01-04, day-2027-01-05, day-2027-01-06, day-2027-01-07, day-2027-01-08, day-2027-01-09, day-2027-01-10, day-2027-01-11, day-2027-01-12, day-2027-01-13, day-2027-01-14, day-2027-01-15, day-2027-01-16, day-2027-01-17, day-2027-01-18, day-2027-01-19, day-2027-01-20, day-2027-01-21, day-2027-01-22, day-2027-01-23]
+    notes: 'Jan 9 arrival: fukubukuro mostly over, some sales to mid-Jan. Illuminations active (Marunouchi/Shinjuku to ~Feb 14, Chuo Park to Jan 12). Yomiuriland Jewellumination Sat Jan 17/24. Day trip from here: kamakura-day-trip (Kamakura & Enoshima).'
+days: [2026-japan-2026-12-26, 2026-japan-2026-12-27, 2026-japan-2026-12-28, 2026-japan-2026-12-29, 2026-japan-2026-12-30, 2026-japan-2026-12-31, 2026-japan-2027-01-01, 2026-japan-2027-01-02, 2026-japan-2027-01-03, 2026-japan-2027-01-04, 2026-japan-2027-01-05, 2026-japan-2027-01-06, 2026-japan-2027-01-07, 2026-japan-2027-01-08, 2026-japan-2027-01-09, 2026-japan-2027-01-10, 2026-japan-2027-01-11, 2026-japan-2027-01-12, 2026-japan-2027-01-13, 2026-japan-2027-01-14, 2026-japan-2027-01-15, 2026-japan-2027-01-16, 2026-japan-2027-01-17, 2026-japan-2027-01-18, 2026-japan-2027-01-19, 2026-japan-2027-01-20, 2026-japan-2027-01-21, 2026-japan-2027-01-22, 2026-japan-2027-01-23]
 ---
 
 # Japan: Osaka → Kyoto → Tokyo (New Year 2026/27)
@@ -40,50 +36,92 @@ Osaka (2026-12-26 → 2027-01-02, incl. New Year's Eve) → Kyoto (2027-01-02 �
 ## Transport plan
 
 - **No JR Pass**: golden route Tokyo–Kyoto–Osaka point-to-point ≈ ¥29,000 vs ¥53,000 for a 7-day pass (price since 2026-10-01). Buy individual shinkansen tickets (Hikari) + IC card.
-- Kyoto → Tokyo (Jan 8 or 9, 2027): Hikari shinkansen ~2 h 15 min, non-reserved ¥13,320 / reserved ~¥13,800–14,170; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX.
+- Kyoto → Tokyo (Jan 9, 2027): Hikari shinkansen ~2 h 15 min, non-reserved ¥13,320 / reserved ~¥13,800–14,170; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX.
 - Osaka → Kyoto (Jan 2, 2027): JR Special Rapid ¥580 (24–28 min) or Hankyu ¥410–460 — no shinkansen needed.
 - Local: ICOCA in Kansai, Suica/Pasmo in Tokyo. Osaka Amazing Pass (¥2,800/¥3,600) optional; Kyoto Subway & Bus 1-Day Pass ¥1,100.
-- See [Inter-city & airport transport prices](#inter-city--airport-transport-prices-2025fares-check-current) below and each city's `activities/` transport records.
+- Every leg with prices: [destinations/japan/routes/](../../destinations/japan/routes/) (`python3 scripts/query.py routes --city tokyo`).
 
 ## Events in our window (2026-12-26 → 2027-01-23)
 
-Query: events with `start`/`end` overlapping the trip dates (see `events:` field in frontmatter).
+Derived from event `editions` that overlap the trip in the stop cities (`python3 scripts/query.py events --trip 2026-japan`).
 
-| Dates (2026/27 season) | Event | Where | In our stay? |
-|---|---|---|---|
-| Nov 3, 2026 – Dec 31, 2026 | [Midosuji Illumination](../destinations/japan/regions/kansai/cities/osaka/events/osaka-midosuji-illumination.md) (17:00–01:00) | Osaka | YES — Dec 26–31 |
-| Nov 20, 2026 – Feb 14, 2027 | [Osaka Castle Illuminage](../destinations/japan/regions/kansai/cities/osaka/events/osaka-castle-illuminage.md) | Osaka | YES — whole Osaka stay |
-| Dec 31, 2026 | [Joya no Kane (NYE bells)](../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-joya-no-kane.md); Okera fire at Yasaka from 19:30 | Kyoto (we're in Osaka — Kyoto is 24–28 min by JR) | Dec 31 only |
-| Dec 31, 2026 – Jan 3, 2027 | [Hatsumode (first shrine visit)](../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-hatsumode.md) at Yasaka Shrine | Kyoto | YES — Jan 2–3 |
-| Jan 1–31, 2027 | [New Year sales / fukubukuro](../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-new-year-sales.md) (mostly first week) | everywhere | Partial — we reach Tokyo Jan 9 |
-| Jan 8–12, 2027 | [Toka Ebisu festival](../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-toka-ebisu.md) (main day Jan 10) | Ebisu-jinja, Gion, Kyoto | YES — Jan 8 is our last Kyoto day |
-| Nov 11, 2026 – Feb 14, 2027 | [Tokyo winter illuminations](../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-winter-illuminations.md) (Marunouchi & Shinjuku Southern Terrace to Feb 14; Chuo Park to Jan 12, 2027; Yomiuriland Sat Jan 9/16/23, 2027) | Tokyo | YES — whole Tokyo stay |
-| Jan 10–24, 2027 (TBC) | [Grand Sumo Tournament, Ryogoku Kokugikan](../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-sumo-tournament.md) | Tokyo | YES — book tickets early |
+<!-- gen:start events -->
+| Dates | Event | City | Our days there | In plan |
+|---|---|---|---|---|
+| 2026-11-03 → 2026-12-31 | [Midosuji Illumination (winter lights)](../../destinations/japan/regions/kansai/cities/osaka/events/osaka-midosuji-illumination.md) | Osaka | 12-26–12-31 | 12-29, 12-31 |
+| 2026-11-12 → 2027-02-14 | [Tokyo winter illuminations (January)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-winter-illuminations.md) | Tokyo | 01-09–01-23 | 01-12 |
+| 2026-11-20 → 2027-02-14 | [Osaka Castle Illuminage (winter light show)](../../destinations/japan/regions/kansai/cities/osaka/events/osaka-castle-illuminage.md) | Osaka | 12-26–01-02 | — |
+| 2026-12-31 → 2027-01-03 | [Hatsumode (first shrine visit of the year) at Yasaka Shrine](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-hatsumode.md) | Kyoto | 01-02–01-03 | 01-03 |
+| 2026-12-31 → 2026-12-31 | [Joya no Kane (New Year's Eve temple bells)](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-joya-no-kane.md) | Kyoto | — | — |
+| 2027-01-01 → 2027-01-31 | [New Year sales & fukubukuro (lucky bags)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-new-year-sales.md) | Tokyo | 01-09–01-23 | 01-20 |
+| 2027-01-08 → 2027-01-12 | [Toka Ebisu festival at Ebisu-jinja (Gion)](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-toka-ebisu.md) | Kyoto | 01-08–01-09 | 01-08 |
+| 2027-01-10 → 2027-01-24 | [Grand Sumo Tournament (Ryogoku Kokugikan, January)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-sumo-tournament.md) | Tokyo | 01-10–01-23 | 01-10 |
+<!-- gen:end events -->
 
 Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. Shimai-Kobo market at Toji is on the 21st (Dec 21, 2026 / Jan 21, 2027) — both outside our Kyoto stay. Kyoto closures: Nijo Castle Dec 29–31, Ninomaru Palace Jan 1–3, Imperial Palace Dec 28–Jan 4, Nishiki Market mostly closed until ~Jan 4–5.
 
-## Day-by-day itinerary
+## Budget
 
-(to fill as we plan: assign activities to days per stop, using `near:` clusters to group zones)
+Planned cost per person per day (sights, meals, transport in `plan`; hotels excluded) against the daily budget in `profile.yaml`, and the real spend logged with `python3 scripts/log.py expense ...`.
 
-### Osaka (2026-12-26 – 2027-01-02)
+<!-- gen:start budget -->
+Daily budget: ¥21,006 per person (€120 × 175.05 ECB 2026-11-17).
 
-### Kyoto (2027-01-02 – 2027-01-08)
-
-### Tokyo (2027-01-09 – 2027-01-23)
-
-## Expenses
-
-(to fill after the trip: flights, hotels, transport, food, entries)
+| Date | City | Planned | vs budget | Spent | Unpriced items |
+|---|---|---|---|---|---|
+| 2026-12-26 sat | Osaka | ¥3,490 | ok | — |  |
+| 2026-12-27 sun | Osaka | ¥5,699 | ok | — |  |
+| 2026-12-28 mon | Osaka | ¥6,859 | ok | — |  |
+| 2026-12-29 tue | Osaka | ¥7,000 | ok | — |  |
+| 2026-12-30 wed | Osaka | ¥5,698 | ok | — |  |
+| 2026-12-31 thu | Osaka | ¥5,000 | ok | — |  |
+| 2027-01-01 fri | Osaka | ¥5,000 | ok | — |  |
+| 2027-01-02 sat | Kyoto | ¥3,579 | ok | — |  |
+| 2027-01-03 sun | Kyoto | ¥4,500 | ok | — |  |
+| 2027-01-04 mon | Kyoto | ¥3,250 | ok | — |  |
+| 2027-01-05 tue | Kyoto | ¥2,500 | ok | — |  |
+| 2027-01-06 wed | Kyoto | ¥3,299 | ok | — |  |
+| 2027-01-07 thu | Kyoto | ¥7,500 | ok | — |  |
+| 2027-01-08 fri | Kyoto | ¥4,100 | ok | — |  |
+| 2027-01-09 sat | Tokyo | ¥15,815 | ok | — |  |
+| 2027-01-10 sun | Tokyo | ¥14,000 | ok | — |  |
+| 2027-01-11 mon | Tokyo | ¥5,499 | ok | — |  |
+| 2027-01-12 tue | Tokyo | ¥9,500 | ok | — |  |
+| 2027-01-13 wed | Tokyo | ¥4,999 | ok | — |  |
+| 2027-01-14 thu | Tokyo | ¥6,459 | ok | — |  |
+| 2027-01-15 fri | Tokyo | ¥4,499 | ok | — |  |
+| 2027-01-16 sat | Tokyo | ¥4,840 | ok | — |  |
+| 2027-01-17 sun | Tokyo | ¥8,600 | ok | — |  |
+| 2027-01-18 mon | Tokyo | ¥9,000 | ok | — |  |
+| 2027-01-19 tue | Tokyo | ¥6,900 | ok | — |  |
+| 2027-01-20 wed | Tokyo | ¥4,799 | ok | — |  |
+| 2027-01-21 thu | Tokyo | ¥11,000 | ok | — |  |
+| 2027-01-22 fri | Tokyo | ¥4,499 | ok | — |  |
+| 2027-01-23 sat | Tokyo | ¥5,140 | ok | — | haneda-to-tokyo-center |
+| **total** | | **¥183,023** | ¥609,174 budget | ¥0 | |
+<!-- gen:end budget -->
 
 ## Booking checklist
 
+Computed from event ticket sales and the `booking` of planned items (also in `exports/trips/2026-japan.ics`):
+
+<!-- gen:start deadlines -->
+- [ ] **2026-12-05 10:00:00+09:00** — tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan, January) (general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en))
+- [ ] **2026-12-15** — book teamLab Planets (Toyosu) for 2027-01-14 (required, 30 days ahead)
+- [ ] **2026-12-18** — book teamLab Borderless (Azabudai Hills) for 2027-01-17 (required, 30 days ahead)
+- [ ] **2026-12-23** — book Osaka Aquarium Kaiyukan for 2026-12-30 (reserve, 7 days ahead)
+- [ ] **2027-01-02** — book Kyoto → Tokyo (Tokaido Shinkansen) for 2027-01-09 (reserve, 7 days ahead)
+- [ ] **2027-01-06** — book Shibuya Sky (observation deck) for 2027-01-13 (reserve, 7 days ahead)
+<!-- gen:end deadlines -->
+
+Manual:
+
 - [ ] **2026-12-05 10:00 JST (2026-12-05 01:00 UTC)**: buy sumo tickets on sumo.pia.jp/en (event `on_sale`) — set alarm; create account + SMS verify beforehand
 - [ ] Flights: into KIX 2026-12-26, out of NRT/HND 2027-01-23
-- [ ] Hotels: Osaka 7 nights, Kyoto 6 nights, Tokyo 14 nights (book NYE nights Dec 29–Jan 3 first — prices spike)
+- [ ] Hotels: Osaka 7 nights, Kyoto 7 nights, Tokyo 14 nights (book NYE nights Dec 29–Jan 3 first — prices spike)
 - [ ] teamLab Planets / Borderless tickets (book 1–2 weeks ahead; Planets closes end of 2027)
+- [ ] Import `exports/trips/2026-japan.ics` into the phone calendar (sale dates, booking reminders, one event per day)
 - [ ] Tokyo Skytree / Shibuya Sky timed slots
-- [ ] Sumo tournament tickets (Jan 10–24, 2027 — sell out)
 - [ ] Ghibli Museum tickets (released on the 10th of each month)
 - [ ] eSIM / pocket wifi
 - [ ] IC cards (ICOCA + Suica/Pasmo)
@@ -91,42 +129,46 @@ Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. S
 
 ## What we liked most / affinity
 
+<!-- gen:start liked -->
+(nothing rated yet — after each day: `python3 scripts/log.py done --trip 2026-japan --date YYYY-MM-DD --id <node> --rating 1-5`)
+<!-- gen:end liked -->
+
 ## For next time
 
+## Days
+
+Full plans in [days/](days/); offline page: [exports/trips/2026-japan.html](../../exports/trips/2026-japan.html); query: `python3 scripts/query.py day --trip 2026-japan --date YYYY-MM-DD`.
+
 <!-- gen:start days -->
-
-## Days (see `days/` for full plans; query: `python3 scripts/query.py day --trip 2026-japan --date YYYY-MM-DD`)
-
-| date | place | area | plan |
-|---|---|---|---|
-| 2026-12-26 | osaka | Namba / Dotonbori | 3: Kansai Airport (KIX) → Osaka; Dotonbori & Shinsaibashi at night; Mizuno |
-| 2026-12-27 | osaka | Osaka Castle / Namba | 4: Osaka Castle; Kuromon Ichiba Market ("Osaka's Kitchen"); Shuhari Kuromon ten; Menya Joroku Nanba ten |
-| 2026-12-28 | osaka | Umeda / Nakanoshima | 4: Umeda Sky Building (Floating Garden Observatory); BOTANI Curry Umeda ten; Mugi to Mensuke; Midosuji Illumination (winter lights) |
-| 2026-12-29 | osaka | Himeji day trip | 2: Day trip Osaka → Himeji Castle; Naniwa Menjiro |
-| 2026-12-30 | osaka | Tempozan / Minato-ku | 4: Osaka Aquarium Kaiyukan; Tempozan Giant Ferris Wheel; Usami Tei Matsubaya; NEXT Shikaku |
-| 2026-12-31 | osaka | Namba / Kita — New Year's Eve | 4: Amerika-mura (America Village); Midosuji Illumination (winter lights); Okonomi Tamachan Viva; Dotonbori & Shinsaibashi at night |
-| 2027-01-01 | osaka | Sumiyoshi / Shinsekai — New Year's Day | 5: Sumiyoshi Taisha Shrine; Shinsekai & Tsutenkaku Tower; Spa World (Shinsekai onsen); Daruma (Shinsekai)… |
-| 2027-01-02 | osaka | Osaka → Kyoto (travel day) | 3: Kuromon Ichiba Market ("Osaka's Kitchen"); Osaka → Kyoto (Jan 2 move); Honke Daiichi Asahi Honten |
-| 2027-01-03 | kyoto | Higashiyama / Gion | 7: Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Gion & Higashiyama at dusk… |
-| 2027-01-04 | kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | 5: Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Nanzen-ji (brick aqueduct); Yamamoto Menzou… |
-| 2027-01-05 | kyoto | Nishiki Market / downtown / Pontocho | 5: Nishiki Market ("Kyoto's Kitchen"); Kyoto Imperial Palace (Gosho); Pontocho alley; Nishiki Warai… |
-| 2027-01-06 | kyoto | Arashiyama | 4: Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Arashiyama Yoshimura; Tsukumo Udon Shiokouji honten |
-| 2027-01-07 | kyoto | Fushimi — calm day | 4: Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Mugi no Yoake; KANEGURA |
-| 2027-01-08 | kyoto | Kita temples + Gion — Toka Ebisu | 6: Kinkaku-ji (Golden Pavilion); Ryoan-ji (rock garden); Toka Ebisu festival at Ebisu-jinja (Gion); Gion & Higashiyama at dusk… |
-| 2027-01-09 | tokyo | Shinjuku (arrival) | 4: Kyoto → Tokyo (Jan 8/9 move); Tokyo Metropolitan Government Building observatory (45F); Udon Shin; Omoide Yokocho yakitori stalls |
-| 2027-01-10 | tokyo | Ryogoku — Grand Sumo day 1 | 3: Grand Sumo Tournament (Ryogoku Kokugikan, January); Hasegawa (tonkatsu); Katsu Pulipo |
-| 2027-01-11 | tokyo | Asakusa / Ueno | 4: Senso-ji Temple (Asakusa); Ueno Park & museums; Asakusa Ramen Yoroiya; Tokyo Tonkatsu Gabuu |
-| 2027-01-12 | tokyo | Tsukiji / Ginza / Marunouchi | 6: Tsukiji Outer Market; Ginza (shopping & depachika); Sushi Nakamura (Tsukiji); Godaime Hanayama Udon Ginza ten… |
-| 2027-01-13 | tokyo | Shibuya / Harajuku | 5: Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Meiji Shrine (Meiji Jingu) and Yoyogi Park; Hayashi… |
-| 2027-01-14 | tokyo | Toyosu / Odaiba — teamLab day | 4: teamLab Planets (Toyosu); Odaiba island (Gundam, beach, Rainbow Bridge); Kagawa Ippuku ART; Udon Shin |
-| 2027-01-15 | tokyo | Akihabara / Kanda / Tokyo Station | 4: Akihabara (Electric Town); Pokemon Center (Tokyo Station / Nihonbashi); KAMAYOSHI; Katsu Kichi Shinmaru biru ten |
-| 2027-01-16 | tokyo | Kamakura day trip | 2: Tokyo → Kamakura (day trip); FISH Shinjuku ten |
-| 2027-01-17 | tokyo | Azabudai / Roppongi — teamLab Borderless | 4: teamLab Borderless (Azabudai Hills); Mori Art Museum (Roppongi Hills 53F); Roppongi Udon; Menson RAGE Azabudai hiruzu |
-| 2027-01-18 | tokyo | Yanaka / Ueno — old Tokyo, calm | 4: Yanaka old town (Yanaka Ginza, Nezu Shrine); Ueno Park & museums; Asakusa Hirayama; Taishu Shabushabu Katsuji Ueno |
-| 2027-01-19 | tokyo | Kawaguchiko day trip — Mt Fuji | 2: Day trip to Kawaguchiko (Mt Fuji views); Kirimugi Ya Jinroku |
-| 2027-01-20 | tokyo | Nakano / Shimokitazawa (Koenji evening) | 4: Nakano Broadway; Shimokitazawa; European Curry Tomato; Usagi |
-| 2027-01-21 | tokyo | Nikko day trip (UNESCO) | 2: Day trip to Nikko (Toshogu shrine); Udon Manda Jiro |
-| 2027-01-22 | tokyo | Marunouchi / Shibuya — last full day | 5: Imperial Palace East Gardens; Hama-rikyu Gardens; New Year sales & fukubukuro (lucky bags); Men Chirashi… |
-| 2027-01-23 | tokyo | Departure day | 3: Haneda Airport (HND) → central Tokyo (departure Jan 23); Narita Airport (NRT) → central Tokyo (departure Jan 23); Depachika food halls (Isetan Shinjuku / Mitsukoshi Ginza) |
-
+| Date | City | Title | Plan | Est. |
+|---|---|---|---|---|
+| [2026-12-26](days/2026-12-26.md) sat | Osaka | Namba / Dotonbori | Kansai Airport (KIX) → Osaka; Dotonbori & Shinsaibashi at night; Mizuno | ¥3,490 |
+| [2026-12-27](days/2026-12-27.md) sun | Osaka | Osaka Castle / Namba | Osaka Castle; Kuromon Ichiba Market ("Osaka's Kitchen"); Shuhari Kuromon ten; Menya Joroku Nanba ten | ¥5,699 |
+| [2026-12-28](days/2026-12-28.md) mon | Osaka | Himeji day trip | Day trip Osaka → Himeji Castle; Naniwa Menjiro | ¥6,859 |
+| [2026-12-29](days/2026-12-29.md) tue | Osaka | Umeda / Nakanoshima | BOTANI Curry Umeda ten; Umeda Sky Building (Floating Garden Observatory); Midosuji Illumination (winter lights); Mugi to Mensuke | ¥7,000 |
+| [2026-12-30](days/2026-12-30.md) wed | Osaka | Tempozan / Minato-ku | Osaka Aquarium Kaiyukan; Usami Tei Matsubaya; Tempozan Giant Ferris Wheel; NEXT Shikaku | ¥5,698 |
+| [2026-12-31](days/2026-12-31.md) thu | Osaka | Namba / Kita — New Year's Eve | Amerika-mura (America Village); Okonomi Tamachan Viva; Midosuji Illumination (winter lights); Dotonbori & Shinsaibashi at night | ¥5,000 |
+| [2027-01-01](days/2027-01-01.md) fri | Osaka | Sumiyoshi / Shinsekai — New Year's Day | Sumiyoshi Taisha Shrine; Daruma (Shinsekai); Spa World (Shinsekai onsen); Shinsekai & Tsutenkaku Tower; Ichiran (Dotonbori) | ¥5,000 |
+| [2027-01-02](days/2027-01-02.md) sat | Kyoto | Osaka → Kyoto (travel day) | Kuromon Ichiba Market ("Osaka's Kitchen"); Osaka ↔ Kyoto; Honke Daiichi Asahi Honten | ¥3,579 |
+| [2027-01-03](days/2027-01-03.md) sun | Kyoto | Higashiyama / Gion | Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Hatsumode (first shrine visit of the year) at Yasaka Shrine; Sannenzaka & Ninenzaka lanes; Kiyomizu-dera & Higashiyama slopes; Kyoto Gion Okaru; Gion & Higashiyama at dusk; Gion Duck Noodles | ¥4,500 |
+| [2027-01-04](days/2027-01-04.md) mon | Kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | Philosopher's Path (Tetsugaku-no-michi); Ginkaku-ji (Silver Pavilion); Yamamoto Menzou; Nanzen-ji (brick aqueduct); Menya Inoichi | ¥3,250 |
+| [2027-01-05](days/2027-01-05.md) tue | Kyoto | Nishiki Market / downtown / Pontocho | Nishiki Market ("Kyoto's Kitchen"); Nishiki Warai; Kyoto Imperial Palace (Gosho); Pontocho alley; Udon Shiki Kyoto Udon | ¥2,500 |
+| [2027-01-06](days/2027-01-06.md) wed | Kyoto | Arashiyama | Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Arashiyama Yoshimura; Tsukumo Udon Shiokouji honten | ¥3,299 |
+| [2027-01-07](days/2027-01-07.md) thu | Kyoto | Fushimi — calm day | Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Mugi no Yoake; KANEGURA | ¥7,500 |
+| [2027-01-08](days/2027-01-08.md) fri | Kyoto | Kita temples + Gion — Toka Ebisu | Ryoan-ji (rock garden); Kinkaku-ji (Golden Pavilion); Gontaro Kinkakuji ten; Toka Ebisu festival at Ebisu-jinja (Gion); Gion & Higashiyama at dusk; Gion Yorozuya | ¥4,100 |
+| [2027-01-09](days/2027-01-09.md) sat | Tokyo | Shinjuku (arrival) | Tokyo Metropolitan Government Building observatory (45F); Kyoto → Tokyo (Tokaido Shinkansen); Udon Shin; Omoide Yokocho yakitori stalls | ¥15,815 |
+| [2027-01-10](days/2027-01-10.md) sun | Tokyo | Ryogoku — Grand Sumo day 1 | Grand Sumo Tournament (Ryogoku Kokugikan, January); Hasegawa (tonkatsu); Katsu Pulipo | ¥14,000 |
+| [2027-01-11](days/2027-01-11.md) mon | Tokyo | Asakusa / Ueno | Senso-ji Temple (Asakusa); Asakusa Ramen Yoroiya; Ueno Park & museums; Tokyo Tonkatsu Gabuu | ¥5,499 |
+| [2027-01-12](days/2027-01-12.md) tue | Tokyo | Tsukiji / Ginza / Marunouchi | Tsukiji Outer Market; Sushi Nakamura (Tsukiji); Ginza (shopping & depachika); Godaime Hanayama Udon Ginza ten; Tokyo winter illuminations (January); Niboshi to Nihonshu Sugidama | ¥9,500 |
+| [2027-01-13](days/2027-01-13.md) wed | Tokyo | Shibuya / Harajuku | Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Hayashi; Meiji Shrine (Meiji Jingu) and Yoyogi Park; CURRY UP | ¥4,999 |
+| [2027-01-14](days/2027-01-14.md) thu | Tokyo | Toyosu / Odaiba — teamLab day | teamLab Planets (Toyosu); Kagawa Ippuku ART; Odaiba island (Gundam, beach, Rainbow Bridge); Udon Shin | ¥6,459 |
+| [2027-01-15](days/2027-01-15.md) fri | Tokyo | Akihabara / Kanda / Tokyo Station | Akihabara (Electric Town); KAMAYOSHI; Pokemon Center (Tokyo Station / Nihonbashi); Katsu Kichi Shinmaru biru ten | ¥4,499 |
+| [2027-01-16](days/2027-01-16.md) sat | Tokyo | Kamakura day trip | Tokyo ↔ Kamakura; Day trip to Kamakura & Enoshima; FISH Shinjuku ten | ¥4,840 |
+| [2027-01-17](days/2027-01-17.md) sun | Tokyo | Azabudai / Roppongi — teamLab Borderless | teamLab Borderless (Azabudai Hills); Roppongi Udon; Mori Art Museum (Roppongi Hills 53F); Menson RAGE Azabudai hiruzu | ¥8,600 |
+| [2027-01-18](days/2027-01-18.md) mon | Tokyo | Yanaka / Ueno — old Tokyo, calm ⚠ | Yanaka old town (Yanaka Ginza, Nezu Shrine); Asakusa Hirayama; Ueno Park & museums; Taishu Shabushabu Katsuji Ueno | ¥9,000 |
+| [2027-01-19](days/2027-01-19.md) tue | Tokyo | Kawaguchiko day trip — Mt Fuji | Day trip to Kawaguchiko (Mt Fuji views); Kirimugi Ya Jinroku | ¥6,900 |
+| [2027-01-20](days/2027-01-20.md) wed | Tokyo | Imperial Palace / Hama-rikyu / Shibuya | Imperial Palace East Gardens; Hama-rikyu Gardens; Men Chirashi; New Year sales & fukubukuro (lucky bags); Tonkatsu Hasegawa Higashi-ginza | ¥4,799 |
+| [2027-01-21](days/2027-01-21.md) thu | Tokyo | Nikko day trip (UNESCO) | Day trip to Nikko (Toshogu shrine); Udon Manda Jiro | ¥11,000 |
+| [2027-01-22](days/2027-01-22.md) fri | Tokyo | Nakano / Shimokitazawa (Koenji evening) — last full day | Nakano Broadway; European Curry Tomato; Shimokitazawa; Usagi | ¥4,499 |
+| [2027-01-23](days/2027-01-23.md) sat | Tokyo | Departure day | Depachika food halls (Isetan Shinjuku / Mitsukoshi Ginza); Haneda Airport (HND) ↔ central Tokyo; Narita Airport (NRT) ↔ central Tokyo | ¥5,140 |
 <!-- gen:end days -->

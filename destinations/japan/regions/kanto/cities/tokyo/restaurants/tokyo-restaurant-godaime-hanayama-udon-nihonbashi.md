@@ -3,12 +3,19 @@ id: tokyo-restaurant-godaime-hanayama-udon-nihonbashi
 type: restaurant
 name: Godaime Hanayama Udon Nihonbashi
 place: japan/kanto/tokyo
+area: tokyo-area-marunouchi
 cuisine: udon, tempura
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nihonbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.59   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.59
+tags: [top-rated]
+station: Nihombashi
+station_m: 115
+coords: [35.681649, 139.776195]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Godaime Hanayama Udon Nihonbashi

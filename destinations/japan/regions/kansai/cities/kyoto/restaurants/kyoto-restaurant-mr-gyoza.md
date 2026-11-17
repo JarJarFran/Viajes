@@ -3,12 +3,17 @@ id: kyoto-restaurant-mr-gyoza
 type: restaurant
 name: Mr. Gyoza
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
+area_detail: Nishioji
 cuisine: gyoza / ramen / karaage
 price_range: ¥¥
-area: Nishioji
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
-tabelog_rating: 3.7   # read on tabelog.com/en category/area lists 2026-11
+budget_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
+tabelog_rating: 3.7
 tags: [top-rated]
+coords: [34.986443, 135.758446]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Mr. Gyoza

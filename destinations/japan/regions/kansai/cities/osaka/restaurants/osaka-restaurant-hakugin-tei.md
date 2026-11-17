@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-hakugin-tei
 type: restaurant
-name: "Hakugin Tei"
+name: Hakugin Tei
 place: japan/kansai/osaka
-cuisine: "curry"
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Nishi-ku (Higobashi)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.69   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-honmachi
+area_detail: Nishi-ku (Higobashi)
+cuisine: curry
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.69
+tags: [top-rated]
+station: Higobashi
+station_m: 537
+coords: [34.691225, 135.496515]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Hakugin Tei

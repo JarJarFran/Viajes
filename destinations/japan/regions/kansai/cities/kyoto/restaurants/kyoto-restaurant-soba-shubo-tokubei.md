@@ -3,12 +3,19 @@ id: kyoto-restaurant-soba-shubo-tokubei
 type: restaurant
 name: Soba Shubo Tokubei
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
+area_detail: Kyoto Station (Kyoto Theater 2F)
 cuisine: soba, izakaya, Kyoto dishes
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto Station (Kyoto Theater 2F)
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.48
+station: Kyoto
+station_m: 162
+coords: [34.986443, 135.758446]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba Shubo Tokubei

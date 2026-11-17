@@ -3,12 +3,19 @@ id: kyoto-restaurant-ogawa
 type: restaurant
 name: Ogawa
 place: japan/kansai/kyoto
+area: kyoto-area-kita
+area_detail: Kitaoji / Daitoku-ji
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kitaoji / Daitoku-ji
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.74   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.74
+tags: [top-rated]
+station: Kitaoji
+station_m: 999
+coords: [35.044573, 135.758709]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ogawa

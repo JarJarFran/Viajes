@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-shuhari-tanimachi-yonchome-ten
 type: restaurant
-name: "Shuhari Tanimachi yonchome ten"
+name: Shuhari Tanimachi yonchome ten
 place: japan/kansai/osaka
-cuisine: "soba, tempura"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Tanimachi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.65   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-castle
+cuisine: soba, tempura
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.65
+tags: [top-rated]
+station: Tanimachi 4 Chome
+station_m: 242
+coords: [34.681451, 135.517467]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Shuhari Tanimachi yonchome ten

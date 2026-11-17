@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-saryo-hassui
 type: restaurant
-name: "Saryo Hassui"
+name: Saryo Hassui
 place: japan/kansai/kyoto
-cuisine: "cafe with tea sweets (Arashiyama view)"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Arashiyama"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.53   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: kyoto-area-arashiyama
+cuisine: cafe with tea sweets (Arashiyama view)
+price_range: ¥¥
+budget_lunch_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.53
+tags: [top-rated]
+station: Arashiyama
+station_m: 442
+coords: [35.015223, 135.6777]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Saryo Hassui

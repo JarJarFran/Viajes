@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-chedi-luang-haabisu-ent
 type: restaurant
-name: "CHEDI LUANG Haabisu ENT"
+name: CHEDI LUANG Haabisu ENT
 place: japan/kansai/osaka
-cuisine: "Thai curry, buffet (Thai Luxe)"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Nishi-Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-umeda
+area_detail: Nishi-Umeda
+cuisine: Thai curry, buffet (Thai Luxe)
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.49
+station: Nishi Umeda
+station_m: 122
+coords: [34.699482, 135.49565]
+coords_precision: station
+verified: 2026-11
 ---
 
 # CHEDI LUANG Haabisu ENT

@@ -6,15 +6,20 @@ place: japan/kanto/tokyo
 category: temple
 duration_hours: 2
 approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50, iconic]
-hours: "5:00-sunset"
-closed: "none known - check site"
+hours: 5:00-sunset
+closed: []
 booking: walk-in
 near: [tokyo-shibuya-crossing, tokyo-shibuya-sky, tokyo-harajuku-takeshita]
 best_season: all year round (autumn and winter with the forest of 100,000 trees)
 best_time: morning
-link: "https://www.meijijingu.or.jp/"
+link: https://www.meijijingu.or.jp/
+coords: [35.674842, 139.699627]
+coords_precision: exact
+name_ja: 明治神宮
+address_ja: 〒151-8557 東京渋谷区代々木神園町1
 ---
 
 # Meiji Shrine (Meiji Jingu)
@@ -31,5 +36,3 @@ Shinto shrine dedicated to Emperor Meiji and Empress Shoken, set in a forest of 
 
 - Walk through nearby Yoyogi Park (on Sundays there is a lively street-performance and dance scene).
 - You can write wishes on an ema (votive plaque).
-
-## Our experience

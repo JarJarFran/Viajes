@@ -19,5 +19,3 @@ To be researched.
 - [Hakodate](cities/hakodate/)
 - [Otaru](cities/otaru/)
 - [Furano](cities/furano/)
-
-## Our experience

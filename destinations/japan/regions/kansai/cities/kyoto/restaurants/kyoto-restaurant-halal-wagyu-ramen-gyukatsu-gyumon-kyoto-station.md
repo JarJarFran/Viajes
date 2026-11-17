@@ -1,14 +1,20 @@
 ---
 id: kyoto-restaurant-halal-wagyu-ramen-gyukatsu-gyumon-kyoto-station
 type: restaurant
-name: "Halal Wagyu Ramen & Gyukatsu GYUMON Kyoto Station"
+name: Halal Wagyu Ramen & Gyukatsu GYUMON Kyoto Station
 place: japan/kansai/kyoto
-cuisine: "halal wagyu ramen (no pork), gyukatsu, tempura"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kyoto Station"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: null   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-kyoto-station
+cuisine: halal wagyu ramen (no pork), gyukatsu, tempura
+price_range: ¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
+tabelog_rating: null
+station: Kyoto
+station_m: 568
+coords: [34.986443, 135.758446]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Halal Wagyu Ramen & Gyukatsu GYUMON Kyoto Station

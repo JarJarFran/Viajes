@@ -33,4 +33,10 @@ preferences:
   pace: medium            # slow | medium | fast
   accommodation: [ryokan, boutique_hotel, apartment]
   main_transport: [train, walking, bus]
-  approx_daily_budget_eur: 120
+
+# Spending budget per person per day, EXCLUDING accommodation (sights, meals, local transport).
+# Compared with the planned cost of each day (plan items) and with the logged expenses.
+budget:
+  daily_eur_per_person: 120
+  eur_jpy: 175.05           # ECB euro reference rate; refresh with: python3 scripts/update_fx.py
+  eur_jpy_date: 2026-11-17

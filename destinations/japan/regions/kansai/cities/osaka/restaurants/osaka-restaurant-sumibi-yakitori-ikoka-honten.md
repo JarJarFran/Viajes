@@ -3,12 +3,19 @@ id: osaka-restaurant-sumibi-yakitori-ikoka-honten
 type: restaurant
 name: Sumibi Yakitori Ikoka Honten
 place: japan/kansai/osaka
+area: osaka-area-honmachi
+area_detail: Hommachi
 cuisine: yakitori (Nagano chicken), izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Hommachi
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.73   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.73
+tags: [top-rated]
+station: Sakaisuji Hommachi
+station_m: 547
+coords: [34.681875, 135.506933]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sumibi Yakitori Ikoka Honten

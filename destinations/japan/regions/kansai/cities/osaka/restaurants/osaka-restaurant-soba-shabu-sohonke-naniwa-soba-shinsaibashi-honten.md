@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-soba-shabu-sohonke-naniwa-soba-shinsaibashi-honten
 type: restaurant
-name: "Soba Shabu Sohonke Naniwa Soba Shinsaibashi honten"
+name: Soba Shabu Sohonke Naniwa Soba Shinsaibashi honten
 place: japan/kansai/osaka
-cuisine: "soba, nabe, izakaya"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shinsaibashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-shinsaibashi
+cuisine: soba, nabe, izakaya
+price_range: ¥¥¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.49
+station: Shinsaibashi
+station_m: 252
+coords: [34.675354, 135.499201]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba Shabu Sohonke Naniwa Soba Shinsaibashi honten

@@ -1,14 +1,20 @@
 ---
 id: tokyo-restaurant-seafood-buffet-dining-ginza-happo-shinjuku-ten
 type: restaurant
-name: "Seafood Buffet Dining Ginza Happo Shinjuku ten"
+name: Seafood Buffet Dining Ginza Happo Shinjuku ten
 place: japan/kanto/tokyo
-cuisine: "buffet (150 kinds: seafood, meat), yakiniku"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shinjuku"
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.44   # checked tabelog.com/en 2026-11
-tags: []
+area: tokyo-area-shinjuku
+cuisine: 'buffet (150 kinds: seafood, meat), yakiniku'
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.44
+station: Shinjuku Sanchome
+station_m: 234
+coords: [35.692525, 139.705768]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Seafood Buffet Dining Ginza Happo Shinjuku ten

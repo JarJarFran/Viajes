@@ -3,12 +3,18 @@ id: osaka-restaurant-abeno-hub
 type: restaurant
 name: ABENO HUB
 place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Namba / Abeno
 cuisine: okonomiyaki, teppanyaki
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba / Abeno
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.08   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.08
+station: Osaka Namba
+station_m: 60
+coords: [34.667181, 135.497776]
+coords_precision: station
+verified: 2026-11
 ---
 
 # ABENO HUB

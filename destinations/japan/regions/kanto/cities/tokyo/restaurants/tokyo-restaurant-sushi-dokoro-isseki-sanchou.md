@@ -3,12 +3,19 @@ id: tokyo-restaurant-sushi-dokoro-isseki-sanchou
 type: restaurant
 name: Sushi Dokoro Isseki Sanchou
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
+area_detail: Shiodome / Shimbashi
 cuisine: sushi, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shiodome / Shimbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.5   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.5
+station: Shiodome
+station_m: 250
+coords: [35.66292, 139.759981]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Dokoro Isseki Sanchou

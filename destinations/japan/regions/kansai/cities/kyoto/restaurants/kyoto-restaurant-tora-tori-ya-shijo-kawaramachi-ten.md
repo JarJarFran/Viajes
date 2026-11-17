@@ -3,12 +3,17 @@ id: kyoto-restaurant-tora-tori-ya-shijo-kawaramachi-ten
 type: restaurant
 name: TORA Tori YA Shijo kawaramachi ten
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
 cuisine: izakaya, yakitori, gyoza
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kawaramachi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.38   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.38
+station: Kyoto Kawaramachi
+station_m: 195
+coords: [35.003763, 135.769608]
+coords_precision: station
+verified: 2026-11
 ---
 
 # TORA Tori YA Shijo kawaramachi ten

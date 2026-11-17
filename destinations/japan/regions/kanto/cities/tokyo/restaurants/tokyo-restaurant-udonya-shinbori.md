@@ -3,12 +3,20 @@ id: tokyo-restaurant-udonya-shinbori
 type: restaurant
 name: Udonya Shinbori
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
+area_detail: Shibuya / Yoyogi
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya / Yoyogi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.6   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.6
+tags: [top-rated]
+station: Yoyogi
+station_m: 133
+coords: [35.683946, 139.701656]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Udonya Shinbori

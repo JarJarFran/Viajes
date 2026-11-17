@@ -3,12 +3,20 @@ id: osaka-restaurant-tori-soba-zagin-honten
 type: restaurant
 name: Tori Soba Zagin Honten
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Nishi-ku (Umeda west)
 cuisine: ramen, tsukemen, chicken dishes
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishi-ku (Umeda west)
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.71   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.71
+tags: [top-rated]
+station: Higobashi
+station_m: 209
+coords: [34.691225, 135.496515]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Tori Soba Zagin Honten

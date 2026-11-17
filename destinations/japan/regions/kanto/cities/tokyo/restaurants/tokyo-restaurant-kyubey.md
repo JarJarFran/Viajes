@@ -3,13 +3,17 @@ id: tokyo-restaurant-kyubey
 type: restaurant
 name: Kyubey (Ginza main)
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: sushi (omakase)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Ginza
-link: "https://www.kyubey.jp/"
-tabelog: "https://tabelog.com/en/tokyo/A1301/A130103/13002611/"
-tabelog_rating: 3.67   # checked tabelog.com/en 2026-11
+price_range: ¥¥¥¥
+tabelog: https://tabelog.com/en/tokyo/A1301/A130103/13002611/
+tabelog_rating: 3.67
 tags: [top-rated]
+link: https://www.kyubey.jp/
+coords: [35.668497, 139.761274]
+coords_precision: exact
+name_ja: 久兵衛 銀座
+verified: 2026-11
 ---
 
 # Kyubey (Ginza main)

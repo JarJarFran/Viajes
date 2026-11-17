@@ -1,14 +1,20 @@
 ---
 id: osaka-restaurant-gaikyo-nito-go
 type: restaurant
-name: "Gaikyo Nito Go"
+name: Gaikyo Nito Go
 place: japan/kansai/osaka
-cuisine: "soba, washoku"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shinsaibashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.75   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-shinsaibashi
+cuisine: soba, washoku
+price_range: ¥¥¥¥
+budget_dinner_yen: [20000, 29999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.75
+tags: [top-rated]
+station: Shinsaibashi
+station_m: 241
+coords: [34.675354, 135.499201]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gaikyo Nito Go

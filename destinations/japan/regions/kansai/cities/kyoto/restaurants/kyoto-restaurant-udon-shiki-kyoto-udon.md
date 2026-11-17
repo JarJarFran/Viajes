@@ -3,12 +3,19 @@ id: kyoto-restaurant-udon-shiki-kyoto-udon
 type: restaurant
 name: Udon Shiki Kyoto Udon
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
 cuisine: udon, nabe, washoku
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kawaramachi
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.56   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.56
+tags: [top-rated]
+station: Kyoto Kawaramachi
+station_m: 288
+coords: [35.003763, 135.769608]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Udon Shiki Kyoto Udon

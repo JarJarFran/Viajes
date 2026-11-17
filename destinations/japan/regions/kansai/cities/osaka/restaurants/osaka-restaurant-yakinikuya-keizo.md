@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-yakinikuya-keizo
 type: restaurant
-name: "Yakinikuya KEIZO"
+name: Yakinikuya KEIZO
 place: japan/kansai/osaka
-cuisine: "yakiniku, tripe (no additives)"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Fukushima / Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.76   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Fukushima / Umeda
+cuisine: yakiniku, tripe (no additives)
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.76
+tags: [top-rated]
+station: Shin Fukushima
+station_m: 84
+coords: [34.694861, 135.485383]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakinikuya KEIZO

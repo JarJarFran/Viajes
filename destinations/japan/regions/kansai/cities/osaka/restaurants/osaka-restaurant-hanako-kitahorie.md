@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-hanako-kitahorie
 type: restaurant
-name: "Hanako Kitahorie"
+name: Hanako Kitahorie
 place: japan/kansai/osaka
-cuisine: "soba, seafood, izakaya"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Yotsubashi / Shinsaibashi"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-shinsaibashi
+area_detail: Yotsubashi / Shinsaibashi
+cuisine: soba, seafood, izakaya
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.48
+station: Yotsubashi
+station_m: 157
+coords: [34.674038, 135.496753]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Hanako Kitahorie

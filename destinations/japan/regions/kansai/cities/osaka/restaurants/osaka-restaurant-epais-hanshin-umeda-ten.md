@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-epais-hanshin-umeda-ten
 type: restaurant
-name: "epais Hanshin umeda ten"
+name: epais Hanshin umeda ten
 place: japan/kansai/osaka
-cuisine: "tonkatsu, yoshoku, curry"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+cuisine: tonkatsu, yoshoku, curry
+price_range: ¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Osaka Umeda
+station_m: 38
+coords: [34.705419, 135.498372]
+coords_precision: station
+verified: 2026-11
 ---
 
 # epais Hanshin umeda ten

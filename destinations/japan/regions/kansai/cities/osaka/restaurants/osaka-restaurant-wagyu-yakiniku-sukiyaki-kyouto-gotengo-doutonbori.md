@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-wagyu-yakiniku-sukiyaki-kyouto-gotengo-doutonbori
 type: restaurant
-name: "Wagyu Yakiniku Sukiyaki Kyouto Gotengo Doutonbori"
+name: Wagyu Yakiniku Sukiyaki Kyouto Gotengo Doutonbori
 place: japan/kansai/osaka
-cuisine: "sukiyaki, yakiniku"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba / Dotonbori"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.53   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+cuisine: sukiyaki, yakiniku
+price_range: ¥¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.53
+tags: [top-rated]
+station: Nippombashi
+station_m: 251
+coords: [34.666718, 135.506149]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Wagyu Yakiniku Sukiyaki Kyouto Gotengo Doutonbori

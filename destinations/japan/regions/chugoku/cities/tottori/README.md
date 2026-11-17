@@ -6,6 +6,7 @@ path: japan/chugoku/tottori
 country: japan
 region: chugoku
 prefecture: Tottori
+coords: [35.494395, 134.221928]
 ---
 
 # Tottori
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -3,12 +3,19 @@ id: kyoto-restaurant-gontaro-kinkakuji-ten
 type: restaurant
 name: Gontaro Kinkakuji ten
 place: japan/kansai/kyoto
+area: kyoto-area-kita
+area_detail: Kinkaku-ji / Kita-ku
 cuisine: soba, udon, udon-suki
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kinkaku-ji / Kita-ku
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.47   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.47
+station: Kitano Hakubaicho
+station_m: 984
+coords: [35.027416, 135.730873]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gontaro Kinkakuji ten

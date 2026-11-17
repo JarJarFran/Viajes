@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-hashimoto-ya
 type: restaurant
-name: "Hashimoto Ya"
+name: Hashimoto Ya
 place: japan/kansai/osaka
-cuisine: "curry, soup curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Chuo-ku (Nagahoribashi)"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 4.02   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-shinsaibashi
+area_detail: Chuo-ku (Nagahoribashi)
+cuisine: curry, soup curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 4.02
+tags: [top-rated]
+station: Nagahoribashi
+station_m: 318
+coords: [34.675318, 135.506297]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Hashimoto Ya

@@ -1,14 +1,19 @@
 ---
 id: kyoto-restaurant-gokago
 type: restaurant
-name: "GOKAGO"
+name: GOKAGO
 place: japan/kansai/kyoto
-cuisine: "tea stand"
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kiyomizu / Gojo"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/cafe/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.34   # checked tabelog.com/en 2026-11
-tags: []
+area: kyoto-area-kiyomizu
+cuisine: tea stand
+price_range: ¥
+budget_lunch_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
+tabelog_rating: 3.34
+station: Kiyomizu Gojo
+station_m: 1207
+coords: [34.995614, 135.768446]
+coords_precision: station
+verified: 2026-11
 ---
 
 # GOKAGO

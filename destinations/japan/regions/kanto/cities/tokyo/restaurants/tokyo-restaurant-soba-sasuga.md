@@ -3,12 +3,19 @@ id: tokyo-restaurant-soba-sasuga
 type: restaurant
 name: Soba Sasuga
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: soba
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.65   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.65
+tags: [top-rated]
+station: Higashi Ginza
+station_m: 364
+coords: [35.668698, 139.768265]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba Sasuga

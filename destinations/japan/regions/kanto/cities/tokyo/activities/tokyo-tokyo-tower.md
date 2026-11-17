@@ -5,16 +5,20 @@ name: Tokyo Tower
 place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
-approx_cost: "¥1,500 Main Deck (¥2,800 Top Deck)"
+approx_cost: ¥1,500 Main Deck (¥2,800 Top Deck)
+cost_yen: 1500
 entry: paid
 tags: [touristic, top50, iconic]
-hours: "9:00-22:00"
-closed: "none known - check site"
+hours: 9:00-22:00
+closed: []
 booking: walk-in
-near: []
-best_season: "all year round; lit up at night"
+best_season: all year round; lit up at night
 best_time: sunset
-link: "https://www.tokyotower.co.jp/en/"
+link: https://www.tokyotower.co.jp/en/
+coords: [35.658449, 139.745536]
+coords_precision: exact
+name_ja: 東京タワー
+address_ja: 〒106-0041 東京港区芝公園芝公園四丁目東京タワー通り
 ---
 
 # Tokyo Tower

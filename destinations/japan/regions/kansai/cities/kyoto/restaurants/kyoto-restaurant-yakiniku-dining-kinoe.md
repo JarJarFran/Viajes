@@ -3,12 +3,19 @@ id: kyoto-restaurant-yakiniku-dining-kinoe
 type: restaurant
 name: Yakiniku Dining Kinoe
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Kyoto City Hall
 cuisine: yakiniku, niku-bar (yukhoe Omi beef)
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto City Hall
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.57
+tags: [top-rated]
+station: Kyoto Shiyakusho Mae
+station_m: 440
+coords: [35.010899, 135.76887]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Dining Kinoe

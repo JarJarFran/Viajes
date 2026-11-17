@@ -3,12 +3,18 @@ id: kyoto-restaurant-sushi-to-kushi-to-watakushi-sanjou-oohashi-ten
 type: restaurant
 name: Sushi to Kushi to Watakushi Sanjou oohashi ten
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Sanjo
 cuisine: izakaya, sushi, kushikatsu
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Sanjo
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.36   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.36
+station: Sanjo
+station_m: 113
+coords: [35.008718, 135.772516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi to Kushi to Watakushi Sanjou oohashi ten

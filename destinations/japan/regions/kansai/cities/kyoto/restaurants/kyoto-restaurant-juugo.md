@@ -3,12 +3,18 @@ id: kyoto-restaurant-juugo
 type: restaurant
 name: Juugo
 place: japan/kansai/kyoto
+area: kyoto-area-okazaki
+area_detail: Ginkaku-ji / Higashiyama
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginkaku-ji / Higashiyama
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.7   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.7
+tags: [top-rated]
+station: Mototanaka
+station_m: 1678
+coords: [35.034644, 135.781513]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Juugo

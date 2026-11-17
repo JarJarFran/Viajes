@@ -3,12 +3,19 @@ id: tokyo-restaurant-yakiniku-ushigoro-shinjuku-sanchome-ten
 type: restaurant
 name: Yakiniku Ushigoro Shinjuku sanchome ten
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
 cuisine: yakiniku, steak, tripe
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinjuku
-tabelog: "https://tabelog.com/en/tokyo/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.66   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
+tabelog_rating: 3.66
+tags: [top-rated]
+station: Shinjuku Sanchome
+station_m: 239
+coords: [35.692525, 139.705768]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Yakiniku Ushigoro Shinjuku sanchome ten

@@ -6,6 +6,7 @@ path: japan/tohoku/morioka
 country: japan
 region: tohoku
 prefecture: Iwate
+coords: [39.702133, 141.15454]
 ---
 
 # Morioka
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

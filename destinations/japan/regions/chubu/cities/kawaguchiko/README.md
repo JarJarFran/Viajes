@@ -6,6 +6,7 @@ path: japan/chubu/kawaguchiko
 country: japan
 region: chubu
 prefecture: Yamanashi
+coords: [35.498089, 138.76913]
 ---
 
 # Kawaguchiko
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

@@ -3,12 +3,18 @@ id: tokyo-restaurant-shibuya-sushi-matsumoto
 type: restaurant
 name: Shibuya Sushi Matsumoto
 place: japan/kanto/tokyo
+area: tokyo-area-shibuya
 cuisine: sushi, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shibuya
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.46   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.46
+station: Shibuya
+station_m: 252
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Shibuya Sushi Matsumoto

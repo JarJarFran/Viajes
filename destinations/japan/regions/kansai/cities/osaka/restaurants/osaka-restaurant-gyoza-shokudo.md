@@ -3,12 +3,17 @@ id: osaka-restaurant-gyoza-shokudo
 type: restaurant
 name: Gyoza Shokudo
 place: japan/kansai/osaka
+area: osaka-area-umeda
 cuisine: gyoza, izakaya, ramen
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda / Kita
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.48   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.48
+station: Ogimachi
+station_m: 199
+coords: [34.704476, 135.510843]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Gyoza Shokudo

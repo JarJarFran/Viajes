@@ -3,12 +3,18 @@ id: tokyo-restaurant-fuji-saku
 type: restaurant
 name: FUJI SAKU
 place: japan/kanto/tokyo
+area: tokyo-area-ryogoku
+area_detail: Kinshicho / Ryogoku
 cuisine: udon, tempura
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kinshicho / Ryogoku
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.36   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥
+budget_lunch_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.36
+station: Kinshicho
+station_m: 198
+coords: [35.695792, 139.814681]
+coords_precision: station
+verified: 2026-11
 ---
 
 # FUJI SAKU

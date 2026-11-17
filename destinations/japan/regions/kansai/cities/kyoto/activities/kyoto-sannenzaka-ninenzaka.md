@@ -5,15 +5,20 @@ name: Sannenzaka & Ninenzaka lanes
 place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
-approx_cost: "free"
+approx_cost: free
+cost_yen: 0
 entry: free
 tags: [touristic, top50, iconic]
-hours: "shops 9:00-18:00"
-closed: "none known - check site"
+hours: shops 9:00-18:00
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
-best_season: "all year round"
+best_season: all year round
 best_time: morning
+coords: [34.997529, 135.781062]
+coords_precision: exact
+name_ja: 産寧坂
+address_ja: 〒605-0824 京都府京都市東山区辰巳町清水三丁目
 ---
 
 # Sannenzaka & Ninenzaka lanes

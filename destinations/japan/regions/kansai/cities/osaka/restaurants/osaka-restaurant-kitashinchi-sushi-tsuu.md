@@ -3,12 +3,19 @@ id: osaka-restaurant-kitashinchi-sushi-tsuu
 type: restaurant
 name: Kitashinchi Sushi Tsuu
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Kitashinchi (Kita)
 cuisine: sushi, seafood
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kitashinchi (Kita)
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.47   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [6000, 7999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.47
+station: Kitashinchi
+station_m: 151
+coords: [34.698114, 135.498434]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kitashinchi Sushi Tsuu

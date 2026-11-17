@@ -3,12 +3,19 @@ id: tokyo-restaurant-godaime-hanayama-udon-ginza-ten
 type: restaurant
 name: Godaime Hanayama Udon Ginza ten
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: udon, izakaya, tempura
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.64   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
+tabelog_rating: 3.64
+tags: [top-rated]
+station: Higashi Ginza
+station_m: 191
+coords: [35.668698, 139.768265]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Godaime Hanayama Udon Ginza ten

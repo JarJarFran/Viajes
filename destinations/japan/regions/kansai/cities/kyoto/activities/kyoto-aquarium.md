@@ -5,16 +5,20 @@ name: Kyoto Aquarium
 place: japan/kansai/kyoto
 category: museums
 duration_hours: 2
-approx_cost: "¥2,000–2,400"
+approx_cost: ¥2,000–2,400
+cost_yen: 2000
 entry: paid
 tags: [top50]
-hours: "9:30-17:00"
-closed: "none known - check site"
+hours: 9:30-17:00
+closed: []
 booking: walk-in
-near: []
-best_season: "open all year round (incl. Jan 1–3; occasional inspection closures)"
+best_season: open all year round (incl. Jan 1–3; occasional inspection closures)
 best_time: afternoon
-link: "https://www.kyoto-aquarium.com/"
+link: https://www.kyoto-aquarium.com/
+coords: [34.987554, 135.747878]
+coords_precision: exact
+name_ja: 京都水族館
+address_ja: 〒600-8841 京都府京都市下京区上之町木津屋橋通
 ---
 
 # Kyoto Aquarium

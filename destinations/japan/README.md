@@ -9,6 +9,7 @@ language: Japanese
 capital: tokyo
 timezone: UTC+9
 plugs: type A/B (100 V)
+holidays: [2026-11-23, 2027-01-01, 2027-01-11, 2027-02-11, 2027-02-23]
 ---
 
 # Japan
@@ -33,5 +34,3 @@ plugs: type A/B (100 V)
 - [Chugoku](regions/chugoku/) — Hiroshima, Okayama, Seto Inland Sea coast
 - [Shikoku](regions/shikoku/) — 88-temple pilgrimage, Takamatsu, Matsuyama
 - [Kyushu](regions/kyushu/) — onsen (Beppu), Fukuoka, Nagasaki, Kumamoto, Okinawa
-
-## Our experience

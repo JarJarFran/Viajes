@@ -3,12 +3,17 @@ id: osaka-restaurant-new-babe
 type: restaurant
 name: New Babe
 place: japan/kansai/osaka
+area: osaka-area-castle
 cuisine: tonkatsu
 price_range: ¥¥
-area: Tanimachi
-tabelog: "https://tabelog.com/en/osaka/rstLst/"
-tabelog_rating: 3.7   # checked tabelog.com/en 2026-11
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.7
 tags: [top-rated]
+coords: [34.687183, 135.525396]
+coords_precision: area
+verified: 2026-11
 ---
 
 # New Babe

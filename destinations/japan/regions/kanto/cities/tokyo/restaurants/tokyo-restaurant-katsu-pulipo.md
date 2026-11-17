@@ -3,12 +3,19 @@ id: tokyo-restaurant-katsu-pulipo
 type: restaurant
 name: Katsu Pulipo
 place: japan/kanto/tokyo
+area: tokyo-area-shinjuku
+area_detail: Shinjuku (Seibu)
 cuisine: tonkatsu
 price_range: ¥¥¥
-area: Shinjuku (Seibu)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
-tabelog_rating: 3.85   # read on tabelog.com/en area lists 2026-11
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.85
 tags: [top-rated]
+coords: [35.694748, 139.703004]
+coords_precision: exact
+name_ja: Katsuプリポー
+verified: 2026-11
 ---
 
 # Katsu Pulipo

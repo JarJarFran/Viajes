@@ -3,12 +3,17 @@ id: osaka-restaurant-teppanyaki-ebisu
 type: restaurant
 name: Teppanyaki Ebisu
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: izakaya, steak, okonomiyaki (ebisuyaki)
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.39   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.39
+station: Osaka Namba
+station_m: 155
+coords: [34.667181, 135.497776]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teppanyaki Ebisu

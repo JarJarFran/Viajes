@@ -3,12 +3,18 @@ id: tokyo-restaurant-shusai-soba-shodai-ebisu-ten
 type: restaurant
 name: Shusai Soba Shodai Ebisu ten
 place: japan/kanto/tokyo
+area: tokyo-area-ebisu
 cuisine: soba, curry udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ebisu / Daikanyama
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.49
+station: Ebisu
+station_m: 178
+coords: [35.646441, 139.710208]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Shusai Soba Shodai Ebisu ten

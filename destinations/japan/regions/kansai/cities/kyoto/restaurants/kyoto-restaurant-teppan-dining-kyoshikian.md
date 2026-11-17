@@ -3,12 +3,18 @@ id: kyoto-restaurant-teppan-dining-kyoshikian
 type: restaurant
 name: Teppan Dining Kyoshikian
 place: japan/kansai/kyoto
+area: kyoto-area-kawaramachi
+area_detail: Pontocho / Gion
 cuisine: teppanyaki, steak, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Pontocho / Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.12   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_dinner_yen: [5000, 5999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.12
+station: Gion Shijo
+station_m: 185
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teppan Dining Kyoshikian

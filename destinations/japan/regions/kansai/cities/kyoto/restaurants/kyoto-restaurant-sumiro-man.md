@@ -3,12 +3,18 @@ id: kyoto-restaurant-sumiro-man
 type: restaurant
 name: Sumiro Man
 place: japan/kansai/kyoto
+area: kyoto-area-karasuma
+area_detail: Nishiki Market / Shijo-Karasuma
 cuisine: izakaya, robata-yaki, kushiyaki
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishiki Market / Shijo-Karasuma
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.43   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.43
+station: Karasuma
+station_m: 306
+coords: [35.003686, 135.760452]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sumiro Man

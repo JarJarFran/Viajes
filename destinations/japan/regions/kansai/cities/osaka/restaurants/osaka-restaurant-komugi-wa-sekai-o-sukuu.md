@@ -3,12 +3,18 @@ id: osaka-restaurant-komugi-wa-sekai-o-sukuu
 type: restaurant
 name: Komugi wa Sekai o Sukuu
 place: japan/kansai/osaka
+area: osaka-area-shinsaibashi
 cuisine: okonomiyaki, teppanyaki, izakaya
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shinsaibashi
-tabelog: "https://tabelog.com/en/osaka/rstLst/okonomiyaki/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.09   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.09
+station: Shinsaibashi
+station_m: 289
+coords: [34.675354, 135.499201]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Komugi wa Sekai o Sukuu

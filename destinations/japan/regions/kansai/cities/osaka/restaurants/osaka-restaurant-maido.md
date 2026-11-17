@@ -3,12 +3,18 @@ id: osaka-restaurant-maido
 type: restaurant
 name: Maido
 place: japan/kansai/osaka
+area: osaka-area-namba
 cuisine: yakiniku
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Namba
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.07   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.07
+station: Namba
+station_m: 194
+coords: [34.663663, 135.501775]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Maido

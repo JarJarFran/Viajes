@@ -3,12 +3,14 @@ id: tokyo-restaurant-udon-maruka
 type: restaurant
 name: Udon Maruka
 place: japan/kanto/tokyo
+area: tokyo-area-akihabara
+area_detail: Kanda (near Akihabara)
 cuisine: udon
 price_range: ¥
-area: Kanda (near Akihabara)
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.699033, 139.773681]
+coords_precision: area
 ---
 
 # Udon Maruka

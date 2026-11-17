@@ -3,12 +3,19 @@ id: osaka-restaurant-kuse-ga-tsuyoi-menya-reiwa
 type: restaurant
 name: Kuse ga Tsuyoi Menya Reiwa
 place: japan/kansai/osaka
+area: osaka-area-honmachi
+area_detail: Hommachi
 cuisine: ramen
-price_range: ¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Hommachi
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.33   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [null, 999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.33
+station: Hommachi
+station_m: 364
+coords: [34.682018, 135.498721]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kuse ga Tsuyoi Menya Reiwa

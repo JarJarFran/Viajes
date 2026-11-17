@@ -3,12 +3,20 @@ id: osaka-restaurant-robata-x-sushi-ura-fukushima-hana
 type: restaurant
 name: Robata x Sushi Ura Fukushima Hana
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Fukushima / Umeda
 cuisine: robata-yaki, sushi, izakaya
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Fukushima / Umeda
-tabelog: "https://tabelog.com/en/osaka/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.52   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/
+tabelog_rating: 3.52
+tags: [top-rated]
+station: Shin Fukushima
+station_m: 114
+coords: [34.694861, 135.485383]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Robata x Sushi Ura Fukushima Hana

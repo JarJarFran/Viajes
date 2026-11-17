@@ -19,5 +19,3 @@ To be researched.
 - [Okayama](cities/okayama/)
 - [Matsue](cities/matsue/)
 - [Tottori](cities/tottori/)
-
-## Our experience

@@ -3,12 +3,19 @@ id: tokyo-restaurant-khan-kebab-biryani
 type: restaurant
 name: KHAN KEBAB BIRYANI
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: indian curry, kebab
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza / Shimbashi
-tabelog: "https://tabelog.com/en/tokyo/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.53   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
+tabelog_rating: 3.53
+tags: [top-rated]
+station: Shimbashi
+station_m: 299
+coords: [35.666073, 139.759679]
+coords_precision: station
+verified: 2026-11
 ---
 
 # KHAN KEBAB BIRYANI

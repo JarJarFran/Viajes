@@ -5,16 +5,21 @@ name: Toji Temple (market day)
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
-approx_cost: "grounds free; Kondo hall ¥500"
+approx_cost: grounds free; Kondo hall ¥500
+cost_yen: 500
 entry: mixed
 tags: [touristic, top50, unesco]
-hours: "8:30-16:00"
-closed: "none known - check site"
+hours: 8:30-16:00
+closed: []
 booking: walk-in
 near: [kyoto-nijo-castle]
-best_season: "all year round; Kobo-san flea market on the 21st"
+best_season: all year round; Kobo-san flea market on the 21st
 best_time: morning
-link: "https://www.toji.or.jp/"
+link: https://www.toji.or.jp/
+coords: [34.980631, 135.747719]
+coords_precision: exact
+name_ja: 東寺
+address_ja: 〒601-8438 京都府京都市南区西九条比永城町九条通
 ---
 
 # Toji Temple (market day)
@@ -29,4 +34,4 @@ Kyoto's tallest pagoda (UNESCO); five-storey structure visible from the shinkans
 
 ## Tips
 
-In our window: Dec 21 market is just before we arrive; Jan 21 falls while we're in Tokyo. Pagoda interior opens only in special windows.
+The Kobo-ichi market is on the 21st of every month (Dec 21 = Shimai-Kobo, the last of the year). Pagoda interior opens only in special windows.

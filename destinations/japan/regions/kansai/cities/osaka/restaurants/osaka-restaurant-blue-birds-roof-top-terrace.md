@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-blue-birds-roof-top-terrace
 type: restaurant
-name: "BLUE BIRDS ROOF TOP TERRACE"
+name: BLUE BIRDS ROOF TOP TERRACE
 place: japan/kansai/osaka
-cuisine: "BBQ, yakiniku (rooftop)"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Osaka Business Park"
-tabelog: "https://tabelog.com/en/osaka/rstLst/yakiniku/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.37   # checked tabelog.com/en 2026-11
-tags: []
+area: osaka-area-castle
+area_detail: Osaka Business Park
+cuisine: BBQ, yakiniku (rooftop)
+price_range: ¥¥¥¥
+budget_lunch_yen: [4000, 4999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
+tabelog_rating: 3.37
+station: Osaka Business Park
+station_m: 737
+coords: [34.692412, 135.529477]
+coords_precision: station
+verified: 2026-11
 ---
 
 # BLUE BIRDS ROOF TOP TERRACE

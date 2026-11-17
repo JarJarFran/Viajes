@@ -3,12 +3,20 @@ id: osaka-restaurant-kadoya-shokudo-souhonten
 type: restaurant
 name: Kadoya Shokudo Souhonten
 place: japan/kansai/osaka
+area: osaka-area-honmachi
+area_detail: Nishi-ku (Awaza)
 cuisine: ramen, tsukemen, abura-soba, maze-soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishi-ku (Awaza)
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.83   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.83
+tags: [top-rated]
+station: Nishinagahori
+station_m: 322
+coords: [34.691637, 135.500954]
+coords_precision: area
+verified: 2026-11
 ---
 
 # Kadoya Shokudo Souhonten

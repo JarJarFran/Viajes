@@ -3,12 +3,20 @@ id: kyoto-restaurant-gion-yorozuya
 type: restaurant
 name: Gion Yorozuya
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.57
+tags: [top-rated]
+station: Gion Shijo
+station_m: 206
+coords: [35.002742, 135.773986]
+coords_precision: exact
+name_ja: 祇をん萬屋
+verified: 2026-11
 ---
 
 # Gion Yorozuya

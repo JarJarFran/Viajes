@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-teuchi-soba-akari
 type: restaurant
-name: "Teuchi Soba Akari"
+name: Teuchi Soba Akari
 place: japan/kansai/osaka
-cuisine: "soba, tempura, sake bar"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Namba"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.54   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+cuisine: soba, tempura, sake bar
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.54
+tags: [top-rated]
+station: Nippombashi
+station_m: 216
+coords: [34.666718, 135.506149]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teuchi Soba Akari

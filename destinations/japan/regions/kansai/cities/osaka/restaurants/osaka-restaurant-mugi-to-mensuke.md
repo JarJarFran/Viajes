@@ -3,12 +3,21 @@ id: osaka-restaurant-mugi-to-mensuke
 type: restaurant
 name: Mugi to Mensuke
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Umeda / Nakatsu
 cuisine: ramen, tsukemen
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Umeda / Nakatsu
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.9   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [2000, 2999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.9
+tags: [top-rated]
+station: Nakatsu
+station_m: 281
+coords: [34.711327, 135.499994]
+coords_precision: exact
+name_ja: 麦と麺助
+verified: 2026-11
 ---
 
 # Mugi to Mensuke

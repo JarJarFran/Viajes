@@ -1,14 +1,21 @@
 ---
 id: tokyo-restaurant-sushi-tokyo-ten-shibuya-ten
 type: restaurant
-name: "Sushi Tokyo Ten Shibuya ten"
+name: Sushi Tokyo Ten Shibuya ten
 place: japan/kanto/tokyo
-cuisine: "sushi (omakase: grilled/marinated/aged)"
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Shibuya"
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.57   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: tokyo-area-shibuya
+cuisine: 'sushi (omakase: grilled/marinated/aged)'
+price_range: ¥¥¥¥
+budget_lunch_yen: [5000, 5999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.57
+tags: [top-rated]
+station: Shibuya
+station_m: 277
+coords: [35.658423, 139.702516]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Sushi Tokyo Ten Shibuya ten

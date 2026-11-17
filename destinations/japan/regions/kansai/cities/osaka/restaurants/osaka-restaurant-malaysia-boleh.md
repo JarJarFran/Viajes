@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-malaysia-boleh
 type: restaurant
-name: "Malaysia Boleh"
+name: Malaysia Boleh
 place: japan/kansai/osaka
-cuisine: "Malaysian curry (halal)"
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda / Osaka Station"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.52   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+area_detail: Umeda / Osaka Station
+cuisine: Malaysian curry (halal)
+price_range: ¥¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.52
+tags: [top-rated]
+station: Osaka
+station_m: 547
+coords: [34.703757, 135.489922]
+coords_precision: exact
+verified: 2026-11
 ---
 
 # Malaysia Boleh

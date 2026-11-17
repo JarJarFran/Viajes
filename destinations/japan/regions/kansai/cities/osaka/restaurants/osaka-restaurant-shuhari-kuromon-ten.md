@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-shuhari-kuromon-ten
 type: restaurant
-name: "Shuhari Kuromon ten"
+name: Shuhari Kuromon ten
 place: japan/kansai/osaka
-cuisine: "soba, izakaya"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Kuromon Market"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.59   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-namba
+area_detail: Kuromon Market
+cuisine: soba, izakaya
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.59
+tags: [top-rated]
+station: Kintetsu Nippombashi
+station_m: 86
+coords: [34.666909, 135.5057]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Shuhari Kuromon ten

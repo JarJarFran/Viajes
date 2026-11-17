@@ -3,12 +3,20 @@ id: tokyo-restaurant-isseki-sanchou-bettei
 type: restaurant
 name: Isseki Sanchou Bettei
 place: japan/kanto/tokyo
+area: tokyo-area-roppongi
+area_detail: Nishi-Azabu
 cuisine: sushi (Edomae), izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Nishi-Azabu
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.53   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥¥
+budget_lunch_yen: [8000, 9999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.53
+tags: [top-rated]
+station: Nogizaka
+station_m: 668
+coords: [35.66619, 139.728356]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Isseki Sanchou Bettei

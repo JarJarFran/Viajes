@@ -3,12 +3,18 @@ id: kyoto-restaurant-obenkei-kyoto-gion-ten
 type: restaurant
 name: OBENKEI Kyoto gion ten
 place: japan/kansai/kyoto
+area: kyoto-area-gion
 cuisine: sushi, seafood, izakaya
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Gion
-tabelog: "https://tabelog.com/en/kyoto/rstLst/izakaya/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.36   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [3000, 3999]
+budget_dinner_yen: [8000, 9999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
+tabelog_rating: 3.36
+station: Gion Shijo
+station_m: 307
+coords: [35.00269, 135.7716]
+coords_precision: station
+verified: 2026-11
 ---
 
 # OBENKEI Kyoto gion ten

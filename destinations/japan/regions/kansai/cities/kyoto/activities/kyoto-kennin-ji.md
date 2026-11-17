@@ -5,16 +5,21 @@ name: Kennin-ji
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
-approx_cost: "¥500"
+approx_cost: ¥500
+cost_yen: 500
 entry: paid
 tags: [top50]
-hours: "10:00-16:00"
-closed: "none known - check site"
+hours: 10:00-16:00
+closed: []
 booking: walk-in
 near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-maruyama-park, kyoto-eikan-do]
-best_season: "all year round"
+best_season: all year round
 best_time: afternoon
-link: "https://www.kenninji.jp/"
+link: https://www.kenninji.jp/
+coords: [35.000257, 135.773741]
+coords_precision: exact
+name_ja: 建仁寺
+address_ja: 〒605-0813 京都府京都市東山区辰巳町新シ町こもれ火小路
 ---
 
 # Kennin-ji

@@ -6,6 +6,7 @@ path: japan/kyushu/kumamoto
 country: japan
 region: kyushu
 prefecture: Kumamoto
+coords: [32.803391, 130.708274]
 ---
 
 # Kumamoto
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

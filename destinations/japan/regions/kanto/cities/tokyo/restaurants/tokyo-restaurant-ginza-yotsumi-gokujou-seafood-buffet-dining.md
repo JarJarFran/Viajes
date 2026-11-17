@@ -3,12 +3,18 @@ id: tokyo-restaurant-ginza-yotsumi-gokujou-seafood-buffet-dining
 type: restaurant
 name: Ginza Yotsumi Gokujou Seafood Buffet Dining
 place: japan/kanto/tokyo
+area: tokyo-area-ginza
 cuisine: buffet (king crab, A5 wagyu, fugu), sushi, shabu-shabu
-price_range: ¥¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Ginza
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.09   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥¥¥
+budget_lunch_yen: [10000, 14999]
+budget_dinner_yen: [10000, 14999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
+tabelog_rating: 3.09
+station: Ginza Itchome
+station_m: 77
+coords: [35.675086, 139.765347]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ginza Yotsumi Gokujou Seafood Buffet Dining

@@ -3,12 +3,14 @@ id: tokyo-restaurant-tensuke
 type: restaurant
 name: Tensuke
 place: japan/kanto/tokyo
+area: tokyo-area-chuo-west
 cuisine: tempura
 price_range: ¥¥¥
-area: Koenji
-tabelog: "https://tabelog.com/en/tokyo/rstLst/"
+budget_yen: [1500, 2500]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: null
-tags: []
+coords: [35.705335, 139.649953]
+coords_precision: area
 ---
 
 # Tensuke

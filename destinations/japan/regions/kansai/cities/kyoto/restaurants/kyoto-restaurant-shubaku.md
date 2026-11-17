@@ -3,12 +3,20 @@ id: kyoto-restaurant-shubaku
 type: restaurant
 name: Shubaku
 place: japan/kansai/kyoto
+area: kyoto-area-uji
 cuisine: soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Uji
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.67   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.67
+tags: [top-rated]
+station: Uji
+station_m: 213
+coords: [34.89306, 135.807672]
+coords_precision: exact
+name_ja: しゅばく
+verified: 2026-11
 ---
 
 # Shubaku

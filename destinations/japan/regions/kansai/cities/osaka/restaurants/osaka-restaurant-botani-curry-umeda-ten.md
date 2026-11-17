@@ -1,14 +1,21 @@
 ---
 id: osaka-restaurant-botani-curry-umeda-ten
 type: restaurant
-name: "BOTANI Curry Umeda ten"
+name: BOTANI Curry Umeda ten
 place: japan/kansai/osaka
-cuisine: "curry"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Umeda"
-tabelog: "https://tabelog.com/en/osaka/rstLst/curry/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.8   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-umeda
+cuisine: curry
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
+tabelog_rating: 3.8
+tags: [top-rated]
+station: Osaka Umeda
+station_m: 69
+coords: [34.705419, 135.498372]
+coords_precision: station
+verified: 2026-11
 ---
 
 # BOTANI Curry Umeda ten

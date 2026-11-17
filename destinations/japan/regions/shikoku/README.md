@@ -19,5 +19,3 @@ To be researched.
 - [Matsuyama](cities/matsuyama/)
 - [Kochi](cities/kochi/)
 - [Tokushima](cities/tokushima/)
-
-## Our experience

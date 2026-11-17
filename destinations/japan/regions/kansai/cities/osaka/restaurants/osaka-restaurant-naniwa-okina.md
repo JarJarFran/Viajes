@@ -1,14 +1,22 @@
 ---
 id: osaka-restaurant-naniwa-okina
 type: restaurant
-name: "Naniwa Okina"
+name: Naniwa Okina
 place: japan/kansai/osaka
-cuisine: "soba"
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: "Naniwabashi / Kita-ku"
-tabelog: "https://tabelog.com/en/osaka/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.67   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+area: osaka-area-honmachi
+area_detail: Naniwabashi / Kita-ku
+cuisine: soba
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
+tabelog_rating: 3.67
+tags: [top-rated]
+station: Naniwabashi
+station_m: 349
+coords: [34.693251, 135.505261]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Naniwa Okina

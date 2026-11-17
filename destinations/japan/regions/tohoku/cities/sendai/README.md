@@ -6,6 +6,7 @@ path: japan/tohoku/sendai
 country: japan
 region: tohoku
 prefecture: Miyagi
+coords: [38.267755, 140.86915]
 ---
 
 # Sendai
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

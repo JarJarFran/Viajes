@@ -3,12 +3,20 @@ id: tokyo-restaurant-teuchi-shimada
 type: restaurant
 name: Teuchi Shimada
 place: japan/kanto/tokyo
+area: tokyo-area-harajuku
+area_detail: Omotesando / Aoyama
 cuisine: udon, soba, izakaya
-price_range: ¥¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Omotesando / Aoyama
-tabelog: "https://tabelog.com/en/tokyo/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.63   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [4000, 4999]
+tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
+tabelog_rating: 3.63
+tags: [top-rated]
+station: Omote Sando
+station_m: 147
+coords: [35.66523, 139.712393]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Teuchi Shimada

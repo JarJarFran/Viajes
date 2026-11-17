@@ -6,6 +6,7 @@ path: japan/chubu/matsumoto
 country: japan
 region: chubu
 prefecture: Nagano
+coords: [36.238205, 137.968714]
 ---
 
 # Matsumoto
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

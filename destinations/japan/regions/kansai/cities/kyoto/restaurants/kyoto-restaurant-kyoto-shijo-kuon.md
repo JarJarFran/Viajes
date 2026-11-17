@@ -3,12 +3,18 @@ id: kyoto-restaurant-kyoto-shijo-kuon
 type: restaurant
 name: Kyoto Shijo Kuon
 place: japan/kansai/kyoto
+area: kyoto-area-karasuma
 cuisine: curry udon, udon
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Shijo-Karasuma
-tabelog: "https://tabelog.com/en/kyoto/rstLst/udon/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.49   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
+tabelog_rating: 3.49
+station: Karasuma
+station_m: 340
+coords: [35.003686, 135.760452]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Kyoto Shijo Kuon

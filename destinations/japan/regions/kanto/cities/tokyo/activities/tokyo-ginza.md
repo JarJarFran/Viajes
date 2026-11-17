@@ -5,15 +5,20 @@ name: Ginza (shopping & depachika)
 place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
-approx_cost: "free to browse; depachika bites ¥500–2,000"
+approx_cost: free to browse; depachika bites ¥500–2,000
+cost_yen: 500
 entry: mixed
 tags: [touristic, top50]
-hours: "10:00-20:00"
-closed: "none known - check site"
+hours: 10:00-20:00
+closed: []
 booking: walk-in
 near: [tokyo-imperial-palace, tokyo-pokemon-center]
-best_season: "all year round; weekend pedestrian paradise on main street"
+best_season: all year round; weekend pedestrian paradise on main street
 best_time: afternoon
+coords: [35.672111, 139.763944]
+coords_precision: exact
+name_ja: 銀座
+address_ja: 〒104-0061 東京中央区銀座四丁目晴海通り
 ---
 
 # Ginza (shopping & depachika)

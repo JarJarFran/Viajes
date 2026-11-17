@@ -6,6 +6,7 @@ path: japan/chugoku/matsue
 country: japan
 region: chugoku
 prefecture: Shimane
+coords: [35.468115, 133.048768]
 ---
 
 # Matsue
@@ -20,7 +21,4 @@ To be researched.
 
 
 <!-- gen:start restaurants -->
-
-
 <!-- gen:end restaurants -->
-## Our experience

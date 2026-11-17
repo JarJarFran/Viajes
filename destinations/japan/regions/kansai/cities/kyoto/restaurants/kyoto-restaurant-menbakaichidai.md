@@ -3,13 +3,15 @@ id: kyoto-restaurant-menbakaichidai
 type: restaurant
 name: Menbakaichidai
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
+area_detail: Central Kyoto (near Kyoto Station)
 cuisine: fire ramen
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥
-area: Central Kyoto (near Kyoto Station)
-link: "https://www.menbakaichidai.com/"
-tabelog: "https://tabelog.com/en/kyoto/rstLst/"
+price_range: ¥¥
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: null
-tags: []
+link: https://www.menbakaichidai.com/
+coords: [34.986443, 135.758446]
+coords_precision: area
 ---
 
 # Menbakaichidai

@@ -3,12 +3,20 @@ id: osaka-restaurant-ramen-jinsei-jet
 type: restaurant
 name: Ramen Jinsei JET
 place: japan/kansai/osaka
+area: osaka-area-umeda
+area_detail: Fukushima / Umeda
 cuisine: ramen, tsukemen, abura-soba, maze-soba
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Fukushima / Umeda
-tabelog: "https://tabelog.com/en/osaka/rstLst/ramen/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.75   # checked tabelog.com/en 2026-11
-tags: ["top-rated"]
+price_range: ¥¥
+budget_lunch_yen: [null, 999]
+budget_dinner_yen: [1000, 1999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
+tabelog_rating: 3.75
+tags: [top-rated]
+station: Fukushima
+station_m: 157
+coords: [34.69505, 135.487444]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Ramen Jinsei JET

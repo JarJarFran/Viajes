@@ -3,12 +3,18 @@ id: kyoto-restaurant-soba-to-sushi-nanoya
 type: restaurant
 name: Soba to Sushi Nanoya
 place: japan/kansai/kyoto
+area: kyoto-area-kyoto-station
 cuisine: soba, sushi, izakaya
-price_range: ¥¥     # ¥ | ¥¥ | ¥¥¥ | ¥¥¥¥ (per person, food only)
-area: Kyoto Station
-tabelog: "https://tabelog.com/en/kyoto/rstLst/soba/"   # verified on tabelog.com/en category list 2026-11
-tabelog_rating: 3.39   # checked tabelog.com/en 2026-11
-tags: []
+price_range: ¥¥
+budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [2000, 2999]
+tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
+tabelog_rating: 3.39
+station: Kyoto
+station_m: 533
+coords: [34.986443, 135.758446]
+coords_precision: station
+verified: 2026-11
 ---
 
 # Soba to Sushi Nanoya
