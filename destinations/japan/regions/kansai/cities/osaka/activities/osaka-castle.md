@@ -13,7 +13,7 @@ hours: Park 24h; tower 9:00-17:00
 closed:
   - {yearly: 12-28..01-01}
 booking: walk-in
-near: [osaka-museum-of-history, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
+near: [osaka-museum-of-history]
 best_season: all year round; Illuminage evenings Nov 20–Feb 14
 best_time: morning
 link: https://www.osakacastle.net/

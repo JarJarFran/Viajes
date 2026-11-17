@@ -2,6 +2,7 @@
 budgets and geography. Every function takes the data it needs, so tests can run on a temp repo."""
 import math
 import os
+import re
 from datetime import date, datetime, timedelta
 
 import yaml
@@ -149,6 +150,56 @@ def haversine_km(a, b):
     lat1, lon1, lat2, lon2 = map(math.radians, (a[0], a[1], b[0], b[1]))
     h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
     return 2 * 6371.0 * math.asin(math.sqrt(h))
+
+
+def sun_times(lat, lon, day, tz_hours=9.0):
+    """(sunrise, sunset) as minutes after local midnight (NOAA general solar position, ±2 min)."""
+    day = d(day)
+    g = 2 * math.pi / 365 * (day.timetuple().tm_yday - 1)
+    eqtime = 229.18 * (0.000075 + 0.001868 * math.cos(g) - 0.032077 * math.sin(g)
+                       - 0.014615 * math.cos(2 * g) - 0.040849 * math.sin(2 * g))
+    decl = (0.006918 - 0.399912 * math.cos(g) + 0.070257 * math.sin(g) - 0.006758 * math.cos(2 * g)
+            + 0.000907 * math.sin(2 * g) - 0.002697 * math.cos(3 * g) + 0.00148 * math.sin(3 * g))
+    la = math.radians(lat)
+    x = math.cos(math.radians(90.833)) / (math.cos(la) * math.cos(decl)) - math.tan(la) * math.tan(decl)
+    ha = math.degrees(math.acos(max(-1.0, min(1.0, x))))
+    rise = 720 - 4 * (lon + ha) - eqtime + tz_hours * 60
+    sset = 720 - 4 * (lon - ha) - eqtime + tz_hours * 60
+    return round(rise), round(sset)
+
+
+def hhmm(minutes):
+    return f"{int(minutes) // 60:02d}:{int(minutes) % 60:02d}"
+
+
+HOURS_RE = re.compile(r"(\d{1,2}):(\d{2})\s*[-–]\s*(?:(\d{1,2}):(\d{2})|(sunset))", re.I)
+# minutes after midnight in which each plan slot usually happens
+SLOT_WINDOWS = {"early": (300, 510), "morning": (510, 720), "day": (540, 1020), "lunch": (660, 870),
+                "afternoon": (780, 1020), "evening": (1020, 1200), "dinner": (1080, 1290), "night": (1200, 1440)}
+
+
+def parse_hours(text, sunset=None):
+    """Opening window (open, close) in minutes from free text like '9:00-17:00 (last entry 16:30)',
+    '5:00-sunset' or 'Nov–Mar ~9:00-16:00'. Returns 'always' for 24h places, None when unknown."""
+    if not text:
+        return None
+    m = HOURS_RE.search(str(text))
+    if "24h" in str(text).lower().replace(" ", "") and not m:
+        return "always"
+    if not m:
+        return "always" if "24h" in str(text).lower() else None
+    if "24h" in str(text).lower():
+        return "always"  # e.g. "park 24h; museum 9:30-17:00": the place itself can be visited
+    op = int(m.group(1)) * 60 + int(m.group(2))
+    if m.group(5):
+        if sunset is None:
+            return None
+        cl = sunset
+    else:
+        cl = int(m.group(3)) * 60 + int(m.group(4))
+    if cl <= op:
+        cl += 24 * 60
+    return op, cl
 
 
 def coords(n):
@@ -385,6 +436,31 @@ def describe_rule(r):
 def price_range_yen(pr, schema=SCHEMA):
     r = schema["price_range_yen"].get(pr)
     return tuple(r) if r else None
+
+
+def bucket_for_yen(yen, schema=SCHEMA):
+    for k, (lo, hi) in schema["price_range_yen"].items():
+        if yen >= lo and (hi is None or yen <= hi):
+            return k
+    return None
+
+
+def derive_fields(n, schema=SCHEMA):
+    """Fields that must follow from others (applied by sync before writing):
+    restaurant price_range from its budgets and the `top-rated` tag from tabelog_rating."""
+    if n.get("type") != "restaurant":
+        return n
+    r = next((n[k] for k in ("budget_dinner_yen", "budget_yen", "budget_lunch_yen")
+              if isinstance(n.get(k), list) and len(n[k]) == 2), None)
+    if r:
+        yen = r[0] if r[0] is not None else r[1]
+        if yen is not None:
+            n["price_range"] = bucket_for_yen(yen, schema) or n.get("price_range")
+    tags = [t for t in (n.get("tags") or []) if t != "top-rated"]
+    if n.get("tabelog_rating") is not None and float(n["tabelog_rating"]) >= schema["strict_restaurants"]["min_rating"]:
+        tags.append("top-rated")
+    n["tags"] = tags
+    return n
 
 
 def _mid(r):

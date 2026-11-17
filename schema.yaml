@@ -19,11 +19,13 @@ vocabularies:
   coords_precision: [exact, station, area]
 
 # Yen per person behind each price bucket (used when a restaurant has no explicit budget).
+# Restaurants with budgets get price_range DERIVED by sync.py from the dinner budget (else the
+# generic budget, else lunch), and the `top-rated` tag derived from tabelog_rating >= min_rating.
 price_range_yen:
   "¥": [0, 999]
   "¥¥": [1000, 2999]
   "¥¥¥": [3000, 4999]
-  "¥¥¥¥": [5000, 15000]
+  "¥¥¥¥": [5000, null]
 
 # Restaurants in the shortlists: Tabelog >= min_rating and some meal at or under max_yen per person.
 strict_restaurants: {min_rating: 3.5, max_yen: 4999}
@@ -63,7 +65,7 @@ types:
            tags, booking, book_ahead_days, best_season, best_time, link, coords, coords_precision, name_ja,
            address_ja, verified]
   restaurant:
-    required: [id, type, name, place, cuisine, price_range, area, tabelog_rating]
+    required: [id, type, name, place, cuisine, price_range, area]
     keys: [id, type, name, place, area, area_detail, cuisine, price_range, budget_lunch_yen, budget_dinner_yen,
            budget_yen, tabelog, tabelog_list, tabelog_rating, tags, hours, closed, station, station_m,
            station_ja, link, coords, coords_precision, name_ja, address_ja, verified]

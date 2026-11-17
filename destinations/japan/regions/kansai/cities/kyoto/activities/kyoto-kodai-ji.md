@@ -12,7 +12,7 @@ tags: [top50]
 hours: 9:00-16:00
 closed: []
 booking: walk-in
-near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kennin-ji, kyoto-maruyama-park]
 best_season: all year round
 best_time: evening
 link: https://www.kodaiji.jp/

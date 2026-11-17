@@ -8,7 +8,6 @@ cuisine: gyoza
 price_range: ¥
 budget_yen: [400, 700]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
-tabelog_rating: null
 coords: [35.003763, 135.769608]
 coords_precision: area
 ---

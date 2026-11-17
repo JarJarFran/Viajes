@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shinjuku
 area_detail: Shinjuku Gyoen
 cuisine: izakaya / teppanyaki
-price_range: ¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/

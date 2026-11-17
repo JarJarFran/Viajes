@@ -74,6 +74,10 @@ def with_area(n):
     return r
 
 
+def _hi(rng):
+    return rng[1] if rng and rng[1] is not None else 10 ** 9
+
+
 def get_trip(tid):
     t = nodes.get(tid)
     if not t or t.get("type") != "trip":
@@ -149,12 +153,11 @@ def main():
             rows = [r for r in rows if r.get("tabelog_rating") is not None and float(r["tabelog_rating"]) >= a.min_rating]
         meal = getattr(a, "meal", None)
         if getattr(a, "max_price", None):
-            cap = SCHEMA["price_range_yen"][a.max_price][1]
-            rows = [r for r in rows if (restaurant_range(r, meal) or (0, 10 ** 9))[1] <= cap]
+            cap = SCHEMA["price_range_yen"][a.max_price][1] or 10 ** 9
+            rows = [r for r in rows if _hi(restaurant_range(r, meal)) <= cap]
         if a.max_yen is not None:
             if meal:
-                rows = [r for r in rows if (restaurant_range(r, meal) or (0, 10 ** 9))[1] is not None
-                        and (restaurant_range(r, meal) or (0, 10 ** 9))[1] <= a.max_yen]
+                rows = [r for r in rows if _hi(restaurant_range(r, meal)) <= a.max_yen]
             else:
                 rows = [r for r in rows if (cheapest_meal_yen(r) or 10 ** 9) <= a.max_yen]
         origin = coords(nodes[a.near]) if getattr(a, "near", None) and a.near in nodes else None

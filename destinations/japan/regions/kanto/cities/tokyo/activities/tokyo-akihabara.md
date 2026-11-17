@@ -12,7 +12,7 @@ tags: [touristic, top50]
 hours: shops 10:00-21:00
 closed: []
 booking: walk-in
-near: [tokyo-ueno-park, tokyo-yanaka]
+near: [tokyo-ueno-park]
 best_season: all year round
 best_time: afternoon
 coords: [35.698557, 139.773142]

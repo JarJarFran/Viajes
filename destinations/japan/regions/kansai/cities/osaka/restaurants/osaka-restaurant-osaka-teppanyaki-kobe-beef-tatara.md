@@ -10,6 +10,7 @@ budget_lunch_yen: [4000, 4999]
 budget_dinner_yen: [8000, 9999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Higashi Umeda
 station_m: 97
 coords: [34.700595, 135.499818]

@@ -5,10 +5,9 @@ name: Ponchiken
 place: japan/kanto/tokyo
 area: tokyo-area-akihabara
 cuisine: tonkatsu
-price_range: ¥¥¥
+price_range: ¥¥
 budget_yen: [1500, 2500]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.694933, 139.763957]
 coords_precision: exact
 name_ja: 神田 ポンチ軒

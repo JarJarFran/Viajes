@@ -3,8 +3,8 @@ id: kyoto-restaurant-mugi-no-yoake
 type: restaurant
 name: Mugi no Yoake
 place: japan/kansai/kyoto
-area: kyoto-area-fushimi
-area_detail: Fushimi / Tambaguchi
+area: kyoto-area-kyoto-station
+area_detail: near Tambaguchi Sta.
 cuisine: ramen, tsukemen
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]

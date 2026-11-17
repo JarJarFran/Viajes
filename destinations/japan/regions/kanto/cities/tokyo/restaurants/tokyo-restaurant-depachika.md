@@ -8,7 +8,6 @@ area_detail: Shinjuku / Ginza
 cuisine: bento & prepared food
 price_range: ¥¥
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.690262, 139.700514]
 coords_precision: area
 ---

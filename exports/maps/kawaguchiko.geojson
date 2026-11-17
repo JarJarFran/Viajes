@@ -1,0 +1,4 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[138.80082,35.500487]},"properties":{"id":"kawaguchiko-chureito-pagoda","type":"activity","title":"Chureito Pagoda (Arakurayama Sengen Park)","description":"temple · free · 24h (stairs unlit at night)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[138.774407,35.50378]},"properties":{"id":"kawaguchiko-panoramic-ropeway","type":"activity","title":"Mt. Fuji Panoramic Ropeway","description":"leisure · ¥1,000 round trip (some sources ¥900) · ~9:00-17:00 (winter may be 9:30-15:30)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}}
+]}

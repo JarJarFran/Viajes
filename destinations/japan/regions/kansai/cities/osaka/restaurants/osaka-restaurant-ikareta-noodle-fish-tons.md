@@ -3,8 +3,8 @@ id: osaka-restaurant-ikareta-noodle-fish-tons
 type: restaurant
 name: Ikareta Noodle Fish Tons
 place: japan/kansai/osaka
-area: osaka-area-tennoji
-area_detail: Naniwa-ku
+area: osaka-area-shinsaibashi
+area_detail: near Nishiohashi Sta.
 cuisine: tsukemen, ramen, tantanmen
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]

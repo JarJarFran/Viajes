@@ -5,7 +5,7 @@ name: KITAN HIBIKI
 place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: steak / hamburger
-price_range: ¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [8000, 9999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/

@@ -9,6 +9,7 @@ price_range: ¥¥¥¥
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Karasuma
 station_m: 452
 coords: [35.003686, 135.760452]

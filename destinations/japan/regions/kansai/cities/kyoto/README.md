@@ -54,6 +54,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 
 <!-- gen:start routes -->
 - [Kansai Airport (KIX) → Kyoto](../../../../routes/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
+- [Kyoto ↔ Himeji](../../../../routes/kyoto-to-himeji.md) — shinkansen ~¥4,500–5,500 reserved (~45–55 min); JR Special Rapid ~1 h 30 min (cheaper) (~1 h)
 - [Kyoto → Tokyo (Tokaido Shinkansen)](../../../../routes/kyoto-to-tokyo.md) — Hikari shinkansen ~2 h 15 min: non-reserved ¥13,320 / reserved ~¥14,090; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX (~2.5 h)
 - [Osaka ↔ Kyoto](../../../../routes/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
 <!-- gen:end routes -->
@@ -101,11 +102,11 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Kushiyaki Manten Shijo Karasuma](restaurants/kyoto-restaurant-kushiyaki-manten-shijo-karasuma.md) — izakaya, yakitori, creative, ¥¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.45
 - [Kyo Udon Ishin](restaurants/kyoto-restaurant-kyo-udon-ishin.md) — udon, sukiyaki, ¥¥¥, Gion, Tabelog 3.09
 - [Kyo Udon Nama Soba Okakita](restaurants/kyoto-restaurant-kyo-udon-nama-soba-okakita.md) — udon, soba, donburi, ¥¥, Okazaki / Nanzen-ji / Ginkaku-ji, Tabelog 3.69
-- [Kyo Unawa Honten](restaurants/kyoto-restaurant-kyo-unawa.md) — unagi, ¥¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.55
+- [Kyo Unawa Honten](restaurants/kyoto-restaurant-kyo-unawa.md) — unagi, ¥¥¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.55
 - [Kyosaimi Nomura Karasuma honten](restaurants/kyoto-restaurant-kyosaimi-nomura-karasuma-honten.md) — Kyoto cuisine, cafe, tofu dishes, ¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.49
 - [KYOTO ENGINE RAMEN](restaurants/kyoto-restaurant-kyoto-engine-ramen.md) — ramen, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.01
 - [Kyoto Gion Okaru](restaurants/kyoto-restaurant-kyoto-gion-okaru.md) — udon, soba, cafeteria, ¥¥, Gion, Tabelog 3.59
-- [Kyoto Gion Unagi Yondaime Kikukawa](restaurants/kyoto-restaurant-gion-unagi-kikukawa.md) — unagi, ¥¥¥, Gion, Tabelog 3.55
+- [Kyoto Gion Unagi Yondaime Kikukawa](restaurants/kyoto-restaurant-gion-unagi-kikukawa.md) — unagi, ¥¥¥¥, Gion, Tabelog 3.55
 - [Kyoto Shijo Kuon](restaurants/kyoto-restaurant-kyoto-shijo-kuon.md) — curry udon, udon, ¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.49
 - [LE LABO CAFE Kyoto Machiya](restaurants/kyoto-restaurant-le-labo-cafe-kyoto-machiya.md) — cafe, ¥, Gion, Tabelog 3.2
 - [M&Maison KYOTO](restaurants/kyoto-restaurant-m-maison-kyoto.md) — cafe, seafood, Kyoto seasonal breakfast, ¥¥, Kiyomizu / Gojo-zaka, Tabelog 3.47
@@ -119,7 +120,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Menya Yuko](restaurants/kyoto-restaurant-menya-yuko.md) — ramen, ¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.68
 - [Mimikou Kyoto poruta ten](restaurants/kyoto-restaurant-mimikou-kyoto-poruta-ten.md) — curry udon, udon, ¥¥, Kyoto Station, Tabelog 3.49
 - [Mr. Gyoza](restaurants/kyoto-restaurant-mr-gyoza.md) — gyoza / ramen / karaage, ¥¥, Kyoto Station, Tabelog 3.7
-- [Mugi no Yoake](restaurants/kyoto-restaurant-mugi-no-yoake.md) — ramen, tsukemen, ¥¥, Fushimi, Tabelog 3.74
+- [Mugi no Yoake](restaurants/kyoto-restaurant-mugi-no-yoake.md) — ramen, tsukemen, ¥¥, Kyoto Station, Tabelog 3.74
 - [Nakamura Tokichi](restaurants/kyoto-restaurant-nakamura-tokichi.md) — matcha sweets & soba, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.54
 - [Namae no Nai Ramen Ya](restaurants/kyoto-restaurant-namae-no-nai.md) — ramen / tsukemen, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.57
 - [Nishiki Warai](restaurants/kyoto-restaurant-nishiki-warai.md) — okonomiyaki, ¥, Kawaramachi / Pontocho / Nishiki
@@ -130,12 +131,12 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Omen NIPPON Shijou pontochou ten](restaurants/kyoto-restaurant-omen-nippon-shijou-pontochou-ten.md) — udon, ¥¥, Gion, Tabelog 3.52
 - [Omen](restaurants/kyoto-restaurant-omen.md) — udon, ¥¥, Gion
 - [onn](restaurants/kyoto-restaurant-onn.md) — cafe with wagashi (Japanese sweets), ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.51
-- [OSTERIA IS -Gion-](restaurants/kyoto-restaurant-osteria-is-gion.md) — italian / steak, ¥¥, Gion, Tabelog 3.5
+- [OSTERIA IS -Gion-](restaurants/kyoto-restaurant-osteria-is-gion.md) — italian / steak, ¥¥¥¥, Gion, Tabelog 3.5
 - [Pan to Espresso to Arashiyama Teien](restaurants/kyoto-restaurant-pan-to-espresso-to-arashiyama-teien.md) — cafe, bread, sweets, ¥¥, Arashiyama, Tabelog 3.39
 - [Panel Cafe Kyoto ten](restaurants/kyoto-restaurant-panel-cafe-kyoto-ten.md) — cafe, pancake, hamburger, ¥¥, Gion, Tabelog 3.44
-- [Pontocho Shabushabu Sukiyaki Kiraku](restaurants/kyoto-restaurant-pontocho-kiraku-shabu.md) — shabu / sukiyaki, ¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.64
+- [Pontocho Shabushabu Sukiyaki Kiraku](restaurants/kyoto-restaurant-pontocho-kiraku-shabu.md) — shabu / sukiyaki, ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.64
 - [Pontocho Suishin Honten](restaurants/kyoto-restaurant-pontocho-suishin-honten.md) — izakaya, Kyoto vegetable dishes, seafood, ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.41
-- [Pontocho Yakiniku Kiraku](restaurants/kyoto-restaurant-pontocho-yakiniku-kiraku.md) — yakiniku, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.64
+- [Pontocho Yakiniku Kiraku](restaurants/kyoto-restaurant-pontocho-yakiniku-kiraku.md) — yakiniku, ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.64
 - [Ramen Miyako Gion honten](restaurants/kyoto-restaurant-ramen-miyako-gion-honten.md) — ramen (white soup), Chinese, izakaya, ¥¥, Gion, Tabelog 3.37
 - [Ramen Sen no Kaze Shijou kawaramachi ten](restaurants/kyoto-restaurant-ramen-sen-no-kaze-shijou-kawaramachi-ten.md) — ramen, tsukemen, gyoza, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.11
 - [Sakura Cafe Hanon](restaurants/kyoto-restaurant-sakura-cafe-hanon.md) — cafe, pancake, ¥¥, Gion, Tabelog 3.24

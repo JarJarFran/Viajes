@@ -12,7 +12,7 @@ tags: [touristic, top50, iconic, night]
 hours: 24h (street)
 closed: []
 booking: walk-in
-near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
+near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
 best_season: all year round
 best_time: evening
 coords: [34.998492, 135.779318]

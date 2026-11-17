@@ -8,7 +8,6 @@ area_detail: Central Kyoto (near Kyoto Station)
 cuisine: fire ramen
 price_range: ¥¥
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
-tabelog_rating: null
 link: https://www.menbakaichidai.com/
 coords: [34.986443, 135.758446]
 coords_precision: area

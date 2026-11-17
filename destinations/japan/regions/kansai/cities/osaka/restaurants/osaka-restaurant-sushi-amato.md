@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 area_detail: Nippombashi
 cuisine: sushi / izakaya
-price_range: ¥¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [4000, 4999]
 budget_dinner_yen: [8000, 9999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/

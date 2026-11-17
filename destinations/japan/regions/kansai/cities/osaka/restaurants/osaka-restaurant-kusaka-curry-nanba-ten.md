@@ -10,6 +10,7 @@ budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Namba
 station_m: 116
 coords: [34.663663, 135.501775]

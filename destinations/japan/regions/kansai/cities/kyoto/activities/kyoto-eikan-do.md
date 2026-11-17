@@ -12,7 +12,7 @@ tags: [top50]
 hours: 9:00-17:00
 closed: []
 booking: walk-in
-near: [kyoto-kiyomizu-dera, kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
+near: [kyoto-gion-higashiyama, kyoto-maruyama-park]
 best_season: all year round (koyo top spot)
 best_time: afternoon
 link: https://www.eikando.or.jp/

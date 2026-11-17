@@ -24,5 +24,6 @@ Japan's cultural and historical heart: Kyoto (imperial capital), Osaka (food and
 
 - [Kyoto](cities/kyoto/)
 - [Osaka](cities/osaka/)
+- [Himeji](cities/himeji/) — Himeji Castle and Koko-en (day trip from Osaka/Kyoto)
 - [Kobe](cities/kobe/)
 - [Nara](cities/nara/)

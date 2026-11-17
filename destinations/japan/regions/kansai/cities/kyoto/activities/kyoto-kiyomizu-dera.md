@@ -12,7 +12,7 @@ tags: [touristic, top50, iconic, unesco]
 hours: 6:00-18:00
 closed: []
 booking: walk-in
-near: [kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
+near: [kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
 best_season: all year round
 best_time: morning
 link: https://www.kiyomizu.or.jp/en/

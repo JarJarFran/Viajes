@@ -12,7 +12,6 @@ tags: [touristic, top50, unesco]
 hours: 8:30-16:00
 closed: []
 booking: walk-in
-near: [kyoto-nijo-castle]
 best_season: all year round; Kobo-san flea market on the 21st
 best_time: morning
 link: https://www.toji.or.jp/

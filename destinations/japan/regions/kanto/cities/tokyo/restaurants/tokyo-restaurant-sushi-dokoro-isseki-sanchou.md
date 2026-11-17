@@ -11,6 +11,7 @@ budget_lunch_yen: [8000, 9999]
 budget_dinner_yen: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Shiodome
 station_m: 250
 coords: [35.66292, 139.759981]

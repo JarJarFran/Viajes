@@ -678,7 +678,7 @@
    "id": "osaka-restaurant-ikareta-noodle-fish-tons",
    "name": "Ikareta Noodle Fish Tons",
    "cuisine": "tsukemen, ramen, tantanmen",
-   "area": "osaka-area-tennoji",
+   "area": "osaka-area-shinsaibashi",
    "price_range": "¥¥",
    "budget_lunch_yen": [
     1000,
@@ -730,7 +730,7 @@
    "name": "KITAN HIBIKI",
    "cuisine": "steak / hamburger",
    "area": "osaka-area-namba",
-   "price_range": "¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -763,7 +763,7 @@
    "name": "Sushi Washoku Kouroan Nanba",
    "cuisine": "sushi / japanese",
    "area": "osaka-area-namba",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
     2999
@@ -1007,7 +1007,7 @@
    "name": "New Babe",
    "cuisine": "tonkatsu",
    "area": "osaka-area-castle",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -1152,7 +1152,7 @@
    "id": "osaka-restaurant-shibaken",
    "name": "Shibaken",
    "cuisine": "tonkatsu (brand pork), shabu-shabu, curry",
-   "area": "osaka-area-tennoji",
+   "area": "osaka-area-castle",
    "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     3000,
@@ -1234,7 +1234,7 @@
    "name": "Sushi Amato Ura Nanba",
    "cuisine": "sushi / izakaya",
    "area": "osaka-area-namba",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     4000,
     4999
@@ -1363,7 +1363,7 @@
    "name": "WAGYU Oukoku",
    "cuisine": "yakiniku",
    "area": "osaka-area-namba",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
     2999
@@ -1486,6 +1486,15 @@
    "mode": "train",
    "duration_hours": 1,
    "price_yen": 990
+  },
+  {
+   "id": "osaka-to-himeji",
+   "name": "Osaka ↔ Himeji",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/himeji",
+   "mode": "train",
+   "duration_hours": 1,
+   "price_yen": 1680
   },
   {
    "id": "osaka-to-kyoto",

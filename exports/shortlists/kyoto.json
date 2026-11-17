@@ -197,24 +197,6 @@
    "area": "kyoto-area-gion"
   },
   {
-   "id": "kyoto-himeji-daytrip",
-   "name": "Day trip to Himeji Castle",
-   "category": "history",
-   "entry": "mixed",
-   "tags": [
-    "touristic",
-    "top100"
-   ],
-   "hours": "full day",
-   "booking": "walk-in",
-   "duration_hours": 6,
-   "closed": [
-    {
-     "yearly": "12-29..12-30"
-    }
-   ]
-  },
-  {
    "id": "kyoto-imperial-palace",
    "name": "Kyoto Imperial Palace (Gosho)",
    "category": "history",
@@ -712,7 +694,7 @@
    "name": "Kyoto Gion Unagi Yondaime Kikukawa",
    "cuisine": "unagi",
    "area": "kyoto-area-gion",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     3000,
     3999
@@ -899,7 +881,7 @@
    "name": "Kyo Unawa Honten",
    "cuisine": "unagi",
    "area": "kyoto-area-karasuma",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     4000,
     4999
@@ -1015,7 +997,7 @@
    "id": "kyoto-restaurant-mugi-no-yoake",
    "name": "Mugi no Yoake",
    "cuisine": "ramen, tsukemen",
-   "area": "kyoto-area-fushimi",
+   "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥",
    "budget_lunch_yen": [
     1000,
@@ -1117,7 +1099,7 @@
    "name": "OSTERIA IS -Gion-",
    "cuisine": "italian / steak",
    "area": "kyoto-area-gion",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
     2999
@@ -1133,7 +1115,7 @@
    "name": "Pontocho Shabushabu Sukiyaki Kiraku",
    "cuisine": "shabu / sukiyaki",
    "area": "kyoto-area-kawaramachi",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     4000,
     4999
@@ -1149,7 +1131,7 @@
    "name": "Pontocho Yakiniku Kiraku",
    "cuisine": "yakiniku",
    "area": "kyoto-area-kawaramachi",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
     2999
@@ -1430,6 +1412,14 @@
    "destination": "japan/kansai/kyoto",
    "mode": "train",
    "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-to-himeji",
+   "name": "Kyoto ↔ Himeji",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/himeji",
+   "mode": "shinkansen",
+   "duration_hours": 1
   },
   {
    "id": "kyoto-to-tokyo",

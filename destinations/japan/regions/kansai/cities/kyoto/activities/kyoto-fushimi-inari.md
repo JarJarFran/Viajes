@@ -12,7 +12,6 @@ tags: [touristic, top50, iconic]
 hours: 24h
 closed: []
 booking: walk-in
-near: [kyoto-fushimi-sake-district]
 best_season: all year round
 best_time: early morning
 link: https://inari.jp/en/

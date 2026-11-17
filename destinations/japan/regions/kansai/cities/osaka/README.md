@@ -58,11 +58,12 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 <!-- gen:start routes -->
 - [Kansai Airport (KIX) → Kyoto](../../../../routes/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
 - [Kansai Airport (KIX) → Osaka](../../../../routes/kix-to-osaka.md) — Nankai Airport Express to Namba ~¥990 (38 min); rapi:t ~¥1,490 (35 min); JR Kansai Airport Rapid to Tennoji ~¥1,060 (50 min); Haruka to Umeda ~§1,760 (50 min); limousine bus ~¥1,700–2,100 (~1 h)
+- [Osaka ↔ Himeji](../../../../routes/osaka-to-himeji.md) — JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min) (~1 h)
 - [Osaka ↔ Kyoto](../../../../routes/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
 - [Tokyo → Shin-Osaka (Tokaido Shinkansen)](../../../../routes/tokyo-to-shin-osaka.md) — Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320) (~3 h)
 <!-- gen:end routes -->
 
-Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–30) · [Kobe](activities/osaka-kobe-daytrip.md)
+Day trips: [Himeji](../himeji/README.md) (castle closed Dec 29–30) · [Kobe](activities/osaka-kobe-daytrip.md)
 
 ## Restaurants
 
@@ -95,12 +96,12 @@ Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–
 - [Hozenji Sanpei](restaurants/osaka-restaurant-hozenji-sanpei.md) — okonomiyaki, yakisoba, teppanyaki, ¥¥, Namba / Dotonbori, Tabelog 3.48
 - [Hyotei](restaurants/osaka-restaurant-hyotei.md) — soba, ¥¥, Umeda / Kita, Tabelog 3.51
 - [Ichiran (Dotonbori)](restaurants/osaka-restaurant-ichiran.md) — ramen (tonkotsu), ¥¥, Namba / Dotonbori
-- [Ikareta Noodle Fish Tons](restaurants/osaka-restaurant-ikareta-noodle-fish-tons.md) — tsukemen, ramen, tantanmen, ¥¥, Tennoji / Shinsekai, Tabelog 3.73
+- [Ikareta Noodle Fish Tons](restaurants/osaka-restaurant-ikareta-noodle-fish-tons.md) — tsukemen, ramen, tantanmen, ¥¥, Shinsaibashi / Amerikamura, Tabelog 3.73
 - [Ikuno Okonomiyaki Teppanyaki Momotaro](restaurants/osaka-restaurant-ikuno-okonomiyaki-teppanyaki-momotaro.md) — okonomiyaki, teppanyaki, ¥¥, Umeda / Kita, Tabelog 3.43
 - [Japan Ichi no Kushikatsu Yokozuna Nanba nankai doori ten](restaurants/osaka-restaurant-japan-ichi-no-kushikatsu-yokozuna-nanba-nankai-doori-ten.md) — kushikatsu, okonomiyaki, izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.46
 - [Jinrui Mina Menrui](restaurants/osaka-restaurant-jinrui-mina-menrui.md) — ramen, ¥, Shin-Osaka, Tabelog 3.75
 - [Kadoya Shokudo Souhonten](restaurants/osaka-restaurant-kadoya-shokudo-souhonten.md) — ramen, tsukemen, abura-soba, maze-soba, ¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.83
-- [KITAN HIBIKI](restaurants/osaka-restaurant-kitan-hibiki.md) — steak / hamburger, ¥, Namba / Dotonbori, Tabelog 3.5
+- [KITAN HIBIKI](restaurants/osaka-restaurant-kitan-hibiki.md) — steak / hamburger, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.5
 - [Kitashinchi Harami Houzenji ten](restaurants/osaka-restaurant-kitashinchi-harami-houzenji-ten.md) — yakiniku (Kuroge wagyu harami), teppanyaki, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.5
 - [Kitashinchi Sushi Tsuu](restaurants/osaka-restaurant-kitashinchi-sushi-tsuu.md) — sushi, seafood, ¥¥¥¥, Umeda / Kita, Tabelog 3.47
 - [Komugi to Ikiru Michi](restaurants/osaka-restaurant-komugi-to-ikiru-michi.md) — ramen, karaage, ¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.58
@@ -129,7 +130,7 @@ Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–
 - [Naniwa Menjiro](restaurants/osaka-restaurant-naniwa-menjiro.md) — ramen, tsukemen, ¥, Namba / Dotonbori, Tabelog 3.71
 - [Naniwa Okina](restaurants/osaka-restaurant-naniwa-okina.md) — soba, ¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.67
 - [Naniwa Robata Toyo Kobayashi](restaurants/osaka-restaurant-naniwa-robata-toyo.md) — izakaya / robatayaki, ¥¥¥, Namba / Dotonbori, Tabelog 3.58
-- [New Babe](restaurants/osaka-restaurant-new-babe.md) — tonkatsu, ¥¥, Osaka Castle / Tanimachi, Tabelog 3.7
+- [New Babe](restaurants/osaka-restaurant-new-babe.md) — tonkatsu, ¥¥¥, Osaka Castle / Tanimachi, Tabelog 3.7
 - [New Matsusaka Nanba midousuji ten](restaurants/osaka-restaurant-new-matsusaka-nanba-midousuji-ten.md) — teppanyaki (Matsusaka beef), wine bar, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.55
 - [NEXT Shikaku](restaurants/osaka-restaurant-next-shikaku.md) — ramen, tsukemen, abura-soba, maze-soba, ¥, Namba / Dotonbori, Tabelog 3.69
 - [Niji no Hotoke](restaurants/osaka-restaurant-niji-no-hotoke.md) — curry, yoshoku, ¥¥, Tennoji / Shinsekai, Tabelog 3.8
@@ -149,7 +150,7 @@ Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–
 - [Robata x Sushi Ura Fukushima Hana](restaurants/osaka-restaurant-robata-x-sushi-ura-fukushima-hana.md) — robata-yaki, sushi, izakaya, ¥¥¥, Umeda / Kita, Tabelog 3.52
 - [Sakana no Meshiya Tenhashi](restaurants/osaka-restaurant-sakana-meshiya-tenhashi.md) — izakaya / robatayaki seafood, ¥¥¥, Tennoji / Shinsekai, Tabelog 3.56
 - [Sanchoku Sushi Isseki Sanchou](restaurants/osaka-restaurant-sanchoku-sushi-isseki-sanchou.md) — sushi, izakaya, ¥¥¥¥, Umeda / Kita, Tabelog 3.46
-- [Shibaken](restaurants/osaka-restaurant-shibaken.md) — tonkatsu (brand pork), shabu-shabu, curry, ¥¥¥¥, Tennoji / Shinsekai, Tabelog 3.76
+- [Shibaken](restaurants/osaka-restaurant-shibaken.md) — tonkatsu (brand pork), shabu-shabu, curry, ¥¥¥¥, Osaka Castle / Tanimachi, Tabelog 3.76
 - [Shuhari Kuromon ten](restaurants/osaka-restaurant-shuhari-kuromon-ten.md) — soba, izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.59
 - [Shuhari Tanimachi yonchome ten](restaurants/osaka-restaurant-shuhari-tanimachi-yonchome-ten.md) — soba, tempura, ¥¥, Osaka Castle / Tanimachi, Tabelog 3.65
 - [Soba Dokoro Toki](restaurants/osaka-restaurant-soba-dokoro-toki.md) — soba, ¥¥, Umeda / Kita, Tabelog 3.67
@@ -160,12 +161,12 @@ Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–
 - [Sohonke Sarashina](restaurants/osaka-restaurant-sohonke-sarashina.md) — soba, izakaya, tempura, ¥¥¥, Tennoji / Shinsekai, Tabelog 3.32
 - [Sumibi Yakitori Ikoka Honten](restaurants/osaka-restaurant-sumibi-yakitori-ikoka-honten.md) — yakitori (Nagano chicken), izakaya, ¥¥¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.73
 - [Sushi Amato (Nakatsu)](restaurants/osaka-restaurant-sushi-amato-nakatsu.md) — sushi (aged Edomae), izakaya, ¥¥¥¥, Umeda / Kita, Tabelog 3.51
-- [Sushi Amato Ura Nanba](restaurants/osaka-restaurant-sushi-amato.md) — sushi / izakaya, ¥¥¥, Namba / Dotonbori, Tabelog 3.54
+- [Sushi Amato Ura Nanba](restaurants/osaka-restaurant-sushi-amato.md) — sushi / izakaya, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.54
 - [Sushi Robata Kitaro Sushi Douguyasuji yokochou ten](restaurants/osaka-restaurant-sushi-robata-kitaro-sushi-douguyasuji-yokochou-ten.md) — sushi, robata-yaki, izakaya, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.2
 - [Sushi Sakaba Teppei](restaurants/osaka-restaurant-sushi-sakaba-teppei.md) — sushi / izakaya, ¥¥¥, Umeda / Kita, Tabelog 3.52
 - [Sushi Shinnosuke](restaurants/osaka-restaurant-sushi-shinnosuke.md) — sushi, seafood, ¥¥¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.67
 - [Sushi Takuma](restaurants/osaka-restaurant-sushi-takuma.md) — sushi, seafood, ¥¥¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.54
-- [Sushi Washoku Kouroan Nanba](restaurants/osaka-restaurant-kouroan.md) — sushi / japanese, ¥¥, Namba / Dotonbori, Tabelog 3.52
+- [Sushi Washoku Kouroan Nanba](restaurants/osaka-restaurant-kouroan.md) — sushi / japanese, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.52
 - [Sushi x Tempura Akira Namba Shinsaibashi](restaurants/osaka-restaurant-sushi-x-tempura-akira-namba-shinsaibashi.md) — sushi, tempura, izakaya, ¥¥¥, Shinsaibashi / Amerikamura, Tabelog 3.29
 - [Tachi Zushi Maguro Ittetsu Sennichimae ten](restaurants/osaka-restaurant-tachi-zushi-maguro-ittetsu-sennichimae-ten.md) — tachizushi (standing sushi), izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.22
 - [Tako no Tetsu Kakuda ten](restaurants/osaka-restaurant-tako-no-tetsu-kakuda-ten.md) — takoyaki, okonomiyaki, izakaya, ¥¥, Umeda / Kita, Tabelog 3.48
@@ -184,7 +185,7 @@ Day trips: [Himeji Castle](activities/osaka-himeji-daytrip.md) (closed Dec 29–
 - [Usami Tei Matsubaya](restaurants/osaka-restaurant-usami-tei-matsubaya.md) — udon, soba, oyako-don, ¥, Shinsaibashi / Amerikamura, Tabelog 3.67
 - [Wagyu Ittougai Yakiniku Horumon Kurono Ura nanba honten](restaurants/osaka-restaurant-wagyu-ittougai-yakiniku-horumon-kurono-ura-nanba-honten.md) — yakiniku (A4+ wagyu), horumon, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.45
 - [Wagyu Matsushita Kamidoori ten](restaurants/osaka-restaurant-wagyu-matsushita-kamidoori-ten.md) — yakiniku (premium black wagyu), sukiyaki, shabu-shabu, ¥¥¥¥, Umeda / Kita, Tabelog 3.63
-- [WAGYU Oukoku](restaurants/osaka-restaurant-wagyu-oukoku.md) — yakiniku, ¥¥, Namba / Dotonbori, Tabelog 3.59
+- [WAGYU Oukoku](restaurants/osaka-restaurant-wagyu-oukoku.md) — yakiniku, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.59
 - [Wagyu Yakiniku Sukiyaki Kyouto Gotengo Doutonbori](restaurants/osaka-restaurant-wagyu-yakiniku-sukiyaki-kyouto-gotengo-doutonbori.md) — sukiyaki, yakiniku, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.53
 - [Wanaka](restaurants/osaka-restaurant-wanaka.md) — takoyaki, ¥, Namba / Dotonbori
 - [Watanabe Curry Umeda honten](restaurants/osaka-restaurant-watanabe-curry-umeda-honten.md) — curry, ¥¥, Umeda / Kita, Tabelog 3.71

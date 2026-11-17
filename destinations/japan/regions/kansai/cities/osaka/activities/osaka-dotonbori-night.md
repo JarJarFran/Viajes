@@ -12,7 +12,7 @@ tags: [touristic, top50, iconic, night]
 hours: 24h
 closed: []
 booking: walk-in
-near: [osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
+near: [osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-namba-parks, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: all year round
 best_time: night
 link: https://www.dotonbori.or.jp/

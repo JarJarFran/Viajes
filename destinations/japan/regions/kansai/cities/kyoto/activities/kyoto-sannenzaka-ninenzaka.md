@@ -12,7 +12,7 @@ tags: [touristic, top50, iconic]
 hours: shops 9:00-18:00
 closed: []
 booking: walk-in
-near: [kyoto-kiyomizu-dera, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park, kyoto-eikan-do]
+near: [kyoto-kiyomizu-dera, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
 best_season: all year round
 best_time: morning
 coords: [34.997529, 135.781062]

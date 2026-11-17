@@ -9,7 +9,6 @@ cuisine: takoyaki
 price_range: ¥
 budget_yen: [500, 800]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
-tabelog_rating: null
 coords: [34.669244, 135.503144]
 coords_precision: exact
 name_ja: くくるたこ焼き

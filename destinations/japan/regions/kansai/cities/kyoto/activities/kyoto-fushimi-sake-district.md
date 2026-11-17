@@ -12,7 +12,6 @@ tags: [top50]
 hours: 10:00-17:00
 closed: []
 booking: walk-in
-near: [kyoto-fushimi-inari]
 best_season: all year round
 best_time: afternoon
 link: https://www.gekkeikan.co.jp/

@@ -5,10 +5,9 @@ name: Ichiran (Shibuya)
 place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: ramen (tonkotsu)
-price_range: ¥¥
+price_range: ¥
 budget_yen: [900, 1300]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 link: https://ichiran.com/
 coords: [35.66096, 139.6987]
 coords_precision: exact

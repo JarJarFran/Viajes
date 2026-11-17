@@ -8,7 +8,6 @@ area_detail: Kanda (near Akihabara)
 cuisine: udon
 price_range: ¥
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.699033, 139.773681]
 coords_precision: area
 ---

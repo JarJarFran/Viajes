@@ -1,5 +1,6 @@
-"""Computed view of a trip: per-day plan with cost estimates, closures, events, ordering by
-distance, budget vs actual spend and booking deadlines. Used by exports, README blocks, the
+"""Computed view of a trip: per-day plan with cost estimates, closures, events, sunrise/sunset,
+plan warnings (time of day, pricey meals, shorter visiting order), budget vs actual spend and
+booking deadlines. Used by exports, README blocks, the
 calendar, the offline page and query.py, so all of them agree."""
 import os
 from datetime import datetime, timedelta, timezone
@@ -7,9 +8,9 @@ from urllib.parse import quote_plus
 
 import yaml
 
-from common import (REPO, SCHEMA, SLOT_ORDER, WEEKDAYS, allowed_places, closures_on, coords, d, describe_rule,
-                    edition_on, editions_overlapping, estimate_yen, events_on, haversine_km, holidays, plan_items,
-                    trip_nights)
+from common import (REPO, SCHEMA, SLOT_ORDER, SLOT_WINDOWS, WEEKDAYS, allowed_places, closures_on, coords, d,
+                    describe_rule, edition_on, editions_overlapping, estimate_yen, events_on, haversine_km, hhmm,
+                    holidays, parse_hours, plan_items, sun_times, trip_nights)
 
 
 def load_profile(root=REPO):
@@ -41,8 +42,18 @@ def summary(n, keys=("id", "type", "name", "name_ja", "area", "hours", "booking"
     return {k: n[k] for k in keys if n.get(k) not in (None, "", [])}
 
 
-def order_by_distance(items, start=None):
-    """Keep slot order; inside a slot, visit items greedily by distance from the previous point."""
+def _route_km(items, start):
+    km, prev = 0.0, start
+    for it in items:
+        if it.get("_c"):
+            if prev:
+                km += haversine_km(prev, it["_c"])
+            prev = it["_c"]
+    return km
+
+
+def shortest_within_slots(items, start=None):
+    """Same slots in the same order; inside a slot, greedily visit the nearest item next."""
     out, prev = [], start
     by_slot = {}
     for it in items:
@@ -50,14 +61,46 @@ def order_by_distance(items, start=None):
     for _, group in sorted(by_slot.items()):
         rest = list(group)
         while rest:
-            if prev is None:
-                nxt = rest[0]
-            else:
-                nxt = min(rest, key=lambda it: haversine_km(prev, it["_c"]) if it.get("_c") else 10 ** 6)
+            nxt = rest[0] if prev is None else min(
+                rest, key=lambda it: haversine_km(prev, it["_c"]) if it.get("_c") else 10 ** 6)
             rest.remove(nxt)
             out.append(nxt)
             if nxt.get("_c"):
                 prev = nxt["_c"]
+    return out
+
+
+def _meal_budget(n, slot):
+    k = {"lunch": "budget_lunch_yen", "dinner": "budget_dinner_yen"}.get(slot)
+    v = n.get(k) if k else None
+    return tuple(v) if isinstance(v, list) and len(v) == 2 else None
+
+
+def _yen_range(r):
+    lo, hi = r
+    if lo is None:
+        return f"under ¥{hi:,}"
+    return f"¥{lo:,}+" if hi is None else f"¥{lo:,}–{hi:,}"
+
+
+def item_warnings(n, slot, sunset, schema=SCHEMA):
+    """Plan problems that are not hard errors: wrong time of day, a meal far above the budget cap."""
+    out = []
+    win = SLOT_WINDOWS.get(slot)
+    hours = parse_hours(n.get("hours"), sunset)
+    if win and isinstance(hours, tuple) and (hours[1] <= win[0] or hours[0] >= win[1]):
+        out.append(f"{n.get('name')}: planned for {slot} ({hhmm(win[0])}–{hhmm(win[1] % 1440)}) but open "
+                   f"{hhmm(hours[0])}–{hhmm(hours[1] % 1440)}")
+    if n.get("type") == "restaurant" and slot in ("lunch", "dinner"):
+        cap = schema["strict_restaurants"]["max_yen"]
+        r = _meal_budget(n, slot)
+        if r and (r[0] or 0) > cap:
+            other = "dinner" if slot == "lunch" else "lunch"
+            o = _meal_budget(n, other)
+            msg = f"{n.get('name')}: {slot} costs {_yen_range(r)} per person (Tabelog)"
+            if o and o[1] is not None and o[1] <= cap:
+                msg += f"; its {other} is {_yen_range(o)}"
+            out.append(msg)
     return out
 
 
@@ -66,7 +109,10 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
     date_ = d(day["date"])
     stay = nodes.get(day.get("stay")) if day.get("stay") else None
     start = coords(stay) if stay else None
-    items = []
+    here = next((coords(nodes[paths[v]]) for v in day.get("visits") or [] if v in paths and coords(nodes[paths[v]])),
+                None) or start or coords(nodes.get(paths.get(day.get("place")), {}))
+    sunrise, sunset = sun_times(here[0], here[1], date_) if here else (None, None)
+    items, warnings = [], []
     for it in plan_items(day):
         n = nodes.get(it["id"])
         if not n:
@@ -87,37 +133,49 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
             ed = edition_on(n, date_)
             if ed:
                 row["edition"] = {"start": str(ed["start"]), "end": str(ed["end"])}
+        w = item_warnings(n, it.get("slot"), sunset)
+        if w:
+            row["warnings"] = w
+            warnings.extend(w)
         c = coords(n)
         if c:
             row["coords"] = list(c)
         row["_c"] = c
         items.append(row)
-    ordered = order_by_distance(items, start)
-    km, prev = 0.0, start
-    for it in ordered:
+    km = _route_km(items, start)
+    prev = start
+    for it in items:
         if it.get("_c"):
             if prev:
                 it["km_from_prev"] = round(haversine_km(prev, it["_c"]), 1)
-                km += it["km_from_prev"]
             prev = it["_c"]
-    for it in ordered:
+    suggestion = None
+    alt = shortest_within_slots(items, start)
+    alt_km = _route_km(alt, start)
+    if [i["id"] for i in alt] != [i["id"] for i in items] and km - alt_km >= 1.0 and alt_km <= 0.85 * km:
+        suggestion = {"order": [i["id"] for i in alt], "km": round(alt_km, 1), "saves_km": round(km - alt_km, 1)}
+        warnings.append(f"a shorter order saves ~{suggestion['saves_km']} km: " + " → ".join(i["name"] for i in alt))
+    for it in items:
         it.pop("_c", None)
     places = allowed_places(trip, day)
     events = []
     for eid in events_on(nodes, places, date_):
         e, ed = nodes[eid], edition_on(nodes[eid], date_)
         events.append({"id": eid, "name": e.get("name"), "start": str(ed["start"]), "end": str(ed["end"]),
-                       "in_plan": any(i["id"] == eid for i in ordered)})
-    est_known = [i["est_yen"] for i in ordered if i.get("est_yen") is not None]
+                       "in_plan": any(i["id"] == eid for i in items)})
+    est_known = [i["est_yen"] for i in items if i.get("est_yen") is not None]
     spent = sum(int(x.get("yen") or 0) for x in day.get("expenses") or [] if isinstance(x, dict))
     view = {"id": day["id"], "date": str(date_), "weekday": WEEKDAYS[date_.weekday()],
             "holiday": date_ in hol, "place": day.get("place"),
             "city": nodes.get(paths.get(day.get("place")), {}).get("name"),
             "title": day.get("title"), "stay": summary(stay, ("id", "name", "name_ja", "address_ja", "coords"))
             if stay else None,
-            "visits": day.get("visits") or [], "items": ordered, "events": events,
-            "straight_line_km": round(km, 1),
-            "est_yen": sum(est_known), "unpriced": [i["id"] for i in ordered if i.get("est_yen") is None],
+            "visits": day.get("visits") or [],
+            "sunrise": hhmm(sunrise) if sunrise is not None else None,
+            "sunset": hhmm(sunset) if sunset is not None else None,
+            "items": items, "events": events, "straight_line_km": round(km, 1),
+            "suggestion": suggestion, "warnings": warnings,
+            "est_yen": sum(est_known), "unpriced": [i["id"] for i in items if i.get("est_yen") is None],
             "budget_yen": daily_budget_yen(profile),
             "spent_yen": spent if day.get("expenses") else None,
             "done": day.get("done") or [], "expenses": day.get("expenses") or []}

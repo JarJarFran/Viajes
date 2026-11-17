@@ -14,7 +14,8 @@ from collections import Counter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import exporters as X  # noqa: E402
 import fm as fmio  # noqa: E402
-from common import (REPO, canonical, city_children, d, day_id, daterange, derive_edges, expected_day,  # noqa: E402
+from common import (REPO, canonical, city_children, d, day_id, daterange, derive_edges, derive_fields,  # noqa: E402
+                    expected_day,
                     load_graph, read, strict_restaurants, trip_day_ids, trip_window, write)
 from tripplan import load_profile, trip_view  # noqa: E402
 from datetime import timedelta  # noqa: E402
@@ -93,7 +94,7 @@ def trip_blocks(trip, view, nodes):
             dl.append(f"- [ ] **{x['date']}** — book {x['name']} for {x['for']} ({x['booking']}, {x['lead_days']} days ahead)")
     days = ["| Date | City | Title | Plan | Est. |", "|---|---|---|---|---|"]
     for v in view["days"]:
-        warn = " ⚠" if any(i.get("closed") for i in v["items"]) else ""
+        warn = " ⚠" if v["warnings"] or any(i.get("closed") for i in v["items"]) else ""
         names = "; ".join(i["name"] for i in v["items"])
         days.append(f"| [{v['date']}]({link(trip['_fp'], nodes[v['id']]['_fp'])}) {v['weekday']} | {v['city'] or ''} | "
                     f"{v.get('title') or ''}{warn} | {names} | {_yen(v['est_yen'])} |")
@@ -177,7 +178,7 @@ def build(root=REPO):
                 log.append(f"new day file {did}")
         t["days"] = trip_day_ids(t)
     # work on the canonical form so exports match what the files will contain after this run
-    nodes = {nid: dict(canonical(n), _fp=n["_fp"], _body=n["_body"]) for nid, n in nodes.items()}
+    nodes = {nid: dict(canonical(derive_fields(n)), _fp=n["_fp"], _body=n["_body"]) for nid, n in nodes.items()}
     edges = derive_edges(nodes, paths)
     profile = load_profile(root)
     views = {tid: trip_view(nodes, paths, t, profile) for tid, t in nodes.items() if t.get("type") == "trip"}

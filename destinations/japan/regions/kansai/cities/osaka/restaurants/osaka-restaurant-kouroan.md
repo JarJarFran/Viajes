@@ -5,7 +5,7 @@ name: Sushi Washoku Kouroan Nanba
 place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: sushi / japanese
-price_range: ¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [2000, 2999]
 budget_dinner_yen: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/

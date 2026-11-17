@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 area_detail: Shibuya (Shinsen)
 cuisine: pizza / italian
-price_range: ¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/

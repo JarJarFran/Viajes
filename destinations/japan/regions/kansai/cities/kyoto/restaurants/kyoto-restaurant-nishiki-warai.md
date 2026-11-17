@@ -8,7 +8,6 @@ area_detail: Nishiki Market area
 cuisine: okonomiyaki
 price_range: ¥
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
-tabelog_rating: null
 coords: [35.004986, 135.76296]
 coords_precision: exact
 ---

@@ -3,7 +3,14 @@
 "city":"japan/chubu/kawaguchiko",
 "ancestors":["chubu","japan"],
 "nodes":{
-"kawaguchiko":{"id":"kawaguchiko","type":"city","name":"Kawaguchiko","path":"japan/chubu/kawaguchiko","country":"japan","region":"chubu","prefecture":"Yamanashi","coords":[35.498089,138.76913]}
+"kawaguchiko":{"id":"kawaguchiko","type":"city","name":"Kawaguchiko","path":"japan/chubu/kawaguchiko","country":"japan","region":"chubu","prefecture":"Yamanashi","coords":[35.498089,138.76913]},
+"kawaguchiko-chureito-pagoda":{"id":"kawaguchiko-chureito-pagoda","type":"activity","name":"Chureito Pagoda (Arakurayama Sengen Park)","place":"japan/chubu/kawaguchiko","category":"temple","duration_hours":1.5,"approx_cost":"free","cost_yen":0,"entry":"free","tags":["touristic","top50","iconic"],"hours":"24h (stairs unlit at night)","closed":[],"booking":"walk-in","best_season":"winter mornings for clear Fuji views","best_time":"morning","coords":[35.500487,138.80082],"coords_precision":"exact","name_ja":"新倉山浅間公園","address_ja":"〒403-8601 山梨県富士吉田市新倉","verified":"2026-11-17"},
+"kawaguchiko-panoramic-ropeway":{"id":"kawaguchiko-panoramic-ropeway","type":"activity","name":"Mt. Fuji Panoramic Ropeway","place":"japan/chubu/kawaguchiko","category":"leisure","duration_hours":1,"approx_cost":"¥1,000 round trip (some sources ¥900)","cost_yen":1000,"entry":"paid","tags":["touristic"],"hours":"~9:00-17:00 (winter may be 9:30-15:30)","closed":[{"irregular":"maintenance in mid-February; wind cancellations"}],"booking":"walk-in","best_season":"all year round","best_time":"afternoon","link":"https://www.mtfujiropeway.jp/","coords":[35.50378,138.774407],"coords_precision":"exact","name_ja":"富士山パノラマロープウェイ","address_ja":"〒401-0392 山梨県南都留郡富士河口湖町浅川船津国道137号","verified":"2026-11-17"},
+"tokyo-to-kawaguchiko":{"id":"tokyo-to-kawaguchiko","type":"route","name":"Tokyo (Shinjuku) ↔ Kawaguchiko","origin":"japan/kanto/tokyo","origin_point":"Busta Shinjuku","destination":"japan/chubu/kawaguchiko","destination_point":"Kawaguchiko Station","bidirectional":true,"mode":"bus","duration_hours":2,"approx_cost":"highway bus ¥2,200 one way (~2 h); JR + Fujikyu ~¥4,000","price_yen":2200,"booking":"reserve","book_ahead_days":7,"verified":"2026-11-17"}
 },
-"edges":[]
+"edges":[
+{"from":"kawaguchiko-chureito-pagoda","to":"kawaguchiko","rel":"place"},
+{"from":"kawaguchiko-panoramic-ropeway","to":"kawaguchiko","rel":"place"},
+{"from":"tokyo-to-kawaguchiko","to":"kawaguchiko","rel":"destination"}
+]
 }

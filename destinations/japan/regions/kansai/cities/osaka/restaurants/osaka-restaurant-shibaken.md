@@ -3,8 +3,8 @@ id: osaka-restaurant-shibaken
 type: restaurant
 name: Shibaken
 place: japan/kansai/osaka
-area: osaka-area-tennoji
-area_detail: Tennoji / Noe
+area: osaka-area-castle
+area_detail: near Noe Uchindai Sta.
 cuisine: tonkatsu (brand pork), shabu-shabu, curry
 price_range: ¥¥¥¥
 budget_lunch_yen: [3000, 3999]

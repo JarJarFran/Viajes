@@ -6,7 +6,7 @@ Domain of **our experience**: each trip is a folder with a `README.md` (the trip
 
 - **Stops** (`stops:` in the trip frontmatter) are contiguous stays: `from` = check-in day, `to` = check-out day. Each stop's `to` must equal the next stop's `from`, the first stop starts on the trip `start` and the last one ends on the trip `end` (departure day). The validator rejects gaps and overlaps, so every night has exactly one hotel.
 - **Days** (`days/YYYY-MM-DD.md`, id `<trip>-<date>`) are created by `scripts/sync.py`. A day's `place`/`stay` are the city and hotel where we **sleep that night**; the departure day keeps the last city and has no stay.
-- **Plan** items are `{slot, id}` (slot: early, morning, travel, day, lunch, afternoon, evening, dinner, night). They may reference the city of that night, the city of the previous night (travel days) and any city listed in `visits` (day trips). Add `yen:` to override the cost estimate (e.g. a round trip).
+- **Plan** items are `{slot, id}` (slot: early, morning, travel, day, lunch, afternoon, evening, dinner, night). They may reference the city of that night, the city of the previous night (travel days) and any city listed in `visits` (day trips: a `route` + nodes of the destination city). Add `yen:` to override the cost estimate (e.g. a round trip). Items keep the order you write; the computed day suggests a shorter order only when it saves ≥ 1 km.
 - **After each day**, log what happened — ratings feed `query.py affinity`, expenses feed the budget tables:
 
   ```

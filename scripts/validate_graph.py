@@ -9,6 +9,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tripplan import load_profile, trip_view  # noqa: E402
 from common import (PLANNABLE, REPO, SCHEMA, allowed_places, closures_on, coords, d, day_id,  # noqa: E402
                     describe_rule, edition_on, editions, expected_day, expected_file, haversine_km, holidays,
                     load_graph, load_schema, node_places, plan_items, read, rel, strict_restaurants, trip_day_ids,
@@ -162,6 +163,13 @@ def validate(root=REPO, today=None):
                 err(f"{fp}: area {n['area']} is not an area node")
             elif a.get("place") != n.get("place"):
                 err(f"{fp}: area {n['area']} belongs to {a.get('place')}, not {n.get('place')}")
+            elif coords(n) and coords(a):
+                km = haversine_km(coords(n), coords(a))
+                closer = [b for b in nodes.values() if b.get("type") == "area" and b.get("place") == n.get("place")
+                          and coords(b) and haversine_km(coords(n), coords(b)) < km - 1.0]
+                if km > 2.5 and closer:
+                    best = min(closer, key=lambda b: haversine_km(coords(n), coords(b)))
+                    warn(f"{fp}: {km:.1f} km from its area {n['area']}; {best['id']} is closer")
         for k in ("country", "region", "capital"):
             if n.get(k) is not None and n[k] not in nodes:
                 err(f"{fp}: {k} {n[k]} does not resolve")
@@ -172,6 +180,8 @@ def validate(root=REPO, today=None):
         for x in n.get("near") or []:
             if x not in nodes:
                 err(f"{fp}: near -> unknown id {x}")
+            elif coords(n) and coords(nodes[x]) and haversine_km(coords(n), coords(nodes[x])) > 2.0:
+                warn(f"{fp}: near -> {x} is {haversine_km(coords(n), coords(nodes[x])):.1f} km away (near = walking cluster)")
         if t == "route":
             for k in ("origin", "destination"):
                 if n.get(k) not in paths:
@@ -205,6 +215,14 @@ def validate(root=REPO, today=None):
             check_day(n, trip, nodes, paths, fp, err, warn, hol)
 
     check_links(root, err)
+
+    # plan warnings computed on the trip view (time of day, pricey meals, shorter visiting order)
+    profile = load_profile(root)
+    for tid, t in sorted(nodes.items()):
+        if t.get("type") == "trip" and not errors:
+            for v in trip_view(nodes, paths, t, profile)["days"]:
+                for w in v["warnings"]:
+                    warn(f"{rel(nodes[v['id']]['_fp'], root)}: {w}")
 
     # summary warnings (one line each, not per node)
     leaves = [n for n in nodes.values() if n.get("type") in ("activity", "hotel", "area", "restaurant")]

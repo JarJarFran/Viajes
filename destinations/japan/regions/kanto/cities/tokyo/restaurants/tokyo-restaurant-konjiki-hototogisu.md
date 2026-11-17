@@ -8,7 +8,6 @@ cuisine: ramen
 price_range: ¥¥
 budget_yen: [1000, 1400]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.688812, 139.708289]
 coords_precision: exact
 ---

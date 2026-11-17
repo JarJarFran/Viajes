@@ -10,6 +10,7 @@ price_range: ¥¥¥¥
 budget_dinner_yen: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Namba
 station_m: 259
 coords: [34.663663, 135.501775]

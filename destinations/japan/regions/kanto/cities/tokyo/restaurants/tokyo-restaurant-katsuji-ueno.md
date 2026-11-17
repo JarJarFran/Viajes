@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-ueno
 area_detail: Ueno Okachimachi
 cuisine: shabu-shabu / oden
-price_range: ¥¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [3000, 3999]
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/

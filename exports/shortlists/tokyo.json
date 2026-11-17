@@ -297,21 +297,6 @@
    ]
   },
   {
-   "id": "tokyo-kawaguchiko-daytrip",
-   "name": "Day trip to Kawaguchiko (Mt Fuji views)",
-   "category": "nature",
-   "entry": "mixed",
-   "cost_yen": 4400,
-   "tags": [
-    "touristic",
-    "top100",
-    "iconic"
-   ],
-   "hours": "full day",
-   "booking": "walk-in",
-   "duration_hours": 8
-  },
-  {
    "id": "tokyo-meiji-jingu",
    "name": "Meiji Shrine (Meiji Jingu) and Yoyogi Park",
    "category": "temple",
@@ -365,21 +350,6 @@
      "irregular": "whole building closed the 3rd Wednesday of February"
     }
    ]
-  },
-  {
-   "id": "tokyo-nikko-daytrip",
-   "name": "Day trip to Nikko (Toshogu shrine)",
-   "category": "history",
-   "entry": "mixed",
-   "cost_yen": 9500,
-   "tags": [
-    "touristic",
-    "top100",
-    "unesco"
-   ],
-   "hours": "full day",
-   "booking": "walk-in",
-   "duration_hours": 8
   },
   {
    "id": "tokyo-odaiba",
@@ -853,7 +823,7 @@
    "name": "Hakata Kozara Teppan Beppinshan",
    "cuisine": "izakaya / teppanyaki",
    "area": "tokyo-area-shinjuku",
-   "price_range": "¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -869,7 +839,7 @@
    "name": "Bistro Hamaifu",
    "cuisine": "bistro / french",
    "area": "tokyo-area-tsukiji",
-   "price_range": "¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -1032,7 +1002,7 @@
    "name": "Hasegawa (tonkatsu)",
    "cuisine": "tonkatsu",
    "area": "tokyo-area-ryogoku",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -1170,7 +1140,7 @@
    "name": "Katsu Pulipo",
    "cuisine": "tonkatsu",
    "area": "tokyo-area-shinjuku",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     4000,
     4999
@@ -1186,7 +1156,7 @@
    "name": "Taishu Shabushabu Katsuji Ueno",
    "cuisine": "shabu-shabu / oden",
    "area": "tokyo-area-ueno",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     3000,
     3999
@@ -1323,7 +1293,7 @@
    "name": "Pizzeria Meripurinchipessa Shibuya",
    "cuisine": "pizza / italian",
    "area": "tokyo-area-shibuya",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
@@ -1517,7 +1487,7 @@
    "name": "Shutoku 2 gou ten",
    "cuisine": "sushi / izakaya",
    "area": "tokyo-area-tsukiji",
-   "price_range": "¥¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     4000,
     4999
@@ -1583,10 +1553,14 @@
    "name": "Sukiyaki Juni Ten",
    "cuisine": "sukiyaki / shabu",
    "area": "tokyo-area-marunouchi",
-   "price_range": "¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
+   ],
+   "budget_dinner_yen": [
+    10000,
+    null
    ],
    "tabelog_rating": 3.6
   },
@@ -1641,10 +1615,14 @@
    "name": "Teppanyaki Satou",
    "cuisine": "teppanyaki",
    "area": "tokyo-area-roppongi",
-   "price_range": "¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     1000,
     1999
+   ],
+   "budget_dinner_yen": [
+    10000,
+    null
    ],
    "tabelog_rating": 3.57
   },
@@ -1669,7 +1647,7 @@
    "id": "tokyo-restaurant-teuchi-soba-jiyu-san",
    "name": "Teuchi Soba Jiyu San",
    "cuisine": "soba",
-   "area": "tokyo-area-chuo-west",
+   "area": "tokyo-area-ikebukuro",
    "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
@@ -1766,7 +1744,7 @@
    "id": "tokyo-restaurant-udonya-shinbori",
    "name": "Udonya Shinbori",
    "cuisine": "udon",
-   "area": "tokyo-area-shibuya",
+   "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
    "budget_lunch_yen": [
     null,
@@ -1842,7 +1820,7 @@
    "name": "Yakiuo Ishikawa",
    "cuisine": "yakiniku / sushi",
    "area": "tokyo-area-tsukiji",
-   "price_range": "¥¥",
+   "price_range": "¥¥¥¥",
    "budget_lunch_yen": [
     2000,
     2999
@@ -1943,6 +1921,24 @@
    "mode": "train",
    "duration_hours": 1,
    "price_yen": 1020
+  },
+  {
+   "id": "tokyo-to-kawaguchiko",
+   "name": "Tokyo (Shinjuku) ↔ Kawaguchiko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kawaguchiko",
+   "mode": "bus",
+   "duration_hours": 2,
+   "price_yen": 2200
+  },
+  {
+   "id": "tokyo-to-nikko",
+   "name": "Tokyo (Asakusa) ↔ Nikko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/nikko",
+   "mode": "train",
+   "duration_hours": 2,
+   "price_yen": 3340
   },
   {
    "id": "tokyo-to-shin-osaka",

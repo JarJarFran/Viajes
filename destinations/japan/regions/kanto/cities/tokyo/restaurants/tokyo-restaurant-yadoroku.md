@@ -8,7 +8,6 @@ cuisine: onigiri
 price_range: ¥
 budget_yen: [300, 500]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.716896, 139.794751]
 coords_precision: exact
 name_ja: おにぎり浅草宿六

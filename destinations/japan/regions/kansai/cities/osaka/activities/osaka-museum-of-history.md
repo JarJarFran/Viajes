@@ -12,7 +12,7 @@ tags: [top50]
 hours: 9:30-17:00
 closed: []
 booking: walk-in
-near: [osaka-castle, osaka-shitennoji, osaka-tennoji-zoo, osaka-abeno-harukas]
+near: [osaka-castle]
 best_season: all year round
 best_time: morning
 link: https://www.mus-his.jp/

@@ -14,7 +14,6 @@ closed:
   - {yearly: 12-29..12-31}
   - {yearly: 01-01..01-03, partial: Ninomaru Palace closed; grounds open}
 booking: walk-in
-near: [kyoto-toji]
 best_season: all year round; note year-end closures
 best_time: morning
 link: https://nijo-jocastle.jp/en/

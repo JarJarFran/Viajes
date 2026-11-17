@@ -12,7 +12,7 @@ tags: [top50, kid-friendly]
 hours: 9:30-17:00
 closed: []
 booking: walk-in
-near: [osaka-castle, osaka-museum-of-history, osaka-shitennoji, osaka-abeno-harukas]
+near: [osaka-shitennoji, osaka-abeno-harukas]
 best_season: all year round
 best_time: morning
 link: https://www.city.osaka.lg.jp/

@@ -211,6 +211,10 @@ def build_ics(trip, view):
             lines.append(s)
         if v["events"]:
             lines.append("Events: " + ", ".join(e["name"] for e in v["events"]))
+        for w in v.get("warnings") or []:
+            lines.append("⚠ " + w)
+        if v.get("sunrise"):
+            lines.append(f"Sunrise {v['sunrise']} · sunset {v['sunset']}")
         lines.append(f"Estimated {_yen(v['est_yen'])} / budget {_yen(v['budget_yen'])} per person")
         summary = f"{v['city'] or ''} · {v.get('title') or ''}".strip(" ·")
         event(v["id"], [f"DTSTART;VALUE=DATE:{day:%Y%m%d}", f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
@@ -252,7 +256,7 @@ section.day{background:var(--card);border:1px solid var(--line);border-radius:12
 section.day h3{margin:0;font-size:1.05rem}.stay{font-size:.9rem;margin:.3rem 0 .6rem}
 ol.items{padding-left:1.2rem;margin:.4rem 0}ol.items li{margin:.35rem 0}.slot{display:inline-block;min-width:5.8rem;margin-right:.3rem;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
 .ja{font-size:.9rem}.badge{display:inline-block;font-size:.75rem;border-radius:6px;padding:0 6px;margin-left:4px}.closed{background:var(--accent);color:#fff}.partial{background:var(--warn);color:#000}
-.cost{float:right;color:var(--muted);font-size:.85rem}a{color:var(--accent)}.over{color:var(--accent);font-weight:600}.under{color:var(--ok)}
+.cost{float:right;color:var(--muted);font-size:.85rem}.warn{color:var(--warn);font-size:.9rem;margin:.2rem 0}a{color:var(--accent)}.over{color:var(--accent);font-weight:600}.under{color:var(--ok)}
 svg{width:100%;height:auto;background:var(--chip);border-radius:8px;margin:.4rem 0}.notes{font-size:.9rem}.notes ul{padding-left:1.1rem;margin:.3rem 0}
 table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left}
 @media print{nav,svg{display:none}section.day{break-inside:avoid}}
@@ -351,6 +355,8 @@ def build_html(trip, view, day_bodies):
         H.append(f'<section class="day" id="d-{_e(v["date"])}">')
         hol = " · holiday" if v["holiday"] else ""
         H.append(f"<h3>{_e(v['weekday'].capitalize())} {_e(v['date'])} · {_e(v['city'] or '')}{hol}</h3>")
+        if v.get("sunrise"):
+            H.append(f'<div class="muted">☀ {_e(v["sunrise"])} – {_e(v["sunset"])}</div>')
         if v.get("title"):
             H.append(f"<div><strong>{_e(v['title'])}</strong></div>")
         if v.get("stay"):
@@ -380,6 +386,8 @@ def build_html(trip, view, day_bodies):
                      f'<a href="{_e(it["maps"])}">{_e(it["name"])}</a>{badges}{ja}'
                      + (f'<br><span class="muted">{" · ".join(extra)}</span>' if extra else "") + "</li>")
         H.append("</ol>")
+        for w in v.get("warnings") or []:
+            H.append(f'<div class="warn">⚠ {_e(w)}</div>')
         if v["events"]:
             H.append('<div class="muted">Events: ' + ", ".join(_e(e["name"]) for e in v["events"]) + "</div>")
         spent = f" · spent {_yen(v['spent_yen'])}" if v.get("spent_yen") is not None else ""

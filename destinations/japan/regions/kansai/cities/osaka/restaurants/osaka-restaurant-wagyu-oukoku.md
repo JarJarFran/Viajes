@@ -5,7 +5,7 @@ name: WAGYU Oukoku
 place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: yakiniku
-price_range: ¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [2000, 2999]
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/

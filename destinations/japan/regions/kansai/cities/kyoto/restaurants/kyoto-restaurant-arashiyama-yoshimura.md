@@ -9,6 +9,7 @@ price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Arashiyama
 station_m: 184
 coords: [35.013648, 135.677248]

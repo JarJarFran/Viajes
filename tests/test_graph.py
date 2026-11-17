@@ -21,7 +21,8 @@ import fm as fmio  # noqa: E402
 import exporters  # noqa: E402
 import log as logcli  # noqa: E402
 import sync  # noqa: E402
-from common import ancestors, city_children, closures_on, load_graph, strict_restaurants  # noqa: E402
+from common import (ancestors, bucket_for_yen, city_children, closures_on, derive_fields, hhmm, load_graph,  # noqa: E402
+                    parse_hours, strict_restaurants, sun_times)
 from validate_graph import validate  # noqa: E402
 
 CITY = "destinations/japan/regions/kansai/cities"
@@ -49,7 +50,7 @@ class Fixture(unittest.TestCase):
                   place="japan/kansai/osaka", coords=[34.669, 135.501])
         self.node(f"{CITY}/osaka/activities/osaka-castle.md", id="osaka-castle", type="activity", name="Osaka Castle",
                   place="japan/kansai/osaka", category="history", entry="paid", cost_yen=1200, tags=["top50"],
-                  hours="9-17", closed=[{"yearly": "12-28..01-01"}], booking="walk-in", coords=[34.6873, 135.5262])
+                  hours="9:00-17:00", closed=[{"yearly": "12-28..01-01"}], booking="walk-in", coords=[34.6873, 135.5262])
         self.node(f"{CITY}/osaka/activities/osaka-museum.md", id="osaka-museum", type="activity", name="Museum",
                   place="japan/kansai/osaka", category="museums", entry="paid", tags=[], hours="9-17",
                   closed=[{"weekly": ["mon"], "holiday_shift": True, "partial": "galleries"}], booking="required",
@@ -315,6 +316,54 @@ class TestSyncAndExports(Fixture):
         self.assertIn('id="d-2027-01-10"', page)
         self.assertNotIn("<script src", page)
         self.assertNotIn("<link", page)
+
+
+class TestPlanChecks(Fixture):
+    def test_pricey_meal_and_time_of_day_warnings(self):
+        self.edit("trips/t1/days/2027-01-10.md", plan=[{"slot": "night", "id": "osaka-castle"},
+                                                        {"slot": "dinner", "id": "osaka-restaurant-a"}])
+        errs, warns = self.errors()
+        self.assertEqual(errs, [])
+        self.assertTrue(any("Osaka Castle: planned for night" in w for w in warns), warns)
+        self.assertTrue(any("A: dinner costs ¥6,000–7,999" in w and "its lunch is ¥1,000–1,999" in w for w in warns), warns)
+
+    def test_listed_order_is_kept(self):
+        self.edit("trips/t1/days/2027-01-10.md", plan=[{"slot": "morning", "id": "osaka-museum"},
+                                                        {"slot": "morning", "id": "osaka-castle"}])
+        self.run_sync()
+        data = json.load(open(os.path.join(self.root, "exports/trips/t1.json")))
+        day = data["days"]["t1-2027-01-10"]
+        self.assertEqual([i["id"] for i in day["items"]], ["osaka-museum", "osaka-castle"])
+        self.assertRegex(day["sunset"], r"^1[67]:\d\d$")
+
+    def test_far_near_link_is_a_warning(self):
+        self.edit(f"{CITY}/osaka/activities/osaka-castle.md", near=["osaka-hotel-h"])
+        errs, warns = self.errors()
+        self.assertEqual(errs, [])
+        self.assertTrue(any("near -> osaka-hotel-h" in w for w in warns), warns)
+
+    def test_derived_restaurant_fields(self):
+        nodes, _, _ = load_graph(self.root)
+        self.assertIn("top-rated", nodes["osaka-restaurant-a"]["tags"])  # 3.6 >= 3.5, added by sync
+        r = derive_fields({"type": "restaurant", "price_range": "¥", "tabelog_rating": 3.4, "tags": ["top-rated"],
+                           "budget_lunch_yen": [1000, 1999], "budget_dinner_yen": [8000, 9999]})
+        self.assertEqual((r["price_range"], r["tags"]), ("¥¥¥¥", []))
+        self.assertEqual(bucket_for_yen(30000), "¥¥¥¥")
+
+
+class TestCommonHelpers(unittest.TestCase):
+    def test_sun_times_tokyo_january(self):
+        rise, sset = sun_times(35.6895, 139.6917, date(2027, 1, 15))
+        self.assertLessEqual(abs(rise - (6 * 60 + 50)), 3)
+        self.assertLessEqual(abs(sset - (16 * 60 + 49)), 3)
+        self.assertEqual(hhmm(rise), "06:50")
+
+    def test_parse_hours(self):
+        self.assertEqual(parse_hours("9:00-17:00 (last entry 16:30)"), (540, 1020))
+        self.assertEqual(parse_hours("5:00-sunset", sunset=1010), (300, 1010))
+        self.assertEqual(parse_hours("Park 24h; tower 9:00-17:00"), "always")
+        self.assertEqual(parse_hours("17:00-2:00"), (1020, 1560))
+        self.assertIsNone(parse_hours("full day"))
 
 
 class TestFrontmatter(unittest.TestCase):

@@ -5,8 +5,9 @@ name: Teppanyaki Satou
 place: japan/kanto/tokyo
 area: tokyo-area-roppongi
 cuisine: teppanyaki
-price_range: ¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [1000, 1999]
+budget_dinner_yen: [10000, null]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.57
 tags: [top-rated]

@@ -12,7 +12,7 @@ tags: [touristic, top50]
 hours: daytime (Yuyake Dandan ~sunset)
 closed: []
 booking: walk-in
-near: [tokyo-ueno-park, tokyo-akihabara]
+near: [tokyo-ueno-park]
 best_season: all year round
 best_time: morning
 coords: [35.727669, 139.765317]

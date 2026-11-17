@@ -5,7 +5,7 @@ name: Kyo Unawa Honten
 place: japan/kansai/kyoto
 area: kyoto-area-karasuma
 cuisine: unagi
-price_range: ¥¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [4000, 4999]
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/

@@ -8,7 +8,6 @@ cuisine: okonomiyaki / teppanyaki
 price_range: ¥¥
 budget_yen: [1000, 2000]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
-tabelog_rating: null
 coords: [35.00553, 135.774574]
 coords_precision: exact
 name_ja: 祇園たんと

@@ -10,6 +10,7 @@ budget_lunch_yen: [4000, 4999]
 budget_dinner_yen: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.5
+tags: [top-rated]
 station: Shibuya
 station_m: 393
 coords: [35.658423, 139.702516]

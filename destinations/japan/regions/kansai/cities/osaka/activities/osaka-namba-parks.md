@@ -12,7 +12,7 @@ tags: [top50]
 hours: 10:00-21:00
 closed: []
 booking: walk-in
-near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
+near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-namba-yasaka, osaka-hozenji-yokocho, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: all year round
 best_time: afternoon
 coords: [34.661679, 135.502084]

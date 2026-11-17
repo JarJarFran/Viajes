@@ -7,9 +7,7 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (west exit)
 cuisine: yakitori
 price_range: ¥¥
-budget_yen: [150, 300]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
-tabelog_rating: null
 coords: [35.690262, 139.700514]
 coords_precision: area
 ---

@@ -5,7 +5,7 @@ name: Kyoto Gion Unagi Yondaime Kikukawa
 place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: unagi
-price_range: ¥¥¥
+price_range: ¥¥¥¥
 budget_lunch_yen: [3000, 3999]
 budget_dinner_yen: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/

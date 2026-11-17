@@ -1,0 +1,48 @@
+{
+ "city": "japan/kansai/himeji",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "himeji-castle",
+   "name": "Himeji Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost_yen": 2500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "9:00-17:00 (last entry 16:00)",
+   "booking": "walk-in",
+   "duration_hours": 2.5,
+   "closed": [
+    {
+     "yearly": "12-29..12-30"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "kyoto-to-himeji",
+   "name": "Kyoto ↔ Himeji",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/himeji",
+   "mode": "shinkansen",
+   "duration_hours": 1
+  },
+  {
+   "id": "osaka-to-himeji",
+   "name": "Osaka ↔ Himeji",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/himeji",
+   "mode": "train",
+   "duration_hours": 1,
+   "price_yen": 1680
+  }
+ ]
+}

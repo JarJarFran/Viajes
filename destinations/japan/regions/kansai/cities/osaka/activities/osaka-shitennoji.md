@@ -12,7 +12,7 @@ tags: [touristic, top50]
 hours: 8:30-17:00
 closed: []
 booking: walk-in
-near: [osaka-castle, osaka-museum-of-history, osaka-tennoji-zoo, osaka-abeno-harukas]
+near: [osaka-tennoji-zoo, osaka-abeno-harukas]
 best_season: all year round; monthly flea market on the 21st
 best_time: morning
 link: https://www.shitennoji.or.jp/

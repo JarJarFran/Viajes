@@ -12,7 +12,7 @@ tags: [touristic, top50]
 hours: 24h
 closed: []
 booking: walk-in
-near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-hozenji-yokocho, osaka-namba-parks, osaka-tsuruhashi-koreatown, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
+near: [osaka-dotonbori-night, osaka-kuromon-market, osaka-hozenji-yokocho, osaka-namba-parks, osaka-den-den-town, osaka-amerikamura, osaka-shinsekai-tsutenkaku]
 best_season: all year round
 best_time: anytime
 link: https://www.nambayasaka.jp/
