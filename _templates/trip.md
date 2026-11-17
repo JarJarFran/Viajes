@@ -1,36 +1,38 @@
 ---
-id: <yyyy>-<slug>
+id: <YYYY>-<slug>
 type: trip
 name: <Trip name>
 country: <country-id>
-start: YYYY-MM-DD
-end: YYYY-MM-DD
-status: planned       # planned | ongoing | done
-stops:
-  - from: YYYY-MM-DD
-    to: YYYY-MM-DD
-    place: <country>/<region>/<city>
-    accommodation: <hotel-id>
-    activities: [<activity-id>, ...]
-    notes: ""
-events: []            # ids of events overlapping the trip dates
-days: []              # day-<YYYY-MM-DD> ids, one file per day in days/ (managed by scripts/sync.py)
-rating: null          # 1-5 at the end
-affinity: null
-likes: []             # what we liked most about this trip
-total_cost: null
+start: YYYY-MM-DD          # arrival day
+end: YYYY-MM-DD            # departure day
+status: planned            # planned | ongoing | done | cancelled
+stops:                     # contiguous: each stop's `to` (check-out) is the next stop's `from` (check-in)
+  - {from: YYYY-MM-DD, to: YYYY-MM-DD, place: <country>/<region>/<city>, accommodation: <hotel-id>}
+# days: [...]              # filled by scripts/sync.py, which also creates days/YYYY-MM-DD.md
 ---
 
 # <Trip name>
 
 ## Summary
 
-## Day-by-day itinerary
+## Events in our window
 
-One file per day in `days/` (see `_templates/day.md`): `date`, `place`, `stay`, `area`, `plan:` (chosen activity/restaurant ids), `events`, `notes`. Query a day with `python3 scripts/query.py day --trip <trip-id> --date <YYYY-MM-DD>`.
+<!-- gen:start events -->
+<!-- gen:end events -->
 
-## Expenses
+## Budget
 
-## What we liked most / affinity
+<!-- gen:start budget -->
+<!-- gen:end budget -->
 
-## For next time
+## Booking checklist
+
+## What we liked most
+
+<!-- gen:start liked -->
+<!-- gen:end liked -->
+
+## Days
+
+<!-- gen:start days -->
+<!-- gen:end days -->

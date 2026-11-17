@@ -3,21 +3,31 @@ id: <city>-<activity-slug>
 type: activity
 name: <Activity name>
 place: <country>/<region>/<city>
-category: <temple | nature | food | museums | leisure | hiking | onsen | history | transport | other>   # time-bound things are type: event, not category
-duration_hours: null
-approx_cost: null     # amount + currency, or "free"
-entry: <free | paid | mixed | n/a>   # free = no entry fee; paid = entry ticket required; mixed = free to enter but typical spend inside; n/a = transport
-tags: []              # e.g. touristic, top50, top100, iconic, unesco, hidden-gem, night, kid-friendly, rainy-day
-hours: "9:00-17:00"   # opening hours (check site)
-closed: "Mondays"     # closing days / seasonal closures
-booking: walk-in      # walk-in | reserve | required
-near: []              # ids of activities in the same zone (walking route clusters)
-area: <neighborhood>  # optional, to group activities by zone
-best_season: <months or "all year round">
+area: <city>-area-<slug>   # optional; otherwise derived from coords (exports in_area edge)
+category: <temple | history | museums | nature | hiking | onsen | food | leisure | daytrip | other>
+duration_hours: 2
+approx_cost: "¥500"        # human text
+cost_yen: 500              # number per person used by budgets (0 = free); omit if unknown
+entry: <free | paid | mixed | n/a>
+tags: []                   # top50, top100, touristic, iconic, unesco, hidden-gem, night, event, kid-friendly, rainy-day
+hours: "9:00-17:00"
+closed: []                 # rules, see below; [] = no known closures
+# closed:
+#   - {weekly: [mon], holiday_shift: true}      # closed Mondays; if Monday is a holiday, closed Tuesday
+#   - {weekly: [tue], nth: [1, 3]}               # 1st and 3rd Tuesday of the month
+#   - {yearly: 12-29..01-03}                     # every year (may wrap the new year)
+#   - {dates: 2027-01-10..2027-01-24}            # one-off
+#   - {specific: [2027-01-15, 2027-02-03]}       # single days
+#   - {yearly: 01-01..01-03, partial: "palace only; grounds open"}   # warning instead of error
+#   - {irregular: "maintenance days in January"} # informative only
+booking: walk-in           # walk-in | reserve | required
+book_ahead_days: 14        # optional: calendar reminder lead time (default 30 for required, 7 for reserve)
+near: []                   # optional curated walking cluster (proximity is also derived from coords)
+best_season: all year round
 best_time: <morning | afternoon | night>
 link: ""
-done_in: []           # trip ids
-rating: null          # 1-5 once we do it
+coords: [lat, lon]         # python3 scripts/geocode.py fills it from OpenStreetMap
+verified: YYYY-MM          # when hours/prices/closures were last checked
 ---
 
 # <Activity name>
@@ -27,5 +37,3 @@ rating: null          # 1-5 once we do it
 ## How to get there
 
 ## Tips
-
-## Our experience

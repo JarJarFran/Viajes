@@ -3,17 +3,18 @@ id: <city>-<event-slug>
 type: event
 name: <Event name>
 place: <country>/<region>/<city>
-start: YYYY-MM-DD        # first day of the event (recurring events: next edition)
-end: YYYY-MM-DD          # last day
-on_sale: YYYY-MM-DD       # general ticket sale date (check official site), null if none
-approx_cost: null
+recurrence: "yearly, <when>"        # human description of how it repeats
+editions:                           # one entry per year/edition
+  - {start: YYYY-MM-DD, end: YYYY-MM-DD, on_sale: YYYY-MM-DDTHH:MM:SS+09:00, note: "where tickets are sold"}
+cost_yen: 0
+approx_cost: free
 entry: <free | paid | mixed>
-tags: [event]            # + touristic / night / top100 ...
+tags: [event]
+booking: walk-in
 best_time: <morning | afternoon | night>
 link: ""
-done_in: []              # trip ids
-during_trips: []         # auto-computed: trips whose dates overlap start-end
-rating: null
+coords: [lat, lon]
+verified: YYYY-MM
 ---
 
 # <Event name>
@@ -23,5 +24,3 @@ rating: null
 ## Dates & hours
 
 ## Tips
-
-## Our experience

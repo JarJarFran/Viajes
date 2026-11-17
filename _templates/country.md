@@ -9,10 +9,7 @@ language: <language>
 capital: <capital-city-id>
 timezone: <UTC offset>
 plugs: <plug types>
-affinity: null        # 1-5 once we rate it
-likes: []             # tags from profile.yaml
-# NOTE: contains/trips are DERIVED from child nodes (region.country, trip stops)
-# and materialized in exports/ — do not add them here. See AGENTS.md.
+holidays: []               # public holidays (YYYY-MM-DD) used by closure rules with holiday_shift
 ---
 
 # <Name>
@@ -20,5 +17,3 @@ likes: []             # tags from profile.yaml
 ## General information
 
 ## Regions
-
-## Our experience

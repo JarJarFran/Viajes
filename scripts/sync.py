@@ -1,267 +1,265 @@
-import json, os, re, sys
-from datetime import date, timedelta
-sys.path.insert(0, __file__.rsplit("/", 1)[0])
-from common import REPO, SCHEMA, load_graph, parse_node, public, city_children, strict_restaurants, d
+"""Keep the repository consistent: create missing trip day files, normalize every node's
+frontmatter (schema key order, no empty optional keys), regenerate the `<!-- gen:start X -->`
+blocks of READMEs and day files, and rebuild exports/.
 
-GEO_STRIP = set(SCHEMA["geo_strip_keys"])
-OPTIONAL = set(SCHEMA["optional_keys"])
-REQ = {t: set(spec["required"]) for t, spec in SCHEMA["types"].items()}
-GEN_START = "<!-- gen:start"
-GEN_END = "<!-- gen:end"
+    python3 scripts/sync.py           # write changes
+    python3 scripts/sync.py --check   # CI: exit 1 if anything would change
+"""
+import argparse
+import os
+import re
+import sys
+from collections import Counter
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import exporters as X  # noqa: E402
+import fm as fmio  # noqa: E402
+from common import (REPO, canonical, city_children, d, day_id, daterange, derive_edges, expected_day,  # noqa: E402
+                    load_graph, read, strict_restaurants, trip_day_ids, trip_window, write)
+from tripplan import load_profile, trip_view  # noqa: E402
+from datetime import timedelta  # noqa: E402
 
-def normalize_file(text, fm):
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return text, False
-    t = fm.get("type")
-    out, changed = [], False
-    for line in parts[1].split("\n"):
-        m = re.match(r"^([A-Za-z_][\w-]*):\s*(.*)$", line)
-        if not m:
-            out.append(line)
-            continue
-        key, val = m.group(1), m.group(2).split("#")[0].strip()
-        if t in ("country", "region", "city") and key in GEO_STRIP:
-            changed = True
-            continue
-        if key in OPTIONAL and key not in REQ.get(t, ()) and val in ("[]", "null", '""', "''"):
-            changed = True
-            continue
-        out.append(line)
-    if not changed:
-        return text, False
-    return "---" + "\n".join(out) + "---" + parts[2], True
+GEN = re.compile(r"(<!-- gen:start ([a-z][a-z-]*) -->)(.*?)(<!-- gen:end \2 -->)", re.S)
+EXPORT_EXT = (".json", ".geojson", ".ics", ".html")
 
 
-def ensure_days(nodes, paths):
-    created = []
-    for nid, n in sorted(nodes.items()):
-        if n.get("type") != "trip":
-            continue
-        start, end = d(n["start"]), d(n["end"])
-        day_ids = []
-        day = start
-        while day <= end and len(day_ids) < 400:
-            did = f"day-{day.isoformat()}"
-            day_ids.append(did)
-            fp = os.path.join(os.path.dirname(n["_fp"]), "days", did + ".md")
-            if not os.path.exists(fp):
-                stop = next((s for s in n.get("stops", []) if d(s["from"]) <= day <= d(s["to"])), None)
-                place = stop["place"] if stop else ""
-                stay = stop.get("accommodation", "") if stop else ""
-                evs = sorted(eid for eid, e in nodes.items()
-                             if e.get("type") == "event" and e.get("place") == place
-                             and d(e["start"]) <= day <= d(e["end"]))
-                city_name = place.split("/")[-1].capitalize() if place else ""
-                lines = ["---",
-                         f"id: {did}",
-                         "type: day",
-                         f"date: {day.isoformat()}",
-                         f"trip: {nid}",
-                         f"place: {place}"]
-                if stay:
-                    lines.append(f"stay: {stay}")
-                lines += ["plan: []",
-                          "events: [" + ", ".join(evs) + "]",
-                          "---",
-                          "",
-                          f"# {day.isoformat()} — {city_name}",
-                          "",
-                          "## Plan (fill `plan:` with activity/restaurant ids)",
-                          "",
-                          "## Notes",
-                          ""]
-                os.makedirs(os.path.dirname(fp), exist_ok=True)
-                open(fp, "w", encoding="utf-8").write("\n".join(lines))
-                created.append(did)
-            day += timedelta(days=1)
-        text = open(n["_fp"], encoding="utf-8").read()
-        if "days:" not in text.split("---", 2)[1]:
-            fm_text = text.split("---", 2)[1]
-            new_fm = fm_text.rstrip("\n") + "\ndays: [" + ", ".join(day_ids) + "]\n"
-            open(n["_fp"], "w", encoding="utf-8").write("---" + new_fm + "---" + text.split("---", 2)[2])
-    return created
+def replace_blocks(text, blocks):
+    def rep(m):
+        name = m.group(2)
+        if name not in blocks:
+            return m.group(0)
+        content = blocks[name].strip("\n")
+        return f"{m.group(1)}\n{content}\n{m.group(4)}" if content else f"{m.group(1)}\n{m.group(4)}"
+    return GEN.sub(rep, text)
 
 
-def restaurant_section_lines(nodes, city_path, folder):
-    rdir = None
-    for nid in city_children(nodes, city_path):
-        fp = nodes[nid]["_fp"]
-        rdir = os.path.dirname(fp)
-    entries = []
-    for nid in city_children(nodes, city_path):
-        if nodes[nid].get("type") != "restaurant":
-            continue
-        fm = nodes[nid]
-        rel = "restaurants/" + os.path.basename(fm["_fp"])
-        extra = f", Tabelog {fm['tabelog_rating']}" if fm.get("tabelog_rating") is not None else ""
-        entries.append(f"- [{fm['name']}]({rel}) — {fm.get('cuisine','')}, {fm.get('price_range','')}, {fm.get('area','')}{extra}")
-    entries.sort(key=str.lower)
-    return entries
+def link(from_fp, to_fp):
+    return os.path.relpath(to_fp, os.path.dirname(from_fp)).replace(os.sep, "/")
 
 
-def regen_readme_sections(nodes, paths):
-    changed = []
-    for nid, n in sorted(nodes.items()):
-        if n.get("type") != "city":
-            continue
-        fp = n["_fp"]
-        text = open(fp, encoding="utf-8").read()
-        lines = text.split("\n")
-        title = "## Restaurants" if any(l.strip() == "## Restaurants" for l in lines) else "## Where to eat"
-        if not any(l.strip() == title for l in lines):
-            continue
-        start = next(i for i, l in enumerate(lines) if l.strip() == title)
-        end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith("## ")), len(lines))
-        inner = lines[start + 1:end]
-        has_markers = any(GEN_START in l for l in inner)
-        if has_markers:
-            b = next(i for i, l in enumerate(inner) if GEN_START in l)
-            e = next(i for i, l in enumerate(inner) if GEN_END in l)
-            body = inner[b + 1:e]
+def _yen(x):
+    return "—" if x is None else f"¥{x:,}"
+
+
+# ---------------------------------------------------------------- generated blocks
+
+def city_blocks(n, nodes, paths):
+    rows = []
+    for nid in city_children(nodes, n["path"], ("restaurant",)):
+        r = nodes[nid]
+        area = nodes.get(r.get("area"), {}).get("name", r.get("area", ""))
+        extra = f", Tabelog {r['tabelog_rating']}" if r.get("tabelog_rating") is not None else ""
+        rows.append(f"- [{r['name']}]({link(n['_fp'], r['_fp'])}) — {r.get('cuisine', '')}, "
+                    f"{r.get('price_range', '')}, {area}{extra}")
+    rows.sort(key=str.lower)
+    routes = []
+    for rid, r in sorted(nodes.items()):
+        if r.get("type") == "route" and n["path"] in (r.get("origin"), r.get("destination")):
+            dur = f" (~{r['duration_hours']} h)" if r.get("duration_hours") else ""
+            routes.append(f"- [{r['name']}]({link(n['_fp'], r['_fp'])}) — {r.get('approx_cost', '')}{dur}")
+    return {"restaurants": "\n" + "\n".join(rows) + "\n", "routes": "\n".join(routes) or "(none yet)"}
+
+
+def day_blocks(day, view, nodes):
+    lines = []
+    for e in view["events"]:
+        lines.append(f"- [{e['name']}]({link(day['_fp'], nodes[e['id']]['_fp'])}) ({e['start']} → {e['end']})"
+                     + (" — in plan" if e["in_plan"] else ""))
+    return {"events": "\n".join(lines) or "(none)"}
+
+
+def trip_blocks(trip, view, nodes):
+    ev = ["| Dates | Event | City | Our days there | In plan |", "|---|---|---|---|---|"]
+    for e in view["events"]:
+        ours = _ranges(e["our_days"]) or "—"
+        ev.append(f"| {e['start']} → {e['end']} | [{e['name']}]({link(trip['_fp'], nodes[e['id']]['_fp'])}) | "
+                  f"{e['place'].split('/')[-1].capitalize()} | {ours} | {', '.join(x[5:] for x in e['in_plan']) or '—'} |")
+    b = view["budget"].get("daily_yen")
+    bud = [f"Daily budget: {_yen(b)} per person (€{view['budget'].get('daily_eur_per_person')} × "
+           f"{view['budget'].get('eur_jpy')} ECB {view['budget'].get('eur_jpy_date')}).", "",
+           "| Date | City | Planned | vs budget | Spent | Unpriced items |", "|---|---|---|---|---|---|"]
+    for v in view["days"]:
+        diff = "" if not b else (f"+{_yen(v['est_yen'] - b)}" if v["est_yen"] > b else "ok")
+        bud.append(f"| {v['date']} {v['weekday']} | {v['city'] or ''} | {_yen(v['est_yen'])} | {diff} | "
+                   f"{_yen(v['spent_yen'])} | {', '.join(v['unpriced']) or ''} |")
+    t = view["totals"]
+    bud.append(f"| **total** | | **{_yen(t['est_yen'])}** | {_yen(t['budget_yen'])} budget | {_yen(t['spent_yen'])} | |")
+    dl = []
+    for x in view["deadlines"]:
+        if x["kind"] == "on_sale":
+            dl.append(f"- [ ] **{x['when'].replace('T', ' ')}** — tickets on sale: {x['name']} ({x.get('note') or ''})")
         else:
-            body = [l for l in inner if l.strip()]
-        new_entries = restaurant_section_lines(nodes, n["path"], "restaurants")
-        if body == new_entries and has_markers:
+            dl.append(f"- [ ] **{x['date']}** — book {x['name']} for {x['for']} ({x['booking']}, {x['lead_days']} days ahead)")
+    days = ["| Date | City | Title | Plan | Est. |", "|---|---|---|---|---|"]
+    for v in view["days"]:
+        warn = " ⚠" if any(i.get("closed") for i in v["items"]) else ""
+        names = "; ".join(i["name"] for i in v["items"])
+        days.append(f"| [{v['date']}]({link(trip['_fp'], nodes[v['id']]['_fp'])}) {v['weekday']} | {v['city'] or ''} | "
+                    f"{v.get('title') or ''}{warn} | {names} | {_yen(v['est_yen'])} |")
+    rated = sorted(((x["rating"], v["date"], x["id"], x.get("note")) for v in view["days"] for x in v["done"]
+                    if isinstance(x, dict) and x.get("rating") is not None), key=lambda r: (-r[0], r[1], r[2]))
+    liked = [f"- {'★' * r} {nodes[i]['name']} ({dt}){' — ' + note if note else ''}" for r, dt, i, note in rated
+             if i in nodes]
+    return {"events": "\n".join(ev), "budget": "\n".join(bud), "deadlines": "\n".join(dl) or "(none)",
+            "days": "\n".join(days),
+            "liked": "\n".join(liked) or "(nothing rated yet — after each day: `python3 scripts/log.py done --trip "
+                                         f"{trip['id']} --date YYYY-MM-DD --id <node> --rating 1-5`)"}
+
+
+def _ranges(dates):
+    if not dates:
+        return ""
+    out, a, prev = [], dates[0], dates[0]
+    for x in dates[1:] + [None]:
+        if x and d(x) == d(prev) + timedelta(days=1):
+            prev = x
             continue
-        new_inner = inner[:0]
-        pre = [] if has_markers else [l for l in inner if not l.strip().startswith("- [")]
-        sec = pre + ["", f"{GEN_START} restaurants -->", ""] + new_entries + ["", f"{GEN_END} restaurants -->"]
-        if has_markers:
-            sec = inner[:b] + [f"{GEN_START} restaurants -->", ""] + new_entries + ["", f"{GEN_END} restaurants -->"] + inner[e + 1:]
-        lines = lines[:start + 1] + sec + lines[end:]
-        open(fp, "w", encoding="utf-8").write("\n".join(lines))
-        changed.append(nid)
-    return changed
+        out.append(a[5:] if a == prev else f"{a[5:]}–{prev[5:]}")
+        if x:
+            a = prev = x
+    return ", ".join(out)
 
 
-def readme_catalog_block(nodes, paths, edges):
-    from collections import Counter
+def catalog_block(nodes, edges):
     counts = Counter(n.get("type") for n in nodes.values())
-    per_city = {}
     strict = set(strict_restaurants(nodes))
+    per_city = {}
     for nid, n in nodes.items():
         if n.get("type") == "restaurant":
-            city = n.get("place", "").split("/")[-1]
-            per_city.setdefault(city, [0, 0])
-            per_city[city][0] += 1
-            if nid in strict:
-                per_city[city][1] += 1
-    lines = [f"{GEN_START} catalog -->", "",
-             "## Catalog size (generated by `scripts/sync.py` — do not edit by hand)", "",
-             f"- Nodes: {len(nodes)} (" + ", ".join(f"{v} {k}" for k, v in sorted(counts.items())) + f"); edges: {len(edges)}",
-             "- Restaurants per city (total / Tabelog >= 3.5 and < ¥5,000/person): " +
-             ", ".join(f"{c}: {t}/{s}" for c, (t, s) in sorted(per_city.items())), "",
-             f"{GEN_END} catalog -->"]
-    return "\n".join(lines)
+            c = per_city.setdefault(n["place"].split("/")[-1], [0, 0])
+            c[0] += 1
+            c[1] += nid in strict
+    with_coords = sum(1 for n in nodes.values() if n.get("coords") and n.get("type") in
+                      ("activity", "restaurant", "hotel", "area", "event"))
+    leaves = sum(1 for n in nodes.values() if n.get("type") in ("activity", "restaurant", "hotel", "area", "event"))
+    return "\n".join([
+        "", "## Catalog size (generated by `scripts/sync.py` — do not edit by hand)", "",
+        f"- Nodes: {len(nodes)} (" + ", ".join(f"{v} {k}" for k, v in sorted(counts.items())) + f"); edges: {len(edges)}",
+        "- Restaurants per city (total / Tabelog >= 3.5 with a meal <= ¥4,999/person): "
+        + ", ".join(f"{c}: {t}/{s}" for c, (t, s) in sorted(per_city.items())),
+        f"- Geolocated places: {with_coords}/{leaves} (OpenStreetMap)", ""])
 
 
-def update_root_readme(nodes, paths, edges):
-    fp = os.path.join(REPO, "README.md")
-    text = open(fp, encoding="utf-8").read()
-    block = readme_catalog_block(nodes, paths, edges)
-    if f"{GEN_START} catalog -->" in text:
-        text = re.sub(r"<!-- gen:start catalog -->.*?<!-- gen:end catalog -->", lambda m: block, text, flags=re.S)
-    else:
-        text = text.rstrip("\n") + "\n\n" + block + "\n"
-    text = re.sub(r"\nCurrent restaurant catalog \(scores read on tabelog\.com/en category lists, 2026-11\):.*\n", "\n", text)
-    open(fp, "w", encoding="utf-8").write(text)
+# ---------------------------------------------------------------- run
+
+def new_day_node(trip, day, nodes, paths):
+    place, stay = expected_day(trip, day)
+    city = nodes.get(paths.get(place), {}).get("name", "")
+    fp = os.path.join(os.path.dirname(trip["_fp"]), "days", f"{d(day).isoformat()}.md")
+    body = (f"\n# {d(day).isoformat()} — {city}\n\n## Itinerary\n\n## Events today\n\n"
+            "<!-- gen:start events -->\n<!-- gen:end events -->\n\n## Notes\n")
+    n = {"id": day_id(trip["id"], day), "type": "day", "date": d(day), "trip": trip["id"], "place": place}
+    if stay:
+        n["stay"] = stay
+    n.update(_fp=fp, _body=body)
+    return n
 
 
-def build_exports(nodes, paths, edges):
-    exp = os.path.join(REPO, "exports")
-    os.makedirs(exp, exist_ok=True)
+def build(root=REPO):
+    """Return ({abs_path: content}, [log lines]) or raise SystemExit on unloadable graph."""
+    errors = []
+    nodes, paths, edges = load_graph(root, errors)
+    if errors:
+        print("Cannot sync — fix these first (scripts/validate_graph.py has details):")
+        for e in errors:
+            print(" -", e)
+        raise SystemExit(1)
+    log = []
+    for tid, t in sorted(nodes.items()):
+        if t.get("type") != "trip":
+            continue
+        a, b = trip_window(t)
+        for day in daterange(a, b + timedelta(days=1)):
+            did = day_id(tid, day)
+            if did not in nodes:
+                nodes[did] = new_day_node(t, day, nodes, paths)
+                log.append(f"new day file {did}")
+        t["days"] = trip_day_ids(t)
+    # work on the canonical form so exports match what the files will contain after this run
+    nodes = {nid: dict(canonical(n), _fp=n["_fp"], _body=n["_body"]) for nid, n in nodes.items()}
+    edges = derive_edges(nodes, paths)
+    profile = load_profile(root)
+    views = {tid: trip_view(nodes, paths, t, profile) for tid, t in nodes.items() if t.get("type") == "trip"}
+    day_views = {v["id"]: v for tv in views.values() for v in tv["days"]}
+
     files = {}
-    counts = {}
     for nid, n in nodes.items():
-        counts[n.get("type")] = counts.get(n.get("type"), 0) + 1
-    index = {"schema": 1, "counts": dict(sorted(counts.items())),
-             "nodes": {nid: public(nodes[nid]) for nid in sorted(nodes)},
-             "edges": edges}
-    files["exports/index.json"] = json.dumps(index, ensure_ascii=False, separators=(",", ":"), default=str) + "\n"
-    for cpath, cid in sorted(paths.items()):
-        if nodes[cid].get("type") != "city":
+        body = n["_body"]
+        t = n.get("type")
+        if t == "city":
+            body = replace_blocks(body, city_blocks(n, nodes, paths))
+        elif t == "day" and nid in day_views:
+            body = replace_blocks(body, day_blocks(n, day_views[nid], nodes))
+        elif t == "trip":
+            body = replace_blocks(body, trip_blocks(n, views[nid], nodes))
+        files[n["_fp"]] = fmio.render(canonical(n), body)
+
+    readme = os.path.join(root, "README.md")
+    if os.path.exists(readme):
+        files[readme] = replace_blocks(read(readme), {"catalog": catalog_block(nodes, edges)})
+
+    ex = os.path.join(root, "exports")
+    files[os.path.join(ex, "index.json")] = X.build_index(nodes, edges)
+    for cid, c in sorted(nodes.items()):
+        if c.get("type") != "city":
             continue
-        kids = set(city_children(nodes, cpath)) | {cid}
-        cedges = [e for e in edges if e["from"] in kids and e["to"] in kids]
-        ancestors = []
-        a = nodes[cid].get("region")
-        while a in nodes:
-            ancestors.append(a)
-            a = nodes[a].get("region") or (nodes[a].get("country") if nodes[a].get("type") == "region" else None)
-        if nodes[cid].get("country") in nodes:
-            ancestors.append(nodes[cid]["country"])
-        cdata = {"schema": 1, "city": cpath, "ancestors": ancestors,
-                 "nodes": {nid: public(nodes[nid]) for nid in sorted(kids)},
-                 "edges": cedges}
-        files[f"exports/cities/{cid}.json"] = json.dumps(cdata, ensure_ascii=False, separators=(",", ":"), default=str) + "\n"
-        strict = [nid for nid in strict_restaurants(nodes) if nodes[nid].get("place") == cpath]
-        acts = [nid for nid in city_children(nodes, cpath)
-                if nodes[nid].get("type") == "activity" and ({"top50", "top100"} & set(nodes[nid].get("tags") or []))]
-        evs = [nid for nid in city_children(nodes, cpath) if nodes[nid].get("type") == "event"]
-        sl = {"city": cpath,
-              "activities_top": [{k: nodes[a].get(k) for k in ("id", "name", "category", "entry", "tags", "approx_cost", "hours", "booking", "duration_hours")} for a in sorted(acts)],
-              "restaurants_strict": [{k: nodes[r].get(k) for k in ("id", "name", "cuisine", "area", "price_range", "tabelog_rating")} for r in strict],
-              "events": [{k: nodes[e].get(k) for k in ("id", "name", "start", "end", "entry", "approx_cost")} for e in sorted(evs)]}
-        files[f"exports/shortlists/{cid}.json"] = json.dumps(sl, ensure_ascii=False, indent=2, default=str) + "\n"
-    for nid, n in sorted(nodes.items()):
-        if n.get("type") != "trip":
-            continue
-        day_ids = [x for x in n.get("days") or []]
-        ids = {nid} | set(day_ids)
-        tedges = [e for e in edges if e["from"] in ids or e["to"] in ids]
-        related = {}
-        for e in tedges:
-            for end in (e["from"], e["to"]):
-                if end in nodes and end not in ids:
-                    related[end] = {"type": nodes[end].get("type"), "name": nodes[end].get("name")}
-        tdata = {"schema": 1, "trip": nid, "trip_node": public(n),
-                 "days": {x: public(nodes[x]) for x in day_ids if x in nodes},
-                 "edges": tedges, "related": dict(sorted(related.items()))}
-        files[f"exports/trips/{nid}.json"] = json.dumps(tdata, ensure_ascii=False, separators=(",", ":"), default=str) + "\n"
-    return files
+        files[os.path.join(ex, "cities", f"{cid}.json")] = X.build_city(nodes, paths, edges, cid)
+        files[os.path.join(ex, "shortlists", f"{cid}.json")] = X.build_shortlist(nodes, paths, edges, cid)
+        gj = X.build_city_geojson(nodes, paths, cid)
+        if gj:
+            files[os.path.join(ex, "maps", f"{cid}.geojson")] = gj
+    for tid, view in sorted(views.items()):
+        t = nodes[tid]
+        files[os.path.join(ex, "trips", f"{tid}.json")] = X.build_trip_json(nodes, t, view)
+        files[os.path.join(ex, "trips", f"{tid}.ics")] = X.build_ics(t, view)
+        bodies = {x: nodes[x]["_body"] for x in t.get("days") or [] if x in nodes}
+        files[os.path.join(ex, "trips", f"{tid}.html")] = X.build_html(t, view, bodies)
+        gj = X.build_trip_geojson(nodes, view)
+        if gj:
+            files[os.path.join(ex, "trips", f"{tid}.geojson")] = gj
+    return files, log
 
 
-def run(check=False):
-    nodes, paths, edges = load_graph()
-    changed_nodes = []
-    for nid, n in sorted(nodes.items()):
-        text = open(n["_fp"], encoding="utf-8").read()
-        new, changed = normalize_file(text, n)
-        if changed:
-            if check:
-                changed_nodes.append(nid)
-            else:
-                open(n["_fp"], "w", encoding="utf-8").write(new)
-    if not check:
-        nodes, paths, edges = load_graph()
-        created_days = ensure_days(nodes, paths)
-        nodes, paths, edges = load_graph()
-        regen = regen_readme_sections(nodes, paths)
-        update_root_readme(nodes, paths, edges)
-        print(f"created {len(created_days)} day files, refreshed README sections: {len(regen)} cities")
-    files = build_exports(nodes, paths, edges)
-    stale = []
-    for rel, content in sorted(files.items()):
-        fp = os.path.join(REPO, rel)
-        if not os.path.exists(fp) or open(fp, encoding="utf-8").read() != content:
-            stale.append(rel)
-            if not check:
-                os.makedirs(os.path.dirname(fp), exist_ok=True)
-                open(fp, "w", encoding="utf-8").write(content)
+def orphans(root, files):
+    ex = os.path.join(root, "exports")
+    out = []
+    for dirpath, _, fnames in os.walk(ex):
+        for f in fnames:
+            fp = os.path.join(dirpath, f)
+            if f.endswith(EXPORT_EXT) and fp not in files:
+                out.append(fp)
+    return sorted(out)
+
+
+def run(root=REPO, check=False):
+    files, log = build(root)
+    stale = [fp for fp, content in sorted(files.items())
+             if not os.path.exists(fp) or read(fp) != content]
+    gone = orphans(root, files)
+    rel = lambda p: os.path.relpath(p, root)
     if check:
-        if changed_nodes:
-            stale += [f"node:{n}" for n in changed_nodes]
-        if stale:
-            print("STALE (run `python3 scripts/sync.py`):")
-            for s in stale:
-                print(" -", s)
-            sys.exit(1)
-        print("Exports and node normalization up to date")
-    else:
-        print(f"wrote {len(files)} export files" + (f" ({len(stale)} updated)" if stale else ""))
+        if stale or gone:
+            print("STALE — run `python3 scripts/sync.py` and commit the result:")
+            for fp in stale:
+                print(" -", rel(fp))
+            for fp in gone:
+                print(" - (orphan)", rel(fp))
+            return 1
+        print("Nodes, generated blocks and exports are up to date")
+        return 0
+    for fp in stale:
+        write(fp, files[fp])
+    for fp in gone:
+        os.remove(fp)
+    for line in log:
+        print(line)
+    print(f"{len(files)} files checked: {len(stale)} written, {len(gone)} orphan exports removed")
+    return 0
 
 
 if __name__ == "__main__":
-    run(check="--check" in sys.argv)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--check", action="store_true", help="do not write; exit 1 if anything is stale")
+    ap.add_argument("--root", default=REPO, help=argparse.SUPPRESS)
+    a = ap.parse_args()
+    sys.exit(run(a.root, a.check))

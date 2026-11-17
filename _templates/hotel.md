@@ -3,11 +3,12 @@ id: <city>-hotel-<slug>
 type: hotel
 name: <Hotel name>
 place: <country>/<region>/<city>
-area: <neighborhood>
-price_range: ¥¥¥          # ¥-¥¥¥¥ per night, double room
+area: <city>-area-<slug>
+area_detail: <street / building, optional>
+price_range: ¥¥¥           # per night, double room
+price_per_night_yen: null
 link: ""
-done_in: []              # trip ids
-rating: null             # 1-5 once we stay there
+coords: [lat, lon]
 ---
 
 # <Hotel name>

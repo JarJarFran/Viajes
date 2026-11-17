@@ -7,12 +7,10 @@ country: <country-id>
 region: <region-id>
 prefecture: <Prefecture>
 population: null
-coords: [lat, lng]
-affinity: null
-likes: []
-# NOTE: activities/events/restaurants/hotels/trips lists are DERIVED from the
-# `place` fields of the child nodes and materialized in exports/ — do not add
-# them here (scripts/sync.py strips them). See AGENTS.md.
+coords: [lat, lon]
+likes: []                  # tags from profile.yaml
+# activities/events/restaurants/hotels lists are DERIVED from the children's `place`
+# and live in exports/ — do not add them here (scripts/sync.py strips them).
 ---
 
 # <Name>
@@ -20,9 +18,17 @@ likes: []
 ## How to get there
 
 ## What to see and do
-<!-- gen:start restaurants -->
-<!-- gen:end restaurants -->
+
+## Seasonal events and closures
 
 ## Where to eat
 
-## Our experience
+## Transport options (with prices)
+
+<!-- gen:start routes -->
+<!-- gen:end routes -->
+
+## Restaurants
+
+<!-- gen:start restaurants -->
+<!-- gen:end restaurants -->
