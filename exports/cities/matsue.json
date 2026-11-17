@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chugoku/matsue","ancestors":["chugoku","japan","japan"],"nodes":{"matsue":{"id":"matsue","type":"city","name":"Matsue","path":"japan/chugoku/matsue","country":"japan","region":"chugoku","prefecture":"Shimane"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chugoku/matsue",
+"ancestors":["chugoku","japan"],
+"nodes":{
+"matsue":{"id":"matsue","type":"city","name":"Matsue","path":"japan/chugoku/matsue","country":"japan","region":"chugoku","prefecture":"Shimane","coords":[35.468115,133.048768]}
+},
+"edges":[]
+}

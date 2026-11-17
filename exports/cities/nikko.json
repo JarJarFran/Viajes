@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kanto/nikko","ancestors":["kanto","japan","japan"],"nodes":{"nikko":{"id":"nikko","type":"city","name":"Nikko","path":"japan/kanto/nikko","country":"japan","region":"kanto","prefecture":"Tochigi"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kanto/nikko",
+"ancestors":["kanto","japan"],
+"nodes":{
+"nikko":{"id":"nikko","type":"city","name":"Nikko","path":"japan/kanto/nikko","country":"japan","region":"kanto","prefecture":"Tochigi","coords":[36.719758,139.698139]}
+},
+"edges":[]
+}

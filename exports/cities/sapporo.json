@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/hokkaido/sapporo","ancestors":["hokkaido","japan","japan"],"nodes":{"sapporo":{"id":"sapporo","type":"city","name":"Sapporo","path":"japan/hokkaido/sapporo","country":"japan","region":"hokkaido","prefecture":"Hokkaido"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/hokkaido/sapporo",
+"ancestors":["hokkaido","japan"],
+"nodes":{
+"sapporo":{"id":"sapporo","type":"city","name":"Sapporo","path":"japan/hokkaido/sapporo","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[43.061936,141.354292]}
+},
+"edges":[]
+}

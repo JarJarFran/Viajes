@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kanto/hakone","ancestors":["kanto","japan","japan"],"nodes":{"hakone":{"id":"hakone","type":"city","name":"Hakone","path":"japan/kanto/hakone","country":"japan","region":"kanto","prefecture":"Kanagawa"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kanto/hakone",
+"ancestors":["kanto","japan"],
+"nodes":{
+"hakone":{"id":"hakone","type":"city","name":"Hakone","path":"japan/kanto/hakone","country":"japan","region":"kanto","prefecture":"Kanagawa","coords":[35.232366,139.106885]}
+},
+"edges":[]
+}

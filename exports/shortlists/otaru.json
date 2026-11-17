@@ -1,6 +1,8 @@
 {
-  "city": "japan/hokkaido/otaru",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/hokkaido/otaru",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

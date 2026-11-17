@@ -1,6 +1,8 @@
 {
-  "city": "japan/shikoku/matsuyama",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/shikoku/matsuyama",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

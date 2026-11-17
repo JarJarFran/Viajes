@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chubu/takayama","ancestors":["chubu","japan","japan"],"nodes":{"takayama":{"id":"takayama","type":"city","name":"Takayama","path":"japan/chubu/takayama","country":"japan","region":"chubu","prefecture":"Gifu"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chubu/takayama",
+"ancestors":["chubu","japan"],
+"nodes":{
+"takayama":{"id":"takayama","type":"city","name":"Takayama","path":"japan/chubu/takayama","country":"japan","region":"chubu","prefecture":"Gifu","coords":[36.139625,137.251032]}
+},
+"edges":[]
+}

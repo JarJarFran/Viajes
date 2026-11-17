@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/tohoku/sendai","ancestors":["tohoku","japan","japan"],"nodes":{"sendai":{"id":"sendai","type":"city","name":"Sendai","path":"japan/tohoku/sendai","country":"japan","region":"tohoku","prefecture":"Miyagi"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/tohoku/sendai",
+"ancestors":["tohoku","japan"],
+"nodes":{
+"sendai":{"id":"sendai","type":"city","name":"Sendai","path":"japan/tohoku/sendai","country":"japan","region":"tohoku","prefecture":"Miyagi","coords":[38.267755,140.86915]}
+},
+"edges":[]
+}

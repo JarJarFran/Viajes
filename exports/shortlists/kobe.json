@@ -1,6 +1,8 @@
 {
-  "city": "japan/kansai/kobe",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kansai/kobe",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

@@ -1,6 +1,8 @@
 {
-  "city": "japan/tohoku/sendai",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/tohoku/sendai",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

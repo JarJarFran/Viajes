@@ -1,6 +1,8 @@
 {
-  "city": "japan/chugoku/tottori",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/chugoku/tottori",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

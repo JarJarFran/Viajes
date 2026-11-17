@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chugoku/okayama","ancestors":["chugoku","japan","japan"],"nodes":{"okayama":{"id":"okayama","type":"city","name":"Okayama","path":"japan/chugoku/okayama","country":"japan","region":"chugoku","prefecture":"Okayama"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chugoku/okayama",
+"ancestors":["chugoku","japan"],
+"nodes":{
+"okayama":{"id":"okayama","type":"city","name":"Okayama","path":"japan/chugoku/okayama","country":"japan","region":"chugoku","prefecture":"Okayama","coords":[34.655394,133.919459]}
+},
+"edges":[]
+}

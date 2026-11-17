@@ -1,0 +1,3 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.550088,35.31839]},"properties":{"id":"kamakura-day-trip","type":"activity","title":"Day trip to Kamakura & Enoshima","description":"history · Great Buddha ¥300; trains from Tokyo ~¥1,000 return · full day","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}}
+]}

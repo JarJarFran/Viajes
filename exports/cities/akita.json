@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/tohoku/akita","ancestors":["tohoku","japan","japan"],"nodes":{"akita":{"id":"akita","type":"city","name":"Akita","path":"japan/tohoku/akita","country":"japan","region":"tohoku","prefecture":"Akita"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/tohoku/akita",
+"ancestors":["tohoku","japan"],
+"nodes":{
+"akita":{"id":"akita","type":"city","name":"Akita","path":"japan/tohoku/akita","country":"japan","region":"tohoku","prefecture":"Akita","coords":[39.719763,140.103467]}
+},
+"edges":[]
+}

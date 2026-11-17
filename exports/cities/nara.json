@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kansai/nara","ancestors":["kansai","japan","japan"],"nodes":{"nara":{"id":"nara","type":"city","name":"Nara","path":"japan/kansai/nara","country":"japan","region":"kansai","prefecture":"Nara"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kansai/nara",
+"ancestors":["kansai","japan"],
+"nodes":{
+"nara":{"id":"nara","type":"city","name":"Nara","path":"japan/kansai/nara","country":"japan","region":"kansai","prefecture":"Nara","coords":[34.680812,135.818941]}
+},
+"edges":[]
+}

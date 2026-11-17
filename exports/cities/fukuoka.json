@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kyushu/fukuoka","ancestors":["kyushu","japan","japan"],"nodes":{"fukuoka":{"id":"fukuoka","type":"city","name":"Fukuoka","path":"japan/kyushu/fukuoka","country":"japan","region":"kyushu","prefecture":"Fukuoka"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kyushu/fukuoka",
+"ancestors":["kyushu","japan"],
+"nodes":{
+"fukuoka":{"id":"fukuoka","type":"city","name":"Fukuoka","path":"japan/kyushu/fukuoka","country":"japan","region":"kyushu","prefecture":"Fukuoka","coords":[33.589899,130.401751]}
+},
+"edges":[]
+}

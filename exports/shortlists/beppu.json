@@ -1,6 +1,8 @@
 {
-  "city": "japan/kyushu/beppu",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kyushu/beppu",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

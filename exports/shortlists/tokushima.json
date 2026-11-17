@@ -1,6 +1,8 @@
 {
-  "city": "japan/shikoku/tokushima",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/shikoku/tokushima",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

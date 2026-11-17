@@ -1,6 +1,8 @@
 {
-  "city": "japan/hokkaido/hakodate",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/hokkaido/hakodate",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

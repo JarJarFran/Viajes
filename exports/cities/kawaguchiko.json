@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chubu/kawaguchiko","ancestors":["chubu","japan","japan"],"nodes":{"kawaguchiko":{"id":"kawaguchiko","type":"city","name":"Kawaguchiko","path":"japan/chubu/kawaguchiko","country":"japan","region":"chubu","prefecture":"Yamanashi"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chubu/kawaguchiko",
+"ancestors":["chubu","japan"],
+"nodes":{
+"kawaguchiko":{"id":"kawaguchiko","type":"city","name":"Kawaguchiko","path":"japan/chubu/kawaguchiko","country":"japan","region":"chubu","prefecture":"Yamanashi","coords":[35.498089,138.76913]}
+},
+"edges":[]
+}

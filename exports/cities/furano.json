@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/hokkaido/furano","ancestors":["hokkaido","japan","japan"],"nodes":{"furano":{"id":"furano","type":"city","name":"Furano","path":"japan/hokkaido/furano","country":"japan","region":"hokkaido","prefecture":"Hokkaido"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/hokkaido/furano",
+"ancestors":["hokkaido","japan"],
+"nodes":{
+"furano":{"id":"furano","type":"city","name":"Furano","path":"japan/hokkaido/furano","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[43.342308,142.383496]}
+},
+"edges":[]
+}

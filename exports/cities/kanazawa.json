@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chubu/kanazawa","ancestors":["chubu","japan","japan"],"nodes":{"kanazawa":{"id":"kanazawa","type":"city","name":"Kanazawa","path":"japan/chubu/kanazawa","country":"japan","region":"chubu","prefecture":"Ishikawa"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chubu/kanazawa",
+"ancestors":["chubu","japan"],
+"nodes":{
+"kanazawa":{"id":"kanazawa","type":"city","name":"Kanazawa","path":"japan/chubu/kanazawa","country":"japan","region":"chubu","prefecture":"Ishikawa","coords":[36.561627,136.656882]}
+},
+"edges":[]
+}

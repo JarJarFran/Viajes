@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/tohoku/aomori","ancestors":["tohoku","japan","japan"],"nodes":{"aomori":{"id":"aomori","type":"city","name":"Aomori","path":"japan/tohoku/aomori","country":"japan","region":"tohoku","prefecture":"Aomori"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/tohoku/aomori",
+"ancestors":["tohoku","japan"],
+"nodes":{
+"aomori":{"id":"aomori","type":"city","name":"Aomori","path":"japan/tohoku/aomori","country":"japan","region":"tohoku","prefecture":"Aomori","coords":[40.822283,140.747203]}
+},
+"edges":[]
+}

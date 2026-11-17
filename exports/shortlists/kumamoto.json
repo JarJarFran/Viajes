@@ -1,6 +1,8 @@
 {
-  "city": "japan/kyushu/kumamoto",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kyushu/kumamoto",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

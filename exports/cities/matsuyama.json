@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/shikoku/matsuyama","ancestors":["shikoku","japan","japan"],"nodes":{"matsuyama":{"id":"matsuyama","type":"city","name":"Matsuyama","path":"japan/shikoku/matsuyama","country":"japan","region":"shikoku","prefecture":"Ehime"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/shikoku/matsuyama",
+"ancestors":["shikoku","japan"],
+"nodes":{
+"matsuyama":{"id":"matsuyama","type":"city","name":"Matsuyama","path":"japan/shikoku/matsuyama","country":"japan","region":"shikoku","prefecture":"Ehime","coords":[33.839519,132.765352]}
+},
+"edges":[]
+}

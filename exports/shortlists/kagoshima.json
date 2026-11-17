@@ -1,6 +1,8 @@
 {
-  "city": "japan/kyushu/kagoshima",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kyushu/kagoshima",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

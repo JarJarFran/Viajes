@@ -1,6 +1,8 @@
 {
-  "city": "japan/tohoku/akita",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/tohoku/akita",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

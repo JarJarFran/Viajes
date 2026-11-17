@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/hokkaido/hakodate","ancestors":["hokkaido","japan","japan"],"nodes":{"hakodate":{"id":"hakodate","type":"city","name":"Hakodate","path":"japan/hokkaido/hakodate","country":"japan","region":"hokkaido","prefecture":"Hokkaido"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/hokkaido/hakodate",
+"ancestors":["hokkaido","japan"],
+"nodes":{
+"hakodate":{"id":"hakodate","type":"city","name":"Hakodate","path":"japan/hokkaido/hakodate","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[41.768793,140.729008]}
+},
+"edges":[]
+}

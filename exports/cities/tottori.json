@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chugoku/tottori","ancestors":["chugoku","japan","japan"],"nodes":{"tottori":{"id":"tottori","type":"city","name":"Tottori","path":"japan/chugoku/tottori","country":"japan","region":"chugoku","prefecture":"Tottori"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chugoku/tottori",
+"ancestors":["chugoku","japan"],
+"nodes":{
+"tottori":{"id":"tottori","type":"city","name":"Tottori","path":"japan/chugoku/tottori","country":"japan","region":"chugoku","prefecture":"Tottori","coords":[35.494395,134.221928]}
+},
+"edges":[]
+}

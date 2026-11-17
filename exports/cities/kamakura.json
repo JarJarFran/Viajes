@@ -1,1 +1,14 @@
-{"schema":1,"city":"japan/kanto/kamakura","ancestors":["kanto","japan","japan"],"nodes":{"kamakura":{"id":"kamakura","type":"city","name":"Kamakura","path":"japan/kanto/kamakura","country":"japan","region":"kanto","prefecture":"Kanagawa","population":170000,"coords":[35.3192,139.5467],"likes":["temples_and_shrines","history_and_castles","nature_and_mountains"]},"kamakura-day-trip":{"id":"kamakura-day-trip","type":"activity","name":"Day trip to Kamakura & Enoshima","place":"japan/kanto/kamakura","category":"history","duration_hours":8,"approx_cost":"Great Buddha ¥300; trains from Tokyo ~¥1,000 return","entry":"mixed","tags":["touristic","top100","unesco"],"hours":"full day","closed":"none known - check site","booking":"walk-in","near":[],"best_season":"all year round","best_time":"morning"}},"edges":[{"from":"kamakura-day-trip","to":"kamakura","rel":"place"}]}
+{
+"schema":2,
+"city":"japan/kanto/kamakura",
+"ancestors":["kanto","japan"],
+"nodes":{
+"kamakura":{"id":"kamakura","type":"city","name":"Kamakura","path":"japan/kanto/kamakura","country":"japan","region":"kanto","prefecture":"Kanagawa","population":170000,"coords":[35.3192,139.5467],"likes":["temples_and_shrines","history_and_castles","nature_and_mountains"]},
+"kamakura-day-trip":{"id":"kamakura-day-trip","type":"activity","name":"Day trip to Kamakura & Enoshima","place":"japan/kanto/kamakura","category":"history","duration_hours":8,"approx_cost":"Great Buddha ¥300; trains from Tokyo ~¥1,000 return","cost_yen":300,"entry":"mixed","tags":["touristic","top100","unesco"],"hours":"full day","closed":[],"booking":"walk-in","best_season":"all year round","best_time":"morning","coords":[35.31839,139.550088],"coords_precision":"exact","name_ja":"鎌倉","address_ja":"〒248-0012 神奈川県鎌倉市御成町15"},
+"tokyo-to-kamakura":{"id":"tokyo-to-kamakura","type":"route","name":"Tokyo ↔ Kamakura","origin":"japan/kanto/tokyo","destination":"japan/kanto/kamakura","bidirectional":true,"mode":"train","duration_hours":1,"approx_cost":"JR Yokosuka Line Tokyo Station → Kamakura ~¥950–1,020 (~55–60 min); JR Shonan-Shinjuku Line to Kamakura ~¥1,020 (~50 min)","price_yen":1020}
+},
+"edges":[
+{"from":"kamakura-day-trip","to":"kamakura","rel":"place"},
+{"from":"tokyo-to-kamakura","to":"kamakura","rel":"destination"}
+]
+}

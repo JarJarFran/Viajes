@@ -1,6 +1,8 @@
 {
-  "city": "japan/chugoku/hiroshima",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/chugoku/hiroshima",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

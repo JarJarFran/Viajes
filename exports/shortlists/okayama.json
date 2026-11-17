@@ -1,6 +1,8 @@
 {
-  "city": "japan/chugoku/okayama",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/chugoku/okayama",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

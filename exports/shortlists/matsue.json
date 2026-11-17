@@ -1,6 +1,8 @@
 {
-  "city": "japan/chugoku/matsue",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/chugoku/matsue",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

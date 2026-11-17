@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kyushu/kagoshima","ancestors":["kyushu","japan","japan"],"nodes":{"kagoshima":{"id":"kagoshima","type":"city","name":"Kagoshima","path":"japan/kyushu/kagoshima","country":"japan","region":"kyushu","prefecture":"Kagoshima"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kyushu/kagoshima",
+"ancestors":["kyushu","japan"],
+"nodes":{
+"kagoshima":{"id":"kagoshima","type":"city","name":"Kagoshima","path":"japan/kyushu/kagoshima","country":"japan","region":"kyushu","prefecture":"Kagoshima","coords":[31.596793,130.557195]}
+},
+"edges":[]
+}

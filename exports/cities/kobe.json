@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kansai/kobe","ancestors":["kansai","japan","japan"],"nodes":{"kobe":{"id":"kobe","type":"city","name":"Kobe","path":"japan/kansai/kobe","country":"japan","region":"kansai","prefecture":"Hyogo"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kansai/kobe",
+"ancestors":["kansai","japan"],
+"nodes":{
+"kobe":{"id":"kobe","type":"city","name":"Kobe","path":"japan/kansai/kobe","country":"japan","region":"kansai","prefecture":"Hyogo","coords":[34.693238,135.194376]}
+},
+"edges":[]
+}

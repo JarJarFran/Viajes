@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chubu/matsumoto","ancestors":["chubu","japan","japan"],"nodes":{"matsumoto":{"id":"matsumoto","type":"city","name":"Matsumoto","path":"japan/chubu/matsumoto","country":"japan","region":"chubu","prefecture":"Nagano"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chubu/matsumoto",
+"ancestors":["chubu","japan"],
+"nodes":{
+"matsumoto":{"id":"matsumoto","type":"city","name":"Matsumoto","path":"japan/chubu/matsumoto","country":"japan","region":"chubu","prefecture":"Nagano","coords":[36.238205,137.968714]}
+},
+"edges":[]
+}

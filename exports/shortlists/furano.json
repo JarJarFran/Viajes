@@ -1,6 +1,8 @@
 {
-  "city": "japan/hokkaido/furano",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/hokkaido/furano",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

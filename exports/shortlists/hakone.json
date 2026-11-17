@@ -1,6 +1,8 @@
 {
-  "city": "japan/kanto/hakone",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kanto/hakone",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

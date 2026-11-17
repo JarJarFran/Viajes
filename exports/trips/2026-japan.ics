@@ -1,0 +1,507 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//viajes//travel-graph//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Japan: Osaka → Kyoto → Tokyo (New Year 2026/27)
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:2026-japan-2026-12-26@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Namba / Dotonbori
+DESCRIPTION:[travel] Kansai Airport (KIX) → Osaka (¥990)\n[evening] Doto
+ nbori & Shinsaibashi at night (¥500)\n[dinner] Mizuno (¥2\,000)\nEvents:
+  Osaka Castle Illuminage (winter light show)\, Midosuji Illumination (wint
+ er lights)\nEstimated ¥3\,490 / budget ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2026-12-27@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Osaka Castle / Namba
+DESCRIPTION:[morning] Osaka Castle (¥1\,200)\n[lunch] Kuromon Ichiba Marke
+ t ("Osaka's Kitchen") (¥2\,000)\n[lunch] Shuhari Kuromon ten (¥1\,500)\n
+ [dinner] Menya Joroku Nanba ten (¥999)\nEvents: Osaka Castle Illuminage (
+ winter light show)\, Midosuji Illumination (winter lights)\nEstimated ¥5\
+ ,699 / budget ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2026-12-28@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Himeji day trip
+DESCRIPTION:[day] Day trip Osaka → Himeji Castle (¥5\,860)\n[dinner] Nan
+ iwa Menjiro (¥999)\nEvents: Osaka Castle Illuminage (winter light show)\,
+  Midosuji Illumination (winter lights)\nEstimated ¥6\,859 / budget ¥21\,
+ 006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2026-12-29@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Umeda / Nakanoshima
+DESCRIPTION:[lunch] BOTANI Curry Umeda ten (¥1\,500)\n[afternoon] Umeda Sk
+ y Building (Floating Garden Observatory) (¥2\,000)\n[evening] Midosuji Il
+ lumination (winter lights) (¥0)\n[dinner] Mugi to Mensuke (¥3\,500)\nEve
+ nts: Osaka Castle Illuminage (winter light show)\, Midosuji Illumination (
+ winter lights)\nEstimated ¥7\,000 / budget ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2026-12-30@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Tempozan / Minato-ku
+DESCRIPTION:[morning] Osaka Aquarium Kaiyukan (¥2\,700)\n[lunch] Usami Tei
+  Matsubaya (¥999)\n[afternoon] Tempozan Giant Ferris Wheel (¥1\,000)\n[d
+ inner] NEXT Shikaku (¥999)\nEvents: Osaka Castle Illuminage (winter light
+  show)\, Midosuji Illumination (winter lights)\nEstimated ¥5\,698 / budge
+ t ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2026-12-31@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Namba / Kita — New Year's Eve
+DESCRIPTION:[morning] Amerika-mura (America Village) (¥0)\n[lunch] Okonomi
+  Tamachan Viva (¥4\,500)\n[evening] Midosuji Illumination (winter lights)
+  (¥0)\n[night] Dotonbori & Shinsaibashi at night (¥500)\nEvents: Osaka C
+ astle Illuminage (winter light show)\, Midosuji Illumination (winter light
+ s)\nEstimated ¥5\,000 / budget ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-01@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+TRANSP:TRANSPARENT
+SUMMARY:Osaka · Sumiyoshi / Shinsekai — New Year's Day
+DESCRIPTION:[early] Sumiyoshi Taisha Shrine (¥0)\n[lunch] Daruma (Shinseka
+ i) (¥500)\n[afternoon] Spa World (Shinsekai onsen) (¥1\,500)\n[afternoon
+ ] Shinsekai & Tsutenkaku Tower (¥1\,000)\n[dinner] Ichiran (Dotonbori) (
+ ¥2\,000)\nEvents: Osaka Castle Illuminage (winter light show)\nEstimated 
+ ¥5\,000 / budget ¥21\,006 per person
+LOCATION:Cross Hotel Osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-02@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Osaka → Kyoto (travel day)
+DESCRIPTION:[morning] Kuromon Ichiba Market ("Osaka's Kitchen") (¥2\,000)\
+ n[travel] Osaka ↔ Kyoto (¥580)\n[dinner] Honke Daiichi Asahi Honten (¥
+ 999)\nEvents: Hatsumode (first shrine visit of the year) at Yasaka Shrine\
+ , Osaka Castle Illuminage (winter light show)\nEstimated ¥3\,579 / budget
+  ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-03@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Higashiyama / Gion
+DESCRIPTION:[early] Yasaka Pagoda (Hokan-ji) & Ishibe-koji (¥0)\n[early] H
+ atsumode (first shrine visit of the year) at Yasaka Shrine (¥0)\n[morning
+ ] Sannenzaka & Ninenzaka lanes (¥0)\n[morning] Kiyomizu-dera & Higashiyam
+ a slopes (¥500)\n[lunch] Kyoto Gion Okaru (¥1\,500)\n[evening] Gion & Hi
+ gashiyama at dusk (¥0)\n[dinner] Gion Duck Noodles (¥2\,500)\nEvents: Ha
+ tsumode (first shrine visit of the year) at Yasaka Shrine\nEstimated ¥4\,
+ 500 / budget ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-04@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Ginkaku-ji / Philosopher's Path / Nanzen-ji
+DESCRIPTION:[morning] Philosopher's Path (Tetsugaku-no-michi) (¥0)\n[morni
+ ng] Ginkaku-ji (Silver Pavilion) (¥500)\n[lunch] Yamamoto Menzou (¥1\,50
+ 0)\n[afternoon] Nanzen-ji (brick aqueduct) (¥0)\n[dinner] Menya Inoichi (
+ ¥1\,250)\nEstimated ¥3\,250 / budget ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-05@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Nishiki Market / downtown / Pontocho
+DESCRIPTION:[morning] Nishiki Market ("Kyoto's Kitchen") (¥500)\n[lunch] N
+ ishiki Warai (¥500)\n[afternoon] Kyoto Imperial Palace (Gosho) (¥0)\n[ev
+ ening] Pontocho alley (¥0)\n[dinner] Udon Shiki Kyoto Udon (¥1\,500)\nEs
+ timated ¥2\,500 / budget ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-06@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Arashiyama
+DESCRIPTION:[early] Arashiyama Bamboo Grove & Togetsukyo Bridge (¥0)\n[mor
+ ning] Iwatayama Monkey Park (¥800)\n[lunch] Arashiyama Yoshimura (¥1\,50
+ 0)\n[dinner] Tsukumo Udon Shiokouji honten (¥999)\nEstimated ¥3\,299 / b
+ udget ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-07@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Fushimi — calm day
+DESCRIPTION:[early] Fushimi Inari Taisha (Senbon Torii) (¥0)\n[morning] Fu
+ shimi sake district & Gekkeikan Okura Sake Museum (¥500)\n[lunch] Mugi no
+  Yoake (¥1\,500)\n[dinner] KANEGURA (¥5\,500)\nEstimated ¥7\,500 / budg
+ et ¥21\,006 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-08@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+TRANSP:TRANSPARENT
+SUMMARY:Kyoto · Kita temples + Gion — Toka Ebisu
+DESCRIPTION:[morning] Ryoan-ji (rock garden) (¥600)\n[morning] Kinkaku-ji 
+ (Golden Pavilion) (¥500)\n[lunch] Gontaro Kinkakuji ten (¥1\,500)\n[afte
+ rnoon] Toka Ebisu festival at Ebisu-jinja (Gion) (¥0)\n[evening] Gion & H
+ igashiyama at dusk (¥0)\n[dinner] Gion Yorozuya (¥1\,500)\nEvents: Toka 
+ Ebisu festival at Ebisu-jinja (Gion)\nEstimated ¥4\,100 / budget ¥21\,00
+ 6 per person
+LOCATION:Hotel Granvia Kyoto
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-09@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Shinjuku (arrival)
+DESCRIPTION:[morning] Tokyo Metropolitan Government Building observatory (4
+ 5F) (¥0)\n[travel] Kyoto → Tokyo (Tokaido Shinkansen) (¥14\,090)\n[lun
+ ch] Udon Shin (¥1\,500)\n[dinner] Omoide Yokocho yakitori stalls (¥225)\
+ nEvents: Toka Ebisu festival at Ebisu-jinja (Gion)\, New Year sales & fuku
+ bukuro (lucky bags)\, Tokyo winter illuminations (January)\nEstimated ¥15
+ \,815 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-10@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Ryogoku — Grand Sumo day 1
+DESCRIPTION:[day] Grand Sumo Tournament (Ryogoku Kokugikan\, January) (¥3\
+ ,500)\n[lunch] Hasegawa (tonkatsu) (¥1\,500)\n[dinner] Katsu Pulipo (¥9\
+ ,000)\nEvents: New Year sales & fukubukuro (lucky bags)\, Grand Sumo Tourn
+ ament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (January)
+ \nEstimated ¥14\,000 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-11@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Asakusa / Ueno
+DESCRIPTION:[morning] Senso-ji Temple (Asakusa) (¥0)\n[lunch] Asakusa Rame
+ n Yoroiya (¥999)\n[afternoon] Ueno Park & museums (¥1\,000)\n[dinner] To
+ kyo Tonkatsu Gabuu (¥3\,500)\nEvents: New Year sales & fukubukuro (lucky 
+ bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter
+  illuminations (January)\nEstimated ¥5\,499 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-12@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Tsukiji / Ginza / Marunouchi
+DESCRIPTION:[early] Tsukiji Outer Market (¥1\,500)\n[early] Sushi Nakamura
+  (Tsukiji) (¥3\,500)\n[morning] Ginza (shopping & depachika) (¥500)\n[lu
+ nch] Godaime Hanayama Udon Ginza ten (¥1\,500)\n[evening] Tokyo winter il
+ luminations (January) (¥0)\n[dinner] Niboshi to Nihonshu Sugidama (¥2\,5
+ 00)\nEvents: New Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournam
+ ent (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (January)\n
+ Estimated ¥9\,500 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-13@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Shibuya / Harajuku
+DESCRIPTION:[morning] Shibuya crossing and the Hachiko statue (¥0)\n[morni
+ ng] Shibuya Sky (observation deck) (¥2\,000)\n[lunch] Hayashi (¥1\,499)\
+ n[afternoon] Meiji Shrine (Meiji Jingu) and Yoyogi Park (¥0)\n[dinner] CU
+ RRY UP (¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Gran
+ d Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminatio
+ ns (January)\nEstimated ¥4\,999 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-14@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Toyosu / Odaiba — teamLab day
+DESCRIPTION:[morning] teamLab Planets (Toyosu) (¥3\,600)\n[lunch] Kagawa I
+ ppuku ART (¥999)\n[afternoon] Odaiba island (Gundam\, beach\, Rainbow Bri
+ dge) (¥360)\n[dinner] Udon Shin (¥1\,500)\nEvents: New Year sales & fuku
+ bukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\
+ , Tokyo winter illuminations (January)\nEstimated ¥6\,459 / budget ¥21\,
+ 006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-15@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Akihabara / Kanda / Tokyo Station
+DESCRIPTION:[morning] Akihabara (Electric Town) (¥500)\n[lunch] KAMAYOSHI 
+ (¥999)\n[afternoon] Pokemon Center (Tokyo Station / Nihonbashi) (¥500)\n
+ [dinner] Katsu Kichi Shinmaru biru ten (¥2\,500)\nEvents: New Year sales 
+ & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, Jan
+ uary)\, Tokyo winter illuminations (January)\nEstimated ¥4\,499 / budget 
+ ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-16@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Kamakura day trip
+DESCRIPTION:[travel] Tokyo ↔ Kamakura (¥2\,040)\n[day] Day trip to Kamak
+ ura & Enoshima (¥300)\n[dinner] FISH Shinjuku ten (¥2\,500)\nEvents: New
+  Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kok
+ ugikan\, January)\, Tokyo winter illuminations (January)\nEstimated ¥4\,8
+ 40 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-17@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Azabudai / Roppongi — teamLab Borderless
+DESCRIPTION:[morning] teamLab Borderless (Azabudai Hills) (¥3\,600)\n[lunc
+ h] Roppongi Udon (¥1\,500)\n[afternoon] Mori Art Museum (Roppongi Hills 5
+ 3F) (¥2\,000)\n[dinner] Menson RAGE Azabudai hiruzu (¥1\,500)\nEvents: N
+ ew Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku K
+ okugikan\, January)\, Tokyo winter illuminations (January)\nEstimated ¥8\
+ ,600 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-18@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Yanaka / Ueno — old Tokyo\, calm
+DESCRIPTION:[morning] Yanaka old town (Yanaka Ginza\, Nezu Shrine) (¥0)\n[
+ lunch] Asakusa Hirayama (¥2\,500)\n[afternoon] Ueno Park & museums (¥1\,
+ 000) — PARTIAL: Tokyo National Museum closed\; park open\n[dinner] Taish
+ u Shabushabu Katsuji Ueno (¥5\,500)\nEvents: New Year sales & fukubukuro 
+ (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo
+  winter illuminations (January)\nEstimated ¥9\,000 / budget ¥21\,006 per
+  person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-19@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Kawaguchiko day trip — Mt Fuji
+DESCRIPTION:[day] Day trip to Kawaguchiko (Mt Fuji views) (¥4\,400)\n[dinn
+ er] Kirimugi Ya Jinroku (¥2\,500)\nEvents: New Year sales & fukubukuro (l
+ ucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo w
+ inter illuminations (January)\nEstimated ¥6\,900 / budget ¥21\,006 per p
+ erson
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-20@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Imperial Palace / Hama-rikyu / Shibuya
+DESCRIPTION:[morning] Imperial Palace East Gardens (¥0)\n[morning] Hama-ri
+ kyu Gardens (¥300)\n[lunch] Men Chirashi (¥999)\n[afternoon] New Year sa
+ les & fukubukuro (lucky bags) (¥0)\n[dinner] Tonkatsu Hasegawa Higashi-gi
+ nza (¥3\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Grand S
+ umo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations 
+ (January)\nEstimated ¥4\,799 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-21@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Nikko day trip (UNESCO)
+DESCRIPTION:[day] Day trip to Nikko (Toshogu shrine) (¥9\,500)\n[dinner] U
+ don Manda Jiro (¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags
+ )\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter ill
+ uminations (January)\nEstimated ¥11\,000 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-22@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Nakano / Shimokitazawa (Koenji evening) — last full day
+DESCRIPTION:[morning] Nakano Broadway (¥0)\n[lunch] European Curry Tomato 
+ (¥2\,500)\n[afternoon] Shimokitazawa (¥1\,000)\n[dinner] Usagi (¥999)\n
+ Events: New Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (
+ Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (January)\nEstim
+ ated ¥4\,499 / budget ¥21\,006 per person
+LOCATION:Hotel Gracery Shinjuku
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-japan-2027-01-23@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+TRANSP:TRANSPARENT
+SUMMARY:Tokyo · Departure day
+DESCRIPTION:[morning] Depachika food halls (Isetan Shinjuku / Mitsukoshi Gi
+ nza) (¥2\,000)\n[travel] Haneda Airport (HND) ↔ central Tokyo (?)\n[tra
+ vel] Narita Airport (NRT) ↔ central Tokyo (¥3\,140)\nEvents: New Year s
+ ales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\
+ , January)\, Tokyo winter illuminations (January)\nEstimated ¥5\,140 / bu
+ dget ¥21\,006 per person
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-sumo-tournament-on-sale-2026-12-05@viajes
+DTSTAMP:20260101T000000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T013000Z
+SUMMARY:🎟 Tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan\, Ja
+ nuary)
+DESCRIPTION:general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en)\
+ nEdition 2027-01-10..2027-01-24
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: tickets for Grand Sumo Tournament (Ryogoku Kokugikan\
+ , January)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:In 30 min: tickets for Grand Sumo Tournament (Ryogoku Kokugikan
+ \, January)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-teamlab-planets-book-2027-01-14@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Book: teamLab Planets (Toyosu) (for 2027-01-14)
+DESCRIPTION:Booking required\; reminder 30 days before the visit.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT9H
+DESCRIPTION:Book teamLab Planets (Toyosu) for 2027-01-14
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-teamlab-borderless-book-2027-01-17@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Book: teamLab Borderless (Azabudai Hills) (for 2027-01-17)
+DESCRIPTION:Booking required\; reminder 30 days before the visit.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT9H
+DESCRIPTION:Book teamLab Borderless (Azabudai Hills) for 2027-01-17
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:osaka-kaiyukan-book-2026-12-30@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Book: Osaka Aquarium Kaiyukan (for 2026-12-30)
+DESCRIPTION:Booking reserve\; reminder 7 days before the visit.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT9H
+DESCRIPTION:Book Osaka Aquarium Kaiyukan for 2026-12-30
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kyoto-to-tokyo-book-2027-01-09@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Book: Kyoto → Tokyo (Tokaido Shinkansen) (for 2027-01-09)
+DESCRIPTION:Booking reserve\; reminder 7 days before the visit.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT9H
+DESCRIPTION:Book Kyoto → Tokyo (Tokaido Shinkansen) for 2027-01-09
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-shibuya-sky-book-2027-01-13@viajes
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Book: Shibuya Sky (observation deck) (for 2027-01-13)
+DESCRIPTION:Booking reserve\; reminder 7 days before the visit.
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT9H
+DESCRIPTION:Book Shibuya Sky (observation deck) for 2027-01-13
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,122 +1,103 @@
 # Travels
 
-Repository with **two separate but related knowledge domains**:
+A travel knowledge graph in plain Markdown + YAML frontmatter, with **two separate domains**:
 
-- **`destinations/`** — the knowledge graph of places: country → region → city → activity. Here we store objective, cumulative information about each place (what it is, how to get there, what can be done, prices, opening hours). It does not depend on when we go.
-- **`trips/`** — our actual trips: dates, stops per day, what we did, where we slept, real expenses, ratings and affinity. Subjective, time-bound information.
+- **`destinations/`** — objective, cumulative knowledge of places: country → region → city → areas, activities, events, restaurants, hotels, plus routes between cities. It does not depend on when we go.
+- **`trips/`** — our trips: stops (where we sleep), one file per day with the plan, and afterwards what we did, ratings and real expenses.
 
-The two domains connect only through **references between ids**: a trip points at `destinations/` nodes (`stops[].place`, `stops[].activities`), and `destinations/` nodes point back at trips (`trips`, `done_in`). Content is never mixed between the two.
+The domains connect only through **id references** (a day's `plan` points at destination ids); every backlink (`done_in`, events during a trip, sights near a restaurant…) is **derived** into `exports/`, never written by hand. The repo is **agent-first**: frontmatter is the data, bodies are human prose, and the committed `exports/` plus `scripts/query.py` are the cheap read path — see [AGENTS.md](AGENTS.md).
 
-Everything lives in plain Markdown with **YAML frontmatter** as the source of truth. This repo is **consumed by agents/LLMs**: the frontmatter is the machine-readable data (node bodies are human prose — skip them), and the committed `exports/` JSON files plus `scripts/query.py` are the token-efficient read path. See [AGENTS.md](AGENTS.md) for the read order and query examples, and [schema.yaml](schema.yaml) for types, required keys and vocabularies.
-
-## The two graphs and their edges
+## Quick start
 
 ```
-DESTINATIONS DOMAIN (knowledge of the place)        TRIPS DOMAIN (our experience)
+pip install -r requirements.txt
+python3 scripts/sync.py              # create day files, normalize nodes, rebuild generated blocks and exports/
+python3 scripts/validate_graph.py    # must print "Graph consistent" (CI also runs sync --check and the tests)
+python3 -m unittest discover -s tests
 
-country ──contains──▶ region ──contains──▶ city ──has──▶ activity
-                                                               ▲
-trip ──stops.place────────────────────────────▶ destination node ┘
-trip ──stops.activities───────────────────────▶ activity record
-     ◀── trips (backlink) ─── destination node
-     ◀── done_in (backlink) ─── activity record
+python3 scripts/query.py day --trip 2026-japan --date 2027-01-10      # one day: plan, costs, closures, events
+python3 scripts/query.py near --id tokyo-sensoji --type restaurant     # where to eat around a sight
+python3 scripts/query.py deadlines --trip 2026-japan --upcoming        # ticket sales and booking reminders
 ```
 
-| | `destinations/` | `trips/` |
-|---|---|---|
-| What it stores | What exists in each place, objective data | What we did, subjective data |
-| Examples | "Kyoto has Kinkaku-ji temple, entry 500 ¥" | "On 12/04/2025 we visited Kinkaku-ji, loved it, 5/5" |
-| Changes over time | Rarely (hours, prices) | With every new trip |
-| Typical fields | `id`, `path`, `contains`, `category`, `approx_cost` | `start`, `end`, `stops`, `total_cost`, `rating`, `affinity` |
+**For the trip itself:** import [exports/trips/2026-japan.ics](exports/trips/2026-japan.ics) into the phone calendar (one event per day + ticket-sale alarms + booking reminders) and save [exports/trips/2026-japan.html](exports/trips/2026-japan.html) on the phone — a self-contained page that works offline, with Japanese names/addresses for taxis, a schematic map per day and the cost of each day. GitHub renders [exports/maps/](exports/maps/) and [exports/trips/2026-japan.geojson](exports/trips/2026-japan.geojson) as interactive maps.
 
-## Node types and where they live
+## Node types
 
-| Type | Folder | File |
+| Type | Lives in | Key fields |
 |---|---|---|
-| Country | `destinations/<country>/` | `README.md` |
-| Region | `destinations/<country>/regions/<region>/` | `README.md` |
-| City | `destinations/<country>/regions/<region>/cities/<city>/` | `README.md` |
-| Activity | `.../cities/<city>/activities/<activity>.md` | single file |
-| Event | `.../cities/<city>/events/<event>.md` | single file, with `start`/`end` dates |
-| Restaurant | `.../cities/<city>/restaurants/<restaurant>.md` | single file |
-| Hotel | `.../cities/<city>/hotels/<hotel>.md` | single file |
-| Trip | `trips/<trip-id>/` | `README.md` |
-| Profile (our likes) | root | `profile.yaml` |
-| Templates | `_templates/` | one per node type |
+| country | `destinations/<country>/README.md` | `holidays` (used by closure rules) |
+| region | `destinations/<country>/regions/<region>/README.md` | `path`, `country` |
+| city | `.../regions/<region>/cities/<city>/README.md` | `path`, `country`, `region`, `coords` |
+| area | `.../cities/<city>/areas/<id>.md` | neighbourhood centroid + `aliases` |
+| activity | `.../cities/<city>/activities/<id>.md` | `category`, `entry`, `cost_yen`, `hours`, `closed` rules, `booking` |
+| event | `.../cities/<city>/events/<id>.md` | `recurrence` + `editions: [{start, end, on_sale}]` |
+| restaurant | `.../cities/<city>/restaurants/<id>.md` | `area`, `budget_lunch_yen`/`budget_dinner_yen`, `tabelog_rating`, `station` |
+| hotel | `.../cities/<city>/hotels/<id>.md` | `area`, `price_range` |
+| route | `destinations/<country>/routes/<id>.md` | `origin`, `destination`, `mode`, `price_yen` |
+| trip | `trips/<trip>/README.md` | `stops` (check-in/check-out, contiguous) |
+| day | `trips/<trip>/days/YYYY-MM-DD.md` | `place`, `stay`, `plan: [{slot, id}]`, `done`, `expenses` |
+
+Templates for every type are in [_templates/](_templates/); [schema.yaml](schema.yaml) lists every allowed key (unknown keys are errors) and the vocabularies.
 
 ## Conventions
 
-- **id**: unique, stable lowercase slug (`japan`, `kanto`, `tokyo`, `tokyo-sensoji`, `2026-japan`). Never reused.
-- **path**: the node's route inside the destinations graph, e.g. `japan/kanto/tokyo`. It is independent of the physical folder and is used to link across domains.
-- **Edges inside `destinations/`**:
-  - Country → `contains: [regions]`; Region → `contains: [cities]` and `country: japan`; City → `region: kanto`.
-  - Activity → `place: japan/kanto/tokyo`.
-- **Edges across domains**:
-  - Trip → `stops: [{ from, to, place: japan/kanto/tokyo, activities: [tokyo-sensoji], accommodation, notes }]` (a stop is a stay of one or more days at a destination node).
-  - Backlinks: in the destination node `trips: [2026-japan]`; in the activity `done_in: [2026-japan]`.
-- **Activity classification**: every activity has `entry: free | paid | mixed | n/a` (free sight vs paid entry vs free-to-enter-with-typical-spend vs transport) and optionally `area:` (neighborhood) to group a day by zone. Restaurants are their own node type (`restaurants/`) with `price_range: ¥–¥¥¥¥` and `area:` — separate from food *activities* (markets, street food, food tours).
-- **Tags**: activities carry `tags: [...]` to mark what kind of place they are and how popular: `touristic` (recognized tourist sight), `top50` / `top100` (in the city's top 50 / top 100 most popular, per Tripadvisor/Trip.com rankings), `iconic`, `unesco`, `hidden-gem`, plus `night`, `event`, `kid-friendly`, `rainy-day`.
-- **Events**: `event` nodes have `start`/`end`. A trip lists the events overlapping its dates in its `events:` field. Query: "all events during trip 2026-japan" = events with `start <= 2027-01-23` and `end >= 2026-12-26`.
-- **Practical fields on activities**: `hours`, `closed` (closing days/seasonal closures), `booking` (walk-in | reserve | required), `near` (ids of activities in the same zone, for walking routes). Query examples: "what needs advance booking in Tokyo" = activities with `place: japan/kanto/tokyo` and `booking: required`; "walking cluster around Gion" = activities with `kyoto-gion-higashiyama` in `near`.
-- Example queries over the frontmatter: "all free activities in Kyoto" = activities with `place: japan/kansai/kyoto` and `entry: free`; "top 50 sights of Tokyo" = activities with `place: japan/kanto/tokyo` and `top50` in `tags`; "cheap eats in Tokyo" = restaurants with `place: japan/kanto/tokyo` and `price_range` of ¥ or ¥¥; "hotels in Shibuya" = hotels with `place: japan/kanto/tokyo` and `area` containing Shibuya; "top-rated and under ¥5,000 in Osaka" = restaurants with `place: japan/kansai/osaka`, `tabelog_rating > 3.5` and `price_range` without ¥¥¥¥ (restaurants also carry `tags: [top-rated]` when rating > 3.5).
-- **Affinity**: in `trips/`, each trip and its stops carry `affinity: 1-5` and `likes: [tags]` (our subjective rating). In `destinations/`, nodes may carry `affinity` as an accumulated summary from trips. Tags come from `profile.yaml`.
-- The rating of an activity done on a trip is noted on the corresponding day of the trip; the activity record may keep a summary `rating`.
-- All content in English; Japanese proper names keep their usual romanized form.
+- **ids** are stable lowercase slugs (`tokyo-sensoji`, `kyoto-area-gion`, `2026-japan-2027-01-10`); **paths** (`japan/kanto/tokyo`) identify cities for `place`, `origin`, `destination`, `visits`.
+- **Stops**: `from` = check-in, `to` = check-out; consecutive stops must chain so every night has exactly one hotel. A day's `place`/`stay` = where we sleep that night.
+- **Plans**: a day may use nodes of that night's city, the previous night's city (travel days) and its `visits` (day trips). The validator checks cities, event dates and closures (`closed` rules with weekly / nth-weekday / yearly / one-off dates and public-holiday shifts; `partial` closures are warnings).
+- **Money**: `cost_yen` / `price_yen` / restaurant budgets are per person; day estimates are compared with `budget.daily_eur_per_person` × the ECB rate in [profile.yaml](profile.yaml) (`scripts/update_fx.py` refreshes it). Hotels are not counted.
+- **Freshness**: `verified: YYYY-MM` records when hours/prices were last checked; `query.py stale --trip <id>` lists what to re-check before travelling.
+- **Coordinates** come from OpenStreetMap via `scripts/geocode.py` with a `coords_precision` (`exact`, `station` = restaurant's nearest station, `area`). Data © OpenStreetMap contributors (ODbL).
+- Content in English; Japanese names in `name_ja` / `address_ja`.
+
+## Architecture
+
+```
+SOURCE OF TRUTH (hand-edited Markdown, frontmatter = data)
+  destinations/…  trips/<trip>/README.md  trips/<trip>/days/*.md  profile.yaml  schema.yaml
+        │  scripts/sync.py — creates day files, normalizes frontmatter, fills <!-- gen:start X --> blocks
+        ▼
+EXPORTS (committed; CI fails if stale) — one record per line, so diffs stay readable
+  exports/index.json              whole graph: nodes + typed edges (incl. derived nearby / in_area / done_in)
+  exports/cities/<city>.json      one city: its nodes, routes and edges
+  exports/shortlists/<city>.json  best options: top sights, strict restaurants, events, routes, areas
+  exports/maps/<city>.geojson     map of the city (GitHub renders it)
+  exports/trips/<trip>.json       computed trip: per-day items, cost estimates, closures, events, deadlines
+  exports/trips/<trip>.ics        calendar: days, ticket sales (with alarms), booking reminders
+  exports/trips/<trip>.html       offline page for the phone
+  exports/trips/<trip>.geojson    route of every day on a map
+        │  scripts/validate_graph.py — schema, references, file locations, trip/day rules, closures, links
+        ▼
+QUERIES  scripts/query.py   ·   LOGGING  scripts/log.py   ·   DATA  scripts/geocode.py, scripts/update_fx.py
+```
 
 ## How to add things
 
-1. **Is it knowledge about a place?** → goes in `destinations/`, using a `_templates/` template (country, region, city or activity). Give it a new `id`, fill in the frontmatter, and update `contains`/`place` in the parent node.
-2. **Is it something we did or are going to do?** → goes in `trips/<trip-id>/`, using `_templates/trip.md`. Each stop references `destinations/` nodes by their `path`/id, and when logging the stop, add the backlink (`trips` in the destination node, `done_in` in the activity).
+1. **Knowledge about a place** → copy the right `_templates/<type>.md` into `destinations/`, fill the frontmatter (`place: <country>/<region>/<city>`), run `python3 scripts/geocode.py` for coordinates.
+2. **A trip** → copy `_templates/trip.md` into `trips/<id>/README.md` with its stops, run `scripts/sync.py` (it creates the day files), then fill each day's `plan`.
+3. Run `python3 scripts/sync.py && python3 scripts/validate_graph.py` and commit everything, exports included.
 
-## Open data sources (for researching destinations programmatically)
+## Open data sources
 
 - [data.go.jp](https://www.data.go.jp/) — Japan national open data portal
 - [MLIT multilingual sightseeing DB](https://www.mlit.go.jp/tagengo-db/en/index.html) — official sightseeing info by prefecture, in English
 - [Tokyo Open Data](https://portal.data.metro.tokyo.lg.jp/) and [Tokyo Tourism Data Catalog](https://data.tourism.metro.tokyo.lg.jp/en/) — Tokyo Metropolitan Government datasets
 - [Public Transportation Open Data Center (ODPT)](https://ckan.odpt.org/) — GTFS/GTFS-RT feeds for JR East, Tokyo Metro, Kyoto City Subway, etc.
 - [e-Stat API](https://www.e-stat.go.jp/api/) — official statistics of Japan
-- **Tabelog (restaurant data)**: no official API. Use [tabelog.com/en](https://tabelog.com/en/) manually (907k+ restaurants, search by area/cuisine/budget; score 0–5, 3.5+ = excellent) and link each restaurant node via its `tabelog:` field. For bulk data: pre-scraped datasets on Kaggle (e.g. "Tokyo Restaurant Reviews on Tabelog", "Kyoto Restaurant Reviews Dataset"). Unofficial scrapers exist on GitHub (RTabelog, gurume CLI, tabetree_api, Apify actors) but Tabelog rate-limits/blocks mass scraping (reCAPTCHA) and its ToS disallow it — prefer the website or the published datasets.
-
-
-## Architecture
-
-```
-SOURCE OF TRUTH (hand-edited): node .md files, frontmatter = data, body = optional prose
-  destinations/<country>/<region>/<city>/{activities,events,restaurants,hotels}/*.md
-  trips/<trip>/README.md  +  trips/<trip>/days/YYYY-MM-DD.md
-        │  scripts/sync.py  (normalizes nodes, creates day files, rebuilds exports + generated README sections)
-        ▼
-EXPORTS (committed, agent-facing, regenerated by sync.py — CI checks they are fresh):
-  exports/index.json            whole graph: nodes + typed edges
-  exports/cities/<city>.json    one city slice (nodes + edges + ancestors)
-  exports/shortlists/<city>.json  best options per city: top50/top100 sights + strict restaurants + events
-  exports/trips/<trip>.json     trip + day nodes + edges + related node summaries
-        │  scripts/validate_graph.py (schema.yaml + reference integrity) — runs in CI (.github/workflows/validate.yml)
-        ▼
-QUERIES: scripts/query.py (stats | node | restaurants | activities | events | hotels | cluster | day | plan | shortlist)
-```
-
-- **Edges are derived from scalar fields** (`place`, `country`, `region`, `path`, `near`, `done_in`, trip `stops`/`days`/`events`, day `plan`/`stay`/`events`) and materialized in `exports/index.json`. Parent→child lists (`contains`, city `activities`/`restaurants`/...) are NOT stored in node frontmatter — `scripts/sync.py` strips them; they exist only in the exports.
-- **Empty optional fields are stripped** from frontmatter by `sync.py` to keep nodes compact.
-- Trip days: one small file per day in `trips/<trip>/days/` (`date`, `place`, `stay`, `area`, `plan`, `events`, `notes`), created automatically by `sync.py` from the trip window and listed in the trip's `days:` field.
-- To add/change a node: copy `_templates/<type>.md`, fill it, then `python3 scripts/sync.py && python3 scripts/validate_graph.py` (CI enforces both, plus `sync.py --check`).
+- [OpenStreetMap Nominatim](https://nominatim.org/) — geocoding used by `scripts/geocode.py` (max 1 request/second)
+- [ECB euro reference rates](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) — EUR/JPY for budgets
+- **Tabelog (restaurant data)**: no official API. Use [tabelog.com/en](https://tabelog.com/en/) manually (score 0–5, 3.5+ = excellent). Put the restaurant's own page in `tabelog:`; when the score was read on a list page, keep that URL in `tabelog_list:` (most current nodes — the validator reports how many still lack their own page). Tabelog's ToS disallow mass scraping.
 
 ## Index
 
-- [AGENTS.md](AGENTS.md) — how agents should read/query this repo (token-efficient read order)
-- [schema.yaml](schema.yaml) — node types, required keys, vocabularies (enforced by CI)
-- [profile.yaml](profile.yaml) — what we like (basis for affinity)
-- [destinations/](destinations/) — knowledge graph of countries, regions, cities, activities, events, restaurants, hotels
-- [trips/](trips/) — trips done and planned, with `days/` per day
-- [exports/](exports/) — generated JSON artifacts for agents (index / cities / shortlists / trips)
-- [scripts/](scripts/) — common.py, validate_graph.py, sync.py, query.py
-- [_templates/](_templates/) — template for each node type (incl. day.md)
+- [AGENTS.md](AGENTS.md) — how agents should read/query this repo
+- [schema.yaml](schema.yaml) · [profile.yaml](profile.yaml) · [_templates/](_templates/)
+- [destinations/](destinations/) · [trips/](trips/) · [exports/](exports/) · [scripts/](scripts/) · [tests/](tests/)
 
 <!-- gen:start catalog -->
-
 ## Catalog size (generated by `scripts/sync.py` — do not edit by hand)
 
-- Nodes: 575 (111 activity, 36 city, 1 country, 29 day, 8 event, 9 hotel, 8 region, 372 restaurant, 1 trip); edges: 1307
-- Restaurants per city (total / Tabelog >= 3.5 and < ¥5,000/person): kyoto: 110/51, osaka: 130/51, tokyo: 132/61
-
+- Nodes: 611 (103 activity, 36 area, 36 city, 1 country, 29 day, 8 event, 9 hotel, 8 region, 372 restaurant, 8 route, 1 trip); edges: 2600
+- Restaurants per city (total / Tabelog >= 3.5 with a meal <= ¥4,999/person): kyoto: 110/52, osaka: 130/60, tokyo: 132/72
+- Geolocated places: 524/528 (OpenStreetMap)
 <!-- gen:end catalog -->

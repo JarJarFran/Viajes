@@ -1,6 +1,8 @@
 {
-  "city": "japan/kyushu/naha",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kyushu/naha",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

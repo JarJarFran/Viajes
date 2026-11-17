@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/chugoku/hiroshima","ancestors":["chugoku","japan","japan"],"nodes":{"hiroshima":{"id":"hiroshima","type":"city","name":"Hiroshima","path":"japan/chugoku/hiroshima","country":"japan","region":"chugoku","prefecture":"Hiroshima"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/chugoku/hiroshima",
+"ancestors":["chugoku","japan"],
+"nodes":{
+"hiroshima":{"id":"hiroshima","type":"city","name":"Hiroshima","path":"japan/chugoku/hiroshima","country":"japan","region":"chugoku","prefecture":"Hiroshima","coords":[34.397132,132.475882]}
+},
+"edges":[]
+}

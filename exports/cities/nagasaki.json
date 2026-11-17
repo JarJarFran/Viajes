@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/kyushu/nagasaki","ancestors":["kyushu","japan","japan"],"nodes":{"nagasaki":{"id":"nagasaki","type":"city","name":"Nagasaki","path":"japan/kyushu/nagasaki","country":"japan","region":"kyushu","prefecture":"Nagasaki"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/kyushu/nagasaki",
+"ancestors":["kyushu","japan"],
+"nodes":{
+"nagasaki":{"id":"nagasaki","type":"city","name":"Nagasaki","path":"japan/kyushu/nagasaki","country":"japan","region":"kyushu","prefecture":"Nagasaki","coords":[32.750161,129.8781]}
+},
+"edges":[]
+}

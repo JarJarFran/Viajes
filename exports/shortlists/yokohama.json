@@ -1,6 +1,8 @@
 {
-  "city": "japan/kanto/yokohama",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/kanto/yokohama",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }

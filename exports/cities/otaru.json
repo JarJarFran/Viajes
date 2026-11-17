@@ -1,1 +1,9 @@
-{"schema":1,"city":"japan/hokkaido/otaru","ancestors":["hokkaido","japan","japan"],"nodes":{"otaru":{"id":"otaru","type":"city","name":"Otaru","path":"japan/hokkaido/otaru","country":"japan","region":"hokkaido","prefecture":"Hokkaido"}},"edges":[]}
+{
+"schema":2,
+"city":"japan/hokkaido/otaru",
+"ancestors":["hokkaido","japan"],
+"nodes":{
+"otaru":{"id":"otaru","type":"city","name":"Otaru","path":"japan/hokkaido/otaru","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[43.190681,140.994602]}
+},
+"edges":[]
+}

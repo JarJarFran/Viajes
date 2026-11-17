@@ -1,6 +1,8 @@
 {
-  "city": "japan/chubu/nagoya",
-  "activities_top": [],
-  "restaurants_strict": [],
-  "events": []
+ "city": "japan/chubu/nagoya",
+ "areas": [],
+ "activities_top": [],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": []
 }
