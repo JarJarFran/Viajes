@@ -7,8 +7,9 @@ recurrence: Tokyo tournaments every January, May and September (15 days each)
 editions:
   - start: 2027-01-10
     end: 2027-01-24
+    presale: 2026-12-02T11:00:00+09:00
     on_sale: 2026-12-05T10:00:00+09:00
-    note: general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en)
+    note: presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp)
 duration_hours: 4
 approx_cost: from ¥3,500 (2nd-floor seats more); tickets via official site/ convenience stores
 cost_yen: 3500
@@ -21,7 +22,7 @@ coords: [35.696876, 139.793457]
 coords_precision: exact
 name_ja: 両国国技館
 address_ja: 〒130-0015 東京墨田区横網横網一丁目28
-verified: 2026-11
+verified: '2026-11-17'
 ---
 
 # Grand Sumo Tournament (Ryogoku Kokugikan, January)

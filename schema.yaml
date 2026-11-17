@@ -84,7 +84,7 @@ types:
 
 # Keys of the mappings nested in list fields.
 nested:
-  editions: {required: [start, end], keys: [start, end, on_sale, note]}
+  editions: {required: [start, end], keys: [start, end, presale, on_sale, note]}
   stops: {required: [from, to, place], keys: [from, to, place, accommodation, price_per_night_yen, notes]}
   plan: {required: [id], keys: [slot, id, yen, note]}
   done: {required: [id], keys: [id, rating, note]}

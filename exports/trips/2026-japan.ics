@@ -418,14 +418,38 @@ DESCRIPTION:[morning] Depachika food halls (Isetan Shinjuku / Mitsukoshi Gi
  dget ¥21\,006 per person
 END:VEVENT
 BEGIN:VEVENT
+UID:tokyo-sumo-tournament-presale-2026-12-02@viajes
+DTSTAMP:20260101T000000Z
+DTSTART:20261202T020000Z
+DTEND:20261202T023000Z
+SUMMARY:🎟 Pre-sale lottery opens: Grand Sumo Tournament (Ryogoku Kokugik
+ an\, January)
+DESCRIPTION:presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 
+ 11:00 JST)\; general sale on Ticket Oosumo (sumo.pia.jp)\nEdition 2027-01-
+ 10..2027-01-24
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Tomorrow: tickets for Grand Sumo Tournament (Ryogoku Kokugikan\
+ , January)
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:In 30 min: tickets for Grand Sumo Tournament (Ryogoku Kokugikan
+ \, January)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:tokyo-sumo-tournament-on-sale-2026-12-05@viajes
 DTSTAMP:20260101T000000Z
 DTSTART:20261205T010000Z
 DTEND:20261205T013000Z
 SUMMARY:🎟 Tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan\, Ja
  nuary)
-DESCRIPTION:general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en)\
- nEdition 2027-01-10..2027-01-24
+DESCRIPTION:presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 
+ 11:00 JST)\; general sale on Ticket Oosumo (sumo.pia.jp)\nEdition 2027-01-
+ 10..2027-01-24
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-P1D

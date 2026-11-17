@@ -106,7 +106,8 @@ Daily budget: ¥21,006 per person (€120 × 175.05 ECB 2026-11-17).
 Computed from event ticket sales and the `booking` of planned items (also in `exports/trips/2026-japan.ics`):
 
 <!-- gen:start deadlines -->
-- [ ] **2026-12-05 10:00:00+09:00** — tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan, January) (general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en))
+- [ ] **2026-12-02 11:00:00+09:00** — pre-sale lottery opens: Grand Sumo Tournament (Ryogoku Kokugikan, January) (presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp))
+- [ ] **2026-12-05 10:00:00+09:00** — tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan, January) (presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp))
 - [ ] **2026-12-15** — book teamLab Planets (Toyosu) for 2027-01-14 (required, 30 days ahead)
 - [ ] **2026-12-18** — book teamLab Borderless (Azabudai Hills) for 2027-01-17 (required, 30 days ahead)
 - [ ] **2026-12-23** — book Osaka Aquarium Kaiyukan for 2026-12-30 (reserve, 7 days ahead)

@@ -134,13 +134,12 @@ def deadlines(nodes, trip, day_views, schema=SCHEMA):
         if e.get("type") != "event" or e.get("place") not in places:
             continue
         for ed in editions_overlapping(e, a, b):
-            if ed.get("on_sale"):
-                when = ed["on_sale"]
-                key = (eid, "on_sale")
-                if key in seen:
+            for kind in ("presale", "on_sale"):
+                when = ed.get(kind)
+                if not when or (eid, kind) in seen:
                     continue
-                seen.add(key)
-                out.append({"kind": "on_sale", "id": eid, "name": e.get("name"),
+                seen.add((eid, kind))
+                out.append({"kind": kind, "id": eid, "name": e.get("name"),
                             "when": when.isoformat() if hasattr(when, "isoformat") else str(when),
                             "date": str(d(when)), "note": ed.get("note"),
                             "for": f"{ed['start']}..{ed['end']}"})

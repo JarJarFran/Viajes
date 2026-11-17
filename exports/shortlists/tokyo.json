@@ -1887,8 +1887,9 @@
     {
      "start": "2027-01-10",
      "end": "2027-01-24",
+     "presale": "2026-12-02 11:00:00+09:00",
      "on_sale": "2026-12-05 10:00:00+09:00",
-     "note": "general sale opens 10:00 JST on Ticket Oosumo (sumo.pia.jp/en)"
+     "note": "presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp)"
     }
    ],
    "entry": "paid",

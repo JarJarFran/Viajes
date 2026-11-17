@@ -217,7 +217,7 @@ def build_ics(trip, view):
                         "TRANSP:TRANSPARENT"],
               summary, "\n".join(lines), v["stay"]["name"] if v.get("stay") else None)
     for dl in view["deadlines"]:
-        if dl["kind"] == "on_sale":
+        if dl["kind"] in ("on_sale", "presale"):
             when = datetime.fromisoformat(dl["when"]) if "T" in dl["when"] else None
             if when and when.tzinfo:
                 u = when.astimezone(timezone.utc)
@@ -225,7 +225,8 @@ def build_ics(trip, view):
             else:
                 day = d(dl["date"])
                 start = [f"DTSTART;VALUE=DATE:{day:%Y%m%d}", f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}"]
-            event(f"{dl['id']}-on-sale-{dl['date']}", start, f"🎟 Tickets on sale: {dl['name']}",
+            label = "Tickets on sale" if dl["kind"] == "on_sale" else "Pre-sale lottery opens"
+            event(f"{dl['id']}-{dl['kind'].replace('_', '-')}-{dl['date']}", start, f"🎟 {label}: {dl['name']}",
                   f"{dl.get('note') or ''}\nEdition {dl['for']}".strip(), None,
                   [("-P1D", f"Tomorrow: tickets for {dl['name']}"), ("-PT30M", f"In 30 min: tickets for {dl['name']}")])
         else:
@@ -339,7 +340,8 @@ def build_html(trip, view, day_bodies):
     if v0["deadlines"]:
         H.append("<h2>Deadlines</h2><table><tr><th>When</th><th>What</th></tr>")
         for dl in v0["deadlines"]:
-            what = (f"Tickets on sale: {dl['name']}" if dl["kind"] == "on_sale" else f"Book {dl['name']} (for {dl['for']})")
+            what = {"on_sale": f"Tickets on sale: {dl['name']}", "presale": f"Pre-sale lottery opens: {dl['name']}"}.get(
+                dl["kind"], f"Book {dl['name']} (for {dl['for']})")
             when = dl.get("when", dl["date"]).replace("T", " ")
             H.append(f"<tr><td>{_e(when)}</td><td>{_e(what)}</td></tr>")
         H.append("</table>")

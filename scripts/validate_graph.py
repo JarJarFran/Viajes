@@ -186,8 +186,10 @@ def validate(root=REPO, today=None):
                         err(f"{fp}: edition {ed} needs start/end dates")
                     elif d(ed["start"]) > d(ed["end"]):
                         err(f"{fp}: edition starts after it ends")
-                    elif ed.get("on_sale") is not None and not _is_date(ed["on_sale"]):
-                        err(f"{fp}: edition on_sale is not a date/datetime")
+                    else:
+                        for k in ("presale", "on_sale"):
+                            if ed.get(k) is not None and not _is_date(ed[k]):
+                                err(f"{fp}: edition {k} is not a date/datetime")
         if t == "country":
             for h in n.get("holidays") or []:
                 if not _is_date(h):

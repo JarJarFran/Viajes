@@ -5,7 +5,7 @@ name: <Event name>
 place: <country>/<region>/<city>
 recurrence: "yearly, <when>"        # human description of how it repeats
 editions:                           # one entry per year/edition
-  - {start: YYYY-MM-DD, end: YYYY-MM-DD, on_sale: YYYY-MM-DDTHH:MM:SS+09:00, note: "where tickets are sold"}
+  - {start: YYYY-MM-DD, end: YYYY-MM-DD, presale: YYYY-MM-DDTHH:MM:SS+09:00, on_sale: YYYY-MM-DDTHH:MM:SS+09:00, note: "where tickets are sold"}
 cost_yen: 0
 approx_cost: free
 entry: <free | paid | mixed>

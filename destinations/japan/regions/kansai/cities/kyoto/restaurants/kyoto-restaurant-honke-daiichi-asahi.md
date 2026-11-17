@@ -7,9 +7,12 @@ area: kyoto-area-kyoto-station
 cuisine: ramen
 price_range: ¥
 budget_yen: [null, 999]
+tabelog: https://tabelog.com/en/kyoto/A2601/A260101/26000873/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.74
 tags: [top-rated]
+closed:
+  - {weekly: [thu]}
 coords: [34.986443, 135.758446]
 coords_precision: area
 verified: 2026-11

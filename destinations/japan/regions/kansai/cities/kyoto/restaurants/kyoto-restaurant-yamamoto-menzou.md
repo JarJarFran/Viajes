@@ -8,9 +8,12 @@ area_detail: Higashiyama (near Ginkaku-ji)
 cuisine: udon
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26002504/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.95
 tags: [top-rated]
+closed:
+  - {irregular: listings disagree (Wednesday or Thursday) — check the Tabelog page}
 station: Higashiyama
 station_m: 729
 coords: [35.014273, 135.784792]

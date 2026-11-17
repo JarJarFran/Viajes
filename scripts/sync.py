@@ -86,8 +86,9 @@ def trip_blocks(trip, view, nodes):
     bud.append(f"| **total** | | **{_yen(t['est_yen'])}** | {_yen(t['budget_yen'])} budget | {_yen(t['spent_yen'])} | |")
     dl = []
     for x in view["deadlines"]:
-        if x["kind"] == "on_sale":
-            dl.append(f"- [ ] **{x['when'].replace('T', ' ')}** — tickets on sale: {x['name']} ({x.get('note') or ''})")
+        if x["kind"] in ("on_sale", "presale"):
+            what = "tickets on sale" if x["kind"] == "on_sale" else "pre-sale lottery opens"
+            dl.append(f"- [ ] **{x['when'].replace('T', ' ')}** — {what}: {x['name']} ({x.get('note') or ''})")
         else:
             dl.append(f"- [ ] **{x['date']}** — book {x['name']} for {x['for']} ({x['booking']}, {x['lead_days']} days ahead)")
     days = ["| Date | City | Title | Plan | Est. |", "|---|---|---|---|---|"]
