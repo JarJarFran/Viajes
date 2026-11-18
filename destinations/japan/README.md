@@ -10,6 +10,11 @@ capital: tokyo
 timezone: UTC+9
 plugs: type A/B (100 V)
 holidays: [2026-11-23, 2027-01-01, 2027-01-11, 2027-02-11, 2027-02-23]
+emergency:
+  police: '110'
+  fire_ambulance: '119'
+  japan_visitor_hotline: 050-3816-2787 (24 h; from abroad +81-50-3816-2787; English, Chinese, Korean)
+verified: '2026-11-18'
 ---
 
 # Japan
@@ -23,6 +28,12 @@ holidays: [2026-11-23, 2027-01-01, 2027-01-11, 2027-02-11, 2027-02-23]
 - Connectivity: an eSIM or pocket wifi at the airport is recommended.
 - Safety: one of the safest countries in the world; still, in very touristy areas keep an eye on your pockets.
 - Rail passes: for a Tokyo–Kyoto–Osaka golden route the **JR Pass (7-day ¥53,000 since 2026-10-01) does NOT pay off** — point-to-point Hikari shinkansen tickets cost ~¥29,000 total. Use an IC card (Suica/Pasmo/ICOCA) for subways and local trains. Nozomi/Mizuho need a paid supplement even with a pass.
+
+## Practical (checked 2026-11-18)
+
+- **Emergencies**: police **110**, fire/ambulance **119**. **Japan Visitor Hotline** (JNTO, 24 h, English): **050-3816-2787**.
+- **Tax-free shopping changed on 2026-11-01**: you now pay the 10 % consumption tax in the shop and claim it back at customs when leaving Japan (kiosks before check-in) — keep receipts and the goods together, carry your passport, don't use consumables before departure. No minimum spend.
+- **IC cards** (Suica / PASMO / ICOCA) work on trains, subways and buses nationwide and in convenience stores.
 
 ## Regions
 

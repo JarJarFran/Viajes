@@ -77,7 +77,8 @@ def trip_blocks(trip, view, nodes):
                   f"{e['place'].split('/')[-1].capitalize()} | {ours} | {', '.join(x[5:] for x in e['in_plan']) or '—'} |")
     b = view["budget"].get("daily_yen")
     bud = [f"Daily budget: {_yen(b)} per person (€{view['budget'].get('daily_eur_per_person')} × "
-           f"{view['budget'].get('eur_jpy')} ECB {view['budget'].get('eur_jpy_date')}).", "",
+           f"{view['budget'].get('eur_jpy')} ECB {view['budget'].get('eur_jpy_date')}). Planned = plan items + "
+           "local transport of the city (`local_transport_day_yen`).", "",
            "| Date | City | Planned | vs budget | Spent | Unpriced items |", "|---|---|---|---|---|---|"]
     for v in view["days"]:
         diff = "" if not b else (f"+{_yen(v['est_yen'] - b)}" if v["est_yen"] > b else "ok")
@@ -120,6 +121,18 @@ def _ranges(dates):
         if x:
             a = prev = x
     return ", ".join(out)
+
+
+def practical_info(nodes, trip):
+    """Emergency numbers of the trip's country + every hotel with its nights, for the offline page."""
+    hotels = []
+    for s in trip.get("stops") or []:
+        h = nodes.get(s.get("accommodation"))
+        if h:
+            hotels.append({"name": h.get("name"), "name_ja": h.get("name_ja"), "address_ja": h.get("address_ja"),
+                           "check_in": h.get("check_in"), "check_out": h.get("check_out"), "phone": h.get("phone"),
+                           "nights": f"{s['from']} → {s['to']}"})
+    return {"emergency": (nodes.get(trip.get("country")) or {}).get("emergency") or {}, "hotels": hotels}
 
 
 def catalog_block(nodes, edges):
@@ -215,7 +228,7 @@ def build(root=REPO):
         files[os.path.join(ex, "trips", f"{tid}.json")] = X.build_trip_json(nodes, t, view)
         files[os.path.join(ex, "trips", f"{tid}.ics")] = X.build_ics(t, view)
         bodies = {x: nodes[x]["_body"] for x in t.get("days") or [] if x in nodes}
-        files[os.path.join(ex, "trips", f"{tid}.html")] = X.build_html(t, view, bodies)
+        files[os.path.join(ex, "trips", f"{tid}.html")] = X.build_html(t, view, bodies, practical_info(nodes, t))
         gj = X.build_trip_geojson(nodes, view)
         if gj:
             files[os.path.join(ex, "trips", f"{tid}.geojson")] = gj

@@ -46,13 +46,15 @@ geo_strip_keys: [contains, activities, events, restaurants, hotels, trips]
 types:
   country:
     required: [id, type, name]
-    keys: [id, type, name, native_name, iso_code, currency, language, capital, timezone, plugs, holidays, verified]
+    keys: [id, type, name, native_name, iso_code, currency, language, capital, timezone, plugs, holidays, emergency,
+           verified]
   region:
     required: [id, type, name, path, country]
     keys: [id, type, name, path, country, prefectures, coords, likes, verified]
   city:
     required: [id, type, name, path, country, region]
-    keys: [id, type, name, path, country, region, prefecture, population, coords, likes, verified]
+    keys: [id, type, name, path, country, region, prefecture, population, coords, local_transport_day_yen, likes,
+           verified]
   area:
     required: [id, type, name, place]
     keys: [id, type, name, place, aliases, coords, coords_precision, name_ja, verified]
@@ -73,8 +75,8 @@ types:
            station, station_m, station_ja, link, coords, coords_precision, name_ja, address_ja, verified]
   hotel:
     required: [id, type, name, place, area, price_range]
-    keys: [id, type, name, place, area, area_detail, price_range, price_per_night_yen, link, coords,
-           coords_precision, name_ja, address_ja, verified]
+    keys: [id, type, name, place, area, area_detail, price_range, price_per_night_yen, check_in, check_out, phone, link,
+           coords, coords_precision, name_ja, address_ja, verified]
   route:
     required: [id, type, name, origin, destination, mode, duration_hours, approx_cost]
     keys: [id, type, name, origin, origin_point, destination, destination_point, bidirectional, mode,

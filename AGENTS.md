@@ -5,7 +5,7 @@ This repository is a **travel knowledge graph consumed by agents/LLMs**, not a w
 ## Read order (cheapest first)
 
 1. **`exports/shortlists/<city>.json`** — best options per city: top50/top100 sights (with area and closures), restaurants passing the strict filter (Tabelog ≥ 3.5 and some meal ≤ ¥4,999/person), events with editions, routes, areas.
-2. **`exports/trips/<trip>.json`** — the computed trip: `summary` (nights, budget, totals), `deadlines` (ticket sales, booking reminders), `events` overlapping the trip, and `days.<day-id>` with the plan items in their planned order (slot, cost estimate, closures that day, coords, Google Maps link, km from the previous stop), `sunrise`/`sunset`, `warnings` (opening hours vs slot, meals far above the ¥4,999 cap, a shorter visiting order) and `suggestion`. Use it for anything about a trip.
+2. **`exports/trips/<trip>.json`** — the computed trip: `summary` (nights, budget, totals), `deadlines` (ticket sales, booking reminders), `events` overlapping the trip, and `days.<day-id>` with the plan items in their planned order (slot, cost estimate, closures that day, coords, Google Maps link, km from the previous stop), `sunrise`/`sunset`, `check_out`/`check_in` on moving days, `local_transport_yen` (included in `est_yen`), `warnings` (opening hours vs slot, meals far above the ¥4,999 cap, a shorter visiting order) and `suggestion`. Use it for anything about a trip.
 3. **`exports/cities/<city>.json`** — every node of one city (plus routes touching it) and their edges.
 4. **`exports/index.json`** — whole graph, one node/edge per line. Only for global questions.
 5. **`python3 scripts/query.py <cmd> ...`** — filtered answers as JSON lines (default) or `--format md`:
@@ -30,6 +30,7 @@ Derived: `event` (trip or day → events active then and there), `done_in` (node
 - City READMEs contain generated lists — skip them, use `exports/`.
 - `coords_precision: station` means the point is the restaurant's nearest station (see `station`, `station_m`), not the door.
 - Restaurant `price_range` (bucket of the dinner budget, else generic, else lunch) and the `top-rated` tag (Tabelog ≥ 3.5) are derived by `sync.py`; `tabelog_rating` may be absent (chains, food halls).
+- Restaurants verified on Tabelog have `opening` (hours per weekday / `hol` / `pre_hol` / `post_hol`) and `closed` rules; refresh them with `python3 scripts/tabelog.py --trip <id>` (needs tabelog.com access).
 - Day trips are a `route` plus nodes in the destination city, referenced from the day with `visits: [<city path>]` (e.g. Himeji, Nikko, Kawaguchiko, Kamakura).
 
 ## Schema & vocabularies

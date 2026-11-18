@@ -8,6 +8,7 @@ region: kansai
 prefecture: Osaka
 population: 2750000
 coords: [34.6937, 135.5023]
+local_transport_day_yen: 800
 likes: [local_food, markets_and_street_food, vibrant_cities, temples_and_shrines]
 ---
 
@@ -45,7 +46,8 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 
 ## Transport passes
 
-- **Osaka Amazing Pass**: ¥2,800–3,600 (1 day) / ¥3,600–5,000 (2 days) — price varies by edition, check current — unlimited Osaka Metro + free entry to ~40 attractions (castle tower, Umeda Sky Building, Tsutenkaku). Not USJ/Kaiyukan.
+- **Osaka Amazing Pass** (2026 edition, digital QR only, adults, card payment): ¥3,500 for 1 day — unlimited Osaka Metro/City buses + free entry to ~40 sights incl. the castle tower and Umeda Sky Building (check the list for others). For the current plan no day reaches ¥3,500 of covered entries + rides, so it does not pay off.
+- Without a pass, budgets assume ~¥800/day of Metro rides (rough estimate, 3–4 rides).
 - IC card (ICOCA) for everything else.
 
 ## Data sources

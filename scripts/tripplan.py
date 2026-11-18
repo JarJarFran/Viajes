@@ -3,7 +3,7 @@ plan warnings (time of day, pricey meals, shorter visiting order), budget vs act
 booking deadlines. Used by exports, README blocks, the
 calendar, the offline page and query.py, so all of them agree."""
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone  # noqa: F401
 from urllib.parse import quote_plus
 
 import yaml
@@ -175,18 +175,34 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
         events.append({"id": eid, "name": e.get("name"), "start": str(ed["start"]), "end": str(ed["end"]),
                        "in_plan": any(i["id"] == eid for i in items)})
     est_known = [i["est_yen"] for i in items if i.get("est_yen") is not None]
+    city_node = nodes.get(paths.get(day.get("place")), {})
+    transport = city_node.get("local_transport_day_yen")
+    if transport:
+        est_known.append(transport)
+    nights = trip_nights(trip)
+    prev_stop = nights.get(date_ - timedelta(days=1))
+    tonight = nights.get(date_)
+    hotel_moves = {}
+    if prev_stop and prev_stop.get("accommodation") and (not tonight or tonight is not prev_stop):
+        h = nodes.get(prev_stop["accommodation"], {})
+        hotel_moves["check_out"] = {"hotel": h.get("name"), "time": h.get("check_out")}
+    if tonight and tonight.get("accommodation") and (not prev_stop or prev_stop is not tonight):
+        h = nodes.get(tonight["accommodation"], {})
+        hotel_moves["check_in"] = {"hotel": h.get("name"), "time": h.get("check_in")}
     spent = sum(int(x.get("yen") or 0) for x in day.get("expenses") or [] if isinstance(x, dict))
     view = {"id": day["id"], "date": str(date_), "weekday": WEEKDAYS[date_.weekday()],
             "holiday": date_ in hol, "place": day.get("place"),
             "city": nodes.get(paths.get(day.get("place")), {}).get("name"),
-            "title": day.get("title"), "stay": summary(stay, ("id", "name", "name_ja", "address_ja", "coords"))
-            if stay else None,
+            "title": day.get("title"),
+            "stay": summary(stay, ("id", "name", "name_ja", "address_ja", "coords", "check_in", "check_out", "phone"))
+            if stay else None, **hotel_moves,
             "visits": day.get("visits") or [],
             "sunrise": hhmm(sunrise) if sunrise is not None else None,
             "sunset": hhmm(sunset) if sunset is not None else None,
             "items": items, "events": events, "straight_line_km": round(km, 1),
             "suggestion": suggestion, "warnings": warnings,
-            "est_yen": sum(est_known), "unpriced": [i["id"] for i in items if i.get("est_yen") is None],
+            "est_yen": sum(est_known), "local_transport_yen": transport,
+            "unpriced": [i["id"] for i in items if i.get("est_yen") is None],
             "budget_yen": daily_budget_yen(profile),
             "spent_yen": spent if day.get("expenses") else None,
             "done": day.get("done") or [], "expenses": day.get("expenses") or []}

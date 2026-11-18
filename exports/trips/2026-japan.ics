@@ -12,11 +12,11 @@ DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 TRANSP:TRANSPARENT
 SUMMARY:Osaka · Namba / Dotonbori
-DESCRIPTION:[travel] Kansai Airport (KIX) → Osaka (¥990)\n[evening] Doto
- nbori & Shinsaibashi at night (¥500)\n[dinner] Mizuno (¥2\,000)\nEvents:
-  Osaka Castle Illuminage (winter light show)\, Midosuji Illumination (wint
- er lights)\nSunrise 07:03 · sunset 16:53\nEstimated ¥3\,490 / budget ¥2
- 1\,006 per person
+DESCRIPTION:Check-in: Cross Hotel Osaka (from 15:00)\n[travel] Kansai Airpo
+ rt (KIX) → Osaka (¥990)\n[evening] Dotonbori & Shinsaibashi at night (
+ ¥500)\n[dinner] Mizuno (¥2\,000)\nEvents: Osaka Castle Illuminage (winte
+ r light show)\, Midosuji Illumination (winter lights)\nSunrise 07:03 · su
+ nset 16:53\nEstimated ¥4\,290 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +30,7 @@ DESCRIPTION:[morning] Osaka Castle (¥1\,200)\n[lunch] Kuromon Ichiba Marke
  t ("Osaka's Kitchen") (¥2\,000)\n[lunch] Shuhari Kuromon ten (¥1\,500)\n
  [dinner] Menya Joroku Nanba ten (¥999)\nEvents: Osaka Castle Illuminage (
  winter light show)\, Midosuji Illumination (winter lights)\nSunrise 07:03 
- · sunset 16:54\nEstimated ¥5\,699 / budget ¥21\,006 per person
+ · sunset 16:54\nEstimated ¥6\,499 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -43,7 +43,7 @@ SUMMARY:Osaka · Himeji day trip
 DESCRIPTION:[travel] Osaka ↔ Himeji (¥3\,360)\n[day] Himeji Castle (¥2\
  ,500)\n[afternoon] Koko-en Garden (¥100)\n[dinner] Naniwa Menjiro (¥999)
  \nEvents: Osaka Castle Illuminage (winter light show)\, Midosuji Illuminat
- ion (winter lights)\nSunrise 07:07 · sunset 16:57\nEstimated ¥6\,959 / b
+ ion (winter lights)\nSunrise 07:07 · sunset 16:57\nEstimated ¥7\,759 / b
  udget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
@@ -60,7 +60,7 @@ DESCRIPTION:[lunch] BOTANI Curry Umeda ten (¥1\,500)\n[afternoon] Umeda Sk
  500) — PARTIAL: may be closed: year-end & New Year holidays (dates not p
  ublished)\nEvents: Osaka Castle Illuminage (winter light show)\, Midosuji 
  Illumination (winter lights)\nSunrise 07:04 · sunset 16:55\nEstimated ¥5
- \,000 / budget ¥21\,006 per person
+ \,800 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -74,7 +74,7 @@ DESCRIPTION:[morning] Osaka Aquarium Kaiyukan (¥2\,700)\n[morning] Tempoza
  n Giant Ferris Wheel (¥1\,000)\n[lunch] Usami Tei Matsubaya (¥999)\n[din
  ner] Men no Youji (¥999)\nEvents: Osaka Castle Illuminage (winter light s
  how)\, Midosuji Illumination (winter lights)\nSunrise 07:04 · sunset 16:5
- 6\nEstimated ¥5\,698 / budget ¥21\,006 per person
+ 6\nEstimated ¥6\,498 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -88,7 +88,7 @@ DESCRIPTION:[morning] Amerika-mura (America Village) (¥0)\n[evening] Midos
  uji Illumination (winter lights) (¥0)\n[dinner] Okonomi Tamachan Viva (¥
  4\,500)\n[night] Dotonbori & Shinsaibashi at night (¥500)\nEvents: Osaka 
  Castle Illuminage (winter light show)\, Midosuji Illumination (winter ligh
- ts)\nSunrise 07:05 · sunset 16:56\nEstimated ¥5\,000 / budget ¥21\,006 
+ ts)\nSunrise 07:05 · sunset 16:56\nEstimated ¥5\,800 / budget ¥21\,006 
  per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
@@ -103,7 +103,7 @@ DESCRIPTION:[early] Sumiyoshi Taisha Shrine (¥0)\n[lunch] Daruma (Shinseka
  i) (¥500)\n[afternoon] Shinsekai & Tsutenkaku Tower (¥1\,500)\n[afternoo
  n] Spa World (Shinsekai onsen) (¥1\,500)\n[dinner] Ichiran (Dotonbori) (
  ¥2\,000)\nEvents: Osaka Castle Illuminage (winter light show)\nSunrise 07
- :05 · sunset 16:57\nEstimated ¥5\,500 / budget ¥21\,006 per person
+ :05 · sunset 16:57\nEstimated ¥6\,300 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -113,12 +113,13 @@ DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 TRANSP:TRANSPARENT
 SUMMARY:Kyoto · Osaka → Kyoto (travel day)
-DESCRIPTION:[morning] Kuromon Ichiba Market ("Osaka's Kitchen") (¥2\,000)\
- n[travel] Osaka ↔ Kyoto (¥580)\n[dinner] Honke Daiichi Asahi Honten (¥
- 999)\nEvents: Hatsumode (first shrine visit of the year) at Yasaka Shrine\
- , First calligraphy (Tenmangaki) at Kitano Tenmangu\, Osaka Castle Illumin
- age (winter light show)\nSunrise 07:05 · sunset 16:56\nEstimated ¥3\,579
-  / budget ¥21\,006 per person
+DESCRIPTION:Check-in: Hotel Granvia Kyoto (from 15:00)\nCheck-out: Cross Ho
+ tel Osaka (by 11:00)\n[morning] Kuromon Ichiba Market ("Osaka's Kitchen") 
+ (¥2\,000)\n[travel] Osaka ↔ Kyoto (¥580)\n[dinner] Honke Daiichi Asahi
+  Honten (¥999)\nEvents: Hatsumode (first shrine visit of the year) at Yas
+ aka Shrine\, First calligraphy (Tenmangaki) at Kitano Tenmangu\, Osaka Cas
+ tle Illuminage (winter light show)\nSunrise 07:05 · sunset 16:56\nEstimat
+ ed ¥4\,679 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -136,7 +137,7 @@ DESCRIPTION:[early] Yasaka Pagoda (Hokan-ji) & Ishibe-koji (¥0)\n[early] H
  ashiyama at dusk (¥0)\n[dinner] Gion Duck Noodles (¥2\,500)\nEvents: Hat
  sumode (first shrine visit of the year) at Yasaka Shrine\, Karuta Hajime (
  first poem-card game) at Yasaka Shrine\, First calligraphy (Tenmangaki) at
-  Kitano Tenmangu\nSunrise 07:05 · sunset 16:57\nEstimated ¥4\,500 / budg
+  Kitano Tenmangu\nSunrise 07:05 · sunset 16:57\nEstimated ¥5\,600 / budg
  et ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
@@ -152,7 +153,7 @@ DESCRIPTION:[morning] Ginkaku-ji (Silver Pavilion) (¥1\,000)\n[morning] Ph
  ,500)\n[afternoon] Nanzen-ji (brick aqueduct) (¥0)\n[dinner] Menya Inoich
  i (¥1\,250)\nEvents: Kemari Hajime (Heian court football) at Shimogamo Sh
  rine\, First calligraphy (Tenmangaki) at Kitano Tenmangu\nSunrise 07:05 ·
-  sunset 16:57\nEstimated ¥3\,750 / budget ¥21\,006 per person
+  sunset 16:57\nEstimated ¥4\,850 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -165,7 +166,7 @@ SUMMARY:Kyoto · Nishiki Market / downtown / Pontocho
 DESCRIPTION:[morning] Nishiki Market ("Kyoto's Kitchen") (¥500)\n[lunch] N
  ishiki Warai (¥500)\n[afternoon] Kyoto Imperial Palace (Gosho) (¥0)\n[ev
  ening] Pontocho alley (¥0)\n[dinner] Udon Shiki Kyoto Udon (¥1\,500)\nSu
- nrise 07:05 · sunset 16:58\nEstimated ¥2\,500 / budget ¥21\,006 per per
+ nrise 07:05 · sunset 16:58\nEstimated ¥3\,600 / budget ¥21\,006 per per
  son
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
@@ -179,7 +180,7 @@ SUMMARY:Kyoto · Arashiyama
 DESCRIPTION:[early] Arashiyama Bamboo Grove & Togetsukyo Bridge (¥0)\n[mor
  ning] Iwatayama Monkey Park (¥800)\n[lunch] Arashiyama Yoshimura (¥1\,50
  0)\n[dinner] Tsukumo Udon Shiokouji honten (¥999)\nSunrise 07:05 · sunse
- t 16:59\nEstimated ¥3\,299 / budget ¥21\,006 per person
+ t 16:59\nEstimated ¥4\,399 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -193,7 +194,7 @@ DESCRIPTION:[early] Fushimi Inari Taisha (Senbon Torii) (¥0)\n[morning] Fu
  shimi sake district & Gekkeikan Okura Sake Museum (¥600)\n[lunch] Honkaku
   Teuchi-Udon Taiga (¥1\,500)\n[dinner] KANEGURA (¥5\,500)\n⚠ KANEGURA:
   dinner costs ¥5\,000–5\,999 per person (Tabelog)\nSunrise 07:05 · sun
- set 17:00\nEstimated ¥7\,600 / budget ¥21\,006 per person
+ set 17:00\nEstimated ¥8\,700 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -208,7 +209,7 @@ DESCRIPTION:[morning] Kinkaku-ji (Golden Pavilion) (¥500)\n[morning] Ryoan
  rnoon] Toka Ebisu festival at Ebisu-jinja (Gion) (¥0)\n[evening] Gion & H
  igashiyama at dusk (¥0)\n[dinner] Gion Yorozuya (¥1\,500)\nEvents: Toka 
  Ebisu festival at Ebisu-jinja (Gion)\nSunrise 07:05 · sunset 17:01\nEstim
- ated ¥4\,100 / budget ¥21\,006 per person
+ ated ¥5\,200 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -218,12 +219,14 @@ DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Shinjuku (arrival)
-DESCRIPTION:[morning] Tokyo Metropolitan Government Building observatory (4
- 5F) (¥0)\n[travel] Kyoto → Tokyo (Tokaido Shinkansen) (¥14\,090)\n[lun
- ch] Udon Shin (¥1\,500)\n[dinner] Omoide Yokocho yakitori stalls (¥2\,00
- 0)\nEvents: Toka Ebisu festival at Ebisu-jinja (Gion)\, New Year sales & f
- ukubukuro (lucky bags)\, Tokyo winter illuminations (January)\nSunrise 06:
- 51 · sunset 16:44\nEstimated ¥17\,590 / budget ¥21\,006 per person
+DESCRIPTION:Check-in: Hotel Gracery Shinjuku (from 14:00)\nCheck-out: Hotel
+  Granvia Kyoto (by 12:00)\n[morning] Tokyo Metropolitan Government Buildin
+ g observatory (45F) (¥0)\n[travel] Kyoto → Tokyo (Tokaido Shinkansen) (
+ ¥14\,090)\n[lunch] Udon Shin (¥1\,500)\n[dinner] Omoide Yokocho yakitori
+  stalls (¥2\,000)\nEvents: Toka Ebisu festival at Ebisu-jinja (Gion)\, Ne
+ w Year sales & fukubukuro (lucky bags)\, Tokyo winter illuminations (Janua
+ ry)\nSunrise 06:51 · sunset 16:44\nEstimated ¥18\,590 / budget ¥21\,006
+  per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -239,7 +242,7 @@ DESCRIPTION:[day] Grand Sumo Tournament (Ryogoku Kokugikan\, January) (¥3\
  ament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (January)
  \n⚠ Katsu Pulipo: dinner costs ¥8\,000–9\,999 per person (Tabelog)\; 
  its lunch is ¥4\,000–4\,999\nSunrise 06:51 · sunset 16:45\nEstimated 
- ¥14\,000 / budget ¥21\,006 per person
+ ¥15\,000 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -253,7 +256,7 @@ DESCRIPTION:[morning] Senso-ji Temple (Asakusa) (¥0)\n[lunch] Asakusa Rame
  n Yoroiya (¥999)\n[afternoon] Ueno Park & museums (¥1\,000)\n[dinner] To
  kyo Tonkatsu Gabuu (¥3\,500)\nEvents: New Year sales & fukubukuro (lucky 
  bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter
-  illuminations (January)\nSunrise 06:51 · sunset 16:46\nEstimated ¥5\,49
+  illuminations (January)\nSunrise 06:51 · sunset 16:46\nEstimated ¥6\,49
  9 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -269,7 +272,7 @@ DESCRIPTION:[early] Tsukiji Outer Market (¥1\,500)\n[morning] Ginza (shopp
  0)\n[evening] Tokyo winter illuminations (January) (¥0)\n[dinner] Niboshi
   to Nihonshu Sugidama (¥2\,500)\nEvents: New Year sales & fukubukuro (luc
  ky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo win
- ter illuminations (January)\nSunrise 06:51 · sunset 16:47\nEstimated ¥6\
+ ter illuminations (January)\nSunrise 06:51 · sunset 16:47\nEstimated ¥7\
  ,000 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -285,7 +288,7 @@ DESCRIPTION:[morning] Shibuya crossing and the Hachiko statue (¥0)\n[morni
  ¥999)\n[afternoon] Meiji Shrine (Meiji Jingu) and Yoyogi Park (¥0)\n[din
  ner] CURRY UP (¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)
  \, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illu
- minations (January)\nSunrise 06:51 · sunset 16:48\nEstimated ¥5\,199 / b
+ minations (January)\nSunrise 06:51 · sunset 16:48\nEstimated ¥6\,199 / b
  udget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -301,7 +304,7 @@ DESCRIPTION:[morning] Akihabara (Electric Town) (¥500)\n[lunch] KAMAYOSHI
  [dinner] Katsu Kichi Shinmaru biru ten (¥2\,500)\nEvents: New Year sales 
  & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, Jan
  uary)\, Tokyo winter illuminations (January)\nSunrise 06:50 · sunset 16:4
- 8\nEstimated ¥4\,499 / budget ¥21\,006 per person
+ 8\nEstimated ¥5\,499 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -316,7 +319,7 @@ DESCRIPTION:[morning] teamLab Planets (Toyosu) (¥3\,600)\n[afternoon] Odai
  ¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Setagaya Bor
  oichi (flea market)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\
  , Tokyo winter illuminations (January)\nSunrise 06:50 · sunset 16:49\nEst
- imated ¥5\,460 / budget ¥21\,006 per person
+ imated ¥6\,460 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -331,7 +334,7 @@ DESCRIPTION:[morning] Great Buddha (Kotoku-in) (¥300)\n[morning] Hase-dera
  rip to Kamakura & Enoshima (¥300)\n[dinner] FISH Shinjuku ten (¥2\,500)\
  nEvents: New Year sales & fukubukuro (lucky bags)\, Setagaya Boroichi (fle
  a market)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo wi
- nter illuminations (January)\nSunrise 06:50 · sunset 16:52\nEstimated ¥5
+ nter illuminations (January)\nSunrise 06:50 · sunset 16:52\nEstimated ¥6
  \,540 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -347,7 +350,7 @@ DESCRIPTION:[morning] teamLab Borderless (Azabudai Hills) (¥3\,400)\n[lunc
  3F) (¥2\,000)\n[dinner] Menson RAGE Azabudai hiruzu (¥1\,500)\nEvents: N
  ew Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku K
  okugikan\, January)\, Tokyo winter illuminations (January)\nSunrise 06:50 
- · sunset 16:51\nEstimated ¥8\,400 / budget ¥21\,006 per person
+ · sunset 16:51\nEstimated ¥9\,400 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -364,8 +367,8 @@ DESCRIPTION:[morning] Yanaka old town (Yanaka Ginza\, Nezu Shrine) (¥0)\n[
  ucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo w
  inter illuminations (January)\n⚠ Taishu Shabushabu Katsuji Ueno: dinner 
  costs ¥5\,000–5\,999 per person (Tabelog)\; its lunch is ¥3\,000–3\,
- 999\nSunrise 06:49 · sunset 16:52\nEstimated ¥9\,000 / budget ¥21\,006 
- per person
+ 999\nSunrise 06:49 · sunset 16:52\nEstimated ¥10\,000 / budget ¥21\,006
+  per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -380,7 +383,7 @@ DESCRIPTION:[morning] Chureito Pagoda (Arakurayama Sengen Park) (¥0)\n[tra
  oramic Ropeway (¥1\,000)\n[dinner] Kirimugi Ya Jinroku (¥2\,500)\nEvents
  : New Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogok
  u Kokugikan\, January)\, Tokyo winter illuminations (January)\nSunrise 06:
- 52 · sunset 16:58\nEstimated ¥7\,900 / budget ¥21\,006 per person
+ 52 · sunset 16:58\nEstimated ¥8\,900 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -395,7 +398,7 @@ DESCRIPTION:[morning] Imperial Palace East Gardens (¥0)\n[morning] Hama-ri
  afternoon] New Year sales & fukubukuro (lucky bags) (¥0)\n[dinner] Men Ch
  irashi (¥2\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Gran
  d Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminatio
- ns (January)\nSunrise 06:49 · sunset 16:54\nEstimated ¥5\,300 / budget 
+ ns (January)\nSunrise 06:49 · sunset 16:54\nEstimated ¥6\,300 / budget 
  ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -411,7 +414,7 @@ DESCRIPTION:[morning] Nikko Toshogu Shrine (¥1\,600)\n[travel] Tokyo (Asak
  inner] Udon Manda Jiro (¥1\,500)\nEvents: New Year sales & fukubukuro (lu
  cky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo wi
  nter illuminations (January)\nSunrise 06:51 · sunset 16:53\nEstimated ¥1
- 0\,380 / budget ¥21\,006 per person
+ 1\,380 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -425,7 +428,7 @@ DESCRIPTION:[morning] Nakano Broadway (¥0)\n[lunch] European Curry Tomato
  (¥2\,500)\n[afternoon] Shimokitazawa (¥1\,000)\n[dinner] Udonya Shinbori
   (¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Grand Sumo
   Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (Ja
- nuary)\nSunrise 06:48 · sunset 16:56\nEstimated ¥5\,000 / budget ¥21\,0
+ nuary)\nSunrise 06:48 · sunset 16:56\nEstimated ¥6\,000 / budget ¥21\,0
  06 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -436,12 +439,13 @@ DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Departure day
-DESCRIPTION:[morning] Depachika food halls (Isetan Shinjuku / Mitsukoshi Gi
- nza) (¥2\,000)\n[travel] Haneda Airport (HND) ↔ central Tokyo (?)\n[tra
- vel] Narita Airport (NRT) ↔ central Tokyo (¥3\,140)\nEvents: New Year s
- ales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\
- , January)\, Tokyo winter illuminations (January)\nSunrise 06:47 · sunset
-  16:58\nEstimated ¥5\,140 / budget ¥21\,006 per person
+DESCRIPTION:Check-out: Hotel Gracery Shinjuku (by 11:00)\n[morning] Depachi
+ ka food halls (Isetan Shinjuku / Mitsukoshi Ginza) (¥2\,000)\n[travel] Ha
+ neda Airport (HND) ↔ central Tokyo (?)\n[travel] Narita Airport (NRT) 
+ ↔ central Tokyo (¥3\,140)\nEvents: New Year sales & fukubukuro (lucky b
+ ags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter 
+ illuminations (January)\nSunrise 06:47 · sunset 16:58\nEstimated ¥6\,140
+  / budget ¥21\,006 per person
 END:VEVENT
 BEGIN:VEVENT
 UID:tokyo-sumo-tournament-presale-2026-12-02@viajes

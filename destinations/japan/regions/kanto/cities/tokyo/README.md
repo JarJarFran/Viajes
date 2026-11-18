@@ -8,6 +8,7 @@ region: kanto
 prefecture: Tokyo
 population: 14000000
 coords: [35.6762, 139.6503]
+local_transport_day_yen: 1000
 likes: [vibrant_cities, local_food, temples_and_shrines, anime_manga_and_pop_culture, photography_and_viewpoints]
 ---
 
@@ -57,7 +58,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 ## Transport
 
 - JR Yamanote loop + Tokyo Metro/Toei subway. **IC card (Suica/Pasmo)** needed — JR Pass does not cover subways.
-- Tokyo Subway 24/48/72 h tickets for heavy metro days.
+- **Tokyo Subway Ticket** (Tokyo Metro + Toei): ¥1,000 / ¥1,500 / ¥2,000 for 24 / 48 / 72 h (2026 prices). Not valid on JR, Yurikamome (Odaiba) or private lines. The 72 h ticket (~¥670/day) pays off on subway-heavy days; budgets assume ~¥1,000/day of local transport.
 
 ## Data sources
 

@@ -48,6 +48,8 @@ Templates for every type are in [_templates/](_templates/); [schema.yaml](schema
 - **Day trips** = a `route` + nodes of the destination city; the day lists the city in `visits` and the round-trip fare as `yen` on the route item.
 - **Derived fields**: `sync.py` sets restaurant `price_range` from the budgets (dinner, else generic, else lunch) and the `top-rated` tag from `tabelog_rating ≥ 3.5`.
 - **Plan warnings** (never fail CI): opening hours that do not fit the slot, meals whose Tabelog budget for that slot is above ¥4,999, a visiting order that is ≥ 1 km and 15 % shorter, `near` links over 2 km, places far from their area. Each day also shows sunrise/sunset.
+- **Local transport**: each city's `local_transport_day_yen` (Tokyo ¥1,000, Kyoto ¥1,100, Osaka ~¥800) is added to every day planned there; city READMEs compare the passes.
+- **Hotels** carry `check_in` / `check_out` times and the Japanese address; the day view shows check-out/check-in on moving days and the offline page has a taxi card per hotel plus emergency numbers (`emergency` on the country node).
 - **Money**: `cost_yen` / `price_yen` / restaurant budgets are per person; day estimates are compared with `budget.daily_eur_per_person` × the ECB rate in [profile.yaml](profile.yaml) (`scripts/update_fx.py` refreshes it). Hotels are not counted.
 - **Freshness**: `verified: YYYY-MM` records when hours/prices were last checked; `query.py stale --trip <id>` lists what to re-check before travelling.
 - **Coordinates** come from OpenStreetMap via `scripts/geocode.py` with a `coords_precision` (`exact`, `station` = restaurant's nearest station, `area`). Data © OpenStreetMap contributors (ODbL).
