@@ -10,7 +10,7 @@ import yaml
 
 from common import (REPO, SCHEMA, SLOT_ORDER, SLOT_WINDOWS, WEEKDAYS, allowed_places, closures_on, coords, d,
                     describe_rule, edition_on, editions_overlapping, estimate_yen, events_on, haversine_km, hhmm,
-                    holidays, parse_hours, plan_items, sun_times, trip_nights)
+                    holidays, opening_windows, parse_hours, plan_items, soft_closure, sun_times, trip_nights)
 
 
 def load_profile(root=REPO):
@@ -83,14 +83,25 @@ def _yen_range(r):
     return f"¥{lo:,}+" if hi is None else f"¥{lo:,}–{hi:,}"
 
 
-def item_warnings(n, slot, sunset, schema=SCHEMA):
+def _fmt_windows(ws):
+    return ", ".join(f"{hhmm(a)}–{hhmm(b % 1440)}" for a, b in ws)
+
+
+def item_warnings(n, slot, sunset, day=None, hol=frozenset(), schema=SCHEMA):
     """Plan problems that are not hard errors: wrong time of day, a meal far above the budget cap."""
     out = []
     win = SLOT_WINDOWS.get(slot)
-    hours = parse_hours(n.get("hours"), sunset)
-    if win and isinstance(hours, tuple) and (hours[1] <= win[0] or hours[0] >= win[1]):
-        out.append(f"{n.get('name')}: planned for {slot} ({hhmm(win[0])}–{hhmm(win[1] % 1440)}) but open "
-                   f"{hhmm(hours[0])}–{hhmm(hours[1] % 1440)}")
+    windows = opening_windows(n, day, hol) if day is not None else None
+    if windows is None:
+        h = parse_hours(n.get("hours"), sunset)
+        windows = [h] if isinstance(h, tuple) else None
+    if win and windows is not None:
+        if not windows:
+            if not (day is not None and closures_on(n, day, hol)):
+                out.append(f"{n.get('name')}: no opening hours on {WEEKDAYS[d(day).weekday()]} (check before going)")
+        elif not any(a < win[1] and b > win[0] for a, b in windows):
+            out.append(f"{n.get('name')}: planned for {slot} ({hhmm(win[0])}–{hhmm(win[1] % 1440)}) but open "
+                       f"{_fmt_windows(windows)} that day")
     if n.get("type") == "restaurant" and slot in ("lunch", "dinner"):
         cap = schema["strict_restaurants"]["max_yen"]
         r = _meal_budget(n, slot)
@@ -127,13 +138,13 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
         if it.get("note"):
             row["note"] = it["note"]
         if closed:
-            row["closed"] = [{"rule": describe_rule(r), "partial": r.get("partial")} if r.get("partial")
+            row["closed"] = [{"rule": describe_rule(r), "partial": soft_closure(r)} if soft_closure(r)
                              else {"rule": describe_rule(r)} for r in closed]
         if n["type"] == "event":
             ed = edition_on(n, date_)
             if ed:
                 row["edition"] = {"start": str(ed["start"]), "end": str(ed["end"])}
-        w = item_warnings(n, it.get("slot"), sunset)
+        w = item_warnings(n, it.get("slot"), sunset, date_, hol)
         if w:
             row["warnings"] = w
             warnings.extend(w)

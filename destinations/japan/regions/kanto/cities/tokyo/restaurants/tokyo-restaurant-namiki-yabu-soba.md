@@ -8,14 +8,21 @@ cuisine: soba
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13003650/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
-tabelog_rating: 3.66
+tabelog_rating: 3.65
 tags: [top-rated]
+hours: mon,tue,fri,sat,sun 11:00-19:00
+opening:
+  - {days: [mon, tue, fri, sat, sun], times: [11:00-19:00]}
+closed:
+  - {weekly: [wed, thu]}
 station: Asakusa
 station_m: 172
 coords: [35.711351, 139.798328]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都台東区雷門2-11-9
+verified: '2026-11-18'
 ---
 
 # Namiki Yabu Soba

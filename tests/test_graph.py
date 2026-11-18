@@ -18,11 +18,12 @@ REPO = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(REPO, "scripts"))
 
 import fm as fmio  # noqa: E402
+import tabelog  # noqa: E402
 import exporters  # noqa: E402
 import log as logcli  # noqa: E402
 import sync  # noqa: E402
 from common import (ancestors, bucket_for_yen, city_children, closures_on, derive_fields, hhmm, load_graph,  # noqa: E402
-                    parse_hours, strict_restaurants, sun_times)
+                    opening_windows, parse_hours, strict_restaurants, sun_times)
 from validate_graph import validate  # noqa: E402
 
 CITY = "destinations/japan/regions/kansai/cities"
@@ -364,6 +365,50 @@ class TestCommonHelpers(unittest.TestCase):
         self.assertEqual(parse_hours("Park 24h; tower 9:00-17:00"), "always")
         self.assertEqual(parse_hours("17:00-2:00"), (1020, 1560))
         self.assertIsNone(parse_hours("full day"))
+
+
+class TestOpeningAndTabelog(Fixture):
+    def test_opening_windows(self):
+        n = {"opening": [{"days": ["mon", "tue"], "times": ["11:00-15:00", "17:30-22:00"]},
+                         {"days": ["hol"], "times": ["11:00-15:00"]}, {"days": ["fri"], "times": ["18:00-02:00"]}]}
+        hol = {date(2027, 1, 11)}
+        self.assertEqual(opening_windows(n, date(2027, 1, 12), hol), [(660, 900), (1050, 1320)])  # tue
+        self.assertEqual(opening_windows(n, date(2027, 1, 11), hol), [(660, 900)])  # holiday Monday
+        self.assertEqual(opening_windows(n, date(2027, 1, 13), hol), [])  # wed: not listed
+        self.assertEqual(opening_windows(n, date(2027, 1, 15), hol), [(1080, 1560)])  # overnight
+        self.assertIsNone(opening_windows({}, date(2027, 1, 12)))
+
+    def test_dinner_at_lunch_only_place_warns(self):
+        self.edit(f"{CITY}/osaka/restaurants/osaka-restaurant-a.md",
+                  opening=[{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "times": ["11:00-14:30"]}])
+        self.edit("trips/t1/days/2027-01-10.md", plan=[{"slot": "lunch", "id": "osaka-restaurant-a"}])
+        self.assertFalse(any("planned for" in w for w in self.errors()[1]))
+        self.edit("trips/t1/days/2027-01-10.md", plan=[{"slot": "dinner", "id": "osaka-restaurant-a"}])
+        self.assertTrue(any("A: planned for dinner" in w and "11:00–14:30" in w for w in self.errors()[1]))
+
+    def test_holidays_rule(self):
+        n = {"closed": [{"holidays": True}]}
+        self.assertTrue(closures_on(n, date(2027, 1, 11), {date(2027, 1, 11)}))
+        self.assertFalse(closures_on(n, date(2027, 1, 12), {date(2027, 1, 11)}))
+
+    def test_tabelog_fields(self):
+        page = {"closed_header": "Monday", "address": "大阪府大阪市中央区日本橋1-1", "rating": 3.6,
+                "hours": [{"days": "Tue, Wed, Thu, Fri, Sat, Sun", "times": ["11:30 AM - 3:00 PM L.O. 2:30 PM",
+                                                                             "5:30 PM - 12:00 AM"]},
+                          {"days": "Mon", "times": ["Closed"]}],
+                "note": "■Closed on Mondays and the first, third and fifth Saturdays (closed on the following Tuesday "
+                        "if Monday is a public holiday) ■ We will be closed from December 30 to January 3. "
+                        "Dinner is by reservation only."}
+        f = tabelog.to_fields(page)
+        self.assertEqual(f["opening"], [{"days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+                                         "times": ["11:30-15:00", "17:30-24:00"]}])
+        self.assertIn({"weekly": ["mon"], "holiday_shift": True}, f["closed"])
+        self.assertIn({"weekly": ["sat"], "nth": [1, 3, 5]}, f["closed"])
+        self.assertIn({"yearly": "12-30..01-03"}, f["closed"])
+        self.assertEqual(f["booking"], "required")
+        self.assertEqual(tabelog.parse_times("Open 24 hours"), "00:00-24:00")
+        vague = tabelog.to_fields({"closed_header": "", "address": "", "hours": [], "note": "■Closed on Year-end & New Year Holidays"})
+        self.assertEqual(vague["closed"], [{"yearly": "12-29..01-03", "maybe": "year-end & New Year holidays (dates not published)"}])
 
 
 class TestFrontmatter(unittest.TestCase):

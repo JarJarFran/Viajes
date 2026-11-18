@@ -624,19 +624,6 @@
  ],
  "restaurants_strict": [
   {
-   "id": "kyoto-restaurant-arashiyama-yoshimura",
-   "name": "Arashiyama Yoshimura",
-   "cuisine": "soba, tempura",
-   "area": "kyoto-area-arashiyama",
-   "price_range": "¥¥",
-   "budget_lunch_yen": [
-    1000,
-    1999
-   ],
-   "tabelog_rating": 3.5,
-   "station": "Arashiyama"
-  },
-  {
    "id": "kyoto-restaurant-ginjo-kubota",
    "name": "Ginjo Ramen Kubota",
    "cuisine": "tsukemen / ramen",
@@ -795,7 +782,7 @@
     null,
     999
    ],
-   "tabelog_rating": 3.74
+   "tabelog_rating": 3.73
   },
   {
    "id": "kyoto-restaurant-japan-ramen-rin",
@@ -1336,7 +1323,7 @@
     1000,
     1999
    ],
-   "tabelog_rating": 3.56,
+   "tabelog_rating": 3.55,
    "station": "Kyoto Kawaramachi"
   },
   {

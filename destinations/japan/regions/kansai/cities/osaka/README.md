@@ -80,7 +80,7 @@ Day trips: [Himeji](../himeji/README.md) (castle closed Dec 29–30) · [Kobe](a
 - [CHEDI LUANG Yodoyabashi](restaurants/osaka-restaurant-chedi-luang-yodoyabashi.md) — Thai curry, buffet, ¥¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.57
 - [Chitose Honten](restaurants/osaka-restaurant-chitose-honten.md) — udon, soba, ¥, Namba / Dotonbori, Tabelog 3.72
 - [CREO-RU](restaurants/osaka-restaurant-creo-ru.md) — takoyaki, okonomiyaki, kushikatsu, ¥¥, Namba / Dotonbori, Tabelog 3.41
-- [Daruma (Shinsekai)](restaurants/osaka-restaurant-daruma.md) — kushikatsu, ¥, Tennoji / Shinsekai, Tabelog 3.43
+- [Daruma (Shinsekai)](restaurants/osaka-restaurant-daruma.md) — kushikatsu, ¥, Tennoji / Shinsekai, Tabelog 3.48
 - [epais Hanshin umeda ten](restaurants/osaka-restaurant-epais-hanshin-umeda-ten.md) — tonkatsu, yoshoku, curry, ¥¥¥, Umeda / Kita, Tabelog 3.66
 - [epais](restaurants/osaka-restaurant-epais.md) — tonkatsu, curry, ¥¥¥¥, Umeda / Kita, Tabelog 3.73
 - [Gaikyo Nito Go](restaurants/osaka-restaurant-gaikyo-nito-go.md) — soba, washoku, ¥¥¥¥, Shinsaibashi / Amerikamura, Tabelog 3.75
@@ -91,11 +91,11 @@ Day trips: [Himeji](../himeji/README.md) (castle closed Dec 29–30) · [Kobe](a
 - [Hakugin Tei](restaurants/osaka-restaurant-hakugin-tei.md) — curry, ¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.69
 - [Hanako Kitahorie](restaurants/osaka-restaurant-hanako-kitahorie.md) — soba, seafood, izakaya, ¥¥¥, Shinsaibashi / Amerikamura, Tabelog 3.48
 - [Hanamaru Ken Nanba Hozenji ten](restaurants/osaka-restaurant-hanamaru-ken-nanba-hozenji-ten.md) — ramen, gyoza, izakaya, ¥, Namba / Dotonbori, Tabelog 3.49
-- [Hashimoto Ya](restaurants/osaka-restaurant-hashimoto-ya.md) — curry, soup curry, ¥¥, Shinsaibashi / Amerikamura, Tabelog 4.02
+- [Hashimoto Ya](restaurants/osaka-restaurant-hashimoto-ya.md) — curry, soup curry, ¥¥, Shinsaibashi / Amerikamura, Tabelog 4.04
 - [Honke Otako Hozenji](restaurants/osaka-restaurant-honke-otako-hozenji.md) — takoyaki, okonomiyaki, izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.48
 - [Hozenji Sanpei](restaurants/osaka-restaurant-hozenji-sanpei.md) — okonomiyaki, yakisoba, teppanyaki, ¥¥, Namba / Dotonbori, Tabelog 3.48
 - [Hyotei](restaurants/osaka-restaurant-hyotei.md) — soba, ¥¥, Umeda / Kita, Tabelog 3.51
-- [Ichiran (Dotonbori)](restaurants/osaka-restaurant-ichiran.md) — ramen (tonkotsu), ¥¥, Namba / Dotonbori
+- [Ichiran (Dotonbori)](restaurants/osaka-restaurant-ichiran.md) — ramen (tonkotsu), ¥¥, Namba / Dotonbori, Tabelog 3.09
 - [Ikareta Noodle Fish Tons](restaurants/osaka-restaurant-ikareta-noodle-fish-tons.md) — tsukemen, ramen, tantanmen, ¥¥, Shinsaibashi / Amerikamura, Tabelog 3.73
 - [Ikuno Okonomiyaki Teppanyaki Momotaro](restaurants/osaka-restaurant-ikuno-okonomiyaki-teppanyaki-momotaro.md) — okonomiyaki, teppanyaki, ¥¥, Umeda / Kita, Tabelog 3.43
 - [Japan Ichi no Kushikatsu Yokozuna Nanba nankai doori ten](restaurants/osaka-restaurant-japan-ichi-no-kushikatsu-yokozuna-nanba-nankai-doori-ten.md) — kushikatsu, okonomiyaki, izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.46
@@ -118,14 +118,14 @@ Day trips: [Himeji](../himeji/README.md) (castle closed Dec 29–30) · [Kobe](a
 - [Malaysia Boleh](restaurants/osaka-restaurant-malaysia-boleh.md) — Malaysian curry (halal), ¥¥¥, Umeda / Kita, Tabelog 3.52
 - [Maruhana Shinsaibashi](restaurants/osaka-restaurant-maruhana-shinsaibashi.md) — crab, shabu-shabu, sukiyaki, ¥¥¥¥, Shinsaibashi / Amerikamura, Tabelog 3.3
 - [maze](restaurants/osaka-restaurant-maze.md) — cafe, sweets, curry, ¥¥, Shinsaibashi / Amerikamura, Tabelog 3.42
-- [Men no Youji](restaurants/osaka-restaurant-men-no-youji.md) — ramen, tsukemen, abura-soba, maze-soba, ¥, Namba / Dotonbori, Tabelog 3.7
+- [Men no Youji](restaurants/osaka-restaurant-men-no-youji.md) — ramen, tsukemen, abura-soba, maze-soba, ¥, Namba / Dotonbori, Tabelog 3.69
 - [Menya Joroku Nanba ten](restaurants/osaka-restaurant-menya-joroku-nanba-ten.md) — ramen, ¥, Namba / Dotonbori, Tabelog 3.73
 - [Menya Takei Hankyuu Umeda ten](restaurants/osaka-restaurant-menya-takei-hankyuu-umeda-ten.md) — tsukemen, ramen, ¥¥, Umeda / Kita, Tabelog 3.7
 - [Mizuno](restaurants/osaka-restaurant-mizuno.md) — okonomiyaki, ¥¥, Namba / Dotonbori, Tabelog 3.55
 - [Moeyo Mensuke](restaurants/osaka-restaurant-moeyo-mensuke.md) — ramen, ¥, Umeda / Kita, Tabelog 3.76
 - [Momotaro Ruku a oosaka ten](restaurants/osaka-restaurant-momotaro-ruku-a-oosaka-ten.md) — okonomiyaki, teppanyaki, ¥¥, Umeda / Kita, Tabelog 3.48
 - [Mugen Ramen](restaurants/osaka-restaurant-mugen-ramen.md) — ramen, taiwanese mixed noodles, ¥¥, Namba / Dotonbori, Tabelog 3.28
-- [Mugi to Mensuke](restaurants/osaka-restaurant-mugi-to-mensuke.md) — ramen, tsukemen, ¥¥¥, Umeda / Kita, Tabelog 3.9
+- [Mugi to Mensuke](restaurants/osaka-restaurant-mugi-to-mensuke.md) — ramen, tsukemen, ¥¥¥, Umeda / Kita, Tabelog 3.92
 - [MUGUNI](restaurants/osaka-restaurant-muguni.md) — omurice, yoshoku, curry, ¥¥, Namba / Dotonbori, Tabelog 3.58
 - [Naniwa Menjiro](restaurants/osaka-restaurant-naniwa-menjiro.md) — ramen, tsukemen, ¥, Namba / Dotonbori, Tabelog 3.71
 - [Naniwa Okina](restaurants/osaka-restaurant-naniwa-okina.md) — soba, ¥¥, Honmachi / Yodoyabashi / Nakanoshima, Tabelog 3.67
@@ -182,7 +182,7 @@ Day trips: [Himeji](../himeji/README.md) (castle closed Dec 29–30) · [Kobe](a
 - [Tori Soba Zagin Honten](restaurants/osaka-restaurant-tori-soba-zagin-honten.md) — ramen, tsukemen, chicken dishes, ¥, Umeda / Kita, Tabelog 3.71
 - [Tsurubashi Fugetsu Nanba midousuji](restaurants/osaka-restaurant-tsurubashi-fugetsu-nanba-midousuji.md) — okonomiyaki, izakaya, ¥¥, Namba / Dotonbori, Tabelog 3.13
 - [Tsuruya](restaurants/osaka-restaurant-tsuruya.md) — okonomiyaki, yakisoba, ¥¥, Umeda / Kita, Tabelog 3.43
-- [Usami Tei Matsubaya](restaurants/osaka-restaurant-usami-tei-matsubaya.md) — udon, soba, oyako-don, ¥, Shinsaibashi / Amerikamura, Tabelog 3.67
+- [Usami Tei Matsubaya](restaurants/osaka-restaurant-usami-tei-matsubaya.md) — udon, soba, oyako-don, ¥, Shinsaibashi / Amerikamura, Tabelog 3.66
 - [Wagyu Ittougai Yakiniku Horumon Kurono Ura nanba honten](restaurants/osaka-restaurant-wagyu-ittougai-yakiniku-horumon-kurono-ura-nanba-honten.md) — yakiniku (A4+ wagyu), horumon, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.45
 - [Wagyu Matsushita Kamidoori ten](restaurants/osaka-restaurant-wagyu-matsushita-kamidoori-ten.md) — yakiniku (premium black wagyu), sukiyaki, shabu-shabu, ¥¥¥¥, Umeda / Kita, Tabelog 3.63
 - [WAGYU Oukoku](restaurants/osaka-restaurant-wagyu-oukoku.md) — yakiniku, ¥¥¥¥, Namba / Dotonbori, Tabelog 3.59

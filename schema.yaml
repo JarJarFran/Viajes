@@ -15,6 +15,8 @@ vocabularies:
   # plan slots, in the order they happen during a day
   slot: [early, morning, travel, day, lunch, afternoon, evening, dinner, night]
   weekday: [mon, tue, wed, thu, fri, sat, sun]
+  # day keys of structured opening hours: weekdays + public holiday, day before / after a holiday
+  opening_day: [mon, tue, wed, thu, fri, sat, sun, hol, pre_hol, post_hol]
   expense_category: [food, transport, sights, lodging, shopping, other]
   coords_precision: [exact, station, area]
 
@@ -67,8 +69,8 @@ types:
   restaurant:
     required: [id, type, name, place, cuisine, price_range, area]
     keys: [id, type, name, place, area, area_detail, cuisine, price_range, budget_lunch_yen, budget_dinner_yen,
-           budget_yen, tabelog, tabelog_list, tabelog_rating, tags, hours, closed, station, station_m,
-           station_ja, link, coords, coords_precision, name_ja, address_ja, verified]
+           budget_yen, tabelog, tabelog_list, tabelog_rating, tags, hours, opening, closed, booking, book_ahead_days,
+           station, station_m, station_ja, link, coords, coords_precision, name_ja, address_ja, verified]
   hotel:
     required: [id, type, name, place, area, price_range]
     keys: [id, type, name, place, area, area_detail, price_range, price_per_night_yen, link, coords,
@@ -89,5 +91,6 @@ nested:
   editions: {required: [start, end], keys: [start, end, presale, on_sale, note]}
   stops: {required: [from, to, place], keys: [from, to, place, accommodation, price_per_night_yen, notes]}
   plan: {required: [id], keys: [slot, id, yen, note]}
+  opening: {required: [days, times], keys: [days, times]}
   done: {required: [id], keys: [id, rating, note]}
   expenses: {required: [yen, what], keys: [yen, what, category]}

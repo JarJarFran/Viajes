@@ -6,13 +6,18 @@ place: japan/kansai/osaka
 area: osaka-area-tennoji
 cuisine: kushikatsu
 price_range: ¥
-tabelog: https://tabelog.com/en/osaka/A2701/A270206/27083941/
-tabelog_rating: 3.43
+tabelog: https://tabelog.com/en/osaka/A2701/A270206/27004260/
+tabelog_rating: 3.48
+hours: mon,tue,wed,thu,fri 11:00-22:30; sat,sun,hol 10:30-22:30
+opening:
+  - {days: [mon, tue, wed, thu, fri], times: [11:00-22:30]}
+  - {days: [sat, sun, hol], times: [10:30-22:30]}
 link: https://www.kushikatsu-daruma.co.jp/
 coords: [34.644282, 135.504921]
 coords_precision: exact
 name_ja: だるま
-verified: 2026-11
+address_ja: 大阪府大阪市浪速区恵美須東2-3-9
+verified: '2026-11-18'
 ---
 
 # Daruma (Shinsekai)

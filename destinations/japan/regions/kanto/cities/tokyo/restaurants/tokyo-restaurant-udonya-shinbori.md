@@ -9,14 +9,22 @@ cuisine: udon
 price_range: ¥¥
 budget_lunch_yen: [null, 999]
 budget_dinner_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/tokyo/A1304/A130403/13247630/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
-tabelog_rating: 3.6
+tabelog_rating: 3.61
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri 11:30-15:30 & 17:30-20:30; sat 11:30-15:30
+opening:
+  - {days: [mon, tue, wed, thu, fri], times: [11:30-15:30, 17:30-20:30]}
+  - {days: [sat], times: [11:30-15:30]}
+closed:
+  - {weekly: [sun]}
 station: Yoyogi
 station_m: 133
 coords: [35.683946, 139.701656]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都渋谷区千駄ヶ谷5-23-9 モルフォ 1F
+verified: '2026-11-18'
 ---
 
 # Udonya Shinbori

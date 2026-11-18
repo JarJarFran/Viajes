@@ -64,7 +64,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 
 <!-- gen:start restaurants -->
 - [Agotsuyu Shabushabu Yamafuku Honten](restaurants/kyoto-restaurant-agotsuyu-shabushabu-yamafuku-honten.md) — shabu-shabu (pork), izakaya, ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.54
-- [Arashiyama Yoshimura](restaurants/kyoto-restaurant-arashiyama-yoshimura.md) — soba, tempura, ¥¥, Arashiyama, Tabelog 3.5
+- [Arashiyama Yoshimura](restaurants/kyoto-restaurant-arashiyama-yoshimura.md) — soba, tempura, ¥¥, Arashiyama, Tabelog 3.49
 - [BURGER REVOLUTION KYOTO](restaurants/kyoto-restaurant-burger-revolution-kyoto.md) — wagyu burger (halal available), cafe, ¥¥, Kyoto Station, Tabelog 3.34
 - [G Men](restaurants/kyoto-restaurant-g-men.md) — izakaya, udon, ¥¥, Gion, Tabelog 3.3
 - [Ginjo Ramen Kubota](restaurants/kyoto-restaurant-ginjo-kubota.md) — tsukemen / ramen, ¥¥, Kyoto Station, Tabelog 3.73
@@ -88,7 +88,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Hinode Udon](restaurants/kyoto-restaurant-hinode-udon.md) — curry udon, udon, soba, ¥¥, Okazaki / Nanzen-ji / Ginkaku-ji, Tabelog 3.52
 - [Hitsuji](restaurants/kyoto-restaurant-hitsuji.md) — donut, cafe, ¥, Nijo Castle / Imperial Palace, Tabelog 3.85
 - [Honkaku Teuchi-Udon Taiga](restaurants/kyoto-restaurant-honkaku-teuchi-udon-taiga.md) — udon, curry udon, tempura, ¥¥, Fushimi, Tabelog 3.72
-- [Honke Daiichi Asahi Honten](restaurants/kyoto-restaurant-honke-daiichi-asahi.md) — ramen, ¥, Kyoto Station, Tabelog 3.74
+- [Honke Daiichi Asahi Honten](restaurants/kyoto-restaurant-honke-daiichi-asahi.md) — ramen, ¥, Kyoto Station, Tabelog 3.73
 - [INDIAN RESTAURANT NEW DELHI](restaurants/kyoto-restaurant-indian-restaurant-new-delhi.md) — indian (halal), cafe, izakaya, ¥¥, Nijo Castle / Imperial Palace, Tabelog 3.17
 - [Ito Kyuemon Uji honten](restaurants/kyoto-restaurant-ito-kyuemon-uji-honten.md) — matcha sweets, matcha soba, cafe, ¥¥, Uji, Tabelog 3.45
 - [Japan Ramen Rin KYOTO](restaurants/kyoto-restaurant-japan-ramen-rin.md) — ramen, ¥¥, Shijo-Karasuma / Karasuma Oike, Tabelog 3.63
@@ -123,7 +123,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Mugi no Yoake](restaurants/kyoto-restaurant-mugi-no-yoake.md) — ramen, tsukemen, ¥¥, Kyoto Station, Tabelog 3.74
 - [Nakamura Tokichi](restaurants/kyoto-restaurant-nakamura-tokichi.md) — matcha sweets & soba, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.54
 - [Namae no Nai Ramen Ya](restaurants/kyoto-restaurant-namae-no-nai.md) — ramen / tsukemen, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.57
-- [Nishiki Warai](restaurants/kyoto-restaurant-nishiki-warai.md) — okonomiyaki, ¥, Kawaramachi / Pontocho / Nishiki
+- [Nishiki Warai](restaurants/kyoto-restaurant-nishiki-warai.md) — okonomiyaki, ¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.14
 - [Nominokoji Yamagishi](restaurants/kyoto-restaurant-nominokoji-yamagishi.md) — izakaya (traditional dishes), ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.73
 - [OBENKEI Kyoto gion ten](restaurants/kyoto-restaurant-obenkei-kyoto-gion-ten.md) — sushi, seafood, izakaya, ¥¥¥¥, Gion, Tabelog 3.36
 - [Ogawa](restaurants/kyoto-restaurant-ogawa.md) — soba, ¥¥, Kinkaku-ji / Kitano / Daitoku-ji, Tabelog 3.74
@@ -166,7 +166,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Tonkatsu & Soba An Kyoto](restaurants/kyoto-restaurant-tonkatsu-soba-an-kyoto.md) — soba, tonkatsu, izakaya, ¥¥¥, Kyoto Station, Tabelog 3.14
 - [TORA Tori YA Shijo kawaramachi ten](restaurants/kyoto-restaurant-tora-tori-ya-shijo-kawaramachi-ten.md) — izakaya, yakitori, gyoza, ¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.38
 - [Tsukumo Udon Shiokouji honten](restaurants/kyoto-restaurant-tsukumo-udon-shiokouji-honten.md) — udon, izakaya, ¥, Kyoto Station, Tabelog 3.6
-- [Udon Shiki Kyoto Udon](restaurants/kyoto-restaurant-udon-shiki-kyoto-udon.md) — udon, nabe, washoku, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.56
+- [Udon Shiki Kyoto Udon](restaurants/kyoto-restaurant-udon-shiki-kyoto-udon.md) — udon, nabe, washoku, ¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.55
 - [Wajo Ryo Men Sugari](restaurants/kyoto-restaurant-sugari-wajo.md) — ramen / tsukemen, ¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.66
 - [Yakiniku Dining Kinoe](restaurants/kyoto-restaurant-yakiniku-dining-kinoe.md) — yakiniku, niku-bar (yukhoe Omi beef), ¥¥¥¥, Kawaramachi / Pontocho / Nishiki, Tabelog 3.57
 - [Yakiniku Gyusho Shin](restaurants/kyoto-restaurant-gyusho-shin.md) — yakiniku, ¥¥, Gion, Tabelog 3.52

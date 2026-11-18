@@ -9,13 +9,21 @@ cuisine: soba, udon, udon-suki
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [2000, 2999]
+tabelog: https://tabelog.com/en/kyoto/A2601/A260501/26002741/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.47
+hours: mon,tue,thu,fri 11:00-20:30; sat,sun 11:00-21:30
+opening:
+  - {days: [mon, tue, thu, fri], times: [11:00-20:30]}
+  - {days: [sat, sun], times: [11:00-21:30]}
+closed:
+  - {weekly: [wed]}
 station: Kitano Hakubaicho
 station_m: 984
 coords: [35.027416, 135.730873]
 coords_precision: station
-verified: 2026-11
+address_ja: 京都府京都市北区平野宮敷町26
+verified: '2026-11-18'
 ---
 
 # Gontaro Kinkakuji ten

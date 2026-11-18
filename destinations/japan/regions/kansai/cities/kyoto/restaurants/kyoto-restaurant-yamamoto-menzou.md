@@ -13,13 +13,16 @@ tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.95
 tags: [top-rated]
 closed:
-  - {irregular: listings disagree (Wednesday or Thursday) — check the Tabelog page}
+  - {weekly: [thu], holiday_shift: true}
+  - {weekly: [wed], nth: [4]}
+  - {irregular: irregular closing days — check the restaurant's social media}
 station: Higashiyama
 station_m: 729
 coords: [35.014273, 135.784792]
 coords_precision: exact
 name_ja: 山元麺蔵
-verified: 2026-11
+address_ja: 京都府京都市左京区岡崎南御所町34
+verified: '2026-11-18'
 ---
 
 # Yamamoto Menzou

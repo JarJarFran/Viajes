@@ -8,15 +8,20 @@ cuisine: udon, tempura
 price_range: ¥
 budget_lunch_yen: [null, 999]
 budget_dinner_yen: [null, 999]
+tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13308738/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.58
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat,sun 11:00-22:00
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat, sun], times: [11:00-22:00]}
 station: Shibuya
 station_m: 379
 coords: [35.656653, 139.704463]
 coords_precision: exact
 name_ja: 香川一福アート
-verified: 2026-11
+address_ja: 東京都渋谷区渋谷3-17-4 アクシーズ7号館ビル 1F
+verified: '2026-11-18'
 ---
 
 # Kagawa Ippuku ART

@@ -90,7 +90,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Bazoku Asakusa](restaurants/tokyo-restaurant-bazoku-asakusa.md) — ramen / tantanmen, ¥¥, Asakusa, Tabelog 3.63
 - [Bistro Hamaifu](restaurants/tokyo-restaurant-bistro-hamaifu.md) — bistro / french, ¥¥¥¥, Tsukiji, Tabelog 3.6
 - [BOMBAY SIZZLERS](restaurants/tokyo-restaurant-bombay-sizzlers.md) — indian curry, ¥¥¥, Ginza / Shimbashi, Tabelog 3.48
-- [Chuka Menten Kiraku](restaurants/tokyo-restaurant-kiraku-chuka.md) — ramen / chinese, ¥, Shibuya, Tabelog 3.75
+- [Chuka Menten Kiraku](restaurants/tokyo-restaurant-kiraku-chuka.md) — ramen / chinese, ¥, Shibuya, Tabelog 3.74
 - [CURRY UP](restaurants/tokyo-restaurant-curry-up.md) — curry, ¥¥, Harajuku / Omotesando, Tabelog 3.76
 - [Depachika food halls (Isetan Shinjuku / Mitsukoshi Ginza)](restaurants/tokyo-restaurant-depachika.md) — bento & prepared food, ¥¥, Shinjuku
 - [Dogenzaka Mammoth](restaurants/tokyo-restaurant-dogenzaka-mammoth.md) — tsukemen / ramen, ¥¥, Shibuya, Tabelog 3.64
@@ -106,7 +106,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [GINZA SUSHI BANYA KAI](restaurants/tokyo-restaurant-ginza-sushi-banya-kai.md) — sushi (omakase), ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.52
 - [Ginza Sushi Sendou](restaurants/tokyo-restaurant-ginza-sushi-sendou.md) — sushi, seafood, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.51
 - [Ginza Yotsumi Gokujou Seafood Buffet Dining](restaurants/tokyo-restaurant-ginza-yotsumi-gokujou-seafood-buffet-dining.md) — buffet (king crab, A5 wagyu, fugu), sushi, shabu-shabu, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.09
-- [Godaime Hanayama Udon Ginza ten](restaurants/tokyo-restaurant-godaime-hanayama-udon-ginza-ten.md) — udon, izakaya, tempura, ¥¥¥, Ginza / Shimbashi, Tabelog 3.64
+- [Godaime Hanayama Udon Ginza ten](restaurants/tokyo-restaurant-godaime-hanayama-udon-ginza-ten.md) — udon, izakaya, tempura, ¥¥¥, Ginza / Shimbashi, Tabelog 3.63
 - [Godaime Hanayama Udon Nihonbashi](restaurants/tokyo-restaurant-godaime-hanayama-udon-nihonbashi.md) — udon, tempura, ¥¥, Marunouchi / Tokyo Station / Nihonbashi, Tabelog 3.59
 - [Gonpachi (Nishi-Azabu)](restaurants/tokyo-restaurant-gonpachi.md) — izakaya (Kill Bill set), ¥¥¥, Roppongi / Azabu / Akasaka, Tabelog 3.38
 - [HAJIME Nihonbashi hon ten](restaurants/tokyo-restaurant-hajime-nihonbashi-hon-ten.md) — tonkatsu, katsu-don, curry, ¥¥, Marunouchi / Tokyo Station / Nihonbashi, Tabelog 3.53
@@ -122,11 +122,11 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Jotou Curry Shibuya honten](restaurants/tokyo-restaurant-jotou-curry-shibuya-honten.md) — curry, ¥¥, Shibuya, Tabelog 3.28
 - [Kagawa Ippuku ART](restaurants/tokyo-restaurant-kagawa-ippuku-art.md) — udon, tempura, ¥, Shibuya, Tabelog 3.58
 - [Kagawa Ippuku Nishishinjuku](restaurants/tokyo-restaurant-kagawa-ippuku-nishishinjuku.md) — udon, tempura, ¥, Shinjuku, Tabelog 3.58
-- [KAMAYOSHI](restaurants/tokyo-restaurant-kamayoshi.md) — udon, curry udon, tempura, ¥, Akihabara / Kanda / Jimbocho, Tabelog 3.83
+- [KAMAYOSHI](restaurants/tokyo-restaurant-kamayoshi.md) — udon, curry udon, tempura, ¥, Akihabara / Kanda / Jimbocho, Tabelog 3.84
 - [Kanda Matsuya Honten](restaurants/tokyo-restaurant-kanda-matsuya-honten.md) — soba, ¥¥, Akihabara / Kanda / Jimbocho, Tabelog 3.66
 - [Kashiwa Bistro Banban](restaurants/tokyo-restaurant-kashiwa-bistro-banban.md) — italian, curry, bar, ¥¥¥¥, Shibuya, Tabelog 3.55
 - [Katsu Kichi Shinmaru biru ten](restaurants/tokyo-restaurant-katsu-kichi-shinmaru-biru-ten.md) — tonkatsu, kushikatsu, curry, ¥¥, Marunouchi / Tokyo Station / Nihonbashi, Tabelog 3.57
-- [Katsu Pulipo](restaurants/tokyo-restaurant-katsu-pulipo.md) — tonkatsu, ¥¥¥¥, Shinjuku, Tabelog 3.85
+- [Katsu Pulipo](restaurants/tokyo-restaurant-katsu-pulipo.md) — tonkatsu, ¥¥¥¥, Shinjuku, Tabelog 3.83
 - [KHAN KEBAB BIRYANI](restaurants/tokyo-restaurant-khan-kebab-biryani.md) — indian curry, kebab, ¥¥¥, Ginza / Shimbashi, Tabelog 3.53
 - [Kirimugi Ya Jinroku](restaurants/tokyo-restaurant-kirimugi-ya-jinroku.md) — udon, tempura, izakaya, ¥¥, Shinjuku, Tabelog 3.64
 - [Kitchen Nankai Chiyoda kanda jinbou ten](restaurants/tokyo-restaurant-kitchen-nankai-chiyoda-kanda-jinbou-ten.md) — yoshoku, tonkatsu, curry, ¥, Akihabara / Kanda / Jimbocho, Tabelog 3.66
@@ -138,7 +138,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Menson RAGE Azabudai hiruzu](restaurants/tokyo-restaurant-menson-rage-azabudai-hiruzu.md) — ramen, abura-soba, maze-soba, curry, ¥¥, Roppongi / Azabu / Akasaka, Tabelog 3.62
 - [Menya Ishii Ginza Ten](restaurants/tokyo-restaurant-menya-ishii-ginza-ten.md) — udon, ¥¥, Ginza / Shimbashi, Tabelog 3.3
 - [Menya Nukaji](restaurants/tokyo-restaurant-menya-nukaji.md) — tsukemen / ramen, ¥¥, Shibuya, Tabelog 3.58
-- [Namiki Yabu Soba](restaurants/tokyo-restaurant-namiki-yabu-soba.md) — soba, ¥¥, Asakusa, Tabelog 3.66
+- [Namiki Yabu Soba](restaurants/tokyo-restaurant-namiki-yabu-soba.md) — soba, ¥¥, Asakusa, Tabelog 3.65
 - [Nezu Kamachiku](restaurants/tokyo-restaurant-nezu-kamachiku.md) — udon, sake bar, ¥¥¥¥, Ueno / Yanaka, Tabelog 3.65
 - [Niboshi to Nihonshu Sugidama](restaurants/tokyo-restaurant-sugidama.md) — ramen / izakaya, ¥¥, Marunouchi / Tokyo Station / Nihonbashi, Tabelog 3.64
 - [Nikuya Yokocho Udagawacho](restaurants/tokyo-restaurant-nikuya-yokocho-udagawacho.md) — yakiniku (all-you-can-eat), izakaya, ¥¥¥¥, Shibuya, Tabelog 3.24
@@ -152,7 +152,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Ramen Benkei Asakusa](restaurants/tokyo-restaurant-benkei-asakusa.md) — ramen / tsukemen, ¥¥, Asakusa, Tabelog 3.66
 - [Ramen Koku](restaurants/tokyo-restaurant-ramen-koku.md) — ramen, ¥, Shibuya, Tabelog 3.69
 - [Renge no Gotoku](restaurants/tokyo-restaurant-renge-gotoku.md) — ramen, ¥, Shibuya, Tabelog 3.66
-- [Roppongi Udon](restaurants/tokyo-restaurant-roppongi-udon.md) — udon, curry udon, tempura, ¥¥, Roppongi / Azabu / Akasaka, Tabelog 3.55
+- [Roppongi Udon](restaurants/tokyo-restaurant-roppongi-udon.md) — udon, curry udon, tempura, ¥¥, Roppongi / Azabu / Akasaka, Tabelog 3.56
 - [Ryuou](restaurants/tokyo-restaurant-ryuou.md) — chinese / gyoza / ramen, ¥¥, Asakusa, Tabelog 3.51
 - [Seafood Buffet Dining Ginza Happo Shinjuku ten](restaurants/tokyo-restaurant-seafood-buffet-dining-ginza-happo-shinjuku-ten.md) — buffet (150 kinds: seafood, meat), yakiniku, ¥¥¥¥, Shinjuku, Tabelog 3.44
 - [Seafood Buffet Dining Ginza Happo](restaurants/tokyo-restaurant-seafood-buffet-dining-ginza-happo.md) — yakiniku, sushi, buffet, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.47
@@ -165,7 +165,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Soba Sasuga](restaurants/tokyo-restaurant-soba-sasuga.md) — soba, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.65
 - [SPICY CURRY Roka](restaurants/tokyo-restaurant-spicy-curry-roka.md) — spicy curry, taiwanese, ¥¥, Shinjuku, Tabelog 3.94
 - [Steak Raisu to Curry no Mise Center Beef Shibuya dougenzaka ten](restaurants/tokyo-restaurant-steak-raisu-to-curry-no-mise-center-beef-shibuya-dougenzaka-.md) — steak rice, curry, ¥¥, Shibuya, Tabelog 3.43
-- [Steak Shinoda](restaurants/tokyo-restaurant-steak-shinoda.md) — steak, curry, yoshoku, ¥¥¥¥, Ueno / Yanaka, Tabelog 3.35
+- [Steak Shinoda](restaurants/tokyo-restaurant-steak-shinoda.md) — steak, curry, yoshoku, ¥¥¥¥, Ueno / Yanaka, Tabelog 3.34
 - [Sukiyaki Juni Ten](restaurants/tokyo-restaurant-sukiyaki-juni.md) — sukiyaki / shabu, ¥¥¥¥, Marunouchi / Tokyo Station / Nihonbashi, Tabelog 3.6
 - [Sushi Dokoro Isseki Sanchou](restaurants/tokyo-restaurant-sushi-dokoro-isseki-sanchou.md) — sushi, seafood, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.5
 - [Sushi Ebisu Hana Ebisu honten](restaurants/tokyo-restaurant-sushi-ebisu-hana-ebisu-honten.md) — sushi, izakaya, ¥¥¥¥, Ebisu / Daikanyama, Tabelog 3.44
@@ -176,7 +176,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Sushi Yoshikawa Kaido Shinjuku](restaurants/tokyo-restaurant-sushi-yoshikawa-kaido-shinjuku.md) — sushi (Edomae), ¥¥¥¥, Shinjuku, Tabelog 3.56
 - [Sushi Yuu](restaurants/tokyo-restaurant-sushi-yuu.md) — sushi, ¥¥¥¥, Ginza / Shimbashi, Tabelog 4.01
 - [Sushi Zanmai (Tsukiji)](restaurants/tokyo-restaurant-sushizanmai.md) — sushi, ¥¥¥, Tsukiji, Tabelog 3.42
-- [Taishu Shabushabu Katsuji Ueno](restaurants/tokyo-restaurant-katsuji-ueno.md) — shabu-shabu / oden, ¥¥¥¥, Ueno / Yanaka, Tabelog 3.52
+- [Taishu Shabushabu Katsuji Ueno](restaurants/tokyo-restaurant-katsuji-ueno.md) — shabu-shabu / oden, ¥¥¥¥, Ueno / Yanaka, Tabelog 3.53
 - [Tamawarai](restaurants/tokyo-restaurant-tamawarai.md) — soba, ¥¥¥¥, Harajuku / Omotesando, Tabelog 3.92
 - [Tansoan Kenjiro](restaurants/tokyo-restaurant-tansoan-kenjiro.md) — soba, sake bar, ¥¥¥¥, Asakusa, Tabelog 3.65
 - [Tensuke](restaurants/tokyo-restaurant-tensuke.md) — tempura, ¥¥, Nakano / Koenji / Ogikubo
@@ -191,9 +191,9 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Tsurutontan UDON NOODLE Brasserie Shibuya ten](restaurants/tokyo-restaurant-tsurutontan-udon-noodle-brasserie-shibuya-ten.md) — udon, izakaya, shabu-shabu, ¥¥, Shibuya, Tabelog 3.39
 - [Udon Manda Jiro](restaurants/tokyo-restaurant-udon-manda-jiro.md) — udon, ¥¥, Shinjuku, Tabelog 3.59
 - [Udon Maruka](restaurants/tokyo-restaurant-udon-maruka.md) — udon, ¥, Akihabara / Kanda / Jimbocho
-- [Udon Shin](restaurants/tokyo-restaurant-udon-shin.md) — udon, ¥¥, Shinjuku, Tabelog 3.68
+- [Udon Shin](restaurants/tokyo-restaurant-udon-shin.md) — udon, ¥¥, Shinjuku, Tabelog 3.67
 - [Udon Yamacho](restaurants/tokyo-restaurant-udon-yamacho.md) — udon, tempura, izakaya, ¥¥¥, Ebisu / Daikanyama, Tabelog 3.68
-- [Udonya Shinbori](restaurants/tokyo-restaurant-udonya-shinbori.md) — udon, ¥¥, Shinjuku, Tabelog 3.6
+- [Udonya Shinbori](restaurants/tokyo-restaurant-udonya-shinbori.md) — udon, ¥¥, Shinjuku, Tabelog 3.61
 - [Urinbo](restaurants/tokyo-restaurant-urinbo.md) — ramen, ¥, Asakusa, Tabelog 3.54
 - [Usagi](restaurants/tokyo-restaurant-usagi.md) — ramen / tantanmen, ¥, Shibuya, Tabelog 3.68
 - [Ushigoro Ginza](restaurants/tokyo-restaurant-ushigoro-ginza.md) — yakiniku, steak, tripe, ¥¥¥¥, Ginza / Shimbashi, Tabelog 3.68

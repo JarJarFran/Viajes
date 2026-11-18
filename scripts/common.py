@@ -202,6 +202,37 @@ def parse_hours(text, sunset=None):
     return op, cl
 
 
+def _hm(s):
+    h, m = str(s).split(":")
+    return int(h) * 60 + int(m)
+
+
+def opening_windows(n, day, hol=frozenset()):
+    """Opening windows (minutes) on a date from structured `opening`, or None when unknown.
+    A public holiday uses the `hol` entry when present, otherwise the weekday; [] = not open."""
+    rows = n.get("opening")
+    if not isinstance(rows, list) or not rows:
+        return None
+    day = d(day)
+    keys = [WEEKDAYS[day.weekday()]]
+    if day in hol:
+        keys.insert(0, "hol")
+    elif day + timedelta(days=1) in hol:
+        keys.insert(0, "pre_hol")
+    elif day - timedelta(days=1) in hol:
+        keys.insert(0, "post_hol")
+    for k in keys:
+        for r in rows:
+            if k in (r.get("days") or []):
+                out = []
+                for t in r.get("times") or []:
+                    a, b = str(t).split("-")
+                    op, cl = _hm(a), _hm(b)
+                    out.append((op, cl + 1440 if cl <= op else cl))
+                return out
+    return []
+
+
 def coords(n):
     c = n.get("coords")
     if isinstance(c, (list, tuple)) and len(c) == 2:
@@ -405,7 +436,18 @@ def rule_matches(rule, day, hol=frozenset()):
         return a <= day <= b
     if "specific" in rule:
         return day in {d(x) for x in rule["specific"]}
+    if rule.get("holidays"):
+        return day in hol
     return False  # `irregular` notes never match a date
+
+
+def soft_closure(r):
+    """Text when a closure rule only warns (part of the place, or a possible closure), else None."""
+    if r.get("partial"):
+        return r["partial"]
+    if r.get("maybe"):
+        return f"may be closed: {r['maybe']}"
+    return None
 
 
 def closures_on(n, day, hol=frozenset()):
@@ -428,6 +470,8 @@ def describe_rule(r):
         return f"closed {r['dates']}"
     if "specific" in r:
         return "closed on " + ", ".join(map(str, r["specific"]))
+    if r.get("holidays"):
+        return "closed on public holidays"
     return str(r.get("irregular", ""))
 
 

@@ -8,14 +8,20 @@ cuisine: curry
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/tokyo/A1306/A130601/13103835/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.76
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat 11:30-21:00; sun 11:30-20:30
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat], times: [11:30-21:00]}
+  - {days: [sun], times: [11:30-20:30]}
 station: Kita Sando
 station_m: 460
 coords: [35.674616, 139.707611]
 coords_precision: exact
-verified: 2026-11
+address_ja: 東京都渋谷区神宮前2-35-9 原宿リビン 105
+verified: '2026-11-18'
 ---
 
 # CURRY UP

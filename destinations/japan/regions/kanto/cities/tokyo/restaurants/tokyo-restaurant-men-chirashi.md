@@ -8,14 +8,19 @@ cuisine: udon
 price_range: ¥¥
 budget_lunch_yen: [null, 999]
 budget_dinner_yen: [2000, 2999]
+tabelog: https://tabelog.com/en/tokyo/A1306/A130601/13225567/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.58
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat,sun,hol 11:30-22:00
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat, sun, hol], times: [11:30-22:00]}
 station: Meiji Jingumae
 station_m: 232
 coords: [35.668421, 139.705341]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都渋谷区神宮前6-13-7
+verified: '2026-11-18'
 ---
 
 # Men Chirashi

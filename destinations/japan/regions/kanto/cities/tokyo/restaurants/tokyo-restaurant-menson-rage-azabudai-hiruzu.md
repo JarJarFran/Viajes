@@ -9,14 +9,19 @@ cuisine: ramen, abura-soba, maze-soba, curry
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/tokyo/A1307/A130704/13291538/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.62
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat,sun 11:00-22:00
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat, sun], times: [11:00-22:00]}
 station: Kamiyacho
 station_m: 224
 coords: [35.66248, 139.744738]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都港区虎ノ門5-10-7 麻布台ヒルズガーデンプラザD B1F
+verified: '2026-11-18'
 ---
 
 # Menson RAGE Azabudai hiruzu

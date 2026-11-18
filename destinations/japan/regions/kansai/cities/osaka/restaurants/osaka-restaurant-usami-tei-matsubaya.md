@@ -8,14 +8,22 @@ cuisine: udon, soba, oyako-don
 price_range: ¥
 budget_lunch_yen: [null, 999]
 budget_dinner_yen: [null, 999]
+tabelog: https://tabelog.com/en/osaka/A2701/A270201/27000931/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
-tabelog_rating: 3.67
+tabelog_rating: 3.66
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat 11:00-18:00
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat], times: [11:00-18:00]}
+closed:
+  - {weekly: [sun]}
+  - {holidays: true}
 station: Shinsaibashi
 station_m: 365
 coords: [34.675354, 135.499201]
 coords_precision: station
-verified: 2026-11
+address_ja: 大阪府大阪市中央区南船場3-8-1
+verified: '2026-11-18'
 ---
 
 # Usami Tei Matsubaya

@@ -8,14 +8,22 @@ area_detail: Chuo-ku (Nagahoribashi)
 cuisine: curry, soup curry
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/osaka/A2701/A270201/27107555/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
-tabelog_rating: 4.02
+tabelog_rating: 4.04
 tags: [top-rated]
+hours: mon,tue,wed,thu 11:45-13:30
+opening:
+  - {days: [mon, tue, wed, thu], times: [11:45-13:30]}
+closed:
+  - {weekly: [fri, sat, sun]}
+  - {holidays: true}
 station: Nagahoribashi
 station_m: 318
 coords: [34.675318, 135.506297]
 coords_precision: station
-verified: 2026-11
+address_ja: 大阪府大阪市中央区南船場2-2-21
+verified: '2026-11-18'
 ---
 
 # Hashimoto Ya

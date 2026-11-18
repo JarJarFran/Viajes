@@ -9,15 +9,24 @@ cuisine: ramen, tsukemen
 price_range: ¥¥¥
 budget_lunch_yen: [2000, 2999]
 budget_dinner_yen: [3000, 3999]
+tabelog: https://tabelog.com/en/osaka/A2701/A270101/27104891/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
-tabelog_rating: 3.9
+tabelog_rating: 3.92
 tags: [top-rated]
+hours: mon,wed,thu,fri 11:00-15:30; sat 11:00-16:00 & 18:00-21:00; sun 11:00-16:00
+opening:
+  - {days: [mon, wed, thu, fri], times: [11:00-15:30]}
+  - {days: [sat], times: [11:00-16:00, 18:00-21:00]}
+  - {days: [sun], times: [11:00-16:00]}
+closed:
+  - {weekly: [tue]}
 station: Nakatsu
 station_m: 281
 coords: [34.711327, 135.499994]
 coords_precision: exact
 name_ja: 麦と麺助
-verified: 2026-11
+address_ja: 大阪府大阪市北区豊崎3-4-12
+verified: '2026-11-18'
 ---
 
 # Mugi to Mensuke

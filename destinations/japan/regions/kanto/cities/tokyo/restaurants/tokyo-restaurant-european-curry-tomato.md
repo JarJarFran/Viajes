@@ -9,14 +9,22 @@ cuisine: european curry
 price_range: ¥¥
 budget_lunch_yen: [2000, 2999]
 budget_dinner_yen: [2000, 2999]
+tabelog: https://tabelog.com/en/tokyo/A1319/A131906/13001113/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 4.26
 tags: [top-rated]
+hours: mon,tue,fri,sat,sun 11:30-13:30 & 17:30-20:30
+opening:
+  - {days: [mon, tue, fri, sat, sun], times: [11:30-13:30, 17:30-20:30]}
+closed:
+  - {weekly: [wed, thu]}
+  - {irregular: irregular closing days — check the restaurant's social media}
 station: Ogikubo
 station_m: 232
 coords: [35.70448, 139.620159]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都杉並区荻窪5-20-7 吉田ビル 1F
+verified: '2026-11-18'
 ---
 
 # European Curry Tomato

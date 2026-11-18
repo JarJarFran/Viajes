@@ -944,7 +944,7 @@
     3000,
     3999
    ],
-   "tabelog_rating": 3.64,
+   "tabelog_rating": 3.63,
    "station": "Higashi Ginza"
   },
   {
@@ -1098,7 +1098,7 @@
     null,
     999
    ],
-   "tabelog_rating": 3.83,
+   "tabelog_rating": 3.84,
    "station": "Awajicho"
   },
   {
@@ -1149,7 +1149,7 @@
     8000,
     9999
    ],
-   "tabelog_rating": 3.85
+   "tabelog_rating": 3.83
   },
   {
    "id": "tokyo-restaurant-katsuji-ueno",
@@ -1165,7 +1165,7 @@
     5000,
     5999
    ],
-   "tabelog_rating": 3.52
+   "tabelog_rating": 3.53
   },
   {
    "id": "tokyo-restaurant-khan-kebab-biryani",
@@ -1194,7 +1194,7 @@
     null,
     999
    ],
-   "tabelog_rating": 3.75
+   "tabelog_rating": 3.74
   },
   {
    "id": "tokyo-restaurant-kirimugi-ya-jinroku",
@@ -1318,7 +1318,7 @@
     1000,
     1999
    ],
-   "tabelog_rating": 3.66,
+   "tabelog_rating": 3.65,
    "station": "Asakusa"
   },
   {
@@ -1427,7 +1427,7 @@
     1000,
     1999
    ],
-   "tabelog_rating": 3.55,
+   "tabelog_rating": 3.56,
    "station": "Roppongi"
   },
   {
@@ -1720,7 +1720,7 @@
     1000,
     1999
    ],
-   "tabelog_rating": 3.68,
+   "tabelog_rating": 3.67,
    "station": "Minami Shinjuku"
   },
   {
@@ -1754,7 +1754,7 @@
     1000,
     1999
    ],
-   "tabelog_rating": 3.6,
+   "tabelog_rating": 3.61,
    "station": "Yoyogi"
   },
   {

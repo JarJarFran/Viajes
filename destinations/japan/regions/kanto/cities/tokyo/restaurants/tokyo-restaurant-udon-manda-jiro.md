@@ -9,14 +9,22 @@ cuisine: udon
 price_range: ¥¥
 budget_lunch_yen: [null, 999]
 budget_dinner_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/tokyo/A1304/A130402/13268343/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.59
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat,hol 11:00-15:00 & 17:00-21:00; sun 11:00-15:00
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat, hol], times: [11:00-15:00, 17:00-21:00]}
+  - {days: [sun], times: [11:00-15:00]}
+closed:
+  - {weekly: [sun]}
 station: Shinjuku Gyoemmae
 station_m: 180
 coords: [35.688573, 139.71074]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都新宿区新宿1-12-1 サンサーラ第三御苑 1F
+verified: '2026-11-18'
 ---
 
 # Udon Manda Jiro

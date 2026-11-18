@@ -8,15 +8,19 @@ area_detail: Nishi-ku (Higobashi)
 cuisine: Indian curry
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
+tabelog: https://tabelog.com/en/osaka/A2701/A270102/27066220/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.93
 tags: [top-rated]
+closed:
+  - {irregular: irregular closing days — check the restaurant's social media}
 station: Higobashi
 station_m: 441
 coords: [34.687233, 135.495448]
 coords_precision: exact
 name_ja: カレー屋 Ghar
-verified: 2026-11
+address_ja: 大阪府大阪市西区京町堀1-9-10-103
+verified: '2026-11-18'
 ---
 
 # Ghar

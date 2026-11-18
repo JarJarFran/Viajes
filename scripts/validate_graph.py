@@ -10,7 +10,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tripplan import load_profile, trip_view  # noqa: E402
-from common import (PLANNABLE, REPO, SCHEMA, allowed_places, closures_on, coords, d, day_id,  # noqa: E402
+from common import (soft_closure,  # noqa: E402
+                    PLANNABLE, REPO, SCHEMA, allowed_places, closures_on, coords, d, day_id,  # noqa: E402
                     describe_rule, edition_on, editions, expected_day, expected_file, haversine_km, holidays,
                     load_graph, load_schema, node_places, plan_items, read, rel, strict_restaurants, trip_day_ids,
                     trip_window, WEEKDAYS)
@@ -32,12 +33,12 @@ def check_closed(rules, where, err):
     if not isinstance(rules, list):
         err(f"{where}: closed must be a list of rules (got {type(rules).__name__}); [] = no known closures")
         return
-    kinds = ("weekly", "yearly", "dates", "specific", "irregular")
+    kinds = ("weekly", "yearly", "dates", "specific", "irregular", "holidays")
     for r in rules:
         if not isinstance(r, dict) or sum(k in r for k in kinds) != 1:
             err(f"{where}: closed rule {r!r} needs exactly one of {kinds}")
             continue
-        extra = set(r) - set(kinds) - {"holiday_shift", "nth", "partial", "note"}
+        extra = set(r) - set(kinds) - {"holiday_shift", "nth", "partial", "maybe", "note"}
         if extra:
             err(f"{where}: closed rule has unknown keys {sorted(extra)}")
         if "weekly" in r:
@@ -151,6 +152,11 @@ def validate(root=REPO, today=None):
                 err(f"{fp}: restaurant needs tabelog or tabelog_list")
         if "closed" in n:
             check_closed(n["closed"], fp, err)
+        for row in n.get("opening") or [] if isinstance(n.get("opening"), list) else []:
+            if not isinstance(row, dict) or any(x not in voc["opening_day"] for x in row.get("days") or []):
+                err(f"{fp}: opening days must be from {voc['opening_day']}")
+            elif any(not re.match(r"^\d{1,2}:\d{2}-\d{1,2}:\d{2}$", str(t)) for t in row.get("times") or []):
+                err(f"{fp}: opening times must look like 11:00-21:30")
         p = n.get("place")
         if p is not None:
             if p not in paths:
@@ -319,8 +325,8 @@ def check_day(n, trip, nodes, paths, fp, err, warn, hol):
                 + ", ".join(f"{e['start']}..{e['end']}" for e in editions(x)) + ")")
         for r in closures_on(x, day, hol):
             msg = f"{fp}: {it['id']} on {day} ({WEEKDAYS[day.weekday()]}): {describe_rule(r)}"
-            if r.get("partial"):
-                warn(msg + f" — partial: {r['partial']}")
+            if soft_closure(r):
+                warn(msg + (f" — partial: {r['partial']}" if r.get("partial") else f" — {soft_closure(r)}"))
             else:
                 err(msg + " — move it to another day")
         if it.get("yen") is not None and (not isinstance(it["yen"], int) or it["yen"] < 0):

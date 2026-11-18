@@ -19,7 +19,8 @@ from collections import defaultdict
 from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (REPO, SCHEMA, area_of, cheapest_meal_yen, city_children, closures_on, coords, d,  # noqa: E402
+from common import (soft_closure,  # noqa: E402
+                    REPO, SCHEMA, area_of, cheapest_meal_yen, city_children, closures_on, coords, d,  # noqa: E402
                     describe_rule, edition_on, editions, editions_overlapping, haversine_km, holidays, load_graph,
                     restaurant_range, strict_restaurants)
 from tripplan import load_profile, trip_view  # noqa: E402
@@ -200,7 +201,7 @@ def main():
             rows = [r for r in rows if area_match(r, a.area)]
         if a.open_on:
             hol = holidays(nodes, "japan")
-            rows = [r for r in rows if not any(not c.get("partial") for c in closures_on(r, d(a.open_on), hol))]
+            rows = [r for r in rows if not any(not soft_closure(c) for c in closures_on(r, d(a.open_on), hol))]
         emit([with_area(r) for r in sorted(rows, key=lambda r: r["name"])],
              ["id", "name", "area", "category", "entry", "cost_yen", "tags", "hours", "booking", "duration_hours"], f)
 
@@ -319,7 +320,7 @@ def main():
             rows = []
             while x <= end:
                 for r in closures_on(n, x, hol):
-                    rows.append({"date": str(x), "rule": describe_rule(r), "partial": r.get("partial")})
+                    rows.append({"date": str(x), "rule": describe_rule(r), "partial": soft_closure(r)})
                 x += timedelta(days=1)
             emit(rows, ["date", "rule", "partial"], f)
         else:

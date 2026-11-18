@@ -9,14 +9,19 @@ cuisine: udon, tempura, izakaya
 price_range: ¥¥
 budget_lunch_yen: [1000, 1999]
 budget_dinner_yen: [2000, 2999]
+tabelog: https://tabelog.com/en/tokyo/A1304/A130402/13182646/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.64
 tags: [top-rated]
+hours: mon,tue,wed,thu,fri,sat,sun 11:00-16:00 & 17:30-23:30
+opening:
+  - {days: [mon, tue, wed, thu, fri, sat, sun], times: [11:00-16:00, 17:30-23:30]}
 station: Shinjuku Gyoemmae
 station_m: 121
 coords: [35.688573, 139.71074]
 coords_precision: station
-verified: 2026-11
+address_ja: 東京都新宿区新宿1-17-1 LAND・DEN 1F
+verified: '2026-11-18'
 ---
 
 # Kirimugi Ya Jinroku
