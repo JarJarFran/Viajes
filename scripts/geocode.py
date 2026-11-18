@@ -196,17 +196,16 @@ def main():
                 misses.append(n["id"])
                 continue
             stats[prec] += 1
-            if n["type"] != "event":  # an event's venue name is not the event's name
-                for k in ("name_ja", "address_ja"):
-                    n.pop(k, None)
             n["coords"] = [round(hit["lat"], 6), round(hit["lon"], 6)]
             if n["type"] not in ("city", "region"):
                 n["coords_precision"] = prec
+            # only fill missing Japanese names/addresses: curated or Tabelog values are never overwritten
+            # (an event's venue name is not the event's name, so events are skipped)
             if prec == "exact" and n["type"] not in ("area", "city", "event") and JA.search(hit.get("name", "")):
-                n["name_ja"] = hit["name"]
+                n.setdefault("name_ja", hit["name"])
                 adr = address_ja(hit)
                 if adr and n["type"] != "restaurant":
-                    n["address_ja"] = adr
+                    n.setdefault("address_ja", adr)
             print(f"[{i}/{len(todo)}] {n['id']}: {prec} {n['coords']} {n.get('name_ja', '')}")
             if not a.dry_run:
                 write(n["_fp"], fmio.render(canonical(n), n["_body"]))

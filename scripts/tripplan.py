@@ -10,7 +10,8 @@ import yaml
 
 from common import (REPO, SCHEMA, SLOT_ORDER, SLOT_WINDOWS, WEEKDAYS, allowed_places, closures_on, coords, d,
                     describe_rule, edition_on, editions_overlapping, estimate_yen, events_on, haversine_km, hhmm,
-                    holidays, opening_windows, parse_hours, plan_items, soft_closure, sun_times, trip_nights)
+                    holidays, opening_windows, parse_hours, plan_items, soft_closure, sun_times, trip_nights,
+                    trip_places)
 
 
 def load_profile(root=REPO):
@@ -213,7 +214,7 @@ def deadlines(nodes, trip, day_views, schema=SCHEMA):
     """Ticket sale openings of events relevant to the trip + booking reminders for planned items."""
     out = []
     a, b = d(trip["start"]), d(trip["end"])
-    places = {s.get("place") for s in trip.get("stops") or []}
+    places = trip_places(trip, nodes)
     seen = set()
     for eid, e in sorted(nodes.items()):
         if e.get("type") != "event" or e.get("place") not in places:
@@ -239,7 +240,7 @@ def deadlines(nodes, trip, day_views, schema=SCHEMA):
             if key in seen:
                 continue
             seen.add(key)
-            lead = n.get("book_ahead_days") or defaults.get(booking, 7)
+            lead = n["book_ahead_days"] if n.get("book_ahead_days") is not None else defaults.get(booking, 7)
             when = d(v["date"]) - timedelta(days=lead)
             out.append({"kind": "book", "id": it["id"], "name": n.get("name"), "date": str(when),
                         "for": v["date"], "booking": booking, "lead_days": lead})
@@ -260,7 +261,7 @@ def trip_view(nodes, paths, trip, profile=None):
               "spent_yen": sum(v["spent_yen"] or 0 for v in views),
               "days_over_budget": [v["date"] for v in views if budget and v["est_yen"] > budget]}
     a, b = d(trip["start"]), d(trip["end"])
-    places = {s.get("place") for s in trip.get("stops") or []}
+    places = trip_places(trip, nodes)
     events = []
     for eid, e in sorted(nodes.items()):
         if e.get("type") == "event" and e.get("place") in places:

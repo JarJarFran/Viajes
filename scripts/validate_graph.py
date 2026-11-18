@@ -133,7 +133,10 @@ def validate(root=REPO, today=None):
                 city = nodes.get(paths.get(n.get("place")))
                 if city and coords(city) and haversine_km(coords(city), coords(n)) > 40:
                     warn(f"{fp}: coords are {haversine_km(coords(city), coords(n)):.0f} km from {city['name']}")
-        for k in ("cost_yen", "price_yen", "price_per_night_yen", "station_m", "book_ahead_days"):
+        for k in ("check_in", "check_out"):
+            if n.get(k) is not None and not re.match(r"^\d{1,2}:\d{2}$", str(n[k])):
+                err(f"{fp}: {k} must be a quoted time like '15:00' (got {n[k]!r}; unquoted 15:00 is read by YAML as a number)")
+        for k in ("cost_yen", "price_yen", "price_per_night_yen", "station_m", "book_ahead_days", "local_transport_day_yen"):
             if n.get(k) is not None and (not isinstance(n[k], int) or n[k] < 0):
                 err(f"{fp}: {k} must be a non-negative integer")
         for k in ("budget_lunch_yen", "budget_dinner_yen", "budget_yen"):

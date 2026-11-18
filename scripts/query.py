@@ -19,7 +19,7 @@ from collections import defaultdict
 from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (soft_closure,  # noqa: E402
+from common import (soft_closure, trip_places,  # noqa: E402
                     REPO, SCHEMA, area_of, cheapest_meal_yen, city_children, closures_on, coords, d,  # noqa: E402
                     describe_rule, edition_on, editions, editions_overlapping, haversine_km, holidays, load_graph,
                     restaurant_range, strict_restaurants)
@@ -173,7 +173,7 @@ def main():
         if origin:
             out = [x for x in out if x.get("km") is not None and x["km"] <= a.km]
         sort = getattr(a, "sort", "rating")
-        key = {"rating": lambda r: -float(r.get("tabelog_rating") or 0), "price": lambda r: cheapest_meal_yen(r) or 0,
+        key = {"rating": lambda r: -float(r.get("tabelog_rating") or 0), "price": lambda r: (cheapest_meal_yen(r) is None, cheapest_meal_yen(r) or 0),
                "name": lambda r: r.get("name", ""), "distance": lambda r: r.get("km", 99)}[sort if not origin or sort != "rating" else "distance"]
         out.sort(key=key)
         if getattr(a, "limit", None):
@@ -213,7 +213,7 @@ def main():
             eds = editions(e)
             if a.trip:
                 t = get_trip(a.trip)
-                places = {s.get("place") for s in t.get("stops") or []}
+                places = trip_places(t, nodes)
                 eds = editions_overlapping(e, d(t["start"]), d(t["end"])) if e.get("place") in places else []
             if a.on_date:
                 ed = edition_on(e, a.on_date)

@@ -211,10 +211,10 @@ def build_ics(trip, view):
             lines.append(s)
         if v["events"]:
             lines.append("Events: " + ", ".join(e["name"] for e in v["events"]))
-        for k, label in (("check_out", "Check-out"), ("check_in", "Check-in")):
-            if v.get(k):
-                lines.insert(0, f"{label}: {v[k]['hotel']}" + (f" ({'by' if k == 'check_out' else 'from'} {v[k]['time']})"
-                                                                if v[k].get("time") else ""))
+        moves = [f"{label}: {v[k]['hotel']}" + (f" ({'by' if k == 'check_out' else 'from'} {v[k]['time']})"
+                                                  if v[k].get("time") else "")
+                 for k, label in (("check_out", "Check-out"), ("check_in", "Check-in")) if v.get(k)]
+        lines = moves + lines
         for w in v.get("warnings") or []:
             lines.append("⚠ " + w)
         if v.get("sunrise"):
@@ -344,7 +344,7 @@ def _practical(practical):
                                       f'<a href="tel:{_e(str(v).split(" ")[0])}">{_e(v)}</a>' for k, v in em.items()) + "</div>")
     for h in practical.get("hotels") or []:
         H.append(f'<div class="taxi"><div class="muted">{_e(h["nights"])} · {_e(h["name"])}'
-                 + (f" · in {_e(h['check_in'])} / out {_e(h['check_out'])}" if h.get("check_in") else "")
+                 + "".join(f" · {lab} {_e(h[k])}" for k, lab in (("check_in", "in"), ("check_out", "out")) if h.get(k))
                  + (f' · <a href="tel:{_e(h["phone"])}">{_e(h["phone"])}</a>' if h.get("phone") else "") + "</div>"
                  + (f'<div class="big">{_e(h["name_ja"])}</div>' if h.get("name_ja") else "")
                  + (f'<div class="ja">{_e(h["address_ja"])}</div>' if h.get("address_ja") else "") + "</div>")

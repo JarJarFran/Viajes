@@ -329,6 +329,15 @@ def trip_day_ids(trip):
     return [day_id(trip["id"], x) for x in daterange(a, b + timedelta(days=1))]
 
 
+def trip_places(trip, nodes):
+    """Cities a trip touches: every stop plus every day-trip city in its days' `visits`."""
+    out = {s.get("place") for s in trip.get("stops") or []}
+    for did in trip.get("days") or []:
+        out.update((nodes.get(did) or {}).get("visits") or [])
+    out.discard(None)
+    return out
+
+
 def allowed_places(trip, day):
     """Cities a day's plan may reference: where we sleep, where we slept the night before
     (travel days) and any day-trip `visits`."""
@@ -599,9 +608,8 @@ def derive_edges(nodes, paths, schema=SCHEMA):
             add(nid, paths.get(n.get("destination")), "destination")
         if t == "trip":
             a, b = trip_window(n)
-            places = set()
+            places = trip_places(n, nodes)
             for s in n.get("stops") or []:
-                places.add(s.get("place"))
                 add(nid, paths.get(s.get("place")), "stop", check_in=str(s.get("from")), check_out=str(s.get("to")))
                 if s.get("accommodation"):
                     add(nid, s["accommodation"], "stay")

@@ -113,8 +113,8 @@ DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 TRANSP:TRANSPARENT
 SUMMARY:Kyoto · Osaka → Kyoto (travel day)
-DESCRIPTION:Check-in: Hotel Granvia Kyoto (from 15:00)\nCheck-out: Cross Ho
- tel Osaka (by 11:00)\n[morning] Kuromon Ichiba Market ("Osaka's Kitchen") 
+DESCRIPTION:Check-out: Cross Hotel Osaka (by 11:00)\nCheck-in: Hotel Granvi
+ a Kyoto (from 15:00)\n[morning] Kuromon Ichiba Market ("Osaka's Kitchen") 
  (¥2\,000)\n[travel] Osaka ↔ Kyoto (¥580)\n[dinner] Honke Daiichi Asahi
   Honten (¥999)\nEvents: Hatsumode (first shrine visit of the year) at Yas
  aka Shrine\, First calligraphy (Tenmangaki) at Kitano Tenmangu\, Osaka Cas
@@ -219,8 +219,8 @@ DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Shinjuku (arrival)
-DESCRIPTION:Check-in: Hotel Gracery Shinjuku (from 14:00)\nCheck-out: Hotel
-  Granvia Kyoto (by 12:00)\n[morning] Tokyo Metropolitan Government Buildin
+DESCRIPTION:Check-out: Hotel Granvia Kyoto (by 12:00)\nCheck-in: Hotel Grac
+ ery Shinjuku (from 14:00)\n[morning] Tokyo Metropolitan Government Buildin
  g observatory (45F) (¥0)\n[travel] Kyoto → Tokyo (Tokaido Shinkansen) (
  ¥14\,090)\n[lunch] Udon Shin (¥1\,500)\n[dinner] Omoide Yokocho yakitori
   stalls (¥2\,000)\nEvents: Toka Ebisu festival at Ebisu-jinja (Gion)\, Ne

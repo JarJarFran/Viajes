@@ -411,6 +411,37 @@ class TestOpeningAndTabelog(Fixture):
         self.assertEqual(vague["closed"], [{"yearly": "12-29..01-03", "maybe": "year-end & New Year holidays (dates not published)"}])
 
 
+class TestReviewFixes(Fixture):
+    def test_day_trip_city_events_get_deadlines(self):
+        self.node("destinations/japan/regions/kansai/cities/nara/README.md", id="nara", type="city", name="Nara",
+                  path="japan/kansai/nara", country="japan", region="kansai")
+        self.node(f"{CITY}/nara/events/nara-fest.md", id="nara-fest", type="event", name="Nara fest",
+                  place="japan/kansai/nara", entry="free",
+                  editions=[{"start": date(2027, 1, 10), "end": date(2027, 1, 10),
+                             "on_sale": datetime(2026, 12, 1, 10, 0, tzinfo=timezone(timedelta(hours=9)))}])
+        self.edit("trips/t1/days/2027-01-10.md", visits=["japan/kansai/nara"])
+        self.run_sync()
+        data = json.load(open(os.path.join(self.root, "exports/trips/t1.json")))
+        self.assertIn("nara-fest", [x["id"] for x in data["deadlines"]])
+        self.assertIn("nara-fest", [x["id"] for x in data["events"]])
+
+    def test_hotel_times_must_be_quoted(self):
+        self.edit(f"{CITY}/osaka/hotels/osaka-hotel-h.md", check_in=900)
+        errs, _ = self.errors()
+        self.assertTrue(any("check_in must be a quoted time" in e for e in errs), errs)
+
+    def test_tabelog_refuses_unparsed_page(self):
+        n = {"closed": [{"weekly": ["mon"]}]}
+        with self.assertRaises(ValueError):
+            tabelog.apply(n, {"url": "u", "name": "", "hours": [], "closed_header": "", "note": "", "address": ""})
+        self.assertEqual(n["closed"], [{"weekly": ["mon"]}])
+
+    def test_ics_lists_check_out_before_check_in(self):
+        text = open(os.path.join(self.root, "exports/trips/t1.ics"), encoding="utf-8").read().replace("\r\n ", "")
+        block = text.split("UID:t1-2027-01-11@viajes")[1].split("END:VEVENT")[0]
+        self.assertLess(block.index("Check-out"), block.index("Check-in"))
+
+
 class TestFrontmatter(unittest.TestCase):
     def test_roundtrip(self):
         fm = {"id": "x", "type": "activity", "hours": "9:00-17:00", "note": "a: b # c", "q": "it's \"quoted\"",

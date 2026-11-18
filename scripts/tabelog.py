@@ -167,7 +167,14 @@ def to_fields(p):
     return out
 
 
+def looks_parsed(p):
+    """A real restaurant page has a name and some hours/closing information (not a captcha page)."""
+    return bool(p.get("name")) and bool(p.get("hours") or p.get("closed_header") or p.get("note"))
+
+
 def apply(n, p, today=None):
+    if not looks_parsed(p):
+        raise ValueError(f"{p.get('url')}: page did not parse (layout change or captcha?) — node left unchanged")
     f = to_fields(p)
     for k in ("opening", "hours", "address_ja"):
         if f.get(k):
@@ -208,7 +215,11 @@ def main():
             continue
         p = parse_page(fetch(n["tabelog"], not a.no_cache), n["tabelog"])
         before = {k: n.get(k) for k in ("opening", "closed", "tabelog_rating", "booking")}
-        apply(n, p)
+        try:
+            apply(n, p)
+        except ValueError as e:
+            print(f"{rid}: {e}")
+            continue
         changed = [k for k in before if before[k] != n.get(k)]
         print(f"{rid}: {p['name']} {p['rating']} — " + (", ".join(changed) + " updated" if changed else "no change"))
         if not a.dry_run:
