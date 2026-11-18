@@ -37,6 +37,9 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 - [Hatsumode at Yasaka Shrine](events/kyoto-hatsumode.md) — first shrine visit of the year, Dec 31–Jan 3; go early morning
 - [Joya no Kane](events/kyoto-joya-no-kane.md) — temple bells on New Year's Eve
 - [Toka Ebisu festival, Ebisu-jinja (Gion)](events/kyoto-toka-ebisu.md) — Jan 8–12, main day Jan 10
+- [First calligraphy at Kitano Tenmangu](events/kyoto-kitano-tenmangaki.md) — Jan 2–4
+- [Karuta Hajime at Yasaka Shrine](events/kyoto-karuta-hajime.md) — Jan 3, 13:00, poem-card game in Heian costume
+- [Kemari Hajime at Shimogamo Shrine](events/kyoto-kemari-hajime.md) — Jan 4, ~13:30, Heian court football
 - New Year closures: Nijo Castle Dec 29–31 (Ninomaru Palace Jan 1–3), Imperial Palace Dec 28–Jan 4, National Museum Dec 28–Jan 1, Nanzen-ji Dec 28–31, Nishiki Market mostly closed until ~Jan 4–5
 - Monthly markets: Kobo-ichi flea market at Toji on the 21st; Tenjin-ichi at Kitano Tenmangu on the 25th
 

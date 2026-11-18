@@ -1378,6 +1378,48 @@
    "entry": "free"
   },
   {
+   "id": "kyoto-karuta-hajime",
+   "name": "Karuta Hajime (first poem-card game) at Yasaka Shrine",
+   "recurrence": "yearly, January 3 at 13:00",
+   "editions": [
+    {
+     "start": "2027-01-03",
+     "end": "2027-01-03",
+     "note": 780
+    }
+   ],
+   "entry": "free",
+   "cost_yen": 0
+  },
+  {
+   "id": "kyoto-kemari-hajime",
+   "name": "Kemari Hajime (Heian court football) at Shimogamo Shrine",
+   "recurrence": "yearly, January 4 (~13:30)",
+   "editions": [
+    {
+     "start": "2027-01-04",
+     "end": "2027-01-04",
+     "note": "~13:30 (some listings 14:00)"
+    }
+   ],
+   "entry": "free",
+   "cost_yen": 0
+  },
+  {
+   "id": "kyoto-kitano-tenmangaki",
+   "name": "First calligraphy (Tenmangaki) at Kitano Tenmangu",
+   "recurrence": "yearly, January 2–4",
+   "editions": [
+    {
+     "start": "2027-01-02",
+     "end": "2027-01-04",
+     "note": "calligraphy 10:00–16:00; kyogen Jan 3 13:00"
+    }
+   ],
+   "entry": "mixed",
+   "cost_yen": 250
+  },
+  {
    "id": "kyoto-toka-ebisu",
    "name": "Toka Ebisu festival at Ebisu-jinja (Gion)",
    "recurrence": "yearly, January 8 to 12 (main day January 10)",

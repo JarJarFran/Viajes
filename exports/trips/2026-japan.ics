@@ -116,8 +116,9 @@ SUMMARY:Kyoto · Osaka → Kyoto (travel day)
 DESCRIPTION:[morning] Kuromon Ichiba Market ("Osaka's Kitchen") (¥2\,000)\
  n[travel] Osaka ↔ Kyoto (¥580)\n[dinner] Honke Daiichi Asahi Honten (¥
  999)\nEvents: Hatsumode (first shrine visit of the year) at Yasaka Shrine\
- , Osaka Castle Illuminage (winter light show)\nSunrise 07:05 · sunset 16:
- 56\nEstimated ¥3\,579 / budget ¥21\,006 per person
+ , First calligraphy (Tenmangaki) at Kitano Tenmangu\, Osaka Castle Illumin
+ age (winter light show)\nSunrise 07:05 · sunset 16:56\nEstimated ¥3\,579
+  / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -130,10 +131,13 @@ SUMMARY:Kyoto · Higashiyama / Gion
 DESCRIPTION:[early] Yasaka Pagoda (Hokan-ji) & Ishibe-koji (¥0)\n[early] H
  atsumode (first shrine visit of the year) at Yasaka Shrine (¥0)\n[morning
  ] Kiyomizu-dera & Higashiyama slopes (¥500)\n[morning] Sannenzaka & Ninen
- zaka lanes (¥0)\n[lunch] Kyoto Gion Okaru (¥1\,500)\n[evening] Gion & Hi
- gashiyama at dusk (¥0)\n[dinner] Gion Duck Noodles (¥2\,500)\nEvents: Ha
- tsumode (first shrine visit of the year) at Yasaka Shrine\nSunrise 07:05 
- · sunset 16:57\nEstimated ¥4\,500 / budget ¥21\,006 per person
+ zaka lanes (¥0)\n[lunch] Kyoto Gion Okaru (¥1\,500)\n[afternoon] Karuta 
+ Hajime (first poem-card game) at Yasaka Shrine (¥0)\n[evening] Gion & Hig
+ ashiyama at dusk (¥0)\n[dinner] Gion Duck Noodles (¥2\,500)\nEvents: Hat
+ sumode (first shrine visit of the year) at Yasaka Shrine\, Karuta Hajime (
+ first poem-card game) at Yasaka Shrine\, First calligraphy (Tenmangaki) at
+  Kitano Tenmangu\nSunrise 07:05 · sunset 16:57\nEstimated ¥4\,500 / budg
+ et ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -146,8 +150,9 @@ SUMMARY:Kyoto · Ginkaku-ji / Philosopher's Path / Nanzen-ji
 DESCRIPTION:[morning] Ginkaku-ji (Silver Pavilion) (¥500)\n[morning] Philo
  sopher's Path (Tetsugaku-no-michi) (¥0)\n[lunch] Yamamoto Menzou (¥1\,50
  0)\n[afternoon] Nanzen-ji (brick aqueduct) (¥0)\n[dinner] Menya Inoichi (
- ¥1\,250)\nSunrise 07:05 · sunset 16:57\nEstimated ¥3\,250 / budget ¥21
- \,006 per person
+ ¥1\,250)\nEvents: Kemari Hajime (Heian court football) at Shimogamo Shrin
+ e\, First calligraphy (Tenmangaki) at Kitano Tenmangu\nSunrise 07:05 · su
+ nset 16:57\nEstimated ¥3\,250 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -309,9 +314,10 @@ SUMMARY:Tokyo · Akihabara / Kanda / Tokyo Station
 DESCRIPTION:[morning] Akihabara (Electric Town) (¥500)\n[lunch] KAMAYOSHI 
  (¥999)\n[afternoon] Pokemon Center (Tokyo Station / Nihonbashi) (¥500)\n
  [dinner] Katsu Kichi Shinmaru biru ten (¥2\,500)\nEvents: New Year sales 
- & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, Jan
- uary)\, Tokyo winter illuminations (January)\nSunrise 06:50 · sunset 16:4
- 9\nEstimated ¥4\,499 / budget ¥21\,006 per person
+ & fukubukuro (lucky bags)\, Setagaya Boroichi (flea market)\, Grand Sumo T
+ ournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (Janu
+ ary)\nSunrise 06:50 · sunset 16:49\nEstimated ¥4\,499 / budget ¥21\,006
+  per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -323,9 +329,10 @@ TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Kamakura day trip
 DESCRIPTION:[travel] Tokyo ↔ Kamakura (¥2\,040)\n[day] Day trip to Kamak
  ura & Enoshima (¥300)\n[dinner] FISH Shinjuku ten (¥2\,500)\nEvents: New
-  Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kok
- ugikan\, January)\, Tokyo winter illuminations (January)\nSunrise 06:50 ·
-  sunset 16:52\nEstimated ¥4\,840 / budget ¥21\,006 per person
+  Year sales & fukubukuro (lucky bags)\, Setagaya Boroichi (flea market)\, 
+ Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illumin
+ ations (January)\nSunrise 06:50 · sunset 16:52\nEstimated ¥4\,840 / budg
+ et ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT

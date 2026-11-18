@@ -54,8 +54,12 @@ Derived from event `editions` that overlap the trip in the stop cities (`python3
 | 2026-12-31 → 2027-01-03 | [Hatsumode (first shrine visit of the year) at Yasaka Shrine](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-hatsumode.md) | Kyoto | 01-02–01-03 | 01-03 |
 | 2026-12-31 → 2026-12-31 | [Joya no Kane (New Year's Eve temple bells)](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-joya-no-kane.md) | Kyoto | — | — |
 | 2027-01-01 → 2027-01-31 | [New Year sales & fukubukuro (lucky bags)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-new-year-sales.md) | Tokyo | 01-09–01-23 | 01-20 |
+| 2027-01-02 → 2027-01-04 | [First calligraphy (Tenmangaki) at Kitano Tenmangu](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-kitano-tenmangaki.md) | Kyoto | 01-02–01-04 | — |
+| 2027-01-03 → 2027-01-03 | [Karuta Hajime (first poem-card game) at Yasaka Shrine](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-karuta-hajime.md) | Kyoto | 01-03 | 01-03 |
+| 2027-01-04 → 2027-01-04 | [Kemari Hajime (Heian court football) at Shimogamo Shrine](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-kemari-hajime.md) | Kyoto | 01-04 | — |
 | 2027-01-08 → 2027-01-12 | [Toka Ebisu festival at Ebisu-jinja (Gion)](../../destinations/japan/regions/kansai/cities/kyoto/events/kyoto-toka-ebisu.md) | Kyoto | 01-08–01-09 | 01-08 |
 | 2027-01-10 → 2027-01-24 | [Grand Sumo Tournament (Ryogoku Kokugikan, January)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-sumo-tournament.md) | Tokyo | 01-10–01-23 | 01-10 |
+| 2027-01-15 → 2027-01-16 | [Setagaya Boroichi (flea market)](../../destinations/japan/regions/kanto/cities/tokyo/events/tokyo-setagaya-boroichi.md) | Tokyo | 01-15–01-16 | — |
 <!-- gen:end events -->
 
 Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. Shimai-Kobo market at Toji is on the 21st (Dec 21, 2026 / Jan 21, 2027) — both outside our Kyoto stay. Kyoto closures: Nijo Castle Dec 29–31, Ninomaru Palace Jan 1–3, Imperial Palace Dec 28–Jan 4, Nishiki Market mostly closed until ~Jan 4–5.
@@ -154,7 +158,7 @@ Full plans in [days/](days/); offline page: [exports/trips/2026-japan.html](../.
 | [2026-12-31](days/2026-12-31.md) thu | Osaka | Namba / Kita — New Year's Eve | Amerika-mura (America Village); Midosuji Illumination (winter lights); Okonomi Tamachan Viva; Dotonbori & Shinsaibashi at night | ¥5,000 |
 | [2027-01-01](days/2027-01-01.md) fri | Osaka | Sumiyoshi / Shinsekai — New Year's Day | Sumiyoshi Taisha Shrine; Daruma (Shinsekai); Shinsekai & Tsutenkaku Tower; Spa World (Shinsekai onsen); Ichiran (Dotonbori) | ¥5,000 |
 | [2027-01-02](days/2027-01-02.md) sat | Kyoto | Osaka → Kyoto (travel day) | Kuromon Ichiba Market ("Osaka's Kitchen"); Osaka ↔ Kyoto; Honke Daiichi Asahi Honten | ¥3,579 |
-| [2027-01-03](days/2027-01-03.md) sun | Kyoto | Higashiyama / Gion | Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Hatsumode (first shrine visit of the year) at Yasaka Shrine; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Kyoto Gion Okaru; Gion & Higashiyama at dusk; Gion Duck Noodles | ¥4,500 |
+| [2027-01-03](days/2027-01-03.md) sun | Kyoto | Higashiyama / Gion | Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Hatsumode (first shrine visit of the year) at Yasaka Shrine; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Kyoto Gion Okaru; Karuta Hajime (first poem-card game) at Yasaka Shrine; Gion & Higashiyama at dusk; Gion Duck Noodles | ¥4,500 |
 | [2027-01-04](days/2027-01-04.md) mon | Kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Yamamoto Menzou; Nanzen-ji (brick aqueduct); Menya Inoichi | ¥3,250 |
 | [2027-01-05](days/2027-01-05.md) tue | Kyoto | Nishiki Market / downtown / Pontocho | Nishiki Market ("Kyoto's Kitchen"); Nishiki Warai; Kyoto Imperial Palace (Gosho); Pontocho alley; Udon Shiki Kyoto Udon | ¥2,500 |
 | [2027-01-06](days/2027-01-06.md) wed | Kyoto | Arashiyama | Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Arashiyama Yoshimura; Tsukumo Udon Shiokouji honten | ¥3,299 |

@@ -196,12 +196,13 @@ def main():
                 misses.append(n["id"])
                 continue
             stats[prec] += 1
-            for k in ("name_ja", "address_ja"):
-                n.pop(k, None)
+            if n["type"] != "event":  # an event's venue name is not the event's name
+                for k in ("name_ja", "address_ja"):
+                    n.pop(k, None)
             n["coords"] = [round(hit["lat"], 6), round(hit["lon"], 6)]
             if n["type"] not in ("city", "region"):
                 n["coords_precision"] = prec
-            if prec == "exact" and n["type"] not in ("area", "city") and JA.search(hit.get("name", "")):
+            if prec == "exact" and n["type"] not in ("area", "city", "event") and JA.search(hit.get("name", "")):
                 n["name_ja"] = hit["name"]
                 adr = address_ja(hit)
                 if adr and n["type"] != "restaurant":

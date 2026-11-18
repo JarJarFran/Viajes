@@ -1858,6 +1858,25 @@
    "entry": "free"
   },
   {
+   "id": "tokyo-setagaya-boroichi",
+   "name": "Setagaya Boroichi (flea market)",
+   "recurrence": "yearly, December 15–16 and January 15–16",
+   "editions": [
+    {
+     "start": "2026-12-15",
+     "end": "2026-12-16",
+     "note": "9:00–20:00"
+    },
+    {
+     "start": "2027-01-15",
+     "end": "2027-01-16",
+     "note": "9:00–20:00"
+    }
+   ],
+   "entry": "mixed",
+   "cost_yen": 0
+  },
+  {
    "id": "tokyo-sumo-tournament",
    "name": "Grand Sumo Tournament (Ryogoku Kokugikan, January)",
    "recurrence": "Tokyo tournaments every January, May and September (15 days each)",

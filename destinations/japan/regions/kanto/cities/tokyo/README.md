@@ -44,6 +44,7 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Winter illuminations](events/tokyo-winter-illuminations.md) — Marunouchi and Shinjuku Southern Terrace to ~Feb 14, Shinjuku Chuo Park to ~mid-January, Caretta Shiodome, Roppongi Keyakizaka; Yomiuriland Jewellumination on selected days
 - [New Year sales / fukubukuro](events/tokyo-new-year-sales.md) — mostly Jan 1–7; some campaigns run to mid/late January
 - [Grand Sumo Tournament](events/tokyo-sumo-tournament.md) — January, May and September at Ryogoku Kokugikan
+- [Setagaya Boroichi](events/tokyo-setagaya-boroichi.md) — 440-year-old flea market, Dec 15–16 and Jan 15–16
 - Hatsumode (Jan 1–3) at Meiji Jingu draws 3M+ visitors; Zojo-ji and smaller shrines are calmer
 - New Year closures: Imperial Palace East Gardens Dec 28–Jan 3 (and every Mon/Fri), Hama-rikyu Dec 29–Jan 1, TMG observatories Dec 29–31 and Jan 2–3, Tsukiji Outer Market ~Dec 31–Jan 4
 
