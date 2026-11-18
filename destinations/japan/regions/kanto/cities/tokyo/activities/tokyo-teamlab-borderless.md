@@ -5,12 +5,13 @@ name: teamLab Borderless (Azabudai Hills)
 place: japan/kanto/tokyo
 category: museums
 duration_hours: 3
-approx_cost: ¥3,600–5,600 dynamic (from ¥4,000 flat in some reports)
-cost_yen: 3600
+approx_cost: from ¥3,400 dynamic (adults); +¥200 at the door
+cost_yen: 3400
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-20:00 (timed entry)
-closed: []
+closed:
+  - {irregular: closed on some Tuesdays — check the calendar on teamlab.art}
 booking: required
 near: [tokyo-mori-art-museum, tokyo-tokyo-city-view]
 best_season: all year round
@@ -18,6 +19,7 @@ best_time: afternoon
 link: https://www.teamlab.art/e/borderless/
 coords: [35.662002, 139.743418]
 coords_precision: exact
+verified: '2026-11-18'
 ---
 
 # teamLab Borderless (Azabudai Hills)

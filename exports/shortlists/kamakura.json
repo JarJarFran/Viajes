@@ -16,6 +16,35 @@
    "hours": "full day",
    "booking": "walk-in",
    "duration_hours": 8
+  },
+  {
+   "id": "kamakura-hasedera",
+   "name": "Hase-dera Temple",
+   "category": "temple",
+   "entry": "paid",
+   "cost_yen": 400,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "8:00-16:30 (gate closes 17:00)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "kamakura-kotokuin-daibutsu",
+   "name": "Great Buddha (Kotoku-in)",
+   "category": "temple",
+   "entry": "paid",
+   "cost_yen": 300,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Oct–Mar 8:00-17:00 (last entry 16:45); inside 8:00-16:30",
+   "booking": "walk-in",
+   "duration_hours": 0.75
   }
  ],
  "restaurants_strict": [],

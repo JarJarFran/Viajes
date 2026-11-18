@@ -22,6 +22,9 @@ Former samurai capital (12th–14th c.), 1 h from Tokyo. Temples, the Great Budd
 
 ## What to see and do
 
+- [Great Buddha (Kotoku-in)](activities/kamakura-kotokuin-daibutsu.md) — ¥300, Oct–Mar 8:00–17:00
+- [Hase-dera](activities/kamakura-hasedera.md) — ¥400, sea view, 5 min from the Buddha
+
 - [Day trip to Kamakura & Enoshima](activities/kamakura-day-trip.md) — Great Buddha ¥300, Tsurugaoka Hachimangu, Hasedera, Hokoku-ji, Enoshima (Fuji views on clear winter days)
 
 ## Where to eat

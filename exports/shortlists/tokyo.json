@@ -324,7 +324,13 @@
    "hours": "10:00-18:00",
    "booking": "walk-in",
    "duration_hours": 2,
-   "area": "tokyo-area-roppongi"
+   "area": "tokyo-area-roppongi",
+   "closed": [
+    {
+     "dates": "2027-09-24..2028-04-20",
+     "partial": "museum closed for renovation (reopening late April 2028)"
+    }
+   ]
   },
   {
    "id": "tokyo-nakano-broadway",
@@ -434,15 +440,23 @@
    "name": "Shibuya Sky (observation deck)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 2000,
+   "cost_yen": 2700,
    "tags": [
     "touristic",
     "top50"
    ],
-   "hours": "10:00-22:00 (timed)",
+   "hours": "10:00-22:30 (last entry 21:20)",
    "booking": "reserve",
    "duration_hours": 1,
-   "area": "tokyo-area-shibuya"
+   "area": "tokyo-area-shibuya",
+   "closed": [
+    {
+     "yearly": "01-01..01-01"
+    },
+    {
+     "irregular": "closes in bad weather"
+    }
+   ]
   },
   {
    "id": "tokyo-shinjuku-gyoen",
@@ -531,7 +545,7 @@
    "name": "teamLab Borderless (Azabudai Hills)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 3600,
+   "cost_yen": 3400,
    "tags": [
     "touristic",
     "top50",
@@ -540,7 +554,12 @@
    "hours": "10:00-20:00 (timed entry)",
    "booking": "required",
    "duration_hours": 3,
-   "area": "tokyo-area-roppongi"
+   "area": "tokyo-area-roppongi",
+   "closed": [
+    {
+     "irregular": "closed on some Tuesdays — check the calendar on teamlab.art"
+    }
+   ]
   },
   {
    "id": "tokyo-teamlab-planets",
@@ -555,7 +574,18 @@
    ],
    "hours": "10:00-21:00 (timed entry)",
    "booking": "required",
-   "duration_hours": 2
+   "duration_hours": 2,
+   "closed": [
+    {
+     "specific": [
+      "2026-12-03",
+      "2027-01-14"
+     ]
+    },
+    {
+     "irregular": "other maintenance days are announced on teamlab.art; Dec 31 – Jan 2 open 8:00–20:00"
+    }
+   ]
   },
   {
    "id": "tokyo-tmg-observatory",

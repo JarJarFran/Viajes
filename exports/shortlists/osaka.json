@@ -321,12 +321,12 @@
    "name": "Shinsekai & Tsutenkaku Tower",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 1000,
+   "cost_yen": 1500,
    "tags": [
     "touristic",
     "top50"
    ],
-   "hours": "Tower 10:00-21:00 (22:00 weekends)",
+   "hours": "Tower 9:00-22:00 (last entry 21:30)",
    "booking": "walk-in",
    "duration_hours": 2,
    "area": "osaka-area-tennoji"
@@ -355,10 +355,15 @@
    "tags": [
     "top50"
    ],
-   "hours": "10:00-24:00",
+   "hours": "onsen 10:00-08:45 (next day); pool 10:00-19:00",
    "booking": "walk-in",
    "duration_hours": 3,
-   "area": "osaka-area-tennoji"
+   "area": "osaka-area-tennoji",
+   "closed": [
+    {
+     "irregular": "some areas close for maintenance"
+    }
+   ]
   },
   {
    "id": "osaka-sumiyoshi-taisha",
@@ -387,7 +392,12 @@
    "hours": "10:00-21:00 (22:00 weekends)",
    "booking": "walk-in",
    "duration_hours": 1,
-   "area": "osaka-area-tempozan"
+   "area": "osaka-area-tempozan",
+   "closed": [
+    {
+     "irregular": "closed in strong wind and on some maintenance days (follows Kaiyukan)"
+    }
+   ]
   },
   {
    "id": "osaka-tennoji-zoo",
@@ -458,7 +468,7 @@
     "top50",
     "iconic"
    ],
-   "hours": "9:30-22:30 (last entry 22:00)",
+   "hours": "9:30-22:30 (last entry 22:00; special hours on New Year's Eve)",
    "booking": "walk-in",
    "duration_hours": 1.5,
    "area": "osaka-area-umeda"

@@ -155,21 +155,31 @@
    "name": "Fushimi sake district & Gekkeikan Okura Sake Museum",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost_yen": 600,
    "tags": [
     "top50"
    ],
-   "hours": "10:00-17:00",
+   "hours": "museum 9:30-16:30 (last entry 16:00)",
    "booking": "walk-in",
    "duration_hours": 1.5,
-   "area": "kyoto-area-fushimi"
+   "area": "kyoto-area-fushimi",
+   "closed": [
+    {
+     "yearly": "12-28..01-04",
+     "partial": "Gekkeikan Okura Sake Museum closed; the district can still be walked"
+    },
+    {
+     "yearly": "08-13..08-16",
+     "partial": "Gekkeikan Okura Sake Museum closed for Obon"
+    }
+   ]
   },
   {
    "id": "kyoto-ginkaku-ji",
    "name": "Ginkaku-ji (Silver Pavilion)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost_yen": 1000,
    "tags": [
     "touristic",
     "top50",
@@ -293,7 +303,7 @@
     "iconic",
     "unesco"
    ],
-   "hours": "6:00-18:00",
+   "hours": "6:00-18:00 (varies by season)",
    "booking": "walk-in",
    "duration_hours": 2,
    "area": "kyoto-area-kiyomizu"
@@ -335,10 +345,18 @@
    "tags": [
     "top50"
    ],
-   "hours": "9:00-16:00",
+   "hours": "9:00-16:00 (summit to 16:30; closes early when the monkeys leave)",
    "booking": "walk-in",
    "duration_hours": 2,
-   "area": "kyoto-area-arashiyama"
+   "area": "kyoto-area-arashiyama",
+   "closed": [
+    {
+     "yearly": "01-01..01-01"
+    },
+    {
+     "irregular": "closed in heavy rain/snow"
+    }
+   ]
   },
   {
    "id": "kyoto-nanzen-ji",
@@ -488,7 +506,7 @@
     "top50",
     "unesco"
    ],
-   "hours": "8:00-17:00 (9:00 Dec-Feb)",
+   "hours": "Dec–Feb 8:30-16:30; Mar–Nov 8:00-17:00",
    "booking": "walk-in",
    "duration_hours": 1
   },

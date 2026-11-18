@@ -100,10 +100,10 @@ DTEND;VALUE=DATE:20270102
 TRANSP:TRANSPARENT
 SUMMARY:Osaka · Sumiyoshi / Shinsekai — New Year's Day
 DESCRIPTION:[early] Sumiyoshi Taisha Shrine (¥0)\n[lunch] Daruma (Shinseka
- i) (¥500)\n[afternoon] Shinsekai & Tsutenkaku Tower (¥1\,000)\n[afternoo
+ i) (¥500)\n[afternoon] Shinsekai & Tsutenkaku Tower (¥1\,500)\n[afternoo
  n] Spa World (Shinsekai onsen) (¥1\,500)\n[dinner] Ichiran (Dotonbori) (
  ¥2\,000)\nEvents: Osaka Castle Illuminage (winter light show)\nSunrise 07
- :05 · sunset 16:57\nEstimated ¥5\,000 / budget ¥21\,006 per person
+ :05 · sunset 16:57\nEstimated ¥5\,500 / budget ¥21\,006 per person
 LOCATION:Cross Hotel Osaka
 END:VEVENT
 BEGIN:VEVENT
@@ -147,12 +147,12 @@ DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 TRANSP:TRANSPARENT
 SUMMARY:Kyoto · Ginkaku-ji / Philosopher's Path / Nanzen-ji
-DESCRIPTION:[morning] Ginkaku-ji (Silver Pavilion) (¥500)\n[morning] Philo
- sopher's Path (Tetsugaku-no-michi) (¥0)\n[lunch] Yamamoto Menzou (¥1\,50
- 0)\n[afternoon] Nanzen-ji (brick aqueduct) (¥0)\n[dinner] Menya Inoichi (
- ¥1\,250)\nEvents: Kemari Hajime (Heian court football) at Shimogamo Shrin
- e\, First calligraphy (Tenmangaki) at Kitano Tenmangu\nSunrise 07:05 · su
- nset 16:57\nEstimated ¥3\,250 / budget ¥21\,006 per person
+DESCRIPTION:[morning] Ginkaku-ji (Silver Pavilion) (¥1\,000)\n[morning] Ph
+ ilosopher's Path (Tetsugaku-no-michi) (¥0)\n[lunch] Yamamoto Menzou (¥1\
+ ,500)\n[afternoon] Nanzen-ji (brick aqueduct) (¥0)\n[dinner] Menya Inoich
+ i (¥1\,250)\nEvents: Kemari Hajime (Heian court football) at Shimogamo Sh
+ rine\, First calligraphy (Tenmangaki) at Kitano Tenmangu\nSunrise 07:05 ·
+  sunset 16:57\nEstimated ¥3\,750 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -190,10 +190,10 @@ DTEND;VALUE=DATE:20270108
 TRANSP:TRANSPARENT
 SUMMARY:Kyoto · Fushimi — calm day
 DESCRIPTION:[early] Fushimi Inari Taisha (Senbon Torii) (¥0)\n[morning] Fu
- shimi sake district & Gekkeikan Okura Sake Museum (¥500)\n[lunch] Honkaku
+ shimi sake district & Gekkeikan Okura Sake Museum (¥600)\n[lunch] Honkaku
   Teuchi-Udon Taiga (¥1\,500)\n[dinner] KANEGURA (¥5\,500)\n⚠ KANEGURA:
   dinner costs ¥5\,000–5\,999 per person (Tabelog)\nSunrise 07:05 · sun
- set 17:00\nEstimated ¥7\,500 / budget ¥21\,006 per person
+ set 17:00\nEstimated ¥7\,600 / budget ¥21\,006 per person
 LOCATION:Hotel Granvia Kyoto
 END:VEVENT
 BEGIN:VEVENT
@@ -281,11 +281,11 @@ DTEND;VALUE=DATE:20270114
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Shibuya / Harajuku
 DESCRIPTION:[morning] Shibuya crossing and the Hachiko statue (¥0)\n[morni
- ng] Shibuya Sky (observation deck) (¥2\,000)\n[lunch] Kagawa Ippuku ART (
+ ng] Shibuya Sky (observation deck) (¥2\,700)\n[lunch] Kagawa Ippuku ART (
  ¥999)\n[afternoon] Meiji Shrine (Meiji Jingu) and Yoyogi Park (¥0)\n[din
  ner] CURRY UP (¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)
  \, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illu
- minations (January)\nSunrise 06:51 · sunset 16:48\nEstimated ¥4\,499 / b
+ minations (January)\nSunrise 06:51 · sunset 16:48\nEstimated ¥5\,199 / b
  udget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
@@ -295,13 +295,13 @@ DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 TRANSP:TRANSPARENT
-SUMMARY:Tokyo · Toyosu / Odaiba — teamLab day
-DESCRIPTION:[morning] teamLab Planets (Toyosu) (¥3\,600)\n[afternoon] Odai
- ba island (Gundam\, beach\, Rainbow Bridge) (¥360)\n[dinner] Udon Shin (
- ¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Grand Sumo T
- ournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (Janu
- ary)\nSunrise 06:50 · sunset 16:48\nEstimated ¥5\,460 / budget ¥21\,006
-  per person
+SUMMARY:Tokyo · Akihabara / Kanda / Tokyo Station
+DESCRIPTION:[morning] Akihabara (Electric Town) (¥500)\n[lunch] KAMAYOSHI 
+ (¥999)\n[afternoon] Pokemon Center (Tokyo Station / Nihonbashi) (¥500)\n
+ [dinner] Katsu Kichi Shinmaru biru ten (¥2\,500)\nEvents: New Year sales 
+ & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku Kokugikan\, Jan
+ uary)\, Tokyo winter illuminations (January)\nSunrise 06:50 · sunset 16:4
+ 8\nEstimated ¥4\,499 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -310,14 +310,13 @@ DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 TRANSP:TRANSPARENT
-SUMMARY:Tokyo · Akihabara / Kanda / Tokyo Station
-DESCRIPTION:[morning] Akihabara (Electric Town) (¥500)\n[lunch] KAMAYOSHI 
- (¥999)\n[afternoon] Pokemon Center (Tokyo Station / Nihonbashi) (¥500)\n
- [dinner] Katsu Kichi Shinmaru biru ten (¥2\,500)\nEvents: New Year sales 
- & fukubukuro (lucky bags)\, Setagaya Boroichi (flea market)\, Grand Sumo T
- ournament (Ryogoku Kokugikan\, January)\, Tokyo winter illuminations (Janu
- ary)\nSunrise 06:50 · sunset 16:49\nEstimated ¥4\,499 / budget ¥21\,006
-  per person
+SUMMARY:Tokyo · Toyosu / Odaiba — teamLab day
+DESCRIPTION:[morning] teamLab Planets (Toyosu) (¥3\,600)\n[afternoon] Odai
+ ba island (Gundam\, beach\, Rainbow Bridge) (¥360)\n[dinner] Udon Shin (
+ ¥1\,500)\nEvents: New Year sales & fukubukuro (lucky bags)\, Setagaya Bor
+ oichi (flea market)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\
+ , Tokyo winter illuminations (January)\nSunrise 06:50 · sunset 16:49\nEst
+ imated ¥5\,460 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -327,12 +326,13 @@ DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Kamakura day trip
-DESCRIPTION:[travel] Tokyo ↔ Kamakura (¥2\,040)\n[day] Day trip to Kamak
- ura & Enoshima (¥300)\n[dinner] FISH Shinjuku ten (¥2\,500)\nEvents: New
-  Year sales & fukubukuro (lucky bags)\, Setagaya Boroichi (flea market)\, 
- Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo winter illumin
- ations (January)\nSunrise 06:50 · sunset 16:52\nEstimated ¥4\,840 / budg
- et ¥21\,006 per person
+DESCRIPTION:[morning] Great Buddha (Kotoku-in) (¥300)\n[morning] Hase-dera
+  Temple (¥400)\n[travel] Tokyo ↔ Kamakura (¥2\,040)\n[afternoon] Day t
+ rip to Kamakura & Enoshima (¥300)\n[dinner] FISH Shinjuku ten (¥2\,500)\
+ nEvents: New Year sales & fukubukuro (lucky bags)\, Setagaya Boroichi (fle
+ a market)\, Grand Sumo Tournament (Ryogoku Kokugikan\, January)\, Tokyo wi
+ nter illuminations (January)\nSunrise 06:50 · sunset 16:52\nEstimated ¥5
+ \,540 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -342,12 +342,12 @@ DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 TRANSP:TRANSPARENT
 SUMMARY:Tokyo · Azabudai / Roppongi — teamLab Borderless
-DESCRIPTION:[morning] teamLab Borderless (Azabudai Hills) (¥3\,600)\n[lunc
+DESCRIPTION:[morning] teamLab Borderless (Azabudai Hills) (¥3\,400)\n[lunc
  h] Roppongi Udon (¥1\,500)\n[afternoon] Mori Art Museum (Roppongi Hills 5
  3F) (¥2\,000)\n[dinner] Menson RAGE Azabudai hiruzu (¥1\,500)\nEvents: N
  ew Year sales & fukubukuro (lucky bags)\, Grand Sumo Tournament (Ryogoku K
  okugikan\, January)\, Tokyo winter illuminations (January)\nSunrise 06:50 
- · sunset 16:51\nEstimated ¥8\,600 / budget ¥21\,006 per person
+ · sunset 16:51\nEstimated ¥8\,400 / budget ¥21\,006 per person
 LOCATION:Hotel Gracery Shinjuku
 END:VEVENT
 BEGIN:VEVENT
@@ -503,16 +503,16 @@ DESCRIPTION:Book Tokyo Tonkatsu Gabuu for 2027-01-11
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tokyo-teamlab-planets-book-2027-01-14@viajes
+UID:tokyo-teamlab-planets-book-2027-01-15@viajes
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261216
-SUMMARY:Book: teamLab Planets (Toyosu) (for 2027-01-14)
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Book: teamLab Planets (Toyosu) (for 2027-01-15)
 DESCRIPTION:Booking required\; reminder 30 days before the visit.
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT9H
-DESCRIPTION:Book teamLab Planets (Toyosu) for 2027-01-14
+DESCRIPTION:Book teamLab Planets (Toyosu) for 2027-01-15
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

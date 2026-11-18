@@ -9,7 +9,7 @@ approx_cost: ¥600
 cost_yen: 600
 entry: paid
 tags: [touristic, top50, unesco]
-hours: 8:00-17:00 (9:00 Dec-Feb)
+hours: Dec–Feb 8:30-16:30; Mar–Nov 8:00-17:00
 closed: []
 booking: walk-in
 near: [kyoto-kinkaku-ji, kyoto-ninna-ji]
@@ -20,6 +20,7 @@ coords: [35.033463, 135.718088]
 coords_precision: exact
 name_ja: 龍安寺
 address_ja: 〒603-8577 京都府京都市右京区平野上柳町木辻通
+verified: '2026-11-18'
 ---
 
 # Ryoan-ji (rock garden)

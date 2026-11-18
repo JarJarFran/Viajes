@@ -79,30 +79,30 @@ Daily budget: ¥21,006 per person (€120 × 175.05 ECB 2026-11-17).
 | 2026-12-29 tue | Osaka | ¥5,000 | ok | — |  |
 | 2026-12-30 wed | Osaka | ¥5,698 | ok | — |  |
 | 2026-12-31 thu | Osaka | ¥5,000 | ok | — |  |
-| 2027-01-01 fri | Osaka | ¥5,000 | ok | — |  |
+| 2027-01-01 fri | Osaka | ¥5,500 | ok | — |  |
 | 2027-01-02 sat | Kyoto | ¥3,579 | ok | — |  |
 | 2027-01-03 sun | Kyoto | ¥4,500 | ok | — |  |
-| 2027-01-04 mon | Kyoto | ¥3,250 | ok | — |  |
+| 2027-01-04 mon | Kyoto | ¥3,750 | ok | — |  |
 | 2027-01-05 tue | Kyoto | ¥2,500 | ok | — |  |
 | 2027-01-06 wed | Kyoto | ¥3,299 | ok | — |  |
-| 2027-01-07 thu | Kyoto | ¥7,500 | ok | — |  |
+| 2027-01-07 thu | Kyoto | ¥7,600 | ok | — |  |
 | 2027-01-08 fri | Kyoto | ¥4,100 | ok | — |  |
 | 2027-01-09 sat | Tokyo | ¥17,590 | ok | — |  |
 | 2027-01-10 sun | Tokyo | ¥14,000 | ok | — |  |
 | 2027-01-11 mon | Tokyo | ¥5,499 | ok | — |  |
 | 2027-01-12 tue | Tokyo | ¥6,000 | ok | — |  |
-| 2027-01-13 wed | Tokyo | ¥4,499 | ok | — |  |
-| 2027-01-14 thu | Tokyo | ¥5,460 | ok | — |  |
-| 2027-01-15 fri | Tokyo | ¥4,499 | ok | — |  |
-| 2027-01-16 sat | Tokyo | ¥4,840 | ok | — |  |
-| 2027-01-17 sun | Tokyo | ¥8,600 | ok | — |  |
+| 2027-01-13 wed | Tokyo | ¥5,199 | ok | — |  |
+| 2027-01-14 thu | Tokyo | ¥4,499 | ok | — |  |
+| 2027-01-15 fri | Tokyo | ¥5,460 | ok | — |  |
+| 2027-01-16 sat | Tokyo | ¥5,540 | ok | — |  |
+| 2027-01-17 sun | Tokyo | ¥8,400 | ok | — |  |
 | 2027-01-18 mon | Tokyo | ¥9,000 | ok | — |  |
 | 2027-01-19 tue | Tokyo | ¥7,900 | ok | — |  |
 | 2027-01-20 wed | Tokyo | ¥5,300 | ok | — |  |
 | 2027-01-21 thu | Tokyo | ¥10,380 | ok | — |  |
 | 2027-01-22 fri | Tokyo | ¥5,000 | ok | — |  |
 | 2027-01-23 sat | Tokyo | ¥5,140 | ok | — | haneda-to-tokyo-center |
-| **total** | | **¥179,281** | ¥609,174 budget | ¥0 | |
+| **total** | | **¥181,581** | ¥609,174 budget | ¥0 | |
 <!-- gen:end budget -->
 
 ## Booking checklist
@@ -113,7 +113,7 @@ Computed from event ticket sales and the `booking` of planned items (also in `ex
 - [ ] **2026-12-02 11:00:00+09:00** — pre-sale lottery opens: Grand Sumo Tournament (Ryogoku Kokugikan, January) (presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp))
 - [ ] **2026-12-05 10:00:00+09:00** — tickets on sale: Grand Sumo Tournament (Ryogoku Kokugikan, January) (presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp))
 - [ ] **2026-12-12** — book Tokyo Tonkatsu Gabuu for 2027-01-11 (required, 30 days ahead)
-- [ ] **2026-12-15** — book teamLab Planets (Toyosu) for 2027-01-14 (required, 30 days ahead)
+- [ ] **2026-12-16** — book teamLab Planets (Toyosu) for 2027-01-15 (required, 30 days ahead)
 - [ ] **2026-12-18** — book teamLab Borderless (Azabudai Hills) for 2027-01-17 (required, 30 days ahead)
 - [ ] **2026-12-23** — book Osaka Aquarium Kaiyukan for 2026-12-30 (reserve, 7 days ahead)
 - [ ] **2027-01-02** — book Kyoto → Tokyo (Tokaido Shinkansen) for 2027-01-09 (reserve, 7 days ahead)
@@ -156,23 +156,23 @@ Full plans in [days/](days/); offline page: [exports/trips/2026-japan.html](../.
 | [2026-12-29](days/2026-12-29.md) tue | Osaka | Umeda / Nakanoshima ⚠ | BOTANI Curry Umeda ten; Umeda Sky Building (Floating Garden Observatory); Midosuji Illumination (winter lights); Ikareta Noodle Fish Tons | ¥5,000 |
 | [2026-12-30](days/2026-12-30.md) wed | Osaka | Tempozan / Minato-ku | Osaka Aquarium Kaiyukan; Tempozan Giant Ferris Wheel; Usami Tei Matsubaya; Men no Youji | ¥5,698 |
 | [2026-12-31](days/2026-12-31.md) thu | Osaka | Namba / Kita — New Year's Eve | Amerika-mura (America Village); Midosuji Illumination (winter lights); Okonomi Tamachan Viva; Dotonbori & Shinsaibashi at night | ¥5,000 |
-| [2027-01-01](days/2027-01-01.md) fri | Osaka | Sumiyoshi / Shinsekai — New Year's Day | Sumiyoshi Taisha Shrine; Daruma (Shinsekai); Shinsekai & Tsutenkaku Tower; Spa World (Shinsekai onsen); Ichiran (Dotonbori) | ¥5,000 |
+| [2027-01-01](days/2027-01-01.md) fri | Osaka | Sumiyoshi / Shinsekai — New Year's Day | Sumiyoshi Taisha Shrine; Daruma (Shinsekai); Shinsekai & Tsutenkaku Tower; Spa World (Shinsekai onsen); Ichiran (Dotonbori) | ¥5,500 |
 | [2027-01-02](days/2027-01-02.md) sat | Kyoto | Osaka → Kyoto (travel day) | Kuromon Ichiba Market ("Osaka's Kitchen"); Osaka ↔ Kyoto; Honke Daiichi Asahi Honten | ¥3,579 |
 | [2027-01-03](days/2027-01-03.md) sun | Kyoto | Higashiyama / Gion | Yasaka Pagoda (Hokan-ji) & Ishibe-koji; Hatsumode (first shrine visit of the year) at Yasaka Shrine; Kiyomizu-dera & Higashiyama slopes; Sannenzaka & Ninenzaka lanes; Kyoto Gion Okaru; Karuta Hajime (first poem-card game) at Yasaka Shrine; Gion & Higashiyama at dusk; Gion Duck Noodles | ¥4,500 |
-| [2027-01-04](days/2027-01-04.md) mon | Kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Yamamoto Menzou; Nanzen-ji (brick aqueduct); Menya Inoichi | ¥3,250 |
+| [2027-01-04](days/2027-01-04.md) mon | Kyoto | Ginkaku-ji / Philosopher's Path / Nanzen-ji | Ginkaku-ji (Silver Pavilion); Philosopher's Path (Tetsugaku-no-michi); Yamamoto Menzou; Nanzen-ji (brick aqueduct); Menya Inoichi | ¥3,750 |
 | [2027-01-05](days/2027-01-05.md) tue | Kyoto | Nishiki Market / downtown / Pontocho | Nishiki Market ("Kyoto's Kitchen"); Nishiki Warai; Kyoto Imperial Palace (Gosho); Pontocho alley; Udon Shiki Kyoto Udon | ¥2,500 |
 | [2027-01-06](days/2027-01-06.md) wed | Kyoto | Arashiyama | Arashiyama Bamboo Grove & Togetsukyo Bridge; Iwatayama Monkey Park; Arashiyama Yoshimura; Tsukumo Udon Shiokouji honten | ¥3,299 |
-| [2027-01-07](days/2027-01-07.md) thu | Kyoto | Fushimi — calm day ⚠ | Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Honkaku Teuchi-Udon Taiga; KANEGURA | ¥7,500 |
+| [2027-01-07](days/2027-01-07.md) thu | Kyoto | Fushimi — calm day ⚠ | Fushimi Inari Taisha (Senbon Torii); Fushimi sake district & Gekkeikan Okura Sake Museum; Honkaku Teuchi-Udon Taiga; KANEGURA | ¥7,600 |
 | [2027-01-08](days/2027-01-08.md) fri | Kyoto | Kita temples + Gion — Toka Ebisu | Kinkaku-ji (Golden Pavilion); Ryoan-ji (rock garden); Gontaro Kinkakuji ten; Toka Ebisu festival at Ebisu-jinja (Gion); Gion & Higashiyama at dusk; Gion Yorozuya | ¥4,100 |
 | [2027-01-09](days/2027-01-09.md) sat | Tokyo | Shinjuku (arrival) | Tokyo Metropolitan Government Building observatory (45F); Kyoto → Tokyo (Tokaido Shinkansen); Udon Shin; Omoide Yokocho yakitori stalls | ¥17,590 |
 | [2027-01-10](days/2027-01-10.md) sun | Tokyo | Ryogoku — Grand Sumo day 1 ⚠ | Grand Sumo Tournament (Ryogoku Kokugikan, January); Hasegawa (tonkatsu); Katsu Pulipo | ¥14,000 |
 | [2027-01-11](days/2027-01-11.md) mon | Tokyo | Asakusa / Ueno | Senso-ji Temple (Asakusa); Asakusa Ramen Yoroiya; Ueno Park & museums; Tokyo Tonkatsu Gabuu | ¥5,499 |
 | [2027-01-12](days/2027-01-12.md) tue | Tokyo | Tsukiji / Ginza / Marunouchi | Tsukiji Outer Market; Ginza (shopping & depachika); Godaime Hanayama Udon Ginza ten; Tokyo winter illuminations (January); Niboshi to Nihonshu Sugidama | ¥6,000 |
-| [2027-01-13](days/2027-01-13.md) wed | Tokyo | Shibuya / Harajuku | Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Kagawa Ippuku ART; Meiji Shrine (Meiji Jingu) and Yoyogi Park; CURRY UP | ¥4,499 |
-| [2027-01-14](days/2027-01-14.md) thu | Tokyo | Toyosu / Odaiba — teamLab day | teamLab Planets (Toyosu); Odaiba island (Gundam, beach, Rainbow Bridge); Udon Shin | ¥5,460 |
-| [2027-01-15](days/2027-01-15.md) fri | Tokyo | Akihabara / Kanda / Tokyo Station | Akihabara (Electric Town); KAMAYOSHI; Pokemon Center (Tokyo Station / Nihonbashi); Katsu Kichi Shinmaru biru ten | ¥4,499 |
-| [2027-01-16](days/2027-01-16.md) sat | Tokyo | Kamakura day trip | Tokyo ↔ Kamakura; Day trip to Kamakura & Enoshima; FISH Shinjuku ten | ¥4,840 |
-| [2027-01-17](days/2027-01-17.md) sun | Tokyo | Azabudai / Roppongi — teamLab Borderless | teamLab Borderless (Azabudai Hills); Roppongi Udon; Mori Art Museum (Roppongi Hills 53F); Menson RAGE Azabudai hiruzu | ¥8,600 |
+| [2027-01-13](days/2027-01-13.md) wed | Tokyo | Shibuya / Harajuku | Shibuya crossing and the Hachiko statue; Shibuya Sky (observation deck); Kagawa Ippuku ART; Meiji Shrine (Meiji Jingu) and Yoyogi Park; CURRY UP | ¥5,199 |
+| [2027-01-14](days/2027-01-14.md) thu | Tokyo | Akihabara / Kanda / Tokyo Station | Akihabara (Electric Town); KAMAYOSHI; Pokemon Center (Tokyo Station / Nihonbashi); Katsu Kichi Shinmaru biru ten | ¥4,499 |
+| [2027-01-15](days/2027-01-15.md) fri | Tokyo | Toyosu / Odaiba — teamLab day | teamLab Planets (Toyosu); Odaiba island (Gundam, beach, Rainbow Bridge); Udon Shin | ¥5,460 |
+| [2027-01-16](days/2027-01-16.md) sat | Tokyo | Kamakura day trip | Great Buddha (Kotoku-in); Hase-dera Temple; Tokyo ↔ Kamakura; Day trip to Kamakura & Enoshima; FISH Shinjuku ten | ¥5,540 |
+| [2027-01-17](days/2027-01-17.md) sun | Tokyo | Azabudai / Roppongi — teamLab Borderless | teamLab Borderless (Azabudai Hills); Roppongi Udon; Mori Art Museum (Roppongi Hills 53F); Menson RAGE Azabudai hiruzu | ¥8,400 |
 | [2027-01-18](days/2027-01-18.md) mon | Tokyo | Yanaka / Ueno — old Tokyo, calm ⚠ | Yanaka old town (Yanaka Ginza, Nezu Shrine); Nezu Kamachiku; Ueno Park & museums; Taishu Shabushabu Katsuji Ueno | ¥9,000 |
 | [2027-01-19](days/2027-01-19.md) tue | Tokyo | Kawaguchiko day trip — Mt Fuji | Chureito Pagoda (Arakurayama Sengen Park); Tokyo (Shinjuku) ↔ Kawaguchiko; Mt. Fuji Panoramic Ropeway; Kirimugi Ya Jinroku | ¥7,900 |
 | [2027-01-20](days/2027-01-20.md) wed | Tokyo | Imperial Palace / Hama-rikyu / Shibuya | Imperial Palace East Gardens; Hama-rikyu Gardens; Tonkatsu Hasegawa Higashi-ginza; New Year sales & fukubukuro (lucky bags); Men Chirashi | ¥5,300 |

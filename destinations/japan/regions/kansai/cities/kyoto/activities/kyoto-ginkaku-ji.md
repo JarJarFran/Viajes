@@ -5,8 +5,8 @@ name: Ginkaku-ji (Silver Pavilion)
 place: japan/kansai/kyoto
 category: temple
 duration_hours: 1.5
-approx_cost: ¥500–1,000 (price raised in 2026 — check site)
-cost_yen: 500
+approx_cost: ¥1,000 (since 2026-04-01; was ¥500)
+cost_yen: 1000
 entry: paid
 tags: [touristic, top50, unesco]
 hours: 9:00-16:30 (winter)
@@ -20,6 +20,7 @@ coords: [35.0269, 135.798371]
 coords_precision: exact
 name_ja: 銀閣寺
 address_ja: 〒606-8402 京都府京都市左京区銀閣寺町
+verified: '2026-11-18'
 ---
 
 # Ginkaku-ji (Silver Pavilion)

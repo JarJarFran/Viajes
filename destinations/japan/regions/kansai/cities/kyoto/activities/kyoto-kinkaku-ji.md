@@ -20,6 +20,7 @@ coords: [35.039529, 135.729537]
 coords_precision: exact
 name_ja: 金閣寺
 address_ja: 〒603-8361 京都府京都市北区馬喰町金閣寺町
+verified: '2026-11-18'
 ---
 
 # Kinkaku-ji (Golden Pavilion)

@@ -10,7 +10,9 @@ cost_yen: 3600
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-21:00 (timed entry)
-closed: []
+closed:
+  - {specific: [2026-12-03, 2027-01-14]}
+  - {irregular: other maintenance days are announced on teamlab.art; Dec 31 – Jan 2 open 8:00–20:00}
 booking: required
 best_season: all year round; venue closes end of 2027
 best_time: afternoon
@@ -19,6 +21,7 @@ coords: [35.64938, 139.789728]
 coords_precision: exact
 name_ja: チームラボ プラネッツ
 address_ja: 〒102-0094 東京千代田区紀尾井町紀尾井町616
+verified: '2026-11-18'
 ---
 
 # teamLab Planets (Toyosu)

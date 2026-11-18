@@ -9,7 +9,7 @@ approx_cost: ¥500
 cost_yen: 500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
-hours: 6:00-18:00
+hours: 6:00-18:00 (varies by season)
 closed: []
 booking: walk-in
 near: [kyoto-sannenzaka-ninenzaka, kyoto-gion-higashiyama, kyoto-yasaka-pagoda, kyoto-kodai-ji, kyoto-kennin-ji, kyoto-maruyama-park]
@@ -20,6 +20,7 @@ coords: [34.994303, 135.784439]
 coords_precision: exact
 name_ja: 清水寺
 address_ja: 〒605-0862 京都府京都市東山区辰巳町清水一丁目茶わん坂
+verified: '2026-11-18'
 ---
 
 # Kiyomizu-dera & Higashiyama slopes
