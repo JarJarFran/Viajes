@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
 approx_cost: ¥2,000
-cost_yen: 2000
+cost: 2000
 entry: paid
 tags: [top50]
 hours: 10:00-18:00
@@ -19,8 +19,8 @@ best_time: afternoon
 link: https://www.mori.art.museum/
 coords: [35.660432, 139.729261]
 coords_precision: exact
-name_ja: 森美術館
-address_ja: 〒106-6122 東京港区六本木六本木六丁目1
+name_local: 森美術館
+address_local: 〒106-6122 東京港区六本木六本木六丁目1
 verified: '2026-11-18'
 ---
 

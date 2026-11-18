@@ -8,8 +8,8 @@ price_range: ¥¥¥¥
 link: https://www.shibuyuexcel.jp/
 coords: [35.658678, 139.699717]
 coords_precision: exact
-name_ja: 渋谷エクセルホテル東急
-address_ja: 〒150-0043 東京渋谷区道玄坂道玄坂一丁目ウェーヴ通り
+name_local: 渋谷エクセルホテル東急
+address_local: 〒150-0043 東京渋谷区道玄坂道玄坂一丁目ウェーヴ通り
 ---
 
 # Shibuya Excel Hotel Tokyu

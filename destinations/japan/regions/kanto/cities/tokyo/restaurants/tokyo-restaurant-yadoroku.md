@@ -6,11 +6,11 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: onigiri
 price_range: ¥
-budget_yen: [300, 500]
+budget: [300, 500]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 coords: [35.716896, 139.794751]
 coords_precision: exact
-name_ja: おにぎり浅草宿六
+name_local: おにぎり浅草宿六
 ---
 
 # Onigiri Asakusa Yadoroku

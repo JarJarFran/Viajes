@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1.5
 approx_cost: ¥800 (Omuro palace area)
-cost_yen: 800
+cost: 800
 entry: paid
 tags: [touristic, top50, unesco]
 hours: 9:00-16:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.ninnaji.jp/
 coords: [35.029812, 135.71415]
 coords_precision: exact
-name_ja: 仁和寺
-address_ja: 〒616-8092 京都府京都市右京区花園岡ノ本町御室大内33
+name_local: 仁和寺
+address_local: 〒616-8092 京都府京都市右京区花園岡ノ本町御室大内33
 ---
 
 # Ninna-ji

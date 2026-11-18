@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 3
 approx_cost: from ¥3,400 dynamic (adults); +¥200 at the door
-cost_yen: 3400
+cost: 3400
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-20:00 (timed entry)

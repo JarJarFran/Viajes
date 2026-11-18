@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: yakiniku, tripe, izakaya
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.52
 tags: [top-rated]

@@ -7,7 +7,7 @@ area: kyoto-area-kyoto-station
 area_detail: Gojo
 cuisine: izakaya / oden
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.56
 tags: [top-rated]

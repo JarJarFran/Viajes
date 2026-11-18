@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Kitashinchi (Kita)
 cuisine: tempura, soba
 price_range: ¥¥¥¥
-budget_lunch_yen: [8000, 9999]
-budget_dinner_yen: [15000, 19999]
+budget_lunch: [8000, 9999]
+budget_dinner: [15000, 19999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.55
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: yakiniku (Yamaguchi beef), creative dishes
 price_range: ¥¥¥¥
-budget_dinner_yen: [8000, 9999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.65
 tags: [top-rated]

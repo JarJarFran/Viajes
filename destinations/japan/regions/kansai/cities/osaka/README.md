@@ -8,7 +8,7 @@ region: kansai
 prefecture: Osaka
 population: 2750000
 coords: [34.6937, 135.5023]
-local_transport_day_yen: 800
+local_transport_day: 800
 likes: [local_food, markets_and_street_food, vibrant_cities, temples_and_shrines]
 ---
 

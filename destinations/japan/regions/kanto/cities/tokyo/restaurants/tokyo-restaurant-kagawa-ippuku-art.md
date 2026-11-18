@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: udon, tempura
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13308738/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.58
@@ -19,8 +19,8 @@ station: Shibuya
 station_m: 379
 coords: [35.656653, 139.704463]
 coords_precision: exact
-name_ja: 香川一福アート
-address_ja: 東京都渋谷区渋谷3-17-4 アクシーズ7号館ビル 1F
+name_local: 香川一福アート
+address_local: 東京都渋谷区渋谷3-17-4 アクシーズ7号館ビル 1F
 verified: '2026-11-18'
 ---
 

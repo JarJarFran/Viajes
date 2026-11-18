@@ -7,8 +7,8 @@ area: osaka-area-shinsaibashi
 area_detail: Namba / Shinsaibashi
 cuisine: sushi, tempura, izakaya
 price_range: ¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [2000, 2999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
 tabelog_rating: 3.29
 station: Nippombashi

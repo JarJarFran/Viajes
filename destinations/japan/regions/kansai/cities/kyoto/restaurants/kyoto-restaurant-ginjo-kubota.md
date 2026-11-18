@@ -7,7 +7,7 @@ area: kyoto-area-kyoto-station
 area_detail: Gojo
 cuisine: tsukemen / ramen
 price_range: ¥¥
-budget_yen: [1000, 1999]
+budget: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.73
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 4
 approx_cost: park free; Tokyo National Museum ¥1,000; zoo ¥600
-cost_yen: 1000
+cost: 1000
 entry: mixed
 tags: [touristic, top50]
 hours: park 24h; TNM 9:30-17:00 (Fri/Sat to 20:00)
@@ -20,8 +20,8 @@ best_time: morning
 link: https://www.tnm.jp/en/
 coords: [35.714019, 139.773929]
 coords_precision: exact
-name_ja: 上野公園
-address_ja: 〒110-0007 東京台東区83
+name_local: 上野公園
+address_local: 〒110-0007 東京台東区83
 verified: '2026-11-17'
 ---
 

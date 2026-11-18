@@ -1,5 +1,6 @@
 {
  "city": "japan/chubu/kawaguchiko",
+ "currency": "JPY",
  "areas": [],
  "activities_top": [
   {
@@ -7,7 +8,7 @@
    "name": "Chureito Pagoda (Arakurayama Sengen Park)",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -28,7 +29,7 @@
    "destination": "japan/chubu/kawaguchiko",
    "mode": "bus",
    "duration_hours": 2,
-   "price_yen": 2200
+   "price": 2200
   }
  ]
 }

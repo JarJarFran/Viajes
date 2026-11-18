@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-karasuma
 cuisine: tsukemen / ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.61
 tags: [top-rated]

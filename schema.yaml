@@ -19,18 +19,36 @@ vocabularies:
   opening_day: [mon, tue, wed, thu, fri, sat, sun, hol, pre_hol, post_hol]
   expense_category: [food, transport, sights, lodging, shopping, other]
   coords_precision: [exact, station, area]
+  # restaurant guides that vouch for a place where there is no Tabelog (e.g. China)
+  guide: [michelin-star, michelin-bib, michelin-selected, black-pearl]
 
-# Yen per person behind each price bucket (used when a restaurant has no explicit budget).
-# Restaurants with budgets get price_range DERIVED by sync.py from the dinner budget (else the
-# generic budget, else lunch), and the `top-rated` tag derived from tabelog_rating >= min_rating.
-price_range_yen:
-  "¥": [0, 999]
-  "¥¥": [1000, 2999]
-  "¥¥¥": [3000, 4999]
-  "¥¥¥¥": [5000, null]
+# Money is in the currency of the node's country (`currency_code` of the country node): cost, price,
+# budgets, plan `cost` overrides and expense `amount`. Symbols used in human-readable outputs.
+currencies:
+  JPY: {symbol: "¥"}
+  CNY: {symbol: "CN¥"}
 
-# Restaurants in the shortlists: Tabelog >= min_rating and some meal at or under max_yen per person.
-strict_restaurants: {min_rating: 3.5, max_yen: 4999}
+# Amount per person behind each price bucket, per currency (used when a restaurant has no explicit
+# budget). Restaurants with budgets get price_range DERIVED by sync.py from the dinner budget (else
+# the generic budget, else lunch), and the `top-rated` tag derived from tabelog_rating >= min_rating.
+price_ranges:
+  JPY:
+    "¥": [0, 999]
+    "¥¥": [1000, 2999]
+    "¥¥¥": [3000, 4999]
+    "¥¥¥¥": [5000, null]
+  CNY:
+    "¥": [0, 49]
+    "¥¥": [50, 119]
+    "¥¥¥": [120, 249]
+    "¥¥¥¥": [250, null]
+
+# Restaurants in the shortlists: (Tabelog >= min_rating, or listed by one of `guides` where there is
+# no Tabelog) and some meal at or under max[currency] per person.
+strict_restaurants:
+  min_rating: 3.5
+  guides: [michelin-bib, michelin-selected, black-pearl]
+  max: {JPY: 4999, CNY: 249}
 
 # Derived edges: `nearby` links each sight/hotel to the closest restaurants and sights within km;
 # `in_area` links a node without explicit area to the closest area centroid within km.
@@ -46,41 +64,41 @@ geo_strip_keys: [contains, activities, events, restaurants, hotels, trips]
 types:
   country:
     required: [id, type, name]
-    keys: [id, type, name, native_name, iso_code, currency, language, capital, timezone, plugs, holidays, emergency,
+    keys: [id, type, name, name_local, iso_code, currency, currency_code, language, capital, timezone, tz, plugs, holidays, emergency,
            verified]
   region:
     required: [id, type, name, path, country]
     keys: [id, type, name, path, country, prefectures, coords, likes, verified]
   city:
     required: [id, type, name, path, country, region]
-    keys: [id, type, name, path, country, region, prefecture, population, coords, local_transport_day_yen, likes,
+    keys: [id, type, name, path, country, region, prefecture, population, coords, local_transport_day, likes,
            verified]
   area:
     required: [id, type, name, place]
-    keys: [id, type, name, place, aliases, coords, coords_precision, name_ja, verified]
+    keys: [id, type, name, place, aliases, coords, coords_precision, name_local, verified]
   activity:
     required: [id, type, name, place, category, entry, tags, hours, closed, booking]
-    keys: [id, type, name, place, area, category, duration_hours, approx_cost, cost_yen, entry, tags, hours,
+    keys: [id, type, name, place, area, category, duration_hours, approx_cost, cost, entry, tags, hours,
            closed, booking, book_ahead_days, near, best_season, best_time, link, coords, coords_precision,
-           name_ja, address_ja, verified]
+           name_local, address_local, verified]
   event:
     required: [id, type, name, place, editions]
-    keys: [id, type, name, place, area, recurrence, editions, duration_hours, approx_cost, cost_yen, entry,
-           tags, booking, book_ahead_days, best_season, best_time, link, coords, coords_precision, name_ja,
-           address_ja, verified]
+    keys: [id, type, name, place, area, recurrence, editions, duration_hours, approx_cost, cost, entry,
+           tags, booking, book_ahead_days, best_season, best_time, link, coords, coords_precision, name_local,
+           address_local, verified]
   restaurant:
     required: [id, type, name, place, cuisine, price_range, area]
-    keys: [id, type, name, place, area, area_detail, cuisine, price_range, budget_lunch_yen, budget_dinner_yen,
-           budget_yen, tabelog, tabelog_list, tabelog_rating, tags, hours, opening, closed, booking, book_ahead_days,
-           station, station_m, station_ja, link, coords, coords_precision, name_ja, address_ja, verified]
+    keys: [id, type, name, place, area, area_detail, cuisine, price_range, budget_lunch, budget_dinner,
+           budget, tabelog, tabelog_list, tabelog_rating, guide, tags, hours, opening, closed, booking, book_ahead_days,
+           station, station_m, station_local, link, coords, coords_precision, name_local, address_local, verified]
   hotel:
     required: [id, type, name, place, area, price_range]
-    keys: [id, type, name, place, area, area_detail, price_range, price_per_night_yen, check_in, check_out, phone, link,
-           coords, coords_precision, name_ja, address_ja, verified]
+    keys: [id, type, name, place, area, area_detail, price_range, price_per_night, check_in, check_out, phone, link,
+           coords, coords_precision, name_local, address_local, verified]
   route:
     required: [id, type, name, origin, destination, mode, duration_hours, approx_cost]
     keys: [id, type, name, origin, origin_point, destination, destination_point, bidirectional, mode,
-           duration_hours, approx_cost, price_yen, booking, book_ahead_days, link, verified]
+           duration_hours, approx_cost, price, booking, book_ahead_days, link, verified]
   trip:
     required: [id, type, name, country, start, end, status, stops]
     keys: [id, type, name, country, start, end, status, stops, days]
@@ -91,8 +109,8 @@ types:
 # Keys of the mappings nested in list fields.
 nested:
   editions: {required: [start, end], keys: [start, end, presale, on_sale, note]}
-  stops: {required: [from, to, place], keys: [from, to, place, accommodation, price_per_night_yen, notes]}
-  plan: {required: [id], keys: [slot, id, yen, note]}
+  stops: {required: [from, to, place], keys: [from, to, place, accommodation, price_per_night, notes]}
+  plan: {required: [id], keys: [slot, id, cost, note]}
   opening: {required: [days, times], keys: [days, times]}
   done: {required: [id], keys: [id, rating, note]}
-  expenses: {required: [yen, what], keys: [yen, what, category]}
+  expenses: {required: [amount, what], keys: [amount, what, category]}

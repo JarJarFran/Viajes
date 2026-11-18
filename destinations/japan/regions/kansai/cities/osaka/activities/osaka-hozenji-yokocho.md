@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: food
 duration_hours: 1
 approx_cost: free to walk; dinner ¥2,000–5,000
-cost_yen: 2000
+cost: 2000
 entry: mixed
 tags: [touristic, top50, night]
 hours: 24h (shops ~11:00-23:00)

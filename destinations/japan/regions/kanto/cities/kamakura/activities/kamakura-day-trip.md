@@ -6,7 +6,7 @@ place: japan/kanto/kamakura
 category: history
 duration_hours: 8
 approx_cost: Great Buddha ¥300; trains from Tokyo ~¥1,000 return
-cost_yen: 300
+cost: 300
 entry: mixed
 tags: [touristic, top100, unesco]
 hours: full day
@@ -16,8 +16,8 @@ best_season: all year round
 best_time: morning
 coords: [35.31839, 139.550088]
 coords_precision: exact
-name_ja: 鎌倉
-address_ja: 〒248-0012 神奈川県鎌倉市御成町15
+name_local: 鎌倉
+address_local: 〒248-0012 神奈川県鎌倉市御成町15
 ---
 
 # Day trip to Kamakura & Enoshima

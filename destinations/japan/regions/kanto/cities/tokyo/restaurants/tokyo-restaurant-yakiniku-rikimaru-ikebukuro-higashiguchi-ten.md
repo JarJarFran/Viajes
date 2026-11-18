@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ikebukuro
 cuisine: yakiniku (all-you-can-eat lunch)
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 5999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.38
 station: Ikebukuro

@@ -7,8 +7,8 @@ area: osaka-area-shinsaibashi
 area_detail: near Nishiohashi Sta.
 cuisine: tsukemen, ramen, tantanmen
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270201/27101904/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.73
@@ -22,7 +22,7 @@ station: Nishiohashi
 station_m: 153
 coords: [34.675493, 135.494473]
 coords_precision: station
-address_ja: 大阪府大阪市西区新町1-25-18 レナジア新町ビル 1F
+address_local: 大阪府大阪市西区新町1-25-18 レナジア新町ビル 1F
 verified: '2026-11-18'
 ---
 

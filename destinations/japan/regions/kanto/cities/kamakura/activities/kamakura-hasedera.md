@@ -6,7 +6,7 @@ place: japan/kanto/kamakura
 category: temple
 duration_hours: 1
 approx_cost: ¥400
-cost_yen: 400
+cost: 400
 entry: paid
 tags: [touristic, top50]
 hours: 8:00-16:30 (gate closes 17:00)
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.hasedera.jp/en/
 coords: [35.312269, 139.533309]
 coords_precision: exact
-name_ja: 長谷寺
-address_ja: 〒248-0016 神奈川県鎌倉市殿入下長谷長谷三丁目2
+name_local: 長谷寺
+address_local: 〒248-0016 神奈川県鎌倉市殿入下長谷長谷三丁目2
 verified: '2026-11-18'
 ---
 

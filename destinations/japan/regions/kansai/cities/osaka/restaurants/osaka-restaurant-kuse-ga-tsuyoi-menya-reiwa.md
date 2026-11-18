@@ -7,8 +7,8 @@ area: osaka-area-honmachi
 area_detail: Hommachi
 cuisine: ramen
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.33
 station: Hommachi

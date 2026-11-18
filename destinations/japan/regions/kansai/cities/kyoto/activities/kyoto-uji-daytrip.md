@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 4
 approx_cost: JR Nara Line ¥420 / Keihan ~¥480 one way; Byodo-in ¥600–1,000 (Phoenix Hall)
-cost_yen: 420
+cost: 420
 entry: mixed
 tags: [touristic, top100]
 hours: full day
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.byodoin.or.jp/
 coords: [34.8895, 135.807453]
 coords_precision: exact
-name_ja: 平等院
-address_ja: 〒611-0021 京都府宇治市宇治大津南郷宇治線
+name_local: 平等院
+address_local: 〒611-0021 京都府宇治市宇治大津南郷宇治線
 ---
 
 # Day trip to Uji (Byodo-in, matcha)

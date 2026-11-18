@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
 approx_cost: ¥3,000–5,000
-cost_yen: 3000
+cost: 3000
 entry: paid
 tags: [touristic, top100]
 hours: by slot 10:00-17:00

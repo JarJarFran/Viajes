@@ -103,7 +103,7 @@ def parse_page(t, url=""):
 
 
 def to_fields(p):
-    """Node fields from a parsed page: opening, closed, hours (text), address_ja, booking hints."""
+    """Node fields from a parsed page: opening, closed, hours (text), address_local, booking hints."""
     opening, closed_days = [], []
     for h in p["hours"]:
         days = [DAYS.get(x.strip().lower()) for x in h["days"].split(",")]
@@ -161,7 +161,7 @@ def to_fields(p):
     if re.search(r"not fixed|irregular|may close unexpectedly|temporary closures", low):
         rules.append({"irregular": "irregular closing days — check the restaurant's social media"})
     text = "; ".join(f"{','.join(o['days'])} {' & '.join(o['times'])}" for o in opening)
-    out = {"opening": opening, "closed": rules, "hours": text or None, "address_ja": p["address"] or None}
+    out = {"opening": opening, "closed": rules, "hours": text or None, "address_local": p["address"] or None}
     if re.search(r"(?:dinner|lunch|all seats)[^.■]*by reservation only|reservations? (?:are )?required", low):
         out["booking"] = "required"
     return out
@@ -176,7 +176,7 @@ def apply(n, p, today=None):
     if not looks_parsed(p):
         raise ValueError(f"{p.get('url')}: page did not parse (layout change or captcha?) — node left unchanged")
     f = to_fields(p)
-    for k in ("opening", "hours", "address_ja"):
+    for k in ("opening", "hours", "address_local"):
         if f.get(k):
             n[k] = f[k]
     n["closed"] = f["closed"]

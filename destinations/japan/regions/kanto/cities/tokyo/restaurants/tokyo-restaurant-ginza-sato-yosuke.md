@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: udon, curry udon
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [2000, 2999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.54
 tags: [top-rated]
@@ -15,7 +15,7 @@ station: Ginza
 station_m: 239
 coords: [35.67142, 139.761487]
 coords_precision: exact
-name_ja: 銀座 佐藤養助
+name_local: 銀座 佐藤養助
 verified: 2026-11
 ---
 

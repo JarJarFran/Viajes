@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: hiking
 duration_hours: 4
 approx_cost: free; Eizan Railway to Kurama ¥480 one way
-cost_yen: 480
+cost: 480
 entry: mixed
 tags: [hidden-gem]
 hours: daylight
@@ -16,8 +16,8 @@ best_season: all year round (snow possible Jan)
 best_time: morning
 coords: [35.117874, 135.770652]
 coords_precision: exact
-name_ja: 鞍馬寺
-address_ja: 〒601-1111 京都府京都市左京区鞍馬鞍馬本町参道
+name_local: 鞍馬寺
+address_local: 〒601-1111 京都府京都市左京区鞍馬鞍馬本町参道
 ---
 
 # Kurama → Kibune mountain hike

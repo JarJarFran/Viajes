@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Kyoto City Hall
 cuisine: yakiniku, niku-bar (yukhoe Omi beef)
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.57
 tags: [top-rated]

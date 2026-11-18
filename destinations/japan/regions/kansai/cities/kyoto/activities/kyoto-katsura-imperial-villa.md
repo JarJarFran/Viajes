@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: history
 duration_hours: 2
 approx_cost: free (advance reservation required, Japanese-language application)
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top100]
 hours: by reserved tour slot
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.kunaicho.go.jp/
 coords: [34.983944, 135.710274]
 coords_precision: exact
-name_ja: 桂離宮
-address_ja: 〒615-0000 京都府京都市西京区桂御園水垂上桂線
+name_local: 桂離宮
+address_local: 〒615-0000 京都府京都市西京区桂御園水垂上桂線
 ---
 
 # Katsura Imperial Villa

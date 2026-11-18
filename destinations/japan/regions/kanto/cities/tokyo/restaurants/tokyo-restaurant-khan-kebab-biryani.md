@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: indian curry, kebab
 price_range: ¥¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [null, 999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.53
 tags: [top-rated]

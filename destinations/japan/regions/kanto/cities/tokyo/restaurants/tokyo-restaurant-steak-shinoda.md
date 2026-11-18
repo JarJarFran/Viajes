@@ -7,8 +7,8 @@ area: tokyo-area-ueno
 area_detail: Ueno / Yushima
 cuisine: steak, curry, yoshoku
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [1000, 1999]
+budget_dinner: [10000, 14999]
 tabelog: https://tabelog.com/en/tokyo/A1310/A131004/13047134/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.34
@@ -20,7 +20,7 @@ station: Yushima
 station_m: 349
 coords: [35.707947, 139.770056]
 coords_precision: station
-address_ja: 東京都文京区湯島4-5-8
+address_local: 東京都文京区湯島4-5-8
 verified: '2026-11-18'
 ---
 

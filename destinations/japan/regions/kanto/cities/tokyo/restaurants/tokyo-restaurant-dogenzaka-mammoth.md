@@ -7,7 +7,7 @@ area: tokyo-area-shibuya
 area_detail: Shinsen (Shibuya)
 cuisine: tsukemen / ramen
 price_range: ¥¥
-budget_yen: [1000, 1999]
+budget: [1000, 1999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.64
 tags: [top-rated]

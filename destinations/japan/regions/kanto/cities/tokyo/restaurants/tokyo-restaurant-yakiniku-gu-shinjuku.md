@@ -7,7 +7,7 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (Kabukicho)
 cuisine: yakiniku, tripe, izakaya
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.57
 tags: [top-rated]

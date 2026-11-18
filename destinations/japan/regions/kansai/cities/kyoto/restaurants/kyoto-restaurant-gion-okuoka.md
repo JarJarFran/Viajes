@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: tofu dishes, udon
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [1000, 1999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.35
 station: Gion Shijo

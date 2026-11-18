@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Fukushima / Umeda
 cuisine: ramen, tsukemen, abura-soba, maze-soba
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [null, 999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.75
 tags: [top-rated]

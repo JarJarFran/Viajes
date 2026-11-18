@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: gyoza
 price_range: ¥
-budget_yen: [400, 700]
+budget: [400, 700]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 coords: [35.003763, 135.769608]
 coords_precision: area

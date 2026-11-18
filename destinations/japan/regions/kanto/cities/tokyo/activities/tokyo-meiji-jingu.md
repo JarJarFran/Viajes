@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: temple
 duration_hours: 2
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic]
 hours: 5:00-sunset
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.meijijingu.or.jp/
 coords: [35.674842, 139.699627]
 coords_precision: exact
-name_ja: 明治神宮
-address_ja: 〒151-8557 東京渋谷区代々木神園町1
+name_local: 明治神宮
+address_local: 〒151-8557 東京渋谷区代々木神園町1
 ---
 
 # Meiji Shrine (Meiji Jingu)

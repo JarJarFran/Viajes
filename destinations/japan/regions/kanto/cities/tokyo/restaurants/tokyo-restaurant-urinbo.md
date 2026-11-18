@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.54
 tags: [top-rated]

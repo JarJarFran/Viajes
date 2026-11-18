@@ -9,15 +9,15 @@ editions:
   - {start: 2027-01-02, end: 2027-01-04, note: calligraphy 10:00–16:00; kyogen Jan 3 13:00}
 duration_hours: 1
 approx_cost: calligraphy paper ¥50 + entry ¥200
-cost_yen: 250
+cost: 250
 entry: mixed
 tags: [event]
 booking: walk-in
 best_time: morning
 coords: [35.030475, 135.734918]
 coords_precision: exact
-name_ja: 北野天満宮 筆始祭・天満書
-address_ja: 〒602-8384 京都府京都市上京区馬喰町御前通
+name_local: 北野天満宮 筆始祭・天満書
+address_local: 〒602-8384 京都府京都市上京区馬喰町御前通
 verified: '2026-11-18'
 ---
 

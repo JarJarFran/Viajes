@@ -9,8 +9,8 @@ price_range: ¥¥¥¥
 link: https://www.granvia.jp/osaka/
 coords: [34.701614, 135.495925]
 coords_precision: exact
-name_ja: ホテル グランヴィア 大阪
-address_ja: 〒530-8558 大阪府大阪市北区梅田三丁目3
+name_local: ホテル グランヴィア 大阪
+address_local: 〒530-8558 大阪府大阪市北区梅田三丁目3
 ---
 
 # Hotel Granvia Osaka

@@ -1,5 +1,6 @@
 {
  "city": "japan/kanto/kamakura",
+ "currency": "JPY",
  "areas": [],
  "activities_top": [
   {
@@ -7,7 +8,7 @@
    "name": "Day trip to Kamakura & Enoshima",
    "category": "history",
    "entry": "mixed",
-   "cost_yen": 300,
+   "cost": 300,
    "tags": [
     "touristic",
     "top100",
@@ -22,7 +23,7 @@
    "name": "Hase-dera Temple",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 400,
+   "cost": 400,
    "tags": [
     "touristic",
     "top50"
@@ -36,7 +37,7 @@
    "name": "Great Buddha (Kotoku-in)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 300,
+   "cost": 300,
    "tags": [
     "touristic",
     "top50",
@@ -57,7 +58,7 @@
    "destination": "japan/kanto/kamakura",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 1020
+   "price": 1020
   }
  ]
 }

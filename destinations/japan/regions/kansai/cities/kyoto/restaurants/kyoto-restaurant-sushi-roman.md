@@ -7,14 +7,14 @@ area: kyoto-area-kawaramachi
 area_detail: Nishiki / Takakura
 cuisine: izakaya, sushi, robata-yaki
 price_range: ¥¥¥
-budget_dinner_yen: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.37
 station: Karasuma
 station_m: 313
 coords: [35.005608, 135.762632]
 coords_precision: exact
-name_ja: 鮨炉まん
+name_local: 鮨炉まん
 verified: 2026-11
 ---
 

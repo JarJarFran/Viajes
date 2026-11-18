@@ -8,7 +8,7 @@ region: kansai
 prefecture: Kyoto
 population: 1450000
 coords: [35.0116, 135.7681]
-local_transport_day_yen: 1100
+local_transport_day: 1100
 likes: [temples_and_shrines, traditional_culture, local_food, history_and_castles, photography_and_viewpoints]
 ---
 

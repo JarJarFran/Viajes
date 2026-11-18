@@ -8,10 +8,10 @@ from urllib.parse import quote_plus
 
 import yaml
 
-from common import (REPO, SCHEMA, SLOT_ORDER, SLOT_WINDOWS, WEEKDAYS, allowed_places, closures_on, coords, d,
-                    describe_rule, edition_on, editions_overlapping, estimate_yen, events_on, haversine_km, hhmm,
-                    holidays, opening_windows, parse_hours, plan_items, soft_closure, sun_times, trip_nights,
-                    trip_places)
+from common import (REPO, SCHEMA, SLOT_ORDER, SLOT_WINDOWS, WEEKDAYS, allowed_places, closures_on, convert,
+                    coords, country_of, currency_of, d, describe_rule, edition_on, editions_overlapping, estimate,
+                    events_on, haversine_km, hhmm, holidays, money_range, opening_windows, parse_hours, plan_items,
+                    soft_closure, strict_cap, sun_times, trip_nights, trip_places, utc_offset_hours)
 
 
 def load_profile(root=REPO):
@@ -22,10 +22,21 @@ def load_profile(root=REPO):
         return yaml.safe_load(f) or {}
 
 
-def daily_budget_yen(profile):
+def fx_rates(profile):
+    """Units of each currency per euro, from profile budget.fx (legacy eur_jpy still understood)."""
     b = (profile or {}).get("budget") or {}
-    if b.get("daily_eur_per_person") and b.get("eur_jpy"):
-        return round(b["daily_eur_per_person"] * b["eur_jpy"])
+    fx = dict(b.get("fx") or {})
+    if b.get("eur_jpy") and "JPY" not in fx:
+        fx["JPY"] = b["eur_jpy"]
+    return fx
+
+
+def daily_budget(profile, cur="JPY"):
+    """Daily spending budget per person in `cur` (daily_eur_per_person x the euro rate)."""
+    b = (profile or {}).get("budget") or {}
+    rate = fx_rates(profile).get(cur)
+    if b.get("daily_eur_per_person") and rate:
+        return round(b["daily_eur_per_person"] * rate)
     return None
 
 
@@ -34,12 +45,13 @@ def maps_url(n, nodes, paths):
     if c and n.get("coords_precision", "exact") == "exact":
         return "https://www.google.com/maps/search/?api=1&query=" + quote_plus(f"{c[0]:.6f},{c[1]:.6f}")
     city = nodes.get(paths.get(n.get("place")), {}).get("name", "")
-    q = " ".join(x for x in (n.get("name"), n.get("area_detail") or "", city, "Japan") if x)
+    country = country_of(n, nodes).get("name", "")
+    q = " ".join(x for x in (n.get("name"), n.get("area_detail") or "", city, country) if x)
     return "https://www.google.com/maps/search/?api=1&query=" + quote_plus(q)
 
 
-def summary(n, keys=("id", "type", "name", "name_ja", "area", "hours", "booking", "entry", "price_range",
-                     "tabelog_rating", "cuisine", "station", "address_ja", "coords", "coords_precision")):
+def summary(n, keys=("id", "type", "name", "name_local", "area", "hours", "booking", "entry", "price_range",
+                     "tabelog_rating", "guide", "cuisine", "station", "address_local", "coords", "coords_precision")):
     return {k: n[k] for k in keys if n.get(k) not in (None, "", [])}
 
 
@@ -72,23 +84,16 @@ def shortest_within_slots(items, start=None):
 
 
 def _meal_budget(n, slot):
-    k = {"lunch": "budget_lunch_yen", "dinner": "budget_dinner_yen"}.get(slot)
+    k = {"lunch": "budget_lunch", "dinner": "budget_dinner"}.get(slot)
     v = n.get(k) if k else None
     return tuple(v) if isinstance(v, list) and len(v) == 2 else None
-
-
-def _yen_range(r):
-    lo, hi = r
-    if lo is None:
-        return f"under ¥{hi:,}"
-    return f"¥{lo:,}+" if hi is None else f"¥{lo:,}–{hi:,}"
 
 
 def _fmt_windows(ws):
     return ", ".join(f"{hhmm(a)}–{hhmm(b % 1440)}" for a, b in ws)
 
 
-def item_warnings(n, slot, sunset, day=None, hol=frozenset(), schema=SCHEMA):
+def item_warnings(n, slot, sunset, day=None, hol=frozenset(), schema=SCHEMA, cur="JPY"):
     """Plan problems that are not hard errors: wrong time of day, a meal far above the budget cap."""
     out = []
     win = SLOT_WINDOWS.get(slot)
@@ -104,14 +109,15 @@ def item_warnings(n, slot, sunset, day=None, hol=frozenset(), schema=SCHEMA):
             out.append(f"{n.get('name')}: planned for {slot} ({hhmm(win[0])}–{hhmm(win[1] % 1440)}) but open "
                        f"{_fmt_windows(windows)} that day")
     if n.get("type") == "restaurant" and slot in ("lunch", "dinner"):
-        cap = schema["strict_restaurants"]["max_yen"]
+        cap = strict_cap(cur, schema)
         r = _meal_budget(n, slot)
-        if r and (r[0] or 0) > cap:
+        if cap is not None and r and (r[0] or 0) > cap:
             other = "dinner" if slot == "lunch" else "lunch"
             o = _meal_budget(n, other)
-            msg = f"{n.get('name')}: {slot} costs {_yen_range(r)} per person (Tabelog)"
+            src = " (Tabelog)" if n.get("tabelog") or n.get("tabelog_list") else ""
+            msg = f"{n.get('name')}: {slot} costs {money_range(r, cur, schema)} per person{src}"
             if o and o[1] is not None and o[1] <= cap:
-                msg += f"; its {other} is {_yen_range(o)}"
+                msg += f"; its {other} is {money_range(o, cur, schema)}"
             out.append(msg)
     return out
 
@@ -119,21 +125,26 @@ def item_warnings(n, slot, sunset, day=None, hol=frozenset(), schema=SCHEMA):
 def day_view(nodes, paths, trip, day, profile=None, hol=None):
     hol = hol if hol is not None else holidays(nodes, trip.get("country"))
     date_ = d(day["date"])
+    cur = currency_of(day, nodes)
+    fx = fx_rates(profile)
     stay = nodes.get(day.get("stay")) if day.get("stay") else None
     start = coords(stay) if stay else None
     here = next((coords(nodes[paths[v]]) for v in day.get("visits") or [] if v in paths and coords(nodes[paths[v]])),
                 None) or start or coords(nodes.get(paths.get(day.get("place")), {}))
-    sunrise, sunset = sun_times(here[0], here[1], date_) if here else (None, None)
+    tz = utc_offset_hours(country_of(day, nodes))
+    sunrise, sunset = sun_times(here[0], here[1], date_, tz) if here else (None, None)
     items, warnings = [], []
     for it in plan_items(day):
         n = nodes.get(it["id"])
         if not n:
             continue
-        est = it.get("yen") if it.get("yen") is not None else estimate_yen(n, it.get("slot"))
+        ncur = currency_of(n, nodes)
+        est = it.get("cost") if it.get("cost") is not None else convert(estimate(n, it.get("slot"), cur=ncur), ncur, cur, fx)
         closed = closures_on(n, date_, hol) if n.get("type") in ("activity", "restaurant") else []
         row = {"slot": it.get("slot"), "id": n["id"], "type": n["type"], "name": n.get("name"),
-               "est_yen": est, "maps": maps_url(n, nodes, paths)}
-        for k in ("name_ja", "address_ja", "hours", "booking", "area", "tabelog_rating", "cuisine", "station"):
+               "est": est, "maps": maps_url(n, nodes, paths)}
+        for k in ("name_local", "address_local", "hours", "booking", "area", "tabelog_rating", "guide", "cuisine",
+                  "station"):
             if n.get(k) not in (None, "", []):
                 row[k] = n[k]
         if it.get("note"):
@@ -145,7 +156,7 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
             ed = edition_on(n, date_)
             if ed:
                 row["edition"] = {"start": str(ed["start"]), "end": str(ed["end"])}
-        w = item_warnings(n, it.get("slot"), sunset, date_, hol)
+        w = item_warnings(n, it.get("slot"), sunset, date_, hol, cur=ncur)
         if w:
             row["warnings"] = w
             warnings.extend(w)
@@ -175,9 +186,9 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
         e, ed = nodes[eid], edition_on(nodes[eid], date_)
         events.append({"id": eid, "name": e.get("name"), "start": str(ed["start"]), "end": str(ed["end"]),
                        "in_plan": any(i["id"] == eid for i in items)})
-    est_known = [i["est_yen"] for i in items if i.get("est_yen") is not None]
+    est_known = [i["est"] for i in items if i.get("est") is not None]
     city_node = nodes.get(paths.get(day.get("place")), {})
-    transport = city_node.get("local_transport_day_yen")
+    transport = city_node.get("local_transport_day")
     if transport:
         est_known.append(transport)
     nights = trip_nights(trip)
@@ -190,22 +201,23 @@ def day_view(nodes, paths, trip, day, profile=None, hol=None):
     if tonight and tonight.get("accommodation") and (not prev_stop or prev_stop is not tonight):
         h = nodes.get(tonight["accommodation"], {})
         hotel_moves["check_in"] = {"hotel": h.get("name"), "time": h.get("check_in")}
-    spent = sum(int(x.get("yen") or 0) for x in day.get("expenses") or [] if isinstance(x, dict))
+    spent = sum(int(x.get("amount") or 0) for x in day.get("expenses") or [] if isinstance(x, dict))
     view = {"id": day["id"], "date": str(date_), "weekday": WEEKDAYS[date_.weekday()],
             "holiday": date_ in hol, "place": day.get("place"),
             "city": nodes.get(paths.get(day.get("place")), {}).get("name"),
             "title": day.get("title"),
-            "stay": summary(stay, ("id", "name", "name_ja", "address_ja", "coords", "check_in", "check_out", "phone"))
+            "stay": summary(stay, ("id", "name", "name_local", "address_local", "coords", "check_in", "check_out",
+                                   "phone"))
             if stay else None, **hotel_moves,
             "visits": day.get("visits") or [],
             "sunrise": hhmm(sunrise) if sunrise is not None else None,
             "sunset": hhmm(sunset) if sunset is not None else None,
             "items": items, "events": events, "straight_line_km": round(km, 1),
             "suggestion": suggestion, "warnings": warnings,
-            "est_yen": sum(est_known), "local_transport_yen": transport,
-            "unpriced": [i["id"] for i in items if i.get("est_yen") is None],
-            "budget_yen": daily_budget_yen(profile),
-            "spent_yen": spent if day.get("expenses") else None,
+            "currency": cur, "est": sum(est_known), "local_transport": transport,
+            "unpriced": [i["id"] for i in items if i.get("est") is None],
+            "budget": daily_budget(profile, cur),
+            "spent": spent if day.get("expenses") else None,
             "done": day.get("done") or [], "expenses": day.get("expenses") or []}
     return view
 
@@ -255,11 +267,20 @@ def trip_view(nodes, paths, trip, profile=None):
     nights = {}
     for s in trip_nights(trip).values():
         nights[s["place"]] = nights.get(s["place"], 0) + 1
-    budget = daily_budget_yen(profile)
-    totals = {"est_yen": sum(v["est_yen"] for v in views),
-              "budget_yen": budget * len(views) if budget else None,
-              "spent_yen": sum(v["spent_yen"] or 0 for v in views),
-              "days_over_budget": [v["date"] for v in views if budget and v["est_yen"] > budget]}
+    cur = currency_of(trip, nodes)
+    fx = fx_rates(profile)
+
+    def total(k):
+        vals = [convert(v[k] or 0, v["currency"], cur, fx) for v in views]
+        return None if any(x is None for x in vals) else sum(vals)
+
+    budget = daily_budget(profile, cur)
+    totals = {"currency": cur, "est": total("est"),
+              "budget": budget * len(views) if budget else None,
+              "spent": total("spent"),
+              "days_over_budget": [v["date"] for v in views if v["budget"] and v["est"] > v["budget"]]}
+    if totals["est"] is not None and fx.get(cur):
+        totals["est_eur"] = round(totals["est"] / fx[cur])
     a, b = d(trip["start"]), d(trip["end"])
     places = trip_places(trip, nodes)
     events = []
@@ -271,8 +292,10 @@ def trip_view(nodes, paths, trip, profile=None):
                                "end": str(ed["end"]), "our_days": on,
                                "in_plan": [v["date"] for v in views if any(i["id"] == eid for i in v["items"])]})
     events.sort(key=lambda x: (x["start"], x["id"]))
-    return {"trip": trip["id"], "name": trip.get("name"), "start": str(a), "end": str(b),
-            "nights": nights, "budget": {"daily_yen": budget, **((profile or {}).get("budget") or {})},
+    country = nodes.get(trip.get("country")) or {}
+    return {"trip": trip["id"], "name": trip.get("name"), "start": str(a), "end": str(b), "tz": country.get("tz"),
+            "nights": nights, "currency": cur,
+            "budget": {"daily": budget, "currency": cur, **((profile or {}).get("budget") or {})},
             "totals": totals, "events": events, "deadlines": deadlines(nodes, trip, views), "days": views}
 
 

@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: udon, soba, cafeteria
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26001282/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.59
@@ -22,7 +22,7 @@ station: Gion Shijo
 station_m: 218
 coords: [35.00269, 135.7716]
 coords_precision: station
-address_ja: 京都府京都市東山区八坂新地富永町132
+address_local: 京都府京都市東山区八坂新地富永町132
 verified: '2026-11-18'
 ---
 

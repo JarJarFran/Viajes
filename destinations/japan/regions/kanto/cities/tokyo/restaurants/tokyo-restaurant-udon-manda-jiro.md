@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (Gyoen-mae)
 cuisine: udon
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [null, 999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1304/A130402/13268343/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.59
@@ -23,7 +23,7 @@ station: Shinjuku Gyoemmae
 station_m: 180
 coords: [35.688573, 139.71074]
 coords_precision: station
-address_ja: 東京都新宿区新宿1-12-1 サンサーラ第三御苑 1F
+address_local: 東京都新宿区新宿1-12-1 サンサーラ第三御苑 1F
 verified: '2026-11-18'
 ---
 

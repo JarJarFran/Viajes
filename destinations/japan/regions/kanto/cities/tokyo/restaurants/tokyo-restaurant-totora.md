@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-ebisu
 cuisine: izakaya, seafood, soba
 price_range: ¥¥¥¥
-budget_dinner_yen: [8000, 9999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.51
 tags: [top-rated]

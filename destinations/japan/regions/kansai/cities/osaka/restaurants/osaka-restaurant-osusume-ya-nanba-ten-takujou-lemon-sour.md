@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: izakaya, seafood, motsu-nabe, lemon sour
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [2000, 2999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
 tabelog_rating: 3.24
 station: Namba

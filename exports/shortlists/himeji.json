@@ -1,5 +1,6 @@
 {
  "city": "japan/kansai/himeji",
+ "currency": "JPY",
  "areas": [],
  "activities_top": [
   {
@@ -7,7 +8,7 @@
    "name": "Himeji Castle",
    "category": "history",
    "entry": "paid",
-   "cost_yen": 2500,
+   "cost": 2500,
    "tags": [
     "touristic",
     "top50",
@@ -42,7 +43,7 @@
    "destination": "japan/kansai/himeji",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 1680
+   "price": 1680
   }
  ]
 }

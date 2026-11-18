@@ -7,8 +7,8 @@ area: osaka-area-shinsaibashi
 area_detail: Yotsubashi / Shinsaibashi
 cuisine: soba, seafood, izakaya
 price_range: ¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [4000, 4999]
+budget_lunch: [1000, 1999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.48
 station: Yotsubashi

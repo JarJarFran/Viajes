@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: history
 duration_hours: 6
 approx_cost: JR Miyakoji Rapid ¥720 / Kintetsu ¥760 one way; Todai-ji ¥600; deer crackers ¥200
-cost_yen: 720
+cost: 720
 entry: mixed
 tags: [touristic, top100]
 hours: full day
@@ -16,8 +16,8 @@ best_season: all year round
 best_time: morning
 coords: [34.688244, 135.839757]
 coords_precision: exact
-name_ja: 東大寺
-address_ja: 〒630-8211 奈良県奈良市雑司町
+name_local: 東大寺
+address_local: 〒630-8211 奈良県奈良市雑司町
 ---
 
 # Day trip to Nara (Todai-ji, deer park)

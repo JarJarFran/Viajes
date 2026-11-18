@@ -15,8 +15,8 @@ best_time: night
 link: https://www.osakacastle.net/
 coords: [34.687097, 135.523115]
 coords_precision: exact
-name_ja: 西の丸庭園
-address_ja: 大阪府大阪市中央区
+name_local: 西の丸庭園
+address_local: 大阪府大阪市中央区
 verified: 2026-11
 ---
 

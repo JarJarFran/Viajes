@@ -7,8 +7,8 @@ area: osaka-area-namba
 area_detail: Taisho / Namba west
 cuisine: ramen, taiwanese mixed noodles
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.28
 station: Daikokucho

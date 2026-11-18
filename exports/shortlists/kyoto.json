@@ -1,5 +1,6 @@
 {
  "city": "japan/kansai/kyoto",
+ "currency": "JPY",
  "areas": [
   {
    "id": "kyoto-area-arashiyama",
@@ -96,7 +97,7 @@
    "name": "Kyoto Aquarium",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "top50"
    ],
@@ -110,7 +111,7 @@
    "name": "Arashiyama Bamboo Grove & Togetsukyo Bridge",
    "category": "nature",
    "entry": "mixed",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -126,7 +127,7 @@
    "name": "Eikan-do (Zenrin-ji)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "top50"
    ],
@@ -140,7 +141,7 @@
    "name": "Fushimi Inari Taisha (Senbon Torii)",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -155,7 +156,7 @@
    "name": "Fushimi sake district & Gekkeikan Okura Sake Museum",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "top50"
    ],
@@ -179,7 +180,7 @@
    "name": "Ginkaku-ji (Silver Pavilion)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "touristic",
     "top50",
@@ -194,7 +195,7 @@
    "name": "Gion & Higashiyama at dusk",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -211,7 +212,7 @@
    "name": "Kyoto Imperial Palace (Gosho)",
    "category": "history",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -236,7 +237,7 @@
    "name": "Katsura Imperial Villa",
    "category": "history",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top100"
@@ -250,7 +251,7 @@
    "name": "Kennin-ji",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "top50"
    ],
@@ -264,7 +265,7 @@
    "name": "Kimono/yukata rental & photo walk",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 3000,
+   "cost": 3000,
    "tags": [
     "touristic",
     "top100"
@@ -279,7 +280,7 @@
    "name": "Kinkaku-ji (Golden Pavilion)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50",
@@ -296,7 +297,7 @@
    "name": "Kiyomizu-dera & Higashiyama slopes",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50",
@@ -313,7 +314,7 @@
    "name": "Kodai-ji (NYE bell ringing)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "top50"
    ],
@@ -327,7 +328,7 @@
    "name": "Maruyama Park",
    "category": "nature",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -341,7 +342,7 @@
    "name": "Iwatayama Monkey Park",
    "category": "nature",
    "entry": "paid",
-   "cost_yen": 800,
+   "cost": 800,
    "tags": [
     "top50"
    ],
@@ -363,7 +364,7 @@
    "name": "Nanzen-ji (brick aqueduct)",
    "category": "temple",
    "entry": "mixed",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -382,7 +383,7 @@
    "name": "Day trip to Nara (Todai-ji, deer park)",
    "category": "history",
    "entry": "mixed",
-   "cost_yen": 720,
+   "cost": 720,
    "tags": [
     "touristic",
     "top100"
@@ -396,7 +397,7 @@
    "name": "Nijo Castle",
    "category": "history",
    "entry": "paid",
-   "cost_yen": 800,
+   "cost": 800,
    "tags": [
     "touristic",
     "top50",
@@ -421,7 +422,7 @@
    "name": "Ninna-ji",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 800,
+   "cost": 800,
    "tags": [
     "touristic",
     "top50",
@@ -436,7 +437,7 @@
    "name": "Nishiki Market (\"Kyoto's Kitchen\")",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50"
@@ -457,7 +458,7 @@
    "name": "Philosopher's Path (Tetsugaku-no-michi)",
    "category": "nature",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -470,7 +471,7 @@
    "name": "Pontocho alley",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -486,7 +487,7 @@
    "name": "Kyoto Railway Museum",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 1200,
+   "cost": 1200,
    "tags": [
     "top50"
    ],
@@ -500,7 +501,7 @@
    "name": "Ryoan-ji (rock garden)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "touristic",
     "top50",
@@ -515,7 +516,7 @@
    "name": "Sagano Romantic Train (Torokko)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 880,
+   "cost": 880,
    "tags": [
     "touristic",
     "top50"
@@ -535,7 +536,7 @@
    "name": "Sanjusangen-do (1,001 Kannon statues)",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "touristic",
     "top50",
@@ -551,7 +552,7 @@
    "name": "Sannenzaka & Ninenzaka lanes",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -567,7 +568,7 @@
    "name": "Tea ceremony experience",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 3000,
+   "cost": 3000,
    "tags": [
     "touristic",
     "top100"
@@ -581,7 +582,7 @@
    "name": "Tofuku-ji",
    "category": "temple",
    "entry": "paid",
-   "cost_yen": 400,
+   "cost": 400,
    "tags": [
     "touristic",
     "top50",
@@ -596,7 +597,7 @@
    "name": "Toji Temple (market day)",
    "category": "temple",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50",
@@ -612,7 +613,7 @@
    "name": "Day trip to Uji (Byodo-in, matcha)",
    "category": "temple",
    "entry": "mixed",
-   "cost_yen": 420,
+   "cost": 420,
    "tags": [
     "touristic",
     "top100"
@@ -627,7 +628,7 @@
    "name": "Yasaka Pagoda (Hokan-ji) & Ishibe-koji",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -647,7 +648,7 @@
    "cuisine": "tsukemen / ramen",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -659,7 +660,7 @@
    "cuisine": "ramen (duck broth)",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     2000,
     2999
    ],
@@ -671,11 +672,11 @@
    "cuisine": "cafe with wagashi (Japanese sweets)",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -688,7 +689,7 @@
    "cuisine": "beef / japanese",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
@@ -700,11 +701,11 @@
    "cuisine": "unagi",
    "area": "kyoto-area-gion",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -716,11 +717,11 @@
    "cuisine": "udon",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -733,7 +734,7 @@
    "cuisine": "yakiniku",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
@@ -745,11 +746,11 @@
    "cuisine": "curry udon, udon, soba",
    "area": "kyoto-area-okazaki",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -762,11 +763,11 @@
    "cuisine": "donut, cafe",
    "area": "kyoto-area-nijo",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -779,11 +780,11 @@
    "cuisine": "udon, curry udon, tempura",
    "area": "kyoto-area-fushimi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -796,7 +797,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -808,7 +809,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-karasuma",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -829,11 +830,11 @@
    "cuisine": "cafe, american, wine bar",
    "area": "kyoto-area-gion",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -846,7 +847,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -858,7 +859,7 @@
    "cuisine": "yakiniku",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -870,11 +871,11 @@
    "cuisine": "udon, soba, donburi",
    "area": "kyoto-area-okazaki",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -887,11 +888,11 @@
    "cuisine": "unagi",
    "area": "kyoto-area-karasuma",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -903,11 +904,11 @@
    "cuisine": "udon, soba, cafeteria",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -920,7 +921,7 @@
    "cuisine": "tsukemen / ramen",
    "area": "kyoto-area-karasuma",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -932,7 +933,7 @@
    "cuisine": "ramen (100% seafood broth)",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1500
    ],
@@ -944,7 +945,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -956,7 +957,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-kita",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -968,7 +969,7 @@
    "cuisine": "tsukemen / ramen",
    "area": "kyoto-area-karasuma",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -980,7 +981,7 @@
    "cuisine": "ramen",
    "area": "kyoto-area-karasuma",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -992,7 +993,7 @@
    "cuisine": "gyoza / ramen / karaage",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1004,11 +1005,11 @@
    "cuisine": "ramen, tsukemen",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1029,7 +1030,7 @@
    "cuisine": "ramen / tsukemen",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1041,7 +1042,7 @@
    "cuisine": "soba",
    "area": "kyoto-area-kita",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -1054,11 +1055,11 @@
    "cuisine": "udon",
    "area": "kyoto-area-okazaki",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1071,11 +1072,11 @@
    "cuisine": "udon",
    "area": "kyoto-area-gion",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1088,11 +1089,11 @@
    "cuisine": "cafe with wagashi (Japanese sweets)",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1105,11 +1106,11 @@
    "cuisine": "italian / steak",
    "area": "kyoto-area-gion",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1121,11 +1122,11 @@
    "cuisine": "shabu / sukiyaki",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1137,11 +1138,11 @@
    "cuisine": "yakiniku",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1153,7 +1154,7 @@
    "cuisine": "izakaya / oden",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1165,7 +1166,7 @@
    "cuisine": "cafe with tea sweets (Arashiyama view)",
    "area": "kyoto-area-arashiyama",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
@@ -1178,11 +1179,11 @@
    "cuisine": "soba",
    "area": "kyoto-area-nijo",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1195,7 +1196,7 @@
    "cuisine": "abura-soba / maze-soba",
    "area": "kyoto-area-uji",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1207,7 +1208,7 @@
    "cuisine": "tachinomi / izakaya",
    "area": "kyoto-area-karasuma",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1219,11 +1220,11 @@
    "cuisine": "soba",
    "area": "kyoto-area-uji",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1236,11 +1237,11 @@
    "cuisine": "kissa (coffee shop), yoshoku, pancake",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1253,11 +1254,11 @@
    "cuisine": "soba, izakaya, cafe",
    "area": "kyoto-area-kiyomizu",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1270,11 +1271,11 @@
    "cuisine": "soba, izakaya",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1287,7 +1288,7 @@
    "cuisine": "ramen / tsukemen",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1299,11 +1300,11 @@
    "cuisine": "soba",
    "area": "kyoto-area-kita",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1316,11 +1317,11 @@
    "cuisine": "udon, izakaya",
    "area": "kyoto-area-kyoto-station",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1333,11 +1334,11 @@
    "cuisine": "udon, nabe, washoku",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1350,7 +1351,7 @@
    "cuisine": "udon",
    "area": "kyoto-area-okazaki",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -1363,7 +1364,7 @@
    "cuisine": "yakiniku",
    "area": "kyoto-area-kawaramachi",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
@@ -1407,7 +1408,7 @@
     }
    ],
    "entry": "free",
-   "cost_yen": 0
+   "cost": 0
   },
   {
    "id": "kyoto-kemari-hajime",
@@ -1421,7 +1422,7 @@
     }
    ],
    "entry": "free",
-   "cost_yen": 0
+   "cost": 0
   },
   {
    "id": "kyoto-kitano-tenmangaki",
@@ -1435,7 +1436,7 @@
     }
    ],
    "entry": "mixed",
-   "cost_yen": 250
+   "cost": 250
   },
   {
    "id": "kyoto-toka-ebisu",
@@ -1448,7 +1449,7 @@
     }
    ],
    "entry": "mixed",
-   "cost_yen": 0
+   "cost": 0
   }
  ],
  "routes": [
@@ -1475,7 +1476,7 @@
    "destination": "japan/kanto/tokyo",
    "mode": "shinkansen",
    "duration_hours": 2.5,
-   "price_yen": 14090
+   "price": 14090
   },
   {
    "id": "osaka-to-kyoto",
@@ -1484,7 +1485,7 @@
    "destination": "japan/kansai/kyoto",
    "mode": "train",
    "duration_hours": 0.5,
-   "price_yen": 580
+   "price": 580
   }
  ]
 }

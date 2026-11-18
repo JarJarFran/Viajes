@@ -7,8 +7,8 @@ area: osaka-area-honmachi
 area_detail: Hommachi
 cuisine: sushi, seafood
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 5999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [5000, 5999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.54
 tags: [top-rated]

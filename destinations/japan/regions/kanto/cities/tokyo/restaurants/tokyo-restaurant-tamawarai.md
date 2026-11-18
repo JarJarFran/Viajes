@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-harajuku
 cuisine: soba
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [2000, 2999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.92
 tags: [top-rated]

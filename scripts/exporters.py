@@ -7,7 +7,8 @@ import math
 import re
 from datetime import datetime, timedelta, timezone
 
-from common import (SCHEMA, ancestors, area_of, city_children, coords, d, public, strict_restaurants)
+from common import (SCHEMA, ancestors, area_of, city_children, coords, currency_of, d, money, public,
+                    strict_restaurants)
 
 DTSTAMP = "20260101T000000Z"
 TYPE_STYLE = {  # simplestyle-spec properties rendered by GitHub's map viewer
@@ -71,16 +72,17 @@ def build_shortlist(nodes, paths, edges, cid):
             and {"top50", "top100"} & set(nodes[a].get("tags") or [])]
     data = {
         "city": cpath,
+        "currency": currency_of(nodes[cid], nodes),
         "areas": [pick(nodes[a], ("id", "name", "coords")) for a in kids if nodes[a]["type"] == "area"],
-        "activities_top": [dict(pick(n, ("id", "name", "category", "entry", "cost_yen", "tags", "hours", "booking",
+        "activities_top": [dict(pick(n, ("id", "name", "category", "entry", "cost", "tags", "hours", "booking",
                                          "duration_hours")), area=area_of(n["id"], nodes, edges),
                                 closed=[c for c in n.get("closed") or []]) for n in acts],
-        "restaurants_strict": [pick(nodes[r], ("id", "name", "cuisine", "area", "price_range", "budget_lunch_yen",
-                                               "budget_dinner_yen", "budget_yen", "tabelog_rating", "station"))
+        "restaurants_strict": [pick(nodes[r], ("id", "name", "cuisine", "area", "price_range", "budget_lunch",
+                                               "budget_dinner", "budget", "tabelog_rating", "guide", "station"))
                                for r in strict],
-        "events": [pick(nodes[e], ("id", "name", "recurrence", "editions", "entry", "cost_yen")) for e in kids
+        "events": [pick(nodes[e], ("id", "name", "recurrence", "editions", "entry", "cost")) for e in kids
                    if nodes[e]["type"] == "event"],
-        "routes": [pick(n, ("id", "name", "origin", "destination", "mode", "duration_hours", "price_yen"))
+        "routes": [pick(n, ("id", "name", "origin", "destination", "mode", "duration_hours", "price"))
                    for nid, n in sorted(nodes.items()) if n.get("type") == "route"
                    and cpath in (n.get("origin"), n.get("destination"))],
     }
@@ -99,7 +101,7 @@ def build_trip_json(nodes, trip, view):
         for it in v["items"]:
             related[it["id"]] = it["type"]
     return json_records({"schema": SCHEMA["version"], "trip": trip["id"], "trip_node": public(trip),
-                         "summary": {k: view[k] for k in ("name", "start", "end", "nights", "budget", "totals")},
+                         "summary": {k: view[k] for k in ("name", "start", "end", "nights", "currency", "budget", "totals")},
                          "deadlines": view["deadlines"], "events": view["events"],
                          "days": {v["id"]: v for v in view["days"]}, "day_nodes": days,
                          "related": dict(sorted(related.items()))})
@@ -113,6 +115,7 @@ def _feature(n, extra=None):
     desc = []
     if n["type"] == "restaurant":
         desc = [n.get("cuisine"), n.get("price_range"), f"Tabelog {n['tabelog_rating']}" if n.get("tabelog_rating") else None,
+                n["guide"].replace("-", " ").capitalize() if n.get("guide") else None,
                 f"near {n['station']} Sta. ({n.get('station_m')} m)" if n.get("station") else None]
     elif n["type"] in ("activity", "event"):
         desc = [n.get("category"), n.get("approx_cost"), n.get("hours")]
@@ -183,13 +186,15 @@ def _fold(line):
     return "\r\n ".join(out)
 
 
-def _yen(x):
-    return "?" if x is None else f"¥{x:,}"
+def _m(x, cur):
+    return money(x, cur)
 
 
 def build_ics(trip, view):
     L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//viajes//travel-graph//EN", "CALSCALE:GREGORIAN",
-         "METHOD:PUBLISH", f"X-WR-CALNAME:{_ics_text(trip.get('name'))}", "X-WR-TIMEZONE:Asia/Tokyo"]
+         "METHOD:PUBLISH", f"X-WR-CALNAME:{_ics_text(trip.get('name'))}"]
+    if view.get("tz"):
+        L.append(f"X-WR-TIMEZONE:{view['tz']}")
 
     def event(uid, start_lines, summary, desc, location=None, alarms=()):
         L.extend(["BEGIN:VEVENT", f"UID:{uid}@viajes", f"DTSTAMP:{DTSTAMP}", *start_lines,
@@ -204,7 +209,7 @@ def build_ics(trip, view):
         day = d(v["date"])
         lines = []
         for it in v["items"]:
-            s = f"[{it.get('slot') or '-'}] {it['name']} ({_yen(it.get('est_yen'))})"
+            s = f"[{it.get('slot') or '-'}] {it['name']} ({_m(it.get('est'), v['currency'])})"
             if it.get("closed"):
                 s += " — " + "; ".join(("PARTIAL: " + c["partial"]) if c.get("partial") else "CLOSED: " + c["rule"]
                                        for c in it["closed"])
@@ -219,7 +224,7 @@ def build_ics(trip, view):
             lines.append("⚠ " + w)
         if v.get("sunrise"):
             lines.append(f"Sunrise {v['sunrise']} · sunset {v['sunset']}")
-        lines.append(f"Estimated {_yen(v['est_yen'])} / budget {_yen(v['budget_yen'])} per person")
+        lines.append(f"Estimated {_m(v['est'], v['currency'])} / budget {_m(v['budget'], v['currency'])} per person")
         summary = f"{v['city'] or ''} · {v.get('title') or ''}".strip(" ·")
         event(v["id"], [f"DTSTART;VALUE=DATE:{day:%Y%m%d}", f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
                         "TRANSP:TRANSPARENT"],
@@ -347,22 +352,22 @@ def _practical(practical):
         H.append(f'<div class="taxi"><div class="muted">{_e(h["nights"])} · {_e(h["name"])}'
                  + "".join(f" · {lab} {_e(h[k])}" for k, lab in (("check_in", "in"), ("check_out", "out")) if h.get(k))
                  + (f' · <a href="tel:{_e(h["phone"])}">{_e(h["phone"])}</a>' if h.get("phone") else "") + "</div>"
-                 + (f'<div class="big">{_e(h["name_ja"])}</div>' if h.get("name_ja") else "")
-                 + (f'<div class="ja">{_e(h["address_ja"])}</div>' if h.get("address_ja") else "") + "</div>")
+                 + (f'<div class="big">{_e(h["name_local"])}</div>' if h.get("name_local") else "")
+                 + (f'<div class="ja">{_e(h["address_local"])}</div>' if h.get("address_local") else "") + "</div>")
     H.append("</section>")
     return H
 
 
 def build_html(trip, view, day_bodies, practical=None):
     v0 = view
-    budget = v0["budget"].get("daily_yen")
+    budget, tcur = v0["budget"].get("daily"), v0.get("currency", "JPY")
     H = ["<!doctype html>", '<html lang="en"><head><meta charset="utf-8">',
          '<meta name="viewport" content="width=device-width,initial-scale=1">',
          f"<title>{_e(trip.get('name'))}</title><style>{CSS}</style></head><body><main>",
          f"<h1>{_e(trip.get('name'))}</h1>",
          f'<p class="muted">{_e(v0["start"])} → {_e(v0["end"])} · nights: '
          + ", ".join(f"{_e(p.split('/')[-1].capitalize())} {n}" for p, n in v0["nights"].items())
-         + (f" · budget ¥{budget:,}/person/day (hotels excluded)" if budget else "") + "</p>",
+         + (f" · budget {_m(budget, tcur)}/person/day (hotels excluded)" if budget else "") + "</p>",
          "<p class=\"muted\">Generated by scripts/sync.py — works offline. Map links need data.</p>"]
     H.append("<nav>" + "".join(f'<a href="#d-{_e(v["date"])}">{_e(v["date"][5:])}</a>' for v in v0["days"]) + "</nav>")
     H.extend(_practical(practical))
@@ -376,7 +381,8 @@ def build_html(trip, view, day_bodies, practical=None):
         H.append("</table>")
     H.append("<h2>Days</h2>")
     for v in v0["days"]:
-        cls = "over" if budget and v["est_yen"] > budget else "under"
+        cur, budget = v["currency"], v["budget"]
+        cls = "over" if budget and v["est"] > budget else "under"
         H.append(f'<section class="day" id="d-{_e(v["date"])}">')
         hol = " · holiday" if v["holiday"] else ""
         H.append(f"<h3>{_e(v['weekday'].capitalize())} {_e(v['date'])} · {_e(v['city'] or '')}{hol}</h3>")
@@ -390,8 +396,8 @@ def build_html(trip, view, day_bodies, practical=None):
                 H.append(f'<div class="muted">{label}: {_e(v[k]["hotel"])}{_e(when)}</div>')
         if v.get("stay"):
             st = v["stay"]
-            ja = f" · <span class=\"ja\">{_e(st['name_ja'])}</span>" if st.get("name_ja") else ""
-            addr = f"<br><span class=\"ja\">{_e(st['address_ja'])}</span>" if st.get("address_ja") else ""
+            ja = f" · <span class=\"ja\">{_e(st['name_local'])}</span>" if st.get("name_local") else ""
+            addr = f"<br><span class=\"ja\">{_e(st['address_local'])}</span>" if st.get("address_local") else ""
             H.append(f'<div class="stay">🛏 {_e(st["name"])}{ja}{addr}</div>')
         H.append(_svg_map(v))
         H.append('<ol class="items">')
@@ -399,19 +405,21 @@ def build_html(trip, view, day_bodies, practical=None):
             badges = "".join(
                 f'<span class="badge {"partial" if c.get("partial") else "closed"}">'
                 f'{_e(c.get("partial") or c["rule"])}</span>' for c in it.get("closed") or [])
-            ja = f'<br><span class="ja">{_e(it["name_ja"])}</span>' if it.get("name_ja") else ""
-            if it.get("address_ja"):
-                ja += f' <span class="ja muted">{_e(it["address_ja"])}</span>'
+            ja = f'<br><span class="ja">{_e(it["name_local"])}</span>' if it.get("name_local") else ""
+            if it.get("address_local"):
+                ja += f' <span class="ja muted">{_e(it["address_local"])}</span>'
             extra = []
             if it.get("hours"):
                 extra.append(_e(it["hours"]))
             if it.get("tabelog_rating"):
                 extra.append(f"Tabelog {_e(it['tabelog_rating'])}")
+            if it.get("guide"):
+                extra.append(_e(it["guide"].replace("-", " ").capitalize()))
             if it.get("km_from_prev") is not None:
                 extra.append(f"{it['km_from_prev']} km")
             if it.get("note"):
                 extra.append(_e(it["note"]))
-            H.append(f'<li><span class="cost">{_e(_yen(it.get("est_yen")))}</span><span class="slot">{_e(it.get("slot") or "")}</span>'
+            H.append(f'<li><span class="cost">{_e(_m(it.get("est"), cur))}</span><span class="slot">{_e(it.get("slot") or "")}</span>'
                      f'<a href="{_e(it["maps"])}">{_e(it["name"])}</a>{badges}{ja}'
                      + (f'<br><span class="muted">{" · ".join(extra)}</span>' if extra else "") + "</li>")
         H.append("</ol>")
@@ -419,9 +427,9 @@ def build_html(trip, view, day_bodies, practical=None):
             H.append(f'<div class="warn">⚠ {_e(w)}</div>')
         if v["events"]:
             H.append('<div class="muted">Events: ' + ", ".join(_e(e["name"]) for e in v["events"]) + "</div>")
-        spent = f" · spent {_yen(v['spent_yen'])}" if v.get("spent_yen") is not None else ""
-        H.append(f'<div>Estimated <span class="{cls}">{_e(_yen(v["est_yen"]))}</span>'
-                 + (f" / budget {_e(_yen(budget))}" if budget else "") + f"{_e(spent)}</div>")
+        spent = f" · spent {_m(v['spent'], cur)}" if v.get("spent") is not None else ""
+        H.append(f'<div>Estimated <span class="{cls}">{_e(_m(v["est"], cur))}</span>'
+                 + (f" / budget {_e(_m(budget, cur))}" if budget else "") + f"{_e(spent)}</div>")
         body = day_bodies.get(v["id"], "")
         if body.strip():
             H.append(f'<div class="notes">{_body_html(body)}</div>')

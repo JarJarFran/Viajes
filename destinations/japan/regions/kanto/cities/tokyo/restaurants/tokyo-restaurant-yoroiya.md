@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13003715/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.65
@@ -17,7 +17,7 @@ opening:
   - {days: [sat, sun, hol], times: [10:00-21:00]}
 coords: [35.709333, 139.796883]
 coords_precision: area
-address_ja: 東京都台東区浅草1-36-7
+address_local: 東京都台東区浅草1-36-7
 verified: '2026-11-18'
 ---
 

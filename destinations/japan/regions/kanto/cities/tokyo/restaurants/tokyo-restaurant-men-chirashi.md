@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-harajuku
 cuisine: udon
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [null, 999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1306/A130601/13225567/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.58
@@ -19,7 +19,7 @@ station: Meiji Jingumae
 station_m: 232
 coords: [35.668421, 139.705341]
 coords_precision: station
-address_ja: 東京都渋谷区神宮前6-13-7
+address_local: 東京都渋谷区神宮前6-13-7
 verified: '2026-11-18'
 ---
 

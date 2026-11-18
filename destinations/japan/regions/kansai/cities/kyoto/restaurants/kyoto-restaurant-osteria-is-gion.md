@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: italian / steak
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [2000, 2999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.5
 tags: [top-rated]

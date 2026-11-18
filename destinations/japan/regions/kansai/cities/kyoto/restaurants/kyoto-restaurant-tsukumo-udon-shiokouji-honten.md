@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-kyoto-station
 cuisine: udon, izakaya
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260101/26031063/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.6
@@ -19,7 +19,7 @@ station: Kyoto
 station_m: 136
 coords: [34.986443, 135.758446]
 coords_precision: station
-address_ja: 京都府京都市下京区烏丸通塩小路下ル東塩小路町901 JR京都駅構内地下2F東口
+address_local: 京都府京都市下京区烏丸通塩小路下ル東塩小路町901 JR京都駅構内地下2F東口
 verified: '2026-11-18'
 ---
 

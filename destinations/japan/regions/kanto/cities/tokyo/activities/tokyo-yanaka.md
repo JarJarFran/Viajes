@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: daytime (Yuyake Dandan ~sunset)
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: morning
 coords: [35.727669, 139.765317]
 coords_precision: exact
-name_ja: 谷中銀座
-address_ja: 〒110-0001 東京台東区谷中谷中三丁目
+name_local: 谷中銀座
+address_local: 〒110-0001 東京台東区谷中谷中三丁目
 ---
 
 # Yanaka old town (Yanaka Ginza, Nezu Shrine)

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: buffet (king crab, A5 wagyu, fugu), sushi, shabu-shabu
 price_range: ¥¥¥¥
-budget_lunch_yen: [10000, 14999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.09
 station: Ginza Itchome

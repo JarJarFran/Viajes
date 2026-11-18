@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-tsukiji
 cuisine: sushi / izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [4000, 4999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [4000, 4999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.61
 tags: [top-rated]

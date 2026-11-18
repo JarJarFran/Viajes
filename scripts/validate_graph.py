@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tripplan import load_profile, trip_view  # noqa: E402
 from common import (soft_closure,  # noqa: E402
-                    PLANNABLE, REPO, SCHEMA, allowed_places, closures_on, coords, d, day_id,  # noqa: E402
+                    PLANNABLE, REPO, SCHEMA, allowed_places, closures_on, coords, country_of, d, day_id,  # noqa: E402
                     describe_rule, edition_on, editions, expected_day, expected_file, haversine_km, holidays,
                     load_graph, load_schema, node_places, plan_items, read, rel, strict_restaurants, trip_day_ids,
                     trip_window, WEEKDAYS)
@@ -136,23 +136,28 @@ def validate(root=REPO, today=None):
         for k in ("check_in", "check_out"):
             if n.get(k) is not None and not re.match(r"^\d{1,2}:\d{2}$", str(n[k])):
                 err(f"{fp}: {k} must be a quoted time like '15:00' (got {n[k]!r}; unquoted 15:00 is read by YAML as a number)")
-        for k in ("cost_yen", "price_yen", "price_per_night_yen", "station_m", "book_ahead_days", "local_transport_day_yen"):
+        for k in ("cost", "price", "price_per_night", "station_m", "book_ahead_days", "local_transport_day"):
             if n.get(k) is not None and (not isinstance(n[k], int) or n[k] < 0):
                 err(f"{fp}: {k} must be a non-negative integer")
-        for k in ("budget_lunch_yen", "budget_dinner_yen", "budget_yen"):
+        for k in ("budget_lunch", "budget_dinner", "budget"):
             v = n.get(k)
             if v is not None:
                 ok = isinstance(v, list) and len(v) == 2 and all(x is None or isinstance(x, int) for x in v) \
                     and any(x is not None for x in v) and (None in v or v[0] <= v[1])
                 if not ok:
-                    err(f"{fp}: {k} must be [min, max] yen (one side may be null)")
+                    err(f"{fp}: {k} must be [min, max] per person in local currency (one side may be null)")
         if n.get("tabelog_rating") is not None and not (0 <= float(n["tabelog_rating"]) <= 5):
             err(f"{fp}: tabelog_rating {n['tabelog_rating']} out of range")
         if t == "restaurant":
             if "/rstLst/" in str(n.get("tabelog", "")):
                 err(f"{fp}: tabelog must be the restaurant's own page; list pages go in tabelog_list")
-            if not n.get("tabelog") and not n.get("tabelog_list"):
-                err(f"{fp}: restaurant needs tabelog or tabelog_list")
+            if country_of(n, nodes).get("iso_code") == "JP":
+                if not n.get("tabelog") and not n.get("tabelog_list"):
+                    err(f"{fp}: restaurant in Japan needs tabelog or tabelog_list")
+            elif not n.get("link") and not n.get("tabelog"):
+                err(f"{fp}: restaurant needs a link (guide page, official site or listing)")
+        if t == "country" and n.get("currency_code") and n["currency_code"] not in (SCHEMA.get("currencies") or {}):
+            err(f"{fp}: currency_code {n['currency_code']} has no entry in schema currencies/price_ranges")
         if "closed" in n:
             check_closed(n["closed"], fp, err)
         for row in n.get("opening") or [] if isinstance(n.get("opening"), list) else []:
@@ -239,7 +244,8 @@ def validate(root=REPO, today=None):
     if nocoords:
         warn(f"{len(nocoords)} places without coords (run scripts/geocode.py): " + ", ".join(nocoords[:8])
              + (" ..." if len(nocoords) > 8 else ""))
-    nodirect = sum(1 for n in nodes.values() if n.get("type") == "restaurant" and not n.get("tabelog"))
+    nodirect = sum(1 for n in nodes.values() if n.get("type") == "restaurant" and not n.get("tabelog")
+                   and n.get("tabelog_list"))
     if nodirect:
         warn(f"{nodirect} restaurants link only a Tabelog list page (add `tabelog:` with the restaurant's own page)")
     stats = summary(nodes, edges)
@@ -332,16 +338,16 @@ def check_day(n, trip, nodes, paths, fp, err, warn, hol):
                 warn(msg + (f" — partial: {r['partial']}" if r.get("partial") else f" — {soft_closure(r)}"))
             else:
                 err(msg + " — move it to another day")
-        if it.get("yen") is not None and (not isinstance(it["yen"], int) or it["yen"] < 0):
-            err(f"{fp}: plan yen must be a non-negative integer")
+        if it.get("cost") is not None and (not isinstance(it["cost"], int) or it["cost"] < 0):
+            err(f"{fp}: plan cost must be a non-negative integer")
     for x in n.get("done") or []:
         if not isinstance(x, dict) or x.get("id") not in nodes:
             err(f"{fp}: done item {x} must reference a node id")
         elif x.get("rating") is not None and x["rating"] not in (1, 2, 3, 4, 5):
             err(f"{fp}: done rating must be 1-5")
     for x in n.get("expenses") or []:
-        if not isinstance(x, dict) or not isinstance(x.get("yen"), int) or x["yen"] < 0:
-            err(f"{fp}: expense {x} needs a non-negative integer yen")
+        if not isinstance(x, dict) or not isinstance(x.get("amount"), int) or x["amount"] < 0:
+            err(f"{fp}: expense {x} needs a non-negative integer amount (local currency)")
         elif x.get("category") is not None and x["category"] not in SCHEMA["vocabularies"]["expense_category"]:
             err(f"{fp}: expense category {x['category']!r} not in vocabulary")
 

@@ -10,7 +10,7 @@ price_range: ¥
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 coords: [34.66521, 135.503401]
 coords_precision: exact
-name_ja: たこ焼道楽わなか
+name_local: たこ焼道楽わなか
 ---
 
 # Wanaka

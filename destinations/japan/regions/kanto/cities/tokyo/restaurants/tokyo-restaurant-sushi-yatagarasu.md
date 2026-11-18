@@ -7,7 +7,7 @@ area: tokyo-area-ginza
 area_detail: Shiodome / Shimbashi
 cuisine: sushi (Edomae)
 price_range: ¥¥¥¥
-budget_dinner_yen: [20000, 29999]
+budget_dinner: [20000, 29999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.6
 tags: [top-rated]

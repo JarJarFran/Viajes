@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1.5
 approx_cost: grounds free; sub-temples ¥500–6,000 (Nanzen-in closed to visitors since Jan 2026)
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [top50]
 hours: grounds 8:45-17:00
@@ -19,8 +19,8 @@ best_time: morning
 link: https://nanzenji.jp/
 coords: [35.011525, 135.792721]
 coords_precision: exact
-name_ja: 南禅寺
-address_ja: 〒606-8444 京都府京都市左京区永観堂町飛地永観堂町極楽橋
+name_local: 南禅寺
+address_local: 〒606-8444 京都府京都市左京区永観堂町飛地永観堂町極楽橋
 verified: '2026-11-17'
 ---
 

@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: onsen
 duration_hours: 3
 approx_cost: onsen from ¥1,500 (2026; more on weekends, holidays and peak days); +¥1,300–1,450 after midnight
-cost_yen: 1500
+cost: 1500
 entry: paid
 tags: [top50]
 hours: onsen 10:00-08:45 (next day); pool 10:00-19:00
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.spaworld.co.jp/
 coords: [34.649906, 135.505605]
 coords_precision: exact
-name_ja: スパワールド
-address_ja: 〒556-0002 大阪府大阪市浪速区恵美須東三丁目24
+name_local: スパワールド
+address_local: 〒556-0002 大阪府大阪市浪速区恵美須東三丁目24
 verified: '2026-11-18'
 ---
 

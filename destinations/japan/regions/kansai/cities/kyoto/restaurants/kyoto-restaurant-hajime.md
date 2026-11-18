@@ -7,8 +7,8 @@ area: kyoto-area-kiyomizu
 area_detail: Gojo / Kiyomizu
 cuisine: udon
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [2000, 2999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.27
 station: Gojo

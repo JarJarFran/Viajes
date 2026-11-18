@@ -7,8 +7,8 @@ area: tokyo-area-marunouchi
 area_detail: Marunouchi (Otemachi)
 cuisine: ramen / izakaya
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.64
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 3
 approx_cost: complex free; aquarium ¥2,600; planetarium ¥1,000–1,500
-cost_yen: 2600
+cost: 2600
 entry: mixed
 tags: [top50, kid-friendly]
 hours: 10:00-20:00
@@ -17,8 +17,8 @@ best_time: afternoon
 link: https://www.sunshinecity.co.jp/
 coords: [35.728848, 139.719546]
 coords_precision: exact
-name_ja: サンシャインシティ
-address_ja: 〒170-0013 東京豊島区東池袋東池袋三丁目3
+name_local: サンシャインシティ
+address_local: 〒170-0013 東京豊島区東池袋東池袋三丁目3
 ---
 
 # Sunshine City (Ikebukuro)

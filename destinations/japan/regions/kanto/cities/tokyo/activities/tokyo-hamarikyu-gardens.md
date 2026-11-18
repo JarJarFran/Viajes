@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: nature
 duration_hours: 1.5
 approx_cost: ¥300
-cost_yen: 300
+cost: 300
 entry: paid
 tags: [top50, unesco]
 hours: 9:00-17:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.tokyo-park.or.jp/
 coords: [35.660176, 139.763824]
 coords_precision: exact
-name_ja: 浜離宮恩賜庭園
-address_ja: 〒104-0046 東京中央区
+name_local: 浜離宮恩賜庭園
+address_local: 〒104-0046 東京中央区
 verified: '2026-11-17'
 ---
 

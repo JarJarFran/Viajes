@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-karasuma
 cuisine: izakaya, yakitori, creative
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.45
 station: Karasuma

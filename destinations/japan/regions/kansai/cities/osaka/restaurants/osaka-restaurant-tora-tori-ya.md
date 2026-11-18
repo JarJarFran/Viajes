@@ -7,7 +7,7 @@ area: osaka-area-namba
 area_detail: Namba Sennichimae
 cuisine: yakitori / gyoza
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.45
 coords: [34.669031, 135.501572]

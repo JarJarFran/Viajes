@@ -7,7 +7,7 @@ area: osaka-area-honmachi
 area_detail: Hommachi
 cuisine: curry, Indian curry
 price_range: ¥
-budget_lunch_yen: [null, 999]
+budget_lunch: [null, 999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.86
 tags: [top-rated]

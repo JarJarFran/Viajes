@@ -7,8 +7,8 @@ area: kyoto-area-kita
 area_detail: Kinkaku-ji / Kita-ku
 cuisine: soba, udon, udon-suki
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260501/26002741/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.47
@@ -22,7 +22,7 @@ station: Kitano Hakubaicho
 station_m: 984
 coords: [35.027416, 135.730873]
 coords_precision: station
-address_ja: 京都府京都市北区平野宮敷町26
+address_local: 京都府京都市北区平野宮敷町26
 verified: '2026-11-18'
 ---
 

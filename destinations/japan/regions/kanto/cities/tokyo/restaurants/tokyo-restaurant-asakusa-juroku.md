@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: soba (winter duck hot pot)
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.84
 tags: [top-rated]

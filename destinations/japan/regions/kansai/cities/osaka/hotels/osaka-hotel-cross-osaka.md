@@ -11,8 +11,8 @@ check_out: '11:00'
 link: https://www.crosshotel.com/osaka/
 coords: [34.669705, 135.500819]
 coords_precision: exact
-name_ja: クロスホテル大阪
-address_ja: 〒542-0085 大阪府大阪市中央区心斎橋筋2-5-15
+name_local: クロスホテル大阪
+address_local: 〒542-0085 大阪府大阪市中央区心斎橋筋2-5-15
 verified: '2026-11-18'
 ---
 

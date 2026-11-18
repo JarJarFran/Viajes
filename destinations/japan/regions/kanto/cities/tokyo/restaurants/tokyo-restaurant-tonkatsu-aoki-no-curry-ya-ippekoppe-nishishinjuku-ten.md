@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (west exit)
 cuisine: curry, tonkatsu
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.59
 tags: [top-rated]

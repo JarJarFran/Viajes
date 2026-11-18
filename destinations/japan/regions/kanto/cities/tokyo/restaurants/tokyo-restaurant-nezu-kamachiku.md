@@ -7,8 +7,8 @@ area: tokyo-area-ueno
 area_detail: Nezu / Ueno
 cuisine: udon, sake bar
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [2000, 2999]
+budget_dinner: [5000, 5999]
 tabelog: https://tabelog.com/en/tokyo/A1311/A131106/13020252/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.65
@@ -21,7 +21,7 @@ station: Nezu
 station_m: 141
 coords: [35.718286, 139.765619]
 coords_precision: station
-address_ja: 東京都文京区根津2-14-18
+address_local: 東京都文京区根津2-14-18
 verified: '2026-11-18'
 ---
 

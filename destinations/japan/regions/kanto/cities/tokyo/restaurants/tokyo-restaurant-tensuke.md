@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-chuo-west
 cuisine: tempura
 price_range: ¥¥
-budget_yen: [1500, 2500]
+budget: [1500, 2500]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 coords: [35.705335, 139.649953]
 coords_precision: area

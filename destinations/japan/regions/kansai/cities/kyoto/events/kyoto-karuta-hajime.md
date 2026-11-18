@@ -9,7 +9,7 @@ editions:
   - {start: 2027-01-03, end: 2027-01-03, note: 780}
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [event, touristic]
 booking: walk-in
@@ -17,7 +17,7 @@ best_time: afternoon
 link: https://www.yasaka-jinja.or.jp/
 coords: [35.003603, 135.778261]
 coords_precision: exact
-name_ja: 八坂神社 かるた始め式
+name_local: 八坂神社 かるた始め式
 verified: '2026-11-18'
 ---
 

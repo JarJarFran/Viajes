@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: soba, nabe, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [null, 999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.49
 station: Shinsaibashi

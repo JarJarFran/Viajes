@@ -1,5 +1,6 @@
 {
  "city": "japan/kanto/tokyo",
+ "currency": "JPY",
  "areas": [
   {
    "id": "tokyo-area-akihabara",
@@ -136,7 +137,7 @@
    "name": "Akihabara (Electric Town)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50"
@@ -151,7 +152,7 @@
    "name": "Edo-Tokyo Museum (Ryogoku)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 800,
+   "cost": 800,
    "tags": [
     "top50"
    ],
@@ -173,7 +174,7 @@
    "name": "Ghibli Museum (Mitaka)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "touristic",
     "top100"
@@ -194,7 +195,7 @@
    "name": "Ginza (shopping & depachika)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50"
@@ -209,7 +210,7 @@
    "name": "Golden Gai (Shinjuku)",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "top50",
     "night"
@@ -224,7 +225,7 @@
    "name": "Day trip to Hakone (onsen, Lake Ashi)",
    "category": "onsen",
    "entry": "mixed",
-   "cost_yen": 2320,
+   "cost": 2320,
    "tags": [
     "touristic",
     "top100"
@@ -238,7 +239,7 @@
    "name": "Hama-rikyu Gardens",
    "category": "nature",
    "entry": "paid",
-   "cost_yen": 300,
+   "cost": 300,
    "tags": [
     "top50",
     "unesco"
@@ -258,7 +259,7 @@
    "name": "Harajuku & Takeshita Street",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -274,7 +275,7 @@
    "name": "Imperial Palace East Gardens",
    "category": "history",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -301,7 +302,7 @@
    "name": "Meiji Shrine (Meiji Jingu) and Yoyogi Park",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -317,7 +318,7 @@
    "name": "Mori Art Museum (Roppongi Hills 53F)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "top50"
    ],
@@ -337,7 +338,7 @@
    "name": "Nakano Broadway",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -362,7 +363,7 @@
    "name": "Odaiba island (Gundam, beach, Rainbow Bridge)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 360,
+   "cost": 360,
    "tags": [
     "touristic",
     "top50"
@@ -377,7 +378,7 @@
    "name": "Omoide Yokocho (Memory Lane, Shinjuku)",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "touristic",
     "top50",
@@ -393,7 +394,7 @@
    "name": "Pokemon Center (Tokyo Station / Nihonbashi)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "top100"
    ],
@@ -407,7 +408,7 @@
    "name": "Senso-ji Temple (Asakusa)",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -424,7 +425,7 @@
    "name": "Shibuya crossing and the Hachiko statue",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50",
@@ -440,7 +441,7 @@
    "name": "Shibuya Sky (observation deck)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 2700,
+   "cost": 2700,
    "tags": [
     "touristic",
     "top50"
@@ -463,7 +464,7 @@
    "name": "Shinjuku Gyoen National Garden",
    "category": "nature",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50"
@@ -478,7 +479,7 @@
    "name": "Tokyo Skytree",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 1800,
+   "cost": 1800,
    "tags": [
     "touristic",
     "top50",
@@ -494,7 +495,7 @@
    "name": "Sumida River cruise (Asakusa → Odaiba, Himiko)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "top50"
    ],
@@ -508,7 +509,7 @@
    "name": "Watch sumo morning practice (asageiko/keiko) at a Tokyo stable",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 5000,
+   "cost": 5000,
    "tags": [
     "touristic",
     "top100",
@@ -530,7 +531,7 @@
    "name": "Sunshine City (Ikebukuro)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 2600,
+   "cost": 2600,
    "tags": [
     "top50",
     "kid-friendly"
@@ -545,7 +546,7 @@
    "name": "teamLab Borderless (Azabudai Hills)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 3400,
+   "cost": 3400,
    "tags": [
     "touristic",
     "top50",
@@ -566,7 +567,7 @@
    "name": "teamLab Planets (Toyosu)",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 3600,
+   "cost": 3600,
    "tags": [
     "touristic",
     "top50",
@@ -592,7 +593,7 @@
    "name": "Tokyo Metropolitan Government Building observatory (45F)",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -636,7 +637,7 @@
    "name": "Tokyo City View (Roppongi Hills 52F)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 2200,
+   "cost": 2200,
    "tags": [
     "top50"
    ],
@@ -650,7 +651,7 @@
    "name": "Tokyo Tower",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 1500,
+   "cost": 1500,
    "tags": [
     "touristic",
     "top50",
@@ -666,7 +667,7 @@
    "name": "Tsukiji Outer Market",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 1500,
+   "cost": 1500,
    "tags": [
     "touristic",
     "top50"
@@ -694,7 +695,7 @@
    "name": "Ueno Park & museums",
    "category": "museums",
    "entry": "mixed",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "touristic",
     "top50"
@@ -722,7 +723,7 @@
    "name": "Yanaka old town (Yanaka Ginza, Nezu Shrine)",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -736,7 +737,7 @@
    "name": "Day trip to Yokohama (Chinatown, Minato Mirai)",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 480,
+   "cost": 480,
    "tags": [
     "touristic",
     "top100"
@@ -750,7 +751,7 @@
    "name": "Zojo-ji Temple",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -767,11 +768,11 @@
    "cuisine": "nepalese curry, izakaya",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -784,11 +785,11 @@
    "cuisine": "indian curry, dining bar",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -801,7 +802,7 @@
    "cuisine": "sushi / kaisen-don",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
@@ -813,11 +814,11 @@
    "cuisine": "soba, tempura",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -830,7 +831,7 @@
    "cuisine": "ramen / tantanmen",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -842,7 +843,7 @@
    "cuisine": "ramen / tsukemen",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -854,11 +855,11 @@
    "cuisine": "izakaya / teppanyaki",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -870,11 +871,11 @@
    "cuisine": "bistro / french",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -886,11 +887,11 @@
    "cuisine": "curry",
    "area": "tokyo-area-harajuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -903,7 +904,7 @@
    "cuisine": "tsukemen / ramen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -915,11 +916,11 @@
    "cuisine": "european curry",
    "area": "tokyo-area-chuo-west",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -932,11 +933,11 @@
    "cuisine": "curry",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -949,11 +950,11 @@
    "cuisine": "udon, curry udon",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -966,11 +967,11 @@
    "cuisine": "udon, izakaya, tempura",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -983,11 +984,11 @@
    "cuisine": "udon, tempura",
    "area": "tokyo-area-marunouchi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1000,11 +1001,11 @@
    "cuisine": "tonkatsu, katsu-don, curry",
    "area": "tokyo-area-marunouchi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1017,11 +1018,11 @@
    "cuisine": "tonkatsu",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1033,11 +1034,11 @@
    "cuisine": "tonkatsu",
    "area": "tokyo-area-ryogoku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1049,7 +1050,7 @@
    "cuisine": "ramen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     999,
     1999
    ],
@@ -1061,7 +1062,7 @@
    "cuisine": "curry (wagyu claypot rice)",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -1074,7 +1075,7 @@
    "cuisine": "ramen / tantanmen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1086,11 +1087,11 @@
    "cuisine": "udon, tempura",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1103,11 +1104,11 @@
    "cuisine": "udon, tempura",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1120,11 +1121,11 @@
    "cuisine": "udon, curry udon, tempura",
    "area": "tokyo-area-akihabara",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1137,11 +1138,11 @@
    "cuisine": "soba",
    "area": "tokyo-area-akihabara",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1154,11 +1155,11 @@
    "cuisine": "tonkatsu, kushikatsu, curry",
    "area": "tokyo-area-marunouchi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1171,11 +1172,11 @@
    "cuisine": "tonkatsu",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1187,11 +1188,11 @@
    "cuisine": "shabu-shabu / oden",
    "area": "tokyo-area-ueno",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1203,11 +1204,11 @@
    "cuisine": "indian curry, kebab",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1220,7 +1221,7 @@
    "cuisine": "ramen / chinese",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1232,11 +1233,11 @@
    "cuisine": "udon, tempura, izakaya",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1249,11 +1250,11 @@
    "cuisine": "yoshoku, tonkatsu, curry",
    "area": "tokyo-area-akihabara",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1266,7 +1267,7 @@
    "cuisine": "maze-soba",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1278,11 +1279,11 @@
    "cuisine": "udon",
    "area": "tokyo-area-harajuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1295,11 +1296,11 @@
    "cuisine": "ramen, abura-soba, maze-soba, curry",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1312,7 +1313,7 @@
    "cuisine": "tsukemen / ramen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1324,11 +1325,11 @@
    "cuisine": "pizza / italian",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1340,11 +1341,11 @@
    "cuisine": "soba",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1357,11 +1358,11 @@
    "cuisine": "udon, sake bar",
    "area": "tokyo-area-ueno",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1374,11 +1375,11 @@
    "cuisine": "tonkatsu, curry, pork dishes",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1391,11 +1392,11 @@
    "cuisine": "soba, izakaya",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -1408,11 +1409,11 @@
    "cuisine": "soba, izakaya",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     14999
    ],
@@ -1425,7 +1426,7 @@
    "cuisine": "ramen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1437,7 +1438,7 @@
    "cuisine": "ramen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1449,11 +1450,11 @@
    "cuisine": "udon, curry udon, tempura",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1466,7 +1467,7 @@
    "cuisine": "chinese / gyoza / ramen",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1478,7 +1479,7 @@
    "cuisine": "ramen (iekei)",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1490,7 +1491,7 @@
    "cuisine": "ramen / tsukemen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥¥",
-   "budget_yen": [
+   "budget": [
     1000,
     1999
    ],
@@ -1502,11 +1503,11 @@
    "cuisine": "udon / izakaya",
    "area": "tokyo-area-ryogoku",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1518,11 +1519,11 @@
    "cuisine": "sushi / izakaya",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1534,11 +1535,11 @@
    "cuisine": "soba",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     14999
    ],
@@ -1551,11 +1552,11 @@
    "cuisine": "spicy curry, taiwanese",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1568,11 +1569,11 @@
    "cuisine": "ramen / izakaya",
    "area": "tokyo-area-marunouchi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1584,11 +1585,11 @@
    "cuisine": "sukiyaki / shabu",
    "area": "tokyo-area-marunouchi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     null
    ],
@@ -1600,7 +1601,7 @@
    "cuisine": "sushi",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
@@ -1612,11 +1613,11 @@
    "cuisine": "soba",
    "area": "tokyo-area-harajuku",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     14999
    ],
@@ -1629,11 +1630,11 @@
    "cuisine": "soba, sake bar",
    "area": "tokyo-area-asakusa",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1646,11 +1647,11 @@
    "cuisine": "teppanyaki",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     null
    ],
@@ -1662,11 +1663,11 @@
    "cuisine": "udon, soba, izakaya",
    "area": "tokyo-area-harajuku",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1679,11 +1680,11 @@
    "cuisine": "soba",
    "area": "tokyo-area-ikebukuro",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -1696,11 +1697,11 @@
    "cuisine": "curry, tonkatsu",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1713,7 +1714,7 @@
    "cuisine": "tonkatsu",
    "area": "tokyo-area-ueno",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
@@ -1725,11 +1726,11 @@
    "cuisine": "udon",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1742,11 +1743,11 @@
    "cuisine": "udon",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1759,11 +1760,11 @@
    "cuisine": "udon, tempura, izakaya",
    "area": "tokyo-area-ebisu",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1776,11 +1777,11 @@
    "cuisine": "udon",
    "area": "tokyo-area-shinjuku",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1793,7 +1794,7 @@
    "cuisine": "ramen",
    "area": "tokyo-area-asakusa",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1805,7 +1806,7 @@
    "cuisine": "ramen / tantanmen",
    "area": "tokyo-area-shibuya",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1817,11 +1818,11 @@
    "cuisine": "yakiniku, tripe, steak",
    "area": "tokyo-area-roppongi",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1834,11 +1835,11 @@
    "cuisine": "yakiniku, steak, tripe",
    "area": "tokyo-area-ginza",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     10000,
     14999
    ],
@@ -1851,11 +1852,11 @@
    "cuisine": "yakiniku / sushi",
    "area": "tokyo-area-tsukiji",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1867,7 +1868,7 @@
    "cuisine": "ramen",
    "area": "tokyo-area-asakusa",
    "price_range": "¥",
-   "budget_yen": [
+   "budget": [
     null,
     999
    ],
@@ -1904,7 +1905,7 @@
     }
    ],
    "entry": "mixed",
-   "cost_yen": 0
+   "cost": 0
   },
   {
    "id": "tokyo-sumo-tournament",
@@ -1920,7 +1921,7 @@
     }
    ],
    "entry": "paid",
-   "cost_yen": 3500
+   "cost": 3500
   },
   {
    "id": "tokyo-winter-illuminations",
@@ -1951,7 +1952,7 @@
    "destination": "japan/kanto/tokyo",
    "mode": "shinkansen",
    "duration_hours": 2.5,
-   "price_yen": 14090
+   "price": 14090
   },
   {
    "id": "narita-to-tokyo-center",
@@ -1960,7 +1961,7 @@
    "destination": "japan/kanto/tokyo",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 3140
+   "price": 3140
   },
   {
    "id": "tokyo-to-kamakura",
@@ -1969,7 +1970,7 @@
    "destination": "japan/kanto/kamakura",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 1020
+   "price": 1020
   },
   {
    "id": "tokyo-to-kawaguchiko",
@@ -1978,7 +1979,7 @@
    "destination": "japan/chubu/kawaguchiko",
    "mode": "bus",
    "duration_hours": 2,
-   "price_yen": 2200
+   "price": 2200
   },
   {
    "id": "tokyo-to-nikko",
@@ -1987,7 +1988,7 @@
    "destination": "japan/kanto/nikko",
    "mode": "train",
    "duration_hours": 2,
-   "price_yen": 3340
+   "price": 3340
   },
   {
    "id": "tokyo-to-shin-osaka",
@@ -1996,7 +1997,7 @@
    "destination": "japan/kansai/osaka",
    "mode": "shinkansen",
    "duration_hours": 3,
-   "price_yen": 14720
+   "price": 14720
   }
  ]
 }

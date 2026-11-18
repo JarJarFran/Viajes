@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-arashiyama
 cuisine: ochaya (tea house), donburi, wagashi cafe
 price_range: ¥¥¥
-budget_lunch_yen: [4000, 4999]
-budget_dinner_yen: [4000, 4999]
+budget_lunch: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.48
 station: Arashiyama

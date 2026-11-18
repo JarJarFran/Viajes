@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: food
 duration_hours: 1.5
 approx_cost: Gekkeikan Okura Sake Museum ¥600 (with tastings); street free
-cost_yen: 600
+cost: 600
 entry: mixed
 tags: [top50]
 hours: museum 9:30-16:30 (last entry 16:00)
@@ -19,8 +19,8 @@ best_time: afternoon
 link: https://www.gekkeikan.co.jp/
 coords: [34.928879, 135.761629]
 coords_precision: exact
-name_ja: 月桂冠大倉記念館
-address_ja: 〒612-8046 京都府京都市伏見区本材木町南浜通
+name_local: 月桂冠大倉記念館
+address_local: 〒612-8046 京都府京都市伏見区本材木町南浜通
 verified: '2026-11-18'
 ---
 

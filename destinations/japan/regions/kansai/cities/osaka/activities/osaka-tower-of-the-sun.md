@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: history
 duration_hours: 2
 approx_cost: park free; tower interior ~¥700 (advance reservation)
-cost_yen: 700
+cost: 700
 entry: paid
 tags: [touristic, top50, iconic]
 hours: park 9:30-17:00; interior by reserved slot
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.expo70-park.jp/
 coords: [34.809513, 135.532397]
 coords_precision: exact
-name_ja: 太陽の塔
-address_ja: 〒565-0826 大阪府吹田市千里万博公園東大路
+name_local: 太陽の塔
+address_local: 〒565-0826 大阪府吹田市千里万博公園東大路
 ---
 
 # Tower of the Sun (Expo '70 Commemorative Park)

@@ -6,7 +6,7 @@ place: japan/kansai/himeji
 category: history
 duration_hours: 2.5
 approx_cost: ¥2,500 (non-Himeji residents since 2026-03-01); castle + Koko-en combo ¥2,600
-cost_yen: 2500
+cost: 2500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
 hours: 9:00-17:00 (last entry 16:00)
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.himejicastle.jp/en/
 coords: [34.839331, 134.69402]
 coords_precision: exact
-name_ja: 姫路城
-address_ja: 〒670-0012 兵庫県姫路市本町八代本町一丁目備前丸68
+name_local: 姫路城
+address_local: 〒670-0012 兵庫県姫路市本町八代本町一丁目備前丸68
 verified: '2026-11-17'
 ---
 

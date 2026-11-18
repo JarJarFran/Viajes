@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 2
 approx_cost: free to walk; Pontocho dinner ¥5,000+
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [touristic, top50, iconic, night]
 hours: 24h (best at dusk)
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: evening
 coords: [35.00469, 135.778403]
 coords_precision: exact
-name_ja: 祇園
-address_ja: 京都府京都市東山区
+name_local: 祇園
+address_local: 京都府京都市東山区
 ---
 
 # Gion & Higashiyama at dusk

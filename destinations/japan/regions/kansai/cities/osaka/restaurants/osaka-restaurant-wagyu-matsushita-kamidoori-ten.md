@@ -7,7 +7,7 @@ area: osaka-area-umeda
 area_detail: Kitashinchi (Kita)
 cuisine: yakiniku (premium black wagyu), sukiyaki, shabu-shabu
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.63
 tags: [top-rated]

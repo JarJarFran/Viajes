@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: yakiniku
 price_range: ¥¥¥
-budget_dinner_yen: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.55
 tags: [top-rated]

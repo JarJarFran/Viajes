@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-karasuma
 cuisine: yakiniku, izakaya, niku-bar
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.5
 tags: [top-rated]

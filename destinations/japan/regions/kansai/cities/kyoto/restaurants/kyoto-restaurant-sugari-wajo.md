@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Shijo
 cuisine: ramen / tsukemen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.66
 tags: [top-rated]

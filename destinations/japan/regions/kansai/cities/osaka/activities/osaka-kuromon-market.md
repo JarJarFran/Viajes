@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: food
 duration_hours: 2
 approx_cost: grazing ¥2,000–3,000 per person
-cost_yen: 2000
+cost: 2000
 entry: mixed
 tags: [touristic, top50]
 hours: 9:00-17:00 (best before 13:00)
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: late morning
 coords: [34.666699, 135.507051]
 coords_precision: exact
-name_ja: 黒門市場
-address_ja: 〒542-0073 大阪府大阪市中央区日本橋一丁目
+name_local: 黒門市場
+address_local: 〒542-0073 大阪府大阪市中央区日本橋一丁目
 ---
 
 # Kuromon Ichiba Market ("Osaka's Kitchen")

@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: izakaya, udon
 price_range: ¥¥
-budget_dinner_yen: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.3
 station: Gion Shijo

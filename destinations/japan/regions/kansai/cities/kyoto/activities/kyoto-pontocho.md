@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: food
 duration_hours: 2
 approx_cost: dinner ¥3,000–8,000
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [touristic, top50, night]
 hours: 17:00-23:00
@@ -16,8 +16,8 @@ best_season: all year round
 best_time: evening
 coords: [35.00598, 135.771088]
 coords_precision: exact
-name_ja: 先斗町通
-address_ja: 〒604-8023 京都府京都市中京区鍋屋町
+name_local: 先斗町通
+address_local: 〒604-8023 京都府京都市中京区鍋屋町
 ---
 
 # Pontocho alley

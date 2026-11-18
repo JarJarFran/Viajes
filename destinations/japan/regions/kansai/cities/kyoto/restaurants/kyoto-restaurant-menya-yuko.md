@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-karasuma
 cuisine: ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.68
 tags: [top-rated]

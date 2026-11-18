@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-tsukiji
 cuisine: sushi
 price_range: ¥¥¥
-budget_lunch_yen: [3000, 3999]
+budget_lunch: [3000, 3999]
 tabelog: https://tabelog.com/en/tokyo/A1313/A131301/13192858/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.64
@@ -20,7 +20,7 @@ closed:
   - {weekly: [mon]}
 coords: [35.668085, 139.772592]
 coords_precision: area
-address_ja: 東京都中央区築地1-4-8 ホワイトビル 1F
+address_local: 東京都中央区築地1-4-8 ホワイトビル 1F
 verified: '2026-11-18'
 ---
 

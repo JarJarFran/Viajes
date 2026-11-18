@@ -7,7 +7,7 @@ area: kyoto-area-kita
 area_detail: Kitaoji / Daitoku-ji
 cuisine: soba
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.74
 tags: [top-rated]

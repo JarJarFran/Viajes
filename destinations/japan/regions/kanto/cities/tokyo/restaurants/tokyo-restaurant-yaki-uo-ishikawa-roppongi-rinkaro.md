@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-roppongi
 cuisine: seafood yakiniku, sushi
 price_range: ¥¥¥¥
-budget_dinner_yen: [15000, 19999]
+budget_dinner: [15000, 19999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.65
 tags: [top-rated]

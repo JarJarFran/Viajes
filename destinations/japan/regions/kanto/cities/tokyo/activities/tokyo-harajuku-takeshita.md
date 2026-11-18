@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic]
 hours: 10:00-20:00
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: afternoon
 coords: [35.668705, 139.705336]
 coords_precision: exact
-name_ja: 原宿
-address_ja: 〒150-0001 東京渋谷区神宮前神宮前一丁目
+name_local: 原宿
+address_local: 〒150-0001 東京渋谷区神宮前神宮前一丁目
 ---
 
 # Harajuku & Takeshita Street

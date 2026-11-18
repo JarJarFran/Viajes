@@ -7,7 +7,7 @@ area: osaka-area-umeda
 area_detail: Tenjimbashisuji
 cuisine: soba
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.75
 tags: [top-rated]

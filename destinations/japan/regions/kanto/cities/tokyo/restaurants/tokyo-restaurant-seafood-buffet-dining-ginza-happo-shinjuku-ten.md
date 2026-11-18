@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-shinjuku
 cuisine: 'buffet (150 kinds: seafood, meat), yakiniku'
 price_range: ¥¥¥¥
-budget_lunch_yen: [8000, 9999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [8000, 9999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.44
 station: Shinjuku Sanchome

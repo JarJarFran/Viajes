@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: history
 duration_hours: 1
 approx_cost: free (building); area free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 9:00-17:00
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.osaka-info.jp/
 coords: [34.69354, 135.504009]
 coords_precision: exact
-name_ja: 大阪市中央公会堂
-address_ja: 〒530-0005 大阪府大阪市北区中之島一丁目27
+name_local: 大阪市中央公会堂
+address_local: 〒530-0005 大阪府大阪市北区中之島一丁目27
 ---
 
 # Osaka Central Public Hall & Nakanoshima

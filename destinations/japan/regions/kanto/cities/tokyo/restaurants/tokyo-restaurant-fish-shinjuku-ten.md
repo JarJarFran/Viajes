@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (Kabukicho)
 cuisine: curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1304/A130401/13222551/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.79
@@ -22,7 +22,7 @@ station: Seibu Shinjuku
 station_m: 167
 coords: [35.695402, 139.700025]
 coords_precision: station
-address_ja: 東京都新宿区西新宿7-5-6 新宿ダイカンプラザ756 2F
+address_local: 東京都新宿区西新宿7-5-6 新宿ダイカンプラザ756 2F
 verified: '2026-11-18'
 ---
 

@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥600
-cost_yen: 600
+cost: 600
 entry: paid
 tags: [touristic, top50, unesco]
 hours: Dec–Feb 8:30-16:30; Mar–Nov 8:00-17:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.ryoanji.jp/
 coords: [35.033463, 135.718088]
 coords_precision: exact
-name_ja: 龍安寺
-address_ja: 〒603-8577 京都府京都市右京区平野上柳町木辻通
+name_local: 龍安寺
+address_local: 〒603-8577 京都府京都市右京区平野上柳町木辻通
 verified: '2026-11-18'
 ---
 

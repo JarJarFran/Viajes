@@ -7,8 +7,8 @@ area: tokyo-area-shibuya
 area_detail: Shibuya (Udagawacho)
 cuisine: yakiniku (all-you-can-eat), izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 5999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [5000, 5999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.24
 station: Shibuya

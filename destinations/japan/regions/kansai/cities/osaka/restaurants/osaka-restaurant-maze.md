@@ -7,8 +7,8 @@ area: osaka-area-shinsaibashi
 area_detail: Yotsubashi
 cuisine: cafe, sweets, curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.42
 station: Yotsubashi

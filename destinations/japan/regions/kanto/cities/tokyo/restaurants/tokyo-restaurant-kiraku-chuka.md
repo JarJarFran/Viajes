@@ -7,7 +7,7 @@ area: tokyo-area-shibuya
 area_detail: Shinsen (Shibuya)
 cuisine: ramen / chinese
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13001705/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.74
@@ -19,7 +19,7 @@ closed:
   - {weekly: [wed]}
 coords: [35.658423, 139.702516]
 coords_precision: area
-address_ja: 東京都渋谷区道玄坂2-17-6
+address_local: 東京都渋谷区道玄坂2-17-6
 verified: '2026-11-18'
 ---
 

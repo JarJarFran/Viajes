@@ -1,5 +1,6 @@
 {
  "city": "japan/kansai/osaka",
+ "currency": "JPY",
  "areas": [
   {
    "id": "osaka-area-castle",
@@ -80,7 +81,7 @@
    "name": "Abeno Harukas 300 (observatory)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 2200,
+   "cost": 2200,
    "tags": [
     "touristic",
     "top50"
@@ -95,7 +96,7 @@
    "name": "Amerika-mura (America Village)",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -109,7 +110,7 @@
    "name": "Osaka Castle",
    "category": "history",
    "entry": "mixed",
-   "cost_yen": 1200,
+   "cost": 1200,
    "tags": [
     "touristic",
     "top50",
@@ -130,7 +131,7 @@
    "name": "Osaka Central Public Hall & Nakanoshima",
    "category": "history",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -144,7 +145,7 @@
    "name": "Cup Noodles Museum Osaka Ikeda",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "top50",
     "kid-friendly"
@@ -166,7 +167,7 @@
    "name": "Den Den Town (Nipponbashi)",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -180,7 +181,7 @@
    "name": "Dotonbori & Shinsaibashi at night",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 500,
+   "cost": 500,
    "tags": [
     "touristic",
     "top50",
@@ -197,7 +198,7 @@
    "name": "Hozenji Yokocho (lantern alley)",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "touristic",
     "top50",
@@ -213,7 +214,7 @@
    "name": "Osaka Aquarium Kaiyukan",
    "category": "museums",
    "entry": "paid",
-   "cost_yen": 2700,
+   "cost": 2700,
    "tags": [
     "touristic",
     "top50",
@@ -234,7 +235,7 @@
    "name": "Kuromon Ichiba Market (\"Osaka's Kitchen\")",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "touristic",
     "top50"
@@ -249,7 +250,7 @@
    "name": "LEGOLAND Discovery Center Osaka",
    "category": "museums",
    "entry": "mixed",
-   "cost_yen": 2900,
+   "cost": 2900,
    "tags": [
     "top50",
     "kid-friendly"
@@ -264,7 +265,7 @@
    "name": "Osaka Museum of History",
    "category": "museums",
    "entry": "mixed",
-   "cost_yen": 600,
+   "cost": 600,
    "tags": [
     "top50"
    ],
@@ -278,7 +279,7 @@
    "name": "Namba Parks",
    "category": "leisure",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "top50"
    ],
@@ -292,7 +293,7 @@
    "name": "Namba Yasaka Shrine (lion head)",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -307,7 +308,7 @@
    "name": "Santa Maria bay cruise",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 1800,
+   "cost": 1800,
    "tags": [
     "top50"
    ],
@@ -321,7 +322,7 @@
    "name": "Shinsekai & Tsutenkaku Tower",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 1500,
+   "cost": 1500,
    "tags": [
     "touristic",
     "top50"
@@ -336,7 +337,7 @@
    "name": "Shitenno-ji Temple",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -351,7 +352,7 @@
    "name": "Spa World (Shinsekai onsen)",
    "category": "onsen",
    "entry": "paid",
-   "cost_yen": 1500,
+   "cost": 1500,
    "tags": [
     "top50"
    ],
@@ -370,7 +371,7 @@
    "name": "Sumiyoshi Taisha Shrine",
    "category": "temple",
    "entry": "free",
-   "cost_yen": 0,
+   "cost": 0,
    "tags": [
     "touristic",
     "top50"
@@ -384,7 +385,7 @@
    "name": "Tempozan Giant Ferris Wheel",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "touristic",
     "top50"
@@ -404,7 +405,7 @@
    "name": "Tennoji Park & Osaka City Zoo",
    "category": "nature",
    "entry": "mixed",
-   "cost_yen": 800,
+   "cost": 800,
    "tags": [
     "top50",
     "kid-friendly"
@@ -419,7 +420,7 @@
    "name": "Tombori River Cruise",
    "category": "leisure",
    "entry": "mixed",
-   "cost_yen": 1000,
+   "cost": 1000,
    "tags": [
     "top50",
     "night"
@@ -434,7 +435,7 @@
    "name": "Tower of the Sun (Expo '70 Commemorative Park)",
    "category": "history",
    "entry": "paid",
-   "cost_yen": 700,
+   "cost": 700,
    "tags": [
     "touristic",
     "top50",
@@ -449,7 +450,7 @@
    "name": "Tsuruhashi Korea Town",
    "category": "food",
    "entry": "mixed",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "top50"
    ],
@@ -462,7 +463,7 @@
    "name": "Umeda Sky Building (Floating Garden Observatory)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 2000,
+   "cost": 2000,
    "tags": [
     "touristic",
     "top50",
@@ -478,7 +479,7 @@
    "name": "Universal Studios Japan (USJ)",
    "category": "leisure",
    "entry": "paid",
-   "cost_yen": 8400,
+   "cost": 8400,
    "tags": [
     "touristic",
     "top50",
@@ -498,11 +499,11 @@
    "cuisine": "Pakistani curry (halal)",
    "area": "osaka-area-shinsaibashi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -515,7 +516,7 @@
    "cuisine": "curry, Indian curry",
    "area": "osaka-area-honmachi",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
@@ -528,11 +529,11 @@
    "cuisine": "curry",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -545,11 +546,11 @@
    "cuisine": "Thai curry, buffet",
    "area": "osaka-area-honmachi",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -562,11 +563,11 @@
    "cuisine": "udon, soba",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -579,11 +580,11 @@
    "cuisine": "tonkatsu, curry",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -596,11 +597,11 @@
    "cuisine": "tonkatsu, yoshoku, curry",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -613,7 +614,7 @@
    "cuisine": "Indian curry",
    "area": "osaka-area-honmachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -626,11 +627,11 @@
    "cuisine": "ramen",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -643,11 +644,11 @@
    "cuisine": "curry",
    "area": "osaka-area-honmachi",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -660,7 +661,7 @@
    "cuisine": "curry, soup curry",
    "area": "osaka-area-shinsaibashi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -673,11 +674,11 @@
    "cuisine": "soba",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -690,11 +691,11 @@
    "cuisine": "tsukemen, ramen, tantanmen",
    "area": "osaka-area-shinsaibashi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -707,11 +708,11 @@
    "cuisine": "ramen",
    "area": "osaka-area-shin-osaka",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -724,11 +725,11 @@
    "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
    "area": "osaka-area-honmachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -741,11 +742,11 @@
    "cuisine": "steak / hamburger",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -757,11 +758,11 @@
    "cuisine": "ramen, karaage",
    "area": "osaka-area-honmachi",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -774,11 +775,11 @@
    "cuisine": "sushi / japanese",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -790,7 +791,7 @@
    "cuisine": "curry",
    "area": "osaka-area-shinsaibashi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -803,11 +804,11 @@
    "cuisine": "curry",
    "area": "osaka-area-namba",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -820,7 +821,7 @@
    "cuisine": "yakiniku",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -832,11 +833,11 @@
    "cuisine": "soba, izakaya, tempura",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -849,11 +850,11 @@
    "cuisine": "Malaysian curry (halal)",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -866,11 +867,11 @@
    "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -883,11 +884,11 @@
    "cuisine": "ramen",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -900,11 +901,11 @@
    "cuisine": "tsukemen, ramen",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -925,11 +926,11 @@
    "cuisine": "ramen",
    "area": "osaka-area-umeda",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -942,11 +943,11 @@
    "cuisine": "ramen, tsukemen",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -959,7 +960,7 @@
    "cuisine": "omurice, yoshoku, curry",
    "area": "osaka-area-namba",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
@@ -972,11 +973,11 @@
    "cuisine": "ramen, tsukemen",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -989,11 +990,11 @@
    "cuisine": "soba",
    "area": "osaka-area-honmachi",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1006,7 +1007,7 @@
    "cuisine": "izakaya / robatayaki",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1018,11 +1019,11 @@
    "cuisine": "tonkatsu",
    "area": "osaka-area-castle",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     3000,
     3999
    ],
@@ -1034,11 +1035,11 @@
    "cuisine": "teppanyaki (Matsusaka beef), wine bar",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1051,11 +1052,11 @@
    "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1068,11 +1069,11 @@
    "cuisine": "curry, yoshoku",
    "area": "osaka-area-tennoji",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1085,7 +1086,7 @@
    "cuisine": "okonomiyaki",
    "area": "osaka-area-honmachi",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1097,11 +1098,11 @@
    "cuisine": "teppanyaki, steak, french",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1114,11 +1115,11 @@
    "cuisine": "ramen, tsukemen, abura-soba, maze-soba",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1131,11 +1132,11 @@
    "cuisine": "robata-yaki, sushi, izakaya",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1148,11 +1149,11 @@
    "cuisine": "izakaya / robatayaki seafood",
    "area": "osaka-area-tennoji",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1164,11 +1165,11 @@
    "cuisine": "tonkatsu (brand pork), shabu-shabu, curry",
    "area": "osaka-area-castle",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -1181,11 +1182,11 @@
    "cuisine": "soba, izakaya",
    "area": "osaka-area-namba",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1198,11 +1199,11 @@
    "cuisine": "soba, tempura",
    "area": "osaka-area-castle",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     2000,
     2999
    ],
@@ -1215,11 +1216,11 @@
    "cuisine": "soba",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1232,7 +1233,7 @@
    "cuisine": "soba",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
@@ -1245,11 +1246,11 @@
    "cuisine": "sushi / izakaya",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     4000,
     4999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1261,11 +1262,11 @@
    "cuisine": "sushi / izakaya",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     3000,
     3999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1277,7 +1278,7 @@
    "cuisine": "yakiniku / horumon",
    "area": "osaka-area-tennoji",
    "price_range": "¥¥¥",
-   "budget_dinner_yen": [
+   "budget_dinner": [
     4000,
     4999
    ],
@@ -1289,11 +1290,11 @@
    "cuisine": "udon, soba, curry udon",
    "area": "osaka-area-namba",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1306,11 +1307,11 @@
    "cuisine": "soba, tempura, sake bar",
    "area": "osaka-area-namba",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1323,11 +1324,11 @@
    "cuisine": "tonkatsu, curry",
    "area": "osaka-area-umeda",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1340,11 +1341,11 @@
    "cuisine": "ramen, tsukemen, chicken dishes",
    "area": "osaka-area-umeda",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1357,11 +1358,11 @@
    "cuisine": "udon, soba, oyako-don",
    "area": "osaka-area-shinsaibashi",
    "price_range": "¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     null,
     999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     null,
     999
    ],
@@ -1374,11 +1375,11 @@
    "cuisine": "yakiniku",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1390,11 +1391,11 @@
    "cuisine": "sukiyaki, yakiniku",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     2000,
     2999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     6000,
     7999
    ],
@@ -1407,11 +1408,11 @@
    "cuisine": "curry",
    "area": "osaka-area-umeda",
    "price_range": "¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     1000,
     1999
    ],
@@ -1424,11 +1425,11 @@
    "cuisine": "yakiniku, teppanyaki",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     5000,
     5999
    ],
@@ -1441,11 +1442,11 @@
    "cuisine": "yakiniku",
    "area": "osaka-area-namba",
    "price_range": "¥¥¥¥",
-   "budget_lunch_yen": [
+   "budget_lunch": [
     1000,
     1999
    ],
-   "budget_dinner_yen": [
+   "budget_dinner": [
     8000,
     9999
    ],
@@ -1495,7 +1496,7 @@
    "destination": "japan/kansai/osaka",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 990
+   "price": 990
   },
   {
    "id": "osaka-to-himeji",
@@ -1504,7 +1505,7 @@
    "destination": "japan/kansai/himeji",
    "mode": "train",
    "duration_hours": 1,
-   "price_yen": 1680
+   "price": 1680
   },
   {
    "id": "osaka-to-kyoto",
@@ -1513,7 +1514,7 @@
    "destination": "japan/kansai/kyoto",
    "mode": "train",
    "duration_hours": 0.5,
-   "price_yen": 580
+   "price": 580
   },
   {
    "id": "tokyo-to-shin-osaka",
@@ -1522,7 +1523,7 @@
    "destination": "japan/kansai/osaka",
    "mode": "shinkansen",
    "duration_hours": 3,
-   "price_yen": 14720
+   "price": 14720
   }
  ]
 }

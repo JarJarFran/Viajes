@@ -10,7 +10,7 @@ bidirectional: true
 mode: bus
 duration_hours: 2
 approx_cost: highway bus ¥2,200 one way (~2 h); JR + Fujikyu ~¥4,000
-price_yen: 2200
+price: 2200
 booking: reserve
 book_ahead_days: 7
 verified: '2026-11-17'

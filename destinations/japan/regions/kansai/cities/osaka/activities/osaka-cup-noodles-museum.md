@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: museums
 duration_hours: 2
 approx_cost: museum ~¥500; My CUPNOODLES Factory workshop ~¥3,000–4,000 (booking required)
-cost_yen: 500
+cost: 500
 entry: paid
 tags: [top50, kid-friendly]
 hours: 9:30-17:00
@@ -18,8 +18,8 @@ best_time: weekday morning
 link: https://www.cupnoodles-museum.jp/
 coords: [34.81811, 135.426683]
 coords_precision: exact
-name_ja: カップヌードルミュージアム 大阪池田
-address_ja: 〒563-0048 大阪府池田市姫室町旧伊丹池田線
+name_local: カップヌードルミュージアム 大阪池田
+address_local: 〒563-0048 大阪府池田市姫室町旧伊丹池田線
 ---
 
 # Cup Noodles Museum Osaka Ikeda

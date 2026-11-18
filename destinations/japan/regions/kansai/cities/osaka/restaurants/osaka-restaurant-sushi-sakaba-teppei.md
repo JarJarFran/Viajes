@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Higashi Umeda
 cuisine: sushi / izakaya
 price_range: ¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [4000, 4999]
+budget_lunch: [3000, 3999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.52
 tags: [top-rated]

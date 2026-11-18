@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 2
 approx_cost: ¥500
-cost_yen: 500
+cost: 500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
 hours: 6:00-18:00 (varies by season)
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.kiyomizu.or.jp/en/
 coords: [34.994303, 135.784439]
 coords_precision: exact
-name_ja: 清水寺
-address_ja: 〒605-0862 京都府京都市東山区辰巳町清水一丁目茶わん坂
+name_local: 清水寺
+address_local: 〒605-0862 京都府京都市東山区辰巳町清水一丁目茶わん坂
 verified: '2026-11-18'
 ---
 

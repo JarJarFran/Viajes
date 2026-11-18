@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: yakiniku (A5 wagyu), shabu-shabu
 price_range: ¥¥¥¥
-budget_dinner_yen: [15000, 19999]
+budget_dinner: [15000, 19999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.67
 tags: [top-rated]

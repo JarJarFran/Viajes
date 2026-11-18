@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: nature
 duration_hours: 2
 approx_cost: free (Tenryu-ji garden ¥500, Iwatayama Monkey Park ¥800)
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [touristic, top50, iconic]
 hours: 24h
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: early morning
 coords: [35.016742, 135.671148]
 coords_precision: exact
-name_ja: 嵐山竹林
-address_ja: 〒616-0000 京都府京都市右京区嵯峨天龍寺立石町宇多野嵐山山田線
+name_local: 嵐山竹林
+address_local: 〒616-0000 京都府京都市右京区嵯峨天龍寺立石町宇多野嵐山山田線
 ---
 
 # Arashiyama Bamboo Grove & Togetsukyo Bridge

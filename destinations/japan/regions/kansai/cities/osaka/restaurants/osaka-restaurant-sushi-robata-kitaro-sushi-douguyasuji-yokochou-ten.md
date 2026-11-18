@@ -7,8 +7,8 @@ area: osaka-area-namba
 area_detail: Namba / Doguyasuji
 cuisine: sushi, robata-yaki, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [6000, 7999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
 tabelog_rating: 3.2
 station: Namba

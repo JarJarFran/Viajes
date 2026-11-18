@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 2
 approx_cost: ~¥880–1,150 one way (25 min Arashiyama→Kameoka)
-cost_yen: 880
+cost: 880
 entry: paid
 tags: [touristic, top50]
 hours: 9:00-16:00 (check winter days)

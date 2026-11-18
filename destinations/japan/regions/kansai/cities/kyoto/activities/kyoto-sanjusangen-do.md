@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥600
-cost_yen: 600
+cost: 600
 entry: paid
 tags: [touristic, top50, unesco]
 hours: 9:00-16:00 (winter)
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.kenkun.jp/
 coords: [34.988172, 135.771778]
 coords_precision: exact
-name_ja: 三十三間堂
-address_ja: 〒605-0951 京都府京都市東山区辰巳町大和大路二丁目大和大路657
+name_local: 三十三間堂
+address_local: 〒605-0951 京都府京都市東山区辰巳町大和大路二丁目大和大路657
 ---
 
 # Sanjusangen-do (1,001 Kannon statues)

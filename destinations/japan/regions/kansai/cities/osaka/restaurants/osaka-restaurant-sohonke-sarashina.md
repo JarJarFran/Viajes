@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-tennoji
 cuisine: soba, izakaya, tempura
 price_range: ¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [1000, 1999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.32
 station: Shin Imamiya Ekimae

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ebisu
 cuisine: soba, curry udon
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.49
 station: Ebisu

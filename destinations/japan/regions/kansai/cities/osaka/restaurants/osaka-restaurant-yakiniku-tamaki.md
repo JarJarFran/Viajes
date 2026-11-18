@@ -7,7 +7,7 @@ area: osaka-area-umeda
 area_detail: Tenma / Nakazakicho
 cuisine: yakiniku (A5 wagyu, harami), shabu-shabu
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.66
 tags: [top-rated]

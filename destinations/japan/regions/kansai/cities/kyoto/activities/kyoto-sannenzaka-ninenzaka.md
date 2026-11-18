@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic]
 hours: shops 9:00-18:00
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: morning
 coords: [34.997529, 135.781062]
 coords_precision: exact
-name_ja: 産寧坂
-address_ja: 〒605-0824 京都府京都市東山区辰巳町清水三丁目
+name_local: 産寧坂
+address_local: 〒605-0824 京都府京都市東山区辰巳町清水三丁目
 ---
 
 # Sannenzaka & Ninenzaka lanes

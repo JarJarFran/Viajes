@@ -7,8 +7,8 @@ area: kyoto-area-okazaki
 area_detail: Keage / Higashiyama
 cuisine: udon, steak, cafe
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [1000, 1999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.44
 station: Keage

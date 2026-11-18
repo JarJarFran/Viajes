@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: pancake, cafe, cake
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.09
 station: Kyoto Kawaramachi

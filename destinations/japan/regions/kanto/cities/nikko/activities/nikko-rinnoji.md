@@ -6,7 +6,7 @@ place: japan/kanto/nikko
 category: temple
 duration_hours: 1
 approx_cost: Sanbutsudo ¥400 (+¥300 Shoyoen garden)
-cost_yen: 400
+cost: 400
 entry: paid
 tags: [touristic, unesco]
 hours: Nov–Mar 8:00-16:00
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.rinnoji.or.jp/
 coords: [36.754725, 139.600759]
 coords_precision: exact
-name_ja: 輪王寺
-address_ja: 〒321-1431 栃木県日光市安川町表参道
+name_local: 輪王寺
+address_local: 〒321-1431 栃木県日光市安川町表参道
 verified: '2026-11-17'
 ---
 

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-akihabara
 cuisine: wagyu all-you-can-eat, yakiniku, buffet
 price_range: ¥¥¥¥
-budget_lunch_yen: [6000, 7999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.4
 station: Akihabara

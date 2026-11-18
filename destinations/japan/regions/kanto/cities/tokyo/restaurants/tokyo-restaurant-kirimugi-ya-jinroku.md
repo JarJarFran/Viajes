@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (Gyoen-mae)
 cuisine: udon, tempura, izakaya
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1304/A130402/13182646/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.64
@@ -20,7 +20,7 @@ station: Shinjuku Gyoemmae
 station_m: 121
 coords: [35.688573, 139.71074]
 coords_precision: station
-address_ja: 東京都新宿区新宿1-17-1 LAND・DEN 1F
+address_local: 東京都新宿区新宿1-17-1 LAND・DEN 1F
 verified: '2026-11-18'
 ---
 

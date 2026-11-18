@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: museums
 duration_hours: 2
 approx_cost: ¥2,000–2,400
-cost_yen: 2000
+cost: 2000
 entry: paid
 tags: [top50]
 hours: 9:30-17:00
@@ -17,8 +17,8 @@ best_time: afternoon
 link: https://www.kyoto-aquarium.com/
 coords: [34.987554, 135.747878]
 coords_precision: exact
-name_ja: 京都水族館
-address_ja: 〒600-8841 京都府京都市下京区上之町木津屋橋通
+name_local: 京都水族館
+address_local: 〒600-8841 京都府京都市下京区上之町木津屋橋通
 ---
 
 # Kyoto Aquarium

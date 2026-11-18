@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Kitashinchi (Kita)
 cuisine: sushi, seafood
 price_range: ¥¥¥¥
-budget_lunch_yen: [4000, 4999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [4000, 4999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.47
 station: Kitashinchi

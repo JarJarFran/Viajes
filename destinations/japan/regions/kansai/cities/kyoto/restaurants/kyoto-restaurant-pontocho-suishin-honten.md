@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: izakaya, Kyoto vegetable dishes, seafood
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.41
 station: Sanjo

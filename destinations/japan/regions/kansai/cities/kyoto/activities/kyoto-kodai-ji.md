@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥600
-cost_yen: 600
+cost: 600
 entry: paid
 tags: [top50]
 hours: 9:00-16:00
@@ -18,8 +18,8 @@ best_time: evening
 link: https://www.kodaiji.jp/
 coords: [35.000303, 135.780596]
 coords_precision: exact
-name_ja: 高台寺
-address_ja: 〒605-0826 京都府京都市東山区辰巳町下河原町台所坂
+name_local: 高台寺
+address_local: 〒605-0826 京都府京都市東山区辰巳町下河原町台所坂
 ---
 
 # Kodai-ji (NYE bell ringing)

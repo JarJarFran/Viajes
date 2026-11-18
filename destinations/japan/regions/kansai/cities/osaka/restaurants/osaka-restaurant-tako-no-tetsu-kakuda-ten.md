@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-umeda
 cuisine: takoyaki, okonomiyaki, izakaya
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [null, 999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
 tabelog_rating: 3.48
 station: Osaka Umeda

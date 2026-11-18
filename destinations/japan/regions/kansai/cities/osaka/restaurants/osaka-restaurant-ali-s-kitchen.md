@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: Pakistani curry (halal)
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.51
 tags: [top-rated]
@@ -15,7 +15,7 @@ station: Shinsaibashi
 station_m: 62
 coords: [34.674781, 135.500957]
 coords_precision: exact
-name_ja: アリーズキッチン
+name_local: アリーズキッチン
 verified: 2026-11
 ---
 

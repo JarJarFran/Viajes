@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: sushi, seafood, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [3000, 3999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.36
 station: Gion Shijo

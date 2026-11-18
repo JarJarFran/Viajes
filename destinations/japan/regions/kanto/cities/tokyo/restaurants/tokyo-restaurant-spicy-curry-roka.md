@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shin-Okubo
 cuisine: spicy curry, taiwanese
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1304/A130404/13286023/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.94
@@ -25,7 +25,7 @@ station: Okubo
 station_m: 201
 coords: [35.702197, 139.695217]
 coords_precision: station
-address_ja: 東京都新宿区百人町1-24-8 新宿タウンプラザビル BF-J
+address_local: 東京都新宿区百人町1-24-8 新宿タウンプラザビル BF-J
 verified: '2026-11-18'
 ---
 

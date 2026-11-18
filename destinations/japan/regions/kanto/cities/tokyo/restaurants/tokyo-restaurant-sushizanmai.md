@@ -7,13 +7,13 @@ area: tokyo-area-tsukiji
 area_detail: Tsukiji Outer Market
 cuisine: sushi
 price_range: ¥¥¥
-budget_yen: [3000, 5000]
+budget: [3000, 5000]
 tabelog: https://tabelog.com/en/tokyo/A1313/A131301/13002302/
 tabelog_rating: 3.42
 link: https://www.sushi-zanmai.com/
 coords: [35.666103, 139.769006]
 coords_precision: exact
-name_ja: すしざんまい
+name_local: すしざんまい
 verified: 2026-11
 ---
 

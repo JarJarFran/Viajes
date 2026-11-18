@@ -7,7 +7,7 @@ area: osaka-area-namba
 area_detail: Namba (Toyo)
 cuisine: izakaya / robatayaki
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.58
 tags: [top-rated]

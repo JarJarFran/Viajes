@@ -7,8 +7,8 @@ area: kyoto-area-kyoto-station
 area_detail: near Tambaguchi Sta.
 cuisine: ramen, tsukemen
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
 tabelog_rating: 3.74
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: ¥1,800 (350 m Tembo Deck); ¥2,900 with 450 m Galleria
-cost_yen: 1800
+cost: 1800
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-22:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.tokyo-skytree.jp/en/
 coords: [35.710054, 139.810714]
 coords_precision: exact
-name_ja: 東京スカイツリー
-address_ja: 〒131-0045 東京墨田区押上押上一丁目2
+name_local: 東京スカイツリー
+address_local: 〒131-0045 東京墨田区押上押上一丁目2
 ---
 
 # Tokyo Skytree

@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥500
-cost_yen: 500
+cost: 500
 entry: paid
 tags: [touristic, top50, iconic, unesco]
 hours: 9:00-17:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.shokoku-ji.jp/en/kinkakuji/
 coords: [35.039529, 135.729537]
 coords_precision: exact
-name_ja: 金閣寺
-address_ja: 〒603-8361 京都府京都市北区馬喰町金閣寺町
+name_local: 金閣寺
+address_local: 〒603-8361 京都府京都市北区馬喰町金閣寺町
 verified: '2026-11-18'
 ---
 

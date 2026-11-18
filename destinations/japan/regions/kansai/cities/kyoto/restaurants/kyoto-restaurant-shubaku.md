@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-uji
 cuisine: soba
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.67
 tags: [top-rated]
@@ -15,7 +15,7 @@ station: Uji
 station_m: 213
 coords: [34.89306, 135.807672]
 coords_precision: exact
-name_ja: しゅばく
+name_local: しゅばく
 verified: 2026-11
 ---
 

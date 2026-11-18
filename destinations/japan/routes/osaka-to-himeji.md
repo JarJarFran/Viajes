@@ -8,7 +8,7 @@ bidirectional: true
 mode: train
 duration_hours: 1
 approx_cost: JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min)
-price_yen: 1680
+price: 1680
 booking: walk-in
 ---
 

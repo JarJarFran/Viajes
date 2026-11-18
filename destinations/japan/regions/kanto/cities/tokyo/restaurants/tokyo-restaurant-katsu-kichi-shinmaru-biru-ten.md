@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-marunouchi
 cuisine: tonkatsu, kushikatsu, curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1302/A130201/13038494/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.57
@@ -21,7 +21,7 @@ station: Tokyo
 station_m: 319
 coords: [35.681619, 139.76533]
 coords_precision: station
-address_ja: 東京都千代田区丸の内1-5-1 新丸の内ビルディング 5F
+address_local: 東京都千代田区丸の内1-5-1 新丸の内ビルディング 5F
 verified: '2026-11-18'
 ---
 

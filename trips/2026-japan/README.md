@@ -69,7 +69,7 @@ Notes: Winter Comiket Dec 29–31, 2026 (Tokyo Big Sight) is before we arrive. S
 Planned cost per person per day (sights, meals, transport in `plan`; hotels excluded) against the daily budget in `profile.yaml`, and the real spend logged with `python3 scripts/log.py expense ...`.
 
 <!-- gen:start budget -->
-Daily budget: ¥21,006 per person (€120 × 175.05 ECB 2026-11-17). Planned = plan items + local transport of the city (`local_transport_day_yen`).
+Daily budget: ¥20,982 per person (€120 × JPY 174.85 per € — ECB 2026-11-18). Planned = plan items + local transport of the city (`local_transport_day`).
 
 | Date | City | Planned | vs budget | Spent | Unpriced items |
 |---|---|---|---|---|---|
@@ -102,7 +102,7 @@ Daily budget: ¥21,006 per person (€120 × 175.05 ECB 2026-11-17). Planned = p
 | 2027-01-21 thu | Tokyo | ¥11,380 | ok | — |  |
 | 2027-01-22 fri | Tokyo | ¥6,000 | ok | — |  |
 | 2027-01-23 sat | Tokyo | ¥6,140 | ok | — | haneda-to-tokyo-center |
-| **total** | | **¥209,881** | ¥609,174 budget | ¥0 | |
+| **total** | | **¥209,881** (≈ €1,200) | ¥608,478 budget | ¥0 | |
 <!-- gen:end budget -->
 
 ## Booking checklist

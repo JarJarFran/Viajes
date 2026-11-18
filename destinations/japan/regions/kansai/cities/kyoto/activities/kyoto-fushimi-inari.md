@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 3
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic]
 hours: 24h
@@ -17,8 +17,8 @@ best_time: early morning
 link: https://inari.jp/en/
 coords: [34.967519, 135.77971]
 coords_precision: exact
-name_ja: 伏見稲荷大社
-address_ja: 〒612-0882 京都府京都市伏見区
+name_local: 伏見稲荷大社
+address_local: 〒612-0882 京都府京都市伏見区
 ---
 
 # Fushimi Inari Taisha (Senbon Torii)

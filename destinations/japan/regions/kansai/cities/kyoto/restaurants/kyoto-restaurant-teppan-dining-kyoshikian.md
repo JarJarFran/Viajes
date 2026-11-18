@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Pontocho / Gion
 cuisine: teppanyaki, steak, izakaya
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.12
 station: Gion Shijo

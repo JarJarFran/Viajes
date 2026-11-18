@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-uji
 cuisine: abura-soba / maze-soba
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.83
 tags: [top-rated]

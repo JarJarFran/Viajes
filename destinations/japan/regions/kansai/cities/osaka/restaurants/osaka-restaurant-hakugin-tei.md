@@ -7,8 +7,8 @@ area: osaka-area-honmachi
 area_detail: Nishi-ku (Higobashi)
 cuisine: curry
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.69
 tags: [top-rated]

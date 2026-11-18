@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: teppanyaki (Kobe/Matsusaka/wagyu)
 price_range: ¥¥¥¥
-budget_lunch_yen: [6000, 7999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [6000, 7999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.34
 station: Namba

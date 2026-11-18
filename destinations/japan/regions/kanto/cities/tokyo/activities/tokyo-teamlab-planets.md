@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: museums
 duration_hours: 2
 approx_cost: from ¥3,600 (≈¥3,800 weekday / ¥4,200 weekend)
-cost_yen: 3600
+cost: 3600
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-21:00 (timed entry)
@@ -19,8 +19,8 @@ best_time: afternoon
 link: https://www.teamlab.art/e/planets/
 coords: [35.64938, 139.789728]
 coords_precision: exact
-name_ja: チームラボ プラネッツ
-address_ja: 〒102-0094 東京千代田区紀尾井町紀尾井町616
+name_local: チームラボ プラネッツ
+address_local: 〒102-0094 東京千代田区紀尾井町紀尾井町616
 verified: '2026-11-18'
 ---
 

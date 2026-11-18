@@ -7,8 +7,8 @@ area: kyoto-area-nijo
 area_detail: Marutamachi / Imperial Palace
 cuisine: donut, cafe
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.85
 tags: [top-rated]

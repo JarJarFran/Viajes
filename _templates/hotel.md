@@ -6,7 +6,7 @@ place: <country>/<region>/<city>
 area: <city>-area-<slug>
 area_detail: <street / building, optional>
 price_range: ¥¥¥           # per night, double room
-price_per_night_yen: null
+price_per_night: null
 link: ""
 coords: [lat, lon]
 ---

@@ -7,8 +7,8 @@ area: tokyo-area-tsukiji
 area_detail: Shintomicho (Tsukiji)
 cuisine: bistro / french
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [1000, 1999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.6
 tags: [top-rated]

@@ -8,7 +8,7 @@ bidirectional: true
 mode: train
 duration_hours: 1
 approx_cost: JR Yokosuka Line Tokyo Station → Kamakura ~¥950–1,020 (~55–60 min); JR Shonan-Shinjuku Line to Kamakura ~¥1,020 (~50 min)
-price_yen: 1020
+price: 1020
 ---
 
 # Tokyo ↔ Kamakura

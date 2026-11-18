@@ -7,7 +7,7 @@ area: tokyo-area-roppongi
 area_detail: Azabudai / Toranomon
 cuisine: yakiniku
 price_range: ¥¥¥¥
-budget_dinner_yen: [15000, 19999]
+budget_dinner: [15000, 19999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 4.35
 tags: [top-rated]

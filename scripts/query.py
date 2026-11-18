@@ -1,7 +1,7 @@
 """Query the travel graph. Compact JSON lines by default (agent-friendly), --format md for tables.
 
 Examples:
-  query.py restaurants --city osaka --area namba --min-rating 3.5 --max-yen 4999 --meal lunch
+  query.py restaurants --city osaka --area namba --min-rating 3.5 --max 4999 --meal lunch   (city currency)
   query.py near --id tokyo-sensoji --type restaurant --km 0.8
   query.py activities --city kyoto --entry free --tag top50 --open-on 2027-01-02
   query.py day --trip 2026-japan --date 2027-01-10
@@ -20,9 +20,9 @@ from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (soft_closure, trip_places,  # noqa: E402
-                    REPO, SCHEMA, area_of, cheapest_meal_yen, city_children, closures_on, coords, d,  # noqa: E402
+                    REPO, SCHEMA, area_of, cheapest_meal, city_children, closures_on, coords, currency_of, d,  # noqa: E402
                     describe_rule, edition_on, editions, editions_overlapping, haversine_km, holidays, load_graph,
-                    restaurant_range, strict_restaurants)
+                    restaurant_range, strict_cap, strict_restaurants)
 from tripplan import load_profile, trip_view  # noqa: E402
 
 nodes, paths, edges = load_graph(REPO)
@@ -96,7 +96,8 @@ def main():
     p = sub.add_parser("restaurants", parents=[fmt])
     p.add_argument("--city", required=True); p.add_argument("--area"); p.add_argument("--cuisine"); p.add_argument("--tag")
     p.add_argument("--min-rating", type=float); p.add_argument("--max-price", choices=SCHEMA["vocabularies"]["price_range"])
-    p.add_argument("--max-yen", type=int, help="some meal (or --meal) at or under this per person")
+    p.add_argument("--max", "--max-yen", dest="max_amount", type=int,
+                   help="some meal (or --meal) at or under this per person, in the city's currency")
     p.add_argument("--meal", choices=["lunch", "dinner"]); p.add_argument("--near"); p.add_argument("--km", type=float, default=1.0)
     p.add_argument("--sort", choices=["rating", "price", "name", "distance"], default="rating"); p.add_argument("--limit", type=int)
     p = sub.add_parser("activities", parents=[fmt])
@@ -114,7 +115,7 @@ def main():
     p = sub.add_parser("day", parents=[fmt]); p.add_argument("--trip", required=True); p.add_argument("--date")
     p = sub.add_parser("plan", parents=[fmt])
     p.add_argument("--city", required=True); p.add_argument("--area"); p.add_argument("--min-rating", type=float, default=3.5)
-    p.add_argument("--max-yen", type=int, default=4999); p.add_argument("--cuisine"); p.add_argument("--with-activities", action="store_true")
+    p.add_argument("--max", "--max-yen", dest="max_amount", type=int, help="default: the strict cap of the city's currency"); p.add_argument("--cuisine"); p.add_argument("--with-activities", action="store_true")
     p = sub.add_parser("shortlist", parents=[fmt]); p.add_argument("--city", required=True)
     p = sub.add_parser("budget", parents=[fmt]); p.add_argument("--trip", required=True)
     p = sub.add_parser("deadlines", parents=[fmt]); p.add_argument("--trip", required=True)
@@ -143,6 +144,9 @@ def main():
 
     elif a.cmd in ("restaurants", "plan"):
         cp = city_path(a.city)
+        cur = currency_of(nodes[paths[cp]], nodes)
+        if a.cmd == "plan" and a.max_amount is None:
+            a.max_amount = strict_cap(cur)
         rows = [nodes[x] for x in city_children(nodes, cp, ("restaurant",))]
         if a.area:
             rows = [r for r in rows if area_match(r, a.area)]
@@ -154,26 +158,26 @@ def main():
             rows = [r for r in rows if r.get("tabelog_rating") is not None and float(r["tabelog_rating"]) >= a.min_rating]
         meal = getattr(a, "meal", None)
         if getattr(a, "max_price", None):
-            cap = SCHEMA["price_range_yen"][a.max_price][1] or 10 ** 9
-            rows = [r for r in rows if _hi(restaurant_range(r, meal)) <= cap]
-        if a.max_yen is not None:
+            cap = (SCHEMA["price_ranges"].get(cur) or {}).get(a.max_price, [0, None])[1] or 10 ** 9
+            rows = [r for r in rows if _hi(restaurant_range(r, meal, cur=cur)) <= cap]
+        if a.max_amount is not None:
             if meal:
-                rows = [r for r in rows if _hi(restaurant_range(r, meal)) <= a.max_yen]
+                rows = [r for r in rows if _hi(restaurant_range(r, meal, cur=cur)) <= a.max_amount]
             else:
-                rows = [r for r in rows if (cheapest_meal_yen(r) or 10 ** 9) <= a.max_yen]
+                rows = [r for r in rows if (cheapest_meal(r, cur=cur) or 10 ** 9) <= a.max_amount]
         origin = coords(nodes[a.near]) if getattr(a, "near", None) and a.near in nodes else None
         out = []
         for r in rows:
             x = with_area(r)
-            rng = restaurant_range(r, meal)
-            x["yen"] = f"{rng[0] or ''}-{rng[1] or ''}" if rng else None
+            rng = restaurant_range(r, meal, cur=cur)
+            x["price"] = f"{rng[0] or ''}-{rng[1] or ''} {cur}" if rng else None
             if origin and coords(r):
                 x["km"] = round(haversine_km(origin, coords(r)), 2)
             out.append(x)
         if origin:
             out = [x for x in out if x.get("km") is not None and x["km"] <= a.km]
         sort = getattr(a, "sort", "rating")
-        key = {"rating": lambda r: -float(r.get("tabelog_rating") or 0), "price": lambda r: (cheapest_meal_yen(r) is None, cheapest_meal_yen(r) or 0),
+        key = {"rating": lambda r: -float(r.get("tabelog_rating") or 0), "price": lambda r: (cheapest_meal(r, cur=cur) is None, cheapest_meal(r, cur=cur) or 0),
                "name": lambda r: r.get("name", ""), "distance": lambda r: r.get("km", 99)}[sort if not origin or sort != "rating" else "distance"]
         out.sort(key=key)
         if getattr(a, "limit", None):
@@ -182,9 +186,9 @@ def main():
             acts = [with_area(nodes[x]) for x in city_children(nodes, cp, ("activity",))
                     if {"top50", "top100"} & set(nodes[x].get("tags") or [])]
             print("# activities (top50/top100)")
-            emit(sorted(acts, key=lambda r: r["name"]), ["id", "name", "area", "category", "entry", "cost_yen", "hours", "booking"], f)
+            emit(sorted(acts, key=lambda r: r["name"]), ["id", "name", "area", "category", "entry", "cost", "hours", "booking"], f)
             print("# restaurants")
-        emit(out, ["id", "name", "cuisine", "area", "area_detail", "price_range", "yen", "tabelog_rating", "station", "km", "tags"], f)
+        emit(out, ["id", "name", "cuisine", "area", "area_detail", "price_range", "price", "tabelog_rating", "guide", "station", "km", "tags"], f)
 
     elif a.cmd == "activities":
         rows = [nodes[x] for x in city_children(nodes, city_path(a.city), ("activity",))]
@@ -203,7 +207,7 @@ def main():
             hol = holidays(nodes, "japan")
             rows = [r for r in rows if not any(not soft_closure(c) for c in closures_on(r, d(a.open_on), hol))]
         emit([with_area(r) for r in sorted(rows, key=lambda r: r["name"])],
-             ["id", "name", "area", "category", "entry", "cost_yen", "tags", "hours", "booking", "duration_hours"], f)
+             ["id", "name", "area", "category", "entry", "cost", "tags", "hours", "booking", "duration_hours"], f)
 
     elif a.cmd == "events":
         rows = []
@@ -221,13 +225,13 @@ def main():
             for ed in eds:
                 rows.append(dict(e, start=str(ed["start"]), end=str(ed["end"]), on_sale=ed.get("on_sale")))
         rows.sort(key=lambda r: (r["start"], r["id"]))
-        emit(rows, ["id", "name", "place", "start", "end", "on_sale", "entry", "cost_yen", "recurrence"], f)
+        emit(rows, ["id", "name", "place", "start", "end", "on_sale", "entry", "cost", "recurrence"], f)
 
     elif a.cmd == "hotels":
         rows = [nodes[x] for x in city_children(nodes, city_path(a.city), ("hotel",))]
         if a.area:
             rows = [r for r in rows if area_match(r, a.area)]
-        emit([with_area(r) for r in rows], ["id", "name", "area", "area_detail", "price_range", "name_ja", "link"], f)
+        emit([with_area(r) for r in rows], ["id", "name", "area", "area_detail", "price_range", "name_local", "link"], f)
 
     elif a.cmd == "routes":
         rows = [n for n in nodes.values() if n.get("type") == "route"]
@@ -237,7 +241,7 @@ def main():
         if a.to:
             cp = city_path(a.to)
             rows = [r for r in rows if cp in (r.get("origin"), r.get("destination"))]
-        emit(sorted(rows, key=lambda r: r["id"]), ["id", "name", "mode", "duration_hours", "price_yen", "booking", "approx_cost"], f)
+        emit(sorted(rows, key=lambda r: r["id"]), ["id", "name", "mode", "duration_hours", "price", "booking", "approx_cost"], f)
 
     elif a.cmd == "areas":
         rows = [nodes[x] for x in city_children(nodes, city_path(a.city), ("area",))]
@@ -256,7 +260,7 @@ def main():
         for r in rows[1:]:
             if coords(n) and coords(r):
                 r["km"] = round(haversine_km(coords(n), coords(r)), 2)
-        emit(rows, ["id", "name", "type", "area", "km", "entry", "cost_yen", "hours", "booking"], f)
+        emit(rows, ["id", "name", "type", "area", "km", "entry", "cost", "hours", "booking"], f)
 
     elif a.cmd == "near":
         n = nodes.get(a.id) or sys.exit(f"unknown id {a.id}")
@@ -281,7 +285,7 @@ def main():
             print(json.dumps(v, ensure_ascii=False, indent=1, default=str))
         else:
             emit([dict(v, plan=[i["id"] for i in v["items"]]) for v in view["days"]],
-                 ["date", "weekday", "city", "title", "plan", "est_yen"], f)
+                 ["date", "weekday", "city", "title", "plan", "est", "currency"], f)
 
     elif a.cmd == "shortlist":
         cid = paths.get(city_path(a.city))
@@ -290,12 +294,12 @@ def main():
 
     elif a.cmd == "budget":
         view = trip_view(nodes, paths, get_trip(a.trip), load_profile(REPO))
-        b = view["budget"].get("daily_yen")
-        rows = [{"date": v["date"], "city": v["city"], "est_yen": v["est_yen"], "budget_yen": b,
-                 "over": (v["est_yen"] - b) if b and v["est_yen"] > b else None, "spent_yen": v["spent_yen"],
+        rows = [{"date": v["date"], "city": v["city"], "currency": v["currency"], "est": v["est"], "budget": v["budget"],
+                 "over": (v["est"] - v["budget"]) if v["budget"] and v["est"] > v["budget"] else None,
+                 "spent": v["spent"],
                  "unpriced": v["unpriced"]} for v in view["days"]]
-        emit(rows, ["date", "city", "est_yen", "budget_yen", "over", "spent_yen", "unpriced"], f)
-        print(json.dumps({"totals": view["totals"], "eur_jpy": view["budget"].get("eur_jpy")}, default=str))
+        emit(rows, ["date", "city", "currency", "est", "budget", "over", "spent", "unpriced"], f)
+        print(json.dumps({"totals": view["totals"], "fx": view["budget"].get("fx")}, default=str))
 
     elif a.cmd == "deadlines":
         view = trip_view(nodes, paths, get_trip(a.trip), load_profile(REPO))

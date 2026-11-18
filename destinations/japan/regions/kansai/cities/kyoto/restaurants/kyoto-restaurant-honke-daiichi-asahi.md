@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kyoto-station
 cuisine: ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260101/26000873/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.73
@@ -18,7 +18,7 @@ closed:
   - {weekly: [thu]}
 coords: [34.986443, 135.758446]
 coords_precision: area
-address_ja: 京都府京都市下京区東塩小路向畑町845
+address_local: 京都府京都市下京区東塩小路向畑町845
 verified: '2026-11-18'
 ---
 

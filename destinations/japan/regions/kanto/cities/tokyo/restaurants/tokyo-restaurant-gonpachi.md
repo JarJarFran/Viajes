@@ -12,7 +12,7 @@ tabelog_rating: 3.38
 link: https://www.gonpachi.jp/
 coords: [35.660198, 139.723574]
 coords_precision: exact
-name_ja: 権八
+name_local: 権八
 verified: 2026-11
 ---
 

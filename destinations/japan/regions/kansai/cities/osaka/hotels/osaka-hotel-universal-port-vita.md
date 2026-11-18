@@ -8,8 +8,8 @@ price_range: ¥¥¥
 link: https://www.hoteluniversalportvita.jp/
 coords: [34.667023, 135.438866]
 coords_precision: exact
-name_ja: ホテル ユニバーサル ポート ヴィータ
-address_ja: 〒554-0024 大阪府大阪市此花区島屋六丁目16
+name_local: ホテル ユニバーサル ポート ヴィータ
+address_local: 〒554-0024 大阪府大阪市此花区島屋六丁目16
 ---
 
 # Hotel Universal Port Vita

@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Shijo
 cuisine: izakaya, nabe (wagyu hot pot)
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260201/26036774/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.69
@@ -21,7 +21,7 @@ station: Shijo
 station_m: 502
 coords: [35.002469, 135.759653]
 coords_precision: station
-address_ja: 京都府京都市下京区柳馬場通仏光寺下ル万里小路町187
+address_local: 京都府京都市下京区柳馬場通仏光寺下ル万里小路町187
 verified: '2026-11-18'
 ---
 

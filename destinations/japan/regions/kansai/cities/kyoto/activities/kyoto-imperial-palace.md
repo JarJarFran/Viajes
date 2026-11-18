@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: history
 duration_hours: 1.5
 approx_cost: free (guided tours, reserve or queue)
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: 9:00-16:00 (guided tours)
@@ -19,8 +19,8 @@ best_time: morning
 link: https://www.kunaicho.go.jp/
 coords: [35.025264, 135.762345]
 coords_precision: exact
-name_ja: 京都御所
-address_ja: 〒602-0881 京都府京都市上京区京都御苑3
+name_local: 京都御所
+address_local: 〒602-0881 京都府京都市上京区京都御苑3
 verified: '2026-11-17'
 ---
 

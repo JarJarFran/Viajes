@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: ramen, tsukemen
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27112089/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.71
@@ -19,7 +19,7 @@ station: Osaka Namba
 station_m: 87
 coords: [34.667181, 135.497776]
 coords_precision: station
-address_ja: 大阪府大阪市中央区難波4-1-17 近鉄大阪難波駅 改札内
+address_local: 大阪府大阪市中央区難波4-1-17 近鉄大阪難波駅 改札内
 verified: '2026-11-18'
 ---
 

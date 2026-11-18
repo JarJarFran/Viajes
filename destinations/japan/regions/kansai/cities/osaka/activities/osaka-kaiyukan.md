@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: museums
 duration_hours: 3
 approx_cost: ¥2,700–3,500 dynamic by date (2026)
-cost_yen: 2700
+cost: 2700
 entry: paid
 tags: [touristic, top50, iconic]
 hours: 10:00-20:00 (last entry 19:00; longer at New Year)
@@ -19,8 +19,8 @@ best_time: morning
 link: https://www.kaiyukan.com/
 coords: [34.65516, 135.429391]
 coords_precision: exact
-name_ja: 海遊館
-address_ja: 〒552-0021 大阪府大阪市港区海岸通一丁目海岸通
+name_local: 海遊館
+address_local: 〒552-0021 大阪府大阪市港区海岸通一丁目海岸通
 verified: '2026-11-17'
 ---
 

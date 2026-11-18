@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: yakitori omakase, izakaya
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/izakaya/
 tabelog_rating: 3.56
 tags: [top-rated]

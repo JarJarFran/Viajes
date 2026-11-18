@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: ramen
 price_range: ¥
-budget_yen: [999, 1999]
+budget: [999, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13003367/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.77
@@ -19,8 +19,8 @@ closed:
   - {holidays: true}
 coords: [35.657328, 139.698021]
 coords_precision: exact
-name_ja: らーめん　はやし
-address_ja: 東京都渋谷区道玄坂1-14-9 ソシアル道玄坂 1F
+name_local: らーめん　はやし
+address_local: 東京都渋谷区道玄坂1-14-9 ソシアル道玄坂 1F
 verified: '2026-11-18'
 ---
 

@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: udon, soba
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.72
 tags: [top-rated]

@@ -7,8 +7,8 @@ area: kyoto-area-kyoto-station
 area_detail: Kyoto Station (west)
 cuisine: wagyu burger (halal available), cafe
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.34
 station: Omiya

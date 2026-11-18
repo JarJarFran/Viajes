@@ -11,9 +11,9 @@ visits: []                         # day-trip cities whose nodes may appear in p
 plan:
   - {slot: morning, id: <activity-id>}
   - {slot: lunch, id: <restaurant-id>}
-  - {slot: travel, id: <route-id>, yen: 2040, note: round trip}   # yen overrides the estimate
+  - {slot: travel, id: <route-id>, cost: 2040, note: round trip}   # cost (local currency) overrides the estimate
 done: []        # after the day: python3 scripts/log.py done --trip ... --date ... --id ... --rating 1-5
-expenses: []    # python3 scripts/log.py expense --trip ... --date ... --yen ... --what ...
+expenses: []    # python3 scripts/log.py expense --trip ... --date ... --amount ... --what ...
 ---
 
 # <YYYY-MM-DD> — <city>

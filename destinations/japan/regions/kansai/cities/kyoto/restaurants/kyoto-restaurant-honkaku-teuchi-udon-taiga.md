@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-fushimi
 cuisine: udon, curry udon, tempura
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260601/26020260/
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/udon/
 tabelog_rating: 3.72
@@ -21,7 +21,7 @@ station: Fujinomori
 station_m: 505
 coords: [34.956812, 135.770208]
 coords_precision: station
-address_ja: 京都府京都市伏見区深草西浦町7-45-1
+address_local: 京都府京都市伏見区深草西浦町7-45-1
 verified: '2026-11-18'
 ---
 

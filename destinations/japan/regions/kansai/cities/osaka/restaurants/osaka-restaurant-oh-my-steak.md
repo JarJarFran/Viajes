@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: steak (live teppanyaki), yakiniku, seafood
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [1000, 1999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.44
 station: Shinsaibashi

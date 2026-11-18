@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-umeda
 cuisine: yakiniku, steak, tripe
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 5999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [5000, 5999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.63
 tags: [top-rated]

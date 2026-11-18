@@ -17,8 +17,8 @@ best_time: afternoon
 link: https://himeji-machishin.jp/ryokka/kokoen/en/
 coords: [34.837969, 134.689613]
 coords_precision: exact
-name_ja: 好古園
-address_ja: 兵庫県姫路市材木町
+name_local: 好古園
+address_local: 兵庫県姫路市材木町
 verified: '2026-11-17'
 ---
 

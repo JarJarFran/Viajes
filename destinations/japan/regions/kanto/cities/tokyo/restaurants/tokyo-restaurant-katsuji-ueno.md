@@ -7,8 +7,8 @@ area: tokyo-area-ueno
 area_detail: Ueno Okachimachi
 cuisine: shabu-shabu / oden
 price_range: ¥¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [3000, 3999]
+budget_dinner: [5000, 5999]
 tabelog: https://tabelog.com/en/tokyo/A1311/A131101/13314286/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.53
@@ -19,7 +19,7 @@ opening:
   - {days: [sat, sun, hol], times: [11:30-23:00]}
 coords: [35.714041, 139.777116]
 coords_precision: area
-address_ja: 東京都千代田区外神田6-16-8 御徒町アーバンホテル 1F
+address_local: 東京都千代田区外神田6-16-8 御徒町アーバンホテル 1F
 verified: '2026-11-18'
 ---
 

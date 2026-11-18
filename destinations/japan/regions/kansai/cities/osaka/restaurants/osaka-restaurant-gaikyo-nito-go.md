@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: soba, washoku
 price_range: ¥¥¥¥
-budget_dinner_yen: [20000, 29999]
+budget_dinner: [20000, 29999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.75
 tags: [top-rated]

@@ -7,7 +7,7 @@ area: kyoto-area-kiyomizu
 area_detail: Gojo / Kiyomizu
 cuisine: cafe, seafood, Kyoto seasonal breakfast
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.47
 station: Gojo

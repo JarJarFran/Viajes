@@ -7,7 +7,7 @@ area: osaka-area-umeda
 area_detail: Fukushima / Umeda
 cuisine: yakiniku, tripe (no additives)
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.76
 tags: [top-rated]

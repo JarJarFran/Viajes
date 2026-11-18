@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: yakiniku all-you-can-eat, buffet
 price_range: ¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.09
 station: Shibuya

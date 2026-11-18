@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-arashiyama
 cuisine: cafe with tea sweets (Arashiyama view)
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
+budget_lunch: [2000, 2999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.53
 tags: [top-rated]

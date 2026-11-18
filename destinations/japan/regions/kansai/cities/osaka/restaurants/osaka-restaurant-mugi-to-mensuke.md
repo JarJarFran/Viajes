@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Umeda / Nakatsu
 cuisine: ramen, tsukemen
 price_range: ¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [2000, 2999]
+budget_dinner: [3000, 3999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270101/27104891/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.92
@@ -24,8 +24,8 @@ station: Nakatsu
 station_m: 281
 coords: [34.711327, 135.499994]
 coords_precision: exact
-name_ja: 麦と麺助
-address_ja: 大阪府大阪市北区豊崎3-4-12
+name_local: 麦と麺助
+address_local: 大阪府大阪市北区豊崎3-4-12
 verified: '2026-11-18'
 ---
 

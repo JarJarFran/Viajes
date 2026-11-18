@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: okonomiyaki, monjyayaki
 price_range: ¥¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [3000, 3999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
 tabelog_rating: 3.48
 station: Kintetsu Nippombashi

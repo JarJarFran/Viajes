@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 10
 approx_cost: from ¥8,400, date-dependent (check web ticket store)
-cost_yen: 8400
+cost: 8400
 entry: paid
 tags: [touristic, top50, iconic, kid-friendly]
 hours: 9:00-21:00 (varies by date)
@@ -18,8 +18,8 @@ best_time: full day
 link: https://www.usj.co.jp/
 coords: [34.665639, 135.432453]
 coords_precision: exact
-name_ja: ユニバーサル・スタジオ・ジャパン
-address_ja: 〒554-0031 大阪府大阪市此花区桜島二丁目Water Street2-1-33
+name_local: ユニバーサル・スタジオ・ジャパン
+address_local: 〒554-0031 大阪府大阪市此花区桜島二丁目Water Street2-1-33
 ---
 
 # Universal Studios Japan (USJ)

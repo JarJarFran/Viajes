@@ -7,8 +7,8 @@ area: osaka-area-namba
 area_detail: Kuromon Market
 cuisine: soba, izakaya
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27104034/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.59
@@ -22,7 +22,7 @@ station: Kintetsu Nippombashi
 station_m: 86
 coords: [34.666909, 135.5057]
 coords_precision: station
-address_ja: 大阪府大阪市中央区日本橋1-19-4
+address_local: 大阪府大阪市中央区日本橋1-19-4
 verified: '2026-11-18'
 ---
 

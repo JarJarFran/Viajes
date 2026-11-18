@@ -14,9 +14,9 @@ from collections import Counter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import exporters as X  # noqa: E402
 import fm as fmio  # noqa: E402
-from common import (REPO, canonical, city_children, d, day_id, daterange, derive_edges, derive_fields,  # noqa: E402
-                    expected_day,
-                    load_graph, read, strict_restaurants, trip_day_ids, trip_window, write)
+from common import (REPO, canonical, city_children, currency_of, d, day_id, daterange, derive_edges,  # noqa: E402
+                    derive_fields, expected_day, load_graph, money, read, strict_restaurants, trip_day_ids,
+                    trip_window, write)
 from tripplan import load_profile, trip_view  # noqa: E402
 from datetime import timedelta  # noqa: E402
 
@@ -38,8 +38,8 @@ def link(from_fp, to_fp):
     return os.path.relpath(to_fp, os.path.dirname(from_fp)).replace(os.sep, "/")
 
 
-def _yen(x):
-    return "—" if x is None else f"¥{x:,}"
+def _m(x, cur):
+    return "—" if x is None else money(x, cur)
 
 
 # ---------------------------------------------------------------- generated blocks
@@ -75,17 +75,21 @@ def trip_blocks(trip, view, nodes):
         ours = _ranges(e["our_days"]) or "—"
         ev.append(f"| {e['start']} → {e['end']} | [{e['name']}]({link(trip['_fp'], nodes[e['id']]['_fp'])}) | "
                   f"{e['place'].split('/')[-1].capitalize()} | {ours} | {', '.join(x[5:] for x in e['in_plan']) or '—'} |")
-    b = view["budget"].get("daily_yen")
-    bud = [f"Daily budget: {_yen(b)} per person (€{view['budget'].get('daily_eur_per_person')} × "
-           f"{view['budget'].get('eur_jpy')} ECB {view['budget'].get('eur_jpy_date')}). Planned = plan items + "
-           "local transport of the city (`local_transport_day_yen`).", "",
+    vb, cur = view["budget"], view["currency"]
+    rates = ", ".join(f"{c} {r}" for c, r in sorted((vb.get("fx") or {}).items()))
+    bud = [f"Daily budget: {_m(vb.get('daily'), cur)} per person (€{vb.get('daily_eur_per_person')} × "
+           f"{rates or '?'} per € — ECB {vb.get('fx_date')}). Planned = plan items + local transport of the city "
+           "(`local_transport_day`).", "",
            "| Date | City | Planned | vs budget | Spent | Unpriced items |", "|---|---|---|---|---|---|"]
     for v in view["days"]:
-        diff = "" if not b else (f"+{_yen(v['est_yen'] - b)}" if v["est_yen"] > b else "ok")
-        bud.append(f"| {v['date']} {v['weekday']} | {v['city'] or ''} | {_yen(v['est_yen'])} | {diff} | "
-                   f"{_yen(v['spent_yen'])} | {', '.join(v['unpriced']) or ''} |")
+        b, c = v["budget"], v["currency"]
+        diff = "" if not b else (f"+{_m(v['est'] - b, c)}" if v["est"] > b else "ok")
+        bud.append(f"| {v['date']} {v['weekday']} | {v['city'] or ''} | {_m(v['est'], c)} | {diff} | "
+                   f"{_m(v['spent'], c)} | {', '.join(v['unpriced']) or ''} |")
     t = view["totals"]
-    bud.append(f"| **total** | | **{_yen(t['est_yen'])}** | {_yen(t['budget_yen'])} budget | {_yen(t['spent_yen'])} | |")
+    eur = f" (≈ €{t['est_eur']:,})" if t.get("est_eur") is not None else ""
+    bud.append(f"| **total** | | **{_m(t['est'], cur)}**{eur} | {_m(t['budget'], cur)} budget | "
+               f"{_m(t['spent'], cur)} | |")
     dl = []
     for x in view["deadlines"]:
         if x["kind"] in ("on_sale", "presale"):
@@ -98,7 +102,7 @@ def trip_blocks(trip, view, nodes):
         warn = " ⚠" if v["warnings"] or any(i.get("closed") for i in v["items"]) else ""
         names = "; ".join(i["name"] for i in v["items"])
         days.append(f"| [{v['date']}]({link(trip['_fp'], nodes[v['id']]['_fp'])}) {v['weekday']} | {v['city'] or ''} | "
-                    f"{v.get('title') or ''}{warn} | {names} | {_yen(v['est_yen'])} |")
+                    f"{v.get('title') or ''}{warn} | {names} | {_m(v['est'], v['currency'])} |")
     rated = sorted(((x["rating"], v["date"], x["id"], x.get("note")) for v in view["days"] for x in v["done"]
                     if isinstance(x, dict) and x.get("rating") is not None), key=lambda r: (-r[0], r[1], r[2]))
     liked = [f"- {'★' * r} {nodes[i]['name']} ({dt}){' — ' + note if note else ''}" for r, dt, i, note in rated
@@ -129,7 +133,8 @@ def practical_info(nodes, trip):
     for s in trip.get("stops") or []:
         h = nodes.get(s.get("accommodation"))
         if h:
-            hotels.append({"name": h.get("name"), "name_ja": h.get("name_ja"), "address_ja": h.get("address_ja"),
+            hotels.append({"name": h.get("name"), "name_local": h.get("name_local"),
+                           "address_local": h.get("address_local"),
                            "check_in": h.get("check_in"), "check_out": h.get("check_out"), "phone": h.get("phone"),
                            "nights": f"{s['from']} → {s['to']}"})
     return {"emergency": (nodes.get(trip.get("country")) or {}).get("emergency") or {}, "hotels": hotels}
@@ -191,7 +196,8 @@ def build(root=REPO):
                 log.append(f"new day file {did}")
         t["days"] = trip_day_ids(t)
     # work on the canonical form so exports match what the files will contain after this run
-    nodes = {nid: dict(canonical(derive_fields(n)), _fp=n["_fp"], _body=n["_body"]) for nid, n in nodes.items()}
+    nodes = {nid: dict(canonical(derive_fields(n, cur=currency_of(n, nodes))), _fp=n["_fp"], _body=n["_body"])
+             for nid, n in nodes.items()}
     edges = derive_edges(nodes, paths)
     profile = load_profile(root)
     views = {tid: trip_view(nodes, paths, t, profile) for tid, t in nodes.items() if t.get("type") == "trip"}

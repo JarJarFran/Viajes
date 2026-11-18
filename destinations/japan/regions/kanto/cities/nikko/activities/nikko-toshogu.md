@@ -6,7 +6,7 @@ place: japan/kanto/nikko
 category: temple
 duration_hours: 2
 approx_cost: ¥1,600 adults (sources vary ¥1,300–1,700 — check)
-cost_yen: 1600
+cost: 1600
 entry: paid
 tags: [touristic, top50, iconic, unesco]
 hours: Nov–Mar ~9:00-16:00 (last entry 15:30)
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.toshogu.jp/english/
 coords: [36.757638, 139.59911]
 coords_precision: exact
-name_ja: 日光東照宮
-address_ja: 〒321-1431 栃木県日光市山内
+name_local: 日光東照宮
+address_local: 〒321-1431 栃木県日光市山内
 verified: '2026-11-17'
 ---
 

@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 1
 approx_cost: ¥1,800–2,000 (free with Osaka Amazing Pass)
-cost_yen: 1800
+cost: 1800
 entry: mixed
 tags: [top50]
 hours: hourly by day 10:00-19:00

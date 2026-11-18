@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-umeda
 cuisine: curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270101/27125687/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.8
@@ -19,7 +19,7 @@ station: Osaka Umeda
 station_m: 69
 coords: [34.705419, 135.498372]
 coords_precision: station
-address_ja: 大阪府大阪市北区梅田1-13-13 阪神百貨店梅田本店 9F
+address_local: 大阪府大阪市北区梅田1-13-13 阪神百貨店梅田本店 9F
 verified: '2026-11-18'
 ---
 

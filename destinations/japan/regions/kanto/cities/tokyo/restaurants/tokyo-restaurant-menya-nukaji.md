@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: tsukemen / ramen
 price_range: ¥¥
-budget_yen: [1000, 1999]
+budget: [1000, 1999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.58
 tags: [top-rated]

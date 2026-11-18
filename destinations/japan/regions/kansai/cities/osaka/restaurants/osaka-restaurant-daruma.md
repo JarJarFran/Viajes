@@ -15,8 +15,8 @@ opening:
 link: https://www.kushikatsu-daruma.co.jp/
 coords: [34.644282, 135.504921]
 coords_precision: exact
-name_ja: だるま
-address_ja: 大阪府大阪市浪速区恵美須東2-3-9
+name_local: だるま
+address_local: 大阪府大阪市浪速区恵美須東2-3-9
 verified: '2026-11-18'
 ---
 

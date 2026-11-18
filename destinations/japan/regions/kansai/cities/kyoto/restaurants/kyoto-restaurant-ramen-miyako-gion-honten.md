@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: ramen (white soup), Chinese, izakaya
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [null, 999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
 tabelog_rating: 3.37
 station: Gion Shijo

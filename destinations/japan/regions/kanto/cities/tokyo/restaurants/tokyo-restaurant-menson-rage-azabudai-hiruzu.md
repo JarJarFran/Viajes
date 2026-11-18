@@ -7,8 +7,8 @@ area: tokyo-area-roppongi
 area_detail: Azabudai / Toranomon
 cuisine: ramen, abura-soba, maze-soba, curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1307/A130704/13291538/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.62
@@ -20,7 +20,7 @@ station: Kamiyacho
 station_m: 224
 coords: [35.66248, 139.744738]
 coords_precision: station
-address_ja: 東京都港区虎ノ門5-10-7 麻布台ヒルズガーデンプラザD B1F
+address_local: 東京都港区虎ノ門5-10-7 麻布台ヒルズガーデンプラザD B1F
 verified: '2026-11-18'
 ---
 

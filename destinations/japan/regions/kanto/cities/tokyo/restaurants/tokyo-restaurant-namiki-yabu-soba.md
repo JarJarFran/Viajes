@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: soba
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13003650/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.65
@@ -21,7 +21,7 @@ station: Asakusa
 station_m: 172
 coords: [35.711351, 139.798328]
 coords_precision: station
-address_ja: 東京都台東区雷門2-11-9
+address_local: 東京都台東区雷門2-11-9
 verified: '2026-11-18'
 ---
 

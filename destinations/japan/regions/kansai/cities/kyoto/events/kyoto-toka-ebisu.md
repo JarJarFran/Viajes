@@ -8,7 +8,7 @@ editions:
   - {start: 2027-01-08, end: 2027-01-12}
 duration_hours: 2
 approx_cost: free (lucky bamboo ¥ varies)
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [event, top100]
 best_season: Jan 8–12 every year (main day Jan 10)
@@ -16,8 +16,8 @@ best_time: evening
 link: https://www.ebisujinja.or.jp/
 coords: [34.999854, 135.771906]
 coords_precision: exact
-name_ja: 京都ゑびす神社
-address_ja: 〒605-0801 京都府京都市東山区辰巳町弓矢町大和大路通
+name_local: 京都ゑびす神社
+address_local: 〒605-0801 京都府京都市東山区辰巳町弓矢町大和大路通
 verified: 2026-11
 ---
 

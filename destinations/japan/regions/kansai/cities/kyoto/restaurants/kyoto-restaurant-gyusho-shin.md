@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: yakiniku
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
+budget_lunch: [2000, 2999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.52
 tags: [top-rated]

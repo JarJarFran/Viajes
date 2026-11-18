@@ -6,15 +6,15 @@ place: japan/kansai/kyoto
 area: kyoto-area-gion
 cuisine: kaiseki
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 8000]
-budget_dinner_yen: [12000, 20000]
+budget_lunch: [5000, 8000]
+budget_dinner: [12000, 20000]
 tabelog: https://tabelog.com/en/kyoto/A2601/A260301/26002441/
 tabelog_rating: 3.58
 tags: [top-rated]
 link: https://www.gionkaryo.co.jp/
 coords: [35.001767, 135.774578]
 coords_precision: exact
-name_ja: 迦陵
+name_local: 迦陵
 verified: 2026-11
 ---
 

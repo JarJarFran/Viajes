@@ -7,8 +7,8 @@ area: kyoto-area-kyoto-station
 area_detail: Kyoto Station (Kyoto Theater 2F)
 cuisine: soba, izakaya, Kyoto dishes
 price_range: ¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [1000, 1999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.48
 station: Kyoto

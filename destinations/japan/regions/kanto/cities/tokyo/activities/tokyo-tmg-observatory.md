@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 9:30-17:30 (seasonal)
@@ -22,8 +22,8 @@ best_time: sunset
 link: https://www.yokoso.metro.tokyo.lg.jp/en/spot/403/
 coords: [35.690299, 139.691546]
 coords_precision: exact
-name_ja: 都庁第一本庁舎
-address_ja: 〒160-0023 東京新宿区西新宿西新宿二丁目中央通り
+name_local: 都庁第一本庁舎
+address_local: 〒160-0023 東京新宿区西新宿西新宿二丁目中央通り
 verified: '2026-11-17'
 ---
 

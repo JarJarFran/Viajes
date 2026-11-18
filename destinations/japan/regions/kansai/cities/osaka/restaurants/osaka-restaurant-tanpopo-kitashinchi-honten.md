@@ -7,7 +7,7 @@ area: osaka-area-umeda
 area_detail: Kitashinchi (Kita)
 cuisine: teppanyaki, okonomiyaki, wine bar
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
 tabelog_rating: 3.66
 tags: [top-rated]

@@ -7,8 +7,8 @@ area: osaka-area-tennoji
 area_detail: Tennoji (Shitennoji Mae Yuhigaoka)
 cuisine: curry, yoshoku
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.8
 tags: [top-rated]

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: udon, izakaya, shabu-shabu
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.39
 station: Shibuya

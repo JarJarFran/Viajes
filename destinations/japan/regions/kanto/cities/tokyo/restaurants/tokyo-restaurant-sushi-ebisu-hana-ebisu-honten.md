@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ebisu
 cuisine: sushi, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [5000, 5999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.44
 station: Ebisu

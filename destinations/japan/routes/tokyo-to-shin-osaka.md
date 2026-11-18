@@ -9,7 +9,7 @@ bidirectional: true
 mode: shinkansen
 duration_hours: 3
 approx_cost: 'Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320)'
-price_yen: 14720
+price: 14720
 booking: reserve
 link: https://smart-express.jp/
 ---

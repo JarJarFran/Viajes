@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: ramen
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27084754/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.73
@@ -21,7 +21,7 @@ station: Namba
 station_m: 281
 coords: [34.663663, 135.501775]
 coords_precision: station
-address_ja: 大阪府大阪市中央区難波千日前6-16
+address_local: 大阪府大阪市中央区難波千日前6-16
 verified: '2026-11-18'
 ---
 

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ryogoku
 cuisine: udon / izakaya
 price_range: ¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [4000, 4999]
+budget_lunch: [1000, 1999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.59
 tags: [top-rated]

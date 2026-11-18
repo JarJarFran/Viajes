@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ryogoku
 cuisine: tonkatsu
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1312/A131201/13019126/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.72
@@ -20,8 +20,8 @@ closed:
   - {yearly: 12-29..01-03, maybe: year-end & New Year holidays (dates not published)}
 coords: [35.695033, 139.793961]
 coords_precision: exact
-name_ja: はせがわ
-address_ja: 東京都墨田区両国3-24-1 両国尾崎ビル １０３
+name_local: はせがわ
+address_local: 東京都墨田区両国3-24-1 両国尾崎ビル １０３
 verified: '2026-11-18'
 ---
 

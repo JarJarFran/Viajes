@@ -484,31 +484,89 @@ def describe_rule(r):
     return str(r.get("irregular", ""))
 
 
-# ---------------------------------------------------------------- money
+# ---------------------------------------------------------------- money & country
 
-def price_range_yen(pr, schema=SCHEMA):
-    r = schema["price_range_yen"].get(pr)
+def country_id(n):
+    """Country id of a node: its `country` field, else the first segment of its path/place/origin."""
+    if n.get("type") == "country":
+        return n.get("id")
+    if n.get("country"):
+        return n["country"]
+    for k in ("path", "place", "origin"):
+        if n.get(k):
+            return str(n[k]).split("/")[0]
+    return None
+
+
+def country_of(n, nodes):
+    c = nodes.get(country_id(n) or "")
+    return c if c and c.get("type") == "country" else {}
+
+
+def currency_of(n, nodes, schema=SCHEMA):
+    """ISO currency of a node (all its money fields are in it): its country's `currency_code`."""
+    return country_of(n, nodes).get("currency_code") or schema.get("default_currency", "JPY")
+
+
+def utc_offset_hours(country, default=9.0):
+    """Hours east of UTC from a country's `timezone` text like 'UTC+9' or 'UTC+5:30'."""
+    m = re.search(r"UTC\s*([+-])\s*(\d{1,2})(?::(\d{2}))?", str((country or {}).get("timezone") or ""))
+    if not m:
+        return default
+    h = int(m.group(2)) + int(m.group(3) or 0) / 60
+    return h if m.group(1) == "+" else -h
+
+
+def money(amount, cur="JPY", schema=SCHEMA):
+    """'¥1,200' / 'CN¥80'; '?' when unknown."""
+    if amount is None:
+        return "?"
+    sym = ((schema.get("currencies") or {}).get(cur) or {}).get("symbol") or (cur + " ")
+    return f"{sym}{amount:,}"
+
+
+def money_range(r, cur="JPY", schema=SCHEMA):
+    lo, hi = r
+    if lo is None:
+        return f"under {money(hi, cur, schema)}"
+    return f"{money(lo, cur, schema)}+" if hi is None else f"{money(lo, cur, schema)}–{hi:,}"
+
+
+def price_range_bounds(pr, cur="JPY", schema=SCHEMA):
+    r = (schema["price_ranges"].get(cur) or {}).get(pr)
     return tuple(r) if r else None
 
 
-def bucket_for_yen(yen, schema=SCHEMA):
-    for k, (lo, hi) in schema["price_range_yen"].items():
-        if yen >= lo and (hi is None or yen <= hi):
+def bucket_for(amount, cur="JPY", schema=SCHEMA):
+    for k, (lo, hi) in (schema["price_ranges"].get(cur) or {}).items():
+        if amount >= lo and (hi is None or amount <= hi):
             return k
     return None
 
 
-def derive_fields(n, schema=SCHEMA):
+def convert(amount, frm, to, fx):
+    """Convert with `fx` = units of each currency per euro (profile budget.fx); None when unknown."""
+    if amount is None or frm == to:
+        return amount
+    if not fx or not fx.get(frm) or not fx.get(to):
+        return None
+    return round(amount / fx[frm] * fx[to])
+
+
+BUDGET_KEYS = ("budget_lunch", "budget_dinner", "budget")
+
+
+def derive_fields(n, schema=SCHEMA, cur="JPY"):
     """Fields that must follow from others (applied by sync before writing):
     restaurant price_range from its budgets and the `top-rated` tag from tabelog_rating."""
     if n.get("type") != "restaurant":
         return n
-    r = next((n[k] for k in ("budget_dinner_yen", "budget_yen", "budget_lunch_yen")
+    r = next((n[k] for k in ("budget_dinner", "budget", "budget_lunch")
               if isinstance(n.get(k), list) and len(n[k]) == 2), None)
     if r:
-        yen = r[0] if r[0] is not None else r[1]
-        if yen is not None:
-            n["price_range"] = bucket_for_yen(yen, schema) or n.get("price_range")
+        v = r[0] if r[0] is not None else r[1]
+        if v is not None:
+            n["price_range"] = bucket_for(v, cur, schema) or n.get("price_range")
     tags = [t for t in (n.get("tags") or []) if t != "top-rated"]
     if n.get("tabelog_rating") is not None and float(n["tabelog_rating"]) >= schema["strict_restaurants"]["min_rating"]:
         tags.append("top-rated")
@@ -527,52 +585,61 @@ def _mid(r):
     return round((lo + hi) / 2)
 
 
-def restaurant_range(n, slot=None, schema=SCHEMA):
-    """(lo, hi) yen per person for a meal; slot picks lunch/dinner budget when known."""
-    order = {"lunch": ["budget_lunch_yen", "budget_yen", "budget_dinner_yen"],
-             "dinner": ["budget_dinner_yen", "budget_yen", "budget_lunch_yen"]}.get(
-        slot, ["budget_yen", "budget_lunch_yen", "budget_dinner_yen"])
+def restaurant_range(n, slot=None, schema=SCHEMA, cur="JPY"):
+    """(lo, hi) per person for a meal, in the restaurant's currency; slot picks lunch/dinner budget."""
+    order = {"lunch": ["budget_lunch", "budget", "budget_dinner"],
+             "dinner": ["budget_dinner", "budget", "budget_lunch"]}.get(
+        slot, ["budget", "budget_lunch", "budget_dinner"])
     for k in order:
         if isinstance(n.get(k), list) and len(n[k]) == 2:
             return tuple(n[k])
-    return price_range_yen(n.get("price_range"), schema)
+    return price_range_bounds(n.get("price_range"), cur, schema)
 
 
-def cheapest_meal_yen(n, schema=SCHEMA):
-    """Upper bound of the cheapest known meal (used by the strict < ¥5,000 filter)."""
-    his = [n[k][1] for k in ("budget_lunch_yen", "budget_dinner_yen", "budget_yen")
-           if isinstance(n.get(k), list) and len(n[k]) == 2 and n[k][1] is not None]
+def cheapest_meal(n, schema=SCHEMA, cur="JPY"):
+    """Upper bound of the cheapest known meal (used by the strict filter)."""
+    his = [n[k][1] for k in BUDGET_KEYS if isinstance(n.get(k), list) and len(n[k]) == 2 and n[k][1] is not None]
     if his:
         return min(his)
-    r = price_range_yen(n.get("price_range"), schema)
+    r = price_range_bounds(n.get("price_range"), cur, schema)
     return r[1] if r else None
 
 
-def estimate_yen(n, slot=None, schema=SCHEMA):
-    """Estimated cost per person of doing a node, or None when unknown."""
+def estimate(n, slot=None, schema=SCHEMA, cur="JPY"):
+    """Estimated cost per person of doing a node (in its currency), or None when unknown."""
     t = n.get("type")
     if t == "restaurant":
-        r = restaurant_range(n, slot, schema)
+        r = restaurant_range(n, slot, schema, cur)
         return _mid(r) if r else None
     if t == "route":
-        return n.get("price_yen")
+        return n.get("price")
     if t in ("activity", "event"):
-        if n.get("cost_yen") is not None:
-            return n["cost_yen"]
+        if n.get("cost") is not None:
+            return n["cost"]
         if n.get("entry") == "free":
             return 0
         return None
     return None
 
 
+def strict_cap(cur, schema=SCHEMA):
+    return (schema["strict_restaurants"].get("max") or {}).get(cur)
+
+
 def strict_restaurants(nodes, schema=SCHEMA):
+    """Restaurants rated >= min_rating on Tabelog (or listed by a strict guide) with a meal under the cap."""
     rule = schema["strict_restaurants"]
     out = []
     for nid, n in sorted(nodes.items()):
-        if n.get("type") != "restaurant" or n.get("tabelog_rating") is None:
+        if n.get("type") != "restaurant":
             continue
-        cheap = cheapest_meal_yen(n, schema)
-        if float(n["tabelog_rating"]) >= rule["min_rating"] and cheap is not None and cheap <= rule["max_yen"]:
+        rated = (n.get("tabelog_rating") is not None and float(n["tabelog_rating"]) >= rule["min_rating"]) \
+            or (n.get("guide") in (rule.get("guides") or []))
+        if not rated:
+            continue
+        cur = currency_of(n, nodes, schema)
+        cheap, cap = cheapest_meal(n, schema, cur), strict_cap(cur, schema)
+        if cheap is not None and cap is not None and cheap <= cap:
             out.append(nid)
     return out
 

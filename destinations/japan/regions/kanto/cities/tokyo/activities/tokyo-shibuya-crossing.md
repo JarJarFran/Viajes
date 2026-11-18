@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic]
 hours: 24h
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: night
 coords: [35.659495, 139.700498]
 coords_precision: exact
-name_ja: 渋谷駅前交差点
-address_ja: 〒150-0043 東京渋谷区道玄坂道玄坂二丁目神宮通り
+name_local: 渋谷駅前交差点
+address_local: 〒150-0043 東京渋谷区道玄坂道玄坂二丁目神宮通り
 ---
 
 # Shibuya crossing and Hachiko

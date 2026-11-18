@@ -15,8 +15,8 @@ best_time: early morning
 link: https://www.yasaka-jinja.or.jp/en/
 coords: [35.003603, 135.778261]
 coords_precision: exact
-name_ja: 八坂神社
-address_ja: 〒605-0062 京都府京都市東山区辰巳町祇園町北側東大路通
+name_local: 八坂神社
+address_local: 〒605-0062 京都府京都市東山区辰巳町祇園町北側東大路通
 verified: 2026-11
 ---
 

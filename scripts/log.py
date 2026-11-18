@@ -1,7 +1,7 @@
 """Log what actually happened on a trip day (writes the day file's frontmatter).
 
     python3 scripts/log.py done    --trip 2026-japan --date 2027-01-10 --id tokyo-sumo-tournament --rating 5 --note "makuuchi was amazing"
-    python3 scripts/log.py expense --trip 2026-japan --date 2027-01-10 --yen 3800 --what "sumo tickets" --category sights
+    python3 scripts/log.py expense --trip 2026-japan --date 2027-01-10 --amount 3800 --what "sumo tickets" --category sights
     python3 scripts/log.py show    --trip 2026-japan --date 2027-01-10
 
 Ratings feed `query.py affinity` and the derived `done`/`done_in` edges; expenses feed the
@@ -14,7 +14,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fm as fmio  # noqa: E402
-from common import REPO, SCHEMA, canonical, day_id, load_graph, write  # noqa: E402
+from common import REPO, SCHEMA, canonical, currency_of, day_id, load_graph, money, write  # noqa: E402
 
 
 def load_day(trip, date_, root=REPO):
@@ -44,7 +44,8 @@ def main(argv=None, root=REPO):
             p.add_argument("--rating", type=int, choices=[1, 2, 3, 4, 5])
             p.add_argument("--note")
         if name == "expense":
-            p.add_argument("--yen", type=int, required=True)
+            p.add_argument("--amount", "--yen", dest="amount", type=int, required=True,
+                           help="per person, in the currency of the day's country")
             p.add_argument("--what", required=True)
             p.add_argument("--category", choices=SCHEMA["vocabularies"]["expense_category"])
     a = ap.parse_args(argv)
@@ -66,14 +67,15 @@ def main(argv=None, root=REPO):
         day["done"] = done
         msg = f"{day['id']}: done {a.id}" + (f" ({a.rating}/5)" if a.rating else "")
     else:
-        if a.yen < 0:
-            sys.exit("--yen must be >= 0")
-        item = {"yen": a.yen, "what": a.what}
+        if a.amount < 0:
+            sys.exit("--amount must be >= 0")
+        item = {"amount": a.amount, "what": a.what}
         if a.category:
             item["category"] = a.category
         day["expenses"] = list(day.get("expenses") or []) + [item]
-        total = sum(x.get("yen", 0) for x in day["expenses"])
-        msg = f"{day['id']}: expense ¥{a.yen:,} ({a.what}); day total ¥{total:,}"
+        total = sum(x.get("amount", 0) for x in day["expenses"])
+        cur = currency_of(day, nodes)
+        msg = f"{day['id']}: expense {money(a.amount, cur)} ({a.what}); day total {money(total, cur)}"
     save(day)
     print(msg)
     return 0

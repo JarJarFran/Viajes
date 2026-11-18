@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: leisure
 duration_hours: 6
 approx_cost: ¥3,000–8,000 for the day
-cost_yen: 3000
+cost: 3000
 entry: paid
 tags: [touristic, top100]
 hours: 9:00-18:00 (return by close)

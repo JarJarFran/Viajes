@@ -6,7 +6,7 @@ place: japan/chubu/kawaguchiko
 category: leisure
 duration_hours: 1
 approx_cost: ¥1,000 round trip (some sources ¥900)
-cost_yen: 1000
+cost: 1000
 entry: paid
 tags: [touristic]
 hours: ~9:00-17:00 (winter may be 9:30-15:30)
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.mtfujiropeway.jp/
 coords: [35.50378, 138.774407]
 coords_precision: exact
-name_ja: 富士山パノラマロープウェイ
-address_ja: 〒401-0392 山梨県南都留郡富士河口湖町浅川船津国道137号
+name_local: 富士山パノラマロープウェイ
+address_local: 〒401-0392 山梨県南都留郡富士河口湖町浅川船津国道137号
 verified: '2026-11-17'
 ---
 

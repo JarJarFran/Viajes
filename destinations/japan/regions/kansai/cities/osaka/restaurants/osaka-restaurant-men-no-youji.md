@@ -7,8 +7,8 @@ area: osaka-area-namba
 area_detail: Nippombashi / Den Den Town
 cuisine: ramen, tsukemen, abura-soba, maze-soba
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27072765/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.69
@@ -20,7 +20,7 @@ station: Nippombashi
 station_m: 496
 coords: [34.666718, 135.506149]
 coords_precision: station
-address_ja: 大阪府大阪市中央区高津2-1-2 大越ビル 1F
+address_local: 大阪府大阪市中央区高津2-1-2 大越ビル 1F
 verified: '2026-11-18'
 ---
 

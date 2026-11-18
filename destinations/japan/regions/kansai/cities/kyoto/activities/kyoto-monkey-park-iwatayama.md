@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: nature
 duration_hours: 2
 approx_cost: ¥800 (16+)
-cost_yen: 800
+cost: 800
 entry: paid
 tags: [top50]
 hours: 9:00-16:00 (summit to 16:30; closes early when the monkeys leave)

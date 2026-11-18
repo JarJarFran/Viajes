@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-akihabara
 cuisine: udon, curry udon, tempura
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/tokyo/A1310/A131002/13201863/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.84
@@ -22,7 +22,7 @@ station: Awajicho
 station_m: 178
 coords: [35.693735, 139.768296]
 coords_precision: exact
-address_ja: 東京都千代田区神田司町2-14-15 高梨ビル 1F
+address_local: 東京都千代田区神田司町2-14-15 高梨ビル 1F
 verified: '2026-11-18'
 ---
 

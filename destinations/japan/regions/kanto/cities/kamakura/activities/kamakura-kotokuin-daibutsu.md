@@ -6,7 +6,7 @@ place: japan/kanto/kamakura
 category: temple
 duration_hours: 0.75
 approx_cost: ¥300 (+¥50 inside the statue)
-cost_yen: 300
+cost: 300
 entry: paid
 tags: [touristic, top50, iconic]
 hours: Oct–Mar 8:00-17:00 (last entry 16:45); inside 8:00-16:30
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.kotoku-in.jp/en/
 coords: [35.316499, 139.535729]
 coords_precision: exact
-name_ja: 高徳院
-address_ja: 〒248-0016 神奈川県鎌倉市御所ノ内長谷長谷四丁目28
+name_local: 高徳院
+address_local: 〒248-0016 神奈川県鎌倉市御所ノ内長谷長谷四丁目28
 verified: '2026-11-18'
 ---
 

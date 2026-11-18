@@ -10,7 +10,7 @@ bidirectional: true
 mode: train
 duration_hours: 2
 approx_cost: Tobu Limited Express ¥3,340 one way (¥1,400 + ¥1,940 surcharge), ~1 h 50 min; local trains ¥1,400
-price_yen: 3340
+price: 3340
 booking: reserve
 book_ahead_days: 7
 link: https://www.tobu.co.jp/spaciax/en/guide/

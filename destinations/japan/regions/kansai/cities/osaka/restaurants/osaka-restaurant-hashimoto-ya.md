@@ -7,7 +7,7 @@ area: osaka-area-shinsaibashi
 area_detail: Chuo-ku (Nagahoribashi)
 cuisine: curry, soup curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270201/27107555/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 4.04
@@ -22,7 +22,7 @@ station: Nagahoribashi
 station_m: 318
 coords: [34.675318, 135.506297]
 coords_precision: station
-address_ja: 大阪府大阪市中央区南船場2-2-21
+address_local: 大阪府大阪市中央区南船場2-2-21
 verified: '2026-11-18'
 ---
 

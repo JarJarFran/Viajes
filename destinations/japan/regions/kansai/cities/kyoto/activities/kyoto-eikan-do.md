@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥600–1,000
-cost_yen: 600
+cost: 600
 entry: paid
 tags: [top50]
 hours: 9:00-17:00
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.eikando.or.jp/
 coords: [35.014711, 135.793791]
 coords_precision: exact
-name_ja: 永觀堂
-address_ja: 〒606-8444 京都府京都市左京区永観堂町飛地永観堂町鹿ヶ谷通
+name_local: 永觀堂
+address_local: 〒606-8444 京都府京都市左京区永観堂町飛地永観堂町鹿ヶ谷通
 ---
 
 # Eikan-do (Zenrin-ji)

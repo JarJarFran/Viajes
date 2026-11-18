@@ -7,8 +7,8 @@ area: kyoto-area-kita
 area_detail: Kurama / Kita-ku
 cuisine: soba
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [2000, 2999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.7
 tags: [top-rated]

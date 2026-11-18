@@ -20,7 +20,7 @@ python3 scripts/query.py near --id tokyo-sensoji --type restaurant     # where t
 python3 scripts/query.py deadlines --trip 2026-japan --upcoming        # ticket sales and booking reminders
 ```
 
-**For the trip itself:** import [exports/trips/2026-japan.ics](exports/trips/2026-japan.ics) into the phone calendar (one event per day + ticket-sale alarms + booking reminders) and save [exports/trips/2026-japan.html](exports/trips/2026-japan.html) on the phone — a self-contained page that works offline, with Japanese names/addresses for taxis, a schematic map per day and the cost of each day. GitHub renders [exports/maps/](exports/maps/) and [exports/trips/2026-japan.geojson](exports/trips/2026-japan.geojson) as interactive maps.
+**For the trip itself:** import [exports/trips/2026-japan.ics](exports/trips/2026-japan.ics) into the phone calendar (one event per day + ticket-sale alarms + booking reminders) and save [exports/trips/2026-japan.html](exports/trips/2026-japan.html) on the phone — a self-contained page that works offline, with local-script names/addresses for taxis, a schematic map per day and the cost of each day. GitHub renders [exports/maps/](exports/maps/) and [exports/trips/2026-japan.geojson](exports/trips/2026-japan.geojson) as interactive maps.
 
 ## Node types
 
@@ -30,11 +30,11 @@ python3 scripts/query.py deadlines --trip 2026-japan --upcoming        # ticket 
 | region | `destinations/<country>/regions/<region>/README.md` | `path`, `country` |
 | city | `.../regions/<region>/cities/<city>/README.md` | `path`, `country`, `region`, `coords` |
 | area | `.../cities/<city>/areas/<id>.md` | neighbourhood centroid + `aliases` |
-| activity | `.../cities/<city>/activities/<id>.md` | `category`, `entry`, `cost_yen`, `hours`, `closed` rules, `booking` |
+| activity | `.../cities/<city>/activities/<id>.md` | `category`, `entry`, `cost`, `hours`, `closed` rules, `booking` |
 | event | `.../cities/<city>/events/<id>.md` | `recurrence` + `editions: [{start, end, on_sale}]` |
-| restaurant | `.../cities/<city>/restaurants/<id>.md` | `area`, `budget_lunch_yen`/`budget_dinner_yen`, `tabelog_rating`, `station` |
+| restaurant | `.../cities/<city>/restaurants/<id>.md` | `area`, `budget_lunch`/`budget_dinner`, `tabelog_rating` (Japan) or `guide` (elsewhere), `station` |
 | hotel | `.../cities/<city>/hotels/<id>.md` | `area`, `price_range` |
-| route | `destinations/<country>/routes/<id>.md` | `origin`, `destination`, `mode`, `price_yen` |
+| route | `destinations/<country>/routes/<id>.md` | `origin`, `destination`, `mode`, `price` |
 | trip | `trips/<trip>/README.md` | `stops` (check-in/check-out, contiguous) |
 | day | `trips/<trip>/days/YYYY-MM-DD.md` | `place`, `stay`, `plan: [{slot, id}]`, `done`, `expenses` |
 
@@ -45,15 +45,15 @@ Templates for every type are in [_templates/](_templates/); [schema.yaml](schema
 - **ids** are stable lowercase slugs (`tokyo-sensoji`, `kyoto-area-gion`, `2026-japan-2027-01-10`); **paths** (`japan/kanto/tokyo`) identify cities for `place`, `origin`, `destination`, `visits`.
 - **Stops**: `from` = check-in, `to` = check-out; consecutive stops must chain so every night has exactly one hotel. A day's `place`/`stay` = where we sleep that night.
 - **Plans**: a day may use nodes of that night's city, the previous night's city (travel days) and its `visits` (day trips). The validator checks cities, event dates and closures (`closed` rules with weekly / nth-weekday / yearly / one-off dates and public-holiday shifts; `partial` closures are warnings).
-- **Day trips** = a `route` + nodes of the destination city; the day lists the city in `visits` and the round-trip fare as `yen` on the route item.
+- **Day trips** = a `route` + nodes of the destination city; the day lists the city in `visits` and the round-trip fare as `cost` on the route item.
 - **Derived fields**: `sync.py` sets restaurant `price_range` from the budgets (dinner, else generic, else lunch) and the `top-rated` tag from `tabelog_rating ≥ 3.5`.
 - **Plan warnings** (never fail CI): opening hours that do not fit the slot, meals whose Tabelog budget for that slot is above ¥4,999, a visiting order that is ≥ 1 km and 15 % shorter, `near` links over 2 km, places far from their area. Each day also shows sunrise/sunset.
-- **Local transport**: each city's `local_transport_day_yen` (Tokyo ¥1,000, Kyoto ¥1,100, Osaka ~¥800) is added to every day planned there; city READMEs compare the passes.
+- **Local transport**: each city's `local_transport_day` (Tokyo ¥1,000, Kyoto ¥1,100, Osaka ~¥800) is added to every day planned there; city READMEs compare the passes.
 - **Hotels** carry `check_in` / `check_out` times and the Japanese address; the day view shows check-out/check-in on moving days and the offline page has a taxi card per hotel plus emergency numbers (`emergency` on the country node).
-- **Money**: `cost_yen` / `price_yen` / restaurant budgets are per person; day estimates are compared with `budget.daily_eur_per_person` × the ECB rate in [profile.yaml](profile.yaml) (`scripts/update_fx.py` refreshes it). Hotels are not counted.
+- **Money**: `cost` / `price` / restaurant budgets / expense `amount` are per person **in the currency of the node's country** (`currency_code` on the country node: JPY, CNY). Price buckets (`¥`…`¥¥¥¥`) and the strict cap are defined per currency in [schema.yaml](schema.yaml). Day estimates are compared with `budget.daily_eur_per_person` × the ECB rate of that currency (`budget.fx` in [profile.yaml](profile.yaml); `scripts/update_fx.py` refreshes every country's currency). Hotels are not counted.
 - **Freshness**: `verified: YYYY-MM` records when hours/prices were last checked; `query.py stale --trip <id>` lists what to re-check before travelling.
 - **Coordinates** come from OpenStreetMap via `scripts/geocode.py` with a `coords_precision` (`exact`, `station` = restaurant's nearest station, `area`). Data © OpenStreetMap contributors (ODbL).
-- Content in English; Japanese names in `name_ja` / `address_ja`.
+- Content in English; names and addresses in the local script in `name_local` / `address_local` (Japanese, Chinese).
 
 ## Architecture
 

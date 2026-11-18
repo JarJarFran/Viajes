@@ -7,8 +7,8 @@ area: tokyo-area-roppongi
 area_detail: Azabudai / Roppongi
 cuisine: soba, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [1000, 1999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.48
 station: Roppongi Itchome

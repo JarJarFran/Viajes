@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: food
 duration_hours: 2
 approx_cost: free to walk; street food ¥150–500 per item; river cruise ~¥1,000
-cost_yen: 500
+cost: 500
 entry: mixed
 tags: [touristic, top50, iconic, night]
 hours: 24h
@@ -18,8 +18,8 @@ best_time: night
 link: https://www.dotonbori.or.jp/
 coords: [34.669031, 135.501572]
 coords_precision: exact
-name_ja: 道頓堀
-address_ja: 〒542-0071 大阪府大阪市中央区道頓堀一丁目
+name_local: 道頓堀
+address_local: 〒542-0071 大阪府大阪市中央区道頓堀一丁目
 ---
 
 # Dotonbori & Shinsaibashi at night

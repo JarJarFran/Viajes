@@ -12,7 +12,7 @@ tags: [top-rated]
 link: https://www.kyubey.jp/
 coords: [35.668497, 139.761274]
 coords_precision: exact
-name_ja: 久兵衛 銀座
+name_local: 久兵衛 銀座
 verified: 2026-11
 ---
 

@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-asakusa
 cuisine: soba, sake bar
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [1000, 1999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.65
 tags: [top-rated]

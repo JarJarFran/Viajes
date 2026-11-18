@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 2
 approx_cost: free to browse
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: shops 11:00-20:00
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: afternoon
 coords: [34.672085, 135.497947]
 coords_precision: exact
-name_ja: アメリカ村
-address_ja: 〒542-0086 大阪府大阪市中央区西心斎橋二丁目周防町筋
+name_local: アメリカ村
+address_local: 〒542-0086 大阪府大阪市中央区西心斎橋二丁目周防町筋
 ---
 
 # Amerika-mura (America Village)

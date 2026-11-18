@@ -7,8 +7,8 @@ area: tokyo-area-akihabara
 area_detail: Jimbocho / Kanda
 cuisine: yoshoku, tonkatsu, curry
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.66
 tags: [top-rated]

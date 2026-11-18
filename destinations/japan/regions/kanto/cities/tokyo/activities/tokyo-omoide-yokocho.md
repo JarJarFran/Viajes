@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: food
 duration_hours: 1
 approx_cost: dinner ¥2,000–3,000 (yakitori skewers ¥150–300)
-cost_yen: 2000
+cost: 2000
 entry: mixed
 tags: [touristic, top50, night]
 hours: 17:00-23:00
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: night
 coords: [35.693069, 139.699502]
 coords_precision: exact
-name_ja: 思い出横丁
-address_ja: 〒160-0023 東京新宿区西新宿西新宿一丁目
+name_local: 思い出横丁
+address_local: 〒160-0023 東京新宿区西新宿西新宿一丁目
 ---
 
 # Omoide Yokocho (Memory Lane, Shinjuku)

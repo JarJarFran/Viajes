@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (south exit)
 cuisine: udon
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1304/A130401/13125862/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.67
@@ -22,8 +22,8 @@ station: Minami Shinjuku
 station_m: 362
 coords: [35.686479, 139.697003]
 coords_precision: exact
-name_ja: うどん 慎
-address_ja: 東京都渋谷区代々木2-20-16 相馬ビル1F
+name_local: うどん 慎
+address_local: 東京都渋谷区代々木2-20-16 相馬ビル1F
 verified: '2026-11-18'
 ---
 

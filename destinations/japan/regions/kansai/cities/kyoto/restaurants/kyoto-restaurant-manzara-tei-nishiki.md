@@ -7,7 +7,7 @@ area: kyoto-area-karasuma
 area_detail: Nishiki Market / Shijo-Karasuma
 cuisine: izakaya, meat dishes, obanzai, soba
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/soba/
 tabelog_rating: 3.48
 station: Karasuma

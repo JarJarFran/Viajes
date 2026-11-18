@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: free (Arashio-beya window) to ¥5,000–15,000 (guided stable tour)
-cost_yen: 5000
+cost: 5000
 entry: mixed
 tags: [touristic, top100, hidden-gem]
 hours: ~7:00-10:00 (some stables 6:00-11:00); NOT during Tokyo tournaments (Jan/May/Sep) or regional tour months (Mar/Jul/Nov)

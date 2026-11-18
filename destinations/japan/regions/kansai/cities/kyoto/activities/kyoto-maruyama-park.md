@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: nature
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 24h
@@ -17,8 +17,8 @@ best_season: all year round (sakura top spot)
 best_time: anytime
 coords: [35.003762, 135.781476]
 coords_precision: exact
-name_ja: 円山公園
-address_ja: 京都府京都市東山区
+name_local: 円山公園
+address_local: 京都府京都市東山区
 ---
 
 # Maruyama Park

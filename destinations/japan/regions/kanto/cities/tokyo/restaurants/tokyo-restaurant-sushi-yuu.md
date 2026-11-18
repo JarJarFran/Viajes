@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: sushi
 price_range: ¥¥¥¥
-budget_lunch_yen: [30000, 39999]
-budget_dinner_yen: [30000, 39999]
+budget_lunch: [30000, 39999]
+budget_dinner: [30000, 39999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 4.01
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kanto/nikko
 category: nature
 duration_hours: 1.5
 approx_cost: upper viewpoint free; elevator ¥600
-cost_yen: 600
+cost: 600
 entry: mixed
 tags: [touristic, iconic]
 hours: elevator Dec–Feb ~9:00-16:30
@@ -16,8 +16,8 @@ best_season: all year round; frozen in deep winter
 best_time: afternoon
 coords: [36.738009, 139.501968]
 coords_precision: exact
-name_ja: 華厳滝
-address_ja: 〒321-1661 栃木県日光市
+name_local: 華厳滝
+address_local: 〒321-1661 栃木県日光市
 verified: '2026-11-17'
 ---
 

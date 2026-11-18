@@ -7,7 +7,7 @@ area: osaka-area-namba
 area_detail: Hozenji Yokocho
 cuisine: yakiniku (Kuroge wagyu harami), teppanyaki
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.5
 tags: [top-rated]

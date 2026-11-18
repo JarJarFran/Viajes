@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: temple
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: 6:00-17:00
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.sumiyoshi.or.jp/
 coords: [34.613003, 135.493101]
 coords_precision: exact
-name_ja: 住吉大社
-address_ja: 〒558-0045 大阪府大阪市住吉区住吉二丁目89
+name_local: 住吉大社
+address_local: 〒558-0045 大阪府大阪市住吉区住吉二丁目89
 ---
 
 # Sumiyoshi Taisha Shrine

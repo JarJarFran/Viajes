@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-roppongi
 cuisine: udon, curry udon, tempura
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1307/A130701/13307867/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.56
@@ -19,7 +19,7 @@ station: Roppongi
 station_m: 164
 coords: [35.662535, 139.731166]
 coords_precision: station
-address_ja: 東京都港区六本木7-13-2
+address_local: 東京都港区六本木7-13-2
 verified: '2026-11-18'
 ---
 

@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Shijo
 cuisine: yakiniku
 price_range: ¥¥¥
-budget_lunch_yen: [3000, 3999]
+budget_lunch: [3000, 3999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.74
 tags: [top-rated]

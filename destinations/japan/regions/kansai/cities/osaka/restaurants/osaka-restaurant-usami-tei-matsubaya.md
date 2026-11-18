@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-shinsaibashi
 cuisine: udon, soba, oyako-don
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270201/27000931/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.66
@@ -22,7 +22,7 @@ station: Shinsaibashi
 station_m: 365
 coords: [34.675354, 135.499201]
 coords_precision: station
-address_ja: 大阪府大阪市中央区南船場3-8-1
+address_local: 大阪府大阪市中央区南船場3-8-1
 verified: '2026-11-18'
 ---
 

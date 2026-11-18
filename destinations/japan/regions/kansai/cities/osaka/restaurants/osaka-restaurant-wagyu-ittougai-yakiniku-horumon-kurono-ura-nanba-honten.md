@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: yakiniku (A4+ wagyu), horumon
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.45
 station: Kintetsu Nippombashi

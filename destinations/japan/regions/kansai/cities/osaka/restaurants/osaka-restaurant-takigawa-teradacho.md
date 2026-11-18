@@ -7,7 +7,7 @@ area: osaka-area-tennoji
 area_detail: Teradacho (Tennoji)
 cuisine: yakiniku / horumon
 price_range: ¥¥¥
-budget_dinner_yen: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.52
 tags: [top-rated]

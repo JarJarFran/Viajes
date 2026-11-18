@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: ¥1,000–1,700 depending on course
-cost_yen: 1000
+cost: 1000
 entry: paid
 tags: [top50]
 hours: 10:00-19:00
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.suijobus.co.jp/
 coords: [35.710793, 139.798492]
 coords_precision: exact
-name_ja: 浅草・お台場直通ライン
-address_ja: 〒111-0033 東京台東区花川戸花川戸一丁目隅田川テラス
+name_local: 浅草・お台場直通ライン
+address_local: 〒111-0033 東京台東区花川戸花川戸一丁目隅田川テラス
 ---
 
 # Sumida River cruise (Asakusa → Odaiba, Himiko)

@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: food
 duration_hours: 1.5
 approx_cost: samples ¥500–1,500
-cost_yen: 500
+cost: 500
 entry: mixed
 tags: [touristic, top50]
 hours: 9:00-17:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.nishiki.or.jp/en/
 coords: [35.005024, 135.76557]
 coords_precision: exact
-name_ja: 錦市場
-address_ja: 〒604-8123 京都府京都市中京区東魚屋町錦小路通
+name_local: 錦市場
+address_local: 〒604-8123 京都府京都市中京区東魚屋町錦小路通
 ---
 
 # Nishiki Market ("Kyoto's Kitchen")

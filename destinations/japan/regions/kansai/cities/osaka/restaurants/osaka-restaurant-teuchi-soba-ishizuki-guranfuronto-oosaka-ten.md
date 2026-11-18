@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Umeda (Grand Front 7F)
 cuisine: soba (Edo-style 80/20), izakaya, tempura
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/soba/
 tabelog_rating: 3.48
 station: Osaka

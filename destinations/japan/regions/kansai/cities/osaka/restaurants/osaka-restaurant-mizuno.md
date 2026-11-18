@@ -16,8 +16,8 @@ opening:
 link: https://www.mizuno.co.jp/
 coords: [34.668372, 135.50322]
 coords_precision: exact
-name_ja: 美津の
-address_ja: 大阪府大阪市中央区道頓堀1-4-15
+name_local: 美津の
+address_local: 大阪府大阪市中央区道頓堀1-4-15
 verified: '2026-11-18'
 ---
 

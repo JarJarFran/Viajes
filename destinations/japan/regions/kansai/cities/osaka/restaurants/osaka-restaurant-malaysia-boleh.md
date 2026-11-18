@@ -7,8 +7,8 @@ area: osaka-area-umeda
 area_detail: Umeda / Osaka Station
 cuisine: Malaysian curry (halal)
 price_range: ¥¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [null, 999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.52
 tags: [top-rated]

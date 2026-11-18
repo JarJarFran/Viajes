@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 2
 approx_cost: free to browse
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 10:00-20:00
@@ -18,8 +18,8 @@ best_season: all year round
 best_time: afternoon
 coords: [35.709241, 139.665685]
 coords_precision: exact
-name_ja: 中野ブロードウェイ
-address_ja: 〒165-0001 東京中野区中野中野五丁目15
+name_local: 中野ブロードウェイ
+address_local: 〒165-0001 東京中野区中野中野五丁目15
 verified: '2026-11-17'
 ---
 

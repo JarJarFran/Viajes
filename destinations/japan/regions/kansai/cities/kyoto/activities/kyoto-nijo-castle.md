@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: history
 duration_hours: 2
 approx_cost: ¥800 grounds; ¥1,300 with Ninomaru Palace
-cost_yen: 800
+cost: 800
 entry: paid
 tags: [touristic, top50, unesco]
 hours: 9:00-16:30
@@ -19,8 +19,8 @@ best_time: morning
 link: https://nijo-jocastle.jp/en/
 coords: [35.014008, 135.748537]
 coords_precision: exact
-name_ja: 二条城
-address_ja: 〒602-8145 京都府京都市中京区左馬松町松屋町通
+name_local: 二条城
+address_local: 〒602-8145 京都府京都市中京区左馬松町松屋町通
 ---
 
 # Nijo Castle

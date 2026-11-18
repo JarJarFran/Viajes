@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: temple
 duration_hours: 0.5
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: 24h
@@ -18,8 +18,8 @@ best_time: anytime
 link: https://www.nambayasaka.jp/
 coords: [34.661482, 135.496733]
 coords_precision: exact
-name_ja: 難波八坂神社
-address_ja: 〒556-0015 大阪府大阪市浪速区元町二丁目大国町筋
+name_local: 難波八坂神社
+address_local: 〒556-0015 大阪府大阪市浪速区元町二丁目大国町筋
 ---
 
 # Namba Yasaka Shrine (lion head)

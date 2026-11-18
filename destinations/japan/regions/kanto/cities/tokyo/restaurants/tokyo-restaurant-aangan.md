@@ -7,8 +7,8 @@ area: tokyo-area-shinjuku
 area_detail: Shin-Okubo
 cuisine: nepalese curry, izakaya
 price_range: ¥¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [null, 999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.56
 tags: [top-rated]

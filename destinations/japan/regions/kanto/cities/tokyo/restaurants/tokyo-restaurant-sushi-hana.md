@@ -7,7 +7,7 @@ area: tokyo-area-shinjuku
 area_detail: Shinjuku (Higashi-Shinjuku / Kabukicho)
 cuisine: sushi, seafood
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.54
 tags: [top-rated]

@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-umeda
 cuisine: gyoza, izakaya, ramen
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.48
 station: Ogimachi

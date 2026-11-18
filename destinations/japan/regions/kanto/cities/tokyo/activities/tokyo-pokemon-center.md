@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: leisure
 duration_hours: 1
 approx_cost: free (merch from ¥500)
-cost_yen: 500
+cost: 500
 entry: mixed
 tags: [top100]
 hours: 10:00-20:00
@@ -18,7 +18,7 @@ best_time: anytime
 link: https://www.pokemon.co.jp/shop/pokecen/tokyo/
 coords: [35.680919, 139.772802]
 coords_precision: exact
-name_ja: ポケモンセンタートウキョーDX（日本橋高島屋S.C.）
+name_local: ポケモンセンタートウキョーDX（日本橋高島屋S.C.）
 ---
 
 # Pokemon Center (Tokyo Station / Nihonbashi)

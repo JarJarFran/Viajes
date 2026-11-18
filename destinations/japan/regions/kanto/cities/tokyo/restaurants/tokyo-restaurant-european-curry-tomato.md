@@ -7,8 +7,8 @@ area: tokyo-area-chuo-west
 area_detail: Ogikubo / Koenji
 cuisine: european curry
 price_range: ¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [2000, 2999]
+budget_dinner: [2000, 2999]
 tabelog: https://tabelog.com/en/tokyo/A1319/A131906/13001113/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 4.26
@@ -23,7 +23,7 @@ station: Ogikubo
 station_m: 232
 coords: [35.70448, 139.620159]
 coords_precision: station
-address_ja: 東京都杉並区荻窪5-20-7 吉田ビル 1F
+address_local: 東京都杉並区荻窪5-20-7 吉田ビル 1F
 verified: '2026-11-18'
 ---
 

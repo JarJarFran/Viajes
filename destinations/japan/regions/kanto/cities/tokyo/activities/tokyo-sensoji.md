@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: temple
 duration_hours: 2
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50, iconic, unesco]
 hours: 6:00-18:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.sensoji.jp/
 coords: [35.713403, 139.795526]
 coords_precision: exact
-name_ja: 浅草寺
-address_ja: 〒111-0032 東京台東区浅草浅草二丁目1
+name_local: 浅草寺
+address_local: 〒111-0032 東京台東区浅草浅草二丁目1
 ---
 
 # Senso-ji Temple (Asakusa)

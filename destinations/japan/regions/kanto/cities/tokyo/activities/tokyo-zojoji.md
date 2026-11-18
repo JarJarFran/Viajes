@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: temple
 duration_hours: 1
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: 24h
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.zojoji.or.jp/
 coords: [35.657278, 139.748343]
 coords_precision: exact
-name_ja: 増上寺
-address_ja: 〒105-8511 東京港区芝公園芝公園二丁目日比谷通り
+name_local: 増上寺
+address_local: 〒105-8511 東京港区芝公園芝公園二丁目日比谷通り
 ---
 
 # Zojo-ji Temple

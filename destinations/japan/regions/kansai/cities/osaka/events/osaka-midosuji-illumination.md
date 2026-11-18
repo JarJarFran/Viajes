@@ -15,8 +15,8 @@ best_time: night
 link: https://www.hikari-kyoen.com/
 coords: [34.665055, 135.500255]
 coords_precision: exact
-name_ja: 御堂筋
-address_ja: 〒542-8510 大阪府大阪市中央区難波五丁目
+name_local: 御堂筋
+address_local: 〒542-8510 大阪府大阪市中央区難波五丁目
 verified: 2026-11
 ---
 

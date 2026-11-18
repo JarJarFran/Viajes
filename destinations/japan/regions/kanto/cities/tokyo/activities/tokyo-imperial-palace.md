@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 category: history
 duration_hours: 1.5
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [touristic, top50]
 hours: 9:00-16:30
@@ -20,8 +20,8 @@ best_time: morning
 link: https://www.kunaicho.go.jp/english/
 coords: [35.686701, 139.757396]
 coords_precision: exact
-name_ja: 皇居東御苑
-address_ja: 〒102-0000 東京千代田区
+name_local: 皇居東御苑
+address_local: 〒102-0000 東京千代田区
 verified: '2026-11-17'
 ---
 

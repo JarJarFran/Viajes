@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: nature
 duration_hours: 1.5
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 24h
@@ -17,8 +17,8 @@ best_season: all year round (best sakura/koyo)
 best_time: morning
 coords: [35.024791, 135.796376]
 coords_precision: exact
-name_ja: 哲学の道
-address_ja: 〒606-8402 京都府京都市左京区浄土寺南田町
+name_local: 哲学の道
+address_local: 〒606-8402 京都府京都市左京区浄土寺南田町
 ---
 
 # Philosopher's Path (Tetsugaku-no-michi)

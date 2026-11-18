@@ -5,11 +5,11 @@ This repository is a **travel knowledge graph consumed by agents/LLMs**, not a w
 ## Read order (cheapest first)
 
 1. **`exports/shortlists/<city>.json`** — best options per city: top50/top100 sights (with area and closures), restaurants passing the strict filter (Tabelog ≥ 3.5 and some meal ≤ ¥4,999/person), events with editions, routes, areas.
-2. **`exports/trips/<trip>.json`** — the computed trip: `summary` (nights, budget, totals), `deadlines` (ticket sales, booking reminders), `events` overlapping the trip, and `days.<day-id>` with the plan items in their planned order (slot, cost estimate, closures that day, coords, Google Maps link, km from the previous stop), `sunrise`/`sunset`, `check_out`/`check_in` on moving days, `local_transport_yen` (included in `est_yen`), `warnings` (opening hours vs slot, meals far above the ¥4,999 cap, a shorter visiting order) and `suggestion`. Use it for anything about a trip.
+2. **`exports/trips/<trip>.json`** — the computed trip: `summary` (nights, budget, totals), `deadlines` (ticket sales, booking reminders), `events` overlapping the trip, and `days.<day-id>` with the plan items in their planned order (slot, cost estimate, closures that day, coords, Google Maps link, km from the previous stop), `sunrise`/`sunset`, `check_out`/`check_in` on moving days, `currency` with `est` (includes `local_transport`) vs `budget`, `warnings` (opening hours vs slot, meals far above the strict cap — ¥4,999 / CN¥249, a shorter visiting order) and `suggestion`. Use it for anything about a trip.
 3. **`exports/cities/<city>.json`** — every node of one city (plus routes touching it) and their edges.
 4. **`exports/index.json`** — whole graph, one node/edge per line. Only for global questions.
 5. **`python3 scripts/query.py <cmd> ...`** — filtered answers as JSON lines (default) or `--format md`:
-   - `restaurants --city osaka --area namba --min-rating 3.5 --max-yen 1999 --meal lunch` · `restaurants --city tokyo --near tokyo-sensoji --km 0.8`
+   - `restaurants --city osaka --area namba --min-rating 3.5 --max 1999 --meal lunch` (`--max` in the city's currency) · `restaurants --city tokyo --near tokyo-sensoji --km 0.8`
    - `near --id tokyo-sensoji --type restaurant --km 1` — anything around a node (needs coords)
    - `activities --city kyoto --entry free --tag top50 --open-on 2027-01-02` — drops places fully closed that day
    - `events --trip 2026-japan` / `events --on-date 2027-01-10` · `routes --city kyoto` · `areas --city tokyo` · `hotels --city tokyo`

@@ -15,7 +15,7 @@ opening:
   - {days: [mon, tue, wed, thu, fri, sat, sun, hol, pre_hol], times: [11:30-22:30]}
 coords: [35.004986, 135.76296]
 coords_precision: exact
-address_ja: 京都府京都市中京区錦小路通高倉西魚屋町597 ミズコートビル １Ｆ
+address_local: 京都府京都市中京区錦小路通高倉西魚屋町597 ミズコートビル １Ｆ
 verified: '2026-11-18'
 ---
 

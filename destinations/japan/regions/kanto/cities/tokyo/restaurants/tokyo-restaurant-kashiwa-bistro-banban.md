@@ -7,7 +7,7 @@ area: tokyo-area-shibuya
 area_detail: Shibuya (Dogenzaka)
 cuisine: italian, curry, bar
 price_range: ¥¥¥¥
-budget_dinner_yen: [5000, 5999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.55
 tags: [top-rated]
@@ -15,7 +15,7 @@ station: Shinsen
 station_m: 31
 coords: [35.657561, 139.69376]
 coords_precision: exact
-name_ja: かしわビストロバンバン
+name_local: かしわビストロバンバン
 verified: 2026-11
 ---
 

@@ -2,12 +2,14 @@
 id: japan
 type: country
 name: Japan
-native_name: 日本 (Nihon)
+name_local: 日本 (Nihon)
 iso_code: JP
 currency: Yen (JPY, ¥)
+currency_code: JPY
 language: Japanese
 capital: tokyo
 timezone: UTC+9
+tz: Asia/Tokyo
 plugs: type A/B (100 V)
 holidays: [2026-11-23, 2027-01-01, 2027-01-11, 2027-02-11, 2027-02-23]
 emergency:

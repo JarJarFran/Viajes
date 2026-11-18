@@ -9,8 +9,8 @@ price_range: ¥¥¥
 link: https://www.gardenhotels.co.jp/kyoto-sanjo/
 coords: [35.008315, 135.761911]
 coords_precision: exact
-name_ja: 三井ガーデンホテル京都三条プレミア
-address_ja: 〒604-8111 京都府京都市中京区桝屋町三条通
+name_local: 三井ガーデンホテル京都三条プレミア
+address_local: 〒604-8111 京都府京都市中京区桝屋町三条通
 ---
 
 # Mitsui Garden Hotel Kyoto Sanjo

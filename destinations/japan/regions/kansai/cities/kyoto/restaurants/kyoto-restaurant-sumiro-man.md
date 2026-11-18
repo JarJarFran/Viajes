@@ -7,7 +7,7 @@ area: kyoto-area-karasuma
 area_detail: Nishiki Market / Shijo-Karasuma
 cuisine: izakaya, robata-yaki, kushiyaki
 price_range: ¥¥¥
-budget_dinner_yen: [3000, 3999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.43
 station: Karasuma

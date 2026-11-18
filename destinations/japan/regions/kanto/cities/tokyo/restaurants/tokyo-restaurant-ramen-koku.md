@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: ramen
 price_range: ¥
-budget_yen: [null, 999]
+budget: [null, 999]
 tabelog: https://tabelog.com/en/tokyo/A1303/A130301/13149719/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.69
@@ -21,7 +21,7 @@ closed:
   - {weekly: [sat], nth: [1, 3, 5]}
 coords: [35.658423, 139.702516]
 coords_precision: area
-address_ja: 東京都渋谷区桜丘町29-5 石島ビル 1F
+address_local: 東京都渋谷区桜丘町29-5 石島ビル 1F
 verified: '2026-11-18'
 ---
 

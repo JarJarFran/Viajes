@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: ramen
 price_range: ¥¥
-budget_dinner_yen: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
 tabelog_rating: 3.01
 station: Kyoto Kawaramachi

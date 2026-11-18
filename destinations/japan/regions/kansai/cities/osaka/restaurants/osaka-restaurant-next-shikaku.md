@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: ramen, tsukemen, abura-soba, maze-soba
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog: https://tabelog.com/en/osaka/A2701/A270202/27124383/
 tabelog_list: https://tabelog.com/en/osaka/rstLst/ramen/
 tabelog_rating: 3.69
@@ -22,8 +22,8 @@ station: Namba
 station_m: 173
 coords: [34.664159, 135.503315]
 coords_precision: exact
-name_ja: ネクストシカク
-address_ja: 大阪府大阪市中央区難波千日前9-12 道具屋筋商店街
+name_local: ネクストシカク
+address_local: 大阪府大阪市中央区難波千日前9-12 道具屋筋商店街
 verified: '2026-11-18'
 ---
 

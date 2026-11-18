@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: nature
 duration_hours: 2
 approx_cost: zoo ¥800 (free with Osaka Amazing Pass); park free
-cost_yen: 800
+cost: 800
 entry: mixed
 tags: [top50, kid-friendly]
 hours: 9:30-17:00
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.city.osaka.lg.jp/
 coords: [34.650845, 135.509446]
 coords_precision: exact
-name_ja: 天王寺公園
-address_ja: 大阪府大阪市天王寺区
+name_local: 天王寺公園
+address_local: 大阪府大阪市天王寺区
 ---
 
 # Tennoji Park & Osaka City Zoo

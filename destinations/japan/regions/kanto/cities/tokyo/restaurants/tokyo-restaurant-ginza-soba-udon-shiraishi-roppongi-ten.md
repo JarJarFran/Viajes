@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-roppongi
 cuisine: soba, udon, izakaya
 price_range: ¥
-budget_lunch_yen: [null, 999]
-budget_dinner_yen: [null, 999]
+budget_lunch: [null, 999]
+budget_dinner: [null, 999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.45
 station: Roppongi

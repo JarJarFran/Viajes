@@ -6,8 +6,8 @@ place: japan/kansai/osaka
 area: osaka-area-umeda
 cuisine: tonkatsu, yoshoku, curry
 price_range: ¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [2000, 2999]
+budget_dinner: [3000, 3999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/curry/
 tabelog_rating: 3.66
 tags: [top-rated]

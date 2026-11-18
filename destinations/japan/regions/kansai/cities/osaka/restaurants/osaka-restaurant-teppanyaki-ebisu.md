@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 area: osaka-area-namba
 cuisine: izakaya, steak, okonomiyaki (ebisuyaki)
 price_range: ¥¥¥
-budget_dinner_yen: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
 tabelog_rating: 3.39
 station: Osaka Namba

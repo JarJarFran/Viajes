@@ -7,8 +7,8 @@ area: kyoto-area-kawaramachi
 area_detail: Pontocho/Sanjo
 cuisine: yakiniku
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [2000, 2999]
+budget_dinner: [8000, 9999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/
 tabelog_rating: 3.64
 tags: [top-rated]

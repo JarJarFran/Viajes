@@ -6,7 +6,7 @@ place: japan/kanto/tokyo
 area: tokyo-area-shinjuku
 cuisine: ramen
 price_range: ¥¥
-budget_yen: [1000, 1400]
+budget: [1000, 1400]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 coords: [35.688812, 139.708289]
 coords_precision: exact

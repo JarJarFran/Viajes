@@ -7,7 +7,7 @@ area: tokyo-area-ebisu
 area_detail: Hiroo / Ebisu
 cuisine: yakiniku, gyutan (beef tongue), tripe
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.98
 tags: [top-rated]

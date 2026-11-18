@@ -7,8 +7,8 @@ area: tokyo-area-roppongi
 area_detail: Akasaka / Nishi-Azabu
 cuisine: soba, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [2000, 2999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.72
 tags: [top-rated]

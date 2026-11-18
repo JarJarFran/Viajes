@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-kyoto-station
 cuisine: halal wagyu ramen (no pork), gyukatsu, tempura
 price_range: ¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [4000, 4999]
+budget_lunch: [3000, 3999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/ramen/
 station: Kyoto
 station_m: 568

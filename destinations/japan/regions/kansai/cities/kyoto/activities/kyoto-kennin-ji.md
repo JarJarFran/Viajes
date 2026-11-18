@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1
 approx_cost: ¥500
-cost_yen: 500
+cost: 500
 entry: paid
 tags: [top50]
 hours: 10:00-16:00
@@ -18,8 +18,8 @@ best_time: afternoon
 link: https://www.kenninji.jp/
 coords: [35.000257, 135.773741]
 coords_precision: exact
-name_ja: 建仁寺
-address_ja: 〒605-0813 京都府京都市東山区辰巳町新シ町こもれ火小路
+name_local: 建仁寺
+address_local: 〒605-0813 京都府京都市東山区辰巳町新シ町こもれ火小路
 ---
 
 # Kennin-ji

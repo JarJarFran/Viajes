@@ -7,7 +7,7 @@ area: osaka-area-honmachi
 area_detail: Hommachi
 cuisine: yakitori (Nagano chicken), izakaya
 price_range: ¥¥¥¥
-budget_dinner_yen: [6000, 7999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 tabelog_rating: 3.73
 tags: [top-rated]

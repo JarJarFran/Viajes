@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-kyoto-station
 cuisine: izakaya, steak, yakitori (Binchotan)
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [1000, 1999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.49
 station: Kyoto

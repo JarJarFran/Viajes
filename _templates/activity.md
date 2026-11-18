@@ -7,7 +7,7 @@ area: <city>-area-<slug>   # optional; otherwise derived from coords (exports in
 category: <temple | history | museums | nature | hiking | onsen | food | leisure | daytrip | other>
 duration_hours: 2
 approx_cost: "¥500"        # human text
-cost_yen: 500              # number per person used by budgets (0 = free); omit if unknown
+cost: 500                  # per person in the country's currency, used by budgets (0 = free); omit if unknown
 entry: <free | paid | mixed | n/a>
 tags: []                   # top50, top100, touristic, iconic, unesco, hidden-gem, night, event, kid-friendly, rainy-day
 hours: "9:00-17:00"

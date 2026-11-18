@@ -9,7 +9,7 @@ editions:
   - {start: 2027-01-15, end: 2027-01-16, note: 9:00–20:00}
 duration_hours: 2
 approx_cost: free to browse
-cost_yen: 0
+cost: 0
 entry: mixed
 tags: [event, hidden-gem]
 booking: walk-in
@@ -17,8 +17,8 @@ best_time: morning
 link: https://www.city.setagaya.lg.jp/
 coords: [35.641404, 139.647661]
 coords_precision: exact
-name_ja: 世田谷のボロ市
-address_ja: 〒154-0017 東京世田谷区世田谷世田谷一丁目ボロ市通り
+name_local: 世田谷のボロ市
+address_local: 〒154-0017 東京世田谷区世田谷世田谷一丁目ボロ市通り
 verified: '2026-11-18'
 ---
 

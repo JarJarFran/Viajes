@@ -12,7 +12,7 @@ tabelog_rating: 3.48
 link: https://www.551horai.co.jp/
 coords: [34.666461, 135.501279]
 coords_precision: exact
-name_ja: 551蓬莱
+name_local: 551蓬莱
 verified: 2026-11
 ---
 

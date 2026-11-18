@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 category: temple
 duration_hours: 1.5
 approx_cost: ¥1,000 (since 2026-04-01; was ¥500)
-cost_yen: 1000
+cost: 1000
 entry: paid
 tags: [touristic, top50, unesco]
 hours: 9:00-16:30 (winter)
@@ -18,8 +18,8 @@ best_time: morning
 link: https://www.shokoku-ji.jp/en/ginkakuji/
 coords: [35.0269, 135.798371]
 coords_precision: exact
-name_ja: 銀閣寺
-address_ja: 〒606-8402 京都府京都市左京区銀閣寺町
+name_local: 銀閣寺
+address_local: 〒606-8402 京都府京都市左京区銀閣寺町
 verified: '2026-11-18'
 ---
 

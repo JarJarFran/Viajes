@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: yakiniku, steak, tripe
 price_range: ¥¥¥¥
-budget_lunch_yen: [8000, 9999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [8000, 9999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.68
 tags: [top-rated]
@@ -15,7 +15,7 @@ station: Ginza Itchome
 station_m: 140
 coords: [35.674501, 139.767678]
 coords_precision: exact
-name_ja: 焼肉 うしごろ 銀座店
+name_local: 焼肉 うしごろ 銀座店
 verified: 2026-11
 ---
 

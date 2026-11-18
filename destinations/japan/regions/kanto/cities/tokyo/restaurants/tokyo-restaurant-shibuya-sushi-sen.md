@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-shibuya
 cuisine: sushi, seafood, izakaya
 price_range: ¥¥¥¥
-budget_lunch_yen: [3000, 3999]
-budget_dinner_yen: [6000, 7999]
+budget_lunch: [3000, 3999]
+budget_dinner: [6000, 7999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.44
 station: Shibuya

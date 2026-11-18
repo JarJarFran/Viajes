@@ -6,11 +6,11 @@ place: japan/kanto/tokyo
 area: tokyo-area-akihabara
 cuisine: tonkatsu
 price_range: ¥¥
-budget_yen: [1500, 2500]
+budget: [1500, 2500]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 coords: [35.694933, 139.763957]
 coords_precision: exact
-name_ja: 神田 ポンチ軒
+name_local: 神田 ポンチ軒
 ---
 
 # Ponchiken

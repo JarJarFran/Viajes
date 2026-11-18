@@ -7,7 +7,7 @@ area: tokyo-area-ryogoku
 area_detail: Kinshicho / Ryogoku
 cuisine: udon, tempura
 price_range: ¥
-budget_lunch_yen: [null, 999]
+budget_lunch: [null, 999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.36
 station: Kinshicho

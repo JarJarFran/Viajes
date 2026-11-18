@@ -6,7 +6,7 @@ place: japan/kansai/osaka
 category: leisure
 duration_hours: 1.5
 approx_cost: free
-cost_yen: 0
+cost: 0
 entry: free
 tags: [top50]
 hours: 10:00-21:00
@@ -17,8 +17,8 @@ best_season: all year round
 best_time: afternoon
 coords: [34.661679, 135.502084]
 coords_precision: exact
-name_ja: なんばパークス
-address_ja: 〒556-8799 大阪府大阪市浪速区難波中二丁目パークス通
+name_local: なんばパークス
+address_local: 〒556-8799 大阪府大阪市浪速区難波中二丁目パークス通
 ---
 
 # Namba Parks

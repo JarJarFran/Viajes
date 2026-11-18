@@ -7,8 +7,8 @@ area: osaka-area-namba
 area_detail: Namba / Souemoncho
 cuisine: yakiniku, teppanyaki
 price_range: ¥¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [5000, 5999]
+budget_lunch: [1000, 1999]
+budget_dinner: [5000, 5999]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/yakiniku/
 tabelog_rating: 3.55
 tags: [top-rated]

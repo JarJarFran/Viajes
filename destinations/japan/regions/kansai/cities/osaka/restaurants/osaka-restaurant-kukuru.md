@@ -7,11 +7,11 @@ area: osaka-area-namba
 area_detail: Dotonbori, Namba
 cuisine: takoyaki
 price_range: ¥
-budget_yen: [500, 800]
+budget: [500, 800]
 tabelog_list: https://tabelog.com/en/osaka/rstLst/
 coords: [34.669244, 135.503144]
 coords_precision: exact
-name_ja: くくるたこ焼き
+name_local: くくるたこ焼き
 ---
 
 # Kukuru

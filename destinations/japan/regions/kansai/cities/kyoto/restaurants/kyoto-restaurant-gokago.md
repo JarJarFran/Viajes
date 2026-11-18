@@ -6,7 +6,7 @@ place: japan/kansai/kyoto
 area: kyoto-area-kiyomizu
 cuisine: tea stand
 price_range: ¥
-budget_lunch_yen: [null, 999]
+budget_lunch: [null, 999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.34
 station: Kiyomizu Gojo

@@ -16,8 +16,8 @@ opening:
 link: https://ichiran.com/
 coords: [34.66924, 135.503067]
 coords_precision: exact
-name_ja: 一蘭 道頓堀店本館
-address_ja: 大阪府大阪市中央区道頓堀1-4-16
+name_local: 一蘭 道頓堀店本館
+address_local: 大阪府大阪市中央区道頓堀1-4-16
 verified: '2026-11-18'
 ---
 

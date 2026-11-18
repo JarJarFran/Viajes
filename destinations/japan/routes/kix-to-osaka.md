@@ -10,7 +10,7 @@ bidirectional: true
 mode: train
 duration_hours: 1
 approx_cost: Nankai Airport Express to Namba ~¥990 (38 min); rapi:t ~¥1,490 (35 min); JR Kansai Airport Rapid to Tennoji ~¥1,060 (50 min); Haruka to Umeda ~§1,760 (50 min); limousine bus ~¥1,700–2,100
-price_yen: 990
+price: 990
 ---
 
 # Kansai Airport (KIX) → Osaka

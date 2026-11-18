@@ -6,8 +6,8 @@ place: japan/kansai/kyoto
 area: kyoto-area-kawaramachi
 cuisine: cafe with wagashi (Japanese sweets)
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [2000, 2999]
+budget_lunch: [1000, 1999]
+budget_dinner: [2000, 2999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/cafe/
 tabelog_rating: 3.51
 tags: [top-rated]

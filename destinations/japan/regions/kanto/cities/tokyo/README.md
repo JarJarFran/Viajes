@@ -8,7 +8,7 @@ region: kanto
 prefecture: Tokyo
 population: 14000000
 coords: [35.6762, 139.6503]
-local_transport_day_yen: 1000
+local_transport_day: 1000
 likes: [vibrant_cities, local_food, temples_and_shrines, anime_manga_and_pop_culture, photography_and_viewpoints]
 ---
 

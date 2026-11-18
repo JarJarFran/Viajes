@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-harajuku
 cuisine: curry
 price_range: ¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [1000, 1999]
+budget_lunch: [1000, 1999]
+budget_dinner: [1000, 1999]
 tabelog: https://tabelog.com/en/tokyo/A1306/A130601/13103835/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/curry/
 tabelog_rating: 3.76
@@ -20,7 +20,7 @@ station: Kita Sando
 station_m: 460
 coords: [35.674616, 139.707611]
 coords_precision: exact
-address_ja: 東京都渋谷区神宮前2-35-9 原宿リビン 105
+address_local: 東京都渋谷区神宮前2-35-9 原宿リビン 105
 verified: '2026-11-18'
 ---
 

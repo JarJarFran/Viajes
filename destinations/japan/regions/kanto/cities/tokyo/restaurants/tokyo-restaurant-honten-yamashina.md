@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: teppanyaki, steak, yakiniku
 price_range: ¥¥¥¥
-budget_lunch_yen: [10000, 14999]
-budget_dinner_yen: [15000, 19999]
+budget_lunch: [10000, 14999]
+budget_dinner: [15000, 19999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/yakiniku/
 tabelog_rating: 3.71
 tags: [top-rated]

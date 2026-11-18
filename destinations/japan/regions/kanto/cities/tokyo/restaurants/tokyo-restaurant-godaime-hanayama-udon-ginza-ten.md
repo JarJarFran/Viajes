@@ -6,8 +6,8 @@ place: japan/kanto/tokyo
 area: tokyo-area-ginza
 cuisine: udon, izakaya, tempura
 price_range: ¥¥¥
-budget_lunch_yen: [1000, 1999]
-budget_dinner_yen: [3000, 3999]
+budget_lunch: [1000, 1999]
+budget_dinner: [3000, 3999]
 tabelog: https://tabelog.com/en/tokyo/A1301/A130101/13200630/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/udon/
 tabelog_rating: 3.63
@@ -20,7 +20,7 @@ station: Higashi Ginza
 station_m: 191
 coords: [35.668698, 139.768265]
 coords_precision: station
-address_ja: 東京都中央区銀座3-14-13
+address_local: 東京都中央区銀座3-14-13
 verified: '2026-11-18'
 ---
 

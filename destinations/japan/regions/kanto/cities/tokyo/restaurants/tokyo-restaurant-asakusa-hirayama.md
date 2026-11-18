@@ -7,8 +7,8 @@ area: tokyo-area-asakusa
 area_detail: Asakusa / Ueno
 cuisine: soba, tempura
 price_range: ¥¥¥¥
-budget_lunch_yen: [2000, 2999]
-budget_dinner_yen: [8000, 9999]
+budget_lunch: [2000, 2999]
+budget_dinner: [8000, 9999]
 tabelog: https://tabelog.com/en/tokyo/A1311/A131102/13264582/
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/soba/
 tabelog_rating: 3.71
@@ -24,7 +24,7 @@ station: Tawaramachi
 station_m: 107
 coords: [35.709836, 139.790755]
 coords_precision: station
-address_ja: 東京都台東区西浅草1-3-14
+address_local: 東京都台東区西浅草1-3-14
 verified: '2026-11-18'
 ---
 

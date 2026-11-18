@@ -7,7 +7,7 @@ area: tokyo-area-shinjuku
 area_detail: Nishi-Shinjuku
 cuisine: sushi (Edomae)
 price_range: ¥¥¥¥
-budget_dinner_yen: [10000, 14999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.56
 tags: [top-rated]

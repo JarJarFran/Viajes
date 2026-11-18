@@ -7,8 +7,8 @@ area: tokyo-area-ginza
 area_detail: Shiodome / Shimbashi
 cuisine: sushi, seafood
 price_range: ¥¥¥¥
-budget_lunch_yen: [8000, 9999]
-budget_dinner_yen: [10000, 14999]
+budget_lunch: [8000, 9999]
+budget_dinner: [10000, 14999]
 tabelog_list: https://tabelog.com/en/tokyo/rstLst/
 tabelog_rating: 3.5
 tags: [top-rated]

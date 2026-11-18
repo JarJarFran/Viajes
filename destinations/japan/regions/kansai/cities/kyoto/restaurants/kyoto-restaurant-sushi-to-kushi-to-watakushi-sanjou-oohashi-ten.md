@@ -7,7 +7,7 @@ area: kyoto-area-kawaramachi
 area_detail: Sanjo
 cuisine: izakaya, sushi, kushikatsu
 price_range: ¥¥¥
-budget_dinner_yen: [4000, 4999]
+budget_dinner: [4000, 4999]
 tabelog_list: https://tabelog.com/en/kyoto/rstLst/izakaya/
 tabelog_rating: 3.36
 station: Sanjo
