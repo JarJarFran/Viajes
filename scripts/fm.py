@@ -51,12 +51,19 @@ def _key(k):
     return _scalar(str(k))
 
 
-def _flow(v):
+FLOW_INDICATORS = re.compile(r"[,\[\]{}]")
+
+
+def _flow(v, inner=False):
+    """Flow YAML. Inside [..] / {..} a plain string with , [ ] { } would be split: quote it."""
     if isinstance(v, dict):
-        return "{" + ", ".join(f"{_key(k)}: {_flow(x)}" for k, x in v.items()) + "}"
+        return "{" + ", ".join(f"{_key(k)}: {_flow(x, True)}" for k, x in v.items()) + "}"
     if isinstance(v, list):
-        return "[" + ", ".join(_flow(x) for x in v) + "]"
-    return _scalar(v)
+        return "[" + ", ".join(_flow(x, True) for x in v) + "]"
+    out = _scalar(v)
+    if inner and isinstance(v, str) and out[:1] not in ("'", '"') and FLOW_INDICATORS.search(out):
+        return json.dumps(v, ensure_ascii=False)
+    return out
 
 
 def _emit(key, v, indent=""):

@@ -74,7 +74,10 @@ Day trips: [Kamakura & Enoshima](../kamakura/activities/kamakura-day-trip.md) (~
 - [Narita Airport (NRT) ↔ central Tokyo](../../../../routes/narita-to-tokyo-center.md) — JR N'EX ¥3,140 to Tokyo/Shinjuku/Shibuya (~60 min); Keisei Skyliner to Ueno/Nippori ~¥2,600 (~41 min); limousine bus ¥1,500–3,800 by drop (60–90 min) (~1 h)
 - [Tokyo ↔ Kamakura](../../../../routes/tokyo-to-kamakura.md) — JR Yokosuka Line Tokyo Station → Kamakura ~¥950–1,020 (~55–60 min); JR Shonan-Shinjuku Line to Kamakura ~¥1,020 (~50 min) (~1 h)
 - [Tokyo (Shinjuku) ↔ Kawaguchiko](../../../../routes/tokyo-to-kawaguchiko.md) — highway bus ¥2,200 one way (~2 h); JR + Fujikyu ~¥4,000 (~2 h)
+- [Tokyo ↔ Nagoya](../../../../routes/tokyo-to-nagoya.md) — Tokaido Shinkansen Nozomi about 1h33-1h40, reserved seat ¥11,300 (regular season; one guide lists ¥10,880). The reserved surcharge rises to ¥11,880 from 1 Jul 2027; unreserved prices stay the same. Kodama about 2h40; JR Central Tours 'Platt Kodama' package from ¥8,710. (~1.6 h)
 - [Tokyo (Asakusa) ↔ Nikko](../../../../routes/tokyo-to-nikko.md) — Tobu Limited Express ¥3,340 one way (¥1,400 + ¥1,940 surcharge), ~1 h 50 min; local trains ¥1,400 (~2 h)
+- [Tokyo ↔ Sapporo](../../../../routes/tokyo-to-sapporo.md) — Haneda→New Chitose flight about 1 h 35–1 h 40 (JAL, ANA, Skymark, AIRDO, StarFlyer); fares vary by date (JAL from ¥12,920 one-way shown for 29 Nov 2026; lowest seen on tour.ne.jp ¥8,379). Then JR Rapid Airport New Chitose→Sapporo about 37 min, ¥1,230. (~2.5 h)
+- [Tokyo ↔ Sendai](../../../../routes/tokyo-to-sendai.md) — Tohoku Shinkansen, regular season after the March 2026 fare revision: Yamabiko reserved ¥11,310; Hayabusa reserved ¥11,630 (fare ¥6,270 + express ¥5,360). -¥200 off-peak, +¥200 peak, +¥400 busiest; Eki-net eTicket -¥200 on reserved seats. Travel time not confirmed.
 - [Tokyo → Shin-Osaka (Tokaido Shinkansen)](../../../../routes/tokyo-to-shin-osaka.md) — Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320) (~3 h)
 <!-- gen:end routes -->
 

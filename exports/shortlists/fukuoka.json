@@ -5,5 +5,15 @@
  "activities_top": [],
  "restaurants_strict": [],
  "events": [],
- "routes": []
+ "routes": [
+  {
+   "id": "fukuoka-to-kumamoto",
+   "name": "Fukuoka ↔ Kumamoto",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/kumamoto",
+   "mode": "shinkansen",
+   "duration_hours": 0.6,
+   "price": 5310
+  }
+ ]
 }

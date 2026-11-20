@@ -2,8 +2,106 @@
  "city": "japan/chubu/nagoya",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "nagoya-atsuta-jingu",
+   "name": "Atsuta Jingu",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Grounds open 24 hours; Treasure Hall and Kusanagi-kan 9:00-16:30 (last entry 16:00; some listings say 16:10)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "nagoya-castle",
+   "name": "Nagoya Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 1000,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "9:00-16:30 (last entry 16:00); extended hours during seasonal festivals (e.g. 9:00-19:30 from 19 Sep to 4 Oct 2026)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "yearly": "12-29..01-01"
+    }
+   ]
+  },
+  {
+   "id": "nagoya-osu-kannon",
+   "name": "Osu Kannon and Osu shopping district",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
- "routes": []
+ "events": [
+  {
+   "id": "nagoya-atsuta-festival",
+   "name": "Atsuta Festival (Shobu-sai)",
+   "recurrence": "yearly, every 5 June",
+   "editions": [
+    {
+     "start": "2026-06-05",
+     "end": "2026-06-05",
+     "note": "Rite from 10:00; fireworks 19:40-20:30 from Jingu Park"
+    },
+    {
+     "start": "2027-06-05",
+     "end": "2027-06-05",
+     "note": "Fixed date; times not yet published"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  },
+  {
+   "id": "nagoya-festival",
+   "name": "Nagoya Festival",
+   "recurrence": "yearly, on a weekend in October (2 days)",
+   "editions": [
+    {
+     "start": "2026-10-17",
+     "end": "2026-10-18",
+     "note": "72nd edition; main venue Hisaya-odori Park. The procession of the three unifiers was not held because of the Asian Para Games; floats of the three unifiers were displayed instead (17 Oct 18:00-20:00, 18 Oct 17:00-19:00). Nagoya Castle admission was free both days."
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "tokyo-to-nagoya",
+   "name": "Tokyo ↔ Nagoya",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/nagoya",
+   "mode": "shinkansen",
+   "duration_hours": 1.6,
+   "price": 11300
+  }
+ ]
 }

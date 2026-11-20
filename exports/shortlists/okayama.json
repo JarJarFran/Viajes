@@ -5,5 +5,15 @@
  "activities_top": [],
  "restaurants_strict": [],
  "events": [],
- "routes": []
+ "routes": [
+  {
+   "id": "okayama-to-takamatsu",
+   "name": "Okayama ↔ Takamatsu",
+   "origin": "japan/chugoku/okayama",
+   "destination": "japan/shikoku/takamatsu",
+   "mode": "train",
+   "duration_hours": 0.9,
+   "price": 1660
+  }
+ ]
 }

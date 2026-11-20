@@ -518,7 +518,9 @@ class TestFrontmatter(unittest.TestCase):
               "tags": ["a", "b"], "price": "¥¥", "empty": [], "n": None, "flag": "yes", "on": "off", "num": "0123",
               "stops": [{"from": date(2027, 1, 1), "to": date(2027, 1, 2), "place": "a/b",
                          "notes": "x" * 150}, {"from": date(2027, 1, 2), "to": date(2027, 1, 3), "place": "a/c"}],
-              "closed": [{"weekly": ["mon"], "holiday_shift": True}, {"yearly": "12-28..01-04"}]}
+              "closed": [{"weekly": ["mon"], "holiday_shift": True}, {"yearly": "12-28..01-04"},
+                         {"irregular": "spring break, Golden Week [and] {summer}"}],
+              "plan": [{"id": "a", "note": "a, b"}], "list": ["x, y", "[z]"]}
         text = fmio.render(fm, "\n# body\n")
         back, body, err = fmio.parse(text)
         self.assertIsNone(err)

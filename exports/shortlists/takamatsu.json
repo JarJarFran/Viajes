@@ -2,8 +2,83 @@
  "city": "japan/shikoku/takamatsu",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "takamatsu-castle-tamamo-park",
+   "name": "Takamatsu Castle Ruins (Tamamo Park)",
+   "category": "history",
+   "entry": "paid",
+   "cost": 300,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Varies by month and by gate (summer listings 5:30-19:00; other listings 7:00-17:00 or 9:00-17:00, last entry 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    }
+   ]
+  },
+  {
+   "id": "takamatsu-naoshima",
+   "name": "Naoshima art island (Chichu Art Museum)",
+   "category": "museums",
+   "entry": "mixed",
+   "cost": 2500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Chichu Art Museum about 10:00-17:00 (last entry 16:00), with seasonal changes (Golden Week 2026 9:00-18:00, Aug 2026 10:00-18:00, last entry 17:00); Naoshima New Museum of Art 10:00-16:30 (last entry 16:00); Benesse House Museum 10:00-17:00 (last entry 16:30)",
+   "booking": "required",
+   "duration_hours": 7,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "holiday_shift": true
+    },
+    {
+     "dates": "2027-01-12..2027-01-18"
+    },
+    {
+     "dates": "2027-01-19..2027-03-19",
+     "partial": "Chichu Art Museum only (long-term maintenance); other Naoshima venues open"
+    }
+   ]
+  },
+  {
+   "id": "takamatsu-ritsurin-garden",
+   "name": "Ritsurin Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Varies with sunrise/sunset: May and Sep 5:30-18:30, Jun-Aug 5:30-19:00, Oct 6:00-17:30, Nov 6:30-17:00, Dec-Jan 7:00-17:00 (Feb-Apr not confirmed)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  }
+ ],
  "restaurants_strict": [],
  "events": [],
- "routes": []
+ "routes": [
+  {
+   "id": "okayama-to-takamatsu",
+   "name": "Okayama ↔ Takamatsu",
+   "origin": "japan/chugoku/okayama",
+   "destination": "japan/shikoku/takamatsu",
+   "mode": "train",
+   "duration_hours": 0.9,
+   "price": 1660
+  }
+ ]
 }

@@ -1982,6 +1982,15 @@
    "price": 2200
   },
   {
+   "id": "tokyo-to-nagoya",
+   "name": "Tokyo ↔ Nagoya",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/nagoya",
+   "mode": "shinkansen",
+   "duration_hours": 1.6,
+   "price": 11300
+  },
+  {
    "id": "tokyo-to-nikko",
    "name": "Tokyo (Asakusa) ↔ Nikko",
    "origin": "japan/kanto/tokyo",
@@ -1989,6 +1998,22 @@
    "mode": "train",
    "duration_hours": 2,
    "price": 3340
+  },
+  {
+   "id": "tokyo-to-sapporo",
+   "name": "Tokyo ↔ Sapporo",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/sapporo",
+   "mode": "plane",
+   "duration_hours": 2.5
+  },
+  {
+   "id": "tokyo-to-sendai",
+   "name": "Tokyo ↔ Sendai",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/sendai",
+   "mode": "shinkansen",
+   "price": 11310
   },
   {
    "id": "tokyo-to-shin-osaka",
