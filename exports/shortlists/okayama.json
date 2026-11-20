@@ -7,6 +7,15 @@
  "events": [],
  "routes": [
   {
+   "id": "okayama-to-matsuyama",
+   "name": "Okayama ↔ Matsuyama",
+   "origin": "japan/chugoku/okayama",
+   "destination": "japan/shikoku/matsuyama",
+   "mode": "train",
+   "duration_hours": 2.95,
+   "price": 6820
+  },
+  {
    "id": "okayama-to-takamatsu",
    "name": "Okayama ↔ Takamatsu",
    "origin": "japan/chugoku/okayama",

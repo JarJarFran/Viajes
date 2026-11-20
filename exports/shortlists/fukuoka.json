@@ -7,6 +7,23 @@
  "events": [],
  "routes": [
   {
+   "id": "fukuoka-to-beppu",
+   "name": "Fukuoka ↔ Beppu",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/beppu",
+   "mode": "train",
+   "duration_hours": 2,
+   "price": 6380
+  },
+  {
+   "id": "fukuoka-to-kagoshima",
+   "name": "Fukuoka ↔ Kagoshima",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/kagoshima",
+   "mode": "shinkansen",
+   "duration_hours": 1.4
+  },
+  {
    "id": "fukuoka-to-kumamoto",
    "name": "Fukuoka ↔ Kumamoto",
    "origin": "japan/kyushu/fukuoka",
@@ -14,6 +31,15 @@
    "mode": "shinkansen",
    "duration_hours": 0.6,
    "price": 5310
+  },
+  {
+   "id": "fukuoka-to-nagasaki",
+   "name": "Fukuoka ↔ Nagasaki",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/nagasaki",
+   "mode": "mixed",
+   "duration_hours": 1.4,
+   "price": 5960
   }
  ]
 }

@@ -3,7 +3,10 @@
 "city":"japan/shikoku/matsuyama",
 "ancestors":["shikoku","japan"],
 "nodes":{
-"matsuyama":{"id":"matsuyama","type":"city","name":"Matsuyama","path":"japan/shikoku/matsuyama","country":"japan","region":"shikoku","prefecture":"Ehime","coords":[33.839519,132.765352]}
+"matsuyama":{"id":"matsuyama","type":"city","name":"Matsuyama","path":"japan/shikoku/matsuyama","country":"japan","region":"shikoku","prefecture":"Ehime","coords":[33.839519,132.765352]},
+"okayama-to-matsuyama":{"id":"okayama-to-matsuyama","type":"route","name":"Okayama ↔ Matsuyama","origin":"japan/chugoku/okayama","destination":"japan/shikoku/matsuyama","bidirectional":true,"mode":"train","duration_hours":2.95,"approx_cost":"JR limited express Shiokaze, about 2 h 57 min to 3 h; ¥6,820 unreserved (fare ¥4,400 + unreserved express charge ¥2,420, per a 2026 route search); reserved express charge is the unreserved one + ¥520 in normal season (−¥200 off-peak, +¥200 peak, +¥400 busiest); Green car available","price":6820,"booking":"walk-in","verified":"2026-11-18"}
 },
-"edges":[]
+"edges":[
+{"from":"okayama-to-matsuyama","to":"matsuyama","rel":"destination"}
+]
 }

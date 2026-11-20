@@ -5,5 +5,15 @@
  "activities_top": [],
  "restaurants_strict": [],
  "events": [],
- "routes": []
+ "routes": [
+  {
+   "id": "fukuoka-to-nagasaki",
+   "name": "Fukuoka ↔ Nagasaki",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/nagasaki",
+   "mode": "mixed",
+   "duration_hours": 1.4,
+   "price": 5960
+  }
+ ]
 }

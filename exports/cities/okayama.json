@@ -4,9 +4,11 @@
 "ancestors":["chugoku","japan"],
 "nodes":{
 "okayama":{"id":"okayama","type":"city","name":"Okayama","path":"japan/chugoku/okayama","country":"japan","region":"chugoku","prefecture":"Okayama","coords":[34.655394,133.919459]},
+"okayama-to-matsuyama":{"id":"okayama-to-matsuyama","type":"route","name":"Okayama ↔ Matsuyama","origin":"japan/chugoku/okayama","destination":"japan/shikoku/matsuyama","bidirectional":true,"mode":"train","duration_hours":2.95,"approx_cost":"JR limited express Shiokaze, about 2 h 57 min to 3 h; ¥6,820 unreserved (fare ¥4,400 + unreserved express charge ¥2,420, per a 2026 route search); reserved express charge is the unreserved one + ¥520 in normal season (−¥200 off-peak, +¥200 peak, +¥400 busiest); Green car available","price":6820,"booking":"walk-in","verified":"2026-11-18"},
 "okayama-to-takamatsu":{"id":"okayama-to-takamatsu","type":"route","name":"Okayama ↔ Takamatsu","origin":"japan/chugoku/okayama","destination":"japan/shikoku/takamatsu","bidirectional":true,"mode":"train","duration_hours":0.9,"approx_cost":"JR Rapid Marine Liner, about 52-55 min, about 2 per hour; ¥1,660 (unreserved, fare only); reserved seat supplement ¥840 per JR timetable page","price":1660,"booking":"walk-in","verified":"2026-11-18"}
 },
 "edges":[
+{"from":"okayama-to-matsuyama","to":"okayama","rel":"origin"},
 {"from":"okayama-to-takamatsu","to":"okayama","rel":"origin"}
 ]
 }

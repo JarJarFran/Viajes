@@ -181,6 +181,15 @@
  ],
  "routes": [
   {
+   "id": "sapporo-to-otaru",
+   "name": "Sapporo ↔ Otaru",
+   "origin": "japan/hokkaido/sapporo",
+   "destination": "japan/hokkaido/otaru",
+   "mode": "train",
+   "duration_hours": 0.6,
+   "price": 800
+  },
+  {
    "id": "tokyo-to-sapporo",
    "name": "Tokyo ↔ Sapporo",
    "origin": "japan/kanto/tokyo",

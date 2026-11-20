@@ -3,7 +3,10 @@
 "city":"japan/hokkaido/otaru",
 "ancestors":["hokkaido","japan"],
 "nodes":{
-"otaru":{"id":"otaru","type":"city","name":"Otaru","path":"japan/hokkaido/otaru","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[43.190681,140.994602]}
+"otaru":{"id":"otaru","type":"city","name":"Otaru","path":"japan/hokkaido/otaru","country":"japan","region":"hokkaido","prefecture":"Hokkaido","coords":[43.190681,140.994602]},
+"sapporo-to-otaru":{"id":"sapporo-to-otaru","type":"route","name":"Sapporo ↔ Otaru","origin":"japan/hokkaido/sapporo","destination":"japan/hokkaido/otaru","bidirectional":true,"mode":"train","duration_hours":0.6,"approx_cost":"JR Rapid Airport Sapporo→Otaru about 32–36 min, ¥800 (child ¥400); about every 20 min in the daytime.","price":800,"booking":"walk-in","verified":"2026-11-18"}
 },
-"edges":[]
+"edges":[
+{"from":"sapporo-to-otaru","to":"otaru","rel":"destination"}
+]
 }

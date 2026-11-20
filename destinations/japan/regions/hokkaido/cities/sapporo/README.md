@@ -60,6 +60,7 @@ Capital of Hokkaido and its main gateway via New Chitose Airport. Known for wint
 ## Transport options (with prices)
 
 <!-- gen:start routes -->
+- [Sapporo ↔ Otaru](../../../../routes/sapporo-to-otaru.md) — JR Rapid Airport Sapporo→Otaru about 32–36 min, ¥800 (child ¥400); about every 20 min in the daytime. (~0.6 h)
 - [Tokyo ↔ Sapporo](../../../../routes/tokyo-to-sapporo.md) — Haneda→New Chitose flight about 1 h 35–1 h 40 (JAL, ANA, Skymark, AIRDO, StarFlyer); fares vary by date (JAL from ¥12,920 one-way shown for 29 Nov 2026; lowest seen on tour.ne.jp ¥8,379). Then JR Rapid Airport New Chitose→Sapporo about 37 min, ¥1,230. (~2.5 h)
 <!-- gen:end routes -->
 
