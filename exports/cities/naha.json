@@ -1,0 +1,9 @@
+{
+"schema":2,
+"city":"japan/kyushu/naha",
+"ancestors":["kyushu","japan"],
+"nodes":{
+"naha":{"id":"naha","type":"city","name":"Naha","path":"japan/kyushu/naha","country":"japan","region":"kyushu","prefecture":"Okinawa","coords":[26.212235,127.679145]}
+},
+"edges":[]
+}

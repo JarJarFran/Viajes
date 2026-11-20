@@ -1,0 +1,36 @@
+{
+ "city": "japan/kanto/nikko",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "nikko-toshogu",
+   "name": "Nikko Toshogu Shrine",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 1600,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "Nov–Mar ~9:00-16:00 (last entry 15:30)",
+   "booking": "walk-in",
+   "duration_hours": 2
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "tokyo-to-nikko",
+   "name": "Tokyo (Asakusa) ↔ Nikko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/nikko",
+   "mode": "train",
+   "duration_hours": 2,
+   "price": 3340
+  }
+ ]
+}

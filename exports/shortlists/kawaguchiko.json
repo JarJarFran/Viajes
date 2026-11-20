@@ -1,0 +1,35 @@
+{
+ "city": "japan/chubu/kawaguchiko",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "kawaguchiko-chureito-pagoda",
+   "name": "Chureito Pagoda (Arakurayama Sengen Park)",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "24h (stairs unlit at night)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "tokyo-to-kawaguchiko",
+   "name": "Tokyo (Shinjuku) ↔ Kawaguchiko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kawaguchiko",
+   "mode": "bus",
+   "duration_hours": 2,
+   "price": 2200
+  }
+ ]
+}

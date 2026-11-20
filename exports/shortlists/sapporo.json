@@ -1,0 +1,209 @@
+{
+ "city": "japan/hokkaido/sapporo",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "sapporo-beer-museum",
+   "name": "Sapporo Beer Museum",
+   "category": "museums",
+   "entry": "paid",
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "11:00–18:00 (last entry 17:30) as listed before the July 2026 reopening",
+   "booking": "reserve",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "yearly": "12-31..12-31"
+    },
+    {
+     "irregular": "Temporary closures"
+    }
+   ]
+  },
+  {
+   "id": "sapporo-clock-tower",
+   "name": "Sapporo Clock Tower",
+   "category": "history",
+   "entry": "paid",
+   "cost": 350,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day"
+   ],
+   "hours": "8:45–17:10 (last entry 17:00)",
+   "booking": "walk-in",
+   "duration_hours": 0.5,
+   "closed": [
+    {
+     "yearly": "12-29..01-03"
+    }
+   ]
+  },
+  {
+   "id": "sapporo-former-hokkaido-government-office",
+   "name": "Former Hokkaido Government Office (Akarenga)",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 300,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day"
+   ],
+   "hours": "8:45–21:00 (last entry 20:30)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "yearly": "12-29..01-03"
+    },
+    {
+     "irregular": "Nov 16 listed as a closing day by one official tourism listing (not confirmed elsewhere)"
+    }
+   ]
+  },
+  {
+   "id": "sapporo-hokkaido-shrine",
+   "name": "Hokkaido Shrine",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Apr–Oct 6:00–17:00; Nov–Dec 7:00–16:00; Jan 8–Feb 7:00–16:00; Mar 7:00–17:00; special hours Dec 31–Jan 7 (Jan 1: from midnight to 19:00)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "sapporo-mt-moiwa-ropeway",
+   "name": "Mt. Moiwa Ropeway",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 2100,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Dec–Mar 11:00–22:00 (last ascent 21:30); Apr–Nov opens 10:30",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "yearly": "12-31..01-01"
+    },
+    {
+     "irregular": "Annual maintenance closure in spring (Apr 1–23 in 2026; late March 2027 planned)"
+    }
+   ]
+  },
+  {
+   "id": "sapporo-odori-park",
+   "name": "Odori Park",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night",
+    "kid-friendly"
+   ],
+   "hours": "Open-air park. White Illumination lights 16:30–22:00 (Nov 20–Dec 25, 2026; until 24:00 on Dec 23–25); Snow Festival sculptures lit until 22:00.",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "sapporo-tv-tower",
+   "name": "Sapporo TV Tower",
+   "category": "other",
+   "entry": "paid",
+   "cost": 1200,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night",
+    "rainy-day"
+   ],
+   "hours": "9:00–22:00 (last entry 21:50); extended during events",
+   "booking": "walk-in",
+   "duration_hours": 0.75,
+   "closed": [
+    {
+     "irregular": "Irregular closing days; check the official site"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [
+  {
+   "id": "sapporo-snow-festival",
+   "name": "Sapporo Snow Festival",
+   "recurrence": "yearly, early February (8 days)",
+   "editions": [
+    {
+     "start": "2027-02-04",
+     "end": "2027-02-11",
+     "note": "77th edition. Venues: Odori (West 1–11 chome; lit until 22:00), Susukino (Ekimae-dori, Minami 4–6-jo), Tsudome (snow play, about 10:00–16:00, provisional)"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  },
+  {
+   "id": "sapporo-white-illumination",
+   "name": "Sapporo White Illumination & Munich Christmas Market",
+   "recurrence": "yearly, late November to mid-March (Odori Park venue and Christmas market until Dec 25)",
+   "editions": [
+    {
+     "start": "2026-11-20",
+     "end": "2027-03-14",
+     "note": "Odori Park venue and Munich Christmas Market (Odori West 1–2, 45 stalls) Nov 20–Dec 25, 2026, lit 16:30–22:00 (until 24:00 Dec 23–25). Minami 1-jo-dori and other venues until Mar 14, 2027; Ekimae-dori end date given as Feb 11 by Visit Hokkaido."
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "sapporo-to-hakodate",
+   "name": "Sapporo ↔ Hakodate",
+   "origin": "japan/hokkaido/sapporo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "train",
+   "duration_hours": 3.7
+  },
+  {
+   "id": "sapporo-to-otaru",
+   "name": "Sapporo ↔ Otaru",
+   "origin": "japan/hokkaido/sapporo",
+   "destination": "japan/hokkaido/otaru",
+   "mode": "train",
+   "duration_hours": 0.6,
+   "price": 800
+  },
+  {
+   "id": "tokyo-to-sapporo",
+   "name": "Tokyo ↔ Sapporo",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/sapporo",
+   "mode": "plane",
+   "duration_hours": 2.5
+  }
+ ]
+}

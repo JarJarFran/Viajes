@@ -1,0 +1,1500 @@
+{
+ "city": "japan/kansai/kyoto",
+ "currency": "JPY",
+ "areas": [
+  {
+   "id": "kyoto-area-arashiyama",
+   "name": "Arashiyama",
+   "coords": [
+    35.015223,
+    135.6777
+   ]
+  },
+  {
+   "id": "kyoto-area-fushimi",
+   "name": "Fushimi",
+   "coords": [
+    34.932806,
+    135.764369
+   ]
+  },
+  {
+   "id": "kyoto-area-gion",
+   "name": "Gion",
+   "coords": [
+    35.00469,
+    135.778403
+   ]
+  },
+  {
+   "id": "kyoto-area-karasuma",
+   "name": "Shijo-Karasuma / Karasuma Oike",
+   "coords": [
+    35.003686,
+    135.760452
+   ]
+  },
+  {
+   "id": "kyoto-area-kawaramachi",
+   "name": "Kawaramachi / Pontocho / Nishiki",
+   "coords": [
+    35.003763,
+    135.769608
+   ]
+  },
+  {
+   "id": "kyoto-area-kita",
+   "name": "Kinkaku-ji / Kitano / Daitoku-ji",
+   "coords": [
+    35.027791,
+    135.735447
+   ]
+  },
+  {
+   "id": "kyoto-area-kiyomizu",
+   "name": "Kiyomizu / Gojo-zaka",
+   "coords": [
+    34.994303,
+    135.784439
+   ]
+  },
+  {
+   "id": "kyoto-area-kyoto-station",
+   "name": "Kyoto Station",
+   "coords": [
+    34.986443,
+    135.758446
+   ]
+  },
+  {
+   "id": "kyoto-area-nijo",
+   "name": "Nijo Castle / Imperial Palace",
+   "coords": [
+    35.014008,
+    135.748537
+   ]
+  },
+  {
+   "id": "kyoto-area-okazaki",
+   "name": "Okazaki / Nanzen-ji / Ginkaku-ji",
+   "coords": [
+    35.014036,
+    135.783188
+   ]
+  },
+  {
+   "id": "kyoto-area-uji",
+   "name": "Uji",
+   "coords": [
+    34.894584,
+    135.806334
+   ]
+  }
+ ],
+ "activities_top": [
+  {
+   "id": "kyoto-aquarium",
+   "name": "Kyoto Aquarium",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:30-17:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-kyoto-station"
+  },
+  {
+   "id": "kyoto-arashiyama-bamboo",
+   "name": "Arashiyama Bamboo Grove & Togetsukyo Bridge",
+   "category": "nature",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-arashiyama"
+  },
+  {
+   "id": "kyoto-eikan-do",
+   "name": "Eikan-do (Zenrin-ji)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 600,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-okazaki"
+  },
+  {
+   "id": "kyoto-fushimi-inari",
+   "name": "Fushimi Inari Taisha (Senbon Torii)",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 3
+  },
+  {
+   "id": "kyoto-fushimi-sake-district",
+   "name": "Fushimi sake district & Gekkeikan Okura Sake Museum",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 600,
+   "tags": [
+    "top50"
+   ],
+   "hours": "museum 9:30-16:30 (last entry 16:00)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "kyoto-area-fushimi",
+   "closed": [
+    {
+     "yearly": "12-28..01-04",
+     "partial": "Gekkeikan Okura Sake Museum closed; the district can still be walked"
+    },
+    {
+     "yearly": "08-13..08-16",
+     "partial": "Gekkeikan Okura Sake Museum closed for Obon"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-ginkaku-ji",
+   "name": "Ginkaku-ji (Silver Pavilion)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 1000,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-16:30 (winter)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-gion-higashiyama",
+   "name": "Gion & Higashiyama at dusk",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "24h (best at dusk)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-gion"
+  },
+  {
+   "id": "kyoto-imperial-palace",
+   "name": "Kyoto Imperial Palace (Gosho)",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-16:00 (guided tours)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "holiday_shift": true
+    },
+    {
+     "yearly": "12-28..01-04"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-katsura-imperial-villa",
+   "name": "Katsura Imperial Villa",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "by reserved tour slot",
+   "booking": "required",
+   "duration_hours": 2
+  },
+  {
+   "id": "kyoto-kennin-ji",
+   "name": "Kennin-ji",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kawaramachi"
+  },
+  {
+   "id": "kyoto-kimono-rental",
+   "name": "Kimono/yukata rental & photo walk",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 3000,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "9:00-18:00 (return by close)",
+   "booking": "reserve",
+   "duration_hours": 6,
+   "area": "kyoto-area-gion"
+  },
+  {
+   "id": "kyoto-kinkaku-ji",
+   "name": "Kinkaku-ji (Golden Pavilion)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kita"
+  },
+  {
+   "id": "kyoto-kiyomizu-dera",
+   "name": "Kiyomizu-dera & Higashiyama slopes",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "6:00-18:00 (varies by season)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-kiyomizu"
+  },
+  {
+   "id": "kyoto-kodai-ji",
+   "name": "Kodai-ji (NYE bell ringing)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 600,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-gion"
+  },
+  {
+   "id": "kyoto-maruyama-park",
+   "name": "Maruyama Park",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "top50"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-gion"
+  },
+  {
+   "id": "kyoto-monkey-park-iwatayama",
+   "name": "Iwatayama Monkey Park",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:00-16:00 (summit to 16:30; closes early when the monkeys leave)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-arashiyama",
+   "closed": [
+    {
+     "yearly": "01-01..01-01"
+    },
+    {
+     "irregular": "closed in heavy rain/snow"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-nanzen-ji",
+   "name": "Nanzen-ji (brick aqueduct)",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "top50"
+   ],
+   "hours": "grounds 8:45-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "kyoto-area-okazaki",
+   "closed": [
+    {
+     "yearly": "12-28..12-31"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-nara-daytrip",
+   "name": "Day trip to Nara (Todai-ji, deer park)",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 720,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "full day",
+   "booking": "walk-in",
+   "duration_hours": 6
+  },
+  {
+   "id": "kyoto-nijo-castle",
+   "name": "Nijo Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-16:30",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-nijo",
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    },
+    {
+     "yearly": "01-01..01-03",
+     "partial": "Ninomaru Palace closed; grounds open"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-ninna-ji",
+   "name": "Ninna-ji",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-nishiki-market",
+   "name": "Nishiki Market (\"Kyoto's Kitchen\")",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "kyoto-area-kawaramachi",
+   "closed": [
+    {
+     "yearly": "01-01..01-04",
+     "partial": "most stalls closed the first days of January (back ~Jan 4-5)"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-philosophers-path",
+   "name": "Philosopher's Path (Tetsugaku-no-michi)",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "top50"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-pontocho",
+   "name": "Pontocho alley",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "night"
+   ],
+   "hours": "17:00-23:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "kyoto-area-kawaramachi"
+  },
+  {
+   "id": "kyoto-railway-museum",
+   "name": "Kyoto Railway Museum",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 1200,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-17:00 (Jan 2-3, 2027: 10:00-17:00)",
+   "booking": "walk-in",
+   "duration_hours": 3,
+   "area": "kyoto-area-kyoto-station"
+  },
+  {
+   "id": "kyoto-ryoan-ji",
+   "name": "Ryoan-ji (rock garden)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 600,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "Dec–Feb 8:30-16:30; Mar–Nov 8:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "kyoto-sagano-romantic-train",
+   "name": "Sagano Romantic Train (Torokko)",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 880,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-16:00 (check winter days)",
+   "booking": "reserve",
+   "duration_hours": 2,
+   "area": "kyoto-area-arashiyama",
+   "closed": [
+    {
+     "irregular": "some winter days and Wednesdays — check the operating calendar"
+    }
+   ]
+  },
+  {
+   "id": "kyoto-sanjusangen-do",
+   "name": "Sanjusangen-do (1,001 Kannon statues)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 600,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-16:00 (winter)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kyoto-station"
+  },
+  {
+   "id": "kyoto-sannenzaka-ninenzaka",
+   "name": "Sannenzaka & Ninenzaka lanes",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "shops 9:00-18:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kiyomizu"
+  },
+  {
+   "id": "kyoto-tea-ceremony",
+   "name": "Tea ceremony experience",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 3000,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "by slot 10:00-17:00",
+   "booking": "required",
+   "duration_hours": 1
+  },
+  {
+   "id": "kyoto-tofuku-ji",
+   "name": "Tofuku-ji",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 400,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-toji",
+   "name": "Toji Temple (market day)",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco"
+   ],
+   "hours": "8:30-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kyoto-station"
+  },
+  {
+   "id": "kyoto-uji-daytrip",
+   "name": "Day trip to Uji (Byodo-in, matcha)",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 420,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "full day",
+   "booking": "walk-in",
+   "duration_hours": 4,
+   "area": "kyoto-area-uji"
+  },
+  {
+   "id": "kyoto-yasaka-pagoda",
+   "name": "Yasaka Pagoda (Hokan-ji) & Ishibe-koji",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "24h (street)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "kyoto-area-kiyomizu"
+  }
+ ],
+ "restaurants_strict": [
+  {
+   "id": "kyoto-restaurant-ginjo-kubota",
+   "name": "Ginjo Ramen Kubota",
+   "cuisine": "tsukemen / ramen",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.73
+  },
+  {
+   "id": "kyoto-restaurant-gion-duck-noodles",
+   "name": "Gion Duck Noodles",
+   "cuisine": "ramen (duck broth)",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.68
+  },
+  {
+   "id": "kyoto-restaurant-gion-komori",
+   "name": "Gion Komori",
+   "cuisine": "cafe with wagashi (Japanese sweets)",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Gion Shijo"
+  },
+  {
+   "id": "kyoto-restaurant-gion-nikutei-shin",
+   "name": "Gion Nikutei Shin",
+   "cuisine": "beef / japanese",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.57
+  },
+  {
+   "id": "kyoto-restaurant-gion-unagi-kikukawa",
+   "name": "Kyoto Gion Unagi Yondaime Kikukawa",
+   "cuisine": "unagi",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.55
+  },
+  {
+   "id": "kyoto-restaurant-gion-yorozuya",
+   "name": "Gion Yorozuya",
+   "cuisine": "udon",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.57,
+   "station": "Gion Shijo"
+  },
+  {
+   "id": "kyoto-restaurant-gyusho-shin",
+   "name": "Yakiniku Gyusho Shin",
+   "cuisine": "yakiniku",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.52
+  },
+  {
+   "id": "kyoto-restaurant-hinode-udon",
+   "name": "Hinode Udon",
+   "cuisine": "curry udon, udon, soba",
+   "area": "kyoto-area-okazaki",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.52,
+   "station": "Keage"
+  },
+  {
+   "id": "kyoto-restaurant-hitsuji",
+   "name": "Hitsuji",
+   "cuisine": "donut, cafe",
+   "area": "kyoto-area-nijo",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.85,
+   "station": "Marutamachi"
+  },
+  {
+   "id": "kyoto-restaurant-honkaku-teuchi-udon-taiga",
+   "name": "Honkaku Teuchi-Udon Taiga",
+   "cuisine": "udon, curry udon, tempura",
+   "area": "kyoto-area-fushimi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.72,
+   "station": "Fujinomori"
+  },
+  {
+   "id": "kyoto-restaurant-honke-daiichi-asahi",
+   "name": "Honke Daiichi Asahi Honten",
+   "cuisine": "ramen",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.73
+  },
+  {
+   "id": "kyoto-restaurant-japan-ramen-rin",
+   "name": "Japan Ramen Rin KYOTO",
+   "cuisine": "ramen",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.63
+  },
+  {
+   "id": "kyoto-restaurant-juugo",
+   "name": "Juugo",
+   "cuisine": "soba",
+   "area": "kyoto-area-okazaki",
+   "price_range": "¥¥",
+   "tabelog_rating": 3.7,
+   "station": "Mototanaka"
+  },
+  {
+   "id": "kyoto-restaurant-kacto",
+   "name": "Kacto",
+   "cuisine": "cafe, american, wine bar",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.52,
+   "station": "Gion Shijo"
+  },
+  {
+   "id": "kyoto-restaurant-kaidashi-men-kitada",
+   "name": "Kaidashi Men Kitada",
+   "cuisine": "ramen",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.7
+  },
+  {
+   "id": "kyoto-restaurant-keiraku-yakiniku-yabu",
+   "name": "Keiraku Yakiniku Yabu",
+   "cuisine": "yakiniku",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥¥",
+   "budget_dinner": [
+    4000,
+    4999
+   ],
+   "tabelog_rating": 3.55
+  },
+  {
+   "id": "kyoto-restaurant-kyo-udon-nama-soba-okakita",
+   "name": "Kyo Udon Nama Soba Okakita",
+   "cuisine": "udon, soba, donburi",
+   "area": "kyoto-area-okazaki",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.69,
+   "station": "Higashiyama"
+  },
+  {
+   "id": "kyoto-restaurant-kyo-unawa",
+   "name": "Kyo Unawa Honten",
+   "cuisine": "unagi",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.55
+  },
+  {
+   "id": "kyoto-restaurant-kyoto-gion-okaru",
+   "name": "Kyoto Gion Okaru",
+   "cuisine": "udon, soba, cafeteria",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.59,
+   "station": "Gion Shijo"
+  },
+  {
+   "id": "kyoto-restaurant-mensho-takamatsu",
+   "name": "Mensho Takamatsu Honten",
+   "cuisine": "tsukemen / ramen",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.61
+  },
+  {
+   "id": "kyoto-restaurant-menya-inoichi",
+   "name": "Menya Inoichi",
+   "cuisine": "ramen (100% seafood broth)",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1500
+   ],
+   "tabelog_rating": 3.71
+  },
+  {
+   "id": "kyoto-restaurant-menya-inoichi-hanare",
+   "name": "Menya Inoichi Hanare",
+   "cuisine": "ramen",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.67
+  },
+  {
+   "id": "kyoto-restaurant-menya-rennosuke",
+   "name": "Menya Rennosuke",
+   "cuisine": "ramen",
+   "area": "kyoto-area-kita",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.52
+  },
+  {
+   "id": "kyoto-restaurant-menya-takakura-nijou",
+   "name": "Menya Takakura Nijou",
+   "cuisine": "tsukemen / ramen",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.71
+  },
+  {
+   "id": "kyoto-restaurant-menya-yuko",
+   "name": "Menya Yuko",
+   "cuisine": "ramen",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.68
+  },
+  {
+   "id": "kyoto-restaurant-mr-gyoza",
+   "name": "Mr. Gyoza",
+   "cuisine": "gyoza / ramen / karaage",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.7
+  },
+  {
+   "id": "kyoto-restaurant-mugi-no-yoake",
+   "name": "Mugi no Yoake",
+   "cuisine": "ramen, tsukemen",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.74,
+   "station": "Tambaguchi"
+  },
+  {
+   "id": "kyoto-restaurant-nakamura-tokichi",
+   "name": "Nakamura Tokichi",
+   "cuisine": "matcha sweets & soba",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "tabelog_rating": 3.54
+  },
+  {
+   "id": "kyoto-restaurant-namae-no-nai",
+   "name": "Namae no Nai Ramen Ya",
+   "cuisine": "ramen / tsukemen",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.57
+  },
+  {
+   "id": "kyoto-restaurant-ogawa",
+   "name": "Ogawa",
+   "cuisine": "soba",
+   "area": "kyoto-area-kita",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.74,
+   "station": "Kitaoji"
+  },
+  {
+   "id": "kyoto-restaurant-omen-ginkakuji-honten",
+   "name": "Omen Ginkakuji honten",
+   "cuisine": "udon",
+   "area": "kyoto-area-okazaki",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.58,
+   "station": "Mototanaka"
+  },
+  {
+   "id": "kyoto-restaurant-omen-nippon-shijou-pontochou-ten",
+   "name": "Omen NIPPON Shijou pontochou ten",
+   "cuisine": "udon",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.52,
+   "station": "Gion Shijo"
+  },
+  {
+   "id": "kyoto-restaurant-onn",
+   "name": "onn",
+   "cuisine": "cafe with wagashi (Japanese sweets)",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.51,
+   "station": "Kyoto Kawaramachi"
+  },
+  {
+   "id": "kyoto-restaurant-osteria-is-gion",
+   "name": "OSTERIA IS -Gion-",
+   "cuisine": "italian / steak",
+   "area": "kyoto-area-gion",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.5
+  },
+  {
+   "id": "kyoto-restaurant-pontocho-kiraku-shabu",
+   "name": "Pontocho Shabushabu Sukiyaki Kiraku",
+   "cuisine": "shabu / sukiyaki",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "kyoto-restaurant-pontocho-yakiniku-kiraku",
+   "name": "Pontocho Yakiniku Kiraku",
+   "cuisine": "yakiniku",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "kyoto-restaurant-santoku-rokumi-gojo",
+   "name": "Gojo Takakura Santoku Rokumi",
+   "cuisine": "izakaya / oden",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥¥¥",
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.56
+  },
+  {
+   "id": "kyoto-restaurant-saryo-hassui",
+   "name": "Saryo Hassui",
+   "cuisine": "cafe with tea sweets (Arashiyama view)",
+   "area": "kyoto-area-arashiyama",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.53,
+   "station": "Arashiyama"
+  },
+  {
+   "id": "kyoto-restaurant-saryo-tesshin",
+   "name": "Saryo Tesshin",
+   "cuisine": "soba",
+   "area": "kyoto-area-nijo",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.53,
+   "station": "Marutamachi"
+  },
+  {
+   "id": "kyoto-restaurant-seikou-udoku",
+   "name": "Seikou Udoku",
+   "cuisine": "abura-soba / maze-soba",
+   "area": "kyoto-area-uji",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.83
+  },
+  {
+   "id": "kyoto-restaurant-shijo-karasuma-santoku",
+   "name": "Shijo Karasuma Santoku Rokumi",
+   "cuisine": "tachinomi / izakaya",
+   "area": "kyoto-area-karasuma",
+   "price_range": "¥¥¥",
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.54
+  },
+  {
+   "id": "kyoto-restaurant-shubaku",
+   "name": "Shubaku",
+   "cuisine": "soba",
+   "area": "kyoto-area-uji",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.67,
+   "station": "Uji"
+  },
+  {
+   "id": "kyoto-restaurant-smart-coffee",
+   "name": "Smart Coffee",
+   "cuisine": "kissa (coffee shop), yoshoku, pancake",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.71,
+   "station": "Kyoto Shiyakusho Mae"
+  },
+  {
+   "id": "kyoto-restaurant-soba-no-mi-yoshimura",
+   "name": "Soba no Mi Yoshimura",
+   "cuisine": "soba, izakaya, cafe",
+   "area": "kyoto-area-kiyomizu",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.5,
+   "station": "Gojo"
+  },
+  {
+   "id": "kyoto-restaurant-soba-roujina",
+   "name": "Soba Roujina",
+   "cuisine": "soba, izakaya",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Kyoto Shiyakusho Mae"
+  },
+  {
+   "id": "kyoto-restaurant-sugari-wajo",
+   "name": "Wajo Ryo Men Sugari",
+   "cuisine": "ramen / tsukemen",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.66
+  },
+  {
+   "id": "kyoto-restaurant-teuchi-soba-kanei",
+   "name": "Teuchi Soba Kanei",
+   "cuisine": "soba",
+   "area": "kyoto-area-kita",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.7,
+   "station": "Kuramaguchi"
+  },
+  {
+   "id": "kyoto-restaurant-tsukumo-udon-shiokouji-honten",
+   "name": "Tsukumo Udon Shiokouji honten",
+   "cuisine": "udon, izakaya",
+   "area": "kyoto-area-kyoto-station",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.6,
+   "station": "Kyoto"
+  },
+  {
+   "id": "kyoto-restaurant-udon-shiki-kyoto-udon",
+   "name": "Udon Shiki Kyoto Udon",
+   "cuisine": "udon, nabe, washoku",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.55,
+   "station": "Kyoto Kawaramachi"
+  },
+  {
+   "id": "kyoto-restaurant-yamamoto-menzou",
+   "name": "Yamamoto Menzou",
+   "cuisine": "udon",
+   "area": "kyoto-area-okazaki",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.95,
+   "station": "Higashiyama"
+  },
+  {
+   "id": "kyoto-restaurant-yazawa-kyoto",
+   "name": "Yakiniku Yazawa Kyoto",
+   "cuisine": "yakiniku",
+   "area": "kyoto-area-kawaramachi",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.74
+  }
+ ],
+ "events": [
+  {
+   "id": "kyoto-hatsumode",
+   "name": "Hatsumode (first shrine visit of the year) at Yasaka Shrine",
+   "recurrence": "yearly, December 31 to January 3 (first shrine visit of the year)",
+   "editions": [
+    {
+     "start": "2026-12-31",
+     "end": "2027-01-03"
+    }
+   ],
+   "entry": "free"
+  },
+  {
+   "id": "kyoto-joya-no-kane",
+   "name": "Joya no Kane (New Year's Eve temple bells)",
+   "recurrence": "yearly, night of December 31",
+   "editions": [
+    {
+     "start": "2026-12-31",
+     "end": "2026-12-31"
+    }
+   ],
+   "entry": "free"
+  },
+  {
+   "id": "kyoto-karuta-hajime",
+   "name": "Karuta Hajime (first poem-card game) at Yasaka Shrine",
+   "recurrence": "yearly, January 3 at 13:00",
+   "editions": [
+    {
+     "start": "2027-01-03",
+     "end": "2027-01-03",
+     "note": 780
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  },
+  {
+   "id": "kyoto-kemari-hajime",
+   "name": "Kemari Hajime (Heian court football) at Shimogamo Shrine",
+   "recurrence": "yearly, January 4 (~13:30)",
+   "editions": [
+    {
+     "start": "2027-01-04",
+     "end": "2027-01-04",
+     "note": "~13:30 (some listings 14:00)"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  },
+  {
+   "id": "kyoto-kitano-tenmangaki",
+   "name": "First calligraphy (Tenmangaki) at Kitano Tenmangu",
+   "recurrence": "yearly, January 2–4",
+   "editions": [
+    {
+     "start": "2027-01-02",
+     "end": "2027-01-04",
+     "note": "calligraphy 10:00–16:00; kyogen Jan 3 13:00"
+    }
+   ],
+   "entry": "mixed",
+   "cost": 250
+  },
+  {
+   "id": "kyoto-toka-ebisu",
+   "name": "Toka Ebisu festival at Ebisu-jinja (Gion)",
+   "recurrence": "yearly, January 8 to 12 (main day January 10)",
+   "editions": [
+    {
+     "start": "2027-01-08",
+     "end": "2027-01-12"
+    }
+   ],
+   "entry": "mixed",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "kix-to-kyoto",
+   "name": "Kansai Airport (KIX) → Kyoto",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/kyoto",
+   "mode": "train",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "kyoto-to-himeji",
+   "name": "Kyoto ↔ Himeji",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/himeji",
+   "mode": "shinkansen",
+   "duration_hours": 1
+  },
+  {
+   "id": "kyoto-to-nara",
+   "name": "Kyoto ↔ Nara",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/nara",
+   "mode": "train",
+   "duration_hours": 0.8,
+   "price": 760
+  },
+  {
+   "id": "kyoto-to-tokyo",
+   "name": "Kyoto → Tokyo (Tokaido Shinkansen)",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kanto/tokyo",
+   "mode": "shinkansen",
+   "duration_hours": 2.5,
+   "price": 14090
+  },
+  {
+   "id": "osaka-to-kyoto",
+   "name": "Osaka ↔ Kyoto",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/kyoto",
+   "mode": "train",
+   "duration_hours": 0.5,
+   "price": 580
+  }
+ ]
+}

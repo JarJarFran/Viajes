@@ -1,0 +1,183 @@
+{
+ "city": "japan/kansai/kobe",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "kobe-arima-onsen-kin-no-yu",
+   "name": "Arima Onsen – Kin no Yu public bath",
+   "category": "onsen",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "8:00-22:00 (last entry 21:30)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "weekly": [
+      "tue"
+     ],
+     "nth": [
+      2,
+      4
+     ],
+     "holiday_shift": true
+    },
+    {
+     "yearly": "01-01..01-01"
+    }
+   ]
+  },
+  {
+   "id": "kobe-ikuta-shrine",
+   "name": "Ikuta Shrine",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "7:00-17:00 per a 2026 listing (not confirmed by the shrine)",
+   "booking": "walk-in",
+   "duration_hours": 0.5
+  },
+  {
+   "id": "kobe-kitano-weathercock-house",
+   "name": "Weathercock House (Kitano Ijinkan)",
+   "category": "history",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "9:00-17:00 (last entry 16:45)",
+   "booking": "walk-in",
+   "duration_hours": 0.75,
+   "closed": [
+    {
+     "weekly": [
+      "tue"
+     ],
+     "nth": [
+      3
+     ],
+     "holiday_shift": true
+    }
+   ]
+  },
+  {
+   "id": "kobe-mount-rokko",
+   "name": "Mount Rokko (Rokko Cable & Rokko Garden Terrace)",
+   "category": "nature",
+   "entry": "mixed",
+   "cost": 1550,
+   "tags": [
+    "touristic",
+    "top50",
+    "night"
+   ],
+   "hours": "Rokko Cable ~7:10-21:10 (every 20 min); Rokko Garden Terrace shops mostly 9:30-20:00 (varies by shop)",
+   "booking": "walk-in",
+   "duration_hours": 4
+  },
+  {
+   "id": "kobe-nankinmachi",
+   "name": "Nankinmachi (Kobe Chinatown)",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Street always open; shops and stalls roughly 11:00-21:00, varying by shop",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "kobe-nunobiki-herb-gardens-ropeway",
+   "name": "Kobe Nunobiki Herb Gardens & Ropeway",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 2500,
+   "tags": [
+    "touristic",
+    "top50",
+    "kid-friendly"
+   ],
+   "hours": "Ropeway uphill basically 9:30-16:45; until 20:15 on many weekends/holidays, in summer and in the Christmas season (2026: 7 Nov–6 Dec Fri–Sun & holidays, 11–25 Dec daily); garden hours vary by season",
+   "booking": "walk-in",
+   "duration_hours": 2.5,
+   "closed": [
+    {
+     "irregular": "Ropeway and gardens closed for inspection 2027-01-23 to 2027-02-12 (also 2026-08-31 to 09-03); suspended in strong wind or thunder"
+    }
+   ]
+  },
+  {
+   "id": "kobe-port-tower",
+   "name": "Kobe Port Tower",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 1200,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Observation floor (5F) and rooftop deck 9:00-23:00 (2026 listings); other floors vary",
+   "booking": "walk-in",
+   "duration_hours": 1
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [
+  {
+   "id": "kobe-luminarie",
+   "name": "Kobe Luminarie",
+   "recurrence": "yearly, late January–early February (10 days in 2027)",
+   "editions": [
+    {
+     "start": "2027-01-29",
+     "end": "2027-02-07",
+     "note": "32nd edition; Meriken Park (partly paid area), Higashi Yuenchi and the former foreign settlement; lit from dusk to about 21:30 (based on previous edition)"
+    }
+   ],
+   "entry": "mixed"
+  },
+  {
+   "id": "kobe-matsuri",
+   "name": "Kobe Matsuri",
+   "recurrence": "yearly, main festival on a Sunday in mid-May (3rd Sunday in 2026 and 2027)",
+   "editions": [
+    {
+     "start": "2027-05-16",
+     "end": "2027-05-16",
+     "note": "54th edition (planned); parade and main festival around Higashi Yuenchi and the former foreign settlement"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "osaka-to-kobe",
+   "name": "Osaka ↔ Kobe",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/kobe",
+   "mode": "train",
+   "duration_hours": 0.5,
+   "price": 330
+  }
+ ]
+}

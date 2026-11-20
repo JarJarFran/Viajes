@@ -1,0 +1,189 @@
+{
+ "city": "japan/chugoku/hiroshima",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "hiroshima-atomic-bomb-dome",
+   "name": "Atomic Bomb Dome (Hiroshima Peace Memorial)",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco",
+    "night"
+   ],
+   "hours": "always viewable from outside",
+   "booking": "walk-in",
+   "duration_hours": 0.5
+  },
+  {
+   "id": "hiroshima-castle",
+   "name": "Hiroshima Castle",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Castle park always open; Ninomaru buildings 9:00-17:30 (Oct–Mar 9:00-16:30), last entry 30 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 0.75,
+   "closed": [
+    {
+     "yearly": "12-29..01-02"
+    }
+   ]
+  },
+  {
+   "id": "hiroshima-miyajima-itsukushima-shrine",
+   "name": "Itsukushima Shrine (Miyajima)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 300,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco",
+    "night"
+   ],
+   "hours": "6:30-18:00 (Mar–14 Oct); 6:30-17:30 (Jan, Feb, 15 Oct–Nov); 6:30-17:00 (Dec)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "hiroshima-miyajima-mount-misen",
+   "name": "Mount Misen and Miyajima Ropeway",
+   "category": "hiking",
+   "entry": "mixed",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Ropeway 9:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 3,
+   "closed": [
+    {
+     "irregular": "Ropeway: occasional closures for maintenance"
+    }
+   ]
+  },
+  {
+   "id": "hiroshima-peace-memorial-museum",
+   "name": "Hiroshima Peace Memorial Museum",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 200,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day"
+   ],
+   "hours": "7:30-19:00 (Aug until 20:00; Dec–Feb until 18:00); last entry 30 min before closing",
+   "booking": "reserve",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "yearly": "12-30..12-31"
+    },
+    {
+     "irregular": "three days in mid-February"
+    }
+   ]
+  },
+  {
+   "id": "hiroshima-peace-memorial-park",
+   "name": "Peace Memorial Park",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "always open",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "hiroshima-shukkeien-garden",
+   "name": "Shukkeien Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 350,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-18:00 (16 Sep–15 Mar 9:00-17:00); last entry 30 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [
+  {
+   "id": "hiroshima-flower-festival",
+   "name": "Hiroshima Flower Festival",
+   "recurrence": "yearly, 3–5 May (Golden Week)",
+   "editions": [
+    {
+     "start": "2027-05-03",
+     "end": "2027-05-05",
+     "note": "Peace Boulevard and Peace Memorial Park; flower parade on 3 May, yosakoi parade on 5 May (fixed dates since 1977)"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  },
+  {
+   "id": "hiroshima-peace-memorial-ceremony",
+   "name": "Peace Memorial Ceremony",
+   "recurrence": "yearly, 6 August (anniversary of the atomic bombing)",
+   "editions": [
+    {
+     "start": "2027-08-06",
+     "end": "2027-08-06",
+     "note": "Peace Memorial Park; moment of silence at 8:15; other activities through the day"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "osaka-to-hiroshima",
+   "name": "Osaka ↔ Hiroshima",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/chugoku/hiroshima",
+   "mode": "shinkansen",
+   "duration_hours": 1.3,
+   "price": 9890
+  },
+  {
+   "id": "tokyo-to-hiroshima",
+   "name": "Tokyo ↔ Hiroshima",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chugoku/hiroshima",
+   "mode": "shinkansen",
+   "duration_hours": 4,
+   "price": 18380
+  }
+ ]
+}

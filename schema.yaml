@@ -1,0 +1,116 @@
+# Schema of the travel graph — enforced by scripts/validate_graph.py, used by scripts/sync.py to
+# order keys and strip empty optional fields. `keys` lists every allowed key in canonical order;
+# `required` must be present. Unknown keys are errors.
+version: 2
+id_pattern: "^[a-z0-9][a-z0-9-]*$"
+
+vocabularies:
+  entry: [free, paid, mixed, n/a]
+  booking: [walk-in, reserve, required]
+  price_range: ["¥", "¥¥", "¥¥¥", "¥¥¥¥"]
+  status: [planned, ongoing, done, cancelled]
+  tags: [top50, top100, touristic, iconic, unesco, hidden-gem, night, event, kid-friendly, rainy-day, top-rated]
+  category: [temple, history, museums, nature, hiking, onsen, food, leisure, daytrip, other]
+  mode: [train, shinkansen, bus, plane, ferry, mixed]
+  # plan slots, in the order they happen during a day
+  slot: [early, morning, travel, day, lunch, afternoon, evening, dinner, night]
+  weekday: [mon, tue, wed, thu, fri, sat, sun]
+  # day keys of structured opening hours: weekdays + public holiday, day before / after a holiday
+  opening_day: [mon, tue, wed, thu, fri, sat, sun, hol, pre_hol, post_hol]
+  expense_category: [food, transport, sights, lodging, shopping, other]
+  coords_precision: [exact, station, area]
+  # restaurant guides that vouch for a place where there is no Tabelog (e.g. China)
+  guide: [michelin-star, michelin-bib, michelin-selected, black-pearl]
+
+# Money is in the currency of the node's country (`currency_code` of the country node): cost, price,
+# budgets, plan `cost` overrides and expense `amount`. Symbols used in human-readable outputs.
+currencies:
+  JPY: {symbol: "¥"}
+  CNY: {symbol: "CN¥"}
+
+# Amount per person behind each price bucket, per currency (used when a restaurant has no explicit
+# budget). Restaurants with budgets get price_range DERIVED by sync.py from the dinner budget (else
+# the generic budget, else lunch), and the `top-rated` tag derived from tabelog_rating >= min_rating.
+price_ranges:
+  JPY:
+    "¥": [0, 999]
+    "¥¥": [1000, 2999]
+    "¥¥¥": [3000, 4999]
+    "¥¥¥¥": [5000, null]
+  CNY:                     # same euro bands as JPY at ~7.3 CNY/EUR
+    "¥": [0, 39]
+    "¥¥": [40, 119]
+    "¥¥¥": [120, 209]
+    "¥¥¥¥": [210, null]
+
+# Restaurants in the shortlists: (Tabelog >= min_rating, or listed by one of `guides` where there is
+# no Tabelog) and some meal at or under max[currency] per person.
+strict_restaurants:
+  min_rating: 3.5
+  guides: [michelin-bib, michelin-selected, black-pearl]
+  max: {JPY: 4999, CNY: 209}
+
+# Derived edges: `nearby` links each sight/hotel to the closest restaurants and sights within km;
+# `in_area` links a node without explicit area to the closest area centroid within km.
+nearby: {km: 1.0, per_type: 8}
+in_area_km: 1.5
+
+# Booking reminders in the trip calendar when a node has no `book_ahead_days`.
+book_ahead_days: {required: 30, reserve: 7}
+
+# Keys removed from geo nodes by sync (parent->child lists live only in exports/).
+geo_strip_keys: [contains, activities, events, restaurants, hotels, trips]
+
+types:
+  country:
+    required: [id, type, name]
+    keys: [id, type, name, name_local, iso_code, currency, currency_code, language, capital, timezone, tz, plugs, holidays, emergency,
+           verified]
+  region:
+    required: [id, type, name, path, country]
+    keys: [id, type, name, path, country, prefectures, coords, likes, verified]
+  city:
+    required: [id, type, name, path, country, region]
+    keys: [id, type, name, path, country, region, prefecture, population, coords, local_transport_day, likes,
+           verified]
+  area:
+    required: [id, type, name, place]
+    keys: [id, type, name, place, aliases, coords, coords_precision, name_local, verified]
+  activity:
+    required: [id, type, name, place, category, entry, tags, hours, closed, booking]
+    keys: [id, type, name, place, area, category, duration_hours, approx_cost, cost, entry, tags, hours,
+           closed, booking, book_ahead_days, near, best_season, best_time, link, coords, coords_precision,
+           name_local, address_local, verified]
+  event:
+    required: [id, type, name, place, editions]
+    keys: [id, type, name, place, area, recurrence, editions, duration_hours, approx_cost, cost, entry,
+           tags, booking, book_ahead_days, best_season, best_time, link, coords, coords_precision, name_local,
+           address_local, verified]
+  restaurant:
+    required: [id, type, name, place, cuisine, price_range, area]
+    keys: [id, type, name, place, area, area_detail, cuisine, price_range, budget_lunch, budget_dinner,
+           budget, tabelog, tabelog_list, tabelog_rating, guide, tags, hours, opening, closed, booking, book_ahead_days,
+           station, station_m, station_local, link, coords, coords_precision, name_local, address_local, verified]
+  hotel:
+    required: [id, type, name, place, area, price_range]
+    keys: [id, type, name, place, area, area_detail, price_range, price_per_night, check_in, check_out, phone, link,
+           coords, coords_precision, name_local, address_local, verified]
+  route:
+    required: [id, type, name, origin, destination, mode, duration_hours, approx_cost]
+    keys: [id, type, name, origin, origin_point, destination, destination_point, bidirectional, mode,
+           duration_hours, approx_cost, price, booking, book_ahead_days, link, verified]
+  trip:
+    required: [id, type, name, country, start, end, status, stops]
+    keys: [id, type, name, country, start, end, status, stops, days]
+  day:
+    required: [id, type, date, trip, place]
+    keys: [id, type, date, trip, place, stay, title, visits, plan, done, expenses]
+
+# Keys of the mappings nested in list fields.
+nested:
+  editions: {required: [start, end], keys: [start, end, presale, on_sale, note]}
+  stops: {required: [from, to, place], keys: [from, to, place, accommodation, price_per_night, notes]}
+  plan: {required: [id], keys: [slot, id, cost, note]}
+  opening: {required: [days, times], keys: [days, times]}
+  done: {required: [id], keys: [id, rating, note]}
+  expenses: {required: [amount, what], keys: [amount, what, category]}

@@ -1,0 +1,154 @@
+{
+ "city": "japan/kyushu/nagasaki",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "nagasaki-atomic-bomb-museum",
+   "name": "Nagasaki Atomic Bomb Museum",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 200,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day"
+   ],
+   "hours": "8:30-18:30 (May–Aug); 8:30-17:30 (Sep–Apr); last entry 30 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    }
+   ]
+  },
+  {
+   "id": "nagasaki-dejima",
+   "name": "Dejima",
+   "category": "history",
+   "entry": "paid",
+   "cost": 1100,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "8:00-21:00 (last entry 20:40)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "nagasaki-glover-garden",
+   "name": "Glover Garden",
+   "category": "history",
+   "entry": "paid",
+   "cost": 1300,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "8:00-18:00 (on many days until 20:00 or 21:30); last entry 20 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "nagasaki-gunkanjima",
+   "name": "Gunkanjima (Hashima) Landing Tour",
+   "category": "history",
+   "entry": "paid",
+   "cost": 4000,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Tours about 3 h (about 50 min boat each way, about 45–60 min on the island); Digital Museum 9:00-17:00 (last entry 16:30)",
+   "booking": "reserve",
+   "duration_hours": 3,
+   "closed": [
+    {
+     "irregular": "Landings or sailings cancelled in bad weather or high waves; Digital Museum has a few irregular closing days"
+    }
+   ]
+  },
+  {
+   "id": "nagasaki-mount-inasa",
+   "name": "Mount Inasa Night View",
+   "category": "nature",
+   "entry": "mixed",
+   "cost": 1900,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Ropeway 9:00-22:00 (every 15–20 min); Slope Car 9:00-22:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "Ropeway usually stops for maintenance from around early June to around early July"
+    }
+   ]
+  },
+  {
+   "id": "nagasaki-peace-park",
+   "name": "Nagasaki Peace Park and Hypocenter Park",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [
+  {
+   "id": "nagasaki-kunchi",
+   "name": "Nagasaki Kunchi",
+   "recurrence": "yearly, 7–9 October (fixed dates)",
+   "editions": [
+    {
+     "start": "2027-10-07",
+     "end": "2027-10-09",
+     "note": "Performances at Suwa Shrine, Otabisho, Yasaka Shrine and Chuo Koen on the morning and evening of 7 Oct and mornings of 8–9 Oct; free performances at Kamome Hiroba in front of Nagasaki Station"
+    }
+   ],
+   "entry": "mixed",
+   "cost": 0
+  },
+  {
+   "id": "nagasaki-lantern-festival",
+   "name": "Nagasaki Lantern Festival",
+   "recurrence": "yearly, around Chinese New Year (about 17 days, from early February)",
+   "editions": [
+    {
+     "start": "2027-02-05",
+     "end": "2027-02-21",
+     "note": "17 days; venues include Shinchi Chinatown, Hamanomachi and Kanko-dori in central Nagasaki"
+    }
+   ],
+   "entry": "n/a"
+  }
+ ],
+ "routes": [
+  {
+   "id": "fukuoka-to-nagasaki",
+   "name": "Fukuoka ↔ Nagasaki",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/nagasaki",
+   "mode": "mixed",
+   "duration_hours": 1.4,
+   "price": 5960
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.550088,35.31839]},"properties":{"id":"kamakura-day-trip","type":"activity","title":"Day trip to Kamakura & Enoshima","description":"history · Great Buddha ¥300; trains from Tokyo ~¥1,000 return · full day","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.533309,35.312269]},"properties":{"id":"kamakura-hasedera","type":"activity","title":"Hase-dera Temple","description":"temple · ¥400 · 8:00-16:30 (gate closes 17:00)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.535729,35.316499]},"properties":{"id":"kamakura-kotokuin-daibutsu","type":"activity","title":"Great Buddha (Kotoku-in)","description":"temple · ¥300 (+¥50 inside the statue) · Oct–Mar 8:00-17:00 (last entry 16:45); inside 8:00-16:30","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}}
+]}

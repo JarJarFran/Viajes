@@ -1,0 +1,2089 @@
+{
+ "city": "japan/kanto/tokyo",
+ "currency": "JPY",
+ "areas": [
+  {
+   "id": "tokyo-area-akihabara",
+   "name": "Akihabara / Kanda / Jimbocho",
+   "coords": [
+    35.699033,
+    139.773681
+   ]
+  },
+  {
+   "id": "tokyo-area-asakusa",
+   "name": "Asakusa",
+   "coords": [
+    35.709333,
+    139.796883
+   ]
+  },
+  {
+   "id": "tokyo-area-chuo-west",
+   "name": "Nakano / Koenji / Ogikubo",
+   "coords": [
+    35.705335,
+    139.649953
+   ]
+  },
+  {
+   "id": "tokyo-area-ebisu",
+   "name": "Ebisu / Daikanyama",
+   "coords": [
+    35.646441,
+    139.710208
+   ]
+  },
+  {
+   "id": "tokyo-area-ginza",
+   "name": "Ginza / Shimbashi",
+   "coords": [
+    35.670938,
+    139.76521
+   ]
+  },
+  {
+   "id": "tokyo-area-harajuku",
+   "name": "Harajuku / Omotesando",
+   "coords": [
+    35.670502,
+    139.702414
+   ]
+  },
+  {
+   "id": "tokyo-area-ikebukuro",
+   "name": "Ikebukuro",
+   "coords": [
+    35.730732,
+    139.709622
+   ]
+  },
+  {
+   "id": "tokyo-area-marunouchi",
+   "name": "Marunouchi / Tokyo Station / Nihonbashi",
+   "coords": [
+    35.681619,
+    139.76533
+   ]
+  },
+  {
+   "id": "tokyo-area-odaiba",
+   "name": "Odaiba / Toyosu",
+   "coords": [
+    35.631084,
+    139.777354
+   ]
+  },
+  {
+   "id": "tokyo-area-roppongi",
+   "name": "Roppongi / Azabu / Akasaka",
+   "coords": [
+    35.662535,
+    139.731166
+   ]
+  },
+  {
+   "id": "tokyo-area-ryogoku",
+   "name": "Ryogoku / Kinshicho",
+   "coords": [
+    35.696002,
+    139.792755
+   ]
+  },
+  {
+   "id": "tokyo-area-shibuya",
+   "name": "Shibuya",
+   "coords": [
+    35.658423,
+    139.702516
+   ]
+  },
+  {
+   "id": "tokyo-area-shimokitazawa",
+   "name": "Shimokitazawa",
+   "coords": [
+    35.661266,
+    139.666921
+   ]
+  },
+  {
+   "id": "tokyo-area-shinjuku",
+   "name": "Shinjuku",
+   "coords": [
+    35.690262,
+    139.700514
+   ]
+  },
+  {
+   "id": "tokyo-area-tsukiji",
+   "name": "Tsukiji",
+   "coords": [
+    35.668085,
+    139.772592
+   ]
+  },
+  {
+   "id": "tokyo-area-ueno",
+   "name": "Ueno / Yanaka",
+   "coords": [
+    35.714041,
+    139.777116
+   ]
+  }
+ ],
+ "activities_top": [
+  {
+   "id": "tokyo-akihabara",
+   "name": "Akihabara (Electric Town)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "shops 10:00-21:00",
+   "booking": "walk-in",
+   "duration_hours": 3,
+   "area": "tokyo-area-akihabara"
+  },
+  {
+   "id": "tokyo-edotokyo-museum",
+   "name": "Edo-Tokyo Museum (Ryogoku)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:30-17:30 (Sat to 19:30)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-ryogoku",
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "holiday_shift": true
+    }
+   ]
+  },
+  {
+   "id": "tokyo-ghibli-museum",
+   "name": "Ghibli Museum (Mitaka)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 1000,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "10:00-18:00",
+   "booking": "required",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "tue"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tokyo-ginza",
+   "name": "Ginza (shopping & depachika)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "10:00-20:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-ginza"
+  },
+  {
+   "id": "tokyo-golden-gai",
+   "name": "Golden Gai (Shinjuku)",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "top50",
+    "night"
+   ],
+   "hours": "17:00-24:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "tokyo-area-shinjuku"
+  },
+  {
+   "id": "tokyo-hakone-daytrip",
+   "name": "Day trip to Hakone (onsen, Lake Ashi)",
+   "category": "onsen",
+   "entry": "mixed",
+   "cost": 2320,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "full day",
+   "booking": "walk-in",
+   "duration_hours": 8
+  },
+  {
+   "id": "tokyo-hamarikyu-gardens",
+   "name": "Hama-rikyu Gardens",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 300,
+   "tags": [
+    "top50",
+    "unesco"
+   ],
+   "hours": "9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "tokyo-area-tsukiji",
+   "closed": [
+    {
+     "yearly": "12-29..01-01"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-harajuku-takeshita",
+   "name": "Harajuku & Takeshita Street",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "10:00-20:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-harajuku"
+  },
+  {
+   "id": "tokyo-imperial-palace",
+   "name": "Imperial Palace East Gardens",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-16:30",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "area": "tokyo-area-marunouchi",
+   "closed": [
+    {
+     "weekly": [
+      "mon",
+      "fri"
+     ],
+     "holiday_shift": true
+    },
+    {
+     "yearly": "12-28..01-03"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-meiji-jingu",
+   "name": "Meiji Shrine (Meiji Jingu) and Yoyogi Park",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "5:00-sunset",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-harajuku"
+  },
+  {
+   "id": "tokyo-mori-art-museum",
+   "name": "Mori Art Museum (Roppongi Hills 53F)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-18:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-roppongi",
+   "closed": [
+    {
+     "dates": "2027-09-24..2028-04-20",
+     "partial": "museum closed for renovation (reopening late April 2028)"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-nakano-broadway",
+   "name": "Nakano Broadway",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-20:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-chuo-west",
+   "closed": [
+    {
+     "weekly": [
+      "wed"
+     ],
+     "partial": "many otaku shops closed on Wednesdays"
+    },
+    {
+     "irregular": "whole building closed the 3rd Wednesday of February"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-odaiba",
+   "name": "Odaiba island (Gundam, beach, Rainbow Bridge)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 360,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 4,
+   "area": "tokyo-area-odaiba"
+  },
+  {
+   "id": "tokyo-omoide-yokocho",
+   "name": "Omoide Yokocho (Memory Lane, Shinjuku)",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50",
+    "night"
+   ],
+   "hours": "17:00-23:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-shinjuku"
+  },
+  {
+   "id": "tokyo-pokemon-center",
+   "name": "Pokemon Center (Tokyo Station / Nihonbashi)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 500,
+   "tags": [
+    "top100"
+   ],
+   "hours": "10:00-20:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-marunouchi"
+  },
+  {
+   "id": "tokyo-sensoji",
+   "name": "Senso-ji Temple (Asakusa)",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "6:00-18:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-asakusa"
+  },
+  {
+   "id": "tokyo-shibuya-crossing",
+   "name": "Shibuya crossing and the Hachiko statue",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-shibuya"
+  },
+  {
+   "id": "tokyo-shibuya-sky",
+   "name": "Shibuya Sky (observation deck)",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 2700,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "10:00-22:30 (last entry 21:20)",
+   "booking": "reserve",
+   "duration_hours": 1,
+   "area": "tokyo-area-shibuya",
+   "closed": [
+    {
+     "yearly": "01-01..01-01"
+    },
+    {
+     "irregular": "closes in bad weather"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-shinjuku-gyoen",
+   "name": "Shinjuku Gyoen National Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-17:00 (last 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-shinjuku"
+  },
+  {
+   "id": "tokyo-skytree",
+   "name": "Tokyo Skytree",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 1800,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "10:00-22:00",
+   "booking": "reserve",
+   "duration_hours": 2,
+   "area": "tokyo-area-asakusa"
+  },
+  {
+   "id": "tokyo-sumida-river-cruise",
+   "name": "Sumida River cruise (Asakusa → Odaiba, Himiko)",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 1000,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-19:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-asakusa"
+  },
+  {
+   "id": "tokyo-sumo-morning-practice",
+   "name": "Watch sumo morning practice (asageiko/keiko) at a Tokyo stable",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 5000,
+   "tags": [
+    "touristic",
+    "top100",
+    "hidden-gem"
+   ],
+   "hours": "~7:00-10:00 (some stables 6:00-11:00); NOT during Tokyo tournaments (Jan/May/Sep) or regional tour months (Mar/Jul/Nov)",
+   "booking": "required",
+   "duration_hours": 2,
+   "area": "tokyo-area-ryogoku",
+   "closed": [
+    {
+     "dates": "2027-01-10..2027-01-24",
+     "partial": "stables closed to visitors during the January 2027 Tokyo tournament"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-sunshine-city",
+   "name": "Sunshine City (Ikebukuro)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 2600,
+   "tags": [
+    "top50",
+    "kid-friendly"
+   ],
+   "hours": "10:00-20:00",
+   "booking": "walk-in",
+   "duration_hours": 3,
+   "area": "tokyo-area-ikebukuro"
+  },
+  {
+   "id": "tokyo-teamlab-borderless",
+   "name": "teamLab Borderless (Azabudai Hills)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 3400,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "10:00-20:00 (timed entry)",
+   "booking": "required",
+   "duration_hours": 3,
+   "area": "tokyo-area-roppongi",
+   "closed": [
+    {
+     "irregular": "closed on some Tuesdays — check the calendar on teamlab.art"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-teamlab-planets",
+   "name": "teamLab Planets (Toyosu)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 3600,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "10:00-21:00 (timed entry)",
+   "booking": "required",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "specific": [
+      "2026-12-03",
+      "2027-01-14"
+     ]
+    },
+    {
+     "irregular": "other maintenance days are announced on teamlab.art; Dec 31 – Jan 2 open 8:00–20:00"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-tmg-observatory",
+   "name": "Tokyo Metropolitan Government Building observatory (45F)",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "top50"
+   ],
+   "hours": "9:30-17:30 (seasonal)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-shinjuku",
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    },
+    {
+     "yearly": "01-02..01-03"
+    },
+    {
+     "weekly": [
+      "tue"
+     ],
+     "nth": [
+      1,
+      3
+     ],
+     "holiday_shift": true,
+     "partial": "South observatory closed; North open"
+    },
+    {
+     "weekly": [
+      "mon"
+     ],
+     "nth": [
+      2,
+      4
+     ],
+     "holiday_shift": true,
+     "partial": "North observatory closed; South open"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-tokyo-city-view",
+   "name": "Tokyo City View (Roppongi Hills 52F)",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 2200,
+   "tags": [
+    "top50"
+   ],
+   "hours": "10:00-23:00",
+   "booking": "reserve",
+   "duration_hours": 1,
+   "area": "tokyo-area-roppongi"
+  },
+  {
+   "id": "tokyo-tokyo-tower",
+   "name": "Tokyo Tower",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 1500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "9:00-22:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "area": "tokyo-area-roppongi"
+  },
+  {
+   "id": "tokyo-tsukiji-outer-market",
+   "name": "Tsukiji Outer Market",
+   "category": "food",
+   "entry": "mixed",
+   "cost": 1500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "5:00-14:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "area": "tokyo-area-tsukiji",
+   "closed": [
+    {
+     "weekly": [
+      "sun"
+     ]
+    },
+    {
+     "yearly": "12-31..01-04"
+    },
+    {
+     "irregular": "closed on national holidays and some Wednesdays (see the market calendar)"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-ueno-park",
+   "name": "Ueno Park & museums",
+   "category": "museums",
+   "entry": "mixed",
+   "cost": 1000,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "park 24h; TNM 9:30-17:00 (Fri/Sat to 20:00)",
+   "booking": "walk-in",
+   "duration_hours": 4,
+   "area": "tokyo-area-ueno",
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "holiday_shift": true,
+     "partial": "Tokyo National Museum closed; park open"
+    },
+    {
+     "dates": "2026-12-26..2026-12-31",
+     "partial": "Tokyo National Museum New Year closure; park open"
+    }
+   ]
+  },
+  {
+   "id": "tokyo-yanaka",
+   "name": "Yanaka old town (Yanaka Ginza, Nezu Shrine)",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "daytime (Yuyake Dandan ~sunset)",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "tokyo-yokohama-daytrip",
+   "name": "Day trip to Yokohama (Chinatown, Minato Mirai)",
+   "category": "leisure",
+   "entry": "mixed",
+   "cost": 480,
+   "tags": [
+    "touristic",
+    "top100"
+   ],
+   "hours": "full day",
+   "booking": "walk-in",
+   "duration_hours": 6
+  },
+  {
+   "id": "tokyo-zojoji",
+   "name": "Zojo-ji Temple",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "24h",
+   "booking": "walk-in",
+   "duration_hours": 1
+  }
+ ],
+ "restaurants_strict": [
+  {
+   "id": "tokyo-restaurant-aangan",
+   "name": "AANGAN",
+   "cuisine": "nepalese curry, izakaya",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.56,
+   "station": "Shin Okubo"
+  },
+  {
+   "id": "tokyo-restaurant-andhra-dining-shibuya",
+   "name": "Andhra Dining Shibuya",
+   "cuisine": "indian curry, dining bar",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.52,
+   "station": "Shibuya"
+  },
+  {
+   "id": "tokyo-restaurant-aozora-sandaime",
+   "name": "Tsukiji Aozora Sandaime Honten",
+   "cuisine": "sushi / kaisen-don",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.58
+  },
+  {
+   "id": "tokyo-restaurant-asakusa-hirayama",
+   "name": "Asakusa Hirayama",
+   "cuisine": "soba, tempura",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.71,
+   "station": "Tawaramachi"
+  },
+  {
+   "id": "tokyo-restaurant-bazoku-asakusa",
+   "name": "Bazoku Asakusa",
+   "cuisine": "ramen / tantanmen",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.63
+  },
+  {
+   "id": "tokyo-restaurant-benkei-asakusa",
+   "name": "Ramen Benkei Asakusa",
+   "cuisine": "ramen / tsukemen",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.66
+  },
+  {
+   "id": "tokyo-restaurant-beppinshan",
+   "name": "Hakata Kozara Teppan Beppinshan",
+   "cuisine": "izakaya / teppanyaki",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    6000,
+    7999
+   ],
+   "tabelog_rating": 3.58
+  },
+  {
+   "id": "tokyo-restaurant-bistro-hamaifu",
+   "name": "Bistro Hamaifu",
+   "cuisine": "bistro / french",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.6
+  },
+  {
+   "id": "tokyo-restaurant-curry-up",
+   "name": "CURRY UP",
+   "cuisine": "curry",
+   "area": "tokyo-area-harajuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.76,
+   "station": "Kita Sando"
+  },
+  {
+   "id": "tokyo-restaurant-dogenzaka-mammoth",
+   "name": "Dogenzaka Mammoth",
+   "cuisine": "tsukemen / ramen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "tokyo-restaurant-european-curry-tomato",
+   "name": "European Curry Tomato",
+   "cuisine": "european curry",
+   "area": "tokyo-area-chuo-west",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 4.26,
+   "station": "Ogikubo"
+  },
+  {
+   "id": "tokyo-restaurant-fish-shinjuku-ten",
+   "name": "FISH Shinjuku ten",
+   "cuisine": "curry",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.79,
+   "station": "Seibu Shinjuku"
+  },
+  {
+   "id": "tokyo-restaurant-ginza-sato-yosuke",
+   "name": "Ginza Sato Yosuke",
+   "cuisine": "udon, curry udon",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    6000,
+    7999
+   ],
+   "tabelog_rating": 3.54,
+   "station": "Ginza"
+  },
+  {
+   "id": "tokyo-restaurant-godaime-hanayama-udon-ginza-ten",
+   "name": "Godaime Hanayama Udon Ginza ten",
+   "cuisine": "udon, izakaya, tempura",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.63,
+   "station": "Higashi Ginza"
+  },
+  {
+   "id": "tokyo-restaurant-godaime-hanayama-udon-nihonbashi",
+   "name": "Godaime Hanayama Udon Nihonbashi",
+   "cuisine": "udon, tempura",
+   "area": "tokyo-area-marunouchi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.59,
+   "station": "Nihombashi"
+  },
+  {
+   "id": "tokyo-restaurant-hajime-nihonbashi-hon-ten",
+   "name": "HAJIME Nihonbashi hon ten",
+   "cuisine": "tonkatsu, katsu-don, curry",
+   "area": "tokyo-area-marunouchi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.53,
+   "station": "Mitsukoshimae"
+  },
+  {
+   "id": "tokyo-restaurant-hasegawa-higashiginza",
+   "name": "Tonkatsu Hasegawa Higashi-ginza",
+   "cuisine": "tonkatsu",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.68
+  },
+  {
+   "id": "tokyo-restaurant-hasegawa-tonkatsu",
+   "name": "Hasegawa (tonkatsu)",
+   "cuisine": "tonkatsu",
+   "area": "tokyo-area-ryogoku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.72
+  },
+  {
+   "id": "tokyo-restaurant-hayashi",
+   "name": "Hayashi",
+   "cuisine": "ramen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    999,
+    1999
+   ],
+   "tabelog_rating": 3.77
+  },
+  {
+   "id": "tokyo-restaurant-ittaikan",
+   "name": "ITTAIKAN",
+   "cuisine": "curry (wagyu claypot rice)",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.64,
+   "station": "Higashi Ginza"
+  },
+  {
+   "id": "tokyo-restaurant-jikasei-mensho",
+   "name": "Jikasei MENSHO",
+   "cuisine": "ramen / tantanmen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.6
+  },
+  {
+   "id": "tokyo-restaurant-kagawa-ippuku-art",
+   "name": "Kagawa Ippuku ART",
+   "cuisine": "udon, tempura",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.58,
+   "station": "Shibuya"
+  },
+  {
+   "id": "tokyo-restaurant-kagawa-ippuku-nishishinjuku",
+   "name": "Kagawa Ippuku Nishishinjuku",
+   "cuisine": "udon, tempura",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.58,
+   "station": "Shinjuku Nishiguchi"
+  },
+  {
+   "id": "tokyo-restaurant-kamayoshi",
+   "name": "KAMAYOSHI",
+   "cuisine": "udon, curry udon, tempura",
+   "area": "tokyo-area-akihabara",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.84,
+   "station": "Awajicho"
+  },
+  {
+   "id": "tokyo-restaurant-kanda-matsuya-honten",
+   "name": "Kanda Matsuya Honten",
+   "cuisine": "soba",
+   "area": "tokyo-area-akihabara",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.66,
+   "station": "Awajicho"
+  },
+  {
+   "id": "tokyo-restaurant-katsu-kichi-shinmaru-biru-ten",
+   "name": "Katsu Kichi Shinmaru biru ten",
+   "cuisine": "tonkatsu, kushikatsu, curry",
+   "area": "tokyo-area-marunouchi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.57,
+   "station": "Tokyo"
+  },
+  {
+   "id": "tokyo-restaurant-katsu-pulipo",
+   "name": "Katsu Pulipo",
+   "cuisine": "tonkatsu",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.83
+  },
+  {
+   "id": "tokyo-restaurant-katsuji-ueno",
+   "name": "Taishu Shabushabu Katsuji Ueno",
+   "cuisine": "shabu-shabu / oden",
+   "area": "tokyo-area-ueno",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.53
+  },
+  {
+   "id": "tokyo-restaurant-khan-kebab-biryani",
+   "name": "KHAN KEBAB BIRYANI",
+   "cuisine": "indian curry, kebab",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.53,
+   "station": "Shimbashi"
+  },
+  {
+   "id": "tokyo-restaurant-kiraku-chuka",
+   "name": "Chuka Menten Kiraku",
+   "cuisine": "ramen / chinese",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.74
+  },
+  {
+   "id": "tokyo-restaurant-kirimugi-ya-jinroku",
+   "name": "Kirimugi Ya Jinroku",
+   "cuisine": "udon, tempura, izakaya",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.64,
+   "station": "Shinjuku Gyoemmae"
+  },
+  {
+   "id": "tokyo-restaurant-kitchen-nankai-chiyoda-kanda-jinbou-ten",
+   "name": "Kitchen Nankai Chiyoda kanda jinbou ten",
+   "cuisine": "yoshoku, tonkatsu, curry",
+   "area": "tokyo-area-akihabara",
+   "price_range": "¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.66,
+   "station": "Jimbocho"
+  },
+  {
+   "id": "tokyo-restaurant-maze-soba-shichi",
+   "name": "Maze-soba Shichi",
+   "cuisine": "maze-soba",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.56
+  },
+  {
+   "id": "tokyo-restaurant-men-chirashi",
+   "name": "Men Chirashi",
+   "cuisine": "udon",
+   "area": "tokyo-area-harajuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.58,
+   "station": "Meiji Jingumae"
+  },
+  {
+   "id": "tokyo-restaurant-menson-rage-azabudai-hiruzu",
+   "name": "Menson RAGE Azabudai hiruzu",
+   "cuisine": "ramen, abura-soba, maze-soba, curry",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.62,
+   "station": "Kamiyacho"
+  },
+  {
+   "id": "tokyo-restaurant-menya-nukaji",
+   "name": "Menya Nukaji",
+   "cuisine": "tsukemen / ramen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.58
+  },
+  {
+   "id": "tokyo-restaurant-meripurinchipessa",
+   "name": "Pizzeria Meripurinchipessa Shibuya",
+   "cuisine": "pizza / italian",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.54
+  },
+  {
+   "id": "tokyo-restaurant-namiki-yabu-soba",
+   "name": "Namiki Yabu Soba",
+   "cuisine": "soba",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Asakusa"
+  },
+  {
+   "id": "tokyo-restaurant-nezu-kamachiku",
+   "name": "Nezu Kamachiku",
+   "cuisine": "udon, sake bar",
+   "area": "tokyo-area-ueno",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Nezu"
+  },
+  {
+   "id": "tokyo-restaurant-nishiazabu-butagumi",
+   "name": "Nishiazabu Butagumi",
+   "cuisine": "tonkatsu, curry, pork dishes",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    4000,
+    4999
+   ],
+   "tabelog_rating": 3.59,
+   "station": "Nogizaka"
+  },
+  {
+   "id": "tokyo-restaurant-osoba-no-koga",
+   "name": "Osoba no Koga",
+   "cuisine": "soba, izakaya",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    6000,
+    7999
+   ],
+   "tabelog_rating": 3.72,
+   "station": "Nogizaka"
+  },
+  {
+   "id": "tokyo-restaurant-rai-an",
+   "name": "Rai An",
+   "cuisine": "soba, izakaya",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    10000,
+    14999
+   ],
+   "tabelog_rating": 3.5,
+   "station": "Shibuya"
+  },
+  {
+   "id": "tokyo-restaurant-ramen-koku",
+   "name": "Ramen Koku",
+   "cuisine": "ramen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.69
+  },
+  {
+   "id": "tokyo-restaurant-renge-gotoku",
+   "name": "Renge no Gotoku",
+   "cuisine": "ramen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.66
+  },
+  {
+   "id": "tokyo-restaurant-roppongi-udon",
+   "name": "Roppongi Udon",
+   "cuisine": "udon, curry udon, tempura",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.56,
+   "station": "Roppongi"
+  },
+  {
+   "id": "tokyo-restaurant-ryuou",
+   "name": "Ryuou",
+   "cuisine": "chinese / gyoza / ramen",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.51
+  },
+  {
+   "id": "tokyo-restaurant-samurai-iekei",
+   "name": "Yokohama Iekei Ramen Samurai Shibuya",
+   "cuisine": "ramen (iekei)",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "tokyo-restaurant-shinbusakiya",
+   "name": "SHINBUSAKIYA Shibuya",
+   "cuisine": "ramen / tsukemen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥¥",
+   "budget": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.57
+  },
+  {
+   "id": "tokyo-restaurant-shuhari-udon",
+   "name": "Ishi Usu Biki Udon Shuhari",
+   "cuisine": "udon / izakaya",
+   "area": "tokyo-area-ryogoku",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    4000,
+    4999
+   ],
+   "tabelog_rating": 3.59
+  },
+  {
+   "id": "tokyo-restaurant-shutoku-2gou",
+   "name": "Shutoku 2 gou ten",
+   "cuisine": "sushi / izakaya",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.61
+  },
+  {
+   "id": "tokyo-restaurant-soba-sasuga",
+   "name": "Soba Sasuga",
+   "cuisine": "soba",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    10000,
+    14999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Higashi Ginza"
+  },
+  {
+   "id": "tokyo-restaurant-spicy-curry-roka",
+   "name": "SPICY CURRY Roka",
+   "cuisine": "spicy curry, taiwanese",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.94,
+   "station": "Okubo"
+  },
+  {
+   "id": "tokyo-restaurant-sugidama",
+   "name": "Niboshi to Nihonshu Sugidama",
+   "cuisine": "ramen / izakaya",
+   "area": "tokyo-area-marunouchi",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    2000,
+    2999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "tokyo-restaurant-sukiyaki-juni",
+   "name": "Sukiyaki Juni Ten",
+   "cuisine": "sukiyaki / shabu",
+   "area": "tokyo-area-marunouchi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    10000,
+    null
+   ],
+   "tabelog_rating": 3.6
+  },
+  {
+   "id": "tokyo-restaurant-sushi-nakamura-tsukiji",
+   "name": "Sushi Nakamura (Tsukiji)",
+   "cuisine": "sushi",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.64
+  },
+  {
+   "id": "tokyo-restaurant-tamawarai",
+   "name": "Tamawarai",
+   "cuisine": "soba",
+   "area": "tokyo-area-harajuku",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    10000,
+    14999
+   ],
+   "tabelog_rating": 3.92,
+   "station": "Meiji Jingumae"
+  },
+  {
+   "id": "tokyo-restaurant-tansoan-kenjiro",
+   "name": "Tansoan Kenjiro",
+   "cuisine": "soba, sake bar",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.65,
+   "station": "Asakusa"
+  },
+  {
+   "id": "tokyo-restaurant-teppanyaki-satou",
+   "name": "Teppanyaki Satou",
+   "cuisine": "teppanyaki",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    10000,
+    null
+   ],
+   "tabelog_rating": 3.57
+  },
+  {
+   "id": "tokyo-restaurant-teuchi-shimada",
+   "name": "Teuchi Shimada",
+   "cuisine": "udon, soba, izakaya",
+   "area": "tokyo-area-harajuku",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    4000,
+    4999
+   ],
+   "tabelog_rating": 3.63,
+   "station": "Omote Sando"
+  },
+  {
+   "id": "tokyo-restaurant-teuchi-soba-jiyu-san",
+   "name": "Teuchi Soba Jiyu San",
+   "cuisine": "soba",
+   "area": "tokyo-area-ikebukuro",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    6000,
+    7999
+   ],
+   "tabelog_rating": 4.09,
+   "station": "Higashi Nagasaki"
+  },
+  {
+   "id": "tokyo-restaurant-tonkatsu-aoki-no-curry-ya-ippekoppe-nishishinjuku-ten",
+   "name": "Tonkatsu Aoki no Curry Ya Ippekoppe Nishishinjuku ten",
+   "cuisine": "curry, tonkatsu",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.59,
+   "station": "Shinjuku Nishiguchi"
+  },
+  {
+   "id": "tokyo-restaurant-tonkatsu-gabuu",
+   "name": "Tokyo Tonkatsu Gabuu",
+   "cuisine": "tonkatsu",
+   "area": "tokyo-area-ueno",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    3000,
+    3999
+   ],
+   "tabelog_rating": 3.66
+  },
+  {
+   "id": "tokyo-restaurant-udon-manda-jiro",
+   "name": "Udon Manda Jiro",
+   "cuisine": "udon",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.59,
+   "station": "Shinjuku Gyoemmae"
+  },
+  {
+   "id": "tokyo-restaurant-udon-shin",
+   "name": "Udon Shin",
+   "cuisine": "udon",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.67,
+   "station": "Minami Shinjuku"
+  },
+  {
+   "id": "tokyo-restaurant-udon-yamacho",
+   "name": "Udon Yamacho",
+   "cuisine": "udon, tempura, izakaya",
+   "area": "tokyo-area-ebisu",
+   "price_range": "¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    4000,
+    4999
+   ],
+   "tabelog_rating": 3.68,
+   "station": "Ebisu"
+  },
+  {
+   "id": "tokyo-restaurant-udonya-shinbori",
+   "name": "Udonya Shinbori",
+   "cuisine": "udon",
+   "area": "tokyo-area-shinjuku",
+   "price_range": "¥¥",
+   "budget_lunch": [
+    null,
+    999
+   ],
+   "budget_dinner": [
+    1000,
+    1999
+   ],
+   "tabelog_rating": 3.61,
+   "station": "Yoyogi"
+  },
+  {
+   "id": "tokyo-restaurant-urinbo",
+   "name": "Urinbo",
+   "cuisine": "ramen",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.54
+  },
+  {
+   "id": "tokyo-restaurant-usagi",
+   "name": "Usagi",
+   "cuisine": "ramen / tantanmen",
+   "area": "tokyo-area-shibuya",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.68
+  },
+  {
+   "id": "tokyo-restaurant-yakiniku-miyabi",
+   "name": "Yakiniku Miyabi",
+   "cuisine": "yakiniku, tripe, steak",
+   "area": "tokyo-area-roppongi",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    1000,
+    1999
+   ],
+   "budget_dinner": [
+    8000,
+    9999
+   ],
+   "tabelog_rating": 3.58,
+   "station": "Roppongi Itchome"
+  },
+  {
+   "id": "tokyo-restaurant-yakiniku-ushigoro-ginza-namikidoori-ten",
+   "name": "Yakiniku Ushigoro Ginza namikidoori ten",
+   "cuisine": "yakiniku, steak, tripe",
+   "area": "tokyo-area-ginza",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    4000,
+    4999
+   ],
+   "budget_dinner": [
+    10000,
+    14999
+   ],
+   "tabelog_rating": 3.68,
+   "station": "Ginza"
+  },
+  {
+   "id": "tokyo-restaurant-yakiuo-ishikawa",
+   "name": "Yakiuo Ishikawa",
+   "cuisine": "yakiniku / sushi",
+   "area": "tokyo-area-tsukiji",
+   "price_range": "¥¥¥¥",
+   "budget_lunch": [
+    2000,
+    2999
+   ],
+   "budget_dinner": [
+    5000,
+    5999
+   ],
+   "tabelog_rating": 3.61
+  },
+  {
+   "id": "tokyo-restaurant-yoroiya",
+   "name": "Asakusa Ramen Yoroiya",
+   "cuisine": "ramen",
+   "area": "tokyo-area-asakusa",
+   "price_range": "¥",
+   "budget": [
+    null,
+    999
+   ],
+   "tabelog_rating": 3.65
+  }
+ ],
+ "events": [
+  {
+   "id": "tokyo-new-year-sales",
+   "name": "New Year sales & fukubukuro (lucky bags)",
+   "recurrence": "yearly, from January 1 (fukubukuro mostly the first week)",
+   "editions": [
+    {
+     "start": "2027-01-01",
+     "end": "2027-01-31"
+    }
+   ],
+   "entry": "free"
+  },
+  {
+   "id": "tokyo-setagaya-boroichi",
+   "name": "Setagaya Boroichi (flea market)",
+   "recurrence": "yearly, December 15–16 and January 15–16",
+   "editions": [
+    {
+     "start": "2026-12-15",
+     "end": "2026-12-16",
+     "note": "9:00–20:00"
+    },
+    {
+     "start": "2027-01-15",
+     "end": "2027-01-16",
+     "note": "9:00–20:00"
+    }
+   ],
+   "entry": "mixed",
+   "cost": 0
+  },
+  {
+   "id": "tokyo-sumo-tournament",
+   "name": "Grand Sumo Tournament (Ryogoku Kokugikan, January)",
+   "recurrence": "Tokyo tournaments every January, May and September (15 days each)",
+   "editions": [
+    {
+     "start": "2027-01-10",
+     "end": "2027-01-24",
+     "presale": "2026-12-02 11:00:00+09:00",
+     "on_sale": "2026-12-05 10:00:00+09:00",
+     "note": "presale = Ticket Pia PreReserve lottery (Dec 2 11:00 – Dec 3 11:00 JST); general sale on Ticket Oosumo (sumo.pia.jp)"
+    }
+   ],
+   "entry": "paid",
+   "cost": 3500
+  },
+  {
+   "id": "tokyo-winter-illuminations",
+   "name": "Tokyo winter illuminations (January)",
+   "recurrence": "yearly, mid-November to mid-February (each venue has its own dates)",
+   "editions": [
+    {
+     "start": "2026-11-12",
+     "end": "2027-02-14"
+    }
+   ],
+   "entry": "free"
+  }
+ ],
+ "routes": [
+  {
+   "id": "haneda-to-tokyo-center",
+   "name": "Haneda Airport (HND) ↔ central Tokyo",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/tokyo",
+   "mode": "train",
+   "duration_hours": 0.5
+  },
+  {
+   "id": "kyoto-to-tokyo",
+   "name": "Kyoto → Tokyo (Tokaido Shinkansen)",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kanto/tokyo",
+   "mode": "shinkansen",
+   "duration_hours": 2.5,
+   "price": 14090
+  },
+  {
+   "id": "narita-to-tokyo-center",
+   "name": "Narita Airport (NRT) ↔ central Tokyo",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/tokyo",
+   "mode": "train",
+   "duration_hours": 1,
+   "price": 3140
+  },
+  {
+   "id": "tokyo-to-aomori",
+   "name": "Tokyo ↔ Aomori",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/aomori",
+   "mode": "shinkansen",
+   "price": 18110
+  },
+  {
+   "id": "tokyo-to-fukuoka",
+   "name": "Tokyo ↔ Fukuoka",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kyushu/fukuoka",
+   "mode": "plane",
+   "duration_hours": 1.8
+  },
+  {
+   "id": "tokyo-to-hakodate",
+   "name": "Tokyo ↔ Hakodate",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "shinkansen",
+   "duration_hours": 4.7,
+   "price": 25000
+  },
+  {
+   "id": "tokyo-to-hakone",
+   "name": "Tokyo ↔ Hakone",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/hakone",
+   "mode": "train",
+   "duration_hours": 1.4,
+   "price": 2470
+  },
+  {
+   "id": "tokyo-to-hiroshima",
+   "name": "Tokyo ↔ Hiroshima",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chugoku/hiroshima",
+   "mode": "shinkansen",
+   "duration_hours": 4,
+   "price": 18380
+  },
+  {
+   "id": "tokyo-to-kamakura",
+   "name": "Tokyo ↔ Kamakura",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/kamakura",
+   "mode": "train",
+   "duration_hours": 1,
+   "price": 1020
+  },
+  {
+   "id": "tokyo-to-kanazawa",
+   "name": "Tokyo ↔ Kanazawa",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kanazawa",
+   "mode": "shinkansen",
+   "duration_hours": 2.5,
+   "price": 14600
+  },
+  {
+   "id": "tokyo-to-kawaguchiko",
+   "name": "Tokyo (Shinjuku) ↔ Kawaguchiko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kawaguchiko",
+   "mode": "bus",
+   "duration_hours": 2,
+   "price": 2200
+  },
+  {
+   "id": "tokyo-to-matsumoto",
+   "name": "Tokyo ↔ Matsumoto",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/matsumoto",
+   "mode": "train",
+   "duration_hours": 2.6,
+   "price": 6730
+  },
+  {
+   "id": "tokyo-to-nagoya",
+   "name": "Tokyo ↔ Nagoya",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/nagoya",
+   "mode": "shinkansen",
+   "duration_hours": 1.6,
+   "price": 11300
+  },
+  {
+   "id": "tokyo-to-nikko",
+   "name": "Tokyo (Asakusa) ↔ Nikko",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/nikko",
+   "mode": "train",
+   "duration_hours": 2,
+   "price": 3340
+  },
+  {
+   "id": "tokyo-to-sapporo",
+   "name": "Tokyo ↔ Sapporo",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/sapporo",
+   "mode": "plane",
+   "duration_hours": 2.5
+  },
+  {
+   "id": "tokyo-to-sendai",
+   "name": "Tokyo ↔ Sendai",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/sendai",
+   "mode": "shinkansen",
+   "price": 11310
+  },
+  {
+   "id": "tokyo-to-shin-osaka",
+   "name": "Tokyo → Shin-Osaka (Tokaido Shinkansen)",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kansai/osaka",
+   "mode": "shinkansen",
+   "duration_hours": 3,
+   "price": 14720
+  }
+ ]
+}

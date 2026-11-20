@@ -1,0 +1,36 @@
+---
+id: tokyo-yanaka
+type: activity
+name: Yanaka old town (Yanaka Ginza, Nezu Shrine)
+place: japan/kanto/tokyo
+category: leisure
+duration_hours: 2
+approx_cost: free
+cost: 0
+entry: free
+tags: [touristic, top50]
+hours: daytime (Yuyake Dandan ~sunset)
+closed: []
+booking: walk-in
+near: [tokyo-ueno-park]
+best_season: all year round
+best_time: morning
+coords: [35.727669, 139.765317]
+coords_precision: exact
+name_local: 谷中銀座
+address_local: 〒110-0001 東京台東区谷中谷中三丁目
+---
+
+# Yanaka old town (Yanaka Ginza, Nezu Shrine)
+
+## Description
+
+One of the few areas spared in WWII bombing: wooden houses, stray cats, Yanaka Ginza shopping street with the Yuyake Dandan sunset steps, Nezu Shrine tunnel of torii.
+
+## How to get there
+
+JR Yamanote to Nippori or Metro Chiyoda to Nezu/Sendagi.
+
+## Tips
+
+Classic old-Tokyo morning; combine with Ueno Park (10 min away).

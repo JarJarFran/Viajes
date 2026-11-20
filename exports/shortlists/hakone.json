@@ -1,0 +1,115 @@
+{
+ "city": "japan/kanto/hakone",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "hakone-lake-ashi-cruise",
+   "name": "Lake Ashi sightseeing cruise (Hakone pirate ships)",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 1700,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "kid-friendly"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 0.75
+  },
+  {
+   "id": "hakone-open-air-museum",
+   "name": "Hakone Open-Air Museum",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50",
+    "kid-friendly"
+   ],
+   "hours": "9:00-17:00 (last entry 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "hakone-owakudani",
+   "name": "Owakudani",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "Access restricted when volcanic activity rises or volcanic gas is dense"
+    }
+   ]
+  },
+  {
+   "id": "hakone-ropeway",
+   "name": "Hakone Ropeway (Sounzan–Owakudani–Togendai)",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Feb–Nov 9:00-17:00; Dec–Jan 9:00-16:15",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "Suspended in strong wind (about 30 m/s or more, all or part of the line) and when volcanic activity or volcanic-gas concentration rises around Owakudani"
+    }
+   ]
+  },
+  {
+   "id": "hakone-shrine",
+   "name": "Hakone Shrine",
+   "category": "temple",
+   "entry": "mixed",
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "hakone-tozan-railway",
+   "name": "Hakone Tozan Railway",
+   "category": "leisure",
+   "entry": "paid",
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "tokyo-to-hakone",
+   "name": "Tokyo ↔ Hakone",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/hakone",
+   "mode": "train",
+   "duration_hours": 1.4,
+   "price": 2470
+  }
+ ]
+}

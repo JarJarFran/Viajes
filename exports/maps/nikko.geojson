@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.501968,36.738009]},"properties":{"id":"nikko-kegon-falls","type":"activity","title":"Kegon Falls (Oku-Nikko)","description":"nature · upper viewpoint free; elevator ¥600 · elevator Dec–Feb ~9:00-16:30","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.600759,36.754725]},"properties":{"id":"nikko-rinnoji","type":"activity","title":"Rinno-ji Temple (Sanbutsudo)","description":"temple · Sanbutsudo ¥400 (+¥300 Shoyoen garden) · Nov–Mar 8:00-16:00","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.59911,36.757638]},"properties":{"id":"nikko-toshogu","type":"activity","title":"Nikko Toshogu Shrine","description":"temple · ¥1,600 adults (sources vary ¥1,300–1,700 — check) · Nov–Mar ~9:00-16:00 (last entry 15:30)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}}
+]}

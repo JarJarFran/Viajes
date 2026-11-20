@@ -1,0 +1,14 @@
+{
+"schema":2,
+"city":"japan/kyushu/beppu",
+"ancestors":["kyushu","japan"],
+"nodes":{
+"beppu":{"id":"beppu","type":"city","name":"Beppu","path":"japan/kyushu/beppu","country":"japan","region":"kyushu","prefecture":"Oita","coords":[33.284575,131.491306],"verified":"2026-11-18"},
+"beppu-hells":{"id":"beppu-hells","type":"activity","name":"Beppu Hells (Jigoku Meguri)","place":"japan/kyushu/beppu","category":"nature","duration_hours":3,"approx_cost":"Combined ticket ¥2,000 (high school and older), ¥1,000 (elementary/junior high) — June 2023 listing; guided Kamenoi hells bus ¥4,000 incl. admission","cost":2000,"entry":"paid","tags":["touristic","top50","iconic"],"hours":"Umi Jigoku 8:00-17:00","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"all year","best_time":"morning","coords":[33.315888,131.469683],"coords_precision":"exact","name_local":"別府地獄めぐり","address_local":"〒874-0045 大分県別府市小倉町国道500号","verified":"2026-11-18"},
+"fukuoka-to-beppu":{"id":"fukuoka-to-beppu","type":"route","name":"Fukuoka ↔ Beppu","origin":"japan/kyushu/fukuoka","destination":"japan/kyushu/beppu","bidirectional":true,"mode":"train","duration_hours":2,"approx_cost":"Limited express Sonic Hakata–Beppu about 2h, ¥6,380 unreserved; or Shinkansen to Kokura + Sonic about 1h40, ¥6,640 unreserved (Sep 2025 figures; a 2026 page quotes ¥6,500 / about 95 min). Green car upgrade on Sonic about +¥2,270.","price":6380,"booking":"walk-in","verified":"2026-11-18"}
+},
+"edges":[
+{"from":"beppu-hells","to":"beppu","rel":"place"},
+{"from":"fukuoka-to-beppu","to":"beppu","rel":"destination"}
+]
+}

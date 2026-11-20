@@ -1,0 +1,20 @@
+{
+"schema":2,
+"city":"japan/kansai/himeji",
+"ancestors":["kansai","japan"],
+"nodes":{
+"himeji":{"id":"himeji","type":"city","name":"Himeji","path":"japan/kansai/himeji","country":"japan","region":"kansai","prefecture":"Hyogo","coords":[34.815353,134.685479]},
+"himeji-castle":{"id":"himeji-castle","type":"activity","name":"Himeji Castle","place":"japan/kansai/himeji","category":"history","duration_hours":2.5,"approx_cost":"¥2,500 (non-Himeji residents since 2026-03-01); castle + Koko-en combo ¥2,600","cost":2500,"entry":"paid","tags":["touristic","top50","iconic","unesco"],"hours":"9:00-17:00 (last entry 16:00)","closed":[{"yearly":"12-29..12-30"}],"booking":"walk-in","best_season":"all year round","best_time":"morning","link":"https://www.himejicastle.jp/en/","coords":[34.839331,134.69402],"coords_precision":"exact","name_local":"姫路城","address_local":"〒670-0012 兵庫県姫路市本町八代本町一丁目備前丸68","verified":"2026-11-17"},
+"himeji-kokoen":{"id":"himeji-kokoen","type":"activity","name":"Koko-en Garden","place":"japan/kansai/himeji","category":"nature","duration_hours":1,"approx_cost":"combo with the castle ¥2,600 (garden-only fee revised Mar 2026 — check)","entry":"paid","tags":["touristic"],"hours":"9:00-17:00 (last entry 16:30)","closed":[{"yearly":"12-29..12-30"}],"booking":"walk-in","best_season":"all year round","best_time":"afternoon","link":"https://himeji-machishin.jp/ryokka/kokoen/en/","coords":[34.837969,134.689613],"coords_precision":"exact","name_local":"好古園","address_local":"兵庫県姫路市材木町","verified":"2026-11-17"},
+"kyoto-to-himeji":{"id":"kyoto-to-himeji","type":"route","name":"Kyoto ↔ Himeji","origin":"japan/kansai/kyoto","destination":"japan/kansai/himeji","bidirectional":true,"mode":"shinkansen","duration_hours":1,"approx_cost":"shinkansen ~¥4,500–5,500 reserved (~45–55 min); JR Special Rapid ~1 h 30 min (cheaper)","booking":"walk-in"},
+"osaka-to-himeji":{"id":"osaka-to-himeji","type":"route","name":"Osaka ↔ Himeji","origin":"japan/kansai/osaka","destination":"japan/kansai/himeji","bidirectional":true,"mode":"train","duration_hours":1,"approx_cost":"JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min)","price":1680,"booking":"walk-in"}
+},
+"edges":[
+{"from":"himeji-castle","to":"himeji-kokoen","rel":"nearby","km":0.43},
+{"from":"himeji-castle","to":"himeji","rel":"place"},
+{"from":"himeji-kokoen","to":"himeji-castle","rel":"nearby","km":0.43},
+{"from":"himeji-kokoen","to":"himeji","rel":"place"},
+{"from":"kyoto-to-himeji","to":"himeji","rel":"destination"},
+{"from":"osaka-to-himeji","to":"himeji","rel":"destination"}
+]
+}

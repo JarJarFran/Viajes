@@ -1,0 +1,9 @@
+{
+"schema":2,
+"city":"japan/kanto/yokohama",
+"ancestors":["kanto","japan"],
+"nodes":{
+"yokohama":{"id":"yokohama","type":"city","name":"Yokohama","path":"japan/kanto/yokohama","country":"japan","region":"kanto","prefecture":"Kanagawa","coords":[35.450338,139.63438]}
+},
+"edges":[]
+}

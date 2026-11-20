@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+scripts/.geocache.json
+scripts/.tabelog-cache/

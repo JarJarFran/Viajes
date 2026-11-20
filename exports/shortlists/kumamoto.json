@@ -1,0 +1,59 @@
+{
+ "city": "japan/kyushu/kumamoto",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "kumamoto-castle",
+   "name": "Kumamoto Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "9:00-17:00 (last entry 16:00 per ticket reseller, other sources say 16:30; keep climb until 16:30); at the 13 Aug 2026 reopening the city announced 9:00-19:00 (last entry 18:00); hours can be extended for events",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "irregular": "Year-end/New Year closure not confirmed. A ticket reseller lists 2026-12-29 and 2027-01-01 as unavailable dates; on 1 Jan 2026 there was a free special opening."
+    }
+   ]
+  },
+  {
+   "id": "kumamoto-suizenji-jojuen",
+   "name": "Suizenji Jojuen Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "8:30-17:00 (last entry 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "fukuoka-to-kumamoto",
+   "name": "Fukuoka ↔ Kumamoto",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/kumamoto",
+   "mode": "shinkansen",
+   "duration_hours": 0.6,
+   "price": 5310
+  }
+ ]
+}

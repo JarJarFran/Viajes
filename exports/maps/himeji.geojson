@@ -1,0 +1,4 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[134.69402,34.839331]},"properties":{"id":"himeji-castle","type":"activity","title":"Himeji Castle","description":"history · ¥2,500 (non-Himeji residents since 2026-03-01); castle + Koko-en combo ¥2,600 · 9:00-17:00 (last entry 16:00)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[134.689613,34.837969]},"properties":{"id":"himeji-kokoen","type":"activity","title":"Koko-en Garden","description":"nature · combo with the castle ¥2,600 (garden-only fee revised Mar 2026 — check) · 9:00-17:00 (last entry 16:30)","marker-color":"#d1495b","marker-symbol":"star","marker-size":"medium"}}
+]}

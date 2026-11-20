@@ -1,0 +1,134 @@
+{
+ "city": "japan/tohoku/sendai",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "sendai-aoba-castle-exhibition-hall",
+   "name": "Sendai Castle Ruins - Aoba Castle Exhibition Hall",
+   "category": "history",
+   "entry": "paid",
+   "cost": 700,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "Apr-Oct 9:00-16:20 (last entry 15:50); Nov-Mar 9:00-15:40 (last entry 15:10); may close earlier depending on season and weather",
+   "booking": "walk-in",
+   "duration_hours": 1.0,
+   "closed": [
+    {
+     "irregular": "Open all year except a few maintenance days per year"
+    }
+   ]
+  },
+  {
+   "id": "sendai-matsushima-bay-cruise",
+   "name": "Matsushima Bay Island Cruise (Niomaru course)",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 1500,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Departures hourly 9:00-16:00; Nov to mid-Mar 10:00-15:00; loop about 50 min",
+   "booking": "walk-in",
+   "duration_hours": 1.0,
+   "closed": [
+    {
+     "irregular": "Suspended in bad weather"
+    }
+   ]
+  },
+  {
+   "id": "sendai-osaki-hachimangu",
+   "name": "Osaki Hachimangu Shrine",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Grounds open freely; amulet office 9:00-17:00; prayers 9:00-16:00 without reservation",
+   "booking": "walk-in",
+   "duration_hours": 0.75
+  },
+  {
+   "id": "sendai-zuiganji-matsushima",
+   "name": "Zuiganji Temple (Matsushima)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 1000,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Opens 8:30; closing time varies by month (about 16:30-17:00 in summer, 15:00-15:30 in Dec-Jan); last entry 30 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 0.75
+  },
+  {
+   "id": "sendai-zuihoden",
+   "name": "Zuihoden Mausoleum",
+   "category": "history",
+   "entry": "paid",
+   "cost": 570,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Feb 1-Nov 30 9:00-16:50 (last entry 16:30); Dec 1-Jan 31 9:00-16:20 (last entry 16:00)",
+   "booking": "walk-in",
+   "duration_hours": 1.0,
+   "closed": [
+    {
+     "yearly": "12-31..12-31"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [
+  {
+   "id": "sendai-pageant-of-starlight",
+   "name": "SENDAI Pageant of Starlight",
+   "recurrence": "yearly, December",
+   "editions": [
+    {
+     "start": "2026-12-04",
+     "end": "2026-12-27",
+     "note": "Planned dates per City of Sendai; Jozenji-dori area. 2026 lighting hours not yet published at research time (2025: Mon-Thu 19:00-22:00, Fri-Sat 18:00-22:00, Sun 18:00-21:00, Dec 24-25 18:00-22:00). Sendai Christmas Market in Nishikicho Park Dec 4-25."
+    }
+   ],
+   "entry": "free"
+  },
+  {
+   "id": "sendai-tanabata-matsuri",
+   "name": "Sendai Tanabata Festival",
+   "recurrence": "yearly, every August 6-8 (fireworks festival on the evening of August 5)",
+   "editions": [
+    {
+     "start": "2027-08-06",
+     "end": "2027-08-08",
+     "note": "Fixed by rule (Aug 6-8 every year); the Aug 5 fireworks date for 2027 was not confirmed"
+    }
+   ],
+   "entry": "free"
+  }
+ ],
+ "routes": [
+  {
+   "id": "tokyo-to-sendai",
+   "name": "Tokyo ↔ Sendai",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/sendai",
+   "mode": "shinkansen",
+   "price": 11310
+  }
+ ]
+}

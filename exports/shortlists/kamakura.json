@@ -1,0 +1,64 @@
+{
+ "city": "japan/kanto/kamakura",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "kamakura-day-trip",
+   "name": "Day trip to Kamakura & Enoshima",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 300,
+   "tags": [
+    "touristic",
+    "top100",
+    "unesco"
+   ],
+   "hours": "full day",
+   "booking": "walk-in",
+   "duration_hours": 8
+  },
+  {
+   "id": "kamakura-hasedera",
+   "name": "Hase-dera Temple",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 400,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "8:00-16:30 (gate closes 17:00)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "kamakura-kotokuin-daibutsu",
+   "name": "Great Buddha (Kotoku-in)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 300,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Oct–Mar 8:00-17:00 (last entry 16:45); inside 8:00-16:30",
+   "booking": "walk-in",
+   "duration_hours": 0.75
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "tokyo-to-kamakura",
+   "name": "Tokyo ↔ Kamakura",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/kamakura",
+   "mode": "train",
+   "duration_hours": 1,
+   "price": 1020
+  }
+ ]
+}

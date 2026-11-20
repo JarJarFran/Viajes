@@ -1,0 +1,33 @@
+---
+id: osaka-restaurant-yaki-yaki-teppan-bonkuraya-sennichimae-ten
+type: restaurant
+name: Yaki Yaki Teppan Bonkuraya Sennichimae ten
+place: japan/kansai/osaka
+area: osaka-area-namba
+area_detail: Namba / Sennichimae
+cuisine: okonomiyaki, izakaya, teppanyaki
+price_range: ¥¥¥
+budget_lunch: [1000, 1999]
+budget_dinner: [3000, 3999]
+tabelog_list: https://tabelog.com/en/osaka/rstLst/okonomiyaki/
+tabelog_rating: 3.42
+station: Kintetsu Nippombashi
+station_m: 151
+coords: [34.666909, 135.5057]
+coords_precision: station
+verified: 2026-11
+---
+
+# Yaki Yaki Teppan Bonkuraya Sennichimae ten
+
+## What to order
+
+Signature okonomiyaki.
+
+## Hours & booking
+
+Hours, closed days and reservations: see the [Tabelog page](https://tabelog.com/en/osaka/rstLst/okonomiyaki/). Budget: dinner JPY 3,000 - JPY 3,999, lunch JPY 1,000 - JPY 1,999 per person.
+
+## Tips
+
+Nearest station: Kintetsu Nippombashi Sta. 151m Budget dinner JPY 3,000 - JPY 3,999 / lunch JPY 1,000 - JPY 1,999 per person

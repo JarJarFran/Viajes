@@ -1,0 +1,126 @@
+{
+ "city": "china/southwest-china/chengdu",
+ "currency": "CNY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "chengdu-du-fu-thatched-cottage",
+   "name": "Du Fu Thatched Cottage Museum",
+   "category": "history",
+   "entry": "paid",
+   "cost": 50,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Ctrip: Mon–Fri 9:00-18:00, Sat–Sun 9:00-20:00; other guides 8:00-18:30 (Apr–Oct) / 8:00-18:00 (Nov–Mar); ticket sales end about 17:00",
+   "booking": "reserve",
+   "duration_hours": 2
+  },
+  {
+   "id": "chengdu-kuanzhai-xiangzi",
+   "name": "Kuanzhai Xiangzi (Wide and Narrow Alleys)",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Alleys open 24 h; shops and restaurants keep their own hours",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "chengdu-panda-base",
+   "name": "Chengdu Research Base of Giant Panda Breeding",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 55,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "kid-friendly"
+   ],
+   "hours": "About 7:30-18:00 (Mar–Oct) and 8:00-17:30 (Nov–Feb) per a 2026 guide; another lists Nov–Mar 8:00-17:00. Spring Festival 2026 official notice: morning tickets enter 8:00-12:00, afternoon tickets 12:00-16:30, park cleared at 17:30",
+   "booking": "required",
+   "duration_hours": 3
+  },
+  {
+   "id": "chengdu-peoples-park-teahouse",
+   "name": "People's Park and Heming Teahouse",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Park about 6:00-22:00 (one source: 6:00-22:30 summer, 6:30-22:00 winter); teahouse roughly 8:00/9:00-21:00/22:00 (sources disagree)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "chengdu-wenshu-monastery",
+   "name": "Wenshu Monastery",
+   "category": "temple",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "8:00-17:00 (last entry about 16:30); some sources give 8:00-18:00 or 9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "chengdu-wuhou-shrine-jinli",
+   "name": "Wuhou Shrine and Jinli Street",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 50,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Wuhou Shrine 9:00-19:00, last entry 18:00 (official site); third-party listings give 8:30-18:30 or 9:00-18:00. Jinli Street open 24 h",
+   "booking": "reserve",
+   "duration_hours": 2.5
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "chengdu-to-chongqing",
+   "name": "Chengdu ↔ Chongqing",
+   "origin": "china/southwest-china/chengdu",
+   "destination": "china/southwest-china/chongqing",
+   "mode": "train",
+   "duration_hours": 1.25,
+   "price": 129
+  },
+  {
+   "id": "chengdu-to-shanghai",
+   "name": "Chengdu ↔ Shanghai",
+   "origin": "china/southwest-china/chengdu",
+   "destination": "china/east-china/shanghai",
+   "mode": "plane",
+   "duration_hours": 2.75
+  },
+  {
+   "id": "chengdu-to-shanghai-train",
+   "name": "Chengdu ↔ Shanghai",
+   "origin": "china/southwest-china/chengdu",
+   "destination": "china/east-china/shanghai",
+   "mode": "train",
+   "duration_hours": 10.1,
+   "price": 721
+  }
+ ]
+}

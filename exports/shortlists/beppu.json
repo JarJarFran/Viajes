@@ -1,0 +1,40 @@
+{
+ "city": "japan/kyushu/beppu",
+ "currency": "JPY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "beppu-hells",
+   "name": "Beppu Hells (Jigoku Meguri)",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Umi Jigoku 8:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 3,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "fukuoka-to-beppu",
+   "name": "Fukuoka ↔ Beppu",
+   "origin": "japan/kyushu/fukuoka",
+   "destination": "japan/kyushu/beppu",
+   "mode": "train",
+   "duration_hours": 2,
+   "price": 6380
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+"schema":2,
+"city":"japan/chubu/takayama",
+"ancestors":["chubu","japan"],
+"nodes":{
+"nagoya-to-takayama":{"id":"nagoya-to-takayama","type":"route","name":"Nagoya ↔ Takayama","origin":"japan/chubu/nagoya","destination":"japan/chubu/takayama","bidirectional":true,"mode":"train","duration_hours":2.5,"approx_cost":"JR limited express Hida, 2h20m-2h40m, ten services a day. Ekitan: ¥5,610 unreserved, ¥6,140 reserved, ¥8,410 Green car; other sources give ¥6,340-6,540 for a reserved seat.","price":5610,"booking":"walk-in","verified":"2026-11-18"},
+"takayama":{"id":"takayama","type":"city","name":"Takayama","path":"japan/chubu/takayama","country":"japan","region":"chubu","prefecture":"Gifu","coords":[36.139625,137.251032],"verified":"2026-11-18"},
+"takayama-jinya":{"id":"takayama-jinya","type":"activity","name":"Takayama Jinya","place":"japan/chubu/takayama","category":"history","duration_hours":1,"approx_cost":"¥500 adults since 1 Apr 2026 (previously ¥440); high-school students and younger free","cost":500,"entry":"paid","tags":["touristic","top50","iconic","rainy-day"],"hours":"8:45-17:00 (Apr-Oct); 8:45-16:30 (Nov-Mar); ticket window closes 30 min before closing","closed":[{"yearly":"12-29..01-03"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.139692,137.257618],"coords_precision":"exact","name_local":"高山陣屋","address_local":"〒506-0011 岐阜県高山市川原町八軒町二丁目石浦陣屋下切線","verified":"2026-11-18"},
+"takayama-jinya-mae-morning-market":{"id":"takayama-jinya-mae-morning-market","type":"activity","name":"Jinya-mae Morning Market","place":"japan/chubu/takayama","category":"food","duration_hours":0.5,"approx_cost":"Free; pay per stall","cost":0,"entry":"free","tags":["touristic"],"hours":"6:00-12:00; from 7:00 January-March (source about 21 months old)","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.139692,137.257618],"coords_precision":"exact","name_local":"陣屋前朝市","address_local":"〒838-0058 福岡県朝倉郡筑前町高田","verified":"2026-11-18"},
+"takayama-miyagawa-morning-market":{"id":"takayama-miyagawa-morning-market","type":"activity","name":"Miyagawa Morning Market","place":"japan/chubu/takayama","category":"food","duration_hours":0.5,"approx_cost":"Free; pay per stall","cost":0,"entry":"free","tags":["touristic","top50"],"hours":"7:00-12:00; from 8:00 December-March (source about 21 months old)","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.144694,137.257852],"coords_precision":"exact","name_local":"宮川朝市","address_local":"〒506-0846 岐阜県高山市相生町本町三丁目国道158号","verified":"2026-11-18"},
+"takayama-old-town":{"id":"takayama-old-town","type":"activity","name":"Takayama Old Town (Sanmachi)","place":"japan/chubu/takayama","category":"history","duration_hours":2,"approx_cost":"Free to walk; shops and museums charge separately","cost":0,"entry":"free","tags":["touristic","top50","iconic"],"hours":"Streets always open; shop hours vary","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.142358,137.259248],"coords_precision":"exact","name_local":"古い町並(さんまち)","address_local":"〒506-0846 岐阜県高山市上三之町三町伝統的建造物群保存地区","verified":"2026-11-18"},
+"takayama-shirakawa-go":{"id":"takayama-shirakawa-go","type":"activity","name":"Shirakawa-go (Ogimachi village)","place":"japan/chubu/takayama","category":"history","duration_hours":4,"approx_cost":"Village free to walk; Nohi Bus from Takayama ¥2,800 one way (¥2,900 from 1 Dec 2026)","cost":0,"entry":"free","tags":["touristic","iconic"],"hours":null,"closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"reserve","best_season":"All year; winter snow and light-up evenings (booking required)","best_time":"morning","coords":[36.257345,136.906832],"coords_precision":"exact","name_local":"白川郷","address_local":"〒501-5627 岐阜県大野郡白川村荻町であい橋","verified":"2026-11-18"}
+},
+"edges":[
+{"from":"nagoya-to-takayama","to":"takayama","rel":"destination"},
+{"from":"takayama-jinya","to":"takayama-jinya-mae-morning-market","rel":"nearby","km":0.0},
+{"from":"takayama-jinya","to":"takayama-miyagawa-morning-market","rel":"nearby","km":0.56},
+{"from":"takayama-jinya","to":"takayama-old-town","rel":"nearby","km":0.33},
+{"from":"takayama-jinya","to":"takayama","rel":"place"},
+{"from":"takayama-jinya-mae-morning-market","to":"takayama-jinya","rel":"nearby","km":0.0},
+{"from":"takayama-jinya-mae-morning-market","to":"takayama-miyagawa-morning-market","rel":"nearby","km":0.56},
+{"from":"takayama-jinya-mae-morning-market","to":"takayama-old-town","rel":"nearby","km":0.33},
+{"from":"takayama-jinya-mae-morning-market","to":"takayama","rel":"place"},
+{"from":"takayama-miyagawa-morning-market","to":"takayama-jinya","rel":"nearby","km":0.56},
+{"from":"takayama-miyagawa-morning-market","to":"takayama-jinya-mae-morning-market","rel":"nearby","km":0.56},
+{"from":"takayama-miyagawa-morning-market","to":"takayama-old-town","rel":"nearby","km":0.29},
+{"from":"takayama-miyagawa-morning-market","to":"takayama","rel":"place"},
+{"from":"takayama-old-town","to":"takayama-jinya","rel":"nearby","km":0.33},
+{"from":"takayama-old-town","to":"takayama-jinya-mae-morning-market","rel":"nearby","km":0.33},
+{"from":"takayama-old-town","to":"takayama-miyagawa-morning-market","rel":"nearby","km":0.29},
+{"from":"takayama-old-town","to":"takayama","rel":"place"},
+{"from":"takayama-shirakawa-go","to":"takayama","rel":"place"}
+]
+}
