@@ -1,0 +1,135 @@
+{
+ "city": "china/southwest-china/chongqing",
+ "currency": "CNY",
+ "areas": [],
+ "activities_top": [
+  {
+   "id": "chongqing-ciqikou",
+   "name": "Ciqikou Ancient Town",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Streets open all day; shops and restaurants close about 21:00-22:00",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "chongqing-hongyadong",
+   "name": "Hongyadong",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Complex open 24 h; shops and restaurants about 10:00-22:00; lights from dusk to about 23:00 (sources vary)",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "chongqing-jiefangbei",
+   "name": "Jiefangbei (People's Liberation Monument)",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Open all day (public square)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "chongqing-liziba-station",
+   "name": "Liziba Station (monorail through a building)",
+   "category": "other",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 0.5
+  },
+  {
+   "id": "chongqing-three-gorges-museum",
+   "name": "Chongqing China Three Gorges Museum",
+   "category": "museums",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "9:00-17:00, last entry 16:00 (some reports 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chongqing-yangtze-river-cableway",
+   "name": "Yangtze River Cableway",
+   "category": "leisure",
+   "entry": "paid",
+   "cost": 30,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "About 7:30-22:30 (Mar–Oct) and 8:00-21:00 (Nov–Feb); other listings give 8:00-22:00, last entry 21:00",
+   "booking": "reserve",
+   "duration_hours": 1
+  }
+ ],
+ "restaurants_strict": [],
+ "events": [],
+ "routes": [
+  {
+   "id": "chengdu-to-chongqing",
+   "name": "Chengdu ↔ Chongqing",
+   "origin": "china/southwest-china/chengdu",
+   "destination": "china/southwest-china/chongqing",
+   "mode": "train",
+   "duration_hours": 1.25,
+   "price": 129
+  },
+  {
+   "id": "chongqing-to-shanghai",
+   "name": "Chongqing ↔ Shanghai",
+   "origin": "china/southwest-china/chongqing",
+   "destination": "china/east-china/shanghai",
+   "mode": "plane",
+   "duration_hours": 2.5
+  },
+  {
+   "id": "chongqing-to-shanghai-train",
+   "name": "Chongqing ↔ Shanghai",
+   "origin": "china/southwest-china/chongqing",
+   "destination": "china/east-china/shanghai",
+   "mode": "train",
+   "duration_hours": 12,
+   "price": 840
+  }
+ ]
+}

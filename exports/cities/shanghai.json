@@ -1,0 +1,21 @@
+{
+"schema":2,
+"city":"china/east-china/shanghai",
+"ancestors":["east-china","china"],
+"nodes":{
+"chengdu-to-shanghai":{"id":"chengdu-to-shanghai","type":"route","name":"Chengdu ↔ Shanghai","origin":"china/southwest-china/chengdu","destination":"china/east-china/shanghai","bidirectional":true,"mode":"plane","duration_hours":2.75,"approx_cost":"Non-stop about 2 h 45 min from Chengdu Shuangliu (CTU) or Tianfu (TFU) to Shanghai Pudong (PVG) or Hongqiao (SHA); ~1,000 flights a week (June 2026); fares vary.","booking":"reserve","verified":"2026-11-18"},
+"chengdu-to-shanghai-train":{"id":"chengdu-to-shanghai-train","type":"route","name":"Chengdu ↔ Shanghai","origin":"china/southwest-china/chengdu","destination":"china/east-china/shanghai","bidirectional":true,"mode":"train","duration_hours":10.1,"approx_cost":"High-speed rail Chengdu East → Shanghai Hongqiao: fastest G239 (08:16–18:22) 10 h 6 min; others up to ~15 h; 2nd class about CN¥721–992 (dynamic fares).","price":721,"booking":"reserve","verified":"2026-11-18"},
+"chongqing-to-shanghai":{"id":"chongqing-to-shanghai","type":"route","name":"Chongqing ↔ Shanghai","origin":"china/southwest-china/chongqing","destination":"china/east-china/shanghai","bidirectional":true,"mode":"plane","duration_hours":2.5,"approx_cost":"Non-stop about 2.5 h; economy fares quoted from about CN¥200 to CN¥1,870 depending on date.","booking":"reserve","verified":"2026-11-18"},
+"chongqing-to-shanghai-train":{"id":"chongqing-to-shanghai-train","type":"route","name":"Chongqing ↔ Shanghai","origin":"china/southwest-china/chongqing","destination":"china/east-china/shanghai","bidirectional":true,"mode":"train","duration_hours":12,"approx_cost":"High-speed rail about 9–14 h (2026 G-train example 12 h 23 min); 2nd class about CN¥840–953 in 2026 guides (dynamic fares).","price":840,"booking":"reserve","verified":"2026-11-18"},
+"shanghai":{"id":"shanghai","type":"city","name":"Shanghai","path":"china/east-china/shanghai","country":"china","region":"east-china","prefecture":"Shanghai","coords":[31.233889,121.470988],"local_transport_day":20},
+"shanghai-airport-transfer":{"id":"shanghai-airport-transfer","type":"route","name":"Shanghai airports ↔ city centre","origin":"china/east-china/shanghai","origin_point":"airports","destination":"china/east-china/shanghai","destination_point":"city centre","bidirectional":true,"mode":"train","duration_hours":1.0,"approx_cost":"Airports to city centre. Pudong (PVG): Metro Line 2 from Pudong Airport T1&2 to People's Square ~CN¥7, about 1 h (cheapest); or Maglev PVG–Longyang Road CN¥50 one way (CN¥40 with a same-day air ticket; CN¥80 return within 7 days; VIP CN¥100), ~8 min, then Line 2 to the centre (~30–40 min more). Maglev first/last trains reported as 06:45–21:40 from Longyang Road and 07:02–21:42 from PVG (third-party guide; check on the day). Hongqiao (SHA): T2 station on Lines 2 and 10, T1 on Line 10; ~CN¥5–6 and 30–40 min to People's Square. The Maglev is excluded from the 2026 metro fare review.","price":7,"booking":"walk-in","verified":"2026-11-18"}
+},
+"edges":[
+{"from":"chengdu-to-shanghai","to":"shanghai","rel":"destination"},
+{"from":"chengdu-to-shanghai-train","to":"shanghai","rel":"destination"},
+{"from":"chongqing-to-shanghai","to":"shanghai","rel":"destination"},
+{"from":"chongqing-to-shanghai-train","to":"shanghai","rel":"destination"},
+{"from":"shanghai-airport-transfer","to":"shanghai","rel":"destination"},
+{"from":"shanghai-airport-transfer","to":"shanghai","rel":"origin"}
+]
+}

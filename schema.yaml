@@ -37,18 +37,18 @@ price_ranges:
     "¥¥": [1000, 2999]
     "¥¥¥": [3000, 4999]
     "¥¥¥¥": [5000, null]
-  CNY:
-    "¥": [0, 49]
-    "¥¥": [50, 119]
-    "¥¥¥": [120, 249]
-    "¥¥¥¥": [250, null]
+  CNY:                     # same euro bands as JPY at ~7.3 CNY/EUR
+    "¥": [0, 39]
+    "¥¥": [40, 119]
+    "¥¥¥": [120, 209]
+    "¥¥¥¥": [210, null]
 
 # Restaurants in the shortlists: (Tabelog >= min_rating, or listed by one of `guides` where there is
 # no Tabelog) and some meal at or under max[currency] per person.
 strict_restaurants:
   min_rating: 3.5
   guides: [michelin-bib, michelin-selected, black-pearl]
-  max: {JPY: 4999, CNY: 249}
+  max: {JPY: 4999, CNY: 209}
 
 # Derived edges: `nearby` links each sight/hotel to the closest restaurants and sights within km;
 # `in_area` links a node without explicit area to the closest area centroid within km.

@@ -388,7 +388,7 @@ class TestOtherCountry(Fixture):
     def test_money_follows_the_country(self):
         nodes, _, _ = load_graph(self.root)
         self.assertEqual(nodes["chengdu-restaurant-b"]["price_range"], "¥¥")  # derived with CNY buckets
-        self.assertIn("chengdu-restaurant-b", strict_restaurants(nodes))  # guide + meal under CN¥249
+        self.assertIn("chengdu-restaurant-b", strict_restaurants(nodes))  # guide + meal under CN¥209
         data = json.load(open(os.path.join(self.root, "exports/trips/t2.json")))
         day = data["days"]["t2-2027-03-01"]
         self.assertEqual((day["currency"], day["est"], day["budget"]), ("CNY", 55 + 90 + 20, 800))

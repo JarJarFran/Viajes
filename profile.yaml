@@ -38,5 +38,5 @@ preferences:
 # Compared with the planned cost of each day (plan items) and with the logged expenses.
 budget:
   daily_eur_per_person: 120
-  fx: {JPY: 174.85}         # units per euro (ECB reference rates); refresh with: python3 scripts/update_fx.py
-  fx_date: 2026-11-18
+  fx: {CNY: 7.3388, JPY: 174.35}         # units per euro (ECB reference rates); refresh with: python3 scripts/update_fx.py
+  fx_date: 2026-11-20
