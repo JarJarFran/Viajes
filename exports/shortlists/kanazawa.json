@@ -2,8 +2,135 @@
  "city": "japan/chubu/kanazawa",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "kanazawa-21st-century-museum",
+   "name": "21st Century Museum of Contemporary Art, Kanazawa",
+   "category": "museums",
+   "entry": "mixed",
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "Exhibition zone 10:00-18:00, Fri and Sat until 20:00 (per japan-guide)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "holiday_shift": true
+    },
+    {
+     "irregular": "New Year holidays"
+    },
+    {
+     "dates": "2027-05-06..2028-03-31"
+    },
+    {
+     "irregular": "Closed for major repairs from 6 May 2027 to about March 2028 (planned; the end date is approximate); reason: ageing facilities and damage from the January 2024 Noto Peninsula earthquake"
+    }
+   ]
+  },
+  {
+   "id": "kanazawa-castle-park",
+   "name": "Kanazawa Castle Park",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Paid turrets and storehouse 9:00-16:30 (per one guide); grounds hours not confirmed",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "kanazawa-higashi-chaya",
+   "name": "Higashi Chaya District",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Street always open; individual teahouse and shop hours vary",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "kanazawa-kenrokuen",
+   "name": "Kenrokuen Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 320,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "7:00-18:00 (Mar-Oct); 8:00-17:00 (Nov-Feb) per one guide; sources differ",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "kanazawa-omicho-market",
+   "name": "Omicho Market",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
  "events": [],
- "routes": []
+ "routes": [
+  {
+   "id": "osaka-to-kanazawa",
+   "name": "Osaka ↔ Kanazawa",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/chubu/kanazawa",
+   "mode": "mixed",
+   "duration_hours": 2.5
+  },
+  {
+   "id": "tokyo-to-kanazawa",
+   "name": "Tokyo ↔ Kanazawa",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kanazawa",
+   "mode": "shinkansen",
+   "duration_hours": 2.5,
+   "price": 14600
+  }
+ ]
 }

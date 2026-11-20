@@ -95,6 +95,15 @@
  ],
  "routes": [
   {
+   "id": "nagoya-to-takayama",
+   "name": "Nagoya ↔ Takayama",
+   "origin": "japan/chubu/nagoya",
+   "destination": "japan/chubu/takayama",
+   "mode": "train",
+   "duration_hours": 2.5,
+   "price": 5610
+  },
+  {
    "id": "tokyo-to-nagoya",
    "name": "Tokyo ↔ Nagoya",
    "origin": "japan/kanto/tokyo",

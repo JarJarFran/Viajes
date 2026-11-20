@@ -59,6 +59,7 @@ Former imperial capital (794–1868): 2,000+ temples and shrines, geisha distric
 <!-- gen:start routes -->
 - [Kansai Airport (KIX) → Kyoto](../../../../routes/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
 - [Kyoto ↔ Himeji](../../../../routes/kyoto-to-himeji.md) — shinkansen ~¥4,500–5,500 reserved (~45–55 min); JR Special Rapid ~1 h 30 min (cheaper) (~1 h)
+- [Kyoto ↔ Nara](../../../../routes/kyoto-to-nara.md) — Kintetsu express (no supplement) Kyoto - Kintetsu-Nara about 46 min, ¥760; Kintetsu limited express about 35 min, ¥1,280 (¥760 + ¥520); 2026 fares per a Nara tourism page. (~0.8 h)
 - [Kyoto → Tokyo (Tokaido Shinkansen)](../../../../routes/kyoto-to-tokyo.md) — Hikari shinkansen ~2 h 15 min: non-reserved ¥13,320 / reserved ~¥14,090; EX Hayatoku 7 from ¥11,940 if booked ≥7 days ahead on SmartEX (~2.5 h)
 - [Osaka ↔ Kyoto](../../../../routes/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
 <!-- gen:end routes -->

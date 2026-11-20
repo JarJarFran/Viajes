@@ -1508,6 +1508,14 @@
    "price": 1680
   },
   {
+   "id": "osaka-to-kanazawa",
+   "name": "Osaka ↔ Kanazawa",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/chubu/kanazawa",
+   "mode": "mixed",
+   "duration_hours": 2.5
+  },
+  {
    "id": "osaka-to-kobe",
    "name": "Osaka ↔ Kobe",
    "origin": "japan/kansai/osaka",
@@ -1524,6 +1532,14 @@
    "mode": "train",
    "duration_hours": 0.5,
    "price": 580
+  },
+  {
+   "id": "osaka-to-nara",
+   "name": "Osaka ↔ Nara",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/nara",
+   "mode": "train",
+   "duration_hours": 0.6
   },
   {
    "id": "tokyo-to-shin-osaka",

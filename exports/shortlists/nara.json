@@ -2,8 +2,115 @@
  "city": "japan/kansai/nara",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "nara-kasuga-taisha",
+   "name": "Kasuga Taisha",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 700,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Grounds 6:30-17:30 (Apr-Sep), 7:00-17:00 (Oct-Mar); paid inner area 9:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "nara-kofukuji",
+   "name": "Kofuku-ji",
+   "category": "temple",
+   "entry": "paid",
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-17:00 (last entry 16:45)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "nara-park",
+   "name": "Nara Park",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "kid-friendly"
+   ],
+   "hours": "Open 24 hours",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "nara-todaiji",
+   "name": "Todai-ji (Great Buddha Hall)",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 800,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "7:30-17:30 (Apr-Oct); 8:00-17:00 (Nov-Mar)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
- "routes": []
+ "events": [
+  {
+   "id": "nara-wakakusa-yamayaki",
+   "name": "Wakakusa Yamayaki",
+   "recurrence": "yearly, 4th Saturday of January (1 evening); cancelled in bad weather",
+   "editions": [
+    {
+     "start": "2027-01-23",
+     "end": "2027-01-23",
+     "note": "Saturday evening on Mt Wakakusa; timetable not confirmed here; cancelled in bad weather"
+    }
+   ],
+   "entry": "mixed",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "kyoto-to-nara",
+   "name": "Kyoto ↔ Nara",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/nara",
+   "mode": "train",
+   "duration_hours": 0.8,
+   "price": 760
+  },
+  {
+   "id": "osaka-to-nara",
+   "name": "Osaka ↔ Nara",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/kansai/nara",
+   "mode": "train",
+   "duration_hours": 0.6
+  }
+ ]
 }

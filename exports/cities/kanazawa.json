@@ -3,7 +3,40 @@
 "city":"japan/chubu/kanazawa",
 "ancestors":["chubu","japan"],
 "nodes":{
-"kanazawa":{"id":"kanazawa","type":"city","name":"Kanazawa","path":"japan/chubu/kanazawa","country":"japan","region":"chubu","prefecture":"Ishikawa","coords":[36.561627,136.656882]}
+"kanazawa":{"id":"kanazawa","type":"city","name":"Kanazawa","path":"japan/chubu/kanazawa","country":"japan","region":"chubu","prefecture":"Ishikawa","coords":[36.561627,136.656882],"verified":"2026-11-18"},
+"kanazawa-21st-century-museum":{"id":"kanazawa-21st-century-museum","type":"activity","name":"21st Century Museum of Contemporary Art, Kanazawa","place":"japan/chubu/kanazawa","category":"museums","duration_hours":2,"approx_cost":"Free public zone; exhibition tickets vary by exhibition, typically ¥500-1,500","entry":"mixed","tags":["touristic","top50","rainy-day"],"hours":"Exhibition zone 10:00-18:00, Fri and Sat until 20:00 (per japan-guide)","closed":[{"weekly":["mon"],"holiday_shift":true},{"irregular":"New Year holidays"},{"dates":"2027-05-06..2028-03-31"},{"irregular":"Closed for major repairs from 6 May 2027 to about March 2028 (planned; the end date is approximate); reason: ageing facilities and damage from the January 2024 Noto Peninsula earthquake"}],"booking":"walk-in","best_season":"All year (closed May 2027 - Mar 2028)","best_time":"anytime","coords":[36.560838,136.65821],"coords_precision":"exact","name_local":"金沢21世紀美術館","address_local":"〒920-0962 石川県金沢市柿木畠広坂一丁目百万石通り","verified":"2026-11-18"},
+"kanazawa-castle-park":{"id":"kanazawa-castle-park","type":"activity","name":"Kanazawa Castle Park","place":"japan/chubu/kanazawa","category":"history","duration_hours":1,"approx_cost":"Grounds free; reconstructed turrets and storehouse ¥320 adults","cost":0,"entry":"mixed","tags":["touristic","top50"],"hours":"Paid turrets and storehouse 9:00-16:30 (per one guide); grounds hours not confirmed","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"Spring (cherry blossoms) and autumn","best_time":"morning","coords":[36.565762,136.659447],"coords_precision":"exact","name_local":"金沢城公園","address_local":"石川県金沢市","verified":"2026-11-18"},
+"kanazawa-higashi-chaya":{"id":"kanazawa-higashi-chaya","type":"activity","name":"Higashi Chaya District","place":"japan/chubu/kanazawa","category":"history","duration_hours":1.5,"approx_cost":"Street free; teahouses charge separately (Shima teahouse ¥500 per one guide)","cost":0,"entry":"mixed","tags":["touristic","top50","iconic"],"hours":"Street always open; individual teahouse and shop hours vary","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.572556,136.666676],"coords_precision":"exact","name_local":"ひがし茶屋街","address_local":"〒920-0831 石川県金沢市八幡町観音町二丁目愛宕二番丁","verified":"2026-11-18"},
+"kanazawa-kenrokuen":{"id":"kanazawa-kenrokuen","type":"activity","name":"Kenrokuen Garden","place":"japan/chubu/kanazawa","category":"nature","duration_hours":1.5,"approx_cost":"¥320 adults (18+), ¥100 ages 6-17; free early-morning entry before regular opening (per guides)","cost":320,"entry":"paid","tags":["touristic","top50","iconic"],"hours":"7:00-18:00 (Mar-Oct); 8:00-17:00 (Nov-Feb) per one guide; sources differ","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year; each season has its own look (blossoms in spring, autumn colours, snow and yukitsuri rope supports in winter)","best_time":"morning","coords":[36.562427,136.662355],"coords_precision":"exact","name_local":"兼六園","address_local":"〒920-0936 石川県金沢市","verified":"2026-11-18"},
+"kanazawa-nomura-samurai-house":{"id":"kanazawa-nomura-samurai-house","type":"activity","name":"Nagamachi Samurai District and Nomura Samurai House","place":"japan/chubu/kanazawa","category":"history","duration_hours":1,"approx_cost":"District free; Nomura House ¥550","cost":550,"entry":"mixed","tags":["touristic"],"hours":"Nomura House 8:30-17:30 (Apr-Sep), 8:30-16:30 (Oct-Mar)","closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.563989,136.649815],"coords_precision":"exact","name_local":"長町武家屋敷跡・武家屋敷跡 野村家","address_local":"〒920-0865 石川県金沢市中央通町長町二丁目長町二番丁","verified":"2026-11-18"},
+"kanazawa-omicho-market":{"id":"kanazawa-omicho-market","type":"activity","name":"Omicho Market","place":"japan/chubu/kanazawa","category":"food","duration_hours":1,"approx_cost":"Free to enter; pay per stall/restaurant","cost":0,"entry":"free","tags":["touristic","top50"],"hours":null,"closed":[{"irregular":"closing days not confirmed — check before going"}],"booking":"walk-in","best_season":"All year","best_time":"morning","coords":[36.571866,136.655778],"coords_precision":"exact","name_local":"近江町市場","address_local":"〒920-0907 石川県金沢市下堤町彦三町二丁目下堤町【百万石通り】","verified":"2026-11-18"},
+"osaka-to-kanazawa":{"id":"osaka-to-kanazawa","type":"route","name":"Osaka ↔ Kanazawa","origin":"japan/kansai/osaka","destination":"japan/chubu/kanazawa","bidirectional":true,"mode":"mixed","duration_hours":2.5,"approx_cost":"Limited express Thunderbird Osaka-Tsuruga, change to the Hokuriku Shinkansen Tsuruga-Kanazawa (since 16 Mar 2024); about 2h30m per one guide. Fare not confirmed (online figures disagree).","booking":"reserve","verified":"2026-11-18"},
+"tokyo-to-kanazawa":{"id":"tokyo-to-kanazawa","type":"route","name":"Tokyo ↔ Kanazawa","origin":"japan/kanto/tokyo","destination":"japan/chubu/kanazawa","bidirectional":true,"mode":"shinkansen","duration_hours":2.5,"approx_cost":"Hokuriku Shinkansen Kagayaki (all-reserved) about 2h26m-2h30m, ¥14,600 reserved in regular season per a 2026 guide; Hakutaka unreserved ¥14,070 (slower). Other sources: ¥14,120, or ¥14,400 off-peak to ¥15,000 peak.","price":14600,"booking":"reserve","verified":"2026-11-18"}
 },
-"edges":[]
+"edges":[
+{"from":"kanazawa-21st-century-museum","to":"kanazawa-castle-park","rel":"nearby","km":0.56},
+{"from":"kanazawa-21st-century-museum","to":"kanazawa-kenrokuen","rel":"nearby","km":0.41},
+{"from":"kanazawa-21st-century-museum","to":"kanazawa-nomura-samurai-house","rel":"nearby","km":0.83},
+{"from":"kanazawa-21st-century-museum","to":"kanazawa","rel":"place"},
+{"from":"kanazawa-castle-park","to":"kanazawa-21st-century-museum","rel":"nearby","km":0.56},
+{"from":"kanazawa-castle-park","to":"kanazawa-higashi-chaya","rel":"nearby","km":0.99},
+{"from":"kanazawa-castle-park","to":"kanazawa-kenrokuen","rel":"nearby","km":0.45},
+{"from":"kanazawa-castle-park","to":"kanazawa-nomura-samurai-house","rel":"nearby","km":0.88},
+{"from":"kanazawa-castle-park","to":"kanazawa-omicho-market","rel":"nearby","km":0.75},
+{"from":"kanazawa-castle-park","to":"kanazawa","rel":"place"},
+{"from":"kanazawa-higashi-chaya","to":"kanazawa-castle-park","rel":"nearby","km":0.99},
+{"from":"kanazawa-higashi-chaya","to":"kanazawa-omicho-market","rel":"nearby","km":0.98},
+{"from":"kanazawa-higashi-chaya","to":"kanazawa","rel":"place"},
+{"from":"kanazawa-kenrokuen","to":"kanazawa-21st-century-museum","rel":"nearby","km":0.41},
+{"from":"kanazawa-kenrokuen","to":"kanazawa-castle-park","rel":"nearby","km":0.45},
+{"from":"kanazawa-kenrokuen","to":"kanazawa","rel":"place"},
+{"from":"kanazawa-nomura-samurai-house","to":"kanazawa-21st-century-museum","rel":"nearby","km":0.83},
+{"from":"kanazawa-nomura-samurai-house","to":"kanazawa-castle-park","rel":"nearby","km":0.88},
+{"from":"kanazawa-nomura-samurai-house","to":"kanazawa","rel":"place"},
+{"from":"kanazawa-omicho-market","to":"kanazawa-castle-park","rel":"nearby","km":0.75},
+{"from":"kanazawa-omicho-market","to":"kanazawa-higashi-chaya","rel":"nearby","km":0.98},
+{"from":"kanazawa-omicho-market","to":"kanazawa","rel":"place"},
+{"from":"osaka-to-kanazawa","to":"kanazawa","rel":"destination"},
+{"from":"tokyo-to-kanazawa","to":"kanazawa","rel":"destination"}
+]
 }

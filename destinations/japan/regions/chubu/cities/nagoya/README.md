@@ -61,6 +61,7 @@ Capital of Aichi Prefecture, known for Nagoya Castle with the golden shachihoko 
 ## Transport options (with prices)
 
 <!-- gen:start routes -->
+- [Nagoya ↔ Takayama](../../../../routes/nagoya-to-takayama.md) — JR limited express Hida, 2h20m-2h40m, ten services a day. Ekitan: ¥5,610 unreserved, ¥6,140 reserved, ¥8,410 Green car; other sources give ¥6,340-6,540 for a reserved seat. (~2.5 h)
 - [Tokyo ↔ Nagoya](../../../../routes/tokyo-to-nagoya.md) — Tokaido Shinkansen Nozomi about 1h33-1h40, reserved seat ¥11,300 (regular season; one guide lists ¥10,880). The reserved surcharge rises to ¥11,880 from 1 Jul 2027; unreserved prices stay the same. Kodama about 2h40; JR Central Tours 'Platt Kodama' package from ¥8,710. (~1.6 h)
 <!-- gen:end routes -->
 

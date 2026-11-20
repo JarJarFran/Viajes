@@ -2,7 +2,181 @@
  "city": "china/east-china/shanghai",
  "currency": "CNY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "shanghai-jingan-temple",
+   "name": "Jing'an Temple",
+   "category": "temple",
+   "entry": "paid",
+   "cost": 50,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "7:30-17:00 daily",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "shanghai-lujiazui",
+   "name": "Lujiazui",
+   "category": "other",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Public streets, open 24 h",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "shanghai-museum",
+   "name": "Shanghai Museum (People's Square)",
+   "category": "museums",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "9:00-17:00 (last entry 16:00)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "note": "open on Mondays that are national public holidays"
+    }
+   ]
+  },
+  {
+   "id": "shanghai-museum-east",
+   "name": "Shanghai Museum East (Pudong)",
+   "category": "museums",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "10:00-18:00 (last entry 17:00)",
+   "booking": "walk-in",
+   "duration_hours": 2.5,
+   "closed": [
+    {
+     "weekly": [
+      "tue"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shanghai-nanjing-road",
+   "name": "Nanjing Road (East) Pedestrian Street",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "night"
+   ],
+   "hours": "Street open 24 h (shop hours vary)",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "shanghai-the-bund",
+   "name": "The Bund",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Promenade open 24 h; building illuminations roughly 18:00-22:00 (Nov–Apr) and 19:00-23:00 (May–Oct), later on weekends/holidays per one source",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "shanghai-tianzifang",
+   "name": "Tianzifang",
+   "category": "leisure",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Lanes open all day; shops typically open from about 10:00",
+   "booking": "walk-in",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "shanghai-tower",
+   "name": "Shanghai Tower observation deck (Top of Shanghai)",
+   "category": "other",
+   "entry": "paid",
+   "cost": 180,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day"
+   ],
+   "hours": "8:30-22:00 (last entry 21:30) in most sources; one gives 21:00 last entry, another 9:00-21:00",
+   "booking": "reserve",
+   "duration_hours": 1.5
+  },
+  {
+   "id": "shanghai-wukang-road",
+   "name": "Former French Concession and Wukang Road",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Public streets, open 24 h",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "shanghai-yu-garden",
+   "name": "Yu Garden and City God Temple",
+   "category": "history",
+   "entry": "paid",
+   "cost": 40,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Yu Garden 9:00-16:30 (last entry 16:00) in most sources; one guide gives 8:30-17:00 (summer to 17:30); Spring Festival hours announced separately",
+   "booking": "reserve",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "note": "Yu Garden opens on Mondays that are national public holidays"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
  "events": [],
  "routes": [

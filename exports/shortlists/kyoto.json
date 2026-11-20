@@ -1470,6 +1470,15 @@
    "duration_hours": 1
   },
   {
+   "id": "kyoto-to-nara",
+   "name": "Kyoto ↔ Nara",
+   "origin": "japan/kansai/kyoto",
+   "destination": "japan/kansai/nara",
+   "mode": "train",
+   "duration_hours": 0.8,
+   "price": 760
+  },
+  {
    "id": "kyoto-to-tokyo",
    "name": "Kyoto → Tokyo (Tokaido Shinkansen)",
    "origin": "japan/kansai/kyoto",

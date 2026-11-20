@@ -1973,6 +1973,15 @@
    "price": 1020
   },
   {
+   "id": "tokyo-to-kanazawa",
+   "name": "Tokyo ↔ Kanazawa",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/kanazawa",
+   "mode": "shinkansen",
+   "duration_hours": 2.5,
+   "price": 14600
+  },
+  {
    "id": "tokyo-to-kawaguchiko",
    "name": "Tokyo (Shinjuku) ↔ Kawaguchiko",
    "origin": "japan/kanto/tokyo",
@@ -1980,6 +1989,15 @@
    "mode": "bus",
    "duration_hours": 2,
    "price": 2200
+  },
+  {
+   "id": "tokyo-to-matsumoto",
+   "name": "Tokyo ↔ Matsumoto",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chubu/matsumoto",
+   "mode": "train",
+   "duration_hours": 2.6,
+   "price": 6730
   },
   {
    "id": "tokyo-to-nagoya",

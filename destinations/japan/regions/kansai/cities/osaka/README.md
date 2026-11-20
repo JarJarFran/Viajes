@@ -61,8 +61,10 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 - [Kansai Airport (KIX) → Kyoto](../../../../routes/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
 - [Kansai Airport (KIX) → Osaka](../../../../routes/kix-to-osaka.md) — Nankai Airport Express to Namba ~¥990 (38 min); rapi:t ~¥1,490 (35 min); JR Kansai Airport Rapid to Tennoji ~¥1,060 (50 min); Haruka to Umeda ~§1,760 (50 min); limousine bus ~¥1,700–2,100 (~1 h)
 - [Osaka ↔ Himeji](../../../../routes/osaka-to-himeji.md) — JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min) (~1 h)
+- [Osaka ↔ Kanazawa](../../../../routes/osaka-to-kanazawa.md) — Limited express Thunderbird Osaka-Tsuruga, change to the Hokuriku Shinkansen Tsuruga-Kanazawa (since 16 Mar 2024); about 2h30m per one guide. Fare not confirmed (online figures disagree). (~2.5 h)
 - [Osaka ↔ Kobe](../../../../routes/osaka-to-kobe.md) — Hankyu limited express Osaka-umeda → Kobe-sannomiya ~28 min ¥330; JR Special Rapid Osaka → Sannomiya ~21–25 min ¥420; Hanshin Osaka-umeda → Kobe-sannomiya ~40 min ¥330. No reservation needed. (~0.5 h)
 - [Osaka ↔ Kyoto](../../../../routes/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
+- [Osaka ↔ Nara](../../../../routes/osaka-to-nara.md) — Kintetsu limited express Osaka-Namba - Kintetsu-Nara about 30-34 min, around ¥1,200-1,300 (not confirmed for 2026); AONIYOSHI sightseeing limited express ¥1,780. (~0.6 h)
 - [Tokyo → Shin-Osaka (Tokaido Shinkansen)](../../../../routes/tokyo-to-shin-osaka.md) — Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320) (~3 h)
 <!-- gen:end routes -->
 
