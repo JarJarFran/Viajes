@@ -33,3 +33,7 @@ JR Nara Line Miyakoji Rapid from Kyoto Station to Nara (45–50 min, ¥720); Kin
 ## Tips
 
 Start at 8:00 in Nara. All sights within one walkable park (~4 h). Back in Kyoto by afternoon.
+
+## See also
+
+Full guide with each sight's hours, fees and closures: [Nara](../../nara/README.md).

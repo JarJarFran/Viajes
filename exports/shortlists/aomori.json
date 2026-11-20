@@ -2,8 +2,91 @@
  "city": "japan/tohoku/aomori",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "aomori-nebuta-museum-wa-rasse",
+   "name": "Nebuta Museum Wa Rasse",
+   "category": "museums",
+   "entry": "mixed",
+   "cost": 620,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "rainy-day",
+    "kid-friendly"
+   ],
+   "hours": "May–Aug 9:00-19:00 (last entry 18:30); Sep–Apr 9:00-18:00 (last entry 17:30)",
+   "booking": "walk-in",
+   "duration_hours": 1,
+   "closed": [
+    {
+     "yearly": "12-31..01-01"
+    },
+    {
+     "irregular": "Tourism sites also list 9–10 Aug as closed (replacement of the displayed nebuta after the festival); may close for maintenance"
+    }
+   ]
+  },
+  {
+   "id": "aomori-sannai-maruyama",
+   "name": "Sannai-Maruyama Jomon Site",
+   "category": "history",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "unesco",
+    "kid-friendly"
+   ],
+   "hours": "Oct–May 9:00-17:00 (last entry 16:30); Golden Week and Jun–Sep 9:00-18:00 (last entry 17:30)",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "nth": [
+      4
+     ],
+     "holiday_shift": true
+    },
+    {
+     "yearly": "12-30..01-01"
+    },
+    {
+     "irregular": "Plus maintenance days; in 2026 the July closure was 13 Jul (2nd Monday) — check the official calendar"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
- "routes": []
+ "events": [
+  {
+   "id": "aomori-nebuta-matsuri",
+   "name": "Aomori Nebuta Matsuri",
+   "recurrence": "yearly, 2–7 August (fixed dates)",
+   "editions": [
+    {
+     "start": "2027-08-02",
+     "end": "2027-08-07",
+     "note": "Fixed 2–7 Aug every year; parades of giant illuminated nebuta floats through central Aomori. Daily schedule for 2027 not published yet."
+    }
+   ],
+   "entry": "mixed",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "tokyo-to-aomori",
+   "name": "Tokyo ↔ Aomori",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/aomori",
+   "mode": "shinkansen",
+   "price": 18110
+  }
+ ]
 }

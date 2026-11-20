@@ -34,3 +34,7 @@ Odakyu Romancecar from Shinjuku to Hakone-Yumoto; Freepass covers the local loop
 ## Tips
 
 Buy the Freepass at Shinjuku. Winter: crisp air, great Fuji visibility.
+
+## See also
+
+Full guide with each sight's hours, fees and closures: [Hakone](../../hakone/README.md).

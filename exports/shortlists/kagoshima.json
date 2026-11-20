@@ -2,7 +2,89 @@
  "city": "japan/kyushu/kagoshima",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "kagoshima-sakurajima",
+   "name": "Sakurajima",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Ferry 4:00-23:30 (no 24-hour service since 1 Oct 2025)",
+   "booking": "walk-in",
+   "duration_hours": 4,
+   "closed": [
+    {
+     "irregular": "closing days not confirmed — check before going"
+    }
+   ]
+  },
+  {
+   "id": "kagoshima-sakurajima-visitor-center",
+   "name": "Sakurajima Visitor Center and Nagisa Lava Trail",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "kid-friendly"
+   ],
+   "hours": "Visitor Center 9:00-17:00; Magma Onsen 11:00-21:00 (entry until 20:00)",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "kagoshima-sengan-en",
+   "name": "Sengan-en Garden and Shoko Shuseikan",
+   "category": "history",
+   "entry": "paid",
+   "cost": 1600,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "unesco"
+   ],
+   "hours": "9:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "kagoshima-shiroyama-observatory",
+   "name": "Shiroyama Park Observatory",
+   "category": "nature",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "night"
+   ],
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "kagoshima-tenmonkan",
+   "name": "Tenmonkan",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "night",
+    "rainy-day"
+   ],
+   "hours": "Shops and restaurants vary; Tenmonkan Mujaki (honten) about 11:00-18:30/19:00",
+   "booking": "walk-in",
+   "duration_hours": 2
+  }
+ ],
  "restaurants_strict": [],
  "events": [],
  "routes": [

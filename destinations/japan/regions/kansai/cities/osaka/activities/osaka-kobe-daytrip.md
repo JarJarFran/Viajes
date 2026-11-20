@@ -33,3 +33,7 @@ Osaka/Umeda Station to Sannomiya.
 ## Tips
 
 Half day minimum. Mt Rokko night view needs a bus/ropeway from Sannomiya (§1,000–1,500 return).
+
+## See also
+
+Full guide with each sight's hours, fees and closures: [Kobe](../../kobe/README.md).

@@ -2,8 +2,122 @@
  "city": "japan/shikoku/kochi",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "kochi-castle",
+   "name": "Kochi Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "9:00-17:00 (last entry 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "yearly": "12-26..01-01"
+    }
+   ]
+  },
+  {
+   "id": "kochi-hirome-market",
+   "name": "Hirome Market",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "night",
+    "rainy-day"
+   ],
+   "hours": "Mon-Sat and holidays 10:00-23:00, Sun 9:00-23:00 (last order 22:30); individual stalls vary",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "About 6 days a year, in January, June and October"
+    }
+   ]
+  },
+  {
+   "id": "kochi-katsurahama",
+   "name": "Katsurahama Beach and Sakamoto Ryoma Memorial Museum",
+   "category": "nature",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Beach always open; museum 9:00-17:00 (last entry 16:30)",
+   "booking": "walk-in",
+   "duration_hours": 2
+  },
+  {
+   "id": "kochi-sunday-market",
+   "name": "Kochi Sunday Market",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Sundays only: Apr-Sep 5:00-17:00, Oct-Mar 5:30-16:00 (city figures; many stalls roughly 6:00-15:00)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "weekly": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat"
+     ]
+    },
+    {
+     "yearly": "01-01..01-02"
+    },
+    {
+     "yearly": "08-10..08-12"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
- "routes": []
+ "events": [
+  {
+   "id": "kochi-yosakoi-festival",
+   "name": "Yosakoi Festival",
+   "recurrence": "yearly, August 9-12 (eve on Aug 9, main days Aug 10-11, finale Aug 12)",
+   "editions": [
+    {
+     "start": "2027-08-09",
+     "end": "2027-08-12",
+     "note": "Dance teams parade at stages and streets across central Kochi; the Sunday Market is suspended"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "okayama-to-kochi",
+   "name": "Okayama ↔ Kochi",
+   "origin": "japan/chugoku/okayama",
+   "destination": "japan/shikoku/kochi",
+   "mode": "train",
+   "duration_hours": 2.5,
+   "price": 5440
+  }
+ ]
 }

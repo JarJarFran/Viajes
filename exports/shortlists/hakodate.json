@@ -2,8 +2,117 @@
  "city": "japan/hokkaido/hakodate",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "hakodate-fort-goryokaku",
+   "name": "Fort Goryokaku and Former Magistrate's Office",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Park open; Magistrate's Office 9:00-18:00 (until 17:00 Nov-Mar), last entry 15 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "Magistrate's Office closed Dec 31-Jan 3 and a few irregular days; park always open"
+    }
+   ]
+  },
+  {
+   "id": "hakodate-morning-market",
+   "name": "Hakodate Morning Market",
+   "category": "food",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Daily from 5:00 (6:00 January-April) to 14:00",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "hakodate-motomachi",
+   "name": "Motomachi District",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Old Public Hall Apr-Oct 9:00-18:00 (until 19:00 Sat-Mon), Nov-Mar 9:00-17:00; Old British Consulate 9:00-19:00 (until 17:00 Nov-Mar); Orthodox Church weekdays 10:00-17:00, Sat 10:00-16:00, Sun 13:00-16:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "irregular": "Old Public Hall closed Dec 31-Jan 3 and a few irregular days; Old British Consulate closed over New Year; Russian Orthodox Church closed Dec 26 to mid March"
+    }
+   ]
+  },
+  {
+   "id": "hakodate-mount-hakodate",
+   "name": "Mount Hakodate (Ropeway and Observatory)",
+   "category": "nature",
+   "entry": "mixed",
+   "cost": 1800,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Ropeway every 15 min: 10:00-22:00 from late April to September; 10:00-21:00 from October 1 to about April 19 (last ascent 20:50)",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "Ropeway stops for statutory maintenance once a year (Oct 20-Nov 8 in 2026) and in strong wind"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
- "routes": []
+ "events": [
+  {
+   "id": "hakodate-christmas-fantasy",
+   "name": "Hakodate Christmas Fantasy",
+   "recurrence": "yearly, December 1-25",
+   "editions": [
+    {
+     "start": "2026-12-01",
+     "end": "2026-12-25",
+     "note": "Tree illumination 16:30-17:45 and 18:00-22:00 (Dec 1 from 18:00); daily tree lighting with fireworks at 18:00; tree turns red for 15 min at 18:30, 19:30 and 20:30; Hakodate Bay area by the red brick warehouses"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
+ "routes": [
+  {
+   "id": "sapporo-to-hakodate",
+   "name": "Sapporo ↔ Hakodate",
+   "origin": "japan/hokkaido/sapporo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "train",
+   "duration_hours": 3.7
+  },
+  {
+   "id": "tokyo-to-hakodate",
+   "name": "Tokyo ↔ Hakodate",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "shinkansen",
+   "duration_hours": 4.7,
+   "price": 25000
+  }
+ ]
 }

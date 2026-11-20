@@ -60,11 +60,14 @@ Japan's third city and its food capital: loud, casual, neon-lit. Best base in Ka
 <!-- gen:start routes -->
 - [Kansai Airport (KIX) → Kyoto](../../../../routes/kix-to-kyoto.md) — Haruka to Kyoto Station ~75 min, ~¥1,760–2,400 (IC fare); limousine bus ~¥2,700–3,100 (90 min) (~1.5 h)
 - [Kansai Airport (KIX) → Osaka](../../../../routes/kix-to-osaka.md) — Nankai Airport Express to Namba ~¥990 (38 min); rapi:t ~¥1,490 (35 min); JR Kansai Airport Rapid to Tennoji ~¥1,060 (50 min); Haruka to Umeda ~§1,760 (50 min); limousine bus ~¥1,700–2,100 (~1 h)
+- [Osaka ↔ Fukuoka](../../../../routes/osaka-to-fukuoka.md) — Sanyo Shinkansen Shin-Osaka–Hakata: Nozomi/Mizuho about 2h21–2h28, Sakura/Hikari about 2h36. 2026 fares: unreserved ¥14,750 (all trains, all year); reserved Nozomi/Mizuho ¥16,020 in the normal season (+¥200–400 peak, −¥200 off-peak). Nozomi/Mizuho need a supplement with the Japan Rail Pass. (~2.5 h)
 - [Osaka ↔ Himeji](../../../../routes/osaka-to-himeji.md) — JR Special Rapid Shin-Osaka→Himeji ~¥1,680 (~60 min); shinkansen ~¥4,000–5,000 (~30 min) (~1 h)
+- [Osaka ↔ Hiroshima](../../../../routes/osaka-to-hiroshima.md) — Shin-Osaka → Hiroshima, Sanyo Shinkansen Nozomi/Mizuho ~1 h 19 min: non-reserved ¥9,890; reserved ¥10,950 (Nozomi/Mizuho, regular season) / ¥10,420 (Sakura/Kodama); Green Car ¥14,610. JR Kansai Hiroshima Area Pass 5 days ¥17,000. (~1.3 h)
 - [Osaka ↔ Kanazawa](../../../../routes/osaka-to-kanazawa.md) — Limited express Thunderbird Osaka-Tsuruga, change to the Hokuriku Shinkansen Tsuruga-Kanazawa (since 16 Mar 2024); about 2h30m per one guide. Fare not confirmed (online figures disagree). (~2.5 h)
 - [Osaka ↔ Kobe](../../../../routes/osaka-to-kobe.md) — Hankyu limited express Osaka-umeda → Kobe-sannomiya ~28 min ¥330; JR Special Rapid Osaka → Sannomiya ~21–25 min ¥420; Hanshin Osaka-umeda → Kobe-sannomiya ~40 min ¥330. No reservation needed. (~0.5 h)
 - [Osaka ↔ Kyoto](../../../../routes/osaka-to-kyoto.md) — JR Special Rapid ¥580 (24–28 min, Osaka/Shin-Osaka ↔ Kyoto); Hankyu ¥410–460 (~43–47 min, Umeda ↔ Kawaramachi); Keihan ¥480 (~50 min, Yodoyabashi ↔ Gion-Shijo); shinkansen Nozomi ~13 min ¥1,450 non-reserved (~0.5 h)
 - [Osaka ↔ Nara](../../../../routes/osaka-to-nara.md) — Kintetsu limited express Osaka-Namba - Kintetsu-Nara about 30-34 min, around ¥1,200-1,300 (not confirmed for 2026); AONIYOSHI sightseeing limited express ¥1,780. (~0.6 h)
+- [Osaka ↔ Okayama](../../../../routes/osaka-to-okayama.md) — Shin-Osaka → Okayama, Sanyo Shinkansen Nozomi/Mizuho ~45 min: non-reserved ¥5,610; reserved ¥6,140 (Hikari/Sakura/Kodama), about ¥6,350–6,460 (Nozomi/Mizuho; sources differ). (~0.75 h)
 - [Tokyo → Shin-Osaka (Tokaido Shinkansen)](../../../../routes/tokyo-to-shin-osaka.md) — Hikari ~2 h 30–2 h 45: non-reserved ~¥13,870 / reserved ~¥14,720; Nozomi ~2 h 20 min (+ ¥320) (~3 h)
 <!-- gen:end routes -->
 

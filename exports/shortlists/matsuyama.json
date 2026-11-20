@@ -2,7 +2,67 @@
  "city": "japan/shikoku/matsuyama",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "matsuyama-castle",
+   "name": "Matsuyama Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 520,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "Keep 9:00-17:00 (Dec-Jan until 16:30, Aug until 17:30), last entry 30 min before closing; ropeway 8:30-17:30 (Dec-Jan until 17:00, Aug until 18:00); chairlift 8:30-17:00",
+   "booking": "walk-in",
+   "duration_hours": 2,
+   "closed": [
+    {
+     "specific": [
+      "2026-12-16",
+      "2027-12-15"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "matsuyama-dogo-onsen-honkan",
+   "name": "Dogo Onsen Honkan",
+   "category": "onsen",
+   "entry": "paid",
+   "cost": 700,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night",
+    "rainy-day"
+   ],
+   "hours": "Level 1: 6:00-23:00 (entry until 22:30); Levels 2-3: 6:00-22:00 (entry until 21:00); Level 4: 6:00-22:00 (entry until 20:30); Yushinden tours 9:00-16:30 every 30 min",
+   "booking": "walk-in",
+   "duration_hours": 1.5,
+   "closed": [
+    {
+     "irregular": "No closing days listed by japan-guide; check the official site for maintenance closures"
+    }
+   ]
+  },
+  {
+   "id": "matsuyama-ishiteji",
+   "name": "Ishiteji Temple",
+   "category": "temple",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "Grounds always open; treasure house 8:00-17:00",
+   "booking": "walk-in",
+   "duration_hours": 1
+  }
+ ],
  "restaurants_strict": [],
  "events": [],
  "routes": [

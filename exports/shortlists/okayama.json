@@ -2,10 +2,110 @@
  "city": "japan/chugoku/okayama",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "okayama-castle",
+   "name": "Okayama Castle",
+   "category": "history",
+   "entry": "paid",
+   "cost": 400,
+   "tags": [
+    "touristic",
+    "top50"
+   ],
+   "hours": "9:00-17:30 (entry until 17:00)",
+   "booking": "walk-in",
+   "duration_hours": 0.75,
+   "closed": [
+    {
+     "yearly": "12-29..12-31"
+    }
+   ]
+  },
+  {
+   "id": "okayama-korakuen-garden",
+   "name": "Korakuen Garden",
+   "category": "nature",
+   "entry": "paid",
+   "cost": 500,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "7:30-18:00 (20 Mar–Sep); 8:00-17:00 (Oct–19 Mar); last entry 15 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1.25
+  },
+  {
+   "id": "okayama-kurashiki-bikan-quarter",
+   "name": "Kurashiki Bikan Historical Quarter",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic"
+   ],
+   "hours": "always open (shops typically 10:00-18:00)",
+   "booking": "walk-in",
+   "duration_hours": 3
+  },
+  {
+   "id": "okayama-kurashiki-ohara-museum",
+   "name": "Ohara Museum of Art (Kurashiki)",
+   "category": "museums",
+   "entry": "paid",
+   "cost": 2000,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day"
+   ],
+   "hours": "9:00-17:00 (Dec–Feb 9:00-15:00); last entry 30 min before closing",
+   "booking": "walk-in",
+   "duration_hours": 1.25,
+   "closed": [
+    {
+     "weekly": [
+      "mon"
+     ],
+     "note": "open when Monday is a national holiday"
+    },
+    {
+     "irregular": "some irregular closing days in winter; New Year"
+    }
+   ]
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
+ "events": [
+  {
+   "id": "okayama-saidaiji-eyo",
+   "name": "Saidaiji Eyo (Naked Festival)",
+   "recurrence": "yearly, third Saturday of February",
+   "editions": [
+    {
+     "start": "2027-02-20",
+     "end": "2027-02-20",
+     "note": "Saidaiji Kannon-in, Okayama city; main event at night"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
  "routes": [
+  {
+   "id": "okayama-to-kochi",
+   "name": "Okayama ↔ Kochi",
+   "origin": "japan/chugoku/okayama",
+   "destination": "japan/shikoku/kochi",
+   "mode": "train",
+   "duration_hours": 2.5,
+   "price": 5440
+  },
   {
    "id": "okayama-to-matsuyama",
    "name": "Okayama ↔ Matsuyama",
@@ -23,6 +123,15 @@
    "mode": "train",
    "duration_hours": 0.9,
    "price": 1660
+  },
+  {
+   "id": "osaka-to-okayama",
+   "name": "Osaka ↔ Okayama",
+   "origin": "japan/kansai/osaka",
+   "destination": "japan/chugoku/okayama",
+   "mode": "shinkansen",
+   "duration_hours": 0.75,
+   "price": 5610
   }
  ]
 }

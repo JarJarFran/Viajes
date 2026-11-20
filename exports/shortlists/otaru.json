@@ -2,9 +2,57 @@
  "city": "japan/hokkaido/otaru",
  "currency": "JPY",
  "areas": [],
- "activities_top": [],
+ "activities_top": [
+  {
+   "id": "otaru-canal",
+   "name": "Otaru Canal",
+   "category": "history",
+   "entry": "free",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "iconic",
+    "night"
+   ],
+   "hours": "Open-air promenade; gas lamps lit in the evening",
+   "booking": "walk-in",
+   "duration_hours": 1
+  },
+  {
+   "id": "otaru-sakaimachi-street",
+   "name": "Sakaimachi Street",
+   "category": "history",
+   "entry": "mixed",
+   "cost": 0,
+   "tags": [
+    "touristic",
+    "top50",
+    "rainy-day",
+    "kid-friendly"
+   ],
+   "hours": "Shops roughly daytime. Music Box Museum 9:00-18:00 (until 19:00 Fri-Sat in summer), no closing days. Bank of Japan Otaru museum 9:30-17:00 (from 10:00 Dec-Mar), closed Wednesdays (open if a national holiday) and Dec 29-Jan 5.",
+   "booking": "walk-in",
+   "duration_hours": 2
+  }
+ ],
  "restaurants_strict": [],
- "events": [],
+ "events": [
+  {
+   "id": "otaru-snow-light-path",
+   "name": "Otaru Snow Light Path",
+   "recurrence": "yearly, early February (8 days, usually overlapping the Sapporo Snow Festival)",
+   "editions": [
+    {
+     "start": "2027-02-06",
+     "end": "2027-02-13",
+     "note": "Main venues lit 17:00-21:00: Canal, Temiyasen (old railway path), Otaru Art Base and Tenguyama (upper ropeway station)"
+    }
+   ],
+   "entry": "free",
+   "cost": 0
+  }
+ ],
  "routes": [
   {
    "id": "sapporo-to-otaru",

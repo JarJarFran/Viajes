@@ -3,7 +3,42 @@
 "city":"japan/shikoku/kochi",
 "ancestors":["shikoku","japan"],
 "nodes":{
-"kochi":{"id":"kochi","type":"city","name":"Kochi","path":"japan/shikoku/kochi","country":"japan","region":"shikoku","prefecture":"Kochi","coords":[33.558848,133.531092]}
+"kochi":{"id":"kochi","type":"city","name":"Kochi","path":"japan/shikoku/kochi","country":"japan","region":"shikoku","prefecture":"Kochi","coords":[33.558848,133.531092],"verified":"2026-11-18"},
+"kochi-castle":{"id":"kochi-castle","type":"activity","name":"Kochi Castle","place":"japan/shikoku/kochi","category":"history","duration_hours":1.5,"approx_cost":"¥500","cost":500,"entry":"paid","tags":["touristic","top50","iconic"],"hours":"9:00-17:00 (last entry 16:30)","closed":[{"yearly":"12-26..01-01"}],"booking":"walk-in","best_season":"Spring (cherry blossoms) and autumn","best_time":"morning","link":"https://kochipark.jp/kochijyo/","coords":[33.560691,133.531459],"coords_precision":"exact","name_local":"高知城","address_local":"〒780-0850 高知県高知市桜馬場丸ノ内一丁目1","verified":"2026-11-18"},
+"kochi-godaisan-chikurinji":{"id":"kochi-godaisan-chikurinji","type":"activity","name":"Mount Godaisan and Chikurinji Temple","place":"japan/shikoku/kochi","category":"temple","duration_hours":1,"approx_cost":"Grounds free; treasure hall and garden ¥800","cost":0,"entry":"mixed","tags":["hidden-gem"],"hours":"8:00-17:00 (treasure hall and garden from 8:30)","closed":[],"booking":"walk-in","best_season":"Autumn leaves and spring","best_time":"morning","link":"http://www.chikurinji.com/","coords":[33.546509,133.576748],"coords_precision":"exact","name_local":"五台山 竹林寺","address_local":"〒781-8125 高知県高知市五台山","verified":"2026-11-18"},
+"kochi-harimayabashi":{"id":"kochi-harimayabashi","type":"activity","name":"Harimayabashi and downtown arcades","place":"japan/shikoku/kochi","category":"other","duration_hours":0.5,"approx_cost":"Free","cost":0,"entry":"free","tags":["touristic"],"hours":"Always accessible; arcade shops typically daytime to evening","closed":[],"booking":"walk-in","best_season":"All year","best_time":"anytime","coords":[33.559106,133.542789],"coords_precision":"exact","name_local":"はりまや橋","address_local":"〒780-8571 高知県高知市堺町南はりまや町一丁目桂浜はりまや線","verified":"2026-11-18"},
+"kochi-hirome-market":{"id":"kochi-hirome-market","type":"activity","name":"Hirome Market","place":"japan/shikoku/kochi","category":"food","duration_hours":1.5,"approx_cost":"Free entry; pay per dish at each stall","cost":0,"entry":"free","tags":["touristic","top50","night","rainy-day"],"hours":"Mon-Sat and holidays 10:00-23:00, Sun 9:00-23:00 (last order 22:30); individual stalls vary","closed":[{"irregular":"About 6 days a year, in January, June and October"}],"booking":"walk-in","best_season":"All year","best_time":"night","coords":[33.560448,133.535688],"coords_precision":"exact","name_local":"ひろめ市場","address_local":"〒780-8571 高知県高知市廿代町追手筋一丁目追手筋","verified":"2026-11-18"},
+"kochi-katsurahama":{"id":"kochi-katsurahama","type":"activity","name":"Katsurahama Beach and Sakamoto Ryoma Memorial Museum","place":"japan/shikoku/kochi","category":"nature","duration_hours":2,"approx_cost":"Beach free; Sakamoto Ryoma Memorial Museum ¥900 during special exhibitions, ¥500 otherwise","cost":0,"entry":"mixed","tags":["touristic","top50"],"hours":"Beach always open; museum 9:00-17:00 (last entry 16:30)","closed":[],"booking":"walk-in","best_season":"Spring to autumn on clear days","best_time":"afternoon","link":"https://www.ryoma-kinenkan.jp/country/en/","coords":[33.497107,133.574456],"coords_precision":"exact","name_local":"桂浜・高知県立坂本龍馬記念館","address_local":"〒780-8571 高知県高知市浦戸","verified":"2026-11-18"},
+"kochi-makino-botanical-garden":{"id":"kochi-makino-botanical-garden","type":"activity","name":"Kochi Prefectural Makino Botanical Garden","place":"japan/shikoku/kochi","category":"nature","duration_hours":1.5,"approx_cost":"¥850","cost":850,"entry":"paid","tags":["kid-friendly"],"hours":"9:00-17:00 (last entry 16:30)","closed":[{"yearly":"12-27..01-01"},{"irregular":"A small number of maintenance days"}],"booking":"walk-in","best_season":"Spring to autumn","best_time":"morning","link":"https://www.makino.or.jp/multilingual/?lang=en","coords":[33.548331,133.579122],"coords_precision":"exact","name_local":"高知県立牧野植物園","address_local":"〒780-8571 高知県高知市","verified":"2026-11-18"},
+"kochi-sunday-market":{"id":"kochi-sunday-market","type":"activity","name":"Kochi Sunday Market","place":"japan/shikoku/kochi","category":"food","duration_hours":1.5,"approx_cost":"Free","cost":0,"entry":"free","tags":["touristic","top50","iconic"],"hours":"Sundays only: Apr-Sep 5:00-17:00, Oct-Mar 5:30-16:00 (city figures; many stalls roughly 6:00-15:00)","closed":[{"weekly":["mon","tue","wed","thu","fri","sat"]},{"yearly":"01-01..01-02"},{"yearly":"08-10..08-12"}],"booking":"walk-in","best_season":"All year (held every Sunday)","best_time":"morning","link":"https://www.japan.travel/en/japans-local-treasures/kochi-city-sunday-market-2020/","coords":[33.561589,133.538374],"coords_precision":"exact","name_local":"日曜市","address_local":"〒780-8571 高知県高知市廿代町追手筋一丁目","verified":"2026-11-18"},
+"kochi-yosakoi-festival":{"id":"kochi-yosakoi-festival","type":"event","name":"Yosakoi Festival","place":"japan/shikoku/kochi","recurrence":"yearly, August 9-12 (eve on Aug 9, main days Aug 10-11, finale Aug 12)","editions":[{"start":"2027-08-09","end":"2027-08-12","note":"Dance teams parade at stages and streets across central Kochi; the Sunday Market is suspended"}],"approx_cost":"Free to watch","cost":0,"entry":"free","tags":["event"],"coords":[33.560346,133.540355],"coords_precision":"exact","name_local":"よさこい祭り","verified":"2026-11-18"},
+"okayama-to-kochi":{"id":"okayama-to-kochi","type":"route","name":"Okayama ↔ Kochi","origin":"japan/chugoku/okayama","destination":"japan/shikoku/kochi","bidirectional":true,"mode":"train","duration_hours":2.5,"approx_cost":"JR limited express Nanpu, about 2.5 h. JR Shikoku table (Apr 2026) for Okayama-Kochi: fare ¥3,280 + reserved-seat express charge ¥2,680 = ¥5,960 (normal season; -¥200 off-peak, +¥200 peak, +¥400 busiest); non-reserved express charge is ¥520 less, so ¥5,440 in total. Covered by the Japan Rail Pass. JR Shikoku highway bus also runs from Okayama Station west exit.","price":5440,"booking":"walk-in","verified":"2026-11-18"}
 },
-"edges":[]
+"edges":[
+{"from":"kochi-castle","to":"kochi-hirome-market","rel":"nearby","km":0.39},
+{"from":"kochi-castle","to":"kochi-sunday-market","rel":"nearby","km":0.65},
+{"from":"kochi-castle","to":"kochi","rel":"place"},
+{"from":"kochi-godaisan-chikurinji","to":"kochi-makino-botanical-garden","rel":"nearby","km":0.3},
+{"from":"kochi-godaisan-chikurinji","to":"kochi","rel":"place"},
+{"from":"kochi-harimayabashi","to":"kochi-hirome-market","rel":"nearby","km":0.67},
+{"from":"kochi-harimayabashi","to":"kochi-sunday-market","rel":"nearby","km":0.49},
+{"from":"kochi-harimayabashi","to":"kochi","rel":"place"},
+{"from":"kochi-hirome-market","to":"kochi-castle","rel":"nearby","km":0.39},
+{"from":"kochi-hirome-market","to":"kochi-harimayabashi","rel":"nearby","km":0.67},
+{"from":"kochi-hirome-market","to":"kochi-sunday-market","rel":"nearby","km":0.28},
+{"from":"kochi-hirome-market","to":"kochi","rel":"place"},
+{"from":"kochi-katsurahama","to":"kochi","rel":"place"},
+{"from":"kochi-makino-botanical-garden","to":"kochi-godaisan-chikurinji","rel":"nearby","km":0.3},
+{"from":"kochi-makino-botanical-garden","to":"kochi","rel":"place"},
+{"from":"kochi-sunday-market","to":"kochi-castle","rel":"nearby","km":0.65},
+{"from":"kochi-sunday-market","to":"kochi-harimayabashi","rel":"nearby","km":0.49},
+{"from":"kochi-sunday-market","to":"kochi-hirome-market","rel":"nearby","km":0.28},
+{"from":"kochi-sunday-market","to":"kochi","rel":"place"},
+{"from":"kochi-yosakoi-festival","to":"kochi-castle","rel":"nearby","km":0.83},
+{"from":"kochi-yosakoi-festival","to":"kochi-harimayabashi","rel":"nearby","km":0.26},
+{"from":"kochi-yosakoi-festival","to":"kochi-hirome-market","rel":"nearby","km":0.43},
+{"from":"kochi-yosakoi-festival","to":"kochi-sunday-market","rel":"nearby","km":0.23},
+{"from":"kochi-yosakoi-festival","to":"kochi","rel":"place"},
+{"from":"okayama-to-kochi","to":"kochi","rel":"destination"}
+]
 }

@@ -181,6 +181,14 @@
  ],
  "routes": [
   {
+   "id": "sapporo-to-hakodate",
+   "name": "Sapporo ↔ Hakodate",
+   "origin": "japan/hokkaido/sapporo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "train",
+   "duration_hours": 3.7
+  },
+  {
    "id": "sapporo-to-otaru",
    "name": "Sapporo ↔ Otaru",
    "origin": "japan/hokkaido/sapporo",

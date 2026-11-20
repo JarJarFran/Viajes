@@ -1964,6 +1964,49 @@
    "price": 3140
   },
   {
+   "id": "tokyo-to-aomori",
+   "name": "Tokyo ↔ Aomori",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/tohoku/aomori",
+   "mode": "shinkansen",
+   "price": 18110
+  },
+  {
+   "id": "tokyo-to-fukuoka",
+   "name": "Tokyo ↔ Fukuoka",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kyushu/fukuoka",
+   "mode": "plane",
+   "duration_hours": 1.8
+  },
+  {
+   "id": "tokyo-to-hakodate",
+   "name": "Tokyo ↔ Hakodate",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/hokkaido/hakodate",
+   "mode": "shinkansen",
+   "duration_hours": 4.7,
+   "price": 25000
+  },
+  {
+   "id": "tokyo-to-hakone",
+   "name": "Tokyo ↔ Hakone",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/kanto/hakone",
+   "mode": "train",
+   "duration_hours": 1.4,
+   "price": 2470
+  },
+  {
+   "id": "tokyo-to-hiroshima",
+   "name": "Tokyo ↔ Hiroshima",
+   "origin": "japan/kanto/tokyo",
+   "destination": "japan/chugoku/hiroshima",
+   "mode": "shinkansen",
+   "duration_hours": 4,
+   "price": 18380
+  },
+  {
    "id": "tokyo-to-kamakura",
    "name": "Tokyo ↔ Kamakura",
    "origin": "japan/kanto/tokyo",
